@@ -13,10 +13,14 @@ resources:
         url: /resources/string
       - title: "STITCH"
         url: /resources/stitch
+      - title: "RAIN"
+        url: /resources/rain
       - title: "stringApp"
         url: /resources/stringapp
   - title: Localization & expression
     children:
+      - title: "CycleBase"
+        url: /resources/cyclebase
       - title: "COMPARTMENTS"
         url: /resources/compartments
       - title: "TISSUES"
@@ -25,3 +29,13 @@ resources:
     children:
       - title: "DISEASES"
         url: /resources/diseases
+      - title: "DistiLD"
+        url: /resources/distild
+  - title: Text mining
+      - title: "Reflect"
+        url: /resources/reflect
+      - title: "EXTRACT"
+        url: /resources/extract
+      - title: "Tagger"
+        url: /resources/tagger
+
