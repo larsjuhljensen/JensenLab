@@ -32,6 +32,7 @@ resources:
       - title: "DistiLD"
         url: /resources/distild
   - title: Text mining
+    children:
       - title: "Reflect"
         url: /resources/reflect
       - title: "EXTRACT"
