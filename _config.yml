@@ -1,3 +1,5 @@
+include: ["_pages"]
+
 plugins:
   - jekyll-remote-theme
 
