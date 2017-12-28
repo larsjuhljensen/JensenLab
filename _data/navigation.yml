@@ -5,3 +5,13 @@ main:
     url: /projects/
   - title: "Resources"
     url: /resources/
+
+resources:
+  - title: Molecular networks
+    children:
+      - title: "STRING"
+        url: /resources/string
+      - title: "STITCH"
+        url: /resources/stitch
+      - title: "stringApp"
+        url: /resources/stringapp
