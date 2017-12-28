@@ -5,6 +5,8 @@ defaults:
     values:
       layout: single
 
+include: ["_pages"]
+
 plugins:
   - jekyll-remote-theme
 
