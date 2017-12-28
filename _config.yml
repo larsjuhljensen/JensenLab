@@ -1,1 +1,12 @@
+main:
+  - title: "People"
+    url: /people/
+  - title: "Projects"
+    url: /projects/
+  - title: "Web resources"
+    url: /resources/
+
+plugins:
+  - jekyll-remote-theme
+
 remote_theme: "mmistakes/minimal-mistakes"
