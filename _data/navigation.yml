@@ -3,6 +3,8 @@ main:
     url: /people/
   - title: "Projects"
     url: /projects/
+  - title: "Publications"
+    url: /publications/
   - title: "Resources"
     url: /resources/
 
@@ -19,7 +21,7 @@ resources:
         url: /resources/proteomics/enrichment
   - title: Protein annotation
     children:
-      - title: "Space & time"
+      - title: "Localization & expression"
         url: /resources/annotation/spacetime
       - title: "Disease associations"
         url: /resources/annotation/diseases
@@ -29,6 +31,3 @@ resources:
         url: /resources/textmining/dictionaries
       - title: "Tools"
         url: /resources/textmining/tools
-      - title: "Web services"
-        url: /resources/textmining/webservices
-
