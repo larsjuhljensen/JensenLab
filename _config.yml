@@ -1,12 +1,3 @@
-defaults:
-  - scope:
-    path: ""
-    type: pages
-    values:
-      layout: single
-
-#include: ["_pages"]
-
 plugins:
   - jekyll-remote-theme
 
