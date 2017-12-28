@@ -9,34 +9,26 @@ main:
 resources:
   - title: Molecular networks
     children:
-      - title: "STRING"
-        url: /resources/string
-      - title: "STITCH"
-        url: /resources/stitch
-      - title: "RAIN"
-        url: /resources/rain
-      - title: "stringApp"
-        url: /resources/stringapp
-  - title: Localization & expression
+      - title: "Interaction databases"
+        url: /resources/networks/databases
+      - title: "Visualization tools"
+        url: /resources/networks/tools
+  - title: Proteomics
     children:
-      - title: "CycleBase"
-        url: /resources/cyclebase
-      - title: "COMPARTMENTS"
-        url: /resources/compartments
-      - title: "TISSUES"
-        url: /resources/tissues
-  - title: Disease associations
+      - title: "Enrichment analysis"
+        url: /resources/proteomics/enrichment
+  - title: Protein annotation
     children:
-      - title: "DISEASES"
-        url: /resources/diseases
-      - title: "DistiLD"
-        url: /resources/distild
+      - title: "Space & time"
+        url: /resources/annotation/spacetime
+      - title: "Disease associations"
+        url: /resources/annotation/diseases
   - title: Text mining
     children:
-      - title: "Reflect"
-        url: /resources/reflect
-      - title: "EXTRACT"
-        url: /resources/extract
-      - title: "Tagger"
-        url: /resources/tagger
+      - title: "Dictionaries"
+        url: /resources/textmining/dictionaries
+      - title: "Tools"
+        url: /resources/textmining/tools
+      - title: "Web services"
+        url: /resources/textmining/webservices
 
