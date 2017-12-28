@@ -1,6 +1,10 @@
+.masthead {
+  background-color: #FFFFFF;
+}
+
 .particle-network-animation {
   position: fixed;
-  top: 100
+  top: 0;
   left: 0;
   right: 0;
   width: 100vw;
