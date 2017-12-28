@@ -15,3 +15,13 @@ resources:
         url: /resources/stitch
       - title: "stringApp"
         url: /resources/stringapp
+  - title: Localization & expression
+    children:
+      - title: "COMPARTMENTS"
+        url: /resources/compartments
+      - title: "TISSUES"
+        url: /resources/tissues
+  - title: Disease associations
+    children:
+      - title: "DISEASES"
+        url: /resources/diseases
