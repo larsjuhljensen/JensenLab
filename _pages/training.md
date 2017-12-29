@@ -1,7 +1,7 @@
 ---
-title: Projects
+title: Training
 layout: single
-permalink: /projects/
+permalink: /training/
 ---
 
 Under construction.

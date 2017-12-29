@@ -4,4 +4,4 @@ layout: single
 permalink: /people/
 ---
 
-# Under construction.
+Under construction.
