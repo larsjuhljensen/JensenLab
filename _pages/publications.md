@@ -4,9 +4,9 @@ layout: single
 permalink: /publications/
 ---
 
-##Submitted manuscripts
+## Submitted manuscripts
 
-Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ and Brunak S (2017). Text mining of 15 million full-text scientific articles.
+Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ and Brunak S (2017). Text mining of 15 million full-text scientific articles.  
 [Preprint](https://doi.org/10.1101/162099)
 
 Cuesta Astroz Y*, Santos A*, Oliveira G and Jensen LJ (2017). An integrative method to unravel the host-parasite interactome: An orthology-based approach.
@@ -15,7 +15,7 @@ Cuesta Astroz Y*, Santos A*, Oliveira G and Jensen LJ (2017). An integrative met
 Pafilis E, Bērziņš R and <strong>Jensen LJ</strong> (2017). EXTRACT 2.0: text-mining-assisted interactive annotation of biomedical named entities and ontology terms.
 [Preprint](https://doi.org/10.1101/111088") [WWW](https://extract.jensenlab.org/)
 
-##Research articles
+## Research articles
 
 Lin Y, Mehta S, Küçük-McGinty H, Turner JP, Vidovic D, Forlin M, Koleti A, Nguyen DT, Jensen LJ, Guha R, Mathias SL, Ursu O, Stathias V, Duan J, Nabizadeh N, Chung C, Mader C, Visser U, Yang JJ, Bologa CG, Oprea TI and Schürer SC (2017). Drug target ontology to classify and integrate drug discovery data. *Journal of Biomedical Semantics*, **8**:50.
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/29122012) [Full text](https://doi.org/10.1186/s13326-017-0161-x)
@@ -462,7 +462,7 @@ Goldberg T, Vinchurkar S, Cejuela JM, Jensen LJ* and B. Rost B* (2015). Linked a
 Saric J, Jensen LJ, Ouzounova R, Rojas I and Bork P (2004). Extracting Regulatory Gene Expression Networks from PubMed. <em>Proceedings of the 42nd Annual Meeting of the Association for Computational Linguistics</em>, 192-199.
 [Full text](http://acl.ldc.upenn.edu/P/P04/P04-1025.pdf)
 
-##Reviews
+## Reviews
 
 Jensen PB, Jensen LJ and Brunak S (2013). Reply to 'Mining electronic health records: an additional perspective'. *Nature Reviews Genetics*, **14**:75.
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/23247438) [Full text](https://doi.org/10.1038/nrg3208-c2)
@@ -497,7 +497,7 @@ Jensen LJ, Saric J and Bork P (2006). Literature mining for the biologist: from 
 Jensen LJ and Bork P (2004). Quality analysis and integration of large-scale molecular data sets. *Drug Discovery Today: TARGETS*, **3**:51-56.
 [Full text](https://doi.org/10.1016/S1741-8372(04)02408-9) [WWW](https://string-db.org)
 
-##Editorials
+## Editorials
 
 Have CT and Jensen LJ (2013). Are graph databases ready for bioinformatics? *Bioinformatics*, **29**:3107-3108.
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/24135261) [Full text](https://doi.org/10.1093/bioinformatics/btt549)
@@ -517,7 +517,7 @@ Jensen LJ and Bork P (2008). Not comparable, but complementary. *Science*, **322
 Ussery DW, de Lichtenberg U and Jensen LJ (2005). Systems biology: in the broadest sense of the word. *Environmental Microbiology*, **7**:482-483.
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/15816924) [Full text](https://doi.org/10.1111/j.1462-2920.2005.803_12.x)
 
-##Book chapters
+## Book chapters
 
 Refsgaard JC, Munk S and Jensen LJ (2016). Search Databases and Statistics: Pitfalls and Best Practices in Phosphoproteomics. *Methods in Molecular Biology*, **1355**:323-339.
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/26584936") [Full text](https://doi.org/10.1007/978-1-4939-3049-4_22)
