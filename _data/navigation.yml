@@ -21,6 +21,8 @@ resources:
     children:
       - title: "Enrichment analysis"
         url: /resources/proteomics/enrichment
+      - title: "Phosphorylation"
+        url: /resources/proteomics/phosphorylation
   - title: Protein annotation
     children:
       - title: "Localization & expression"
