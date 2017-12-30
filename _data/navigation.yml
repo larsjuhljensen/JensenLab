@@ -31,5 +31,5 @@ resources:
     children:
       - title: "Dictionaries"
         url: /resources/textmining/dictionaries
-      - title: "Tools"
+      - title: "Text-mining tools"
         url: /resources/textmining/tools
