@@ -542,4 +542,4 @@ Skovgaard M, Jensen LJ, Friis C, Stærfeldt HH, Worning P, Brunak S and Ussery D
 Gupta R, Jensen LJ and Brunak S (2002). Orphan protein function and its relation to glycosylation. *Ernst Schering Research Foundation Proceedings*, **38**, 275-294.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/12061006) [Full text](https://doi.org/10.1007/978-3-662-04747-7_13)
 
-Joint first and/or joint corresponding authors.  
+ * Joint first and/or joint corresponding authors.  
