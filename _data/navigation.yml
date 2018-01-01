@@ -26,7 +26,7 @@ resources:
   - title: Protein annotation
     children:
       - title: "Localization & expression"
-        url: /resources/annotation/spacetime
+        url: /resources/annotation/localization
       - title: "Disease associations"
         url: /resources/annotation/diseases
   - title: Text mining
