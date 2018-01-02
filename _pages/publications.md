@@ -3,7 +3,6 @@ title: Publications
 layout: single
 permalink: /publications/
 ---
-
 ## Submitted manuscripts
 
 Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ and Brunak S (2017). Text mining of 15 million full-text scientific articles.  
@@ -11,9 +10,6 @@ Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ and Brunak S (2017). Text 
 
 Cuesta Astroz Y*, Santos A*, Oliveira G and Jensen LJ (2017). An integrative method to unravel the host-parasite interactome: An orthology-based approach.  
 [Preprint](https://doi.org/10.1101/147868)
-
-Pafilis E, Bērziņš R and <strong>Jensen LJ</strong> (2017). EXTRACT 2.0: text-mining-assisted interactive annotation of biomedical named entities and ontology terms.  
-[Preprint](https://doi.org/10.1101/111088") [WWW](https://extract.jensenlab.org/)
 
 ## Research articles
 
@@ -431,13 +427,16 @@ Jensen LJ and Knudsen S (2000). Automatic discovery of regulatory patterns in pr
 Pedersen AG*, Jensen LJ*, Stærfeldt HH, Brunak S and Ussery DW (2000). A DNA structural atlas of E. coli. *Journal of Molecular Biology*, **299**:907-930.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/10843847) [Full text](http://linkinghub.elsevier.com/retrieve/pii/S0022283600937872)
 
-Jensen LJ, Friis C and Ussery DW (1999). Three views of microbial genomes. *Research in Microbiology*, **150**:773-777.  
+Jensen LJ, Friis C and Ussery DW (1999). Three views of microbial genomes. *Research in Microbiology*, **150**:773-777.
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/10673014) [Full text](https://doi.org/10.1016/S0923-2508(99)00116-3)
 
 Jensen LJ, Andersen KV, Svendsen A and Kretzschmar T (1998). Scoring functions for computational algorithms applicable to the design of spiked oligonucleotides. *Nucleic Acids Research*, **26**:697-702.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/9443959) [Full text](http://nar.oupjournals.org/cgi/content/full/26/3/697)
 
-##Conference proceedings
+## Conference proceedings
+
+Pafilis E, Bērziņš R and <strong>Jensen LJ</strong> (2017). EXTRACT 2.0: text-mining-assisted interactive annotation of biomedical named entities and ontology terms. *Proceedings of Bio-Ontologies 2017*.  
+[Full text](https://doi.org/10.1101/111088") [WWW](https://extract.jensenlab.org/)
 
 Jensen LJ (2017). Tagger: BeCalm API for rapid named entity recognition. *Proceedings of the BioCreative V.5 Challenge Evaluation Workshop*, 122-129
 [Full text](http://www.biocreative.org/media/store/files/2017/BioCreative_V5_paper17.pdf)

@@ -5,6 +5,7 @@ permalink: /resources/textmining/tools
 sidebar:
   nav: "resources"
 ---
+[Reflect](http://reflect.ws/)
 
 [EXTRACT](https://extract.jensenlab.org)
 
