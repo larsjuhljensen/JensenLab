@@ -334,7 +334,7 @@ Perocchi F, Jensen LJ, Gagneur J, Athing U, von Mering C, Bork P, Prokisch H and
 Jensen LJ*, Jensen TS*, de Lichtenberg U*, Brunak S and Bork P (2006). Co-evolution of transcriptional and posttranslational cell cycle regulation. *Nature*, **433**:594-597.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/17006448) [Full text](https://doi.org/10.1038/nature05186) [WWW](http://www.cbs.dtu.dk/cellcycle)
 
-Sandmann T, <strong>Jensen LJ</strong>, Jakobsen JS, Karzynski MM, Eichenlaub MP, Bork P and Furlong EE (2006). A temporal map of transcription factor activity: Mef2 directly regulates target genes at all stages of muscle development. *Developmental Cell*, **10**:797-807.  
+Sandmann T, Jensen LJ, Jakobsen JS, Karzynski MM, Eichenlaub MP, Bork P and Furlong EE (2006). A temporal map of transcription factor activity: Mef2 directly regulates target genes at all stages of muscle development. *Developmental Cell*, **10**:797-807.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/16740481) [Full text](https://doi.org/10.1016/j.devcel.2006.04.009) [WWW](http://furlonglab.embl.de/data)
 
 Marguerat S*, Jensen TS*, de Lichtenberg U, Wilhelm BT, Jensen LJ and Bähler J (2006). The more the merrier: comparative analysis of microarray studies on cell cycle-regulated genes in fission yeast. *Yeast*, **23**:261-277.  
@@ -435,7 +435,7 @@ Jensen LJ, Andersen KV, Svendsen A and Kretzschmar T (1998). Scoring functions f
 
 ## Conference proceedings
 
-Pafilis E, Bērziņš R and <strong>Jensen LJ</strong> (2017). EXTRACT 2.0: text-mining-assisted interactive annotation of biomedical named entities and ontology terms. *Proceedings of Bio-Ontologies 2017*.  
+Pafilis E, Bērziņš R and Jensen LJ (2017). EXTRACT 2.0: text-mining-assisted interactive annotation of biomedical named entities and ontology terms. *Proceedings of Bio-Ontologies 2017*.  
 [Full text](https://doi.org/10.1101/111088") [WWW](https://extract.jensenlab.org/)
 
 Jensen LJ (2017). Tagger: BeCalm API for rapid named entity recognition. *Proceedings of the BioCreative V.5 Challenge Evaluation Workshop*, 122-129
