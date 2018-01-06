@@ -1,14 +1,14 @@
 main:
   - title: "People"
     url: /people/
-  - title: "Projects"
-    url: /projects/
+#  - title: "Projects"
+#    url: /projects/
   - title: "Publications"
     url: /publications/
   - title: "Resources"
     url: /resources/
-  - title: "Training"
-    url: /training/
+#  - title: "Training"
+#    url: /training/
 
 resources:
   - title: Molecular networks
