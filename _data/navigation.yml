@@ -11,17 +11,17 @@ main:
 #    url: /training/
 
 publications:
-  - title: Preprints
+  - title: "Preprints"
     url: #preprints
-  - title: Research articles
+  - title: "Research articles"
     url: #research articles
-  - title: Conference proceedings
+  - title: "Conference proceedings"
     url: #conference-proceedings
-  - title: Reviews
+  - title: "Reviews"
     url: #reviews
-  - title: Editorials
+  - title: "Editorials"
     url: #editorials
-  - title: Book chapters
+  - title: "Book chapters"
     url: #book-chapters
 
 resources:
