@@ -12,17 +12,17 @@ main:
 
 publications:
   - title: "Preprints"
-    url: "#preprints"
+    url: /publications/#preprints
   - title: "Research articles"
-    url: "#research articles"
+    url: /publications/#research articles
   - title: "Conference proceedings"
-    url: "#conference-proceedings"
+    url: /publications/#conference-proceedings
   - title: "Reviews"
-    url: "#reviews"
+    url: /publications/#reviews
   - title: "Editorials"
-    url: "#editorials"
+    url: /publications/#editorials
   - title: "Book chapters"
-    url: "#book-chapters"
+    url: /publications/#book-chapters
 
 resources:
   - title: Molecular networks
