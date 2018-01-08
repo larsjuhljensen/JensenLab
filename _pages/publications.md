@@ -2,8 +2,10 @@
 title: Publications
 layout: single
 permalink: /publications/
+sidebar:
+  nav: "publications"
 ---
-## Submitted manuscripts
+## Preprints
 
 Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ and Brunak S (2017). Text mining of 15 million full-text scientific articles.  
 [Preprint](https://doi.org/10.1101/162099)

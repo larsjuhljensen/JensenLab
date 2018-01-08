@@ -10,6 +10,20 @@ main:
 #  - title: "Training"
 #    url: /training/
 
+publications:
+  - title: Preprints
+    url: #preprints
+  - title: Research articles
+    url: #research articles
+  - title: Conference proceedings
+    url: #conference-proceedings
+  - title: Reviews
+    url: #reviews
+  - title: Editorials
+    url: #editorials
+  - title: Book chapters
+    url: #book-chapters
+
 resources:
   - title: Molecular networks
     children:
