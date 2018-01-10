@@ -25,26 +25,29 @@ publications:
     url: /publications/#book-chapters
 
 resources:
-  - title: Molecular networks
+  - title: "Molecular networks"
+    url: /resources/networks/
     children:
       - title: "Interaction databases"
-        url: /resources/networks/databases
+        url: /resources/networks/#interaction-databases
       - title: "Visualization tools"
-        url: /resources/networks/tools
-  - title: Proteomics
+        url: /resources/networks/#visualization-tools
+  - title: "Proteomics"
+    url: /resources/proteomics
     children:
       - title: "Enrichment analysis"
-        url: /resources/proteomics/enrichment
+        url: /resources/proteomics/#enrichment-analysis
       - title: "Phosphorylation"
-        url: /resources/proteomics/phosphorylation
-  - title: Protein annotation
+        url: /resources/proteomics/#phosphorylation
+  - title: "Protein annotation"
+    url: /resources/annotation/
     children:
       - title: "Localization & expression"
-        url: /resources/annotation/localization
+        url: /resources/annotation/#localization-&-expression
       - title: "Disease associations"
-        url: /resources/annotation/diseases
+        url: /resources/annotation/#disease-associations
   - title: "Text mining"
-    url: /resources/textmining
+    url: /resources/textmining/
     children:
       - title: "Dictionaries"
         url: /resources/textmining/#dictionaries
