@@ -43,7 +43,7 @@ resources:
     url: /resources/annotation/
     children:
       - title: "Localization & expression"
-        url: /resources/annotation/#localization-&-expression
+        url: /resources/annotation/#localization--expression
       - title: "Disease associations"
         url: /resources/annotation/#disease-associations
   - title: "Text mining"
