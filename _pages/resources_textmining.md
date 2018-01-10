@@ -1,7 +1,7 @@
 ---
 title: Text mining
 layout: single
-permalink: /resources/textmining
+permalink: /resources/textmining/
 sidebar:
   nav: "resources"
 ---
