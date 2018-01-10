@@ -43,9 +43,10 @@ resources:
         url: /resources/annotation/localization
       - title: "Disease associations"
         url: /resources/annotation/diseases
-  - title: Text mining
+  - title: "Text mining"
+    url: /resources/textmining
     children:
       - title: "Dictionaries"
-        url: /resources/textmining/dictionaries
-      - title: "Text-mining tools"
-        url: /resources/textmining/tools
+        url: /resources/textmining/#dictionaries
+      - title: "Tools"
+        url: /resources/textmining/#tools
