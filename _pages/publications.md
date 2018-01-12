@@ -15,6 +15,8 @@ Cuesta Astroz Y*, Santos A*, Oliveira G and Jensen LJ (2017). An integrative met
 
 ## Research articles
 
+Palasca O, Santos A, Stolte, C, Gorodkin, J* and Jensen LJ* (2018). TISSUES 2.0: an integrative web resource on mammalian tissue expression. *Database*.
+
 Lin Y, Mehta S, Küçük-McGinty H, Turner JP, Vidovic D, Forlin M, Koleti A, Nguyen DT, Jensen LJ, Guha R, Mathias SL, Ursu O, Stathias V, Duan J, Nabizadeh N, Chung C, Mader C, Visser U, Yang JJ, Bologa CG, Oprea TI and Schürer SC (2017). Drug target ontology to classify and integrate drug discovery data. *Journal of Biomedical Semantics*, **8**:50.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/29122012) [Full text](https://doi.org/10.1186/s13326-017-0161-x)
 
