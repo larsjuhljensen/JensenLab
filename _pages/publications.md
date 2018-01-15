@@ -17,11 +17,11 @@ Cuesta Astroz Y*, Santos A*, Oliveira G and Jensen LJ (2017). An integrative met
 
 Palasca O, Santos A, Stolte, C, Gorodkin, J* and Jensen LJ* (2018). TISSUES 2.0: an integrative web resource on mammalian tissue expression. *Database*.
 
+Russo F, Di Bella S, Vannini F, Berti G, Scoyni F, Cook HV, Santos A, Nigita G, Bonnici V, Laganà A, Geraci F, Pulvirenti A, Giugno R, De Masi F, Belling K, Jensen LJ, Brunak S, Pellegrini M and Ferro A (2018). miRandola 2017: a curated knowledge base of non-invasive biomarkers. *Nucleic Acids Research*, **46**:D354-D359.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/29036351) [Full text](https://doi.org/10.1093/nar/gkx854)
+
 Lin Y, Mehta S, Küçük-McGinty H, Turner JP, Vidovic D, Forlin M, Koleti A, Nguyen DT, Jensen LJ, Guha R, Mathias SL, Ursu O, Stathias V, Duan J, Nabizadeh N, Chung C, Mader C, Visser U, Yang JJ, Bologa CG, Oprea TI and Schürer SC (2017). Drug target ontology to classify and integrate drug discovery data. *Journal of Biomedical Semantics*, **8**:50.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/29122012) [Full text](https://doi.org/10.1186/s13326-017-0161-x)
-
-Russo F, Di Bella S, Vannini F, Berti G, Scoyni F, Cook HV, Santos A, Nigita G, Bonnici V, Laganà A, Geraci F, Pulvirenti A, Giugno R, De Masi F, Belling K, Jensen LJ, Brunak S, Pellegrini M and Ferro A (2017). miRandola 2017: a curated knowledge base of non-invasive biomarkers. *Nucleic Acids Research*.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/29036351) [Full text](https://doi.org/10.1093/nar/gkx854)
 
 Mullari M, Lyon D, Jensen LJ and Nielsen ML (2017). Specifying RNA-binding regions in proteins by peptide Cross-Linking and Affinity Purification. *Journal of Proteome Research*, **16**:2762-2772.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28648085) [Full text](https://doi.org/10.1021/acs.jproteome.7b00042)
@@ -35,7 +35,7 @@ Huerta-Cepas J, Forslund K, Szklarczyk D, Jensen LJ, von Mering C and Bork P (20
 Francavilla C, Lupia M, Tsafou K, Villa A, Kowalczyk K, Rakownikow Jersie-Christensen R, Bertalot G, Confalonieri S, Brunak S, Jensen LJ, Cavallaro U and Olsen JV (2017). Phosphoproteomics of primary cells reveals druggable kinase signatures in ovarian cancer. *Cell Reports*, **18**:3242-3256.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28355574) [Full text](https://doi.org/10.1016/j.celrep.2017.03.015)
 
-Weinert BT, Satpathy S, Hansen BK, Lyon D, Jensen LJ and Choudhary C (2017). Accurate quantification of site-specific acetylation stoichiometry reveals the impact of sirtuin deacetylase CobB on the E. coli acetylome. *Molecular and Cellular Proteomics*.  
+Weinert BT, Satpathy S, Hansen BK, Lyon D, Jensen LJ and Choudhary C (2017). Accurate quantification of site-specific acetylation stoichiometry reveals the impact of sirtuin deacetylase CobB on the E. coli acetylome. *Molecular and Cellular Proteomics*, **16**:759-769.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28254776) [Full text](https://doi.org/10.1074/mcp.M117.067587)
 
 Kristensen MM, Davidsen PK, Vigelsø A, Hansen CN, Jensen LJ, Jessen N, Bruun JM, Dela F and Helge JW (2017). miRNAs in human subcutaneous adipose tissue: Effects of weight loss induced by hypocaloric diet and exercise. *Obesity*, **25**:572-580.  
