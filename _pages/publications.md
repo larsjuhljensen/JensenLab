@@ -30,28 +30,28 @@ Cannon DC, Yang JJ, Mathias SL, Ursu O, Mani S, Waller A, Schürer SC, Jensen LJ
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28398460) [Full text](https://doi.org/10.1093/bioinformatics/btx200) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btx200" data-hide-zero-citations="true" data-style="large_rectangle"></span>
 
 Huerta-Cepas J, Forslund K, Szklarczyk D, Jensen LJ, von Mering C and Bork P (2017). Fast genome-wide functional annotation through orthology assignment by eggNOG-mapper. *Molecular Biology and Evolution*, **34**:2115-2122.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28460117) [Full text](https://doi.org/10.1093/molbev/msx148) [WWW](http://eggnog-mapper.embl.de)
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28460117) [Full text](https://doi.org/10.1093/molbev/msx148) [WWW](http://eggnog-mapper.embl.de) <span class="__dimensions_badge_embed__" data-doi="10.1093/molbev/msx148" data-hide-zero-citations="true" data-style="large_rectangle"></span>
 
 Francavilla C, Lupia M, Tsafou K, Villa A, Kowalczyk K, Rakownikow Jersie-Christensen R, Bertalot G, Confalonieri S, Brunak S, Jensen LJ, Cavallaro U and Olsen JV (2017). Phosphoproteomics of primary cells reveals druggable kinase signatures in ovarian cancer. *Cell Reports*, **18**:3242-3256.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28355574) [Full text](https://doi.org/10.1016/j.celrep.2017.03.015)
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28355574) [Full text](https://doi.org/10.1016/j.celrep.2017.03.015) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.celrep.2017.03.015" data-hide-zero-citations="true" data-style="large_rectangle"></span>
 
 Weinert BT, Satpathy S, Hansen BK, Lyon D, Jensen LJ and Choudhary C (2017). Accurate quantification of site-specific acetylation stoichiometry reveals the impact of sirtuin deacetylase CobB on the E. coli acetylome. *Molecular and Cellular Proteomics*, **16**:759-769.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28254776) [Full text](https://doi.org/10.1074/mcp.M117.067587)
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28254776) [Full text](https://doi.org/10.1074/mcp.M117.067587) <span class="__dimensions_badge_embed__" data-doi="10.1074/mcp.M117.067587" data-hide-zero-citations="true" data-style="large_rectangle"></span>
 
 Kristensen MM, Davidsen PK, Vigelsø A, Hansen CN, Jensen LJ, Jessen N, Bruun JM, Dela F and Helge JW (2017). miRNAs in human subcutaneous adipose tissue: Effects of weight loss induced by hypocaloric diet and exercise. *Obesity*, **25**:572-580.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28158925) [Full text](https://doi.org/10.1002/oby.21765)
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28158925) [Full text](https://doi.org/10.1002/oby.21765) <span class="__dimensions_badge_embed__" data-doi="10.1002/oby.21765" data-hide-zero-citations="true" data-style="large_rectangle"></span>
 
 Hendriks IA, Lyon D, Young C, Jensen LJ, Vertegaal AC and Nielsen ML (2017). Site-specific mapping of the human SUMO proteome reveals co-modification with phosphorylation. *Nature Structural & Molecular Biology*, **24**:325-335.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28112733) [Full text](https://doi.org/10.1038/nsmb.3366)
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28112733) [Full text](https://doi.org/10.1038/nsmb.3366) <span class="__dimensions_badge_embed__" data-doi="10.1038/nsmb.3366" data-hide-zero-citations="true" data-style="large_rectangle"></span>
 
 Junge A, Refsgaard JC, Garde C, Pan X, Santos A, Alkan F, Anthon C, von Mering C, Workman CT, Jensen LJ* and Gorodkin J* (2017). RAIN: RNA–protein Association and Interaction Networks. *Database*, **2017**:baw167.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28077569) [Full text](https://doi.org/10.1093/database/baw167)
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28077569) [Full text](https://doi.org/10.1093/database/baw167) <span class="__dimensions_badge_embed__" data-doi="10.1093/database/baw167" data-hide-zero-citations="true" data-style="large_rectangle"></span>
 
 Szklarczyk D, Morris JH, Cook H, Kuhn M, Wyder S, Simonovic M, Santos A, Doncheva NT, Roth A, Bork P*, Jensen LJ* and von Mering C* (2017). The STRING database in 2017: quality-controlled protein-protein association. *Nucleic Acids Research*, **45**:D362-D368.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/27924014) [Full text](https://doi.org/10.1093/nar/gkw937)
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/27924014) [Full text](https://doi.org/10.1093/nar/gkw937) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkw937" data-hide-zero-citations="true" data-style="large_rectangle"></span>
 
 Nguyen DT, Mathias S, Bologa C, Brunak S, Fernandez N, Gaulton A, Hersey A, Holmes J, Jensen LJ, Karlsson A, Liu G, Ma'ayan A, Mandava G, Mani S, Mehta S, Overington J, Patel J, Rouillard AD, Schürer S, Sheils T, Simeonov A, Sklar LA, Southall N, Ursu O, Vidovic D, Waller A, Yang J, Jadhav A, Oprea T and Guha R (2017). Pharos: Collating protein information to shed light on the druggable genome. *Nucleic Acids Research*, **45**:D995-D1002.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/27903890) [Full text](https://doi.org/10.1093/nar/gkw1072)
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/27903890) [Full text](https://doi.org/10.1093/nar/gkw1072) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkw1072" data-hide-zero-citations="true" data-style="large_rectangle"></span>
 
 Sinclair L, Ijaz UZ, Jensen LJ, Coolen MJL, Gubry-Rangin C, Chroňáková A, Oulas A, Pavloudi C, Schnetzer J, Weimann A, Ijaz A, Eiler A, Quince C and Pafilis E (2016). Seqenv: linking sequences to environments through text mining. *PeerJ*, **4**:e2690.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28028456) [Full text](https://doi.org/10.7717/peerj.2690)
