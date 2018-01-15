@@ -270,7 +270,7 @@ Muller J, Szklarczyk D, Julien P, Letunic I, Roth A, Kuhn M, Powell S, von Merin
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/19900971) [Full text](https://doi.org/10.1093/nar/gkp951) [WWW](http://eggnog.embl.de) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkp951" data-hide-zero-citations="true" data-style="small_rectangle"></span>
 
 Kuhn M, Szklarczyk D, Franceschini A, Campillos M, von Mering C, Jensen LJ, Beyer A and Bork P (2010). STITCH 2: an interaction network database for small molecules and proteins. *Nucleic Acids Research*, **38**:D552-D566.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/19897548) [Full text](https:/doi.org/10.1093/nar/gkp937) [WWW](https://stitch-db.org)
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/19897548) [Full text](https://doi.org/10.1093/nar/gkp937) [WWW](https://stitch-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkp937" data-hide-zero-citations="true" data-style="small_rectangle"></span>
 
 Gauthier N, Jensen LJ, Wernersson R, Brunak S and Jensen TS (2010). Cyclebase.org: version 2.0, an updated comprehensive, multi-species repository of cell cycle experiments and derived analysis results. *Nucleic Acids Research*, **38**:D699-D702.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/19934261) [Full text](https://doi.org/10.1093/nar/gkp1044) [WWW](https://www.cyclebase.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkp1044" data-hide-zero-citations="true" data-style="small_rectangle"></span>
@@ -411,36 +411,36 @@ Jensen LJ, Skovgaard M, and Brunak S (2002). Prediction of novel archaeal enzyme
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/12441387) [Full text](https://doi.org/10.1110/ps.0225102) <span class="__dimensions_badge_embed__" data-doi="10.1110/ps.0225102" data-hide-zero-citations="true" data-style="small_rectangle"></span>
 
 Workman C, Jensen LJ, Jarmer H, Berka R, Gautier L, Saxild HH, Nielsen C, Brunak S, and Knudsen S (2002). A new non-linear normalization method to reduce variability in DNA microarray experiments. *Genome Biology*, **3**:0048.1-0048.16.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/12225587) [Full text](http://genomebiology.com/2002/3/9/research/0048)
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/12225587) [Full text](https://doi.org/10.1186/gb-2002-3-9-research0048) <span class="__dimensions_badge_embed__" data-doi="10.1186/gb-2002-3-9-research0048" data-hide-zero-citations="true" data-style="small_rectangle"></span>
 
 Jensen LJ*, Gupta R*, Blom N, Devos D, Tamames J, Kesmir C, Nielsen H, Stærfeldt HH, Rapacki K, Workman C, Andersen CAF, Knudsen S, Krogh A, Valencia A and Brunak S (2002). Prediction of human protein function from post-translational modifications and localization features. *Journal of Molecular Biology*, **319**:1257-1265.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/12079362) [Full text](https://doi.org/10.1016/S0022-2836(02)00379-0) <span class="__dimensions_badge_embed__" data-doi="10.1016/S0022-2836(02" data-hide-zero-citations="true" data-style="small_rectangle"></span>
 
 Skovgaard M, Jensen LJ, Brunak S, Ussery DW and Krogh A (2001). On the total number of genes and their length distribution in complete microbial genomes. *Trends in Genetics*, **17**:425-428.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/11485798) [Full text](http://linkinghub.elsevier.com/retrieve/pii/S0168952501023721)
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/11485798) [Full text](https://doi.org/10.1016/S0168-9525(01)02372-1) <span class="__dimensions_badge_embed__" data-doi="10.1016/S0168-9525(01)02372-1" data-hide-zero-citations="true" data-style="small_rectangle"></span>
 
 Worning P, Jensen LJ, Nelson KE, Brunak S and Ussery DW (2000). Structural analysis of DNA sequence: evidence for lateral gene transfer in Thermotoga maritima. *Nucleic Acids Research*, **28**:706-709.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/10637321) [Full text](http://nar.oupjournals.org/cgi/content/full/28/3/706)
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/10637321) [Full text](https://doi.org/10.1093/nar/28.3.706) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/28.3.706" data-hide-zero-citations="true" data-style="small_rectangle"></span>
 
 Friis C, Jensen LJ and Ussery DW (2000). Visualization of pathogenicity regions in bacteria. *Genetica*, **108**:47-51.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/11145420) [Full text](https://doi.org/10.1023/A:1004091626474) <span class="__dimensions_badge_embed__" data-doi="10.1023/A:1004091626474" data-hide-zero-citations="true" data-style="small_rectangle"></span>
 
 Jensen LJ and Knudsen S (2000). Automatic discovery of regulatory patterns in promoter regions based on whole cell expression data and functional annotation. *Bioinformatics*, **16**:326-333.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/10869030) [Full text](http://bioinformatics.oupjournals.org/cgi/reprint/16/4/326)
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/10869030) [Full text](https://doi.org/10.1093/bioinformatics/16.4.326) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/16.4.326" data-hide-zero-citations="true" data-style="small_rectangle"></span>
 
 Pedersen AG*, Jensen LJ*, Stærfeldt HH, Brunak S and Ussery DW (2000). A DNA structural atlas of E. coli. *Journal of Molecular Biology*, **299**:907-930.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/10843847) [Full text](http://linkinghub.elsevier.com/retrieve/pii/S0022283600937872)
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/10843847) [Full text](https://doi.org/10.1006/jmbi.2000.3787) <span class="__dimensions_badge_embed__" data-doi="10.1006/jmbi.2000.3787" data-hide-zero-citations="true" data-style="small_rectangle"></span>
 
 Jensen LJ, Friis C and Ussery DW (1999). Three views of microbial genomes. *Research in Microbiology*, **150**:773-777.
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/10673014) [Full text](https://doi.org/10.1016/S0923-2508(99)00116-3) <span class="__dimensions_badge_embed__" data-doi="10.1016/S0923-2508(99" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/10673014) [Full text](https://doi.org/10.1016/S0923-2508(99)00116-3) <span class="__dimensions_badge_embed__" data-doi="10.1016/S0923-2508(99)00116-3" data-hide-zero-citations="true" data-style="small_rectangle"></span>
 
 Jensen LJ, Andersen KV, Svendsen A and Kretzschmar T (1998). Scoring functions for computational algorithms applicable to the design of spiked oligonucleotides. *Nucleic Acids Research*, **26**:697-702.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/9443959) [Full text](http://nar.oupjournals.org/cgi/content/full/26/3/697)
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/9443959) [Full text](https://doi.org/10.1093/nar/26.3.697) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/26.3.697" data-hide-zero-citations="true" data-style="small_rectangle"></span>
 
 ## Conference proceedings
 
 Pafilis E, Bērziņš R and Jensen LJ (2017). EXTRACT 2.0: text-mining-assisted interactive annotation of biomedical named entities and ontology terms. *Proceedings of Bio-Ontologies 2017*.  
-[Full text](https://doi.org/10.1101/111088") [WWW](https://extract.jensenlab.org/) <span class="__dimensions_badge_embed__" data-doi="10.1101/111088"" data-hide-zero-citations="true" data-style="small_rectangle"></span>
+[Full text](https://doi.org/10.1101/111088) [WWW](https://extract.jensenlab.org/) <span class="__dimensions_badge_embed__" data-doi="10.1101/111088 data-hide-zero-citations="true" data-style="small_rectangle"></span>
 
 Jensen LJ (2017). Tagger: BeCalm API for rapid named entity recognition. *Proceedings of the BioCreative V.5 Challenge Evaluation Workshop*, 122-129
 [Full text](http://www.biocreative.org/media/store/files/2017/BioCreative_V5_paper17.pdf)
