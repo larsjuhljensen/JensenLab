@@ -1,5 +1,3 @@
-baseurl: /JensenLab
-
 include: ["_pages"]
 
 plugins:
