@@ -19,6 +19,8 @@ Most recently, we have created [STRING Viruses](http://viruses.string-db.org/), 
 
 Whereas web interfaces are well suited for working with individual or small groups of proteins, more powerful tools are needed when working with large networks resulting from, for example, proteomics or other omics technologies. To this end, we collaborate with the [Cytoscape](http://cytoscape.org/) to develop [stringApp](http://apps.cytoscape.org/apps/stringapp), which imports protein-protein and protein-chemical interaction data from [STRING](https://string-db.org/) and [STITCH](http://stitch.embl.de/) into Cytoscape.
 
+![stringApp screenshot](resources_networks_stringapp.jpg)
+
 Users provide a list of one or more gene, protein or compound identifiers, the species, and a confidence score and stringApp will query the database and return the matching network. Currently, four different queries are supported:
 
 * STRING: protein query -- enter a list of protein names (e.g. gene symbols or UniProt identifiers/accession numbers) to obtain a STRING network for the proteins
