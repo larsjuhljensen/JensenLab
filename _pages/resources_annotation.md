@@ -9,7 +9,9 @@ Whereas molecular networks can capture many aspects of protein functions, most c
 
 ## Localization & expression
 
-The spatial dimension is captured by two web-accessible databases, [COMPARTMENTS](https://compartments.jensenlab.org/) and [TISSUES](https://tissues.jensenlab.org/), which focus on protein localization at the subcellular and organismal level, respectively. Both resources are updated on a weekly basis and integrate evidence from manually curated literature, high-throughput screens, and automatic text mining. We map all evidence to common protein identifiers and ontology terms and further unify it by assigning confidence scores that facilitate comparison of the different types and sources of evidence. We finally visualize these scores on schematics of eukaryotic cells and mammals to provide a convenient overview.
+The spatial dimension is captured by two web-accessible databases, [COMPARTMENTS](https://compartments.jensenlab.org/) and [TISSUES](https://tissues.jensenlab.org/), which focus on protein localization at the subcellular and organismal level, respectively. Both resources are updated on a weekly basis and integrate evidence from manually curated literature, high-throughput screens, and automatic text mining. We map all evidence to common protein identifiers and ontology terms and further unify it by assigning confidence scores that facilitate comparison of the different types and sources of evidence. We finally visualize these scores on schematics of eukaryotic cells and mammals to provide a convenient overview. The resulting visualizations are shown in GeneCards, and the cell schematics have also been adopted by UniProt.
+
+![COMPARTMENTS schematic](resources_annotation_compartments.jpg)
 
 ![TISSUES schematics](resources_annotation_tissues.jpg)
 
