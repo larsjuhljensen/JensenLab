@@ -15,10 +15,10 @@ Cuesta Astroz Y*, Santos A*, Oliveira G and Jensen LJ (2017). An integrative met
 
 ## Research articles
 
-Cejuela JM, Vinchurkar S, Goldberg T, Shankar MSP, Baghudana A, Bojchevski A, Uhlig C, Ofner A, Raharja-Liu P, Jensen LJ* and Burkhard Rost B* (2018). LocText: relation extraction of protein localizations to assist database curation. *BMC Bioinformatics*, **19**:15.  
-[Full text](https://doi.org/10.1186/s12859-018-2021-9) <span class="__dimensions_badge_embed__" data-doi="10.1186/s12859-018-2021-9" data-style="small_rectangle"></span>
-
 Palasca O, Santos A, Stolte, C, Gorodkin, J* and Jensen LJ* (2018). TISSUES 2.0: an integrative web resource on mammalian tissue expression. *Database*.
+
+Cejuela JM, Vinchurkar S, Goldberg T, Shankar MSP, Baghudana A, Bojchevski A, Uhlig C, Ofner A, Raharja-Liu P, Jensen LJ* and Burkhard Rost B* (2018). LocText: relation extraction of protein localizations to assist database curation. *BMC Bioinformatics*, **19**:15.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/29343218) [Full text](https://doi.org/10.1186/s12859-018-2021-9) <span class="__dimensions_badge_embed__" data-doi="10.1186/s12859-018-2021-9" data-style="small_rectangle"></span>
 
 Russo F, Di Bella S, Vannini F, Berti G, Scoyni F, Cook HV, Santos A, Nigita G, Bonnici V, Laganà A, Geraci F, Pulvirenti A, Giugno R, De Masi F, Belling K, Jensen LJ, Brunak S, Pellegrini M and Ferro A (2018). miRandola 2017: a curated knowledge base of non-invasive biomarkers. *Nucleic Acids Research*, **46**:D354-D359.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/29036351) [Full text](https://doi.org/10.1093/nar/gkx854) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkx854" data-style="small_rectangle"></span>
