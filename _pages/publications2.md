@@ -5,15 +5,15 @@ permalink: /publications2/
 sidebar:
   nav: "publications2"
 ---
-## 2018
-
-### Preprints
+## Preprints
 
 Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ and Brunak S (2017). Text mining of 15 million full-text scientific articles.  
 [Preprint](https://doi.org/10.1101/162099)
 
 Cuesta Astroz Y*, Santos A*, Oliveira G and Jensen LJ (2017). An integrative method to unravel the host-parasite interactome: An orthology-based approach.  
 [Preprint](https://doi.org/10.1101/147868)
+
+## 2018
 
 ### Research articles
 
@@ -423,7 +423,7 @@ Frishman D, Albert M, Blankenburg H, Bork P, Harrington ED, Hermjakob H, Jensen 
 
 Veuthey AL, Boeckmann B, Jensen LJ, Valencia A, Rausell A and Bork P (2009). Homologous and non-homologous sequence methods for assigning protein function. *Modern Genome Annotation: The BioSapiens Network*, 213-238.  
 
-## 2008
+## 2003--2008
 
 ### Research articles
 
@@ -454,26 +454,6 @@ Gauthier NP, Larsen ME, Wernersson R, de Lichtenberg U, Jensen LJ and Brunak S (
 Shah PK, Tripathi LP, Jensen LJ, Gahnim M, Mason C, Furlong EE, Rodrigues V, White KP, Bork P and Sowdhamini R (2008). Enhanced function annotations for Drosophila serine proteases: a case study for systematic annotation of multi-member gene families. *Gene*, **407**:199-215.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/17996400) [Full text](https://doi.org/10.1016/j.gene.2007.10.012) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.gene.2007.10.012" data-style="small_rectangle"></span>
 
-### Reviews
-
-Kuhn M*, Campillos M*, Gonzales P*, Jensen LJ* and Bork P* (2008). Large-scale prediction of drug-target relationships. *FEBS Letters*, **582**:1283-1290.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/18291108) [Full text](https://doi.org/10.1016/j.febslet.2008.02.024) [WWW](https://stitch-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.febslet.2008.02.024" data-style="small_rectangle"></span>
-
-Harrington E, Jensen LJ and Bork P (2008). Predicting biological networks from genomic data. *FEBS Letters*, **582**:1251-1258.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/18294967) [Full text](https://doi.org/10.1016/j.febslet.2008.02.033) [WWW](https://string-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.febslet.2008.02.033" data-style="small_rectangle"></span>
-
-Altman RB, Bergman CM, Blake J, Blaschke C, Cohen A, Gannon F, Grivell L, Hahn U, Hersh W, Hirschman L, Jensen LJ, Krallinger M, Mons B, O'Donoghue SI, Peitsch MC, Rebholz-Schuhmann D, Shatkay H and Valencia A (2008). Text mining for biology - the way forward: opinions from leading scientists. *Genome Biology*, **9**:S7.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/18834498) [Full text](https://doi.org/10.1186/gb-2008-9-s2-s7) <span class="__dimensions_badge_embed__" data-doi="10.1186/gb-2008-9-s2-s7" data-style="small_rectangle"></span>
-
-### Editorials
-
-Jensen LJ and Bork P (2008). Not comparable, but complementary. *Science*, **322**:56-57.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/18832636) [Full text](https://doi.org/10.1126/science.1164801) <span class="__dimensions_badge_embed__" data-doi="10.1126/science.1164801" data-style="small_rectangle"></span>
-
-## 2007
-
-### Research articles
-
 Harrington ED, Singh AH, Doerks T, Letunic I, von Mering C, Jensen LJ, Raes J and Bork P (2007). Quantitative assessment of protein function prediction from metagenomics shotgun sequences. *Proceedings of the National Academy of Sciences*, **104**:13913-13918.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/17717083) [Full text](https://doi.org/10.1073/pnas.0702636104) <span class="__dimensions_badge_embed__" data-doi="10.1073/pnas.0702636104" data-style="small_rectangle"></span>
 
@@ -488,15 +468,6 @@ Hooper SD*, Boue S*, Krause R*, Jensen LJ, Mason CE, Ghanim M, White KP, Furlong
 
 von Mering C*, Jensen LJ*, Kuhn M, Chaffron S, Doerks T, Krüger B, Snel B and Bork P (2007). STRING 7 - recent developments in the integration and prediction of protein interactions. *Nucleic Acids Research*, **35**:D358-D362.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/17098935) [Full text](https://doi.org/10.1093/nar/gkl825) [WWW](https://string-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkl825" data-style="small_rectangle"></span>
-
-### Reviews
-
-de Lichtenberg U*, Jensen TS*, Brunak S, Bork P and Jensen LJ (2007). Evolution of Cell Cycle Control - Same Molecular Machines, Different Regulation. *Cell Cycle*, **6**:1819-1825.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/17671420) [Full text](https://doi.org/10.4161/cc.6.15.4537) [WWW](http://www.cbs.dtu.dk/cellcycle) <span class="__dimensions_badge_embed__" data-doi="10.4161/cc.6.15.4537" data-style="small_rectangle"></span>
-
-## 2006
-
-### Research articles
 
 Perocchi F, Jensen LJ, Gagneur J, Athing U, von Mering C, Bork P, Prokisch H and Steinmetz LM (2006). Assessing systems properties of yeast mitochondria through an interaction map of the organelle. *PLoS Genetics*, **2**:1612-1624.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/17054397) [Full text](https://doi.org/10.1371/journal.pgen.0020170) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pgen.0020170" data-style="small_rectangle"></span>
@@ -525,15 +496,6 @@ Saric J*, Jensen LJ*, Ouzounova R, Rojas R and Bork P (2006). Extraction of regu
 Taxis C, Kavagiou Z, Keller P, Jensen LJ, Colombelli J, Bork P, Stelzer EHK and Knop M (2006). Spore number control and breeding in Saccharomyces cerevisiae a key role for a self-organizing system. *Journal of Cell Biology*, **171**:627-640.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/16286509) [Full text](https://doi.org/10.1083/jcb.200507168) <span class="__dimensions_badge_embed__" data-doi="10.1083/jcb.200507168" data-style="small_rectangle"></span>
 
-### Reviews
-
-Jensen LJ, Saric J and Bork P (2006). Literature mining for the biologist: from information retrieval to biological discovery. *Nature Reviews Genetics*, **7**:119-129.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/16418747) [Full text](https://doi.org/10.1038/nrg1768) [WWW](http://www.bork.embl.de/Docu/literature_mining) <span class="__dimensions_badge_embed__" data-doi="10.1038/nrg1768" data-style="small_rectangle"></span>
-
-## 2005
-
-### Research articles
-
 Shah PK, Jensen LJ, Boue S and Bork P (2005). Extraction of transcript diversity from scientific literature. *PLoS Computational Biology*, **1**:e10.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/16103899) [Full text](https://doi.org/10.1371/journal.pcbi.0010010) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.0010010" data-style="small_rectangle"></span>
 
@@ -552,15 +514,6 @@ de Lichtenberg U*, Jensen LJ*, Fausbøll A, Jensen TS, Bork P and Brunak S (2005
 von Mering C, Jensen LJ, Snel B, Hooper SD, Krupp M, Foglierini M, Jouffre N, Huynen MA and Bork P (2005). STRING: Known and predicted protein-protein associations, integrated and transferred across organisms. *Nucleic Acids Research*, **33**:D433-D437.  
 [Abstracts](https://www.ncbi.nlm.nih.gov/pubmed/15608232) [Full text](https://doi.org/10.1093/nar/gki005) [WWW](https://string-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gki005" data-style="small_rectangle"></span>
 
-### Editorials
-
-Ussery DW, de Lichtenberg U and Jensen LJ (2005). Systems biology: in the broadest sense of the word. *Environmental Microbiology*, **7**:482-483.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/15816924) [Full text](https://doi.org/10.1111/j.1462-2920.2005.803_12.x) <span class="__dimensions_badge_embed__" data-doi="10.1111/j.1462-2920.2005.803_12.x" data-style="small_rectangle"></span>
-
-## 2004
-
-### Research articles
-
 Saric J, Jensen LJ, and Rojas I (2004). Large-scale extraction of gene regulation for model organisms in an ontological context. *In Silico Biology*, **5**:0004.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/15972005) [Full text](http://www.bioinfo.de/isb/2004/05/0004)
 
@@ -575,25 +528,6 @@ Bork P*, Jensen LJ*, von Mering C*, Ramani AK*, Lee I* and Marcotte EM* (2004). 
 
 Bendtsen JD, Jensen LJ, Blom N, von Heijne G and Brunak S (2004). Feature based prediction of non-classical and leaderless protein secretion. *Protein Engineering Design and Selection*, **17**:349-356.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/15115854) [Full text](https://doi.org/10.1093/protein/gzh037) <span class="__dimensions_badge_embed__" data-doi="10.1093/protein/gzh037" data-style="small_rectangle"></span>
-
-### Conference proceedings
-
-Saric J, Jensen LJ, Ouzounova R, Rojas I and Bork P (2004). Extracting Regulatory Gene Expression Networks from PubMed. <em>Proceedings of the 42nd Annual Meeting of the Association for Computational Linguistics</em>, 192-199.  
-[Full text](http://acl.ldc.upenn.edu/P/P04/P04-1025.pdf)
-
-### Reviews
-
-Jensen LJ and Bork P (2004). Quality analysis and integration of large-scale molecular data sets. *Drug Discovery Today: TARGETS*, **3**:51-56.  
-[Full text](https://doi.org/10.1016/S1741-8372(04)02408-9) [WWW](https://string-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1016/S1741-8372(04" data-style="small_rectangle"></span>
-
-### Book chapters
-
-Jensen LJ, Skovgaard M, Sicheritz-Pontén T, Hansen NT, Johanson H, Jørgensen MK, Kiil K and Ussery DW (2004). Comparative genomics of four Pseudomonas species. *The Pseudomonads*, **1**:139-164.  
-[Full text](https://doi.org/10.1007/978-1-4419-9086-0_5) <span class="__dimensions_badge_embed__" data-doi="10.1007/978-1-4419-9086-0_5" data-style="small_rectangle"></span>
-
-## 2003
-
-### Research articles
 
 Linding R*, Jensen LJ*, Diella F, Bork P, Gibson TJ and Russell RB (2003). Protein disorder prediction: implications for structural proteomics. *Structure*, **11**:1453-1459.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/14604535) [Full text](https://doi.org/10.1016/j.str.2003.10.002) [WWW](http://dis.embl.de/) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.str.2003.10.002" data-style="small_rectangle"></span>
@@ -610,7 +544,45 @@ Jensen LJ, Skovgaard M, Sicheritz-Pontén T, Jørgensen MK, Lundegaard C, Peders
 Jensen LJ, Gupta R, Stærfeldt HH and Brunak S (2003). Prediction of human protein function according to Gene Ontology categories. *Bioinformatics*, **19**:635-642.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/12651722) [Full text](https://doi.org/10.1093/bioinformatics/btg036) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btg036" data-style="small_rectangle"></span>
 
-## 2002
+### Conference proceedings
+
+Saric J, Jensen LJ, Ouzounova R, Rojas I and Bork P (2004). Extracting Regulatory Gene Expression Networks from PubMed. <em>Proceedings of the 42nd Annual Meeting of the Association for Computational Linguistics</em>, 192-199.  
+[Full text](http://acl.ldc.upenn.edu/P/P04/P04-1025.pdf)
+
+### Reviews
+
+Kuhn M*, Campillos M*, Gonzales P*, Jensen LJ* and Bork P* (2008). Large-scale prediction of drug-target relationships. *FEBS Letters*, **582**:1283-1290.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/18291108) [Full text](https://doi.org/10.1016/j.febslet.2008.02.024) [WWW](https://stitch-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.febslet.2008.02.024" data-style="small_rectangle"></span>
+
+Harrington E, Jensen LJ and Bork P (2008). Predicting biological networks from genomic data. *FEBS Letters*, **582**:1251-1258.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/18294967) [Full text](https://doi.org/10.1016/j.febslet.2008.02.033) [WWW](https://string-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.febslet.2008.02.033" data-style="small_rectangle"></span>
+
+Altman RB, Bergman CM, Blake J, Blaschke C, Cohen A, Gannon F, Grivell L, Hahn U, Hersh W, Hirschman L, Jensen LJ, Krallinger M, Mons B, O'Donoghue SI, Peitsch MC, Rebholz-Schuhmann D, Shatkay H and Valencia A (2008). Text mining for biology - the way forward: opinions from leading scientists. *Genome Biology*, **9**:S7.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/18834498) [Full text](https://doi.org/10.1186/gb-2008-9-s2-s7) <span class="__dimensions_badge_embed__" data-doi="10.1186/gb-2008-9-s2-s7" data-style="small_rectangle"></span>
+
+de Lichtenberg U*, Jensen TS*, Brunak S, Bork P and Jensen LJ (2007). Evolution of Cell Cycle Control - Same Molecular Machines, Different Regulation. *Cell Cycle*, **6**:1819-1825.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/17671420) [Full text](https://doi.org/10.4161/cc.6.15.4537) [WWW](http://www.cbs.dtu.dk/cellcycle) <span class="__dimensions_badge_embed__" data-doi="10.4161/cc.6.15.4537" data-style="small_rectangle"></span>
+
+Jensen LJ, Saric J and Bork P (2006). Literature mining for the biologist: from information retrieval to biological discovery. *Nature Reviews Genetics*, **7**:119-129.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/16418747) [Full text](https://doi.org/10.1038/nrg1768) [WWW](http://www.bork.embl.de/Docu/literature_mining) <span class="__dimensions_badge_embed__" data-doi="10.1038/nrg1768" data-style="small_rectangle"></span>
+
+Jensen LJ and Bork P (2004). Quality analysis and integration of large-scale molecular data sets. *Drug Discovery Today: TARGETS*, **3**:51-56.  
+[Full text](https://doi.org/10.1016/S1741-8372(04)02408-9) [WWW](https://string-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1016/S1741-8372(04" data-style="small_rectangle"></span>
+
+### Editorials
+
+Jensen LJ and Bork P (2008). Not comparable, but complementary. *Science*, **322**:56-57.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/18832636) [Full text](https://doi.org/10.1126/science.1164801) <span class="__dimensions_badge_embed__" data-doi="10.1126/science.1164801" data-style="small_rectangle"></span>
+
+Ussery DW, de Lichtenberg U and Jensen LJ (2005). Systems biology: in the broadest sense of the word. *Environmental Microbiology*, **7**:482-483.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/15816924) [Full text](https://doi.org/10.1111/j.1462-2920.2005.803_12.x) <span class="__dimensions_badge_embed__" data-doi="10.1111/j.1462-2920.2005.803_12.x" data-style="small_rectangle"></span>
+
+### Book chapters
+
+Jensen LJ, Skovgaard M, Sicheritz-Pontén T, Hansen NT, Johanson H, Jørgensen MK, Kiil K and Ussery DW (2004). Comparative genomics of four Pseudomonas species. *The Pseudomonads*, **1**:139-164.  
+[Full text](https://doi.org/10.1007/978-1-4419-9086-0_5) <span class="__dimensions_badge_embed__" data-doi="10.1007/978-1-4419-9086-0_5" data-style="small_rectangle"></span>
+
+## 1997--2002
 
 ### Research articles
 
@@ -623,23 +595,8 @@ Workman C, Jensen LJ, Jarmer H, Berka R, Gautier L, Saxild HH, Nielsen C, Brunak
 Jensen LJ*, Gupta R*, Blom N, Devos D, Tamames J, Kesmir C, Nielsen H, Stærfeldt HH, Rapacki K, Workman C, Andersen CAF, Knudsen S, Krogh A, Valencia A and Brunak S (2002). Prediction of human protein function from post-translational modifications and localization features. *Journal of Molecular Biology*, **319**:1257-1265.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/12079362) [Full text](https://doi.org/10.1016/S0022-2836(02)00379-0) <span class="__dimensions_badge_embed__" data-doi="10.1016/S0022-2836(02" data-style="small_rectangle"></span>
 
-### Book chapters
-
-Skovgaard M, Jensen LJ, Friis C, Stærfeldt HH, Worning P, Brunak S and Ussery DW (2002). The atlas visualisation of genome-wide information. *Methods in Microbiology*, **33**:49-63.  
-
-Gupta R, Jensen LJ and Brunak S (2002). Orphan protein function and its relation to glycosylation. *Ernst Schering Research Foundation Proceedings*, **38**, 275-294.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/12061006) [Full text](https://doi.org/10.1007/978-3-662-04747-7_13) <span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-662-04747-7_13" data-style="small_rectangle"></span>
-
-## 2001
-
-### Research articles
-
 Skovgaard M, Jensen LJ, Brunak S, Ussery DW and Krogh A (2001). On the total number of genes and their length distribution in complete microbial genomes. *Trends in Genetics*, **17**:425-428.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/11485798) [Full text](https://doi.org/10.1016/S0168-9525(01)02372-1) <span class="__dimensions_badge_embed__" data-doi="10.1016/S0168-9525(01)02372-1" data-style="small_rectangle"></span>
-
-## 2000
-
-### Research articles
 
 Worning P, Jensen LJ, Nelson KE, Brunak S and Ussery DW (2000). Structural analysis of DNA sequence: evidence for lateral gene transfer in Thermotoga maritima. *Nucleic Acids Research*, **28**:706-709.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/10637321) [Full text](https://doi.org/10.1093/nar/28.3.706) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/28.3.706" data-style="small_rectangle"></span>
@@ -653,19 +610,18 @@ Jensen LJ and Knudsen S (2000). Automatic discovery of regulatory patterns in pr
 Pedersen AG*, Jensen LJ*, Stærfeldt HH, Brunak S and Ussery DW (2000). A DNA structural atlas of E. coli. *Journal of Molecular Biology*, **299**:907-930.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/10843847) [Full text](https://doi.org/10.1006/jmbi.2000.3787) <span class="__dimensions_badge_embed__" data-doi="10.1006/jmbi.2000.3787" data-style="small_rectangle"></span>
 
-## 1999
-
-### Research articles
-
 Jensen LJ, Friis C and Ussery DW (1999). Three views of microbial genomes. *Research in Microbiology*, **150**:773-777.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/10673014) [Full text](https://doi.org/10.1016/S0923-2508(99)00116-3) <span class="__dimensions_badge_embed__" data-doi="10.1016/S0923-2508(99)00116-3" data-style="small_rectangle"></span>
 
-## 1998
-
-### Research articles
-
 Jensen LJ, Andersen KV, Svendsen A and Kretzschmar T (1998). Scoring functions for computational algorithms applicable to the design of spiked oligonucleotides. *Nucleic Acids Research*, **26**:697-702.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/9443959) [Full text](https://doi.org/10.1093/nar/26.3.697) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/26.3.697" data-style="small_rectangle"></span>
+
+### Book chapters
+
+Skovgaard M, Jensen LJ, Friis C, Stærfeldt HH, Worning P, Brunak S and Ussery DW (2002). The atlas visualisation of genome-wide information. *Methods in Microbiology*, **33**:49-63.  
+
+Gupta R, Jensen LJ and Brunak S (2002). Orphan protein function and its relation to glycosylation. *Ernst Schering Research Foundation Proceedings*, **38**, 275-294.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/12061006) [Full text](https://doi.org/10.1007/978-3-662-04747-7_13) <span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-662-04747-7_13" data-style="small_rectangle"></span>
 
 \* Joint first and/or joint corresponding authors.  
 
