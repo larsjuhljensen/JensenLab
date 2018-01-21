@@ -1,6 +1,5 @@
 collections:
-  - publications2:
-    permalink: /publications2/
+  - publications2
 
 include: ["_pages"]
 
