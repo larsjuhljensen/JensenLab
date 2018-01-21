@@ -3,7 +3,7 @@ title: Publications
 layout: single
 permalink: /publications2/
 sidebar:
-  nav: "publications"
+  nav: "publications2"
 ---
 ## 2018
 
