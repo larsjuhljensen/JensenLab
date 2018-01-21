@@ -1,6 +1,3 @@
-collections:
-  - publications2
-
 include: ["_pages"]
 
 plugins:
