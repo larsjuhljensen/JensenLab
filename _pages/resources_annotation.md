@@ -19,7 +19,9 @@ The temporal aspect is more difficult to capture in a systematic manner, since t
 
 ## Disease associations
 
-Identification of disease genes and prioritization of candidate drug targets or biomarkers are important application areas of bioinformatics in general and network analysis in particular. To facilitate such analyses, we have developed the [DISEASES](https://diseases.jensenlab.org/) database, which is updated on a weekly basis and integrates disease-gene associations from automatic text mining, manually curated literature, cancer mutation data, and genome-wide association studies (GWAS). We further unify the evidence by assigning confidence scores that facilitate comparison of the different types and sources of evidence.
+Identification of disease genes and prioritization of candidate drug targets or biomarkers are important application areas of bioinformatics in general and network analysis in particular. To facilitate such analyses, we have developed the [DISEASES](https://diseases.jensenlab.org/) database, which is updated on a weekly basis and integrates disease-gene associations from automatic text mining, manually curated literature, cancer mutation data, and genome-wide association studies (GWAS). We further unify the evidence by assigning confidence scores that facilitate comparison of the different types and sources of evidence. Combined with the [STRING](https://string-db.org/) and the Cytoscape [stringApp](http://apps.cytoscape.org/apps/stringapp), this allows for easy network analyses of diseases.
+
+![Disease network](resources_annotation_diseasenetwork.jpg)
 
 The reanalysis of GWAS is handled the [DistiLD](http://distild.jensenlab.org/) database. In this resource we link published GWAS studies to standardized disease codes, place the associated SNPs in the genomics context of gene annotations and linkage-disequilibrium blocks, and provide a web interface to explore and visualize them.
 
