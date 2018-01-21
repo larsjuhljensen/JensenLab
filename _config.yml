@@ -1,5 +1,5 @@
 collections:
-  - publications
+  - publications:
     permalink: /publications-test/
 
 include: ["_pages"]
