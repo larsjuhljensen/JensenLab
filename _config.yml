@@ -1,6 +1,6 @@
-collections:
-  - publications:
-    permalink: /publications2/
+#collections:
+#  - publications:
+#    permalink: /publications2/
 
 include: ["_pages"]
 
