@@ -4,6 +4,7 @@ layout: single
 permalink: /people/
 ---
 ## Group leader
+![Portrait of Lars Juhl Jensen](people_larsjuhljensen.jpg)
 [Lars Juhl Jensen](http://www.cpr.ku.dk/staff/cnb/?pure=en/persons/343848)
 
 ## Current group members
