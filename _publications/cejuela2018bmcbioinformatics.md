@@ -1,5 +1,5 @@
 ---
-category: research-article
+category: "research-article"
 date: 2018-01-17
 ---
 Cejuela JM, Vinchurkar S, Goldberg T, Shankar MSP, Baghudana A, Bojchevski A, Uhlig C, Ofner A, Raharja-Liu P, Jensen LJ* and Burkhard Rost B* (2018). LocText: relation extraction of protein localizations to assist database curation. *BMC Bioinformatics*, **19**:15.  

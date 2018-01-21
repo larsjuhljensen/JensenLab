@@ -1,5 +1,5 @@
 ---
-category: research-article
+category: "research-article"
 date: 2017-01-04
 ---
 Szklarczyk D, Morris JH, Cook H, Kuhn M, Wyder S, Simonovic M, Santos A, Doncheva NT, Roth A, Bork P*, Jensen LJ* and von Mering C* (2017). The STRING database in 2017: quality-controlled protein-protein association. *Nucleic Acids Research*, **45**:D362-D368.  
