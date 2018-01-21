@@ -10,7 +10,7 @@ permalink: /people/
 ## Current group members
 [Alexander Junge](http://www.cpr.ku.dk/staff/cnb/?pure=en/persons/477194)  
 [David Lyon](http://www.cpr.ku.dk/staff/cnb/?pure=en/persons/506908)  
-[Dhouha Grissa](http://www.cpr.ku.dk/staff/?pure=en/persons/605543)
+[Dhouha Grissa](http://www.cpr.ku.dk/staff/?pure=en/persons/605543)  
 [Helen Victoria Cook](http://www.cpr.ku.dk/staff/cnb/?pure=en/persons/500317)  
 [Nadezhda Tsankova Doncheva](http://www.cpr.ku.dk/staff/cnb/?pure=en/persons/557793)  
 [Oana Palasca](http://www.cpr.ku.dk/staff/cnb/?id=405867&vis=medarbejder)  
