@@ -338,7 +338,7 @@ von Mering C*, Jensen LJ*, Kuhn M, Chaffron S, Doerks T, Krüger B, Snel B and B
 Perocchi F, Jensen LJ, Gagneur J, Athing U, von Mering C, Bork P, Prokisch H and Steinmetz LM (2006). Assessing systems properties of yeast mitochondria through an interaction map of the organelle. *PLoS Genetics*, **2**:1612-1624.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/17054397) [Full text](https://doi.org/10.1371/journal.pgen.0020170) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pgen.0020170" data-style="small_rectangle"></span>
 
-Jensen LJ*, Jensen TS*, de Lichtenberg U*, Brunak S and Bork P (2006). Co-evolution of transcriptional and posttranslational cell cycle regulation. *Nature*, **433**:594-597.  
+Jensen LJ\*, Jensen TS\*, de Lichtenberg U\*, Brunak S and Bork P (2006). Co-evolution of transcriptional and posttranslational cell cycle regulation. *Nature*, **433**:594-597.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/17006448) [Full text](https://doi.org/10.1038/nature05186) [WWW](http://www.cbs.dtu.dk/cellcycle) <span class="__dimensions_badge_embed__" data-doi="10.1038/nature05186" data-style="small_rectangle"></span>
 
 Sandmann T, Jensen LJ, Jakobsen JS, Karzynski MM, Eichenlaub MP, Bork P and Furlong EE (2006). A temporal map of transcription factor activity: Mef2 directly regulates target genes at all stages of muscle development. *Developmental Cell*, **10**:797-807.  
