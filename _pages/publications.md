@@ -10,14 +10,14 @@ sidebar:
 Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ and Brunak S (2017). Text mining of 15 million full-text scientific articles.  
 [Preprint](https://doi.org/10.1101/162099)
 
-Cuesta Astroz Y*, Santos A*, Oliveira G and Jensen LJ (2017). An integrative method to unravel the host-parasite interactome: An orthology-based approach.  
+Cuesta Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2017). An integrative method to unravel the host-parasite interactome: An orthology-based approach.  
 [Preprint](https://doi.org/10.1101/147868)
 
 ## Research articles
 
-Palasca O, Santos A, Stolte, C, Gorodkin, J* and Jensen LJ* (2018). TISSUES 2.0: an integrative web resource on mammalian tissue expression. *Database*.
+Palasca O, Santos A, Stolte, C, Gorodkin, J\* and Jensen LJ\* (2018). TISSUES 2.0: an integrative web resource on mammalian tissue expression. *Database*.
 
-Cejuela JM, Vinchurkar S, Goldberg T, Shankar MSP, Baghudana A, Bojchevski A, Uhlig C, Ofner A, Raharja-Liu P, Jensen LJ* and Burkhard Rost B* (2018). LocText: relation extraction of protein localizations to assist database curation. *BMC Bioinformatics*, **19**:15.  
+Cejuela JM, Vinchurkar S, Goldberg T, Shankar MSP, Baghudana A, Bojchevski A, Uhlig C, Ofner A, Raharja-Liu P, Jensen LJ\* and Burkhard Rost B\* (2018). LocText: relation extraction of protein localizations to assist database curation. *BMC Bioinformatics*, **19**:15.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/29343218) [Full text](https://doi.org/10.1186/s12859-018-2021-9) <span class="__dimensions_badge_embed__" data-doi="10.1186/s12859-018-2021-9" data-style="small_rectangle"></span>
 
 Russo F, Di Bella S, Vannini F, Berti G, Scoyni F, Cook HV, Santos A, Nigita G, Bonnici V, Laganà A, Geraci F, Pulvirenti A, Giugno R, De Masi F, Belling K, Jensen LJ, Brunak S, Pellegrini M and Ferro A (2018). miRandola 2017: a curated knowledge base of non-invasive biomarkers. *Nucleic Acids Research*, **46**:D354-D359.  
@@ -47,10 +47,10 @@ Kristensen MM, Davidsen PK, Vigelsø A, Hansen CN, Jensen LJ, Jessen N, Bruun JM
 Hendriks IA, Lyon D, Young C, Jensen LJ, Vertegaal AC and Nielsen ML (2017). Site-specific mapping of the human SUMO proteome reveals co-modification with phosphorylation. *Nature Structural & Molecular Biology*, **24**:325-335.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28112733) [Full text](https://doi.org/10.1038/nsmb.3366) <span class="__dimensions_badge_embed__" data-doi="10.1038/nsmb.3366" data-style="small_rectangle"></span>
 
-Junge A, Refsgaard JC, Garde C, Pan X, Santos A, Alkan F, Anthon C, von Mering C, Workman CT, Jensen LJ* and Gorodkin J* (2017). RAIN: RNA–protein Association and Interaction Networks. *Database*, **2017**:baw167.  
+Junge A, Refsgaard JC, Garde C, Pan X, Santos A, Alkan F, Anthon C, von Mering C, Workman CT, Jensen LJ\* and Gorodkin J\* (2017). RAIN: RNA–protein Association and Interaction Networks. *Database*, **2017**:baw167.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28077569) [Full text](https://doi.org/10.1093/database/baw167) <span class="__dimensions_badge_embed__" data-doi="10.1093/database/baw167" data-style="small_rectangle"></span>
 
-Szklarczyk D, Morris JH, Cook H, Kuhn M, Wyder S, Simonovic M, Santos A, Doncheva NT, Roth A, Bork P*, Jensen LJ* and von Mering C* (2017). The STRING database in 2017: quality-controlled protein-protein association. *Nucleic Acids Research*, **45**:D362-D368.  
+Szklarczyk D, Morris JH, Cook H, Kuhn M, Wyder S, Simonovic M, Santos A, Doncheva NT, Roth A, Bork P*, Jensen LJ\* and von Mering C\* (2017). The STRING database in 2017: quality-controlled protein-protein association. *Nucleic Acids Research*, **45**:D362-D368.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/27924014) [Full text](https://doi.org/10.1093/nar/gkw937) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkw937" data-style="small_rectangle"></span>
 
 Nguyen DT, Mathias S, Bologa C, Brunak S, Fernandez N, Gaulton A, Hersey A, Holmes J, Jensen LJ, Karlsson A, Liu G, Ma'ayan A, Mandava G, Mani S, Mehta S, Overington J, Patel J, Rouillard AD, Schürer S, Sheils T, Simeonov A, Sklar LA, Southall N, Ursu O, Vidovic D, Waller A, Yang J, Jadhav A, Oprea T and Guha R (2017). Pharos: Collating protein information to shed light on the druggable genome. *Nucleic Acids Research*, **45**:D995-D1002.  
@@ -125,19 +125,19 @@ Pletscher-Frankild S, Pallejà A, Tsafou K, Binder JX and Jensen LJ (2015). DISE
 Santos A, Wernersson R and Jensen LJ (2015). Cyclebase 3.0: A multi-organism database on cell-cycle regulation and phenotypes. *Nucleic Acids Research*, **43**:D1140-D1144.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/25378319) [Full text](https://doi.org/10.1093/nar/gku1092) [WWW](https://cyclebase.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gku1092" data-style="small_rectangle"></span>
 
-Szklarczyk D, Franceschini A, Wyder S, Forslund K, Heller D, Huerte-Cepas J, Simonovic M, Roth A, Santos A, Tsafou KP, Kuhn M, Bork P*, Jensen LJ* and von Mering C* (2015). STRING v10: protein–protein interaction networks, integrated over the tree of life. *Nucleic Acids Research*, **43**:D447-D452.  
+Szklarczyk D, Franceschini A, Wyder S, Forslund K, Heller D, Huerte-Cepas J, Simonovic M, Roth A, Santos A, Tsafou KP, Kuhn M, Bork P\*, Jensen LJ\* and von Mering C\* (2015). STRING v10: protein–protein interaction networks, integrated over the tree of life. *Nucleic Acids Research*, **43**:D447-D452.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/25352553) [Full text](https://doi.org/10.1093/nar/gku1003) [WWW](https://string-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gku1003" data-style="small_rectangle"></span>
 
 Eriksson R, Aagaard L, Jensen LJ, Borisova L, Hørlück D, Brunak S and Hansen EH (2014). Discrepancies in listed adverse drug reactions in pharmaceutical product information supplied by the regulatory authorities in Denmark and the USA. *Pharmacology Research & Perspectives*, **2**:e00038.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/25505588) [Full text](https://doi.org/10.1002/prp2.38) <span class="__dimensions_badge_embed__" data-doi="10.1002/prp2.38" data-style="small_rectangle"></span>
 
-Jensen AB, Moseley PL, Oprea T, Ellesøe SG, Eriksson R, Schmock H, Jensen PB, Jensen LJ* and Brunak S* (2014). Temporal disease trajectories condensed from population-wide registry data covering 6.2 million patients. *Nature Communications*, **5**:4022.  
+Jensen AB, Moseley PL, Oprea T, Ellesøe SG, Eriksson R, Schmock H, Jensen PB, Jensen LJ\* and Brunak S\* (2014). Temporal disease trajectories condensed from population-wide registry data covering 6.2 million patients. *Nature Communications*, **5**:4022.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/24959948) [Full text](https://doi.org/10.1038/ncomms5022) <span class="__dimensions_badge_embed__" data-doi="10.1038/ncomms5022" data-style="small_rectangle"></span>
 
-Rudolf AF, Skovgaard T, Jensen* LJ and Berthelsen* J (2014). A comparison of protein kinases inhibitor screening methods using both enzymatic activity and binding affinity determination. *PLOS ONE*, **9**:e98800.  
+Rudolf AF, Skovgaard T, Jensen LJ\*  and Berthelsen J\* (2014). A comparison of protein kinases inhibitor screening methods using both enzymatic activity and binding affinity determination. *PLOS ONE*, **9**:e98800.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/24915177) [Full text](https://doi.org/10.1371/journal.pone.0098800) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pone.0098800" data-style="small_rectangle"></span>
 
-Horn H*, Schoof EM*, Kim J*, Robin X, Miller ML, Diella F, Palma A, Cesareni G, Jensen LJ* and Linding R* (2014). KinomeXplorer: an integrated platform for kinome biology studies. *Nature Methods*, **11**:603-604.  
+Horn H*, Schoof EM*, Kim J*, Robin X, Miller ML, Diella F, Palma A, Cesareni G, Jensen LJ\* and Linding R\* (2014). KinomeXplorer: an integrated platform for kinome biology studies. *Nature Methods*, **11**:603-604.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/24874572) [Full text](https://doi.org/10.1038/nmeth.2968) [WWW](http://kinomexplorer.info) <span class="__dimensions_badge_embed__" data-doi="10.1038/nmeth.2968" data-style="small_rectangle"></span>
 
 Bøgebo R, Horn H, Olsen JV, Gammeltoft S, Jensen LJ, Hansen JL and Christensen GL (2014). Predicting kinase activity in Angiotensin receptor phosphoproteomes based on sequence-motifs and interactions. *PLOS ONE*, **9**:e94672.  
@@ -155,13 +155,13 @@ Eriksson R, Werge T, Jensen LJ and Brunak S (2014). Dose-specific adverse drug r
 Binder JX*, Pletscher-Frankild S*, Tsafou K, Stolte C, O’Donoghue SI, Schneider R and Jensen LJ (2014). COMPARTMENTS: unification and visualization of protein subcellular localization evidence. *Database*, **2014**:bau012.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/24573882) [Full text](https://doi.org/10.1093/database/bau012) [WWW](https://compartments.jensenlab.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/database/bau012" data-style="small_rectangle"></span>
 
-Powell S, Forslund K, Szklarczyk D, Trachana K, Roth A, Huerta-Cepas J, Gabaldón T, Rattei T, Creevey C, Kuhn M, Jensen LJ*, von Mering C* and Bork P* (2014). eggNOG v4.0: nested orthology inference across 3686 organisms. *Nucleic Acids Research*, **42**:D231-D239.  
+Powell S, Forslund K, Szklarczyk D, Trachana K, Roth A, Huerta-Cepas J, Gabaldón T, Rattei T, Creevey C, Kuhn M, Jensen LJ*, von Mering C\* and Bork P\* (2014). eggNOG v4.0: nested orthology inference across 3686 organisms. *Nucleic Acids Research*, **42**:D231-D239.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/24297252) [Full text](https://doi.org/10.1093/nar/gkt1253) [WWW](http://eggnog.embl.de) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkt1253" data-style="small_rectangle"></span>
 
-Kuhn M*, Szklarczyk D, Pletscher-Frankild S, Blicher TH, von Mering C, Jensen LJ* and Bork P* (2014). STITCH 4: integration of protein-chemical interactions with user data. *Nucleic Acids Research*, **42**:D401-D407.  
+Kuhn M*, Szklarczyk D, Pletscher-Frankild S, Blicher TH, von Mering C, Jensen LJ\* and Bork P\* (2014). STITCH 4: integration of protein-chemical interactions with user data. *Nucleic Acids Research*, **42**:D401-D407.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/24293645) [Full text](https://doi.org/10.1093/nar/gkt1207) [WWW](https://stitch-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkt1207" data-style="small_rectangle"></span>
 
-Mørk S, Pletscher-Frankild S, Palleja A, Gorodkin J* and Jensen LJ* (2014). Protein-driven inference of miRNA-disease associations. *bioinformatics*, **30**:392-937.  
+Mørk S, Pletscher-Frankild S, Palleja A, Gorodkin J\* and Jensen LJ\* (2014). Protein-driven inference of miRNA-disease associations. *bioinformatics*, **30**:392-937.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/24273243) [Full text](https://doi.org/10.1093/bioinformatics/btt677) [WWW](https://mirpd.jensenlab.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btt677" data-style="small_rectangle"></span>
 
 Blair DR, Lyttle CS, Mortensen JM, Bearden CF, Jensen AB, Khiabanian H, Melamed R, Rabadan R, Bernstam EV, Brunak S, Jensen LJ, Nicolae D, Shah NH, Grossman RL, Cox NJ, White KP and Rzhetsky A (2013). A nondegenerate code of deleterious variants in Mendelian loci contributes to complex disease risk. *Cell*, **155**:70-80.  
@@ -185,7 +185,7 @@ Eriksson R, Jensen PB, Pletscher-Frankild S, Jensen LJ and Brunak S (2013). Dict
 Kuhn M, Al Banchaabouchi M, Campillos M, Jensen LJ, Gross C, Gavin A-C and Bork P (2013). Systematic identification of proteins that elicit drug side effects. *Molecular Systems Biology*, **9**:663.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/23632385) [Full text](https://doi.org/10.1038/msb.2013.10) <span class="__dimensions_badge_embed__" data-doi="10.1038/msb.2013.10" data-style="small_rectangle"></span>
 
-Franceschini A, Szklarczyk D, Pletscher-Frankild S*, Kuhn M, Simonovic M, Roth A, Lin J, Minguez P, Bork P*, von Mering C* and Jensen LJ* (2013). STRING v9.1: protein-protein interaction networks, with increased coverage and integration. *Nucleic Acids Research*, **41**:D808-D815.  
+Franceschini A, Szklarczyk D, Pletscher-Frankild S*, Kuhn M, Simonovic M, Roth A, Lin J, Minguez P, Bork P*, von Mering C\* and Jensen LJ\* (2013). STRING v9.1: protein-protein interaction networks, with increased coverage and integration. *Nucleic Acids Research*, **41**:D808-D815.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/23203871) [Full text](https://doi.org/10.1093/nar/gks1094) [WWW](https://string-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gks1094" data-style="small_rectangle"></span>
 
 Croft LJ, Szklarczyk D, Jensen LJ and Gorodkin J (2012). Multiple independent analyses reveal transcription factors are the only enriched functional class associated with microRNAs. *BMC Systems Biology*, **6**:90.  
@@ -203,10 +203,10 @@ Bergholdt R, Brorsson C, Palleja A, Berchtold LA, Fløyel T, Bang-Berthelsen CH,
 Romanel A, Jensen LJ, Cardelli L and Csikász-Nagy A (2012). Transcriptional regulation is a major controller of cell cycle transition dynamics. *PLoS One*, **7**:e29716.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/22238641) [Full text](https://doi.org/10.1371/journal.pone.0029716) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pone.0029716" data-style="small_rectangle"></span>
 
-Powell S, Szklarczyk D, Trachana K, Roth A, Kuhn M, Muller J, Arnold R, Rattei T, Letunic I, Doerks T, Jensen LJ*, von Mering C* and Bork P* (2012). eggNOG v3.0: orthologous groups covering 1133 organisms at 41 different taxonomic ranges. *Nucleic Acids Research*, **40**:D284-D289.  
+Powell S, Szklarczyk D, Trachana K, Roth A, Kuhn M, Muller J, Arnold R, Rattei T, Letunic I, Doerks T, Jensen LJ*, von Mering C\* and Bork P\* (2012). eggNOG v3.0: orthologous groups covering 1133 organisms at 41 different taxonomic ranges. *Nucleic Acids Research*, **40**:D284-D289.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/22096231) [Full text](https://doi.org/10.1093/nar/gkr1060) [WWW](http://eggnog.embl.de) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkr1060" data-style="small_rectangle"></span>
 
-Kuhn M*, Szklarczyk D, Franceschini A, von Mering C, Jensen LJ and Bork P* (2012). STITCH 3: zooming in on protein-chemical interactions. *Nucleic Acids Research*, **40**:D876-D880.  
+Kuhn M, Szklarczyk D, Franceschini A, von Mering C, Jensen LJ and Bork P (2012). STITCH 3: zooming in on protein-chemical interactions. *Nucleic Acids Research*, **40**:D876-D880.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/22075997) [Full text](https://doi.org/10.1093/nar/gkr1011) [WWW](https://stitch-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkr1011" data-style="small_rectangle"></span>
 
 Pallejà A, Horn H, Eliasson S and Jensen LJ (2012). DistiLD Database: diseases and traits in linkage disequilibrium blocks. *Nucleic Acids Research*, **40**:D1036-D1040.  
@@ -236,7 +236,7 @@ Raes J, Letunic I, Yamada T, Jensen LJ and Bork P (2011). Toward molecular trait
 Fedorov O, Huber K, Eisenreich A, Filippakopoulos P, King O, Bullock AN, Szklarczyk D, Jensen LJ, Fabbro D, Trappe J, Rauch U, Bracher F and Knapp S (2011). Specific CLK inhibitors from a novel chemotype for regulation of alternative splicing. *Chemistry and Biology*, **18**:67-76.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/21276940) [Full text](https://doi.org/10.1016/j.chembiol.2010.11.009) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.chembiol.2010.11.009" data-style="small_rectangle"></span>
 
-Danielsen JM, Sylvestersen KB, Bekker-Jensen S, Szklarczyk D, Poulsen JW, Horn H, Jensen LJ*, Mailand N* and Nielsen ML* (2011). Mass spectrometric analysis of lysine ubiquitylation reveals promiscuity at site level. *Molecular and Cellular Proteomics*, **10**:M110.003590.  
+Danielsen JM, Sylvestersen KB, Bekker-Jensen S, Szklarczyk D, Poulsen JW, Horn H, Jensen LJ\*, Mailand N\* and Nielsen ML\* (2011). Mass spectrometric analysis of lysine ubiquitylation reveals promiscuity at site level. *Molecular and Cellular Proteomics*, **10**:M110.003590.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/21139048) [Full text](https://doi.org/10.1074/mcp.M110.003590) <span class="__dimensions_badge_embed__" data-doi="10.1074/mcp.M110.003590" data-style="small_rectangle"></span>
 
 Dinkel H, Chica C, Via A, Gould C, Jensen LJ, Gibson T and Diella F (2011). Phospho.ELM: a database of phosphorylation sites - update 2011. *Nucleic Acids Research*, **39**:D261-D267.  
@@ -389,7 +389,7 @@ Korbel JO, Jensen LJ, von Mering C and Bork P (2004). Analysis of genomic contex
 Jensen LJ, Lagarde J, von Mering C and Bork P (2004). ArrayProspector: A web resource of functional associations inferred from microarray expression data. *Nucleic Acids Research*, **32**:W445-W448.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/15215427) [Full text](https://doi.org/10.1093/nar/gkh407) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkh407" data-style="small_rectangle"></span>
 
-Bork P*, Jensen LJ*, von Mering C*, Ramani AK*, Lee I* and Marcotte EM* (2004). Protein interaction networks from yeast to human. *Current Opinions in Structural Biology*, **14**:292-299.  
+Bork P\*, Jensen LJ\*, von Mering C\*, Ramani AK\*, Lee I\* and Marcotte EM\* (2004). Protein interaction networks from yeast to human. *Current Opinions in Structural Biology*, **14**:292-299.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/15193308) [Full text](https://doi.org/10.1016/j.sbi.2004.05.003) [WWW](https://string-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.sbi.2004.05.003" data-style="small_rectangle"></span>
 
 Bendtsen JD, Jensen LJ, Blom N, von Heijne G and Brunak S (2004). Feature based prediction of non-classical and leaderless protein secretion. *Protein Engineering Design and Selection*, **17**:349-356.  
@@ -443,7 +443,7 @@ Jensen LJ, Andersen KV, Svendsen A and Kretzschmar T (1998). Scoring functions f
 ## Conference proceedings
 
 Pafilis E, Bērziņš R and Jensen LJ (2017). EXTRACT 2.0: text-mining-assisted interactive annotation of biomedical named entities and ontology terms. *Proceedings of Bio-Ontologies 2017*.  
-[Full text](https://doi.org/10.1101/111088) [WWW](https://extract.jensenlab.org/) <span class="__dimensions_badge_embed__" data-doi="10.1101/111088 data-style="small_rectangle"></span>
+[Full text](https://doi.org/10.1101/111088) [WWW](https://extract.jensenlab.org/) <span class="__dimensions_badge_embed__" data-doi="10.1101/111088" data-style="small_rectangle"></span>
 
 Jensen LJ (2017). Tagger: BeCalm API for rapid named entity recognition. *Proceedings of the BioCreative V.5 Challenge Evaluation Workshop*, 122-129
 [Full text](http://www.biocreative.org/media/store/files/2017/BioCreative_V5_paper17.pdf)
@@ -462,7 +462,7 @@ Wang Q, Abdul SS, Almeida L, Ananiadou S, Balderas-Martnez YI, Batista-Navarro R
 Pyysalo S, Campos J, Cejuela JM, Ginter F, Hakala K, Li C, Stenetorp S and Jensen LJ (2015). Sharing annotations better: RESTful Open Annotation. *Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics*, 91-96.  
 [Full text](https://aclweb.org/anthology/P/P15/P15-4016.pdf)
 
-Goldberg T, Vinchurkar S, Cejuela JM, Jensen LJ* and B. Rost B* (2015). Linked annotations: a middle ground for manual curation of biomedical databases and text corpora. *BMC Proceedings*, **9(Suppl 5)**:A4.  
+Goldberg T, Vinchurkar S, Cejuela JM, Jensen LJ\* and B. Rost B\* (2015). Linked annotations: a middle ground for manual curation of biomedical databases and text corpora. *BMC Proceedings*, **9(Suppl 5)**:A4.  
 [Full text](https://doi.org/10.1186/1753-6561-9-S5-A4) <span class="__dimensions_badge_embed__" data-doi="10.1186/1753-6561-9-S5-A4" data-style="small_rectangle"></span>
 
 Saric J, Jensen LJ, Ouzounova R, Rojas I and Bork P (2004). Extracting Regulatory Gene Expression Networks from PubMed. <em>Proceedings of the 42nd Annual Meeting of the Association for Computational Linguistics</em>, 192-199.  
@@ -485,7 +485,7 @@ Blicher T, Gupta R, Wesolowska A, Jensen LJ and Brunak S (2010). Protein Annotat
 Juncker AS, Jensen LJ, Pierleoni A, Bernsel A, Tress ML, Bork P, von Heijne G, Valencia A, Ouzounis CA, Casadio R and Brunak S (2009). Sequence-based feature prediction and annotation of proteins. *Genome Biology*, **10**:206.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/19226438) [Full text](https://doi.org/10.1186/gb-2009-10-2-206) <span class="__dimensions_badge_embed__" data-doi="10.1186/gb-2009-10-2-206" data-style="small_rectangle"></span>
 
-Kuhn M*, Campillos M*, Gonzales P*, Jensen LJ* and Bork P* (2008). Large-scale prediction of drug-target relationships. *FEBS Letters*, **582**:1283-1290.  
+Kuhn M\*, Campillos M\*, Gonzales P\*, Jensen LJ\* and Bork P\* (2008). Large-scale prediction of drug-target relationships. *FEBS Letters*, **582**:1283-1290.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/18291108) [Full text](https://doi.org/10.1016/j.febslet.2008.02.024) [WWW](https://stitch-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.febslet.2008.02.024" data-style="small_rectangle"></span>
 
 Harrington E, Jensen LJ and Bork P (2008). Predicting biological networks from genomic data. *FEBS Letters*, **582**:1251-1258.  
