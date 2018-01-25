@@ -15,6 +15,24 @@ EMBO Practical Course on Phenotyping Neurological Syndromes for Systems Genetics
 
 ## Past events
 
+24 January 2018, Copenhagen, Denmark
+Cytoscape/STRING Workshop
+
+25--26 October 2017, Copenhagen, Denmark
+Microbiome Data Interpretation Workshop
+
+16 October 2017, Bergen, Norway
+Applied Structural Bioinformatics
+
+20 June 2017, Melbourne, Australia
+Utilising STRING App for Cytoscape
+
+9 June 2017, Hillerød, Denmark
+Statistics on Big Biomedical Data
+
+23--24 May 2017, Aarhus, Denmark
+STRING/Cytoscape Workshop
+
 19--23 June 2016, Heidelberg, Germany
 EMBO Practical Course on Computational Biology
 
