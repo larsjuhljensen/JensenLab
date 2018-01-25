@@ -445,7 +445,7 @@ Jensen LJ, Andersen KV, Svendsen A and Kretzschmar T (1998). Scoring functions f
 Pafilis E, Bērziņš R and Jensen LJ (2017). EXTRACT 2.0: text-mining-assisted interactive annotation of biomedical named entities and ontology terms. *Proceedings of Bio-Ontologies 2017*.  
 [Full text](https://doi.org/10.1101/111088) [WWW](https://extract.jensenlab.org/) <span class="__dimensions_badge_embed__" data-doi="10.1101/111088" data-style="small_rectangle"></span>
 
-Jensen LJ (2017). Tagger: BeCalm API for rapid named entity recognition. *Proceedings of the BioCreative V.5 Challenge Evaluation Workshop*, 122-129
+Jensen LJ (2017). Tagger: BeCalm API for rapid named entity recognition. *Proceedings of the BioCreative V.5 Challenge Evaluation Workshop*, 122-129  
 [Full text](http://www.biocreative.org/media/store/files/2017/BioCreative_V5_paper17.pdf)
 
 Cook H, Pafilis E and Jensen LJ (2016). A dictionary- and rule-based system for identification of bacteria and habitats in text. *Proceedings of the 4th BioNLP Shared Task Workshop*, 50-55.  
