@@ -20,22 +20,27 @@ EMBO Practical Course on Phenotyping Neurological Syndromes for Systems Genetics
 ## Past events
 
 24 January 2018, Copenhagen, Denmark  
-Cytoscape/STRING Workshop
+Cytoscape/STRING Workshop  
+[Material](https://drive.google.com/open?id=1a1Onq_Uxvf3gArpFuVxjzCxlecaImUEw)
 
 25--26 October 2017, Copenhagen, Denmark  
-Microbiome Data Interpretation Workshop
+Microbiome Data Interpretation Workshop  
+[Material](https://drive.google.com/open?id=0B3LtU3DLB8MQUGRsLWdWSEY0OWs)
 
 16 October 2017, Bergen, Norway  
-Applied Structural Bioinformatics
+Applied Structural Bioinformatics  
+[Material](https://drive.google.com/open?id=0B3LtU3DLB8MQMS1vYi15cXREalk)
 
 20 June 2017, Melbourne, Australia  
-Utilising STRING App for Cytoscape
+Utilising STRING App for Cytoscape  
+[Material](https://drive.google.com/open?id=0B3LtU3DLB8MQY3dEbWNobGYxdWc)
 
 9 June 2017, Hillerød, Denmark  
 Statistics on Big Biomedical Data
 
 23--24 May 2017, Aarhus, Denmark  
-STRING/Cytoscape Workshop
+STRING/Cytoscape Workshop  
+[Material](https://drive.google.com/open?id=0B-eail50965fcW9zTzhNcl8tX0k)
 
 19--23 June 2016, Heidelberg, Germany  
 EMBO Practical Course on Computational Biology
@@ -53,13 +58,15 @@ Bioinformatics Spring School
 Introduction to Bioinformatics
 
 8--13 March 2015, Safed, Israel  
-The Literature Text Mining Approach In Cancer Research
+The Literature Text Mining Approach In Cancer Research  
+[Material](https://drive.google.com/open?id=0B3LtU3DLB8MQbnQzdUUyNUhNR00)
 
 21 October 2015, Lyngby, Denmark  
 Chemoinformatics in Drug Discovery
 
 28 September--3 October 2015, Norwich, United Kingdom  
-EMBO Practical Course on Computational Analysis of Protein-Protein Interactions
+EMBO Practical Course on Computational Analysis of Protein-Protein Interactions  
+[Material](https://aidanbudd.github.io/course_EMBO_at_TGAC_PPI_Sep2015/)
 
 17 September 2015, Copenhagen, Denmark  
 Bioinformatics for Human Biologists
