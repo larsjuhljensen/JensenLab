@@ -9,8 +9,8 @@ main:
     url: /publications/
   - title: "Resources"
     url: /resources/
-#  - title: "Training"
-#    url: /training/
+  - title: "Training"
+    url: /training/
 
 publications:
   - title: "Preprints"
