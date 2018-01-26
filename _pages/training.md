@@ -2,6 +2,8 @@
 title: Training
 layout: single
 permalink: /training/
+sidebar:
+  nav: "training"
 ---
 The group is on a regular basis involved in running training events, which take the forms of guest lectures on Masters and Ph.D. courses, week-long practical courses, and half-day to two-day workshops. The topics usually relate directly to the [resources](/resources/) that we develop, in particular the STRING database, the Cytoscape stringApp, and text mining.
 
