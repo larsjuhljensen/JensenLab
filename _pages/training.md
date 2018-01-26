@@ -75,7 +75,7 @@ Honor Seminar at Osaka University
 21--27 March 2015, Bertinoro, Italy  
 Bioinformatics Spring School, Bertinoro, Italy, March, 2015
 
-3 March 2015, Copenhagen, Denmark
+3 March 2015, Copenhagen, Denmark  
 Introduction to Bioinformatics
 
 28 September--3 October 2014, Cape Town, South Africa  
