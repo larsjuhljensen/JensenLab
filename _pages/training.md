@@ -73,7 +73,7 @@ EMBO Practical Course on Computational Biology
 Honor Seminar at Osaka University
 
 21--27 March 2015, Bertinoro, Italy  
-Bioinformatics Spring School, Bertinoro, Italy, March, 2015
+Bioinformatics Spring School
 
 3 March 2015, Copenhagen, Denmark  
 Introduction to Bioinformatics
