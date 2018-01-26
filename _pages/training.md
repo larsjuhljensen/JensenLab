@@ -7,7 +7,7 @@ sidebar:
 ---
 The group is on a regular basis involved in running training events, which take the forms of guest lectures on Masters and Ph.D. courses, week-long practical courses, and half-day to two-day workshops. The topics usually relate directly to the [resources](/resources/) that we develop, in particular the STRING database, the Cytoscape stringApp, and text mining.
 
-Below are lists of upcoming and past events. Please feel free to contact us, if you are interested in us running or being part of a training event.
+Below are lists of upcoming and past events. Feel free to [contact us](mailto:lars.juhl.jensen@cpr.ku.dk), if you are interested in us running or being part of a training event.
 
 ## Upcoming events
 
