@@ -47,6 +47,7 @@ EMBO Practical Course on Computational Biology
 
 30 May--4 June 2016, Budapest, Hungary  
 EMBO Practical Course on Computational Analysis of Protein-Protein Interactions
+[Material](http://aidanbudd.github.io/ppisnd/programme.html)
 
 16--20 May 2016, Rostock, Germany  
 Integration of Data and Models in Medicine
