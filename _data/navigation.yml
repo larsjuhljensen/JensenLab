@@ -58,6 +58,6 @@ resources:
 
 training:
   - title: "Upcoming events"
-    url: /trainining/#upcoming-events
+    url: /training/#upcoming-events
   - title: "Past events"
     url: /training/#past-events
