@@ -55,3 +55,9 @@ resources:
         url: /resources/textmining/#dictionaries
       - title: "Tools"
         url: /resources/textmining/#tools
+
+training:
+  - title: "Upcoming events"
+    url: /trainining/#upcoming-events
+  - title: "Past events"
+    url: /training/#past-events
