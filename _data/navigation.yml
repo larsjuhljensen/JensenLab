@@ -61,3 +61,13 @@ training:
     url: /training/#upcoming-events
   - title: "Past events"
     url: /training/#past-events
+
+training-stringapp:
+  - title: "Prerequisites"
+    url: /training/stringapp/#prerequisites
+  - title: "Exercise 1"
+    url: /training/stringapp/#exercise-1
+  - title: "Exercise 2"
+    url: /training/stringapp/#exercise-2
+  - title: "Exercise 3"
+    url: /training/stringapp/#exercise-3
