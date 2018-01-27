@@ -5,6 +5,8 @@ permalink: /training/stringapp/
 sidebar:
   nav: "training-stringapp"
 ---
+## Learning objectives
+
 In these exercises, we will use the [stringApp](http://apps.cytoscape.org/apps/stringApp) for [Cytoscape](http://cytoscape.org/) to retrieve molecular networks from the [STRING](https://string-db.org/) and [STITCH](https://stitch-db.org/) databases. The exercises will teach you how to:
 
 * retrieve networks for proteins or small-molecule compounds of interest
@@ -23,7 +25,7 @@ To follow the exercises, please make sure that you have the latest version of Cy
 
 In this exercise, we will perform some simple queries to retrieve molecular networks based on a protein, a small-molecule compound, a disease, and a topic in PubMed.
 
-### 1.1 Query for your favorite protein(s)
+### 1.1 Protein queries
 
 Go to the menu **File → Import → Network → Public Databases**. In the import dialog, choose **STRING: protein query** as **Data Source** and type your favorite protein(s) into the **Enter protein names or identifiers** field. You can select the appropriate organism by typing the name. The **Maximum number of interactors** determines how many interaction partners of your protein(s) of interest will be added to the network. By default, if you enter only one protein name, the resulting network will contain 10 additional interactors. If you enter more than one protein name, the network will contain only the interactions among these proteins, unless you explicitly ask for additional proteins.
 
@@ -31,13 +33,13 @@ Unless the name(s) you entered give unambiguous matches, a disambiguation dialog
 
 _How many nodes are in the resulting network? How does this compare to the maximum number of interactors you specified? What types of information does the **Node Table** provide?_
 
-### 1.2 Query for your favorite compound(s)
+### 1.2 Compound queries
 
 Go to the menu **File → Import → Network → Public Databases**. In the import dialog, choose **STITCH: protein/compound query** as **Data Source** and type your favorite compound(s) into the **Enter protein or compound names or identifiers** field. You can select the organism and number of additional interactors just like for the protein query above, and the disambiguation dialog also works the same way.
 
 _How is this network different from the protein-only network with respect to node types and the information provided in the **Node Table**?_
 
-### 1.3 Query for a disease of interest
+### 1.3 Disease queries
 
 Go to the menu **File → Import → Network → Public Databases**. In the import dialog, choose **STRING: disease query** as **Data Source** and type a disease of interest into the **Enter disease term** field (e.g. Alzheimer's disease). The stringApp will retrieve a STRING network for the top-N proteins (by default 100) associated with the disease.
 
@@ -45,15 +47,15 @@ The next dialog shows all the matches that the stringApp finds for your disease 
 
 _Which additional attribute column do you get in the **Node Table** for a disease query compared to a protein query? (Hint: check the last column.)_
 
-### 1.4 Query for a topic in PubMed
+### 1.4 PubMed queries
 
 Go to the menu **File → Import → Network → Public Databases**. In the import dialog, choose **STRING: PubMed query** as **Data Source** and type query representing a topic of interest into the **PubMed Query** field (e.g. jet-lag). You can use any query that would work on the PubMed website, but it should obviously a topic with related genes or proteins. The stringApp will query PubMed for the abstracts, find the top-N proteins (by default 100) associated with these abstracts, and retrieve a STRING network for them.
 
 _Which attribute column do you get in the **Node Table** for a PubMed query compared to a disease query? (Hint: check the last columns.)_
 
-### 1.5 Try the new Cytoscape search interface
+### 1.5 New search interface
 
-Click on the drop-down menu with an icon on it, located on the left side below the **Network** tab in the **Control Panel**. Select one of the four possible STRING queries and directly enter your query in the text field. To change settings such as organism, click the ☰ button next to the text field. Finally, click the 🔍 button to retrieve a STRING network for your query.
+The types of queries described above can alternatively be performed through the new Cytoscape search interface. Click on the drop-down menu with an icon on it, located on the left side below the **Network** tab in the **Control Panel**. Select one of the four possible STRING queries and directly enter your query in the text field. To change settings such as organism, click the ☰ button next to the text field. Finally, click the 🔍 button to retrieve a STRING network for your query.
 
 ## Exercise 2
 
