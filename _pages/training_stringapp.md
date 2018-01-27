@@ -133,7 +133,7 @@ You can now run the functional enrichment analysis on one of the clusters by fir
 
 _Is there a difference in the most enriched terms for the whole network and for only one cluster? Does it depend on the choice of cluster?_
 
-## Cytoscape Exercise 3
+## Exercise 3
 
 We are going to use the stringApp for Cytoscape (http://apps.cytoscape.org/apps/stringapp) to query the DISEASES database (http://diseases.jensenlab.org) and retrieve a network of proteins that are associated with Parkinson’s disease and compare it to another related disease (Alzheimer’s disease).
 
