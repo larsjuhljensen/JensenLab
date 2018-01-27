@@ -14,8 +14,9 @@ In these exercises, we will use the [stringApp](http://apps.cytoscape.org/apps/s
 * layout and visually style the resulting networks
 * import external data and map them onto a network
 * perform enrichment analyses and visualize the results
-* identify functional modules through network clustering
 * merge and compare networks
+* select proteins by attributes
+* identify functional modules through network clustering
 
 ## Prerequisites
 
@@ -29,7 +30,7 @@ In this exercise, we will perform some simple queries to retrieve molecular netw
 
 ### 1.1 Protein queries
 
-Go to the menu **File → Import → Network → Public Databases**. In the import dialog, choose **STRING: protein query** as **Data Source** and type your favorite protein(s) into the **Enter protein names or identifiers** field. You can select the appropriate organism by typing the name. The **Maximum number of interactors** determines how many interaction partners of your protein(s) of interest will be added to the network. By default, if you enter only one protein name, the resulting network will contain 10 additional interactors. If you enter more than one protein name, the network will contain only the interactions among these proteins, unless you explicitly ask for additional proteins.
+Go to the menu **File → Import → Network → Public Databases**. In the import dialog, choose **STRING: protein query** as **Data Source** and type your favorite protein into the **Enter protein names or identifiers** field. You can select the appropriate organism by typing the name. The **Maximum number of interactors** determines how many interaction partners of your protein(s) of interest will be added to the network. By default, if you enter only one protein name, the resulting network will contain 10 additional interactors. If you enter more than one protein name, the network will contain only the interactions among these proteins, unless you explicitly ask for additional proteins.
 
 Unless the name(s) you entered give unambiguous matches, a disambiguation dialog will be shown next. It lists all the matches that the stringApp finds for each query term and selects the first one for each. Select the right one(s) you meant and continue by pressing the **Import** button.
 
@@ -37,7 +38,7 @@ _How many nodes are in the resulting network? How does this compare to the maxim
 
 ### 1.2 Compound queries
 
-Go to the menu **File → Import → Network → Public Databases**. In the import dialog, choose **STITCH: protein/compound query** as **Data Source** and type your favorite compound(s) into the **Enter protein or compound names or identifiers** field. You can select the organism and number of additional interactors just like for the protein query above, and the disambiguation dialog also works the same way.
+Go to the menu **File → Import → Network → Public Databases**. In the import dialog, choose **STITCH: protein/compound query** as **Data Source** and type your favorite compound into the **Enter protein or compound names or identifiers** field. You can select the organism and number of additional interactors just like for the protein query above, and the disambiguation dialog also works the same way.
 
 _How is this network different from the protein-only network with respect to node types and the information provided in the **Node Table**?_
 
@@ -63,37 +64,33 @@ The types of queries described above can alternatively be performed through the 
 
 In this exercise, we will work with a list of 78 proteins that interact with TrkA (tropomyosin-related kinase A) in neuroblastoma cells 10 min after stimulation with NGF (nerve growth factor) ([Emdal et al., 2015](http://stke.sciencemag.org/content/8/374/ra40)). An adapted table with the data from this study is available [here](https://goo.gl/zjDa81).
 
-### 2.1 Retrieve network for a set of proteins
+### 2.1 Protein network retrieval
 
 Start Cytoscape or open a new session from the menu **File → New → Session**. Go to the menu **File → Import → Network → Public Databases**. In the import dialog, choose **STRING: protein query** as the **Data Source** and paste the list of UniProt accession numbers from the first column in the table into the **Enter protein names or identifiers** field.
 
 Next, the disambiguation dialog shows all STRING proteins that match the query terms, with the first protein for each query term automatically selected. This default is fine for this exercise; click the **Import** button to continue.
 
-_How many nodes and edges are there in the resulting network? Do the proteins all form a connected network? If not, why?_
+_How many nodes and edges are there in the resulting network? Do the proteins all form a connected network? Why?_
 
 Cytoscape provides several visualization options under the **Layout** menu. Experiment with these and find one that allows you to see the shape of the network easily. For example, you can try the **Degree Sorted Circle Layout**, the **Prefuse Force Directed Layout** with **score** as edge weight, and **yFiles Organic Layout**.
 
 _Can you find a layout that allows you to easily recognize patterns in the network? What about the Edge-weighted Spring Embedded Layout with the attribute ‘score’, which is the combined STRING interaction score._
 
-### 2.2 Browse the node attributes and select nodes
+### 2.2 Discrete color mapping
+
+Cytoscape allows you to map attributes of the nodes and edges to visual properties such as node color and edge width. Here, we will map drug target family data from the [Pharos](https://pharos.nih.gov/idg/targets) database to the node color.
+
+Select **Style** from the top menu in the left panel (it is between **Network** and **Select**). Click the **◀** button to the right of the property you want to change, in this case **Fill Color**, and set **Column** to the node column containing the data that you want to use (i.e. **target family**). This action will remove the rainbow coloring of the nodes and present you with a list of all the different values of the attribute that are exist in the network.
+
+_Which target families are present in the network?_
+
+To color the corresponding proteins, first click the field to the right of an attribute value, i.e. **GPCR** or **Kinase**, then click the **⋯** button and choose a color from color selection dialog. You can also set a default color, e.g. for all nodes that do not have a target family annotation from Pharos, by clicking on the white button in the first column of the same row.
+
+_How many of the proteins in the network are kinases?_
 
 Note that the retrieved network contains a lot of additional information associated with the nodes and edges, such as the protein sequence, tissue expression data (Node Table) as well as the confidence scores for the different interaction evidences (Edge Table). In the following, we will explore these data using Cytoscape.
 
-Browse through the node attributes table and find the target family column (hint: the additional attributed are sorted alphabetically). This column contains target information from the Pharos database (https://pharos.nih.gov/idg/targets).
-
-_Which families are represented?_
-
-You can highlight nodes that belong to a certain family by selecting the rows in the table, bringing up the context menu (right-click the selected rows) and choosing the ‘Select nodes from selected rows’ option. You can also use the icon in the menu to zoom into the selected node.
-
-To select all nodes that are in the Kinase target family, you can create a selection filter in the Select tab (it iss to the right of ‘Style’). Click the ➕ button and choose ‘Column filter’ from the drop-down menu. Then, find and select the attribute ‘Node: target family’. Type Kinase in the text field and all nodes with this attribute value will be highlighted.
-
-_How many proteins from the network are in the Kinase target family?_
-
-### 2.3 Style the network I
-
-Cytoscape allows you to map properties of the nodes and edges to visual parameters such as node color and edge width. We will map the target family data to the node shape. From the left panel top menu, select 'Style' (it is between 'Network' and ‘Select’). Then click ◀ button to the right of the property you want to change, for example ‘Fill Color’. Next, set the 'Column' to the node column containing the data that you want to use (target family). This action will remove the rainbow coloring of the nodes. Click the field next to each different attribute value, e.g. Kinase and GPCR and choose a different color by clicking the ⋯ button. You can also set a color for the default field, e.g., for all nodes that do not have a target family annotation from Pharos by clicking on the white colored button in the first column of the same row.
-
-### 2.4 Import own data from a table
+### 2.3 Data import
 
 Network nodes and edges can have additional information associated with them that we can load into Cytoscape and use for visualization. We will import the data from the text file (https://goo.gl/zjDa81).
 
@@ -105,74 +102,68 @@ The **Key Column** for Network can be changed using a combo box and allows you t
 
 If there is a match between the value of a Key in the dataset and the value the Key Column for Network field in the network, all attribute--value pairs associated with the element in the dataset are assigned to the matching node in the network. You will find the imported columns at the end of the Node Table.
 
-### 2.5 Style the network II
+### 2.4 Continuous color mapping
 
 Now, we want to color the nodes according to the protein abundance (log ratio) compared to the cells before NGF treatment. From the left panel top menu, select **Style** (it is to the right of **Network**). Then click on the **◀** button to the right of the property you want to change, for example **Fill Color**. Next, set **Column** to the node column containing the data that you want to use (10 min log ratio). Since this is a numeric value, we will use the **Continuous Mapping** as the **Mapping Type**, and set a color gradient for how abundant each protein is. The default Cytoscape color gradient blue-white-red already gives a nice visualization of the negative-to-positive abundance ratio.
 
-If you want to change the colors, double click on the color gradient in order to bring up the **Continuous Mapping Editor** window and edit the colors for the continuous mapping. In the mapping editor dialog, the color that will be used for the minimum value is on the left, and the max is on the right. Double click on the triangles on the top and sides of the gradient to change the colors. The triangles on the top represent the values at which the data will be clipped; anything above the right triangle will be set to the max value. This is useful if you have a small number of values that are significantly higher than the median. To have three colors, you need to add a new triangle (for the white color) by pressing the Add button and set the Handle position value to 0. As you move the triangles and change the color, the display in the network pane will automatically update — so this is all easier to do than to explain! If at any point it doesn't seem to work as expected, it is easiest to just delete the mapping and start again.
+_Are the up-regulated nodes grouped together?_
 
-_What do you observe? Are up- and down-regulated nodes connected to each other or not?_
+To change the colors, double click on the color gradient in order to bring up the **Continuous Mapping Editor** window and edit the colors for the continuous mapping. In the mapping editor dialog, the color that will be used for the minimum value is on the left, and the max is on the right. Double click on the triangles on the top and sides of the gradient to change the colors. The triangles on the top represent the values at which the data will be clipped; anything above the right triangle will be set to the max value. This is useful if you have a small number of values that are significantly higher than the median. To have three colors, you need to add a new triangle (for the white color) by pressing the Add button and set the Handle position value to 0. As you move the triangles and change the color, the display in the network pane will automatically update — so this is all easier to do than to explain! If at any point it doesn't seem to work as expected, it is easiest to just delete the mapping and start again.
 
 _Can you improve the color mapping such that it is easier to see which nodes have a log ratio below -2 and above 2?_
 
-### 2.6 Retrieve and explore functional enrichment
+### 2.5 Functional enrichment
 
-Next, we will retrieve functional enrichment for the proteins in our network. After making sure that no nodes are selected in the network, go to the menu Apps → STRING Enrichment → Retrieve functional enrichment and keep the default p-value of 0.05. A new STRING Enrichment tab will appear in the Table Panel on the bottom. It contains a table of enriched terms and corresponding information for each enrichment category.
-Explore the enrichment results. Which are the top three enriched terms? What happens when you click some of the terms you find interesting?
+Next, we will retrieve functional enrichment for the proteins in our network. After making sure that no nodes are selected in the network, go to the menu **Apps → STRING Enrichment → Retrieve functional enrichment** and keep the default p-value of 0.05. A new STRING Enrichment tab will appear in the Table Panel on the bottom. It contains a table of enriched terms and corresponding information for each enrichment category.
 
-To explore the terms of only one specific category, e.g. all GO terms, you can click on the filter icon on the most left in the Table panel. Select the three types of GO terms, enable the option to Remove redundant terms and set the redundancy cutoff to 0.2. In this way, you will only see the significant GO terms that do not represent largely the same set of proteins within the network.
+_Which are the three most statistically significant terms?_
 
-_Which are the top 3 enriched terms now (lowest p-values)?_
+To explore only specific types of terms, e.g. GO terms, and to remove redundant terms from the table, click on the filter icon in the **Table panel** (leftmost icon). Select the three types of GO terms, enable the option to **Remove redundant terms** and set **Redundancy cutoff** to 0.2. In this way, you will see only the statistically significant GO terms that do not represent largely the same set of proteins within the network. You can see which proteins are annotated with a given term by selecting the term in the **STRING Enrichment** panel.
 
-Next, we are going to visualize the top-3 enriched terms in the network by using split charts. Click the Settings icon (rightmost one) and set the Number of terms to chart to 3. You can choose your favorite color palette by clicking on the Change Color Palette button. Click OK to confirm the Settings and click the colorful chart icon to draw the charts onto the network. If no charts are drawn on the nodes, you need to install the **EnhancedGraphics** app from the App Manager.
+_Do the functional terms assigned to a protein correlate with whether it is up- or down-regulated?_
 
-_Do the top three terms annotate the network well in your opinion?_
+Next, we will visualize the top-3 enriched terms in the network by using split charts. Click the settings icon (rightmost icon) and set the **Number of terms** to chart to 3; you can optionally also **Change Color Palette** before clicking **OK** to confirm the new settings. Click the colorful chart icon to show the terms as the charts on the network.
 
-### 2.7 Cluster the network
-
-Next, we will use clusterMaker to find clusters in the network using the MCL clustering algorithm. Install clusterMaker from the AppManager (go to Apps → AppManager, search for the app name and press the Install button). The MCL clustering algorithm can be found in the menu Apps → clusterMaker → MCL Cluster. Set the granularity parameter (inflation value) to 4 and choose the ‘score’ attribute as **Array Sources** (this is the overall confidence score for each interaction from STRING). Select both options in the **Visualization Options** section at the bottom of the window and the app will automatically create a new clustered network and restore all edges between the clusters.
-
-_How many clusters with at least 4 nodes are generated? Do you notice something particular about how the nodes are distributed in the clusters?_
-
-You can now run the functional enrichment analysis on one of the clusters by first selecting the nodes in the cluster and then using the menu **Apps → STRING Enrichment → Retrieve functional enrichment**. If the menu item is grayed out, you need to first tell stringApp that this is a STRING network by choosing the menu point **Apps → STRING → Set as STRING network**.
-
-_Is there a difference in the most enriched terms for the whole network and for only one cluster? Does it depend on the choice of cluster?_
+_Do these terms give good coverage of the proteins in network?_
 
 ## Exercise 3
 
-We are going to use the stringApp for Cytoscape (http://apps.cytoscape.org/apps/stringapp) to query the DISEASES database (http://diseases.jensenlab.org) and retrieve a network of proteins that are associated with Parkinson’s disease and compare it to another related disease (Alzheimer’s disease).
+We are going to use the stringApp for Cytoscape (http://apps.cytoscape.org/apps/stringapp) to query the DISEASES database (http://diseases.jensenlab.org) and retrieve a network of proteins that are associated with Parkinson’s disease and compare it to another neurodegenerative disease, namely Alzheimer's disease.
 
-### 3.1 Retrieve disease networks
+### 3.1 Disease network retrieval
 
-Open a new session in Cytoscape from the menu **File → New → Session. Use the menu File → Import → Network → Public Databases** and the **STRING: disease query** option. Retrieve a network for ‘Parkinson’s disease’ and another for ‘Alzheimer’s disease’.
+Open a new session in Cytoscape from the menu **File → New → Session**. Use the menu **File → Import → Network → Public Databases** and the **STRING: disease query** option. Retrieve a network for **Parkinson's disease** and another for **Alzheimer's disease**.
 
-### 3.2. Browse the node attributes table
+### 3.2. Working with node attributes
 
-Browse through the node attributes table and find the disease score column. Sort it by descending values to see the highest disease scores. You can highlight the corresponding nodes by selecting the rows in the table, bringing up the context menu (right-click the selected rows) and choosing the ‘Select nodes from selected rows’ option. You can also use one of the icons in the menu to zoom into the selected node. Look for an example for a node with a disease score of 5 and one with a disease score below 4.
-Rename the ‘disease score’ column to ‘alzheimer’s score’ and ‘parkinson’s score’, respectively, by right-clicking the name and choosing the **Rename column** option.
+Browse through the node attributes table and find the disease score column. Sort it descending by values to see the highest disease scores. You can highlight the corresponding nodes by selecting the rows in the table, bringing up the context menu (right-click the selected rows) and choosing the ‘Select nodes from selected rows’ option. You can also use one of the icons in the menu to zoom into the selected node.
 
-### 3.3 Merge two related diseases
+Look for an example for a node with a disease score of 5 and one with a disease score below 4.
 
-Cytoscape provides functionality to merge two or more networks by building their union, intersection or difference, which can be found in the menu **Tools → Merge → Networks**. Select the two disease networks in the ‘Available Networks’ list and move them to the **Networks to Merge** list by clicking the > button. Make sure the Union button is selected and click the Merge button to initiate the network merge.
+Rename the **disease score** columns in the two networks to **PD score** and **AD score**, respectively, by right-clicking the name and choosing the **Rename column** option.
 
-_How does the resulting network look and why? Note that you can select one of the many layouts to visualize the merged network better._
+### 3.3 Merging networks
 
-### 3.4 Complement the merged network
+Cytoscape provides functionality to merge two or more networks, building either their union, intersection or difference. To merge the two disease networks go to the menu **Tools → Merge → Networks**. Select the two disease networks in the **Available Networks** list and move them to the **Networks to Merge** list by clicking the **>** button. Make sure the **Union** button is selected and click the **Merge** button.
 
-Since the merged network was not created by the stringApp, we have to manually set it to be a String network from the stringApp menu (Apps -> STRING -> Set as STRING network). Next, we will use the Apps -> STRING -> Change confidence menu to increase the confidence to 1, which will effectively remove all edges from the network. Then, we will bring up the Change confidence window again and set the confidence to 0.4, which will prompt the stringApp to retrieve all interactions with a confidence score above 0.4 between all proteins in the current network from STRING.
+_How many nodes and edges are there in the merged network compared to the two individual disease networks?_
 
-_How many nodes and edges are in the new network and why? Is the number bigger or smaller than before changing the confidence?_
+Because the merged network was not created by the stringApp, but rather by Cytoscape's merge tool based on two separately retrieved STRING networks, we now have two problems. First, Cytoscape does not know the merged network is a STRING network, and most menu points in the stringApp menu are thus grayed out; fix this by going to the menu **Apps → STRING → Set as STRING network**. Second, because the two disease networks were retrieved separately, the merged network does not contain any interactions between proteins involved only in Parkinson's disease and proteins involved only in Alzheimer's disease, even if the proteins interact according to STRING. To solve this, first go to the menu **Apps → STRING → Change confidence menu**, set the **New confidence cutoff** to 1, and press **OK**; this will remove all STRING interactions, leaving only the proteins. Then bring up the same dialog and lower the confidence cutoff back down to 0.4; the stringApp will now query the server again to retrieve interactions among all the proteins.
 
-### 3.5 Run clusterMaker to identify clusters
+_How many nodes and edges does the network contain compared to before?_
 
-Next, we will use clusterMaker to find clusters in the merged network using the MCL clustering algorithm (**Apps → clusterMaker → MCL Cluster**). Set the granularity parameter to 4. To include an edge weight in the cluster identification, choose the **score** attribute as **Array Sources** (this is the overall confidence score for each interaction from STRING). Note that the app will automatically create a new clustered network and restore all edges if you select both options in the **Visualization Options** section at the bottom of the window.
+### 3.4 Network clustering
+
+Next, we will use the MCL algorithm to find identify clusters of tightly connected proteins within the combined network. Go to the menu **Apps → clusterMaker → MCL Cluster**. Set the **Granularity parameter (inflation value)** to 4 and choose the **score** attribute (i.e. the overall STRING confidence score) as **Array Sources**, select the option **Create new clustered network**, and click **OK** to start the clustering. The app will now run the algorithm and automatically create a network showing the clusters.
 
 _How many clusters have at least 4 nodes?_
 
-### 3.6 Selection filters and visual style bypass
+### 3.5 Selection filters and visual style bypass
 
-Finally, we want to highlight the nodes that are associated with each disease and to easily see to which cluster they belong. First, we will select all nodes that have an alzheimer’s score by creating a selection filter. Go to the ‘Select’ tab, click the + button and select the ‘Column filter’ option. Find the ‘Node: alzheimer’s score’ in the drop-down menu and the 100 nodes associated with Alzheimer’s disease will be highlighted yellow in the network. Next, go to the ‘Style’ tab and click the square next to ‘Fill color’ to set a color bypass for the selected nodes (for example red). Repeat the same action for the node attribute column ‘Node: parkinson’s score’ and choose another color.
+Finally, we want to color the nodes based on which disease(s) the proteins are involved in. To do so we will make use of selection filters to select nodes based on their attributes and the visual style bypass to explicitly specify the colors of individual nodes.
 
-To select all nodes that are shared between the diseases, create a second filter in the ‘Select’ tab. If the first filter is for Alzheimer’s disease, the second should be for Parkinson’s disease or the other way around. Since the filters are connected with an ‘AND’ relationship, only nodes that have both scores will be selected. Go to the ‘Style’ tab to set a color for this last group.
+First, to select all proteins associated with Alzheimer's disease, go to the **Select** tab, click the **+** button, and choose **Column Filter**. Select **Node: AD score** in the drop-down menu and the 100 nodes associated with Alzheimer's disease will be highlighted yellow in the network. Next, go to the **Style** tab and click the square just left of **Fill color** to set a bypass color for the selected nodes (e.g. red). Repeat this process for the node attribute column **Node: PD score** and choose different color (e.g. blue).
 
-_In which clusters are the shared nodes? Are there clusters that contain nodes associated with both diseases?_
+To select the nodes that are shared between the diseases, go to the **Select** tab and create two column filters, one for **Node: AD score** and one for **Node: PD score**. Since the filters by default are combined using the **Match all (AND)** rule, only the nodes that have both scores will be selected. Go to the **Style** tab to set a third bypass color for this last group.
+
+_How are the two diseases distributed across the clusters?

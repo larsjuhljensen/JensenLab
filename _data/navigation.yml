@@ -82,5 +82,27 @@ training-stringapp:
           url: /training/stringapp/#15-new-search-interface
   - title: "Exercise 2"
     url: /training/stringapp/#exercise-2
+    children:
+      - title: "Protein network retreival"
+        url: "21-protein-network-retrieval"
+      - title: "Node attributes and selection"
+        url: "22-discrete-color-mapping"
+      - title: "Data import"
+        url: "23-data-import"
+      - title: "Continuous color mapping"
+        url: "24-continuous-color-mapping"
+      - title: "Functional enrichment"
+        url: "25-functional-enrichment"
   - title: "Exercise 3"
     url: /training/stringapp/#exercise-3
+    children:
+      - title: "Disease network retrieval"
+        url: "31-disease-network-retrieval"
+      - title: "Working with node attributes"
+        url: "32-working-with-node-attributes"
+      - title: "Merging networks"
+        url: "33-merging-networks"
+      - title: "Network clustering"
+        url: "34-network-clustering"
+      - title: "Selection filters and visual style bypass"
+        url: "35-selection-filters-and-visual-style-bypass"
