@@ -71,15 +71,15 @@ training-stringapp:
     url: /training/stringapp/#exercise-1
     children:
         - title: "Protein queries"
-          url: /training/stringapp/#protein-queries
+          url: /training/stringapp/#11-protein-queries
         - title: "Compound queries"
-          url: /training/stringapp/#compound-queries
+          url: /training/stringapp/#12-compound-queries
         - title: "Disease queries"
-          url: /training/stringapp/#disease-queries
+          url: /training/stringapp/#13-disease-queries
         - title: "PubMed queries"
-          url: /training/stringapp/#pubmed-queries
+          url: /training/stringapp/#14-pubmed-queries
         - title: "New search interface"
-          url: /training/stringapp/#new-search-interface
+          url: /training/stringapp/#15-new-search-interface
   - title: "Exercise 2"
     url: /training/stringapp/#exercise-2
   - title: "Exercise 3"
