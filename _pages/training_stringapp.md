@@ -128,7 +128,7 @@ _Do these terms give good coverage of the proteins in network?_
 
 ## Exercise 3
 
-We are going to use the stringApp for Cytoscape (http://apps.cytoscape.org/apps/stringapp) to query the DISEASES database (http://diseases.jensenlab.org) and retrieve a network of proteins that are associated with Parkinson’s disease and compare it to another neurodegenerative disease, namely Alzheimer's disease.
+We are going to use the stringApp to query the [DISEASES](https://diseases.jensenlab.org) database for proteins associated with Parkinson’s disease and with Alzheimer's disease, retrieve STRING networks for both, created a combined network for the two neurodegenerative diseases, identify clusters in the network, and color it to compare the diseases.
 
 ### 3.1 Disease network retrieval
 
