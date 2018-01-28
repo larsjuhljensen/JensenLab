@@ -82,6 +82,11 @@ training-string:
     url: /training/string/#exercise-2
   - title: "Exercise 3"
     url: /training/string/#exercise-3
+    children:
+      - title: "Disease query"
+        url: /training/string/#31-disease-query
+      - title: "Validation of text mining"
+        url: /training/string/#32-validation-of-text-mining
 
 training-stringapp:
   - title: "Learning objectives"
