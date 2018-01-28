@@ -32,4 +32,4 @@ Users provide a list of one or more gene, protein or compound identifiers, the s
 
 stringApp also allows users to expand the resulting network by adding an arbitrary number of nodes (protein or chemical compounds), change the confidence score, and expand the network by adding new nodes. In addition, stringApp v1.1 can retrieve functional enrichment for Gene Ontology terms, KEGG Pathways, and protein domains at a user-specified significance threshold and show the results in a new table in the Table Panel. All STRING networks are visualized using a new "String Style" custom graphic, which closely resembles the networks on the [STRING website](https://string-db.org/).
 
-If you want to learn how to use this tool, we have made available a full set of [stringApp exercises](/training/stringapp/).
+If you want to learn how to use this tool, we provide a full set of [stringApp exercises](/training/stringapp/).
