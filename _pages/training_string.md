@@ -19,7 +19,7 @@ In these exercises, we will use the [STRING](https://string-db.org/), [STITCH](h
 
 ### 1.1 Single protein query
 
-We will first retrieve a STRING network for human insulin receptor (INSR). Go to http://string-db.org/, open the **Protein by name** search interface, and type **INSR** in the field **Protein Name**. You can either specify **Homo sapiens** in the **Organism** field leave it on **auto-detect**. Click **SEARCH**. If you specified the organism, you will immediately receive a protein network; otherwise you will first be presented with a disambiguation page on which you can specify that you meant the human protein.
+We will first retrieve a STRING network for human insulin receptor (INSR). Go to <https://string-db.org/>, open the **Protein by name** search interface, and type **INSR** in the field **Protein Name**. You can either specify **Homo sapiens** in the **Organism** field leave it on **auto-detect**. Click **SEARCH**. If you specified the organism, you will immediately receive a protein network; otherwise you will first be presented with a disambiguation page on which you can specify that you meant the human protein.
 
 ### 1.2 Visual representations
 
@@ -73,7 +73,7 @@ STITCH exercise to be added.
 
 ### 3.1 Disease query
 
-Go to https://diseases.jensenlab.org/, type **Parkinson** in the search field, and click the **search** button. The web interface will now show the search results, which include all diseases and protein names starting with the search term. Click **Parkinson's disease** to get to the results page showing proteins associated with the disease.
+Go to <https://diseases.jensenlab.org/>, type **Parkinson** in the search field, and click the **search** button. The web interface will now show the search results, which include all diseases and protein names starting with the search term. Click **Parkinson's disease** to get to the results page showing proteins associated with the disease.
 
 Like STRING and STITCH, the DISEASES database integrates several types of evidence, in this case automatic text mining, manually curated knowledge, and experimental evidence from genome-wide association studies.
 
