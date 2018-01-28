@@ -62,6 +62,23 @@ training:
   - title: "Past events"
     url: /training/#past-events
 
+training-string:
+  - title: "Learning objectives"
+    url: /training/string/learning-objectives
+  - title: "Exercise 1"
+    url: /training/string/#exercise-1
+    children:
+      - title: "Single protein query"
+        url: /training/string/#11-single-protein-query
+      - title: "Visual representations"
+        url: /training/string/#12-visual-representations
+      - title: "Evidence viewers"
+        url: /training/string/#13-evidence-viewers
+  - title: "Exercise 2"
+    url: /training/string/#exercise-2
+  - title: "Exercise 3"
+    url: /training/string/#exercise-3
+
 training-stringapp:
   - title: "Learning objectives"
     url: /training/stringapp/#learning-objectives
@@ -70,39 +87,39 @@ training-stringapp:
   - title: "Exercise 1"
     url: /training/stringapp/#exercise-1
     children:
-        - title: "Protein queries"
-          url: /training/stringapp/#11-protein-queries
-        - title: "Compound queries"
-          url: /training/stringapp/#12-compound-queries
-        - title: "Disease queries"
-          url: /training/stringapp/#13-disease-queries
-        - title: "PubMed queries"
-          url: /training/stringapp/#14-pubmed-queries
-        - title: "New search interface"
-          url: /training/stringapp/#15-new-search-interface
+      - title: "Protein queries"
+        url: /training/stringapp/#11-protein-queries
+      - title: "Compound queries"
+        url: /training/stringapp/#12-compound-queries
+      - title: "Disease queries"
+        url: /training/stringapp/#13-disease-queries
+      - title: "PubMed queries"
+        url: /training/stringapp/#14-pubmed-queries
+      - title: "New search interface"
+        url: /training/stringapp/#15-new-search-interface
   - title: "Exercise 2"
     url: /training/stringapp/#exercise-2
     children:
       - title: "Protein network retreival"
-        url: "/training/stringapp/#21-protein-network-retrieval"
+        url: /training/stringapp/#21-protein-network-retrieval
       - title: "Discrete color mapping"
-        url: "/training/stringapp/#22-discrete-color-mapping"
+        url: /training/stringapp/#22-discrete-color-mapping
       - title: "Data import"
-        url: "/training/stringapp/#23-data-import"
+        url: /training/stringapp/#23-data-import
       - title: "Continuous color mapping"
-        url: "/training/stringapp/#24-continuous-color-mapping"
+        url: /training/stringapp/#24-continuous-color-mapping
       - title: "Functional enrichment"
-        url: "/training/stringapp/#25-functional-enrichment"
+        url: /training/stringapp/#25-functional-enrichment
   - title: "Exercise 3"
     url: /training/stringapp/#exercise-3
     children:
       - title: "Disease network retrieval"
-        url: "/training/stringapp/#31-disease-network-retrieval"
+        url: /training/stringapp/#31-disease-network-retrieval
       - title: "Working with node attributes"
-        url: "/training/stringapp/#32-working-with-node-attributes"
+        url: /training/stringapp/#32-working-with-node-attributes
       - title: "Merging networks"
-        url: "/training/stringapp/#33-merging-networks"
+        url: /training/stringapp/#33-merging-networks
       - title: "Network clustering"
-        url: "/training/stringapp/#34-network-clustering"
+        url: /training/stringapp/#34-network-clustering
       - title: "Selection filters and visual style bypass"
-        url: "/training/stringapp/#35-selection-filters-and-visual-style-bypass"
+        url: /training/stringapp/#35-selection-filters-and-visual-style-bypass
