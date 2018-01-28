@@ -76,6 +76,8 @@ training-string:
         url: /training/string/#12-visual-representations
       - title: "Evidence viewers"
         url: /training/string/#13-evidence-viewers
+      - title: "Query parameters"
+        url: /training/string/#14-query-parameters
   - title: "Exercise 2"
     url: /training/string/#exercise-2
   - title: "Exercise 3"

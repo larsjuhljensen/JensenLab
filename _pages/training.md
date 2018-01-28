@@ -13,7 +13,7 @@ Below you can find training material as well as lists of upcoming and past event
 
 As part of running recurring training events, we maintain up-to-date exercises on the following topics:
 
-* [STRING web resource](/training/string/)
+* [STRING and related web resources](/training/string/)
 * [Cytoscape stringApp](/training/stringapp/)
 
 Additional training material on other topics is linked to from the events below.
