@@ -7,11 +7,20 @@ sidebar:
 ---
 The group is on a regular basis involved in running training events, which take the forms of guest lectures on Masters and Ph.D. courses, week-long practical courses, and half-day to two-day workshops. The topics usually relate directly to the [resources](/resources/) that we develop, in particular the STRING database, the Cytoscape stringApp, and text mining.
 
-Below are lists of upcoming and past events. Feel free to [contact us](mailto:lars.juhl.jensen@cpr.ku.dk), if you are interested in us running or being part of a training event.
+Below you can find training material as well as lists of upcoming and past events. Feel free to [contact us](mailto:lars.juhl.jensen@cpr.ku.dk), if you are interested in us running or being part of a training event.
+
+## Training material
+
+As part of running recurring training events, we maintain up-to-date exercises on the following topics:
+
+* [STRING web resource](/training/string/)
+* [Cytoscape stringApp](/training/stringapp/)
+
+Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-5--10 November 2018, Rome Italy  
+5--10 November 2018, Rome, Italy  
 EMBO Practical Course on Computational Analysis of Protein-Protein Interactions
 
 4--10 October 2018, Luxembourg, Luxembourg  
@@ -21,7 +30,6 @@ EMBO Practical Course on Phenotyping Neurological Syndromes for Systems Genetics
 
 24 January 2018, Copenhagen, Denmark  
 Cytoscape/STRING Workshop  
-[Material](https://drive.google.com/open?id=1a1Onq_Uxvf3gArpFuVxjzCxlecaImUEw)
 
 25--26 October 2017, Copenhagen, Denmark  
 Microbiome Data Interpretation Workshop  
@@ -29,18 +37,15 @@ Microbiome Data Interpretation Workshop
 
 16 October 2017, Bergen, Norway  
 Applied Structural Bioinformatics  
-[Material](https://drive.google.com/open?id=0B3LtU3DLB8MQMS1vYi15cXREalk)
 
 20 June 2017, Melbourne, Australia  
 Utilising STRING App for Cytoscape  
-[Material](https://drive.google.com/open?id=0B3LtU3DLB8MQY3dEbWNobGYxdWc)
 
 9 June 2017, Hillerød, Denmark  
 Statistics on Big Biomedical Data
 
 23--24 May 2017, Aarhus, Denmark  
 STRING/Cytoscape Workshop  
-[Material](https://drive.google.com/open?id=0B-eail50965fcW9zTzhNcl8tX0k)
 
 19--23 June 2016, Heidelberg, Germany  
 EMBO Practical Course on Computational Biology

@@ -57,6 +57,8 @@ resources:
         url: /resources/textmining/#tools
 
 training:
+  - title: "Training material"
+    url: /training/#training-material
   - title: "Upcoming events"
     url: /training/#upcoming-events
   - title: "Past events"
