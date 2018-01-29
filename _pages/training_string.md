@@ -67,7 +67,13 @@ _Does this change the set of proteins shown in the network?_
 
 ## Exercise 2
 
-STITCH exercise to be added.
+### 2.1 Chemical compound query
+
+To retrieve for a chemical compound, go to <https://stitch-db.org/>, type **aspirin** in the **Item Name** field, type **Homo sapiens** in **Organism**, and click the **SEARCH** button. You should now see a network of proteins associated with aspirin, including PTGS1 and PTGS2, which are the direct targets of aspirin.
+
+### 2.2 Binding assay data
+
+Click the interaction between aspirin and PTGS1 and then the **Show** button next to **Experimental/Biochemical Data** in the popup. The evidence viewer now shows all the available binding assay data for this interaction, including the binding affinities (IC50 values).
 
 ## Exercise 3
 
