@@ -137,3 +137,33 @@ training-stringapp:
         url: /training/stringapp/#34-network-clustering
       - title: "Selection filters and visual style bypass"
         url: /training/stringapp/#35-selection-filters-and-visual-style-bypass
+
+training-textmining:
+  - title: "Learning objectives"
+    url: /training/textmining/#learning-objectives
+  - title: "Prerequisites"
+    url: /training/textmining/#prerequisites
+  - title: "Exercise 1"
+    url: /training/textmining/#exercise-1
+    children:
+      - title: "Named entity recognition"
+        url: /training/textmining/#11-named-entity-recognition
+      - title: "Information retrieval"
+        url: /training/textmining/#12-information-retrieval
+      - title: "Information extraction"
+        url: /training/textmining/#13-information-extraction
+      - title: "Knowledge discovery"
+        url: /training/textmining/#14-knowledge-discovery
+  - title: "Exercise 2"
+    url: /training/textmining/#exercise-2
+    children:
+      - title: ""
+        url: /training/textmining/#21-
+      - title: ""
+        url: /training/textmining/#22-
+      - title: "Characterization of microbiomes"
+        url: /training/textmining/#23-characterization-of-microbiomes
+      - title: "Mining for indirect associations"
+        url: /training/textmining/#24-mining-for-indirect-assocations
+  - title: "Supporting literature"
+    url: /training/textmining/#supporting-literature
