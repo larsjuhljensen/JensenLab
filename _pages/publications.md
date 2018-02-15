@@ -51,7 +51,7 @@ Hendriks IA, Lyon D, Young C, Jensen LJ, Vertegaal AC and Nielsen ML (2017). Sit
 Junge A, Refsgaard JC, Garde C, Pan X, Santos A, Alkan F, Anthon C, von Mering C, Workman CT, Jensen LJ\* and Gorodkin J\* (2017). RAIN: RNA–protein Association and Interaction Networks. *Database*, **2017**:baw167.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28077569) [Full text](https://doi.org/10.1093/database/baw167) <span class="__dimensions_badge_embed__" data-doi="10.1093/database/baw167" data-style="small_rectangle"></span>
 
-Szklarczyk D, Morris JH, Cook H, Kuhn M, Wyder S, Simonovic M, Santos A, Doncheva NT, Roth A, Bork P*, Jensen LJ\* and von Mering C\* (2017). The STRING database in 2017: quality-controlled protein-protein association. *Nucleic Acids Research*, **45**:D362-D368.  
+Szklarczyk D, Morris JH, Cook H, Kuhn M, Wyder S, Simonovic M, Santos A, Doncheva NT, Roth A, Bork P\*, Jensen LJ\* and von Mering C\* (2017). The STRING database in 2017: quality-controlled protein-protein association. *Nucleic Acids Research*, **45**:D362-D368.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/27924014) [Full text](https://doi.org/10.1093/nar/gkw937) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkw937" data-style="small_rectangle"></span>
 
 Nguyen DT, Mathias S, Bologa C, Brunak S, Fernandez N, Gaulton A, Hersey A, Holmes J, Jensen LJ, Karlsson A, Liu G, Ma'ayan A, Mandava G, Mani S, Mehta S, Overington J, Patel J, Rouillard AD, Schürer S, Sheils T, Simeonov A, Sklar LA, Southall N, Ursu O, Vidovic D, Waller A, Yang J, Jadhav A, Oprea T and Guha R (2017). Pharos: Collating protein information to shed light on the druggable genome. *Nucleic Acids Research*, **45**:D995-D1002.  
