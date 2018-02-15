@@ -7,7 +7,13 @@ sidebar:
 ---
 ## Learning objectives
 
-To do.
+In these exercises, we will use a variety of text-mining tools and databases based on text mining, to interpret the results from microbiome studies. The exercises will teach you how to:
+
+* automatically highlight named entities in a web page
+* use named entity recognition for synonym-aware information retrieval
+* extract associations based on cooccurrence of entities in the literature
+* discover novel, indirect associations between entities
+* perform text-mining-based term enrichment analysis
 
 ## Prerequisites
 
@@ -23,7 +29,7 @@ The goal of named entity recognition (NER) is to find names mentioned in text an
 
 Install the EXTRACT bookmarklet as described on the [EXTRACT website](https://extract.jensenlab.org/).
 
-Open the paper “Intestinal Microbiota and the Efficacy of Fecal Microbiota Transplantation in Gastrointestinal Disease” (Aroniadis et al., 2014) and click the **EXTRACT** bookmarklet. After a short time, terms should be highlighted in the text.
+Open the paper "Intestinal Microbiota and the Efficacy of Fecal Microbiota Transplantation in Gastrointestinal Disease" ([Aroniadis et al., 2014](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4073534/)) and click the **EXTRACT** bookmarklet. After a short time, terms should be highlighted in the text.
 
 _What do the different colors mean?_
 
@@ -37,7 +43,7 @@ _What happens?_
 
 Use the buttons in the popup to copy the data into a spreadsheet/text file or save it in tabular format.
 
-_Which information is being saved in addition to what is shown in the popup?_
+_Which information is then provided in addition to what is shown in the popup?_
 
 ### 1.2 Information retrieval
 
@@ -46,6 +52,8 @@ The goal of information retrieval (IR) is to find the documents pertaining to a 
 We run the same NER system used in EXTRACT on entire PubMed every week and make the results available through a suite of web resources. One such resource is [ORGANISMS](https://organisms.jensenlab.org/). It allows users to retrieve abstracts that mention any organism of interest (specified by an NCBI TaxID) based on the NER results.
 
 Go to <https://organisms.jensenlab.org/> and query for **S. aureus**. You are now presented with several options, since there are many genera starting with S that include an aureus species. Click on the **Staphylococcus aureus** (taxid:1280) row to view the abstracts for this species.
+
+_Do the abstracts shown all mention Staphylococcus aureus?_
 
 Go back to the search page (e.g. by clicking **ORGANISMS** in the header) and query for **Firmicutes**. You are again presented with many options including the **Firmicutes** phylum itself (taxid:1239) as well as numerous species and strains. Click on the row for the phylum to view abstracts.
 
@@ -57,7 +65,7 @@ The goal of cooccurrence-based information extraction (IE) is to link entities (
 
 Go to <https://diseases.jensenlab.org/> and query for **Crohn disease**. Again, click on it on the disambiguation page (like in the ORGANISMS resource).
 
-_Which types of evidence are you presented with? Which gene is most strongly associated with Crohn's disease according to text mining?__
+_Which gene is most strongly associated with Crohn's disease according to text mining?__
 
 Click on **NOD2** in the text-mining table.
 
@@ -89,11 +97,11 @@ It is important to note that there are currently no dedicated text-mining tools 
 
 ### 2.1 Using NER to dig deeper into the literature
 
-Colorectal cancer studies have revealed a strong co-occurrence pattern between the proinflammatory Fusobacterium nucleatum and Parvimonas micra. This led to a systematic search for literature linking also the latter bacterial species to inflammatory response. A simple PubMed search retrieves only two publications:
+Colorectal cancer studies have revealed a strong cooccurrence pattern between the proinflammatory Fusobacterium nucleatum and Parvimonas micra. This led to a systematic search for literature linking also the latter bacterial species to inflammatory response. A simple PubMed search retrieves only three publications:
 
 <https://www.ncbi.nlm.nih.gov/pubmed/?term=%22Parvimonas+micra%22+%22inflammatory+response%22>
 
-Of these, the first had not yet been published when the colorectal cancer microbiome was being analyzed, and the second sheds no light on the topic. However, since Parvimonas micra has an NCBI Taxon ID (taxid:33033) and inflammatory response is a GO term (GO:0006954), we can instead use the results of NER to retrieve relevant documents:
+Of these, only one had been published when the colorectal cancer microbiome was being analyzed, and it sheds no light on the topic. However, since Parvimonas micra has an NCBI Taxon ID (taxid:33033) and inflammatory response is a GO term (GO:0006954), we can instead use the results of NER to retrieve relevant documents:
 
 <http://organisms.jensenlab.org/Entity?documents=10&type1=-2&id1=33033&type2=-21&id2=GO:0006954>
 
@@ -104,6 +112,8 @@ _Are they relevant and why were they were not found by the initial search?_
 One of the abstracts (Yoshioka et al., 2005) reveals a possible link between the two bacteria and oral inflammatory response: Parvimonas micra can bind to lipopolysaccharides on Gram-negative bacteria such as Fusobacterium nucleatum and thereby induce inflammatory response. This publication was missed by the PubMed query, because Parvimonas micra is referred to under its older name Peptostreptococcus micros. The species is thus mentioned, but a search for its current name will not retrieve it.
 
 Open the abstract by Yoshioka et al. in PubMed and run EXTRACT on it. Inspect the tagging of Peptostreptococcus micros.
+
+_Which name is listed for the species in the popup?_
 
 ### 2.2 Retrieval of literature linking taxa to a disease
 
@@ -126,9 +136,11 @@ All we now need is a script that does the following steps:
 2.	Read the NCBI TaxIDs for each organisms of interest.
 3.	For each PMID, check if it is associated with the disease and print it if this is the case
 
-We have written a Python script that does this and prepared a file with NCBI TaxIDs of the organisms of interest from the colorectal cancer microbiome study. Download both and run:
+We have made a [Python script]({{ site.baseurl }}/assets/textmining/disease_comentions.py) that does this and prepared a [file with NCBI TaxIDs]({{ site.baseurl }}/assets/textmining/organisms.txt) of the organisms of interest from the colorectal cancer microbiome study. Download both and run:
 
+```
 python disease_comentions.py DOID:9256 organisms.txt
+```
 
 The script writes its output to the terminal, which you can redirect to a file with the > operator if desired. The format of the tab-delimited output is the same as the input file with organism mentions: the first column contains the NCBI TaxID and the second column contains a space-delimited list of PMIDs. These PMIDs are the abstracts that mention the organism as well as the disease of interest.
 
@@ -144,22 +156,25 @@ The first step is thus to download the complete sets of text-mined associations 
 
 <http://download.jensenlab.org/organism_tissue_textmining_full.tsv>
 
-With this file at hand, we can count how many of the bacteria linked to colorectal cancer are associated with each tissue in the literature. We have written a Python script that does this and prepared a file with the NCBI TaxIDs from the colorectal cancer microbiome study. Download both and run this command:
+With this file at hand, we can count how many of the bacteria linked to colorectal cancer are associated with each tissue in the literature. We have made a [Python script]({{ site.baseurl }}/assets/textmining/term_enrichment.py) that does this and prepared a [file with NCBI TaxIDs]({{ site.baseurl }}/assets/textmining/organisms.txt) from the colorectal cancer microbiome study. Download both and run this command:
 
-**python term_enrichment.py organism_tissue_textmining_full.tsv 5 organisms.txt**
+```
+python term_enrichment.py organism_tissue_textmining_full.tsv 5 organisms.txt
+```
 
-The arguments for this command are the file with organism–term associations, the z-score cutoff to be applied to these, and the file of organisms for which to count term associations. The results show that even at this very stringent z-score cutoff, three of the organisms are associated with each of the terms Dental plaque, Mouth, and Saliva.
+The arguments for this command are the file with organism–term associations, the z-score cutoff to be applied to these, and the file of organisms for which to count term associations. The results show that even at this very stringent z-score cutoff, three of the organisms are associated with each of the terms **Dental plaque**, **Mouth**, and **Saliva**.
 
-You can also count for both a foreground and a background set of organisms and test each tissue term for statistically significant overrepresentation in the foreground set. To do so also download the file with all bacteria identified in the study for use as background and run:
+You can also count for both a foreground and a background set of organisms and test each tissue term for statistically significant overrepresentation in the foreground set. To do so also download the [file with all bacteria identified in the study]({{ site.baseurl }}/assets/textmining/background.txt) for use as background and run:
 
-**python term_enrichment.py organism_tissue_textmining_full.tsv 5 organisms.txt background.txt 0.005**
+```
+python term_enrichment.py organism_tissue_textmining_full.tsv 5 organisms.txt background.txt 0.005
+```
 
 In this command, the additional last two arguments are the file with the background set of organisms and the p-value threshold. The output for each term includes its identifier, its name, the counts for both sets of organisms, and the uncorrected p-value. The results show that oral bacteria indeed appear to be overrepresented among the set of organisms associated with colorectal cancer, although the p-values should obviously must be corrected for multiple testing before claiming significance.
 
 These types of analyses are by no means limited to tissues. If the task asks for it, equivalent analyses can be done for, e.g., diseases or environmental descriptors.
 
-Test for a link to oral diseases using the following file of organism–disease associations:
-
+Test for a link to oral diseases using the following file of organism–disease associations:  
 <http://download.jensenlab.org/organism_disease_textmining_full.tsv>
 
 ### 2.4 Mining for indirect associations
@@ -178,8 +193,11 @@ Similarly, query ARROWSMITH for terms connecting **Lactobacillus ruminis** to **
 
 ## Supporting literature
 
-Jensen LJ, Saric S and Bork P (2006). Literature mining for the biologist: from information retrieval to biological discovery. Nature Reviews Genetics, 7:119–129.
+Jensen LJ, Saric S and Bork P (2006). Literature mining for the biologist: from information retrieval to biological discovery. *Nature Reviews Genetics*, **7**:119–129.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/16418747) [Full text](https://doi.org/10.1038/nrg1768)
 
-Fleuren WWM and Wynand Alkema W (2015). Application of text mining in the biomedical domain. Methods, 74:97–106.
+Fleuren WWM and Wynand Alkema W (2015). Application of text mining in the biomedical domain. Methods, **74**:97–106.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/25641519) [Full text](https://doi.org/10.1016/j.ymeth.2015.01.015)
 
-Brbic M, Piskorec M, Vidulin V, Krisko A, Smuc T and Supek F (2017). The landscape of microbial phenotypic traits and associated genes. Nucleic Acids Research, 44:10074–10090.
+Brbic M, Piskorec M, Vidulin V, Krisko A, Smuc T and Supek F (2017). The landscape of microbial phenotypic traits and associated genes. *Nucleic Acids Research*, **44**:10074–10090.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/27915291) [Full text](https://doi.org/10.1093/nar/gkw964)
