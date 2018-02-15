@@ -7,13 +7,13 @@ sidebar:
 ---
 ## Preprints
 
-Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ and Brunak S (2017). Text mining of 15 million full-text scientific articles.  
-[Preprint](https://doi.org/10.1101/162099)
-
 Cuesta Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2017). An integrative method to unravel the host-parasite interactome: An orthology-based approach.  
 [Preprint](https://doi.org/10.1101/147868)
 
 ## Research articles
+
+Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ and Brunak S (2018). Text mining of 15 million full-text scientific articles. *PLOS Computational Biology*, **14**:e1005962.  
+[Full text](https://doi.org/10.1371/journal.pcbi.1005962) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1005962" data-style="small_rectangle"></span>
 
 Palasca O, Santos A, Stolte, C, Gorodkin, J\* and Jensen LJ\* (2018). TISSUES 2.0: an integrative web resource on mammalian tissue expression. *Database*, **2018**:bay003.  
 [Full text](https://doi.org/10.1093/database/bay003) <span class="__dimensions_badge_embed__" data-doi="10.1093/database/bay003" data-style="small_rectangle"></span>
@@ -201,7 +201,7 @@ Frenkel-Morgenstern M, Danon T, Christian T, Igarashi T, Cohen L, Hou Y-M and Je
 Bergholdt R, Brorsson C, Palleja A, Berchtold LA, Fløyel T, Bang-Berthelsen CH, Frederiksen KS, Jensen LJ, Størling J and Pociot F (2012). Identification of Novel Type 1 Diabetes Candidate Genes by Integrating Genome-Wide Association Data, Protein-Protein Interactions, and Human Pancreatic Islet Gene Expression. *Diabetes*, **61**:954-962.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/22344559) [Full text](https://doi.org/10.2337/db11-1263) <span class="__dimensions_badge_embed__" data-doi="10.2337/db11-1263" data-style="small_rectangle"></span>
 
-Romanel A, Jensen LJ, Cardelli L and Csikász-Nagy A (2012). Transcriptional regulation is a major controller of cell cycle transition dynamics. *PLoS One*, **7**:e29716.  
+Romanel A, Jensen LJ, Cardelli L and Csikász-Nagy A (2012). Transcriptional regulation is a major controller of cell cycle transition dynamics. *PLoS ONE*, **7**:e29716.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/22238641) [Full text](https://doi.org/10.1371/journal.pone.0029716) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pone.0029716" data-style="small_rectangle"></span>
 
 Powell S, Szklarczyk D, Trachana K, Roth A, Kuhn M, Muller J, Arnold R, Rattei T, Letunic I, Doerks T, Jensen LJ*, von Mering C\* and Bork P\* (2012). eggNOG v3.0: orthologous groups covering 1133 organisms at 41 different taxonomic ranges. *Nucleic Acids Research*, **40**:D284-D289.  
@@ -219,13 +219,13 @@ Warrer P, Hansen EH, Jensen LJ and Aagaard L (2011). Using text-mining technique
 Cappellini E, Jensen LJ, Szklarczyk D, Ginolhac A, da Fonseca RA, Stafford TW, Holen SR, Collins MJ, Orlando L, Willerslev E, Gilbert MT and Olsen JV (2011). Proteomic analysis of a Pleistocene mammoth femur reveals more than one hundred ancient bone proteins. *Journal of Proteome Research*, **11**:917-926.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/22103443) [Full text](https://doi.org/10.1021/pr200721u) <span class="__dimensions_badge_embed__" data-doi="10.1021/pr200721u" data-style="small_rectangle"></span>
 
-Parnell LD, Lindenbaum P, Shameer K, Dall'Olio GM, Swan DC, Jensen LJ, Cockell SJ, Pedersen BS, Mangan ME, Miller CA, Albert I (2011). BioStar: An Online Question & Answer Resource for the Bioinformatics Community. *PLoS Computational Biology*, **7**:e1002216.  
+Parnell LD, Lindenbaum P, Shameer K, Dall'Olio GM, Swan DC, Jensen LJ, Cockell SJ, Pedersen BS, Mangan ME, Miller CA, Albert I (2011). BioStar: An Online Question & Answer Resource for the Bioinformatics Community. *PLOS Computational Biology*, **7**:e1002216.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/22046109) [Full text](https://doi.org/10.1371/journal.pcbi.1002216) [WWW](http://www.biostars.org/) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1002216" data-style="small_rectangle"></span>
 
 Waters MR, Stafford Jr. TW, McDonald HG, Gustafson C, Rasmussen M, Cappellini E, Olsen JV, Szklarczyk D, Jensen LJ, Gilbert MTP, Willerslev E (2011). Pre-Clovis Mastodon Hunting 13,800 Years Ago at the Manis Site, Washington. *Science*, **334**:351-353.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/22021854) [Full text](https://doi.org/10.1126/science.1207663) <span class="__dimensions_badge_embed__" data-doi="10.1126/science.1207663" data-style="small_rectangle"></span>
 
-Roque FS*, Jensen PB*, Schmock H, Dalgaard M, Andreatta M, Hansen T, Søeby K, Bredkjær S, Juul A, Werge T, Jensen LJ and Brunak S (2011). Using Electronic Patient Records to Discover Disease Correlations and Stratify Patient Cohorts. *PLoS Computational Biology*, **7**:e1002141.  
+Roque FS*, Jensen PB*, Schmock H, Dalgaard M, Andreatta M, Hansen T, Søeby K, Bredkjær S, Juul A, Werge T, Jensen LJ and Brunak S (2011). Using Electronic Patient Records to Discover Disease Correlations and Stratify Patient Cohorts. *PLOS Computational Biology*, **7**:e1002141.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/21901084) [Full text](https://doi.org/10.1371/journal.pcbi.1002141) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1002141" data-style="small_rectangle"></span>
 
 Weinert BT, Wagner SA, Horn H, Henriksen P, Liu WR, Olsen JV, Jensen LJ and Choudhary C (2011). Proteome-wide mapping of the Drosophila acetylome demonstrates a high degree of conservation of lysine acetylation. *Science Signaling*, **4**:ra48.  
@@ -249,7 +249,7 @@ Szklarczyk D, Franceschini A, Kuhn M, Simonovic M, Roth A, Minguez P, Doerks T, 
 Gallego O, Betts MJ, Gvozdenovic-Jeremic J, Maeda K, Matetzki C, Aguilar-Gurrieri C, Beltran-Alvarez P, Bonn S, Fernández-Tornero C, Jensen LJ, Kuhn M, Trott J, Rybin V, Müller CW, Bork P, Kaksonen M, Russell RB and Gavin A-C (2010). A systematic screen for protein–lipid interactions in Saccharomyces cerevisiae. *Molecular Systems Biology*, **6**:430.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/21119626) [Full text](https://doi.org/10.1038/msb.2010.87) <span class="__dimensions_badge_embed__" data-doi="10.1038/msb.2010.87" data-style="small_rectangle"></span>
 
-Iskar M, Campillos M, Kuhn M, Jensen LJ, van Noort V and Bork P (2010). Drug-induced regulation of target expression. *PLoS Computational Biology*, **6**:e1000925.  
+Iskar M, Campillos M, Kuhn M, Jensen LJ, van Noort V and Bork P (2010). Drug-induced regulation of target expression. *PLOS Computational Biology*, **6**:e1000925.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/20838579) [Full text](https://doi.org/10.1371/journal.pcbi.1000925) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1000925" data-style="small_rectangle"></span>
 
 O’Donoghue SI, Horn H, Pafilis E, Haag S, Kuhn M, Satagopam VP, Schneider R and Jensen LJ (2010). Reflect: a practical approach to web semantics. *Journal of Web Semantics*, **8**:182-189.  
@@ -336,7 +336,7 @@ Hooper SD*, Boue S*, Krause R*, Jensen LJ, Mason CE, Ghanim M, White KP, Furlong
 von Mering C*, Jensen LJ*, Kuhn M, Chaffron S, Doerks T, Krüger B, Snel B and Bork P (2007). STRING 7 - recent developments in the integration and prediction of protein interactions. *Nucleic Acids Research*, **35**:D358-D362.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/17098935) [Full text](https://doi.org/10.1093/nar/gkl825) [WWW](https://string-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkl825" data-style="small_rectangle"></span>
 
-Perocchi F, Jensen LJ, Gagneur J, Athing U, von Mering C, Bork P, Prokisch H and Steinmetz LM (2006). Assessing systems properties of yeast mitochondria through an interaction map of the organelle. *PLoS Genetics*, **2**:1612-1624.  
+Perocchi F, Jensen LJ, Gagneur J, Athing U, von Mering C, Bork P, Prokisch H and Steinmetz LM (2006). Assessing systems properties of yeast mitochondria through an interaction map of the organelle. *PLOS Genetics*, **2**:1612-1624.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/17054397) [Full text](https://doi.org/10.1371/journal.pgen.0020170) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pgen.0020170" data-style="small_rectangle"></span>
 
 Jensen LJ\*, Jensen TS\*, de Lichtenberg U\*, Brunak S and Bork P (2006). Co-evolution of transcriptional and posttranslational cell cycle regulation. *Nature*, **433**:594-597.  
@@ -363,10 +363,10 @@ Saric J*, Jensen LJ*, Ouzounova R, Rojas R and Bork P (2006). Extraction of regu
 Taxis C, Kavagiou Z, Keller P, Jensen LJ, Colombelli J, Bork P, Stelzer EHK and Knop M (2006). Spore number control and breeding in Saccharomyces cerevisiae a key role for a self-organizing system. *Journal of Cell Biology*, **171**:627-640.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/16286509) [Full text](https://doi.org/10.1083/jcb.200507168) <span class="__dimensions_badge_embed__" data-doi="10.1083/jcb.200507168" data-style="small_rectangle"></span>
 
-Shah PK, Jensen LJ, Boue S and Bork P (2005). Extraction of transcript diversity from scientific literature. *PLoS Computational Biology*, **1**:e10.  
+Shah PK, Jensen LJ, Boue S and Bork P (2005). Extraction of transcript diversity from scientific literature. *PLOS Computational Biology*, **1**:e10.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/16103899) [Full text](https://doi.org/10.1371/journal.pcbi.0010010) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.0010010" data-style="small_rectangle"></span>
 
-Korbel JO, Doerks T, Jensen LJ, Perez-Iratxeta C, S. Kaczanowski, S.D. Hooper, M.A. Andrade, and P. Bork (2005). Systematic association of genes to phenotypes by genome and literature mining. *PLoS Biology*, **5**:e134.  
+Korbel JO, Doerks T, Jensen LJ, Perez-Iratxeta C, S. Kaczanowski, S.D. Hooper, M.A. Andrade, and P. Bork (2005). Systematic association of genes to phenotypes by genome and literature mining. *PLOS Biology*, **5**:e134.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/15799710) [Full text](https://doi.org/10.1371/journal.pbio.0030134) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pbio.0030134" data-style="small_rectangle"></span>
 
 Jensen LJ and Steinmetz LM (2005). Re-analysis of data and its integration. *FEBS Letters*, **579**:1802-1807.  
@@ -477,7 +477,7 @@ Jensen PB, Jensen LJ and Brunak S (2013). Reply to 'Mining electronic health rec
 Jensen PB, Jensen LJ and Brunak S (2012). Mining electronic health records: towards better research applications and clinical care. *Nature Reviews Genetics*, **13**:395-405.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/22549152) [Full text](https://doi.org/10.1038/nrg3208) <span class="__dimensions_badge_embed__" data-doi="10.1038/nrg3208" data-style="small_rectangle"></span>
 
-Jensen LJ and Bork P (2010). Ontologies in quantitative biology: A basis for comparison, integration and discovery. *PLoS Biology*, **8**:e1000374.  
+Jensen LJ and Bork P (2010). Ontologies in quantitative biology: A basis for comparison, integration and discovery. *PLOS Biology*, **8**:e1000374.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/20520843) [Full text](https://doi.org/10.1371/journal.pbio.1000374) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pbio.1000374" data-style="small_rectangle"></span>
 
 Blicher T, Gupta R, Wesolowska A, Jensen LJ and Brunak S (2010). Protein Annotation in the Era of Personal Genomics. *Current Opinion in Structural Biology*, **20**:335-341.  
@@ -512,10 +512,10 @@ Have CT and Jensen LJ (2013). Are graph databases ready for bioinformatics? *Bio
 Jensen LJ and Bateman A (2011). The rise and fall of supervised machine learning techniques. *Bioinformatics*, **27**:3331–3332, 2011.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/22101152) [Full text](https://doi.org/10.1093/bioinformatics/btr585) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btr585" data-style="small_rectangle"></span>
 
-Dall'Olio GM, Marino J, Schubert M, Keys KL, Stefan MI, Gillespie CS, Poulain P, Shameer K, Sugar R, Invergo BM, Jensen LJ, Bertranpetit J and Laayouni H (2011). Ten Simple Rules for Getting Help from Online Scientific Communities. *PLoS Computational Biology*, **7**:e1002202.  
+Dall'Olio GM, Marino J, Schubert M, Keys KL, Stefan MI, Gillespie CS, Poulain P, Shameer K, Sugar R, Invergo BM, Jensen LJ, Bertranpetit J and Laayouni H (2011). Ten Simple Rules for Getting Help from Online Scientific Communities. *PLOS Computational Biology*, **7**:e1002202.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/21980280) [Full text](https://doi.org/10.1371/journal.pcbi.1002202) [WWW](https://www.biostars.org) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1002202" data-style="small_rectangle"></span>
 
-Saunders N, Beltrão P, Jensen LJ, Jurczak D, Krause R, Kuhn M and Wu S (2009). Microblogging the ISMB: A New Approach to Conference Reporting. *PLoS Computational Biology*, **5**:e1000263.  
+Saunders N, Beltrão P, Jensen LJ, Jurczak D, Krause R, Kuhn M and Wu S (2009). Microblogging the ISMB: A New Approach to Conference Reporting. *PLOS Computational Biology*, **5**:e1000263.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/19180175) [Full text](https://doi.org/10.1371/journal.pcbi.1000263) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1000263" data-style="small_rectangle"></span>
 
 Jensen LJ and Bork P (2008). Not comparable, but complementary. *Science*, **322**:56-57.  
