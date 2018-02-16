@@ -13,7 +13,7 @@ Cuesta Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2017). An integrative m
 ## Research articles
 
 Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ and Brunak S (2018). Text mining of 15 million full-text scientific articles. *PLOS Computational Biology*, **14**:e1005962.  
-[Full text](https://doi.org/10.1371/journal.pcbi.1005962) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1005962" data-style="small_rectangle"></span>
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/29447159) [Full text](https://doi.org/10.1371/journal.pcbi.1005962) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1005962" data-style="small_rectangle"></span>
 
 Palasca O, Santos A, Stolte, C, Gorodkin, J\* and Jensen LJ\* (2018). TISSUES 2.0: an integrative web resource on mammalian tissue expression. *Database*, **2018**:bay003.  
 [Full text](https://doi.org/10.1093/database/bay003) <span class="__dimensions_badge_embed__" data-doi="10.1093/database/bay003" data-style="small_rectangle"></span>
