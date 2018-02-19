@@ -65,7 +65,7 @@ The goal of cooccurrence-based information extraction (IE) is to link entities (
 
 Go to <https://diseases.jensenlab.org/> and query for **Crohn disease**. Again, click on it on the disambiguation page (like in the ORGANISMS resource).
 
-_Which gene is most strongly associated with Crohn's disease according to text mining?__
+_Which gene is most strongly associated with Crohn's disease according to text mining?_
 
 Click on **NOD2** in the text-mining table.
 
