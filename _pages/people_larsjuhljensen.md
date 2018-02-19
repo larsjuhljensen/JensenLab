@@ -1,7 +1,7 @@
 ---
-title: People
+title: Lars Juhl Jensen
 layout: single
-permalink: /people/
+permalink: /people/larsjuhljensen/
 ---
 ![Photo of Lars Juhl Jensen](people_larsjuhljensen_big.jpg)  
 
