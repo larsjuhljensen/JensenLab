@@ -7,7 +7,7 @@ sidebar:
 ---
 ## Learning objectives
 
-In these exercises, we will use the [STRING](https://string-db.org/), [STITCH](https://stitch-db.org/), and [DISEASES](https://diseases.jensenlab.org/) databases through their respective web interfaces. The exercises will teach you how to:
+In these exercises, we will use the [STRING](https://string-db.org/), [STITCH](http://stitch-db.org/), and [DISEASES](https://diseases.jensenlab.org/) databases through their respective web interfaces. The exercises will teach you how to:
 
 * retrieve a STRING network for a protein of interest
 * interpret the different visual representations
@@ -69,7 +69,7 @@ _Does this change the set of proteins shown in the network?_
 
 ### 2.1 Chemical compound query
 
-To retrieve for a chemical compound, go to <https://stitch-db.org/>, type **aspirin** in the **Item Name** field, type **Homo sapiens** in **Organism**, and click the **SEARCH** button. You should now see a network of proteins associated with aspirin, including PTGS1 and PTGS2, which are the direct targets of aspirin.
+To retrieve for a chemical compound, go to <http://stitch-db.org/>, type **aspirin** in the **Item Name** field, type **Homo sapiens** in **Organism**, and click the **SEARCH** button. You should now see a network of proteins associated with aspirin, including PTGS1 and PTGS2, which are the direct targets of aspirin.
 
 ### 2.2 Binding assay data
 

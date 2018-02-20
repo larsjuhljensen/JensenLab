@@ -7,7 +7,7 @@ sidebar:
 ---
 ## Learning objectives
 
-In these exercises, we will use the [stringApp](http://apps.cytoscape.org/apps/stringApp) for [Cytoscape](http://cytoscape.org/) to retrieve molecular networks from the [STRING](https://string-db.org/) and [STITCH](https://stitch-db.org/) databases. The exercises will teach you how to:
+In these exercises, we will use the [stringApp](http://apps.cytoscape.org/apps/stringApp) for [Cytoscape](http://cytoscape.org/) to retrieve molecular networks from the [STRING](https://string-db.org/) and [STITCH](http://stitch-db.org/) databases. The exercises will teach you how to:
 
 * retrieve networks for proteins or small-molecule compounds of interest
 * retrieve networks for a disease or an arbitrary topics in PubMed

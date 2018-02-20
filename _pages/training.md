@@ -15,6 +15,7 @@ As part of running recurring training events, we maintain up-to-date exercises o
 
 * [STRING and related web resources](/training/string/)
 * [Cytoscape stringApp](/training/stringapp/)
+* [Text mining](/training/textmining/)
 
 Additional training material on other topics is linked to from the events below.
 
@@ -26,32 +27,44 @@ EMBO Practical Course on Computational Analysis of Protein-Protein Interactions
 4--10 October 2018, Luxembourg, Luxembourg  
 EMBO Practical Course on Phenotyping Neurological Syndromes for Systems Genetics
 
+9--13 April 2018, Copenhagen, Denmark  
+Statistical Methods in Bioinformatics
+
+6 March 2018, Copenhagen, Denmark  
+Fundamental Bioinformatics
+
 ## Past events
 
 24 January 2018, Copenhagen, Denmark  
-Cytoscape/STRING Workshop  
+Cytoscape/STRING Workshop
 
 25--26 October 2017, Copenhagen, Denmark  
 Microbiome Data Interpretation Workshop  
 [Material](https://drive.google.com/open?id=0B3LtU3DLB8MQUGRsLWdWSEY0OWs)
 
 16 October 2017, Bergen, Norway  
-Applied Structural Bioinformatics  
+Applied Structural Bioinformatics
 
 20 June 2017, Melbourne, Australia  
-Utilising STRING App for Cytoscape  
+Utilising STRING App for Cytoscape
 
 9 June 2017, Hillerød, Denmark  
 Statistics on Big Biomedical Data
 
 23--24 May 2017, Aarhus, Denmark  
-STRING/Cytoscape Workshop  
+STRING/Cytoscape Workshop
+
+3--7 April 2017, Copenhagen, Denmark  
+Statistical Methods in Bioinformatics
+
+14 March 2017, Copenhagen, Denmark  
+Fundamental Bioinformatics
 
 19--23 June 2016, Heidelberg, Germany  
 EMBO Practical Course on Computational Biology
 
 30 May--4 June 2016, Budapest, Hungary  
-EMBO Practical Course on Computational Analysis of Protein-Protein Interactions
+EMBO Practical Course on Computational Analysis of Protein-Protein Interactions  
 [Material](http://aidanbudd.github.io/ppisnd/programme.html)
 
 16--20 May 2016, Rostock, Germany  
@@ -61,7 +74,7 @@ Integration of Data and Models in Medicine
 Bioinformatics Spring School
 
 11 March 2016, Copenhagen, Denmark  
-Introduction to Bioinformatics
+Fundamental Bioinformatics
 
 8--13 March 2015, Safed, Israel  
 The Literature Text Mining Approach In Cancer Research  
@@ -93,7 +106,7 @@ Honor Seminar at Osaka University
 Bioinformatics Spring School
 
 3 March 2015, Copenhagen, Denmark  
-Introduction to Bioinformatics
+Fundamental Bioinformatics
 
 28 September--3 October 2014, Cape Town, South Africa  
 EMBO Practical Course on Computational Analysis of Protein-Protein Interactions
@@ -105,7 +118,7 @@ EMBO Practical Course on Computational Biology
 Bioinformatics Spring School
 
 14 March 2014, Copenhagen, Denmark  
-Introduction to Bioinformatics
+Fundamental Bioinformatics
 
 21--25 October 2013, Sydney, Australia  
 EMBL-Australia Masterclass on Protein Sequence Analysis
@@ -120,7 +133,7 @@ Bioinformatics for Human Biologists
 MaxQuant Summer School
 
 15 March 2013, Copenhagen, Denmark  
-Introduction to Bioinformatics
+Fundamental Bioinformatics
 
 2--6 March 2013, Seeon--Seebruck, Germany  
 Bioinformatics Spring School
