@@ -59,6 +59,13 @@ resources:
 training:
   - title: "Training material"
     url: /training/#training-material
+    children:
+      - title: "STRING database"
+        url: /training/string/
+      - title: "Cytoscape stringApp"
+        url: /training/stringapp/
+      - title: "Text mining"
+        url: /training/textmining/
   - title: "Upcoming events"
     url: /training/#upcoming-events
   - title: "Past events"
