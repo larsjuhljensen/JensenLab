@@ -126,7 +126,7 @@ Next, we will visualize the top-3 enriched terms in the network by using split c
 
 _Do these terms give good coverage of the proteins in network?_
 
-Finally, we can save the list of enriched terms and associated p-values as a text file using Cytoscape's menu **File → Export → Export STRING Enrichment**.
+Finally, save the list of enriched terms and associated p-values as a text file by going to **File → Export → Export STRING Enrichment**.
 
 ## Exercise 3
 
