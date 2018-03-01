@@ -35,6 +35,9 @@ Fundamental Bioinformatics
 
 ## Past events
 
+5--9 February 2018, Cantanhede, Portugal  
+From Protein Structure to Biological Function through Interactomics
+
 24 January 2018, Copenhagen, Denmark  
 Cytoscape/STRING Workshop
 
