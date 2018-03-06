@@ -30,10 +30,10 @@ EMBO Practical Course on Phenotyping Neurological Syndromes for Systems Genetics
 9--13 April 2018, Copenhagen, Denmark  
 Statistical Methods in Bioinformatics
 
+## Past events
+
 6 March 2018, Copenhagen, Denmark  
 Fundamental Bioinformatics
-
-## Past events
 
 5--9 February 2018, Cantanhede, Portugal  
 From Protein Structure to Biological Function through Interactomics
