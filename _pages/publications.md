@@ -138,7 +138,7 @@ Jensen AB, Moseley PL, Oprea T, Ellesøe SG, Eriksson R, Schmock H, Jensen PB, J
 Rudolf AF, Skovgaard T, Jensen LJ\*  and Berthelsen J\* (2014). A comparison of protein kinases inhibitor screening methods using both enzymatic activity and binding affinity determination. *PLOS ONE*, **9**:e98800.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/24915177) [Full text](https://doi.org/10.1371/journal.pone.0098800) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pone.0098800" data-style="small_rectangle"></span>
 
-Horn H*, Schoof EM*, Kim J*, Robin X, Miller ML, Diella F, Palma A, Cesareni G, Jensen LJ\* and Linding R\* (2014). KinomeXplorer: an integrated platform for kinome biology studies. *Nature Methods*, **11**:603-604.  
+Horn H\*, Schoof EM\*, Kim J\*, Robin X, Miller ML, Diella F, Palma A, Cesareni G, Jensen LJ\* and Linding R\* (2014). KinomeXplorer: an integrated platform for kinome biology studies. *Nature Methods*, **11**:603-604.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/24874572) [Full text](https://doi.org/10.1038/nmeth.2968) [WWW](http://kinomexplorer.info) <span class="__dimensions_badge_embed__" data-doi="10.1038/nmeth.2968" data-style="small_rectangle"></span>
 
 Bøgebo R, Horn H, Olsen JV, Gammeltoft S, Jensen LJ, Hansen JL and Christensen GL (2014). Predicting kinase activity in Angiotensin receptor phosphoproteomes based on sequence-motifs and interactions. *PLOS ONE*, **9**:e94672.  
