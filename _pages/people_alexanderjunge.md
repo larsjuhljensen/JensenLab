@@ -1,7 +1,7 @@
 ---
-title: Lars Juhl Jensen
+title: Alexander Junge
 layout: single
-permalink: /people/larsjuhljensen/
+permalink: /people/alexanderjunge/
 ---
 
 ![Photo of Alexander Junge](people_alexanderjunge_big.jpg)  
