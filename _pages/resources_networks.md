@@ -1,5 +1,5 @@
 ---
-title: Molecular networks
+title: Molecular network resources
 layout: single
 permalink: /resources/networks/
 sidebar:

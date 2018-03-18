@@ -1,5 +1,5 @@
 ---
-title: Text mining
+title: Text-mining resources
 layout: single
 permalink: /resources/textmining/
 sidebar:

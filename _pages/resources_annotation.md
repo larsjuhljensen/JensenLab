@@ -1,5 +1,5 @@
 ---
-title: Protein annotation
+title: Protein annotation resources
 layout: single
 permalink: /resources/annotation/
 sidebar:

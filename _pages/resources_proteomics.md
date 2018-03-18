@@ -1,5 +1,5 @@
 ---
-title: Proteomics
+title: Proteomics resources
 layout: single
 permalink: /resources/proteomics/
 sidebar:
