@@ -19,7 +19,7 @@ The text-mining community organizes many so-called challenges and shared tasks i
 
 [EXTRACT](https://extract.jensenlab.org/) came out as the best scoring tool in the BioCreative V Interactive Annotation Task, which evaluated utility and user experience of annotation tools. TagIt, an adapted version of the tagger software used for all our text-mining projects, produced the best quality results for named entity recognition of both bacteria and habitats in the BioNLP Bacteria Biotope 3 task. Finally, our public tagging web service was one of several servers to manage perfect uptime and performance bottlenecked only by the evaluation servers in the BioCreative V.5 Technical Interoperability and Performance of annotation Servers track.
 
-## Illuminating the druggable genome
+## Understudied drug targets
 
 The JensenLab is part of the Knowledge Management Central of the NIH program [Illuminating the Druggable Genome](https://druggablegenome.net/). In this project the [text-mining resources](/resources/textmining) developed within the group are used to identify proteins from targetable classes (kinases, G-protein-coupled receptors, and ion channels) in text from the scientific literature as well as funding and patent records. This in turn allows us to help quantify how well studied each protein is, and thereby prioritize the so-called dark targets, about which very little is known.
 
