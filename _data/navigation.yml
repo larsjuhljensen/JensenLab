@@ -12,6 +12,28 @@ main:
   - title: "Training"
     url: /training/
 
+projects:
+  - title: "Network biology"
+    url: /projects/networks/
+    children:
+      - title: "Cytoscape integration"
+        url: /projects/networks/#cytoscape-integration
+      - title: "Disease networks"
+        url: /projects/networks/#disease-networks
+  - title: "Computational proteomics"
+    url: /projects/proteomics/
+  - title: "Text mining"
+    url: /projects/textmining/
+    children:
+      - title: "Microbiome interpretation"
+        url: /projects/textmining/#microbiome-interpretation
+      - title: "Challenges and shared tasks"
+        url: /projects/textmining/#challenges-and-shared-tasks
+      - title: "Illuminating the druggable genome"
+        url: /projects/textmining/#illuminating-the-druggable-genome
+      - title: "Adverse drug reactions"
+        url: /projects/textmining/#adverse-drug-reactions
+
 publications:
   - title: "Preprints"
     url: /publications/#preprints
