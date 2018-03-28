@@ -1,5 +1,5 @@
 ---
-title: Text mining projects
+title: Text-mining projects
 layout: single
 permalink: /projects/textmining/
 sidebar:
