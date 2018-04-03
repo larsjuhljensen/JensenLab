@@ -189,13 +189,13 @@ textarea {
 .btn--cybrowser,
 .cybrowser,
 html[data-useragent*='CyBrowser'] .non-cybrowser {
-  display: none;
+  display: none !important;
 }
 
 html[data-useragent*='CyBrowser'] a.btn--cybrowser {
-  display: inline-block;
+  display: inline-block !important;
 }
 
 html[data-useragent*='CyBrowser'] div.cybrowser {
-  display: block;
+  display: block !important;
 }
