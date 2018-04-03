@@ -15,7 +15,7 @@ Together with groups at the [European Molecular Biology Laboratory](https://www.
 
 We have furthermore expanded the STRING network to cover also microRNAs and other non-coding RNAs in the [RAIN](https://rth.dk/resources/rain/) resource, which we develop in collaboration with the [Center for non-Coding RNA in Technology and Health](https://rth.dk/).
 
-Most recently, we have created [STRING Viruses](http://viruses.string-db.org/), which is a sister resource to STRING that extends the scope from intra-species interactions of proteins from cellular organisms to include also viral proteins and their interactions with host proteins.
+Most recently, we have created [STRING Viruses](http://viruses.string-db.org/), which is a sister resource to STRING that extends the scope from intra-species interactions of proteins from cellular organisms to include also viral proteins and their interactions with host proteins. To address also non-viral pathogens, we have created [OrthoHPI](https://orthohpi.jensenlab.org/), which predicts host--parasite protein interactions through orthology transfer and localization filtering of interactions from STRING.
 
 ## Visualization tools
 
