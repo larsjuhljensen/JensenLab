@@ -144,6 +144,8 @@ We are going to use the stringApp to query the [DISEASES](https://diseases.jense
 
 Open a new session in Cytoscape from the menu **File → New → Session**. Use the menu **File → Import → Network → Public Databases** and the **STRING: disease query** option. Retrieve a network for **Parkinson's disease** and another for **Alzheimer's disease**.
 
+[Import Parkinson's disease network](cycmd:string disease query disease=DOID:14330 taxonID=9606 limit=100){: .btn .btn--cybrowser .btn--primary} [Import Alzheimer's disease network](cycmd:string disease query disease=DOID:10652 taxonID=9606 limit=100){: .btn .btn--cybrowser .btn--primary}
+
 ### 3.2. Working with node attributes
 
 Browse through the node attributes table and find the disease score column. Sort it descending by values to see the highest disease scores. You can highlight the corresponding nodes by selecting the rows in the table, bringing up the context menu (right-click the selected rows) and choosing the ‘Select nodes from selected rows’ option. You can also use one of the icons in the menu to zoom into the selected node.
@@ -165,6 +167,8 @@ _How many nodes and edges does the network contain compared to before?_
 ### 3.4 Network clustering
 
 Next, we will use the MCL algorithm to find identify clusters of tightly connected proteins within the combined network. Go to the menu **Apps → clusterMaker → MCL Cluster**. Set the **Granularity parameter (inflation value)** to 4 and choose the **score** attribute (i.e. the overall STRING confidence score) as **Array Sources**, select the option **Create new clustered network**, and click **OK** to start the clustering. The app will now run the algorithm and automatically create a network showing the clusters.
+
+[Cluster network](cycmd:cluster mcl attribute=score inflation_parameter=4 showUI=true){: .btn .btn--cybrowser .btn--primary}
 
 _How many clusters have at least 4 nodes?_
 
