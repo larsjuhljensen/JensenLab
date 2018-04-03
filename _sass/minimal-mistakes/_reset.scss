@@ -186,9 +186,13 @@ textarea {
   vertical-align: top; /* readability and alignment cross-browser*/
 }
 
-div.cybrowser,
-html[data-useragent*='CyBrowser'] div.non-cybrowser {
+.cybrowser,
+html[data-useragent*='CyBrowser'] .non-cybrowser {
   display: none;
+}
+
+html[data-useragent*='CyBrowser'] a.cybrowser {
+  display: inline;
 }
 
 html[data-useragent*='CyBrowser'] div.cybrowser {
