@@ -48,7 +48,7 @@ Go to the menu **File → Import → Network → Public Databases**. In the impo
 
 The next dialog shows all the matches that the stringApp finds for your disease query and selects the first one. Make sure to select the intended disease before pressing the **Import** button to continue.
 
-[Import Alzheimer's disease network](cycmd:string disease query disease=DOID:10652 taxonID=9606){: .btn .btn--primary cybrowser}
+[Import Alzheimer's disease network](cycmd:string disease query disease=DOID:10652 taxonID=9606){: .btn .btn--primary .cybrowser}
 
 _Which additional attribute column do you get in the **Node Table** for a disease query compared to a protein query? (Hint: check the last column.)_
 
