@@ -48,13 +48,15 @@ Go to the menu **File → Import → Network → Public Databases**. In the impo
 
 The next dialog shows all the matches that the stringApp finds for your disease query and selects the first one. Make sure to select the intended disease before pressing the **Import** button to continue.
 
-[Import Alzheimer's disease network](cycmd:string disease query disease=DOID:10652 taxonID=9606){: .btn .btn--cybrowser .btn--primary}
+[Import Alzheimer's disease network](cycmd:string disease query disease=DOID:10652 taxonID=9606 limit=100){: .btn .btn--cybrowser .btn--primary}
 
 _Which additional attribute column do you get in the **Node Table** for a disease query compared to a protein query? (Hint: check the last column.)_
 
 ### 1.4 PubMed queries
 
 Go to the menu **File → Import → Network → Public Databases**. In the import dialog, choose **STRING: PubMed query** as **Data Source** and type query representing a topic of interest into the **PubMed Query** field (e.g. jet-lag). You can use any query that would work on the PubMed website, but it should obviously a topic with related genes or proteins. The stringApp will query PubMed for the abstracts, find the top-N proteins (by default 100) associated with these abstracts, and retrieve a STRING network for them.
+
+[Import jet-lag network](cycmd:string pubmed query pubmed=jet-lag taxonID=9606 limit=50){: .btn .btn--cybrowser .btn--primary}
 
 _Which attribute column do you get in the **Node Table** for a PubMed query compared to a disease query? (Hint: check the last columns.)_
 
