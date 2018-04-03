@@ -186,6 +186,7 @@ textarea {
   vertical-align: top; /* readability and alignment cross-browser*/
 }
 
+.btn--cybrowser,
 .cybrowser,
 html[data-useragent*='CyBrowser'] .non-cybrowser {
   display: none;
