@@ -185,3 +185,12 @@ textarea {
   overflow: auto; /* remove vertical scrollbar in IE6-9*/
   vertical-align: top; /* readability and alignment cross-browser*/
 }
+
+div.cybrowser,
+html[data-useragent*='CyBrowser'] div.non-cybrowser {
+  display: none;
+}
+
+html[data-useragent*='CyBrowser'] div.cybrowser {
+  display: block;
+}
