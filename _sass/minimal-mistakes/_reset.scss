@@ -193,7 +193,7 @@ html[data-useragent*='CyBrowser'] .non-cybrowser {
 }
 
 html[data-useragent*='CyBrowser'] a.btn--cybrowser {
-  display: inline;
+  display: inline-block;
 }
 
 html[data-useragent*='CyBrowser'] div.cybrowser {
