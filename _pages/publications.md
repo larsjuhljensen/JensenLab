@@ -12,6 +12,9 @@ Cuesta Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2017). An integrative m
 
 ## Research articles
 
+Mackie M, Rüther P, Samodova D, Di Gianvincenzo F, Granzotto C, Lyon D, Peggie DA, Howard H, Harrison L, Jensen LJ, Olsen JV, Cappellini E (2018). Palaeoproteomic profiling of conservation layers on a 14th century Italian wall painting. *Angewandte Chemie International Edition*.
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/29603563) [Full text](https://doi.org/10.1002/anie.201713020) <span class="__dimensions_badge_embed__" data-doi="10.1002/anie.201713020" data-style="small_rectangle"></span>
+
 Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ\* and Brunak S\* (2018). Text mining of 15 million full-text scientific articles. *PLOS Computational Biology*, **14**:e1005962.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/29447159) [Full text](https://doi.org/10.1371/journal.pcbi.1005962) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1005962" data-style="small_rectangle"></span>
 
