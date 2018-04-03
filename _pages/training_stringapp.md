@@ -154,7 +154,7 @@ Look for an example for a node with a disease score of 5 and one with a disease 
 
 Rename the **disease score** columns in the two networks to **PD score** and **AD score**, respectively, by right-clicking the name and choosing the **Rename column** option.
 
-[Rename disease score to PD score](cycmd:table rename column columnName="disease score" newColumnName="PD score" table="String Network - Parkinson's disease default){: .btn .btn--cybrowser .btn--primary} [Rename disease score to AD score](cycmd:table rename column columnName="disease score" newColumnName="AD score" table="String Network - Alzheimer's disease default){: .btn .btn--cybrowser .btn--primary}
+[Rename disease score to PD score](cycmd:table rename column columnName="disease score" newColumnName="PD score" table="String Network - Parkinson's disease default node){: .btn .btn--cybrowser .btn--primary} [Rename disease score to AD score](cycmd:table rename column columnName="disease score" newColumnName="AD score" table="String Network - Alzheimer's disease default node){: .btn .btn--cybrowser .btn--primary}
 
 ### 3.3 Merging networks
 
