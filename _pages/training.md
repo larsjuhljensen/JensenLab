@@ -27,10 +27,13 @@ EMBO Practical Course on Computational Analysis of Protein-Protein Interactions
 4--10 October 2018, Luxembourg, Luxembourg  
 EMBO Practical Course on Phenotyping Neurological Syndromes for Systems Genetics
 
-9--13 April 2018, Copenhagen, Denmark  
-Statistical Methods in Bioinformatics
+30 June 2018, Torún, Poland
+Microbiome Text Mining Workshop
 
 ## Past events
+
+9--13 April 2018, Copenhagen, Denmark  
+Statistical Methods in Bioinformatics
 
 6 March 2018, Copenhagen, Denmark  
 Fundamental Bioinformatics
