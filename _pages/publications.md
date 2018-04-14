@@ -303,7 +303,7 @@ Miller ML*, Jensen LJ*, Diella F, Jørgensen C, Tinti M, Li L, Hsiung M, Parker 
 Campillos M*, Kuhn M*, Gavin A-C, Jensen LJ and Bork P (2008). Drug target identification using side-effect similarity. *Science*, **321**:263-266.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/18621671) [Full text](https://doi.org/10.1126/science.1158140) <span class="__dimensions_badge_embed__" data-doi="10.1126/science.1158140" data-style="small_rectangle"></span>
 
-Jensen LJ*, de Lichtenberg U*, Jensen TS, Brunak S and Bork P (2008). Circular reasoning rather than cyclic expression. *Genome Biology*, **9**:403.  
+Jensen LJ\*, de Lichtenberg U\*, Jensen TS, Brunak S and Bork P (2008). Circular reasoning rather than cyclic expression. *Genome Biology*, **9**:403.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/18598377) [Full text](https://doi.org/10.1186/gb-2008-9-6-403) [WWW](http://www.cbs.dtu.dk/cellcycle) <span class="__dimensions_badge_embed__" data-doi="10.1186/gb-2008-9-6-403" data-style="small_rectangle"></span>
 
 Kuhn M, von Mering C, Campillos M, Jensen LJ and Bork P (2008). STITCH: interaction networks of chemicals and proteins. *Nucleic Acids Research*, **36**:D684-D688.  
@@ -348,7 +348,7 @@ Jensen LJ\*, Jensen TS\*, de Lichtenberg U\*, Brunak S and Bork P (2006). Co-evo
 Sandmann T, Jensen LJ, Jakobsen JS, Karzynski MM, Eichenlaub MP, Bork P and Furlong EE (2006). A temporal map of transcription factor activity: Mef2 directly regulates target genes at all stages of muscle development. *Developmental Cell*, **10**:797-807.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/16740481) [Full text](https://doi.org/10.1016/j.devcel.2006.04.009) [WWW](http://furlonglab.embl.de/data) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.devcel.2006.04.009" data-style="small_rectangle"></span>
 
-Marguerat S*, Jensen TS*, de Lichtenberg U, Wilhelm BT, Jensen LJ and Bähler J (2006). The more the merrier: comparative analysis of microarray studies on cell cycle-regulated genes in fission yeast. *Yeast*, **23**:261-277.  
+Marguerat S\*, Jensen TS\*, de Lichtenberg U, Wilhelm BT, Jensen LJ and Bähler J (2006). The more the merrier: comparative analysis of microarray studies on cell cycle-regulated genes in fission yeast. *Yeast*, **23**:261-277.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/16544289) [Full text](https://doi.org/10.1002/yea.1351) [WWW](http://www.cbs.dtu.dk/cellcycle) <span class="__dimensions_badge_embed__" data-doi="10.1002/yea.1351" data-style="small_rectangle"></span>
 
 Campillos M, von Mering C, Jensen LJ and Bork P (2006). Identification and analysis of evolutionarily cohesive functional modules in protein networks. *Genome Research*, **16**:374-382.  
@@ -375,10 +375,10 @@ Korbel JO, Doerks T, Jensen LJ, Perez-Iratxeta C, S. Kaczanowski, S.D. Hooper, M
 Jensen LJ and Steinmetz LM (2005). Re-analysis of data and its integration. *FEBS Letters*, **579**:1802-1807.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/15763555) [Full text](https://doi.org/10.1016/j.febslet.2005.02.006) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.febslet.2005.02.006" data-style="small_rectangle"></span>
 
-de Lichtenberg U*, Jensen LJ*, Brunak S and Bork P (2005). Dynamic complex formation during the yeast cell cycle. *Science*, **307**:724-727.  
+de Lichtenberg U\*, Jensen LJ\*, Brunak S and Bork P (2005). Dynamic complex formation during the yeast cell cycle. *Science*, **307**:724-727.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/15692050) [Full text](https://doi.org/10.1126/science.1105103) [WWW](http://www.cbs.dtu.dk/cellcycle) <span class="__dimensions_badge_embed__" data-doi="10.1126/science.1105103" data-style="small_rectangle"></span>
 
-de Lichtenberg U*, Jensen LJ*, Fausbøll A, Jensen TS, Bork P and Brunak S (2005). Comparison of computational methods for the identification of cell cycle regulated genes. *Bioinformatics*, **21**:1164-1171.  
+de Lichtenberg U\*, Jensen LJ\*, Fausbøll A, Jensen TS, Bork P and Brunak S (2005). Comparison of computational methods for the identification of cell cycle regulated genes. *Bioinformatics*, **21**:1164-1171.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/15513999) [Full text](https://doi.org/10.1093/bioinformatics/bti093) [WWW](http://www.cbs.dtu.dk/cellcycle) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/bti093" data-style="small_rectangle"></span>
 
 von Mering C, Jensen LJ, Snel B, Hooper SD, Krupp M, Foglierini M, Jouffre N, Huynen MA and Bork P (2005). STRING: Known and predicted protein-protein associations, integrated and transferred across organisms. *Nucleic Acids Research*, **33**:D433-D437.  
@@ -501,7 +501,7 @@ Harrington E, Jensen LJ and Bork P (2008). Predicting biological networks from g
 Altman RB, Bergman CM, Blake J, Blaschke C, Cohen A, Gannon F, Grivell L, Hahn U, Hersh W, Hirschman L, Jensen LJ, Krallinger M, Mons B, O'Donoghue SI, Peitsch MC, Rebholz-Schuhmann D, Shatkay H and Valencia A (2008). Text mining for biology - the way forward: opinions from leading scientists. *Genome Biology*, **9**:S7.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/18834498) [Full text](https://doi.org/10.1186/gb-2008-9-s2-s7) <span class="__dimensions_badge_embed__" data-doi="10.1186/gb-2008-9-s2-s7" data-style="small_rectangle"></span>
 
-de Lichtenberg U*, Jensen TS*, Brunak S, Bork P and Jensen LJ (2007). Evolution of Cell Cycle Control - Same Molecular Machines, Different Regulation. *Cell Cycle*, **6**:1819-1825.  
+de Lichtenberg U\*, Jensen TS\*, Brunak S, Bork P and Jensen LJ (2007). Evolution of Cell Cycle Control - Same Molecular Machines, Different Regulation. *Cell Cycle*, **6**:1819-1825.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/17671420) [Full text](https://doi.org/10.4161/cc.6.15.4537) [WWW](http://www.cbs.dtu.dk/cellcycle) <span class="__dimensions_badge_embed__" data-doi="10.4161/cc.6.15.4537" data-style="small_rectangle"></span>
 
 Jensen LJ, Saric J and Bork P (2006). Literature mining for the biologist: from information retrieval to biological discovery. *Nature Reviews Genetics*, **7**:119-129.  
