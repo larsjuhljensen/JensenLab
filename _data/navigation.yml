@@ -16,12 +16,17 @@ projects:
   - title: "Network biology"
     url: /projects/networks/
     children:
-      - title: "Cytoscape integration"
-        url: /projects/networks/#cytoscape-integration
+      - title: "Host--pathogen interactions"
+        url: /projects/networks/#host--pathogen-interactions
+      - title: "Animal models of diseases"
+        url: /projects/networks/#animal-models-of-diseases
       - title: "Disease networks"
         url: /projects/networks/#disease-networks
-  - title: "Computational proteomics"
+  - title: "Proteomics"
     url: /projects/proteomics/
+    children:
+      - title: "Fragmentation prediction"
+        url: /projects/proteomics/#fragmentation-prediction
   - title: "Text mining"
     url: /projects/textmining/
     children:
@@ -38,7 +43,7 @@ publications:
   - title: "Preprints"
     url: /publications/#preprints
   - title: "Research articles"
-    url: /publications/#research articles
+    url: /publications/#research-articles
   - title: "Conference proceedings"
     url: /publications/#conference-proceedings
   - title: "Reviews"
