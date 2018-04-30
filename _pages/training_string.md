@@ -90,3 +90,5 @@ _Are there any proteins that are supported by all three types of evidence?_
 The DISEASES database too allows you to inspect the underlying evidence for an association. Since the predominant source of evidence is automatic text mining, it is always wise to read the underlying text to manually validate the results. Click on **SNCA** in the **Text mining** table to view the text based on which it was associated with the disease. Click **View abstract** for a given entry to see the complete abstract rather than only the title.
 
 _Do the abstracts all mention both the protein and the disease? Do they all use the same name for the protein?_
+
+[![CC By 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
