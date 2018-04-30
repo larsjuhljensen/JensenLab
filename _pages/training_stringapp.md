@@ -185,3 +185,5 @@ First, to select all proteins associated with Alzheimer's disease, go to the **S
 To select the nodes that are shared between the diseases, go to the **Select** tab and create two column filters, one for **Node: AD score** and one for **Node: PD score**. Since the filters by default are combined using the **Match all (AND)** rule, only the nodes that have both scores will be selected. Go to the **Style** tab to set a third bypass color for this last group.
 
 _How are the two diseases distributed across the clusters?_
+
+[![CC By 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
