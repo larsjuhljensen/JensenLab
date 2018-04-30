@@ -91,4 +91,4 @@ The DISEASES database too allows you to inspect the underlying evidence for an a
 
 _Do the abstracts all mention both the protein and the disease? Do they all use the same name for the protein?_
 
-[![CC By 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
+[![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)

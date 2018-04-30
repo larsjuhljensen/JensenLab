@@ -202,4 +202,4 @@ Fleuren WWM and Wynand Alkema W (2015). Application of text mining in the biomed
 Brbic M, Piskorec M, Vidulin V, Krisko A, Smuc T and Supek F (2017). The landscape of microbial phenotypic traits and associated genes. *Nucleic Acids Research*, **44**:10074–10090.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/27915291) [Full text](https://doi.org/10.1093/nar/gkw964)
 
-[![CC By 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
+[![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)

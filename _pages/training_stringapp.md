@@ -186,4 +186,4 @@ To select the nodes that are shared between the diseases, go to the **Select** t
 
 _How are the two diseases distributed across the clusters?_
 
-[![CC By 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
+[![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
