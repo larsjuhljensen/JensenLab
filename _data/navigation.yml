@@ -16,8 +16,8 @@ projects:
   - title: "Network biology"
     url: /projects/networks/
     children:
-      - title: "Host--pathogen interactions"
-        url: /projects/networks/#host--pathogen-interactions
+      - title: "Host–pathogen interactions"
+        url: /projects/networks/#hostpathogen-interactions
       - title: "Animal models of diseases"
         url: /projects/networks/#animal-models-of-diseases
       - title: "Disease networks"
@@ -27,6 +27,8 @@ projects:
     children:
       - title: "Fragmentation prediction"
         url: /projects/proteomics/#fragmentation-prediction
+      - title: "Analysis of in-house data"
+        url: /projects/proteomics/#analysis-of-inhouse-data
   - title: "Text mining"
     url: /projects/textmining/
     children:
