@@ -5,7 +5,7 @@ permalink: /projects/proteomics/
 sidebar:
   nav: "projects"
 ---
-Tandem mass-spectrometry has become a method of choice for high-throughput, quantitative analysis in proteomics. Being located next to a world-leading proteomics facility, we have a keen interest in applying bioinformatics methods to mass-spectrometry-based proteomics data.
+Tandem mass-spectrometry has become a method of choice for high-throughput, quantitative analysis in proteomics. Being located next to a world-leading mass-spectrometry facility, we have a keen interest in applying bioinformatics methods to proteomics data and developing new methods.
 
 ## Fragmentation prediction
 
