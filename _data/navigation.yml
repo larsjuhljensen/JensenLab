@@ -28,7 +28,7 @@ projects:
       - title: "Fragmentation prediction"
         url: /projects/proteomics/#fragmentation-prediction
       - title: "Analysis of in-house data"
-        url: /projects/proteomics/#analysis-of-inhouse-data
+        url: /projects/proteomics/#analysis-of-in-house-data
   - title: "Text mining"
     url: /projects/textmining/
     children:
