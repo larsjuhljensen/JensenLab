@@ -3,7 +3,7 @@ title: Lars Juhl Jensen
 layout: single
 permalink: /people/larsjuhljensen/
 ---
-[lars.juhl.jensen@cpr.ku.dk](mailto:lars.juhl.jensen@cpr.ku.dk)
+(mailto:lars.juhl.jensen@cpr.ku.dk)
 
 ![Photo of Lars Juhl Jensen](people_larsjuhljensen_big.jpg)  
 
