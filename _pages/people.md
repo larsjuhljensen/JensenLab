@@ -5,8 +5,7 @@ permalink: /people/
 ---
 ## Group leader
 ![Portrait of Lars Juhl Jensen](people_larsjuhljensen.jpg)  
-[Lars Juhl Jensen](/people/larsjuhljensen/)  
-<lars.juhl.jensen@cpr.ku.dk>
+[Lars Juhl Jensen](/people/larsjuhljensen/)
 
 ## Current group members
 [Alexander Junge](/people/alexanderjunge/)  
