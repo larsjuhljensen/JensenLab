@@ -40,6 +40,13 @@ projects:
         url: /projects/textmining/#understudied-drug-targets
       - title: "Adverse drug reactions"
         url: /projects/textmining/#adverse-drug-reactions
+  - title: "Student projects"
+    url: /projects/students/
+    children:
+      - title: "Text mining beyond PubMed"
+        url: /projects/students/#text-mining-beyond-pubmed
+      - title: "Text mining for rare diseases"
+        url: /projects/students/#text-mining-for-rare-diseases
 
 publications:
   - title: "Preprints"
