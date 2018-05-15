@@ -4,6 +4,8 @@ layout: single
 permalink: /people/alexanderjunge/
 ---
 
+<alexander.junge@cpr.ku.dk>
+
 ![Photo of Alexander Junge](people_alexanderjunge_big.jpg)  
 
 ## Brief CV
