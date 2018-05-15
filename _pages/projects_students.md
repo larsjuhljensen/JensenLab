@@ -4,7 +4,7 @@ layout: single
 permalink: /projects/students/
 ---
 
-Master's students projects available in the lab. All projects are estimated to last between three and six months and basic programming knowledge is required.
+We are always looking for Master's students to join the lab to work on a project. All projects are estimated to last between three and six months and basic programming knowledge is required.
 
 ## Text mining
 
