@@ -11,7 +11,7 @@ permalink: /people/
 [Alexander Junge](/people/alexanderjunge/)  
 [Dhouha Grissa](http://www.cpr.ku.dk/staff/?pure=en/persons/605543)  
 [Helen Victoria Cook](http://www.cpr.ku.dk/staff/cnb/?pure=en/persons/500317)  
-[Nadezhda Tsankova Doncheva](http://www.cpr.ku.dk/staff/cnb/?pure=en/persons/557793)  
+[Nadezhda Tsankova Doncheva](/people/nadezhdatdoncheva/)  
 [Oana Palasca](http://www.cpr.ku.dk/staff/cnb/?id=405867&vis=medarbejder)  
 [Ufuk Kirik](http://www.cpr.ku.dk/staff/cnb/?pure=en/persons/579163)  
 
