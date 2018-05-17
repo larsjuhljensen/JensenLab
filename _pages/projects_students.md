@@ -7,6 +7,14 @@ sidebar:
 ---
 We are always looking for Master's students to join the lab to work on projects. All projects are estimated to last between three and six months and basic programming knowledge is required. Please contact us if you are interested in doing a project with us.
 
+## Network-based label diffusion
+
+The aim of functional association networks like [STRING](https://string-db.org/) is to link proteins that function together. It is thus an obvious idea to use such networks to infer functional labels of proteins, e.g. involvement in a disease of interest, based on the labels of neighboring proteins. Indeed many algorithms have been proposed for doing this, which either use only the direct neighbors or allow functional labels to diffuse like heat across the network.
+
+We would like to implement such functionality into [stringApp](http://apps.cytoscape.org/apps/stringApp) and possibly also as a new evidence channel in the [COMPARTMENTS](https://compartments.jensenlab.org/), [TISSUES](https://tissues.jensenlab.org/), and [DISEASES](https://diseases.jensenlab.org/)databases. However, it is currently not clear which of the many algorithms is best suited for use on the STRING network. The project is thus to use several existing implementations to diffusion labels, such as disease annotations, across the STRING network and assess which of them yield the best results, both in terms of quality and speed.
+
+*Project advisors: Nadezhda Tsankova Doncheva and [Lars Juhl Jensen](/people/larsjuhljensen/)*
+
 ## Text mining beyond PubMed
 
 Text mining of the biomedical literature has been successful in extracted interactions between a broad spectrum of biomedical entities. The JensenLab co-develops a range of widely used [resources](/resources/) that catalog association, such as STRING for protein--protein interactions and DISEASES for disease--gene associations. A central component of all resources is the automatic mining of abstracts and open access full-text articles available in PubMed.
