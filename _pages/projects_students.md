@@ -15,6 +15,16 @@ We would like to implement such functionality into [stringApp](http://apps.cytos
 
 *Project advisors: Nadezhda Tsankova Doncheva and [Lars Juhl Jensen](/people/larsjuhljensen/)*
 
+## Phosphoproteome visualization
+
+Post-translational modification (PTM) of proteins is an important mechanism in regulation of biochemical reactions in biological systems. Phosphorylation is one of the most studied PTMs since it acts as an on/off switch for many proteins. Surveys of the phosphoproteome quantitatively analyze tens of thousands of phosphorylation sites on thousands of proteins across multiple conditions or time points. All in all, visualization of the phosphoproteome data is far from trivial.
+
+Given that proteins work together in complexes and pathways, it is desirable to view phosphoproteomics data in the context of protein networks. We would thus like to create a framework for visualizing such data within the open-source Cytoscape platform. This can be done either by developing a Cytoscape app in Java or by using JavaScript frameworks like D3.js within the built-in web browser in Cytoscape.
+
+The aim of the project is not to develop a final software package for this, but rather to explore and evaluate different avenues for visualizing phosphoproteomics data. However, a successful project should provide means for to upload new datasets and obtain network-based interactive visualizations.
+
+*Project advisors: Ufuk Kirik and [Lars Juhl Jensen](/people/larsjuhljensen/)*
+
 ## Text mining beyond PubMed
 
 Text mining of the biomedical literature has been successful in extracted interactions between a broad spectrum of biomedical entities. The JensenLab co-develops a range of widely used [resources](/resources/) that catalog association, such as STRING for protein--protein interactions and DISEASES for disease--gene associations. A central component of all resources is the automatic mining of abstracts and open access full-text articles available in PubMed.

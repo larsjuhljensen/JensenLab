@@ -45,6 +45,8 @@ projects:
     children:
       - title: "Network-based label diffusion"
         url: /projects/students/#network-based-label-diffusion
+      - title: "Phosphoproteome visualization"
+        url: /projects/students/#phosphoproteome-visualization
       - title: "Text mining beyond PubMed"
         url: /projects/students/#text-mining-beyond-pubmed
       - title: "Text mining for rare diseases"
