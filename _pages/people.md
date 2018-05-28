@@ -13,7 +13,7 @@ permalink: /people/
 [Helen Victoria Cook](http://www.cpr.ku.dk/staff/cnb/?pure=en/persons/500317)  
 [Nadezhda Tsankova Doncheva](/people/nadezhdatdoncheva/)  
 [Oana Palasca](http://www.cpr.ku.dk/staff/cnb/?id=405867&vis=medarbejder)  
-[Ufuk Kirik](http://www.cpr.ku.dk/staff/cnb/?pure=en/persons/579163)  
+[Ufuk Kirik](/people/ufukkirik/)  
 
 ## Alumni
 Albert Pallejà Caro ([Clinical-Microbiomics A/S](https://www.clinical-microbiomics.com))  
