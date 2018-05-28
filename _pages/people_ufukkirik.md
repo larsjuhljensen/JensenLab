@@ -9,7 +9,7 @@ permalink: /people/ufukkirik/
 <!--- [Photo of Ufuk Kirik](people_ufukkirik.jpg) -->
 
 ## Short profile
-<img style="float: right; margin: 5px;" src="https://jensenlab.org/people/people_ufukkirik.jpg" /> I am a multicultural, multilingual, multidisciplinary scientist with multiple areas of interest within bioinformatics.   I usually have my code [well-caffeinated](https://java.com/en/) and [full of snakes](https://www.python.org/), and I tend to take a [piRate's approach](https://www.r-project.org/) to statistics.
+<img style="float: right; margin: 5px;" src="people_ufukkirik.jpg" /> I am a multicultural, multilingual, multidisciplinary scientist with multiple areas of interest within bioinformatics.   I usually have my code [well-caffeinated](https://java.com/en/) and [full of snakes](https://www.python.org/), and I tend to take a [piRate's approach](https://www.r-project.org/) to statistics.
 
 Besides being prolific in bad puns; I work with analysis of, and method development, for mass-spectrometry proteomics data. On occasion, I take a shot at analysing next-gen sequencing data, as well.
 
