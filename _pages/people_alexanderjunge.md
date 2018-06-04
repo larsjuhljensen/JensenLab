@@ -6,7 +6,13 @@ permalink: /people/alexanderjunge/
 
 <alexander.junge@cpr.ku.dk>
 
-![Photo of Alexander Junge](people_alexanderjunge_big.jpg)  
+![Photo of Alexander Junge](people_alexanderjunge_big.jpg)
+
+## Research interests
+
+My research focuses on biomedical text mining of large corpora. I combine supervised machine learning approaches with unsupervised, co-occurrence based techniques to infer associations between genes, proteins, chemicals, or diseases. My main research goal is to assist scientists in the generation of actionable hypothesis based on the newest findings published in the biomedical literature.
+
+I am currently developing CoCoScore, a context-aware co-occurrence scoring scheme for text mining applications. CoCoScore is available on [GitHub](https://github.com/JungeAlexander/cocoscore) under an open license.
 
 ## Brief CV
 
@@ -23,7 +29,7 @@ Full curriculum vitae as `.pdf` is available upon request.
 
 - [Personal website](http://www.alexanderjunge.net/)
 - [Google Scholar](https://scholar.google.com/citations?user=80t0eDYAAAAJ&hl=en)
-- [Twitter](https://twitter.com/JungeAlexander) 
+- [Twitter](https://twitter.com/JungeAlexander)
 - [GitHub](https://github.com/JungeAlexander)
 - [LinkedIn](https://www.linkedin.com/in/alexanderjunge)
 - [Staff website at University of Copenhagen](http://www.cpr.ku.dk/staff/jensen-group/?pure=en/persons/477194)
