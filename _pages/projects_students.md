@@ -23,7 +23,17 @@ Given that proteins work together in complexes and pathways, it is desirable to 
 
 The aim of the project is not to develop a final software package for this, but rather to explore and evaluate different avenues for visualizing phosphoproteomics data. However, a successful project should provide means for to upload new datasets and obtain network-based interactive visualizations.
 
-*Project advisors: Ufuk Kirik and [Lars Juhl Jensen](/people/larsjuhljensen/)*
+*Project advisors: [Ufuk Kirik](/people/ufukkirik/) and [Lars Juhl Jensen](/people/larsjuhljensen/)*
+
+## Deep learning of peptide fragmentation
+
+Tandem mass-spectrometry (MS/MS) has become a method of choice for high-throughput, quantitative analysis in proteomics. Proteins in a sample are isolated and cleaved into peptides, which are then subjected to ionization, mass analysis, fragmentation, and a second step of mass analysis. Identification of the peptides relies on matching of the fragmentation spectra (MS2) to theoretical spectra of possible candidate peptides. Algorithms typically score the concordance between the theoretical and the experimental spectra by evaluating the number of theoretically possible fragment ions observed in the experimental spectra. However, this assumes that each theoretical fragment is equally likely to be observed, which is not the case. On the contrary, MS2 spectra typically have a few dominant fragments, and it would make sense to only look for these to improve identification.
+
+We have a large pool of identified spectra, which can be used to train machine-learning methods to predict the relative intensities of fragments originating from a peptide sequence, in a specific charge state. There is an existing predictor based on a hidden Markov model, which we would like to compare to recursive neural network (RNN) and "long short-term memory" (LSTM) models.
+
+The goal of the project is to evaluate different machine-learning methods on this task to find out which work best and to investigate their pros and cons to understand why. The project requires that you are well versed in Python, since most existing code and libraries are written in Python, and it is a great chance to practice using deep-learning frameworks like Keras as well as data visualization packages.
+
+*Project advisors: [Ufuk Kirik](/people/ufukkirik/) and [Lars Juhl Jensen](/people/larsjuhljensen/)*
 
 ## Text mining beyond PubMed
 
@@ -41,6 +51,6 @@ The goals of this project are to perform text mining for rare human diseases and
 
 Due to their collective importance to human health, we would like to develop computational methods to study them as a group. One approach is to use text mining to automatically read the literature and to extract information about which genes are associated with which rare diseases. This enables the information found in free form scientific articles to be automatically structured and included in a searchable and reusable database.
 
-The DISEASES database created by the JensenLab in 2015 uses text mining and experimental evidence to expose connections between diseases and the underlying genes but does not yet include rare diseases. This project involves conducting the text mining to enable rare diseases to be added to the database, starting from the rare diseases in the [Monarch Disease Ontology](https://monarchinitiative.org/disease) or the [Orphanet Ontology](https://bioportal.bioontology.org/ontologies/ORDO). Because we expect that many fewer articles are written about rare diseases than about common diseases, we must first test that that text-mining approach will provide useful information also about rare diseases.
+The DISEASES database created by the JensenLab in 2015 uses text mining and experimental evidence to expose connections between diseases and the underlying genes but does not yet include rare diseases. This project involves conducting the text mining to enable rare diseases to be added to the database, starting from the rare diseases in the [Monarch Disease Ontology](https://monarchinitiative.org/disease) or the [Orphanet Ontology](https://bioportal.bioontology.org/ontologies/ORDO). Because we expect that many fewer articles are written about rare diseases than about common diseases, we must first test that the text-mining approach will provide useful information also about rare diseases.
 
 *Project advisors: [Alexander Junge](/people/alexanderjunge/) and [Lars Juhl Jensen](/people/larsjuhljensen/)*
