@@ -70,7 +70,7 @@ The types of queries described above can alternatively be performed through the 
 
 ## Exercise 2
 
-In this exercise, we will work with a list of 78 proteins that interact with TrkA (tropomyosin-related kinase A) in neuroblastoma cells 10 min after stimulation with NGF (nerve growth factor) ([Emdal et al., 2015](http://stke.sciencemag.org/content/8/374/ra40)). An adapted table with the data from this study is available [here](https://goo.gl/8HkRb4).
+In this exercise, we will work with a list of 78 proteins that interact with TrkA (tropomyosin-related kinase A) in neuroblastoma cells 10 min after stimulation with NGF (nerve growth factor) ([Emdal et al., 2015](http://stke.sciencemag.org/content/8/374/ra40)). An adapted table with the data from this study is available [here](/assets/stringapp/Emdal2015SciSignal.xlsx).
 
 ### 2.1 Protein network retrieval
 
@@ -100,7 +100,7 @@ Note that the retrieved network contains a lot of additional information associa
 
 ### 2.3 Data import
 
-Network nodes and edges can have additional information associated with them that we can load into Cytoscape and use for visualization. We will import the data from the text file (https://goo.gl/zjDa81).
+Network nodes and edges can have additional information associated with them that we can load into Cytoscape and use for visualization. We will import the data from the [text file](/assets/stringapp/Emdal2015SciSignal.xlsx).
 
 To import the node attributes file into Cytoscape, go to **File → Import → Table → File**. The preview in the import dialog will show how the file is interpreted given the current settings and will update automatically when you change them. To change the default selection chosen by Cytoscape, click on the arrow in the column heading. For example, you can decide whether the column is imported or not by changing the **Meaning** of the column (hover over each symbol with the mouse to see what they mean). This column-specific dialog will also allow you to change the column name and type.
 
