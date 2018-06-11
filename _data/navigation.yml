@@ -47,6 +47,8 @@ projects:
         url: /projects/students/#network-based-label-diffusion
       - title: "Phosphoproteome visualization"
         url: /projects/students/#phosphoproteome-visualization
+      - title: "Deep learning of peptide fragmentation"
+        url: /projects/students/#deep-learning-of-peptide-fragmentation
       - title: "Text mining beyond PubMed"
         url: /projects/students/#text-mining-beyond-pubmed
       - title: "Text mining for rare diseases"
