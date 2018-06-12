@@ -27,10 +27,10 @@ EMBO Practical Course on Computational Analysis of Protein-Protein Interactions
 4--10 October 2018, Luxembourg, Luxembourg  
 EMBO Practical Course on Phenotyping Neurological Syndromes for Systems Genetics
 
-30 June 2018, Torún, Poland
+30 June 2018, Torún, Poland  
 Microbiome Text Mining Workshop
 
-13 June 2018, Wuhan, China
+13 June 2018, Wuhan, China  
 STRING/Cytoscape Workshop
 
 ## Past events
