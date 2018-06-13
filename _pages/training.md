@@ -30,10 +30,10 @@ EMBO Practical Course on Phenotyping Neurological Syndromes for Systems Genetics
 30 June 2018, Torún, Poland  
 Microbiome Text Mining Workshop
 
+## Past events
+
 13 June 2018, Wuhan, China  
 STRING/Cytoscape Workshop
-
-## Past events
 
 9--13 April 2018, Copenhagen, Denmark  
 Statistical Methods in Bioinformatics
