@@ -53,7 +53,7 @@ Turn off all evidence types except experiments.
 
 _Does this change the set of proteins shown in the network?_
 
-Increase the **max number of interactors to show*** to 20.
+Increase the **max number of interactors to show** to 20.
 
 _How many interaction partners of INSR do you get in the network?_
 
