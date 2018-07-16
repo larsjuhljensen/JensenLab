@@ -141,6 +141,15 @@ training-string:
         url: /training/string/#31-disease-query
       - title: "Validation of text mining"
         url: /training/string/#32-validation-of-text-mining
+  - title: "Exercise 4"
+    url: /training/string/#exercise-4
+    children:
+      - title: "Complete virus query"
+        url: /training/string/#41-complete-virus-query
+      - title: "Inspect virus evidence"
+        url: /training/string/#42-inspect-virus-evidence
+      - title: "Single virus protein query"
+        url: /training/string/#43-single-virus-protein-query
 
 training-stringapp:
   - title: "Learning objectives"
