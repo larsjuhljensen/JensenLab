@@ -91,13 +91,13 @@ The DISEASES database too allows you to inspect the underlying evidence for an a
 
 _Do the abstracts all mention both the protein and the disease? Do they all use the same name for the protein?_
 
-## Exercise 4 -- Viruses
+## Exercise 4
 
 ### 4.1 Complete Virus query
 
 Go to http://viruses.string-db.org, and select **Complete Virus** from the menu on the left.  In the **Virus** dropdown, enter "Measles", and the **Host** dropdown can be left as auto-detect to detect the host with the most interactions, in this case, Homo sapiens.  Click **Search** to retrieve the network.  
 
-### 4.2 Inspect evidence 
+### 4.2 Inspect virus evidence 
 
 Click on the edge connecting the measles virus P/V protein and the human STAT2 protein.  
 
