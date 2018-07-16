@@ -91,4 +91,23 @@ The DISEASES database too allows you to inspect the underlying evidence for an a
 
 _Do the abstracts all mention both the protein and the disease? Do they all use the same name for the protein?_
 
+## Exercise 4 -- Viruses
+
+## 4.1 Complete Virus query
+
+Go to http://viruses.string-db.org, and select **Complete Virus** from the menu on the left.  In the **Virus** dropdown, enter "Measles", and the **Host** dropdown can be left as auto-detect to detect the host with the most interactions, in this case, Homo sapiens.  Click **Search** to retrieve the network.  
+
+## 4.2 Inspect evidence 
+
+Click on the edge connecting the measles virus P/V protein and the human STAT2 protein.  
+
+_What types of evidence support an interaction between these proteins?  List two publications that the evidence comes from._
+
+## 4.3 Single virus protein query
+
+Click on the logo at the top of the page to go back to the main search screen.  Select **Virus by Single Protein** from the left, and then enter "P" as the **Virus Protein Name** and "bacteriophage lambda" as the **Virus**.  The **Host** can again be left to auto-detect E. coli.  Protein P is responsible for the bi-directional replication of phage DNA.  
+
+_Which host proteins does P interact with?  What types of evidence supports these interactions? _
+
+
 [![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
