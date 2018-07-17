@@ -200,14 +200,14 @@ training-stringapp:
     children:
       - title: "Virus queries"
         url: /training/stringapp/#41-virus-queries
-      - title: "Expand network with host proteins"
-        url: /training/stringapp/#42-expand-network-with-host-proteins
-      - title: "Include specific host proteins"
-        url: /training/stringapp/#43-include-specific-host-proteins
+      - title: "Expand with host proteins"
+        url: /training/stringapp/#42-expand-with-host-proteins
+      - title: "Add specific host proteins"
+        url: /training/stringapp/#43-add-specific-host-proteins
       - title: "Merge two host-virus networks"
         url: /training/stringapp/#44-merge-two-host-virus-networks
-      - title: "Functional enrichment for host proteins"
-        url: /training/stringapp/#44-functional-enrichment-for-host-proteins
+      - title: "Functional enrichment"
+        url: /training/stringapp/#44-functional-enrichment
 
 training-textmining:
   - title: "Learning objectives"
