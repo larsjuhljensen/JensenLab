@@ -95,9 +95,9 @@ _Do the abstracts all mention both the protein and the disease? Do they all use 
 
 ### 4.1 Complete virus query
 
-Go to http://viruses.string-db.org, and select **Complete Virus** from the menu on the left.  In the **Virus** dropdown, enter "Measles", and the **Host** dropdown can be left as auto-detect to detect the host with the most interactions, in this case, Homo sapiens.  Click **Search** to retrieve the network.  
+Go to <http://viruses.string-db.org>, and select **Complete Virus** from the menu on the left.  In the **Virus** dropdown, enter "Measles", and the **Host** dropdown can be left as auto-detect to detect the host with the most interactions, in this case, Homo sapiens.  Click **Search** to retrieve the network.  
 
-### 4.2 Inspect virus evidence 
+### 4.2 Inspect virus evidence
 
 Click on the edge connecting the measles virus P/V protein and the human STAT2 protein.  
 
