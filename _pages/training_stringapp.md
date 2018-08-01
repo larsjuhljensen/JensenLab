@@ -186,40 +186,37 @@ To select the nodes that are shared between the diseases, go to the **Select** t
 
 _How are the two diseases distributed across the clusters?_
 
-
 ## Exercise 4
 
 In this exercise, we will retrieve virus-host networks for two closely related viruses, merge them into a single network, and then will retrieve the functional enrichment for the host proteins in this network.
 
 ### 4.1 Virus queries
 
-Go to the menu **File → Import → Network → Public Databases**. In the import dialog, choose **STRING: protein query** as the **Data Source**.  As of version 1.4 of the STRING app, 236 virus species are included in the species dropdown menu.  Since most viruses are small (they have a median of 9 proteins in their genomes) it is reasonable to import **all proteins of this species** for a given virus, so select this checkbox underneath the species dropdown.  For this example we will query all proteins of "Human papillomavirus type 16 (HPV 16)". Simply type HPV 16 and select the species from the resulting shorter dropdown menu.
+Go to the menu **File → Import → Network → Public Databases**. In the import dialog, choose **STRING: protein query** as the **Data Source**. As of version 1.4 of the STRING app, 236 virus species are included in the species dropdown menu. Since most viruses are small (they have a median of 9 proteins in their genomes) it is reasonable to import **all proteins of this species** for a given virus, so select this checkbox underneath the species dropdown. For this example we will query all proteins of "Human papillomavirus type 16 (HPV 16)". Simply type HPV 16 and select the species from the resulting shorter dropdown menu.
 
-_How many virus proteins are encoded for by this virus?  What node information is imported along with the names of the protiens?_
-
+_How many virus proteins are encoded for by this virus? What node information is imported along with the names of the proteins?_
 
 ### 4.2 Expand with host interactors
 
-To retrieve interactions with host proteins, go to **Apps → STRING → Expand network**.  In the resulting dialog, enter the number of desired host proteins, and select the host species from **Type of interactors to expand network by**.  All host species for which we have interactions with the currently imported virus genes, will be shown in the dropdown menu. The **selectivity of interactors** can also be specified -- we recommend a default value of 0.5, but you can move the slider towards 0 to decrease the number of network-sepcific interactors or towards 1 to increase it.  In this example, we will import 50 human proteins, and keep the default selectivity.
+To retrieve interactions with host proteins, go to **Apps → STRING → Expand network**. In the resulting dialog, enter the number of desired host proteins, and select the host species from **Type of interactors to expand network by**. All host species for which we have interactions with the currently imported virus genes, will be shown in the dropdown menu. The **selectivity of interactors** can also be specified -- we recommend a default value of 0.5, but you can move the slider towards 0 to decrease the number of network-sepcific interactors or towards 1 to increase it. In this example, we will import 50 human proteins, and keep the default selectivity.
 
-The resulting network will be automatically re-styled such that the nodes representing virus proteins are red and host proteins are green-blue.  These attributes can be changed from the Cytoscape Style menu.
+The resulting network will be automatically re-styled such that the nodes representing virus proteins are red and host proteins are green-blue. These attributes can be changed from the Cytoscape Style menu.
 
-_Which human protein has the highest interaction score to one of the virus proteins?  What cellular functions is this protein involved in?  (Hint: open the results panel under **Apps → STRING → Show results** panel.)_
+_Which human protein has the highest interaction score to one of the virus proteins? What cellular functions is this protein involved in? (Hint: open the results panel under **Apps → STRING → Show results** panel.)_
 
-Additional viruses or hosts can be added to the network by iterating on this procedure, but this will only add proteins that interact with the proteins that are already in the network.  This will work fine when adding new hosts, since all virus proteins are already in the network.  However to add new viruses, we recommend merging the expanded networks for each virus.
+Additional viruses or hosts can be added to the network by iterating on this procedure, but this will only add proteins that interact with the proteins that are already in the network. This will work fine when adding new hosts, since all virus proteins are already in the network. However to add new viruses, we recommend merging the expanded networks for each virus.
 
 ### 4.3 Add specific host proteins
 
-If a specific host protein is desired, it can also be included in the network from the **Apps → STRING → Query for additional nodes** menu option.  In this example, p53 is not one of the proteins that was included in the network in the previous step, however it is known that the HPV E6 protein mediates ubiquitination of p53.  To include this protein, choose "Homo sapiens" for the species (you may have to scroll up in the list), and enter "tp53" into the text area box in the dialog, then click **Import**.
+If a specific host protein is desired, it can also be included in the network from the **Apps → STRING → Query for additional nodes** menu option. In this example, p53 is not one of the proteins that was included in the network in the previous step, however it is known that the HPV E6 protein mediates ubiquitination of p53. To include this protein, choose "Homo sapiens" for the species (you may have to scroll up in the list), and enter "tp53" into the text area box in the dialog, then click **Import**.
 
 _Which HPV proteins does p53 interact with?_
 
-_Important note about the selectivity parameter_
-Note that p53 will be added to the network in the previous step if a selectivity of 0.1 is chosen.  Choosing a lower selectivity will include more hub proteins (such as p53) that are connected to many proteins, and that do not interact specifically with proteins in your network.  Conversely, choosing a higher selectivity will include more proteins that are more specific to your network, but these interactions will have lower confidence (since any higher confidence hub proteins will be filtered out).  Further, be aware that changing the selectivity parameter will change the enrichment results in step 4.5, since different proteins will be included in the host network.  
+Note that p53 will be added to the network in the previous step if a selectivity of 0.1 is chosen. Choosing a lower selectivity will include more hub proteins (such as p53) that are connected to many proteins, and that do not interact specifically with proteins in your network. Conversely, choosing a higher selectivity will include more proteins that are more specific to your network, but these interactions will have lower confidence (since any higher confidence hub proteins will be filtered out). Further, be aware that changing the selectivity parameter will change the enrichment results in step 4.5, since different proteins will be included in the host network.
 
 ### 4.4 Merge two host-virus networks
 
-Let's now compare the networks for HPV 16 and HPV 1a.  Create a new host-virus network for "Human papillomavirus type 1a (HPV 1a)" by repeating steps 4.1 and 4.2.  Merge the two networks using **Tools → Merge → Networks**.  Move both the HPV 16 and HPV 1a networks into the **Networks to merge** box and otherwise use the defaults for the merge.  In the resulting network, use the menu option **Apps → STRING → Set as STRING network** to manipulate the network as a STRING network again.  To show any interactions between host nodes that were present in one source network but not the other, first set the confidence to 1, then set the confidence to the desired confidence (0.4) to retrieve any missing interactions.
+Let us now compare the networks for HPV 16 and HPV 1a. Create a new host-virus network for "Human papillomavirus type 1a (HPV 1a)" by repeating steps 4.1 and 4.2. Merge the two networks using **Tools → Merge → Networks**. Move both the HPV 16 and HPV 1a networks into the **Networks to merge** box and otherwise use the defaults for the merge. In the resulting network, use the menu option **Apps → STRING → Set as STRING network** to manipulate the network as a STRING network again. To show any interactions between host nodes that were present in one source network but not the other, first set the confidence to 1, then set the confidence to the desired confidence (0.4) to retrieve any missing interactions.
 
 The resulting network can be styled to give the nodes of each species a distinct colour so that the proteins of the two viruses can be distinguished from each other.
 
@@ -227,10 +224,10 @@ _How many host proteins interact with E6 from both HPV species?_
 
 ### 4.5 Functional enrichment
 
-We will now examine the human proteins to see what pathways are enriched in this network.  
+We will now examine the human proteins to see what pathways are enriched in this network.
 
-Next, we will retrieve functional enrichment for the human proteins.  Go to the menu **Apps → STRING Enrichment → Retrieve functional enrichment** and keep the default p-value of 0.05.  Homo sapiens will be selected by default in the species dropdown.  It is currently only possible to retrieve enrichment for host proteins.  A new STRING Enrichment tab will appear in the Table Panel. It contains a table of enriched terms and corresponding information for each enrichment category.  Use the filter button in the top left of the STRING Enrichment panel to show only **KEGG Pathways**.  Click on the draw charts icon to the right of the filter icon to plot the enrichment values on the network.
+Next, we will retrieve functional enrichment for the human proteins. Go to the menu **Apps → STRING Enrichment → Retrieve functional enrichment** and keep the default p-value of 0.05. Homo sapiens will be selected by default in the species dropdown. It is currently only possible to retrieve enrichment for host proteins. A new STRING Enrichment tab will appear in the Table Panel. It contains a table of enriched terms and corresponding information for each enrichment category. Use the filter button in the top left of the STRING Enrichment panel to show only **KEGG Pathways**. Click on the draw charts icon to the right of the filter icon to plot the enrichment values on the network.
 
-_Which two KEGG pathways have the lowest p-values?  Which host proteins are associated with the KEGG pathways "cell cycle" (hint: click on the associated row in the enrichment table to select the proteins with this term._
+_Which two KEGG pathways have the lowest p-values? Which host proteins are associated with the KEGG pathways "cell cycle"? (Hint: click on the associated row in the enrichment table to select the proteins with this term.)_
 
 [![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
