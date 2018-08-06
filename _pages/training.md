@@ -22,15 +22,21 @@ Additional training material on other topics is linked to from the events below.
 ## Upcoming events
 
 5--10 November 2018, Rome, Italy  
-EMBO Practical Course on Computational Analysis of Protein-Protein Interactions
+EMBO Practical Course on Computational Analysis of Protein--Protein Interactions
+
+25 October 2018, São Pedro, Brazil  
+STRING/Cytoscape Course
 
 4--10 October 2018, Luxembourg, Luxembourg  
 EMBO Practical Course on Phenotyping Neurological Syndromes for Systems Genetics
 
-30 June 2018, Torún, Poland  
-Microbiome Text Mining Workshop
+20--21 September 2018, Copenhagen, Denmark  
+Bioinformatics for Human Biologists
 
 ## Past events
+
+30 June 2018, Torún, Poland  
+Microbiome Text Mining Workshop
 
 13 June 2018, Wuhan, China  
 STRING/Cytoscape Workshop
@@ -54,6 +60,9 @@ Microbiome Data Interpretation Workshop
 16 October 2017, Bergen, Norway  
 Applied Structural Bioinformatics
 
+21 September 2017, Copenhagen, Denmark  
+Bioinformatics for Human Biologists
+
 20 June 2017, Melbourne, Australia  
 Utilising STRING App for Cytoscape
 
@@ -69,11 +78,14 @@ Statistical Methods in Bioinformatics
 14 March 2017, Copenhagen, Denmark  
 Fundamental Bioinformatics
 
+22 September 2016, Copenhagen, Denmark  
+Bioinformatics for Human Biologists
+
 19--23 June 2016, Heidelberg, Germany  
 EMBO Practical Course on Computational Biology
 
 30 May--4 June 2016, Budapest, Hungary  
-EMBO Practical Course on Computational Analysis of Protein-Protein Interactions  
+EMBO Practical Course on Computational Analysis of Protein--Protein Interactions  
 [Material](http://aidanbudd.github.io/ppisnd/programme.html)
 
 16--20 May 2016, Rostock, Germany  
@@ -93,7 +105,7 @@ The Literature Text Mining Approach In Cancer Research
 Chemoinformatics in Drug Discovery
 
 28 September--3 October 2015, Norwich, United Kingdom  
-EMBO Practical Course on Computational Analysis of Protein-Protein Interactions  
+EMBO Practical Course on Computational Analysis of Protein--Protein Interactions  
 [Material](https://aidanbudd.github.io/course_EMBO_at_TGAC_PPI_Sep2015/)
 
 17 September 2015, Copenhagen, Denmark  
@@ -118,7 +130,7 @@ Bioinformatics Spring School
 Fundamental Bioinformatics
 
 28 September--3 October 2014, Cape Town, South Africa  
-EMBO Practical Course on Computational Analysis of Protein-Protein Interactions
+EMBO Practical Course on Computational Analysis of Protein--Protein Interactions
 
 3--9 April 2014, Puerto Varas, Chile  
 EMBO Practical Course on Computational Biology
@@ -160,7 +172,7 @@ EMBO Practical Course on Computational Biology
 Bioinformatics for Human Biologists
 
 2--8 September 2012, Berlin, Germany  
-EMBO Practical Course on Computational Analysis of Protein-Protein Interactions
+EMBO Practical Course on Computational Analysis of Protein--Protein Interactions
 
 17--21 March 2012, Hainburg, Austria  
 Bioinformatics Spring School
