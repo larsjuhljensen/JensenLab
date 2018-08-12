@@ -9,9 +9,9 @@ permalink: /people/
 
 ## Current group members
 [Alexander Junge](/people/alexanderjunge/)  
-[Dhouha Grissa](https://www.cpr.ku.dk/staff/?pure=en/persons/60554)  
+[Dhouha Grissa](https://research.ku.dk/search/?pure=en%2Fpersons%2F605543)  
 [Nadezhda Tsankova Doncheva](/people/nadezhdatdoncheva/)  
-[Oana Palasca](https://ivh.ku.dk/english/employees/?pure=en/persons/405867)  
+[Oana Palasca](https://research.ku.dk/search/?pure=en%2Fpersons%2F405867)  
 [Ufuk Kirik](/people/ufukkirik/)
 
 ## Alumni
