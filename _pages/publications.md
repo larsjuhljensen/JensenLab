@@ -7,7 +7,7 @@ sidebar:
 ---
 ## Preprints
 
-Cook HV, Doncheva D, Szklarczyk D, von Mering C, Jensen LJ (2018). Viruses.STRING: A virus-host protein-protein interaction database.  
+Cook HV, Doncheva D, Szklarczyk D, von Mering C and Jensen LJ (2018). Viruses.STRING: A virus-host protein-protein interaction database.  
 [Preprint](https://doi.org/10.1101/396184)
 
 Cuesta Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2017). An integrative method to unravel the host-parasite interactome: An orthology-based approach.  
@@ -15,13 +15,13 @@ Cuesta Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2017). An integrative m
 
 ## Research articles
 
-Hendriks IA, Lyon D, Su D, Skotte NH, Daniel JA, Jensen LJ, Nielsen ML. (2018). Site-specific characterization of endogenous SUMOylation across species and organs. *Nature Communications*, **9**:2456.  
+Hendriks IA, Lyon D, Su D, Skotte NH, Daniel JA, Jensen LJ and Nielsen ML. (2018). Site-specific characterization of endogenous SUMOylation across species and organs. *Nature Communications*, **9**:2456.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/29942033) [Full text](https://doi.org/10.1038/s41467-018-04957-4) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-018-04957-4" data-style="small_rectangle"></span>
 
-Oprea TI, Bologa CG, Brunak S, Campbell A, Gan GN, Gaulton A, Gomez SM, Guha R, Hersey A, Holmes J, Jadhav A, Jensen LJ, Johnson GL, Karlson A, Leach AR, Ma'ayan A, Malovannaya A, Mani S, Mathias SL, McManus MT, Meehan TF, von Mering C, Muthas D, Nguyen DT, Overington JP, Papadatos G, Qin J, Reich C, Roth BL, Schürer SC, Simeonov A, Sklar LA, Southall N, Tomita S, Tudose I, Ursu O, Vidovic D, Waller A, Westergaard D, Yang JJ, Zahoránszky-Köhalmi G (2018). Unexplored therapeutic opportunities in the human genome. *Nature Reviews Drug Discovery*, **17**:377.  
+Oprea TI, Bologa CG, Brunak S, Campbell A, Gan GN, Gaulton A, Gomez SM, Guha R, Hersey A, Holmes J, Jadhav A, Jensen LJ, Johnson GL, Karlson A, Leach AR, Ma'ayan A, Malovannaya A, Mani S, Mathias SL, McManus MT, Meehan TF, von Mering C, Muthas D, Nguyen DT, Overington JP, Papadatos G, Qin J, Reich C, Roth BL, Schürer SC, Simeonov A, Sklar LA, Southall N, Tomita S, Tudose I, Ursu O, Vidovic D, Waller A, Westergaard D, Yang JJ and Zahoránszky-Köhalmi G (2018). Unexplored therapeutic opportunities in the human genome. *Nature Reviews Drug Discovery*, **17**:377.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/29472638) [Full text](https://doi.org/10.1038/nrd.2018.14) <span class="__dimensions_badge_embed__" data-doi="10.1038/nrd.2018.14" data-style="small_rectangle"></span>
 
-Mackie M, Rüther P, Samodova D, Di Gianvincenzo F, Granzotto C, Lyon D, Peggie DA, Howard H, Harrison L, Jensen LJ, Olsen JV, Cappellini E (2018). Palaeoproteomic profiling of conservation layers on a 14th century Italian wall painting. *Angewandte Chemie International Edition*, **57**:7369-7374.  
+Mackie M, Rüther P, Samodova D, Di Gianvincenzo F, Granzotto C, Lyon D, Peggie DA, Howard H, Harrison L, Jensen LJ, Olsen JV and Cappellini E (2018). Palaeoproteomic profiling of conservation layers on a 14th century Italian wall painting. *Angewandte Chemie International Edition*, **57**:7369-7374.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/29603563) [Full text](https://doi.org/10.1002/anie.201713020) <span class="__dimensions_badge_embed__" data-doi="10.1002/anie.201713020" data-style="small_rectangle"></span>
 
 Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ\* and Brunak S\* (2018). Text mining of 15 million full-text scientific articles. *PLOS Computational Biology*, **14**:e1005962.  
