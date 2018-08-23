@@ -115,67 +115,35 @@ Open the abstract by Yoshioka et al. in PubMed and run EXTRACT on it. Inspect th
 
 _Which name is listed for the species in the popup?_
 
-### 2.2 Retrieval of literature linking taxa to a disease
+### 2.2 Retrieval of literature linking taxa to diseases
 
 Above, we saw how existing text-mining resources can be used to retrieve abstracts that mention a species of interest with a disease of interest. Very similar to the previous exercise, we can easily look up the abstracts that mention, for example, Fusobacterium nucleatum (taxid:851) together with colorectal cancer (DOID:9256):
 
 <https://organisms.jensenlab.org/Entity?documents=10&type1=-2&id1=851&type2=-26&id2=DOID:9256>
 
-To do this systematically for all taxa found in a microbiome study, automation is desirable. One could obviously very easily produce a web page with links like the one above for a list of organisms. However, we will instead directly produce a list of PMIDs for each organism, in which the organism is co-mentioned with the disease of interest.
+_Is this association supported by only few papers or is it well established in the literature?_
 
-The first step in such an information retrieval task is to find the set of documents that mention the disease of interest. The PMIDs of all abstracts that mention a given disease, including colorectal cancer, can be found in this file:
-
-<http://download.jensenlab.org/disease_textmining_mentions.tsv>
-
-The second step is to similarly retrieve the PMIDs that mention each organism, which can be found in this file:
-
-<http://download.jensenlab.org/organism_textmining_mentions.tsv>
-
-All we now need is a script that does the following steps:
-1.	Load the PMIDs associated with the disease of interest into memory
-2.	Read the NCBI TaxIDs for each organisms of interest.
-3.	For each PMID, check if it is associated with the disease and print it if this is the case
-
-We have made a [Python script]({{ site.baseurl }}/assets/textmining/disease_comentions.py) that does this and prepared a [file with NCBI TaxIDs]({{ site.baseurl }}/assets/textmining/organisms.txt) of the organisms of interest from the colorectal cancer microbiome study. Download both and run:
-
-```
-python disease_comentions.py DOID:9256 organisms.txt
-```
-
-The script writes its output to the terminal, which you can redirect to a file with the > operator if desired. The format of the tab-delimited output is the same as the input file with organism mentions: the first column contains the NCBI TaxID and the second column contains a space-delimited list of PMIDs. These PMIDs are the abstracts that mention the organism as well as the disease of interest.
-
-These PMIDs can serve as a starting point for a variety of downstream analyses, including calculating simple count statistics, manually inspecting/curating all the associated articles, or retrieving all abstract texts for additional automatic text-mining analyses. The script can trivially be modified to retrieve PMIDs associating organisms with other types of named entities than diseases, such as tissues or environmental descriptors.
+To do this systematically for all taxa found in a microbiome study, automation is desirable. One could obviously partially automate this by producing a web page with links like the one above for a list of organisms. Alternatively, one can download the full results from named entity recognition and write a simple script to identify all abstracts that mention organisms of interest with diseases of interest, which can then serve as a starting point for either manual curation of the assocated articles or statistical analyses.
 
 ### 2.3 Characterization of microbiomes
 
-Already prior to the microbiome study analyzed here, it had been noted that several bacteria associated with colorectal cancer were first described as oral pathogens. It had also been suggested that their invasion of the gut might cause or contribute to tumorigenesis (Warren et al., 2013).
+Already prior to the microbiome study analyzed here, it had been noted that several bacteria associated with colorectal cancer were first described as oral pathogens. It had also been suggested that their invasion of the gut might cause or contribute to tumorigenesis (Warren et al., 2013). We will explore this in a systematic manner by investigating the text-mined associations between bacteria identified in the colorectal cancer microbiome study and tissues.
 
-To explore this in a systematic manner, we will investigate text-mined associations between bacteria identified in the colorectal cancer microbiome study and tissues.
+In that context, simplest possible characterization is to just count how many of the bacteria associated with colorectal cancer can be associated with each tissue (BTO term) through text mining. To perform such an analysis, go to the [SimpleCount](https://simplecount.jensenlab.org/) web server. As **Foreground** paste in the list of NCBI TaxIDs corresponding to the bacteria of interest; we have prepared a file with the [colorectal cancer-associated NCBI TaxIDs]({{ site.baseurl }}/assets/textmining/organisms.txt). Next select the **Dictionary** that you want counts for (i.e. **Tissues**), specify a **Z-score cutoff** for the text-mining association (leave at default for now), and click the **Count** button. After a few seconds, you will see a table with the results of the analysis; you can sort the table by clicking on the column headings.
 
-The first step is thus to download the complete sets of text-mined associations between organisms (NCBI TaxIDs) and tissues (BTO terms):
+_Which are the most frequent tissue terms? Are these terms specific of very broad?_
 
-<http://download.jensenlab.org/organism_tissue_textmining_full.tsv>
+Go back to the input page, lower the **Z-score cutoff** to **3.0** and rerun the analysis.
 
-With this file at hand, we can count how many of the bacteria linked to colorectal cancer are associated with each tissue in the literature. We have made a [Python script]({{ site.baseurl }}/assets/textmining/term_enrichment.py) that does this and prepared a [file with NCBI TaxIDs]({{ site.baseurl }}/assets/textmining/organisms.txt) from the colorectal cancer microbiome study. Download both and run this command:
+_How does this change the results?_
 
-```
-python term_enrichment.py organism_tissue_textmining_full.tsv 5 organisms.txt
-```
+The [SimpleCount](https://simplecount.jensenlab.org/) server also allows you to count terms in both a foreground and a background set of organisms and test each tissue term for statistically significant overrepresentation in the foreground set. To perform this analysis use the same **Foreground** set as in the previous analysis, paste in the [full list of bacteria identified in the study]({{ site.baseurl }}/assets/textmining/background.txt) into **Background**, set the **Z-score cutoff** to **5.0**, set the **P-value cutoff** to **0.001**, and click **Count**. The results table now includes two additional columns, namely the background count and the p-value. Note that the reported p-values are not corrected for multiple testing.
 
-The arguments for this command are the file with organism–term associations, the z-score cutoff to be applied to these, and the file of organisms for which to count term associations. The results show that even at this very stringent z-score cutoff, three of the organisms are associated with each of the terms **Dental plaque**, **Mouth**, and **Saliva**.
+_Are the enriched terms more specific than those with the highest counts?_
 
-You can also count for both a foreground and a background set of organisms and test each tissue term for statistically significant overrepresentation in the foreground set. To do so also download the [file with all bacteria identified in the study]({{ site.baseurl }}/assets/textmining/background.txt) for use as background and run:
+These types of analyses are by no means limited to tissues. If the task asks for it, equivalent analyses can be done for, e.g., diseases or environmental descriptors. Perform an enrichment analysis for diseases using a **Z-score cutoff** of **4.0**. The slightly lower cutoff reflects that the text-mined associations between diseases and organisms are not quite as strong as those between tissues and organisms.
 
-```
-python term_enrichment.py organism_tissue_textmining_full.tsv 5 organisms.txt background.txt 0.005
-```
-
-In this command, the additional last two arguments are the file with the background set of organisms and the p-value threshold. The output for each term includes its identifier, its name, the counts for both sets of organisms, and the uncorrected p-value. The results show that oral bacteria indeed appear to be overrepresented among the set of organisms associated with colorectal cancer, although the p-values should obviously must be corrected for multiple testing before claiming significance.
-
-These types of analyses are by no means limited to tissues. If the task asks for it, equivalent analyses can be done for, e.g., diseases or environmental descriptors.
-
-Test for a link to oral diseases using the following file of organism–disease associations:  
-<http://download.jensenlab.org/organism_disease_textmining_full.tsv>
+_Which are most significantly enriched diseases?_
 
 ### 2.4 Mining for indirect associations
 
