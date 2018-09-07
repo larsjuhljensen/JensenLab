@@ -17,7 +17,7 @@ In these exercises, we will use a variety of text-mining tools and databases bas
 
 ## Prerequisites
 
-Whereas exercise 1 requires only a web browser, parts of exercise 2 takes place on the command line and involves running Python scripts. To follow exercise 2, you thus need access to a Mac or Linux computer with Python installed, and you need basic knowledge of how to use the command line.
+All exercises are purely web-based.
 
 ## Exercise 1
 
