@@ -33,13 +33,13 @@ EMBO Practical Course on Phenotyping Neurological Syndromes for Systems Genetics
 20--21 September 2018, Copenhagen, Denmark  
 Bioinformatics for Human Biologists
 
+## Past events
+
 13 September 2018, Odense, Denmark  
 Workshops in Applied Bioinformatics
 
 13 September 2018, Odense, Denmark  
 STRING and Cytoscape Tutorial
-
-## Past events
 
 30 June 2018, Torún, Poland  
 Microbiome Text Mining Workshop
