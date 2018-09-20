@@ -235,6 +235,6 @@ training-textmining:
       - title: "Characterization of microbiomes"
         url: /training/textmining/#23-characterization-of-microbiomes
       - title: "Mining for indirect associations"
-        url: /training/textmining/#24-mining-for-indirect-assocations
+        url: /training/textmining/#24-mining-for-indirect-associations
   - title: "Supporting literature"
     url: /training/textmining/#supporting-literature
