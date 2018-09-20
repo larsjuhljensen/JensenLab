@@ -95,7 +95,7 @@ In this exercise, we will focus on how one can utilize the text-mining tools use
 
 It is important to note that there are currently no dedicated text-mining tools that have been designed to aid microbiome analysis. What we will do is thus to (ab)use existing text-mining tools and resources, to illustrate what is already now possible with text-mining and which will hopefully be possible to do in a more user-friendly manner in the future.
 
-### 2.1 Using NER to dig deeper into the literature
+### 2.1 Using NER to dig deeper
 
 Colorectal cancer studies have revealed a strong cooccurrence pattern between the proinflammatory Fusobacterium nucleatum and Parvimonas micra. This led to a systematic search for literature linking also the latter bacterial species to inflammatory response. A simple PubMed search retrieves only three publications:
 
@@ -115,7 +115,7 @@ Open the abstract by Yoshioka et al. in PubMed and run EXTRACT on it. Inspect th
 
 _Which name is listed for the species in the popup?_
 
-### 2.2 Retrieval of literature linking taxa to diseases
+### 2.2 Linking taxa to diseases
 
 Above, we saw how existing text-mining resources can be used to retrieve abstracts that mention a species of interest with a disease of interest. Very similar to the previous exercise, we can easily look up the abstracts that mention, for example, Fusobacterium nucleatum (taxid:851) together with colorectal cancer (DOID:9256):
 

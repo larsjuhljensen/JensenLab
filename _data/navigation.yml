@@ -228,10 +228,10 @@ training-textmining:
   - title: "Exercise 2"
     url: /training/textmining/#exercise-2
     children:
-      - title: ""
-        url: /training/textmining/#21-
-      - title: ""
-        url: /training/textmining/#22-
+      - title: "Using NER to dig deeper"
+        url: /training/textmining/#21-using-ner-to-dig-deeper
+      - title: "Linking taxa to diseases"
+        url: /training/textmining/#22-linking-taxa-to-diseases
       - title: "Characterization of microbiomes"
         url: /training/textmining/#23-characterization-of-microbiomes
       - title: "Mining for indirect associations"
