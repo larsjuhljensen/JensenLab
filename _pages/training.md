@@ -30,10 +30,10 @@ STRING/Cytoscape Course
 4--10 October 2018, Luxembourg, Luxembourg  
 EMBO Practical Course on Phenotyping Neurological Syndromes for Systems Genetics
 
+## Past events
+
 20--21 September 2018, Copenhagen, Denmark  
 Bioinformatics for Human Biologists
-
-## Past events
 
 13 September 2018, Odense, Denmark  
 Workshops in Applied Bioinformatics
