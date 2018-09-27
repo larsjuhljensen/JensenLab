@@ -7,9 +7,6 @@ sidebar:
 ---
 ## Preprints
 
-Cook HV, Doncheva D, Szklarczyk D, von Mering C and Jensen LJ (2018). Viruses.STRING: A virus-host protein-protein interaction database.  
-[Preprint](https://doi.org/10.1101/396184)
-
 Cuesta Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2017). An integrative method to unravel the host-parasite interactome: An orthology-based approach.  
 [Preprint](https://doi.org/10.1101/147868)
 
