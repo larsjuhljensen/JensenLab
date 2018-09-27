@@ -15,6 +15,9 @@ Cuesta Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2017). An integrative m
 
 ## Research articles
 
+Cook HV, Doncheva NT, Szklarczyk D, von Mering C, Jensen LJ (2018). Viruses.STRING: A virus–host protein–protein interaction database. *Viruses*, **10**:E519.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30249048) [Full text](https://doi.org/10.3390/v10100519) <span class="__dimensions_badge_embed__" data-doi="10.3390/v10100519" data-style="small_rectangle"></span>
+
 Larsen SC, Hendriks IA, Lyon D, Jensen LJ and Nielsen ML (2018). Systems-wide analysis of serine ADP-ribosylation reveals widespread occurrence and site-specific overlap with phosphorylation. *Cell Reports*, **24**:2493-2505.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30157440) [Full text](https://doi.org/10.1016/j.celrep.2018.07.083) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.celrep.2018.07.083" data-style="small_rectangle"></span>
 
