@@ -7,7 +7,7 @@ sidebar:
 ---
 ## Learning objectives
 
-In these exercises, we will use a variety of text-mining tools and databases based on text mining, to interpret the results from microbiome studies. The exercises will teach you how to:
+In these exercises, we will use a variety of text-mining tools and databases based on text mining to interpret the results from microbiome studies. The exercises will teach you how to:
 
 * automatically highlight named entities in a web page
 * use named entity recognition for synonym-aware information retrieval
@@ -137,7 +137,7 @@ Go back to the input page, lower the **Z-score cutoff** to **3.0** and rerun the
 
 _How does this change the results?_
 
-The [SimpleCount](https://simplecount.jensenlab.org/) server also allows you to count terms in both a foreground and a background set of organisms and test each tissue term for statistically significant overrepresentation in the foreground set. To perform this analysis use the same **Foreground** set as in the previous analysis, paste in the [full list of bacteria identified in the study]({{ site.baseurl }}/assets/textmining/background.txt) into **Background**, set the **Z-score cutoff** to **5.0**, set the **P-value cutoff** to **0.001**, and click **Count**. The results table now includes two additional columns, namely the background count and the p-value. Note that the reported p-values are not corrected for multiple testing.
+The [SimpleCount](https://simplecount.jensenlab.org/) server also allows you to count terms in both a foreground and a background set of organisms and test each tissue term for statistically significant overrepresentation in the foreground set. This type of analysis yields terms that are frequent in the foreground set but not in the background set, as opposed to the terms identified above, which are merely frequent in the foreground set. To perform this analysis use the same **Foreground** set as in the previous analysis, paste in the [full list of bacteria identified in the study]({{ site.baseurl }}/assets/textmining/background.txt) into **Background**, set the **Z-score cutoff** to **5.0**, set the **P-value cutoff** to **0.001**, and click **Count**. The results table now includes two additional columns, namely the background count and the p-value. Note that the reported p-values are not corrected for multiple testing.
 
 _Are the enriched terms more specific than those with the highest counts?_
 
