@@ -33,11 +33,11 @@ Open the paper "Intestinal Microbiota and the Efficacy of Fecal Microbiota Trans
 
 _What do the different colors mean?_
 
-By clicking or hovering over a tagged term, you will get a popup that includes its standard name, entity type, database or ontology identifier, and a link to its reference record. Click or hover over **Micrococcus pyogenes**.
+By clicking or hovering over a tagged term, you will get a popup that includes its standard name, entity type, database or ontology identifier, and a link to its reference record. Click or hover over **pseudomembranous colitis** and **Micrococcus pyogenes**.
 
-_What is the difference between Micrococcus pyogenes and Staphylococcus aureus?_
+_What is an alternative name for pseudomembranous colitis? What is the difference between Micrococcus pyogenes and Staphylococcus aureus?_
 
-Select the **Keywords** line and click the **EXTRACT** bookmarklet. Hover over terms in the text or lines in the table.
+Select the **Keywords** line in the paper and click the **EXTRACT** bookmarklet. Hover over terms in the text or lines in the table.
 
 _What happens?_
 
@@ -58,6 +58,12 @@ _Do the abstracts shown all mention Staphylococcus aureus?_
 Go back to the search page (e.g. by clicking **ORGANISMS** in the header) and query for **Firmicutes**. You are again presented with many options including the **Firmicutes** phylum itself (taxid:1239) as well as numerous species and strains. Click on the row for the phylum to view abstracts.
 
 _Which taxa do you see abstracts for?_
+
+You can similarly use NER to retrieve abstracts for any disease in the Disease Ontology. For example, the following query will retrieve abstracts for **inflammatory bowel disease** (DOID:0050589):
+
+<https://diseases.jensenlab.org/Entity?documents=10&type1=-26&id1=DOID:0050589>
+
+_Which diseases are highlighted in the abstracts?_
 
 ### 1.3 Information extraction
 
@@ -125,7 +131,7 @@ _Is this association supported by only few papers or is it well established in t
 
 To do this systematically for all taxa found in a microbiome study, automation is desirable. One could obviously partially automate this by producing a web page with links like the one above for a list of organisms. Alternatively, one can download the full results from named entity recognition and write a simple script to identify all abstracts that mention organisms of interest with diseases of interest, which can then serve as a starting point for either manual curation of the assocated articles or statistical analyses.
 
-### 2.3 Characterization of microbiomes
+### 2.3 Microbiome characterization
 
 Already prior to the microbiome study analyzed here, it had been noted that several bacteria associated with colorectal cancer were first described as oral pathogens. It had also been suggested that their invasion of the gut might cause or contribute to tumorigenesis (Warren et al., 2013). We will explore this in a systematic manner by investigating the text-mined associations between bacteria identified in the colorectal cancer microbiome study and tissues.
 
