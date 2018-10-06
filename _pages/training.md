@@ -24,8 +24,8 @@ Additional training material on other topics is linked to from the events below.
 5--10 November 2018, Rome, Italy  
 EMBO Practical Course on Computational Analysis of Protein--Protein Interactions
 
-25 October 2018, São Pedro, Brazil  
-STRING/Cytoscape Course
+25--26 October 2018, São Pedro, Brazil  
+Network analysis and visualization with Cytoscape and STRING
 
 4--10 October 2018, Luxembourg, Luxembourg  
 EMBO Practical Course on Phenotyping Neurological Syndromes for Systems Genetics
