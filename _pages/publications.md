@@ -12,6 +12,9 @@ Cuesta Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2017). An integrative m
 
 ## Research articles
 
+Pan X, Jensen LJ\* and Gorodkin J\* (2018). Inferring disease-associated long non-coding RNAs using genome-wide tissue expression profiles. *Bioinformatics*.  
+[Full text](https://doi.org/10.1093/bioinformatics/bty859) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/bty859" data-style="small_rectangle"></span>
+
 Sinha S, Eisenhaber B, Jensen LJ, Kalbuaji B and Eisenhaber F (2018). Darkness in the human gene and protein function space: Widely modest or absent illumination by the life science literature and the trend for fewer protein function discoveries since 2000. *Proteomics*.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30265449) [Full text](https://doi.org/10.1002/pmic.201800093) <span class="__dimensions_badge_embed__" data-doi="10.1002/pmic.201800093" data-style="small_rectangle"></span>
 
