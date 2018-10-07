@@ -5,7 +5,7 @@ permalink: /training/textmining/neurology/
 ---
 ## Learning objectives
 
-In these exercises, we will use a variety of text-mining tools and databases based on text mining to interpret the results from microbiome studies. The exercises will teach you how to:
+In these exercises, we will use a variety of text-mining tools and databases based on text mining to interpret the associations of genes and diseases. The exercises will teach you how to:
 
 * automatically highlight named entities in a web page
 * use named entity recognition for synonym-aware information retrieval
@@ -69,7 +69,7 @@ _Which disease is most strongly associated with LRRK2 according to text mining?_
 
 Click on **Parkinson's disease** in the text-mining table.
 
-_Do the abstracts in fact support an association between epilepsy disease and SCN1A?_
+_Do the abstracts in fact support an association between epilepsy disease and LRRK2?_
 
 Cooccurrence-based IE is a very generic approach, which can be used to find associations between any two types of entities for which we can do NER. For example, we can use the same approach to extract LRRK2-associated terms from the mammalian phenotype:
 
