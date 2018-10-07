@@ -103,7 +103,7 @@ The first idea is to use NER-based information retrieval to find abstracts that 
 
 _Which, if any, genes do you see mentioned in these abstracts_
 
-This approach obviously only works when the association between the two diseases is sufficiently well described in the literature for there to be abstracts that mention both diseases as well as the genes of interest. If that is not the case, but one has a candidate gene in mind, one can instead use information extraction to obtain a list of diseases for the gene in question to see if it is in fact associated with both diseases in the literature. Go to the search page of DISEASES, query for **SCN2A**, and view the disease associations obtained from text mining.
+This approach obviously only works when the association between the two diseases is sufficiently well described in the literature for there to be abstracts that mention both diseases as well as the genes of interest. If that is not the case, but one has a candidate gene in mind, one can instead use information extraction to obtain a list of diseases for the gene in question to see if it is in fact associated with both diseases in the literature. Go to <https://diseases.jensenlab.org/>, query for **SCN2A**, and view the disease associations obtained from text mining.
 
 _Is SCN2A associated with both diseases of interest?_
 
