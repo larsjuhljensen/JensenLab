@@ -129,7 +129,7 @@ Above, we saw how existing text-mining resources can be used to retrieve abstrac
 
 _Is this association supported by only few papers or is it well established in the literature?_
 
-To do this systematically for all taxa found in a microbiome study, automation is desirable. One could obviously partially automate this by producing a web page with links like the one above for a list of organisms. Alternatively, one can download the full results from named entity recognition and write a simple script to identify all abstracts that mention organisms of interest with diseases of interest, which can then serve as a starting point for either manual curation of the assocated articles or statistical analyses.
+To do this systematically for all taxa found in a microbiome study, automation is desirable. One could obviously partially automate this by producing a web page with links like the one above for a list of organisms. Alternatively, one can download the full results from named entity recognition and write a simple script to identify all abstracts that mention organisms of interest with diseases of interest, which can then serve as a starting point for either manual curation of the associated articles or statistical analyses.
 
 ### 2.3 Microbiome characterization
 
