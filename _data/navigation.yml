@@ -208,6 +208,8 @@ training-stringapp:
         url: /training/stringapp/#44-merge-two-host-virus-networks
       - title: "Functional enrichment"
         url: /training/stringapp/#44-functional-enrichment
+  - title: "Supporting literature"
+    url: /training/stringapp/#supporting-literature
 
 training-textmining:
   - title: "Learning objectives"

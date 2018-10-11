@@ -230,4 +230,9 @@ Next, we will retrieve functional enrichment for the human proteins. Go to the m
 
 _Which two KEGG pathways have the lowest p-values? Which host proteins are associated with the KEGG pathways "cell cycle"? (Hint: click on the associated row in the enrichment table to select the proteins with this term.)_
 
+## Supporting literature
+
+Doncheva NT, Morris JH, Gorodkin J and Jensen LJ (2018). Cytoscape stringApp: Network analysis and visualization of proteomics data.  
+[Preprint](https://www.biorxiv.org/content/early/2018/10/11/438192)
+
 [![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
