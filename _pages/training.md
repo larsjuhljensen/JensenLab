@@ -27,10 +27,10 @@ EMBO Practical Course on Computational Analysis of Protein--Protein Interactions
 25--26 October 2018, São Pedro, Brazil  
 Network analysis and visualization with Cytoscape and STRING
 
+## Past events
+
 4--10 October 2018, Luxembourg, Luxembourg  
 EMBO Practical Course on Phenotyping Neurological Syndromes for Systems Genetics
-
-## Past events
 
 20--21 September 2018, Copenhagen, Denmark  
 Bioinformatics for Human Biologists
