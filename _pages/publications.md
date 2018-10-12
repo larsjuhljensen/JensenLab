@@ -8,7 +8,10 @@ sidebar:
 ## Preprints
 
 Doncheva NT, Morris JH, Gorodkin J and Jensen LJ (2018). Cytoscape stringApp: Network analysis and visualization of proteomics data.  
-[Preprint](https://www.biorxiv.org/content/early/2018/10/11/438192)
+[Preprint](https://doi.org/10.1101/358283)
+
+Kirik U, Refsgaard JC and Jensen LJ (2018). Improving peptide-spectrum matching by fragmentation prediction using Hidden Markov Models.  
+[Preprint](https://doi.org/10.1101/358283)
 
 Cuesta Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2017). An integrative method to unravel the host-parasite interactome: An orthology-based approach.  
 [Preprint](https://doi.org/10.1101/147868)
