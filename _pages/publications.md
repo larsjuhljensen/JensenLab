@@ -136,7 +136,7 @@ Santos A, Tsafou K, Stolte C, Pletscher-Frankild S, O'Donoghue SI and Jensen LJ 
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/26157623) [Full text](https://doi.org/10.7717/peerj.1054) [WWW](https://tissues.jensenlab.org) <span class="__dimensions_badge_embed__" data-doi="10.7717/peerj.1054" data-style="small_rectangle"></span>
 
 Warrer P, Jensen PB, Aagaard L, Jensen LJ, Brunak S, Krag MH, Rossing P, Almdal T, Andersen HU and Hansen EH (2015). Identification of possible adverse drug reactions in clinical notes: The case of glucose-lowering medicines. *Journal of Research in Pharmacy Practice*, **4**:64-72.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/25984543) [Full text](https://doi.org/10.4103/2279‐042X.155753) <span class="__dimensions_badge_embed__" data-doi="10.4103/2279‐042X.155753" data-style="small_rectangle"></span>
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/25984543) [Full text](https://doi.org/10.4103/2279-042X.155753) <span class="__dimensions_badge_embed__" data-doi="10.4103/2279-042X.155753" data-style="small_rectangle"></span>
 
 Emdal KB, Pedersen A-K, Bekker-Jensen DB, Tsafou KP, Horn H, Lindner S, Schulte JH, Eggert A, Jensen LJ, Francavilla C and Olsen JV (2015). Temporal proteomics of NGF-TrkA signaling identifies an inhibitory role for the E3 ligase Cbl-b in neuroblastoma cell differentiation. *Science Signaling*, **8**:ra40.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/25921289) [Full text](https://doi.org/10.1126/scisignal.2005769) <span class="__dimensions_badge_embed__" data-doi="10.1126/scisignal.2005769" data-style="small_rectangle"></span>
