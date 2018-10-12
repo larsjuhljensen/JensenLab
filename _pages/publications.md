@@ -8,13 +8,13 @@ sidebar:
 ## Preprints
 
 Doncheva NT, Morris JH, Gorodkin J and Jensen LJ (2018). Cytoscape stringApp: Network analysis and visualization of proteomics data.  
-[Preprint](https://doi.org/10.1101/358283)
+[Preprint](https://doi.org/10.1101/358283) [WWW](http://apps.cytoscape.org/apps/stringapp)
 
 Kirik U, Refsgaard JC and Jensen LJ (2018). Improving peptide-spectrum matching by fragmentation prediction using Hidden Markov Models.  
 [Preprint](https://doi.org/10.1101/358283)
 
 Cuesta Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2017). An integrative method to unravel the host-parasite interactome: An orthology-based approach.  
-[Preprint](https://doi.org/10.1101/147868)
+[Preprint](https://doi.org/10.1101/147868) [WWW](https://orthohpi.jensenlab.org/)
 
 ## Research articles
 
@@ -25,7 +25,7 @@ Sinha S, Eisenhaber B, Jensen LJ, Kalbuaji B and Eisenhaber F (2018). Darkness i
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30265449) [Full text](https://doi.org/10.1002/pmic.201800093) <span class="__dimensions_badge_embed__" data-doi="10.1002/pmic.201800093" data-style="small_rectangle"></span>
 
 Cook HV, Doncheva NT, Szklarczyk D, von Mering C and Jensen LJ (2018). Viruses.STRING: A virus–host protein–protein interaction database. *Viruses*, **10**:E519.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30249048) [Full text](https://doi.org/10.3390/v10100519) <span class="__dimensions_badge_embed__" data-doi="10.3390/v10100519" data-style="small_rectangle"></span>
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30249048) [Full text](https://doi.org/10.3390/v10100519) [WWW](http://viruses.string-db.org/) <span class="__dimensions_badge_embed__" data-doi="10.3390/v10100519" data-style="small_rectangle"></span>
 
 Larsen SC, Hendriks IA, Lyon D, Jensen LJ and Nielsen ML (2018). Systems-wide analysis of serine ADP-ribosylation reveals widespread occurrence and site-specific overlap with phosphorylation. *Cell Reports*, **24**:2493-2505.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30157440) [Full text](https://doi.org/10.1016/j.celrep.2018.07.083) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.celrep.2018.07.083" data-style="small_rectangle"></span>
@@ -61,7 +61,7 @@ Mullari M, Lyon D, Jensen LJ and Nielsen ML (2017). Specifying RNA-binding regio
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28648085) [Full text](https://doi.org/10.1021/acs.jproteome.7b00042) <span class="__dimensions_badge_embed__" data-doi="10.1021/acs.jproteome.7b00042" data-style="small_rectangle"></span>
 
 Cannon DC, Yang JJ, Mathias SL, Ursu O, Mani S, Waller A, Schürer SC, Jensen LJ, Sklar LA, Bologa CG and Oprea TI (2017). TIN-X: Target Importance and Novelty Explorer. *Bioinformatics*, **33**:2601-2603.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28398460) [Full text](https://doi.org/10.1093/bioinformatics/btx200) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btx200" data-style="small_rectangle"></span>
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28398460) [Full text](https://doi.org/10.1093/bioinformatics/btx200) [WWW](http://www.newdrugtargets.org/) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btx200" data-style="small_rectangle"></span>
 
 Huerta-Cepas J, Forslund K, Szklarczyk D, Jensen LJ, von Mering C and Bork P (2017). Fast genome-wide functional annotation through orthology assignment by eggNOG-mapper. *Molecular Biology and Evolution*, **34**:2115-2122.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/28460117) [Full text](https://doi.org/10.1093/molbev/msx148) [WWW](http://eggnog-mapper.embl.de) <span class="__dimensions_badge_embed__" data-doi="10.1093/molbev/msx148" data-style="small_rectangle"></span>
