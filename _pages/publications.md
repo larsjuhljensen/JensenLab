@@ -7,6 +7,9 @@ sidebar:
 ---
 ## Preprints
 
+Junge A and Jensen LJ (2018). CoCoScore: Context-aware co-occurrence scoring for text mining applications using distant supervision.  
+[Preprint](https://doi.org/10.1101/444398)
+
 Doncheva NT, Morris JH, Gorodkin J and Jensen LJ (2018). Cytoscape stringApp: Network analysis and visualization of proteomics data.  
 [Preprint](https://doi.org/10.1101/358283) [WWW](http://apps.cytoscape.org/apps/stringapp)
 
