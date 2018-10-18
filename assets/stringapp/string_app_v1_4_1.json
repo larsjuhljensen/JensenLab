@@ -1,0 +1,6 @@
+{
+	"URI": "http://api.jensenlab.org/",
+	"STRINGResolveURI": "https://string-db.org/api/",
+	"STITCHResolveURI": "http://stitch.embl.de/api/",
+	"VIRUSESResolveURI": "http://viruses.string-db.org/cgi/webservice_handler.pl"
+}
