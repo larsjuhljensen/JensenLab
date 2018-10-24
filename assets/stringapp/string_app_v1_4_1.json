@@ -3,5 +3,7 @@
 	"STRINGResolveURI": "https://string-db.org/api/",
 	"STITCHResolveURI": "http://stitch.embl.de/api/",
 	"VIRUSESResolveURI": "http://viruses.string-db.org/cgi/webservice_handler.pl",
-	"userNotice": "The version of stringApp that you are using retrieves networks from STRING v 10.5. To get networks from STRING v11, upgrade Cytoscape to v3.7 or newer and stringApp to v1.5.0 or newer."
+	"messageUserInfo": "The version of stringApp that you are using retrieves networks from STRING v 10.5. To get networks from STRING v11, upgrade Cytoscape to v3.7 or newer and stringApp to v1.5.0 or newer.",
+	"messageUserWarning": "",
+	"messageUserError": ""
 }
