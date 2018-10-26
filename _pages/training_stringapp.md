@@ -218,7 +218,7 @@ Note that p53 will be added to the network in the previous step if a selectivity
 
 Let us now compare the networks for HPV 16 and HPV 1a. Create a new host-virus network for "Human papillomavirus type 1a (HPV 1a)" by repeating steps 4.1 and 4.2. Merge the two networks using **Tools → Merge → Networks**. Move both the HPV 16 and HPV 1a networks into the **Networks to merge** box and otherwise use the defaults for the merge. In the resulting network, use the menu option **Apps → STRING → Set as STRING network** to manipulate the network as a STRING network again. To show any interactions between host nodes that were present in one source network but not the other, first set the confidence to 1, then set the confidence to the desired confidence (0.4) to retrieve any missing interactions.
 
-The resulting network can be styled to give the nodes of each species a distinct colour so that the proteins of the two viruses can be distinguished from each other.
+The resulting network can be styled to give the nodes of each species a distinct color so that the proteins of the two viruses can be distinguished from each other.
 
 _How many host proteins interact with E6 from both HPV species?_
 

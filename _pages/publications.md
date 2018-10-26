@@ -21,6 +21,9 @@ Cuesta Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2017). An integrative m
 
 ## Research articles
 
+Jersie-Christensen RR, Lanigan LT, Lyon D, Mackie M, Belstrøm D, Kelstrup C, Fotakis AK, Willerslev E, Lynnerup N, Jensen LJ, Cappellini E and Olsen JV (2018). Quantitative metaproteomics of medieval dental calculus reveals individual oral health status. *Nature Communications*.  
+[Full text](https://doi.org/10.1038/s41467-018-07148-3) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-018-07148-3" data-style="small_rectangle"></span>
+
 Pan X, Jensen LJ\* and Gorodkin J\* (2018). Inferring disease-associated long non-coding RNAs using genome-wide tissue expression profiles. *Bioinformatics*.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30295698) [Full text](https://doi.org/10.1093/bioinformatics/bty859) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/bty859" data-style="small_rectangle"></span>
 
@@ -189,13 +192,13 @@ Eriksson R, Werge T, Jensen LJ and Brunak S (2014). Dose-specific adverse drug r
 Binder JX*, Pletscher-Frankild S*, Tsafou K, Stolte C, O’Donoghue SI, Schneider R and Jensen LJ (2014). COMPARTMENTS: unification and visualization of protein subcellular localization evidence. *Database*, **2014**:bau012.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/24573882) [Full text](https://doi.org/10.1093/database/bau012) [WWW](https://compartments.jensenlab.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/database/bau012" data-style="small_rectangle"></span>
 
-Powell S, Forslund K, Szklarczyk D, Trachana K, Roth A, Huerta-Cepas J, Gabaldón T, Rattei T, Creevey C, Kuhn M, Jensen LJ*, von Mering C\* and Bork P\* (2014). eggNOG v4.0: nested orthology inference across 3686 organisms. *Nucleic Acids Research*, **42**:D231-D239.  
+Powell S, Forslund K, Szklarczyk D, Trachana K, Roth A, Huerta-Cepas J, Gabaldón T, Rattei T, Creevey C, Kuhn M, Jensen LJ\*, von Mering C\* and Bork P\* (2014). eggNOG v4.0: nested orthology inference across 3686 organisms. *Nucleic Acids Research*, **42**:D231-D239.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/24297252) [Full text](https://doi.org/10.1093/nar/gkt1253) [WWW](http://eggnog.embl.de) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkt1253" data-style="small_rectangle"></span>
 
-Kuhn M*, Szklarczyk D, Pletscher-Frankild S, Blicher TH, von Mering C, Jensen LJ\* and Bork P\* (2014). STITCH 4: integration of protein-chemical interactions with user data. *Nucleic Acids Research*, **42**:D401-D407.  
+Kuhn M\*, Szklarczyk D, Pletscher-Frankild S, Blicher TH, von Mering C, Jensen LJ\* and Bork P\* (2014). STITCH 4: integration of protein-chemical interactions with user data. *Nucleic Acids Research*, **42**:D401-D407.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/24293645) [Full text](https://doi.org/10.1093/nar/gkt1207) [WWW](https://stitch-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkt1207" data-style="small_rectangle"></span>
 
-Mørk S, Pletscher-Frankild S, Palleja A, Gorodkin J\* and Jensen LJ\* (2014). Protein-driven inference of miRNA-disease associations. *bioinformatics*, **30**:392-937.  
+Mørk S, Pletscher-Frankild S, Palleja A, Gorodkin J\* and Jensen LJ\* (2014). Protein-driven inference of miRNA-disease associations. *Bioinformatics*, **30**:392-937.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/24273243) [Full text](https://doi.org/10.1093/bioinformatics/btt677) [WWW](https://mirpd.jensenlab.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btt677" data-style="small_rectangle"></span>
 
 Blair DR, Lyttle CS, Mortensen JM, Bearden CF, Jensen AB, Khiabanian H, Melamed R, Rabadan R, Bernstam EV, Brunak S, Jensen LJ, Nicolae D, Shah NH, Grossman RL, Cox NJ, White KP and Rzhetsky A (2013). A nondegenerate code of deleterious variants in Mendelian loci contributes to complex disease risk. *Cell*, **155**:70-80.  
@@ -219,7 +222,7 @@ Eriksson R, Jensen PB, Pletscher-Frankild S, Jensen LJ and Brunak S (2013). Dict
 Kuhn M, Al Banchaabouchi M, Campillos M, Jensen LJ, Gross C, Gavin A-C and Bork P (2013). Systematic identification of proteins that elicit drug side effects. *Molecular Systems Biology*, **9**:663.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/23632385) [Full text](https://doi.org/10.1038/msb.2013.10) <span class="__dimensions_badge_embed__" data-doi="10.1038/msb.2013.10" data-style="small_rectangle"></span>
 
-Franceschini A, Szklarczyk D, Pletscher-Frankild S*, Kuhn M, Simonovic M, Roth A, Lin J, Minguez P, Bork P*, von Mering C\* and Jensen LJ\* (2013). STRING v9.1: protein-protein interaction networks, with increased coverage and integration. *Nucleic Acids Research*, **41**:D808-D815.  
+Franceschini A, Szklarczyk D, Pletscher-Frankild S, Kuhn M, Simonovic M, Roth A, Lin J, Minguez P, Bork P*, von Mering C\* and Jensen LJ\* (2013). STRING v9.1: protein-protein interaction networks, with increased coverage and integration. *Nucleic Acids Research*, **41**:D808-D815.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/23203871) [Full text](https://doi.org/10.1093/nar/gks1094) [WWW](https://string-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gks1094" data-style="small_rectangle"></span>
 
 Croft LJ, Szklarczyk D, Jensen LJ and Gorodkin J (2012). Multiple independent analyses reveal transcription factors are the only enriched functional class associated with microRNAs. *BMC Systems Biology*, **6**:90.  
@@ -237,7 +240,7 @@ Bergholdt R, Brorsson C, Palleja A, Berchtold LA, Fløyel T, Bang-Berthelsen CH,
 Romanel A, Jensen LJ, Cardelli L and Csikász-Nagy A (2012). Transcriptional regulation is a major controller of cell cycle transition dynamics. *PLoS ONE*, **7**:e29716.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/22238641) [Full text](https://doi.org/10.1371/journal.pone.0029716) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pone.0029716" data-style="small_rectangle"></span>
 
-Powell S, Szklarczyk D, Trachana K, Roth A, Kuhn M, Muller J, Arnold R, Rattei T, Letunic I, Doerks T, Jensen LJ*, von Mering C\* and Bork P\* (2012). eggNOG v3.0: orthologous groups covering 1133 organisms at 41 different taxonomic ranges. *Nucleic Acids Research*, **40**:D284-D289.  
+Powell S, Szklarczyk D, Trachana K, Roth A, Kuhn M, Muller J, Arnold R, Rattei T, Letunic I, Doerks T, Jensen LJ\*, von Mering C\* and Bork P\* (2012). eggNOG v3.0: orthologous groups covering 1133 organisms at 41 different taxonomic ranges. *Nucleic Acids Research*, **40**:D284-D289.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/22096231) [Full text](https://doi.org/10.1093/nar/gkr1060) [WWW](http://eggnog.embl.de) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkr1060" data-style="small_rectangle"></span>
 
 Kuhn M, Szklarczyk D, Franceschini A, von Mering C, Jensen LJ and Bork P (2012). STITCH 3: zooming in on protein-chemical interactions. *Nucleic Acids Research*, **40**:D876-D880.  
