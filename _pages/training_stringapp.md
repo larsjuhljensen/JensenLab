@@ -40,7 +40,7 @@ _How many nodes are in the resulting network? How does this compare to the maxim
 
 ### 1.2 Compound queries
 
-Go to the menu **File → Import → Network → Public Databases**. In the import dialog, choose **STITCH: protein/compound query** as **Data Source** and type your favorite compound into the **Enter protein or compound names or identifiers** field (e.g. imatinib). You can select the organism and number of additional interactors just like for the protein query above, and the disambiguation dialog also works the same way.
+Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STITCH: protein/compound query** as **Data Source** and type your favorite compound into the **Enter protein or compound names or identifiers** field (e.g. imatinib). You can select the organism and number of additional interactors just like for the protein query above, and the disambiguation dialog also works the same way.
 
 [Import imatinib network](cycmd:string compound query query=imatinib taxonID=9606){: .btn .btn--cybrowser .btn--primary}
 
@@ -48,7 +48,7 @@ _How is this network different from the protein-only network with respect to nod
 
 ### 1.3 Disease queries
 
-Go to the menu **File → Import → Network → Public Databases**. In the import dialog, choose **STRING: disease query** as **Data Source** and type a disease of interest into the **Enter disease term** field (e.g. Alzheimer's disease). The stringApp will retrieve a STRING network for the top-N proteins (by default 100) associated with the disease.
+Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: disease query** as **Data Source** and type a disease of interest into the **Enter disease term** field (e.g. Alzheimer's disease). The stringApp will retrieve a STRING network for the top-N proteins (by default 100) associated with the disease.
 
 The next dialog shows all the matches that the stringApp finds for your disease query and selects the first one. Make sure to select the intended disease before pressing the **Import** button to continue.
 
@@ -58,7 +58,7 @@ _Which additional attribute column do you get in the **Node Table** for a diseas
 
 ### 1.4 PubMed queries
 
-Go to the menu **File → Import → Network → Public Databases**. In the import dialog, choose **STRING: PubMed query** as **Data Source** and type query representing a topic of interest into the **PubMed Query** field (e.g. jet-lag). You can use any query that would work on the PubMed website, but it should obviously a topic with related genes or proteins. The stringApp will query PubMed for the abstracts, find the top-N proteins (by default 100) associated with these abstracts, and retrieve a STRING network for them.
+Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: PubMed query** as **Data Source** and type query representing a topic of interest into the **PubMed Query** field (e.g. jet-lag). You can use any query that would work on the PubMed website, but it should obviously a topic with related genes or proteins. The stringApp will query PubMed for the abstracts, find the top-N proteins (by default 100) associated with these abstracts, and retrieve a STRING network for them.
 
 [Import jet-lag network](cycmd:string pubmed query pubmed=jet-lag taxonID=9606 limit=50){: .btn .btn--cybrowser .btn--primary}
 
@@ -74,7 +74,7 @@ In this exercise, we will work with a list of 78 proteins that interact with Trk
 
 ### 2.1 Protein network retrieval
 
-Start Cytoscape or open a new session from the menu **File → New → Session**. Go to the menu **File → Import → Network → Public Databases**. In the import dialog, choose **STRING: protein query** as the **Data Source** and paste the list of UniProt accession numbers from the first column in the table into the **Enter protein names or identifiers** field.
+Start Cytoscape or close the current session from the menu **File → Close**. Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: protein query** as the **Data Source** and paste the list of UniProt accession numbers from the first column in the table into the **Enter protein names or identifiers** field.
 
 Next, the disambiguation dialog shows all STRING proteins that match the query terms, with the first protein for each query term automatically selected. This default is fine for this exercise; click the **Import** button to continue.
 
@@ -102,7 +102,7 @@ Note that the retrieved network contains a lot of additional information associa
 
 Network nodes and edges can have additional information associated with them that we can load into Cytoscape and use for visualization. We will import the data from the [text file](/assets/stringapp/Emdal2015SciSignal.tsv).
 
-To import the node attributes file into Cytoscape, go to **File → Import → Table → File**. The preview in the import dialog will show how the file is interpreted given the current settings and will update automatically when you change them. To change the default selection chosen by Cytoscape, click on the arrow in the column heading. For example, you can decide whether the column is imported or not by changing the **Meaning** of the column (hover over each symbol with the mouse to see what they mean). This column-specific dialog will also allow you to change the column name and type.
+To import the node attributes file into Cytoscape, go to **File → Import → Table from File**. The preview in the import dialog will show how the file is interpreted given the current settings and will update automatically when you change them. To change the default selection chosen by Cytoscape, click on the arrow in the column heading. For example, you can decide whether the column is imported or not by changing the **Meaning** of the column (hover over each symbol with the mouse to see what they mean). This column-specific dialog will also allow you to change the column name and type.
 
 Now you need to map unique identifiers between the entries in the data and the nodes in the network. The key point of this is to identify which nodes in the network are equivalent to which entries in the table. This enables mapping of data values into visual properties like Fill Color and Shape. This kind of mapping is typically done by comparing the unique Identifier attribute value for each node (Key Column for Network) with the unique Identifier value for each data value (key symbol). As a default, Cytoscape looks for an attribute value of ‘ID’ in the network and a user-supplied Key in the dataset.
 
@@ -144,7 +144,7 @@ We are going to use the stringApp to query the [DISEASES](https://diseases.jense
 
 ### 3.1 Disease network retrieval
 
-Open a new session in Cytoscape from the menu **File → New → Session**. Use the menu **File → Import → Network → Public Databases** and the **STRING: disease query** option. Retrieve a network for **Parkinson's disease** and another for **Alzheimer's disease**.
+Close the current session in Cytoscape from the menu **File → Close**. Use the menu **File → Import → Network from Public Databases** and the **STRING: disease query** option. Retrieve a network for **Parkinson's disease** and another for **Alzheimer's disease**.
 
 [Import Parkinson's disease network](cycmd:string disease query disease=DOID:14330 taxonID=9606 limit=100){: .btn .btn--cybrowser .btn--primary} [Import Alzheimer's disease network](cycmd:string disease query disease=DOID:10652 taxonID=9606 limit=100){: .btn .btn--cybrowser .btn--primary}
 
@@ -192,7 +192,7 @@ In this exercise, we will retrieve virus-host networks for two closely related v
 
 ### 4.1 Virus queries
 
-Go to the menu **File → Import → Network → Public Databases**. In the import dialog, choose **STRING: protein query** as the **Data Source**. As of version 1.4 of the STRING app, 236 virus species are included in the species dropdown menu. Since most viruses are small (they have a median of 9 proteins in their genomes) it is reasonable to import **all proteins of this species** for a given virus, so select this checkbox underneath the species dropdown. For this example we will query all proteins of "Human papillomavirus type 16 (HPV 16)". Simply type HPV 16 and select the species from the resulting shorter dropdown menu.
+Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: protein query** as the **Data Source**. As of version 1.4 of the STRING app, 236 virus species are included in the species dropdown menu. Since most viruses are small (they have a median of 9 proteins in their genomes) it is reasonable to import **all proteins of this species** for a given virus, so select this checkbox underneath the species dropdown. For this example we will query all proteins of "Human papillomavirus type 16 (HPV 16)". Simply type HPV 16 and select the species from the resulting shorter dropdown menu.
 
 _How many virus proteins are encoded for by this virus? What node information is imported along with the names of the proteins?_
 
