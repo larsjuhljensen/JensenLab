@@ -78,9 +78,13 @@ Start Cytoscape or close the current session from the menu **File → Close**. G
 
 Next, the disambiguation dialog shows all STRING proteins that match the query terms, with the first protein for each query term automatically selected. This default is fine for this exercise; click the **Import** button to continue.
 
+[Import network](cycmd:string protein query query="Q75VX8,P29353,O14492,P19174,Q07890,P62993,P42336,Q9H706,O00750,Q8TER5,P27986,O00459,Q07889,Q92529,P42338,P29590,P62987,Q9UKV5,Q13191,Q13480,Q9Y6I3,O00443,Q8IZ07,Q8N1I0,O75962,O75473,Q96S55,Q15276,P16234,Q63ZY3,Q9UJ41,P52735,Q8TC07,Q06124,O14976,Q9Y4H2,Q9UN70,P42566,Q9H3W5,Q7Z6Z7,P36896,Q86YT6,O75665,Q8WXW3,Q6ZNH5,P10599,P04040,P05413,P14923,Q02413,P22735,P23528,P31025,P62805,P15924,P07737,Q08380,Q99880,P02788,P06702,B9A064,Q08188,Q08554,P61626,P81605,Q6ZMV7,P09104,P62937,Q13410,P13010,P12956,P30512,P09211,O75027,Q9UQ80,Q06830,P51858,O95757" taxonID=9606 limit=0){: .btn .btn--cybrowser .btn--primary}
+
 _How many nodes and edges are there in the resulting network? Do the proteins all form a connected network? Why?_
 
-Cytoscape provides several visualization options under the **Layout** menu. Experiment with these and find one that allows you to see the shape of the network easily. For example, you can try the **Degree Sorted Circle Layout**, the **Prefuse Force Directed Layout** with **score** as edge weight, and **yFiles Organic Layout**.
+Cytoscape provides several visualization options under the **Layout** menu. Experiment with these and find one that allows you to see the shape of the network easily. For example, you can try the **Degree Sorted Circle Layout**, the **Prefuse Force Directed Layout**, and the **Edge-weighted Spring Embedded Layout**.
+
+[Layout network](cycmd:layout fruchterman-rheingold){: .btn .btn--cybrowser .btn--primary}
 
 _Can you find a layout that allows you to easily recognize patterns in the network? What about the Edge-weighted Spring Embedded Layout with the attribute ‘score’, which is the combined STRING interaction score._
 
@@ -109,6 +113,8 @@ Now you need to map unique identifiers between the entries in the data and the n
 The **Key Column** for Network can be changed using a combo box and allows you to set the node attribute column that is to be used as key to map to. In this case it is **query term** because this attribute contains the UniProt accession numbers you entered when retrieving the network. You can also change the Key by pressing the key button for the column that is to be used as key for mapping values in the dataset.
 
 If there is a match between the value of a Key in the dataset and the value the Key Column for Network field in the network, all attribute--value pairs associated with the element in the dataset are assigned to the matching node in the network. You will find the imported columns at the end of the Node Table.
+
+[Import table](cycmd:table import url url="https://jensenlab.org/assets/stringapp/Emdal2015SciSignal.tsv" keyColumnForMapping="query term" keyColumnIndex=1 startLoadRow=1){: .btn .btn--cybrowser .btn--primary}
 
 ### 2.4 Continuous color mapping
 
