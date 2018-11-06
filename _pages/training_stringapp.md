@@ -84,7 +84,7 @@ _How many nodes and edges are there in the resulting network? Do the proteins al
 
 Cytoscape provides several visualization options under the **Layout** menu. Experiment with these and find one that allows you to see the shape of the network easily. For example, you can try the **Degree Sorted Circle Layout**, the **Prefuse Force Directed Layout**, and the **Edge-weighted Spring Embedded Layout**.
 
-[Layout network](cycmd:layout fruchterman-rheingold){: .btn .btn--cybrowser .btn--primary}
+[Layout network](cycmd:layout kamada-kawai){: .btn .btn--cybrowser .btn--primary}
 
 _Can you find a layout that allows you to easily recognize patterns in the network? What about the Edge-weighted Spring Embedded Layout with the attribute ‘score’, which is the combined STRING interaction score._
 
