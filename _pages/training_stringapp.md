@@ -136,9 +136,14 @@ _Which are the three most statistically significant terms?_
 
 To explore only specific types of terms, e.g. GO terms, and to remove redundant terms from the table, click on the filter icon in the **Table panel** (leftmost icon). Select the three types of GO terms, enable the option to **Remove redundant terms** and set **Redundancy cutoff** to 0.2. In this way, you will see only the statistically significant GO terms that do not represent largely the same set of proteins within the network. You can see which proteins are annotated with a given term by selecting the term in the **STRING Enrichment** panel.
 
+[Filter functional enrichment](cycmd:tring filter enrichment categories="GO Process,GO Component,GO Function" overlapCutoff=0.2 removeOverlapping=true){: .btn .btn--cybrowser .btn--primary}
+
 _Do the functional terms assigned to a protein correlate with whether it is up- or down-regulated?_
 
 Next, we will visualize the top-3 enriched terms in the network by using split charts. Click the settings icon (rightmost icon) and set the **Number of terms** to chart to 3; you can optionally also **Change Color Palette** before clicking **OK** to confirm the new settings. Click the colorful chart icon to show the terms as the charts on the network.
+
+[Change chart settings](cycmd:string settings chartType="Split donut" nTerms=3){: .btn .btn--cybrowser .btn--primary}
+[Show enrichment charts](cycmd:string show charts){: .btn .btn--cybrowser .btn--primary}
 
 _Do these terms give good coverage of the proteins in network?_
 
@@ -171,6 +176,9 @@ Cytoscape provides functionality to merge two or more networks, building either 
 _How many nodes and edges are there in the merged network compared to the two individual disease networks?_
 
 Because the merged network was not created by the stringApp, but rather by Cytoscape's merge tool based on two separately retrieved STRING networks, we now have two problems. First, Cytoscape does not know the merged network is a STRING network, and most menu points in the stringApp menu are thus grayed out; fix this by going to the menu **Apps → STRING → Set as STRING network**. Second, because the two disease networks were retrieved separately, the merged network does not contain any interactions between proteins involved only in Parkinson's disease and proteins involved only in Alzheimer's disease, even if the proteins interact according to STRING. To solve this, first go to the menu **Apps → STRING → Change confidence menu**, set the **New confidence cutoff** to 1, and press **OK**; this will remove all STRING interactions, leaving only the proteins. Then bring up the same dialog and lower the confidence cutoff back down to 0.4; the stringApp will now query the server again to retrieve interactions among all the proteins.
+
+[Remove interactions](cycmd:string change confidence confidence=1.0){: .btn .btn--cybrowser .btn--primary}
+[Retrieve interactions](cycmd:string change confidence confidence=0.4){: .btn .btn--cybrowser .btn--primary}
 
 _How many nodes and edges does the network contain compared to before?_
 
