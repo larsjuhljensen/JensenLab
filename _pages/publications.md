@@ -21,6 +21,9 @@ Cuesta Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2017). An integrative m
 
 ## Research articles
 
+Pan X, Xiong K, Anthon C, Hyttel P, Freude KK, Jensen LJ\* and Gorodkin J\* (2018). WebCircRNA: Classifying the circular RNA potential of coding and noncoding RNA. *Genes*.  
+[Full text](https://doi.org/10.3390/genes9110536) [WWW](https://rth.dk/resources/webcircrna/) <span class="__dimensions_badge_embed__" data-doi="10.3390/genes9110536" data-style="small_rectangle"></span>
+
 Jersie-Christensen RR, Lanigan LT, Lyon D, Mackie M, Belstrøm D, Kelstrup C, Fotakis AK, Willerslev E, Lynnerup N, Jensen LJ, Cappellini E and Olsen JV (2018). Quantitative metaproteomics of medieval dental calculus reveals individual oral health status. *Nature Communications*.  
 [Full text](https://doi.org/10.1038/s41467-018-07148-3) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-018-07148-3" data-style="small_rectangle"></span>
 
