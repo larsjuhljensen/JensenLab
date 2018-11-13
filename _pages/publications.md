@@ -21,7 +21,7 @@ Cuesta Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2017). An integrative m
 
 ## Research articles
 
-Huerta-Cepas J, Szklarczyk D, Heller D, Hernández-Plaza A, Forslund SK, Cook H, Mende DR, Letunic I, Rattei T, Jensen LJ, von Mering C, Peer Bork P (2019). eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated orthology resource based on 5090 organisms and 2502 viruses. *Nucleic Acids Research*.  
+Huerta-Cepas J, Szklarczyk D, Heller D, Hernández-Plaza A, Forslund SK, Cook H, Mende DR, Letunic I, Rattei T, Jensen LJ, von Mering C and Peer Bork P (2019). eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated orthology resource based on 5090 organisms and 2502 viruses. *Nucleic Acids Research*.  
 [Full text](https://doi.org/10.1093/nar/gky1085) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gky1085" data-style="small_rectangle"></span>
 
 Jersie-Christensen RR, Lanigan LT, Lyon D, Mackie M, Belstrøm D, Kelstrup C, Fotakis AK, Willerslev E, Lynnerup N, Jensen LJ, Cappellini E and Olsen JV (2018). Quantitative metaproteomics of medieval dental calculus reveals individual oral health status. *Nature Communications*.  
