@@ -572,7 +572,7 @@ Ussery DW, de Lichtenberg U and Jensen LJ (2005). Systems biology: in the broade
 ## Book chapters
 
 Cook HV and Jensen LJ (2018). An integrative approach to virus–host protein–protein interactions. *Methods in Molecular Biology*, **1819**:175-196.  
-[Full text](https://doi.org/10.1007/978-1-4939-8618-7_8) <span class="__dimensions_badge_embed__" data-doi="10.1007/978-1-4939-8618-7_8" data-style="small_rectangle"></span>
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30421404) [Full text](https://doi.org/10.1007/978-1-4939-8618-7_8) <span class="__dimensions_badge_embed__" data-doi="10.1007/978-1-4939-8618-7_8" data-style="small_rectangle"></span>
 
 Refsgaard JC, Munk S and Jensen LJ (2016). Search databases and statistics: pitfalls and best practices in phosphoproteomics. *Methods in Molecular Biology*, **1355**:323-339.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/26584936") [Full text](https://doi.org/10.1007/978-1-4939-3049-4_22) <span class="__dimensions_badge_embed__" data-doi="10.1007/978-1-4939-3049-4_22" data-style="small_rectangle"></span>
