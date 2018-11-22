@@ -23,6 +23,6 @@ permalink: /people/nadezhdatdoncheva/
 
 ## Other profiles
 
-[LinkedIn](https://www.linkedin.com/in/nadezhda-t-doncheva/)
-[Google Scholar](https://scholar.google.com/citations?user=TExtlUgAAAAJ&hl=en)
-[University of Copenhagen](http://www.cpr.ku.dk/staff/?pure=en/persons/557793)
+[LinkedIn](https://www.linkedin.com/in/nadezhda-t-doncheva/)  
+[Google Scholar](https://scholar.google.com/citations?user=TExtlUgAAAAJ&hl=en)  
+[University of Copenhagen](http://www.cpr.ku.dk/staff/?pure=en/persons/557793)  
