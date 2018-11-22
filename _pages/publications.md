@@ -18,6 +18,9 @@ Cuesta Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2017). An integrative m
 
 ## Research articles
 
+STRING v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets. *Nucleic Acids Research*.  
+[Full text](https://doi.org/10.1093/nar/gky1131) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gky1131" data-style="small_rectangle"></span>
+
 Doncheva NT, Morris JH, Gorodkin J and Jensen LJ (2018). Cytoscape stringApp: Network analysis and visualization of proteomics data. *Journal of Proteome Research*.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30450911) [Full text](https://doi.org/10.1021/acs.jproteome.8b00702) [Preprint](https://doi.org/10.1101/358283) [WWW](http://apps.cytoscape.org/apps/stringapp) <span class="__dimensions_badge_embed__" data-doi="10.1021/acs.jproteome.8b00702" data-style="small_rectangle"></span>
 
@@ -25,7 +28,7 @@ Huerta-Cepas J, Szklarczyk D, Heller D, Hernández-Plaza A, Forslund SK, Cook H,
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30418610) [Full text](https://doi.org/10.1093/nar/gky1085) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gky1085" data-style="small_rectangle"></span>
 
 Jersie-Christensen RR, Lanigan LT, Lyon D, Mackie M, Belstrøm D, Kelstrup C, Fotakis AK, Willerslev E, Lynnerup N, Jensen LJ, Cappellini E and Olsen JV (2018). Quantitative metaproteomics of medieval dental calculus reveals individual oral health status. *Nature Communications*.  
-[Full text](https://doi.org/10.1038/s41467-018-07148-3) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-018-07148-3" data-style="small_rectangle"></span>
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30459334) [Full text](https://doi.org/10.1038/s41467-018-07148-3) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-018-07148-3" data-style="small_rectangle"></span>
 
 Pan X, Xiong K, Anthon C, Hyttel P, Freude KK, Jensen LJ\* and Gorodkin J\* (2018). WebCircRNA: Classifying the circular RNA potential of coding and noncoding RNA. *Genes*.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30404245) [Full text](https://doi.org/10.3390/genes9110536) [WWW](https://rth.dk/resources/webcircrna/) <span class="__dimensions_badge_embed__" data-doi="10.3390/genes9110536" data-style="small_rectangle"></span>
