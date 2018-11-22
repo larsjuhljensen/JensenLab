@@ -18,4 +18,4 @@ He has authored and co-authored more than 170 [scientific publications](/publica
 [Blog](https://larsjuhljensen.wordpress.com/)  
 [Twitter](https://twitter.com/larsjuhljensen)  
 [LinkedIn](https://www.linkedin.com/in/larsjuhljensen/)  
-[University of Copenhagen](http://www.cpr.ku.dk/staff/cnb/?pure=en/persons/343848)
+[University of Copenhagen](https://www.cpr.ku.dk/staff/jensen-group/?pure=en/persons/343848)
