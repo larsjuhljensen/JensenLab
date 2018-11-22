@@ -172,7 +172,7 @@ training-stringapp:
   - title: "Exercise 2"
     url: /training/stringapp/#exercise-2
     children:
-      - title: "Protein network retreival"
+      - title: "Protein network retrieval"
         url: /training/stringapp/#21-protein-network-retrieval
       - title: "Discrete color mapping"
         url: /training/stringapp/#22-discrete-color-mapping
