@@ -30,6 +30,6 @@ I would be happy to provide a full resume, upon request, make sure to send some 
 ## Other places to find me
 
 <!--- [Personal website](http://www.alexanderjunge.net/)-->
-- [Google Scholar](https://scholar.google.dk/citations?user=SuD8cbQAAAAJ&hl=en)
-- [LinkedIn](https://www.linkedin.com/in/ukirik/)
-- [Staff website at University of Copenhagen](http://www.cpr.ku.dk/staff/jensen-group/?pure=en/persons/579163)
+[Google Scholar](https://scholar.google.dk/citations?user=SuD8cbQAAAAJ&hl=en)  
+[LinkedIn](https://www.linkedin.com/in/ukirik/)  
+[Staff website at University of Copenhagen](http://www.cpr.ku.dk/staff/jensen-group/?pure=en/persons/579163)

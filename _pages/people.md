@@ -9,8 +9,8 @@ permalink: /people/
 
 ## Current group members
 [Alexander Junge](/people/alexanderjunge/)  
-[Dhouha Grissa](https://research.ku.dk/search/?pure=en%2Fpersons%2F605543)  
-[Marc Legeay](https://www.cpr.ku.dk/staff/jensen-group/?pure=en/persons/636426)  
+[Dhouha Grissa](http://dgrissa.wixsite.com/dhouha-grissa)  
+[Marc Legeay](/people/marclegeay/)  
 [Nadezhda Tsankova Doncheva](/people/nadezhdatdoncheva/)  
 [Oana Palasca](https://research.ku.dk/search/?pure=en%2Fpersons%2F405867)  
 [Ufuk Kirik](/people/ufukkirik/)
