@@ -27,9 +27,9 @@ Full curriculum vitae as `.pdf` is available upon request.
 
 ## Other places to find me
 
-- [Personal website](http://www.alexanderjunge.net/)
-- [Google Scholar](https://scholar.google.com/citations?user=80t0eDYAAAAJ&hl=en)
-- [Twitter](https://twitter.com/JungeAlexander)
-- [GitHub](https://github.com/JungeAlexander)
-- [LinkedIn](https://www.linkedin.com/in/alexanderjunge)
-- [Staff website at University of Copenhagen](http://www.cpr.ku.dk/staff/jensen-group/?pure=en/persons/477194)
+[Personal website](http://www.alexanderjunge.net/)  
+[Google Scholar](https://scholar.google.com/citations?user=80t0eDYAAAAJ&hl=en)  
+[Twitter](https://twitter.com/JungeAlexander)  
+[GitHub](https://github.com/JungeAlexander)  
+[LinkedIn](https://www.linkedin.com/in/alexanderjunge)  
+[Staff website at University of Copenhagen](http://www.cpr.ku.dk/staff/jensen-group/?pure=en/persons/477194)  
