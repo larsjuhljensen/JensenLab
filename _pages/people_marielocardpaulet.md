@@ -8,23 +8,19 @@ permalink: /people/marielocardpaulet/
 
 <!--- ![Photo of Marie Locard-Paulet](people_marielocardpaulet.jpg) -->
 
-<!--- ## Research experience -->
-
-
-
 ## Research experience
 
 <img style="float: right; margin: 5px;" src="https://jensenlab.org/_pages/people_marielocardpaulet.jpg" /> 
 
-- **January 2019 -- present**:\
+- **January 2019 -- present**: 
 Postdoctoral fellow at the [Novo Nordisk Foundation Center for Protein Research](http://www.cpr.ku.dk/), University of Copenhagen, Denmark.
-- **June 2015 -- December 2018**: \
+- **June 2015 -- December 2018**: 
 Postdoctoral fellow in the [Laboratory of proteomics and mass spectrometry of biomolecules](http://www.ipbs.fr/proteomics-and-mass-spectrometry-biomolecules) directed by Odile Burlet-Schiltz (CNRS IPBS, Toulouse, France).
-- **June 2010 -- June 2015**: \
+- **June 2010 -- June 2015**: 
 Postdoctoral fellow in the Cell communication team and Systems Oncology team directed by Claus Jorgensen (ICR/CRUK-MI), United Kingdom. 
-- **October 2006 -- December 2009**: \
+- **October 2006 -- December 2009**: 
 PhD of Biochemistry and Molecular Biology in the Laboratory biochemistry of disrupted systems directed by Jean Armengaud (CEA DSV SBTN), Bagnols sur Ceze, France.
-- **January -- June 2005**: \
+- **January -- June 2005**: 
 Work in the laboratory of enzymology and structural biochemistry (LEBS, CNRS UPR9063) directed by Henry Grosjean to study the modular structure of three archaeal tRNA methyltransferases. 
 
 I would be happy to send full resume upon request.
