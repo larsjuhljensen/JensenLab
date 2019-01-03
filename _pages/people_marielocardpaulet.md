@@ -19,26 +19,11 @@ permalink: /people/marielocardpaulet/
 - **January 2019 -- present**:\
 Postdoctoral fellow at the [Novo Nordisk Foundation Center for Protein Research](http://www.cpr.ku.dk/), University of Copenhagen, Denmark.
 - **June 2015 -- December 2018**: \
-Postdoctoral fellow in the [Laboratory of proteomics and mass spectrometry of biomolecules](http://www.ipbs.fr/proteomics-and-mass-spectrometry-biomolecules) directed by Odile Burlet-Schiltz (CNRS IPBS, Toulouse, France).<!--- \
-Main project: *Global phosphoproteomic analysis of TCR signalling to identify key phospho-regulations underlying TCR signalling in primary T cells*\
-Main achievements:
-    + Generation of time-resolved high throughput phosphoproteomic data sets.
-    + Development of a bioinformatics pipeline to quantitatively analyse post-translational modifications (PTM) by mass spectrometry.
-    + Integration of in-house generated data with publicly available data (expression, protein-protein interaction, PTMs). 
-  +Development of informatics tools to visualise/analyse mass spectrometry data (top-down and bottom-up). -->
+Postdoctoral fellow in the [Laboratory of proteomics and mass spectrometry of biomolecules](http://www.ipbs.fr/proteomics-and-mass-spectrometry-biomolecules) directed by Odile Burlet-Schiltz (CNRS IPBS, Toulouse, France).
 - **June 2010 -- June 2015**: \
-Postdoctoral fellow in the Cell communication team and Systems Oncology team directed by Claus Jorgensen (ICR/CRUK-MI), United Kingdom. <!--- \
-Main project: *Phosphoproteomic analysis of interacting tumour and endothelial cells to identify regulatory mechanisms of transendothelial migration*\
-Main achievements:
-    + Generation of a data set of phosphorylation sites regulated upon interaction between cancer cells and endothelial cells in co-culture using cell-specific labelling (SILAC). 
-    + Identification of phospho-proteins involved in cancer cells exit from the blood vessel and validation using in vitro strategies. 
-    + Validation of the involvement of EPHA2 Tyr772 phosphorylation in extravasation through in vitro and in vivo experiments. -->
+Postdoctoral fellow in the Cell communication team and Systems Oncology team directed by Claus Jorgensen (ICR/CRUK-MI), United Kingdom. 
 - **October 2006 -- December 2009**: \
-PhD of Biochemistry and Molecular Biology in the Laboratory biochemistry of disrupted systems directed by Jean Armengaud (CEA DSV SBTN), Bagnols sur Ceze, France.<!--- \
-Thesis title: *Study of the three human GPN-loop GTPases: a pivotal role for hGPN1* \
-Main achievements:
-    + Cloning, expression and purification of the three GPN-loop GTPases.
-    + Biochemical characterisation of their oligomerisation state and activity (gel filtration, GTPase activity assay, limited proteolysis, mass spectrometry). -->
+PhD of Biochemistry and Molecular Biology in the Laboratory biochemistry of disrupted systems directed by Jean Armengaud (CEA DSV SBTN), Bagnols sur Ceze, France.
 - **January -- June 2005**: \
 Work in the laboratory of enzymology and structural biochemistry (LEBS, CNRS UPR9063) directed by Henry Grosjean to study the modular structure of three archaeal tRNA methyltransferases. 
 
