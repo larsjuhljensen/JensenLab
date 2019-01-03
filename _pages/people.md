@@ -11,6 +11,7 @@ permalink: /people/
 [Alexander Junge](/people/alexanderjunge/)  
 [Dhouha Grissa](http://dgrissa.wixsite.com/dhouha-grissa)  
 [Marc Legeay](/people/marclegeay/)  
+[Marie Locard-Paulet](/people/marielocardpaulet/)  
 [Nadezhda Tsankova Doncheva](/people/nadezhdatdoncheva/)  
 [Oana Palasca](https://research.ku.dk/search/?pure=en%2Fpersons%2F405867)  
 [Ufuk Kirik](/people/ufukkirik/)

@@ -6,13 +6,15 @@ permalink: /people/marielocardpaulet/
 
 <marie.locard-paulet@cpr.ku.dk>
 
-<!--- [Photo of Marie Locard-Paulet](marielocardpaulet.jpg) -->
+<!--- ![Photo of Marie Locard-Paulet](people_marielocardpaulet.jpg) -->
 
 <!--- ## Research experience -->
-<img style="float: right; margin: 5px;" src="https://jensenlab.org/_pages/people_marielocardpaulet.jpg" /> 
+
 
 
 ## Research experience
+
+<img style="float: right; margin: 5px;" src="https://jensenlab.org/_pages/people_marielocardpaulet.jpg" /> 
 
 - **January 2019 -- present**:\
 Postdoctoral fellow at the [Novo Nordisk Foundation Center for Protein Research](http://www.cpr.ku.dk/), University of Copenhagen, Denmark.
