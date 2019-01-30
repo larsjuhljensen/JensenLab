@@ -8,7 +8,6 @@ permalink: /people/
 [Lars Juhl Jensen](/people/larsjuhljensen/)
 
 ## Current group members
-[Alexander Junge](/people/alexanderjunge/)  
 [Dhouha Grissa](http://dgrissa.wixsite.com/dhouha-grissa)  
 [Marc Legeay](/people/marclegeay/)  
 [Marie Locard-Paulet](/people/marielocardpaulet/)  
@@ -19,6 +18,7 @@ permalink: /people/
 ## Alumni
 Albert Pallejà Caro ([Clinical-Microbiomics A/S](https://www.clinical-microbiomics.com))  
 Alberto Santos Delgado ([University of Copenhagen, Mann group](http://www.cpr.ku.dk/research/proteomics/mann-group/))  
+[Alexander Junge](/people/alexanderjunge/) ([Novo Nordisk A/S](https://www.novonordisk.com/))  
 Damian Szklarczyk ([University of Zurich, Mering group](http://www.imls.uzh.ch/en/research/vonmering/))  
 David Lyon ([University of Zurich, Mering group](http://www.imls.uzh.ch/en/research/vonmering/))  
 Heiko Horn ([Broad Institute, Lage group](http://www.lagelab.org/))  
