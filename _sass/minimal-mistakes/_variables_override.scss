@@ -1,0 +1,73 @@
+/* ==========================================================================
+   Override certain variables
+   ========================================================================== */
+
+/*
+   Typography
+   ========================================================================== */
+
+/* system typefaces */
+$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+  "Helvetica", Arial, sans-serif !default;
+$monospace: Monaco, Consolas, monospace !default;
+
+/* sans serif typefaces */
+$sans-serif-narrow: $sans-serif !default;
+
+$global-font-family: $sans-serif !default;
+$header-font-family: $sans-serif !default;
+$caption-font-family: $serif !default;
+
+/* type scale */
+$type-size-6: 0.85em !default;
+$type-size-7: 0.75em !default;
+$type-size-8: 0.65em !default;
+
+/*
+   Colors
+   ========================================================================== */
+
+$gray: #7a8288 !default;
+$dark-gray: mix(#000, $gray, 40%) !default;
+$darker-gray: mix(#000, $gray, 60%) !default;
+$light-gray: mix(#fff, $gray, 50%) !default;
+$lighter-gray: mix(#fff, $gray, 90%) !default;
+
+$background-color: #fff !default;
+$code-background-color: #fafafa !default;
+$code-background-color-dark: $light-gray !default;
+$text-color: $dark-gray !default;
+$muted-text-color: mix(#fff, $text-color, 35%) !default;
+$border-color: $lighter-gray !default;
+$form-background-color: $lighter-gray !default;
+$footer-background-color: $lighter-gray !default;
+
+$primary-color: #7a8288 !default;
+$success-color: #62c462 !default;
+$warning-color: #f89406 !default;
+$danger-color: #ee5f5b !default;
+$info-color: #52adc8 !default;
+$focus-color: $primary-color !default;
+$active-color: mix(#fff, $primary-color, 80%) !default;
+
+/* YIQ color contrast */
+$yiq-contrasted-dark-default: $dark-gray !default;
+$yiq-contrasted-light-default: #fff !default;
+$yiq-contrasted-threshold: 175 !default;
+$yiq-debug: false !default;
+
+/* links */
+$link-color: $info-color !default;
+$link-color-hover: mix(#000, $link-color, 25%) !default;
+$link-color-visited: mix(#fff, $link-color, 25%) !default;
+$masthead-link-color: $primary-color !default;
+$masthead-link-color-hover: mix(#000, $primary-color, 25%) !default;
+$navicon-link-color-hover: mix(#fff, $primary-color, 75%) !default;
+
+/*
+   Grid
+   ========================================================================== */
+
+$right-sidebar-width-narrow: 250px !default;
+$right-sidebar-width: 250px !default;
+$right-sidebar-width-wide: 250px !default;
