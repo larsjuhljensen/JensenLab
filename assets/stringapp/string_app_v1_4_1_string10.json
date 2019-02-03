@@ -1,0 +1,7 @@
+{
+	"URI": "https://api10.jensenlab.org/",
+	"STRINGResolveURI": "http://version10.5.string-db.org/api/",
+	"STITCHResolveURI": "http://stitch.embl.de/api/",
+	"VIRUSESResolveURI": "http://viruses.string-db.org/cgi/webservice_handler.pl",
+	"messageUserInfo": "This version of stringApp retrieves networks from STRING v10.5."
+}
