@@ -212,7 +212,7 @@ _How many virus proteins are encoded for by this virus? What node information is
 
 ### 4.2 Expand with host interactors
 
-To retrieve interactions with host proteins, go to **Apps → STRING → Expand network**. In the resulting dialog, enter the number of desired host proteins, and select the host species from **Type of interactors to expand network by**. All host species for which we have interactions with the currently imported virus genes, will be shown in the dropdown menu. The **selectivity of interactors** can also be specified -- we recommend a default value of 0.5, but you can move the slider towards 0 to decrease the number of network-sepcific interactors or towards 1 to increase it. In this example, we will import 50 human proteins, and keep the default selectivity.
+To retrieve interactions with host proteins, go to **Apps → STRING → Expand network**. In the resulting dialog, enter the number of desired host proteins, and select the host species from **Type of interactors to expand network by**. All host species for which we have interactions with the currently imported virus genes, will be shown in the dropdown menu. The **selectivity of interactors** can also be specified -- we recommend a default value of 0.5, but you can move the slider towards 0 to decrease the number of network-sepcific interactors or towards 1 to increase it. In this example, we will import 10 human proteins, and keep the default selectivity.
 
 The resulting network will be automatically re-styled such that the nodes representing virus proteins are red and host proteins are green-blue. These attributes can be changed from the Cytoscape Style menu.
 
@@ -226,7 +226,7 @@ If a specific host protein is desired, it can also be included in the network fr
 
 _Which HPV proteins does p53 interact with?_
 
-Note that p53 will be added to the network in the previous step if a selectivity of 0.1 is chosen. Choosing a lower selectivity will include more hub proteins (such as p53) that are connected to many proteins, and that do not interact specifically with proteins in your network. Conversely, choosing a higher selectivity will include more proteins that are more specific to your network, but these interactions will have lower confidence (since any higher confidence hub proteins will be filtered out). Further, be aware that changing the selectivity parameter will change the enrichment results in step 4.5, since different proteins will be included in the host network.
+Note that p53 will be added to the network in the previous step if more proteins are imported or the selectivity is set to a lower value. Choosing a lower selectivity will include more hub proteins (such as p53) that are connected to many proteins, and that do not interact specifically with proteins in your network. Conversely, choosing a higher selectivity will include more proteins that are more specific to your network, but these interactions will have lower confidence (since any higher confidence hub proteins will be filtered out). Further, be aware that changing the selectivity parameter will change the enrichment results in step 4.5, since different proteins will be included in the host network.
 
 ### 4.4 Merge two host-virus networks
 
