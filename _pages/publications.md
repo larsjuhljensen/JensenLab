@@ -15,7 +15,7 @@ Kirik U, Refsgaard JC and Jensen LJ (2018). Improving peptide-spectrum matching 
 
 ## Research articles
 
-Cuesta Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2019). An integrative method to unravel the host-parasite interactome: An orthology-based approach. *Frontiers in Immunology-Microbial Immunology*.  
+Cuesta Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2019). An integrative method to unravel the host-parasite interactome: An orthology-based approach. *Frontiers in Immunology*.  
 [Full text](https://doi.org/10.3389/fimmu.2019.00212) [WWW](https://orthohpi.jensenlab.org/) <span class="__dimensions_badge_embed__" data-doi="10.3389/fimmu.2019.00212" data-style="small_rectangle"></span>
 
 Doncheva NT, Morris JH, Gorodkin J and Jensen LJ (2018). Cytoscape stringApp: Network analysis and visualization of proteomics data. *Journal of Proteome Research*.  
