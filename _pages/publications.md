@@ -15,10 +15,13 @@ Kirik U, Refsgaard JC and Jensen LJ (2018). Improving peptide-spectrum matching 
 
 ## Research articles
 
-Cuesta Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2019). An integrative method to unravel the host-parasite interactome: An orthology-based approach. *Frontiers in Immunology*.  
-[Full text](https://doi.org/10.3389/fimmu.2019.00212) [WWW](https://orthohpi.jensenlab.org/) <span class="__dimensions_badge_embed__" data-doi="10.3389/fimmu.2019.00212" data-style="small_rectangle"></span>
+Pletscher-Frankild S and Jensen LJ (2019). Design, implementation, and operation of a rapid, robust named entity recognition web service. *Journal of Cheminformatics*, **11**:19.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30850898) [Full text](https://doi.org/10.1186/s13321-019-0344-9) <span class="__dimensions_badge_embed__" data-doi="10.1186/s13321-019-0344-9" data-style="small_rectangle"></span>
 
-Doncheva NT, Morris JH, Gorodkin J and Jensen LJ (2018). Cytoscape stringApp: Network analysis and visualization of proteomics data. *Journal of Proteome Research*.  
+Cuesta Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2019). An integrative method to unravel the host-parasite interactome: An orthology-based approach. *Frontiers in Immunology*, **10**:212.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30815000) [Full text](https://doi.org/10.3389/fimmu.2019.00212) [WWW](https://orthohpi.jensenlab.org/) <span class="__dimensions_badge_embed__" data-doi="10.3389/fimmu.2019.00212" data-style="small_rectangle"></span>
+
+Doncheva NT, Morris JH, Gorodkin J and Jensen LJ (2018). Cytoscape stringApp: Network analysis and visualization of proteomics data. *Journal of Proteome Research*, **18**:623-632.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30450911) [Full text](https://doi.org/10.1021/acs.jproteome.8b00702) [Preprint](https://doi.org/10.1101/358283) [WWW](http://apps.cytoscape.org/apps/stringapp) <span class="__dimensions_badge_embed__" data-doi="10.1021/acs.jproteome.8b00702" data-style="small_rectangle"></span>
 
 Szklarczyk D, Gable AL, Lyon D, Junge A, Wyder S, Huerta-Cepas J, Simonovic M, Doncheva NT, Morris JH, Bork P\*, Jensen LJ\* and von Mering C\* (2019). STRING v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets. *Nucleic Acids Research*, **47**:D607-D613.  
@@ -573,6 +576,9 @@ Ussery DW, de Lichtenberg U and Jensen LJ (2005). Systems biology: in the broade
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/15816924) [Full text](https://doi.org/10.1111/j.1462-2920.2005.803_12.x) <span class="__dimensions_badge_embed__" data-doi="10.1111/j.1462-2920.2005.803_12.x" data-style="small_rectangle"></span>
 
 ## Book chapters
+
+Cook HV and Jensen LJ (2019). A guide to dictionary-based text mining. *Methods in Molecular Biology*, **1939**:73-89.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30848457) [Full text](https://doi.org/10.1007/978-1-4939-9089-4_5) <span class="__dimensions_badge_embed__" data-doi="10.1007/978-1-4939-9089-4_5" data-style="small_rectangle"></span>
 
 Cook HV and Jensen LJ (2018). An integrative approach to virus–host protein–protein interactions. *Methods in Molecular Biology*, **1819**:175-196.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30421404) [Full text](https://doi.org/10.1007/978-1-4939-8618-7_8) <span class="__dimensions_badge_embed__" data-doi="10.1007/978-1-4939-8618-7_8" data-style="small_rectangle"></span>
