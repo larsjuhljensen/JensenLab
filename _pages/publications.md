@@ -13,7 +13,7 @@ Junge A and Jensen LJ (2018). CoCoScore: Context-aware co-occurrence scoring for
 ## Research articles
 
 Kirik U, Refsgaard JC and Jensen LJ (2019). Improving peptide-spectrum matching by fragmentation prediction using Hidden Markov Models. *Journal of Proteome Research*.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/31074280) [Preprint](https://doi.org/10.1101/358283)
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/31074280) [Full text](https://doi.org/10.1021/acs.jproteome.8b00499) [Preprint](https://doi.org/10.1101/358283)
 
 Pletscher-Frankild S and Jensen LJ (2019). Design, implementation, and operation of a rapid, robust named entity recognition web service. *Journal of Cheminformatics*, **11**:19.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30850898) [Full text](https://doi.org/10.1186/s13321-019-0344-9) <span class="__dimensions_badge_embed__" data-doi="10.1186/s13321-019-0344-9" data-style="small_rectangle"></span>
