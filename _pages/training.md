@@ -24,10 +24,25 @@ Additional training material on other topics is linked to from the events below.
 1--6 December 2019, Bangalore, India  
 EMBO Practical Course on Computational Analysis of Protein--Protein Interactions
 
-15 January, 2019, Zakopane, Poland  
-Cytoscape/STRING Workshop
+19--20 September 2019, Copenhagen, Denmark  
+Bioinformatics for Human Biologists
+
+12--13 September 2019, Copenhagen, Denmark  
+Big data analytics and machine learning I
+
+19 June 2019, Berlin, Germany  
+HEIBRiDS Data Science School
 
 ## Past events
+
+9 April 2019, Copenhagen, Denmark  
+Statistical Methods in Bioinformatics
+
+5 March 2019, Copenhagen, Denmark  
+Fundamental Bioinformatics
+
+15 January, 2019, Zakopane, Poland  
+Cytoscape/STRING Workshop
 
 15 November 2018, Copenhagen, Denmark  
 Cytoscape/STRING Workshop
@@ -56,7 +71,7 @@ Microbiome Text Mining Workshop
 13 June 2018, Wuhan, China  
 STRING/Cytoscape Workshop
 
-9--13 April 2018, Copenhagen, Denmark  
+12 April 2018, Copenhagen, Denmark  
 Statistical Methods in Bioinformatics
 
 6 March 2018, Copenhagen, Denmark  
@@ -87,7 +102,7 @@ Statistics on Big Biomedical Data
 23--24 May 2017, Aarhus, Denmark  
 STRING/Cytoscape Workshop
 
-3--7 April 2017, Copenhagen, Denmark  
+6 April 2017, Copenhagen, Denmark  
 Statistical Methods in Bioinformatics
 
 14 March 2017, Copenhagen, Denmark  
