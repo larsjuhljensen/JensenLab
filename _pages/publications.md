@@ -7,13 +7,18 @@ sidebar:
 ---
 ## Preprints
 
-Junge A and Jensen LJ (2018). CoCoScore: Context-aware co-occurrence scoring for text mining applications using distant supervision.  
-[Preprint](https://doi.org/10.1101/444398)
+None at the moment.
 
 ## Research articles
 
+Junge A and Jensen LJ (2018). CoCoScore: Context-aware co-occurrence scoring for text mining applications using distant supervision. *Bioinformatics*.  
+[Preprint](https://doi.org/10.1101/444398)
+
 Kirik U, Refsgaard JC and Jensen LJ (2019). Improving peptide-spectrum matching by fragmentation prediction using Hidden Markov Models. *Journal of Proteome Research*.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/31074280) [Full text](https://doi.org/10.1021/acs.jproteome.8b00499) [Preprint](https://doi.org/10.1101/358283)
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/31074280) [Full text](https://doi.org/10.1021/acs.jproteome.8b00499) [Preprint](https://doi.org/10.1101/358283) <span class="__dimensions_badge_embed__" data-doi="10.1021/acs.jproteome.8b00499" data-style="small_rectangle"></span>
+
+Pan X, Jensen LJ\* and Gorodkin J\* (2019). Inferring disease-associated long non-coding RNAs using genome-wide tissue expression profiles. *Bioinformatics*, **35**:1494-1502.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30295698) [Full text](https://doi.org/10.1093/bioinformatics/bty859) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/bty859" data-style="small_rectangle"></span>
 
 Pletscher-Frankild S and Jensen LJ (2019). Design, implementation, and operation of a rapid, robust named entity recognition web service. *Journal of Cheminformatics*, **11**:19.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30850898) [Full text](https://doi.org/10.1186/s13321-019-0344-9) <span class="__dimensions_badge_embed__" data-doi="10.1186/s13321-019-0344-9" data-style="small_rectangle"></span>
@@ -35,9 +40,6 @@ Jersie-Christensen RR, Lanigan LT, Lyon D, Mackie M, Belstrøm D, Kelstrup C, Fo
 
 Pan X, Xiong K, Anthon C, Hyttel P, Freude KK, Jensen LJ\* and Gorodkin J\* (2018). WebCircRNA: Classifying the circular RNA potential of coding and noncoding RNA. *Genes*, **9**:E536.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30404245) [Full text](https://doi.org/10.3390/genes9110536) [WWW](https://rth.dk/resources/webcircrna/) <span class="__dimensions_badge_embed__" data-doi="10.3390/genes9110536" data-style="small_rectangle"></span>
-
-Pan X, Jensen LJ\* and Gorodkin J\* (2018). Inferring disease-associated long non-coding RNAs using genome-wide tissue expression profiles. *Bioinformatics*.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30295698) [Full text](https://doi.org/10.1093/bioinformatics/bty859) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/bty859" data-style="small_rectangle"></span>
 
 Sinha S, Eisenhaber B, Jensen LJ, Kalbuaji B and Eisenhaber F (2018). Darkness in the human gene and protein function space: Widely modest or absent illumination by the life science literature and the trend for fewer protein function discoveries since 2000. *Proteomics*, **18**:e1800093.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30265449) [Full text](https://doi.org/10.1002/pmic.201800093) <span class="__dimensions_badge_embed__" data-doi="10.1002/pmic.201800093" data-style="small_rectangle"></span>
