@@ -28,12 +28,15 @@ EMBO Practical Course on Computational Analysis of Protein--Protein Interactions
 Bioinformatics for Human Biologists
 
 12--13 September 2019, Copenhagen, Denmark  
-Big data analytics and machine learning I
+Big Data Analytics and Machine Learning I
 
 19 June 2019, Berlin, Germany  
 HEIBRiDS Data Science School
 
 ## Past events
+
+6 June 2019, Hillerød, Denmark  
+Critical reading of high-throughput data
 
 9 April 2019, Copenhagen, Denmark  
 Statistical Methods in Bioinformatics
@@ -97,7 +100,7 @@ Bioinformatics for Human Biologists
 Utilising STRING App for Cytoscape
 
 9 June 2017, Hillerød, Denmark  
-Statistics on Big Biomedical Data
+MoMeD Summer School
 
 23--24 May 2017, Aarhus, Denmark  
 STRING/Cytoscape Workshop
@@ -144,8 +147,8 @@ Bioinformatics for Human Biologists
 24--26 June 2015, Warsaw, Poland  
 In silico Drug Discovery
 
-12 June 2015, Copenhagen, Denmark  
-Statistics on Big Biomedical Data
+12 June 2015, Hillerød, Denmark  
+MoMeD Summer School
 
 17--22 April 2015, Okinawa, Japan  
 EMBO Practical Course on Computational Biology
