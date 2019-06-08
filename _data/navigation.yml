@@ -205,6 +205,25 @@ training-stringapp:
   - title: "Supporting literature"
     url: /training/stringapp/#supporting-literature
 
+training-omicsvisualizer:
+  - title: "Learning objectives"
+    url: /training/omicsvisualizer/#learning-objectives
+  - title: "Prerequisites"
+    url: /training/omicsvisualizer/#prerequisites
+  - title: "Exercise 1"
+    url: /training/omicsvisualizer/#exercise-1
+    children:
+      - title: "Table import"
+        url: /training/omicsvisualizer/#11-table-import
+      - title: "Table row filtering"
+        url: /training/omicsvisualizer/#12-table-row-filtering
+      - title: "STRING network retrieval"
+        url: /training/omicsvisualizer/#13-string-network-retrieval
+      - title: "Donut visualization"
+        url: /training/omicsvisualizer/#14-donut-visualization
+      - title: "Pie visualization"
+        url: /training/omicsvisualizer/#15-pie-visualization
+
 training-textmining:
   - title: "Learning objectives"
     url: /training/textmining/#learning-objectives
