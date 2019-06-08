@@ -70,7 +70,7 @@ The types of queries described above can alternatively be performed through the 
 
 ## Exercise 2
 
-In this exercise, we will work with a list of 78 proteins that interact with TrkA (tropomyosin-related kinase A) in neuroblastoma cells 10 min after stimulation with NGF (nerve growth factor) ([Emdal et al., 2015](http://stke.sciencemag.org/content/8/374/ra40)). An adapted table with the data from this study is available [here](/assets/stringapp/Emdal2015SciSignal.tsv).
+In this exercise, we will work with a list of 78 proteins that interact with TrkA (tropomyosin-related kinase A) in neuroblastoma cells 10 min after stimulation with NGF (nerve growth factor) ([Emdal et al., 2015](https://doi.org/10.1126/scisignal.2005769)). An adapted table with the data from this study is available [here](/assets/stringapp/Emdal2015SciSignal.tsv).
 
 ### 2.1 Protein network retrieval
 
