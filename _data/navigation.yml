@@ -223,6 +223,8 @@ training-omicsvisualizer:
         url: /training/omicsvisualizer/#14-donut-visualization
       - title: "Pie visualization"
         url: /training/omicsvisualizer/#15-pie-visualization
+      - title: "Customizing colors"
+        url: /training/omicsvisualizer/#16-customizing-colors
 
 training-textmining:
   - title: "Learning objectives"

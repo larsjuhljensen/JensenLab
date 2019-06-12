@@ -60,12 +60,16 @@ _How are multiple sites on the same protein shown? Do different different within
 
 With the donut visualization we showed the quantitative changes in phosphorylation of each site. The study by Francavilla and coworkers also used this information to assign each site to one of three clusters (A, B and C) based on its behavior across samples. We will add this qualitative information to the network as a pie visualization.
 
-Click the pie button above the table or go to **Apps → Omics Visualizer → Create pie visualization.**. In the first dialog, select **Cluster** as values and do not select any labels. The mapping has automatically changed to **Discrete** and cannot be changed because the column does not contain numeric data. Click **Next >** to get to the second dialog and then **Draw** to create the visualization.
+Click the pie button above the table or go to **Apps → Omics Visualizer → Create pie visualization.**. In the first dialog, select **Cluster** as values and do not select any labels. The mapping has automatically changed to **Discrete** and cannot be changed because the column does not contain numeric data. Click **Next >** to get to the second dialog and then **Draw** to create the visualization. The nodes themselves have now been replaced with pie visualizations that color each site depending which cluster it belongs to.
 
-The nodes themselves have now been replaced with pie visualizations that color each site depending which cluster it belongs to. Looking at the colors, it is clear that cluster assignments very well summarize the quantitative data on regulation; one cluster A are the down-regulated sites, cluster C are the up-regulated sites, and cluster B mostly contains sites that show different behavior in the two control tissues. However, the colors assigned to the clusters do not show this in an intuitive way.
+_What are the advantages and disadvantages of donut vs. pie visualizations?_
+
+### 1.6 Customizing colors
+
+Looking at the colors, it is clear that cluster assignments very well summarize the quantitative data on regulation; one cluster A are the down-regulated sites, cluster C are the up-regulated sites, and cluster B mostly contains sites that show different behavior in the two control tissues. However, the colors assigned to the clusters do not show this in an intuitive way.
 
 To change the colors open the pie visualization dialog again and click **Next >**. Customize the colors so that cluster A is blue, cluster B is yellow, and cluster C is red. Click **Draw** to update the visualization. You should now clearly see the consistency the log-fold change values shown as donuts and the cluster assignments shown as pies.
 
 Since the two visualizations are now redundant, we can simplify the figure by deleting the detailed donut visualization. Open the donut dialog and click **Delete Visualization** to remove it.
 
-_What are the advantages and disadvantages of donut vs. pie visualizations? Which would be best suited for a big network with several hundreds of proteins?_
+_Would the pie or the donut visualization be best suited for a big network with several hundreds of proteins?_
