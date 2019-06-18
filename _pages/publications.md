@@ -12,10 +12,10 @@ None at the moment.
 ## Research articles
 
 Junge A and Jensen LJ (2018). CoCoScore: Context-aware co-occurrence scoring for text mining applications using distant supervision. *Bioinformatics*.  
-[Preprint](https://doi.org/10.1101/444398)
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/31199464) [Full text](https://doi.org/10.1093/bioinformatics/btz490) [Preprint](https://doi.org/10.1101/444398) [Source code](https://github.com/JungeAlexander/cocoscore) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btz490" data-style="small_rectangle"></span>
 
-Kirik U, Refsgaard JC and Jensen LJ (2019). Improving peptide-spectrum matching by fragmentation prediction using Hidden Markov Models. *Journal of Proteome Research*.  
-[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/31074280) [Full text](https://doi.org/10.1021/acs.jproteome.8b00499) [Preprint](https://doi.org/10.1101/358283) <span class="__dimensions_badge_embed__" data-doi="10.1021/acs.jproteome.8b00499" data-style="small_rectangle"></span>
+Kirik U, Refsgaard JC and Jensen LJ (2019). Improving peptide-spectrum matching by fragmentation prediction using Hidden Markov Models. *Journal of Proteome Research*, **18**:2385-2396.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/31074280) [Full text](https://doi.org/10.1021/acs.jproteome.8b00499) [Preprint](https://doi.org/10.1101/358283) [Source code](https://github.com/ukirik/hmsms) <span class="__dimensions_badge_embed__" data-doi="10.1021/acs.jproteome.8b00499" data-style="small_rectangle"></span>
 
 Pan X, Jensen LJ\* and Gorodkin J\* (2019). Inferring disease-associated long non-coding RNAs using genome-wide tissue expression profiles. *Bioinformatics*, **35**:1494-1502.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30295698) [Full text](https://doi.org/10.1093/bioinformatics/bty859) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/bty859" data-style="small_rectangle"></span>
