@@ -15,6 +15,7 @@ As part of running recurring training events, we maintain up-to-date exercises o
 
 * [STRING database](/training/string/)
 * [Cytoscape stringApp](/training/stringapp/)
+* [Omics Visualizer](/training/omicsvisualizer/)
 * [Text mining](/training/textmining/)
 
 Additional training material on other topics is linked to from the events below.
@@ -30,10 +31,10 @@ Bioinformatics for Human Biologists
 12--13 September 2019, Copenhagen, Denmark  
 Big Data Analytics and Machine Learning I
 
+## Past events
+
 19 June 2019, Berlin, Germany  
 HEIBRiDS Data Science School
-
-## Past events
 
 6 June 2019, Hillerød, Denmark  
 Critical reading of high-throughput data
