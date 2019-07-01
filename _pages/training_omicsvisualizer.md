@@ -121,7 +121,7 @@ _Is the visualization applied to the first network too?_
 
 ### 2.6 Customizing visualization
 
-The default network style applied by Cytoscape creates rectangular nodes, which causes the donuts to become elliptic rather than circular. To fix this, go to the **Style** tab and check **Lock node width and height**.
+The default network style applied by Cytoscape creates rectangular nodes, which causes the donuts to become elliptic rather than circular. To fix this, go to the **Style** tab and check **Lock node width and height**. You may also want to change **Fill Color** to white, to make the data visualization stand out more clearly.
 
 The RNA-seq data contains the normalized read count for each gene at each time point. Since some genes have orders of magnitude more reads than others, the automatically assigned color scale does not work well. Click the donut button above the table or go to the menu **Apps → Omics Visualizer → Create donut visualization** and click **Next >** in the first dialog without modifying anything. In the second dialog, set **Max** to **4000**, **Middle** to **2000**, and **Min** to **0**. Click **Draw** to update the visualization.
 
