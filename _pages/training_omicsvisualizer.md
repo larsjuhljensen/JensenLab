@@ -9,10 +9,12 @@ sidebar:
 
 In these exercises, we will use the [Omics Visualizer](http://apps.cytoscape.org/apps/omicsvisualizer) app for [Cytoscape](http://cytoscape.org/) to retrieve molecular networks from the [STRING](https://string-db.org/) database and visualize site-specific information on the nodes. The exercises will teach you how to:
 
-* load a table with site-specific data
+* load a table with omics data
 * filter the data within the table
 * retrieve a STRING network for a table
+* connect the table to a network
 * visualize site-specific data onto networks
+* visualize time-series data onto networks
 
 ## Prerequisites
 
@@ -73,3 +75,54 @@ To change the colors open the pie visualization dialog again and click **Next >*
 Since the two visualizations are now redundant, we can simplify the figure by deleting the detailed donut visualization. Open the donut dialog and click **Delete Visualization** to remove it.
 
 _Would the pie or the donut visualization be best suited for a big network with several hundreds of proteins?_
+
+## Exercise 2
+
+In this exercise, we will load a protein–protein interaction network and a data table with time-course transcriptomic data, connect the two, extract a subnetwork of significantly regulated genes, and visualize the time-course data onto the network.
+
+We will specifically work with two published _Saccaromyces cerevisiae_ studies, namely a yeast two-hybrid screen of physical protein–protein interactions ([Yu et al., 2008](https://doi.org/10.1126/science.1158684)) and an RNA-seq study of the hypoxic response ([Bendjilali et al., 2017](https://doi.org/10.1534%2Fg3.116.034991)). The latter study measured gene expression at eight time points and used two statistical metrics to identify significant changes.
+
+### 2.1 Network import
+
+Start Cytoscape or close the current session from the menu **File → Close**. Download the [yeast interactome file](/assets/omicsvisualizer/Yu2008Science.tsv) and import it in Cytoscape with the menu **File → Import → Network from File ...**. Be careful, the file contains no header, so you must go to the **Advanced Options ...** and unselect **Use first line as column names**. Then select **Column 1** as the source node (green dot) and **Column 2** as the target (orange target).
+
+### 2.2 Table import
+
+Download the [transcriptomic data file](/assets/omicsvisualizer/Bendjilali2017G3.tsv) and go to the menu **Apps → Omics Visualizer → Import table from file** to import the file. The import dialog gives you the option to name the table, shows how the file is interpreted given the current settings, and allows you to change these as needed. In this case, we have to change a data type for one of the columns, namely min180, which should be interpreted as floating point numbers. Click on the column **min180**, choose **1.0**, and click outside the dropdown menu to close it. Click **OK** to complete the import.
+
+### 2.3 Connect table
+
+We now need to tell Omics Visualizer how to connect the data table with the imported network. Since the gene names in the table are the node namess in the network, we will link the table and network using these as keys.
+
+Click the connect button above the table or go to the menu **Apps → Omics Visualizer → Manage table connections**. In the **Add a new connection** panel, select the network collection **Yu2008Science.tsv** (unless you renamed the network collection). Select **shared name** as key column from the network and **gene** as key column from the table. Click **Connect** to connect the table with the network. The connection should now be visible in the **Connected Network Collections** panel. Click on **Close**.
+If your table is successfully connected to the network then you should see that the pie and donut visualization buttons are now available.
+
+### 2.4 Extract subnetwork
+
+The interaction network cover 1278 protein-coding genes, almost all of which are also included in the transcriptomic data. However, most of them are not significantly regulated. We will thus now use the filter functionality of Omics Visualizer to select the significantly regulated genes and extract a subnetwork containing only those.
+
+Click the filter button above the network or go to the menu **Apps → Omics Visualizer → Filter table rows**. In the filter dialog, you can build logical rules that take into account multiple columns in the table. Select **autocor.adj** as the column to use for filtering, choose **<=** as the operator, enter **0.05** as the value. Click the **+** button to add the equivalent filter for the column **DESeq.adj**, and click **Apply** then **Close**. The filter button above the table should turn green to show that you have an active filter, and the table will only show rows for the genes that passed the filter.
+
+[Filter table](cycmd:ov filter filter="{(autocor.adj,LOWER_EQUALS,0.05),(DESeq.adj,LOWER_EQUALS,0.05)}"){: .btn .btn--cybrowser .btn--primary}
+
+To extract a subnetwork for these genes, first make sure that the yeast interactome is the active network shown in Cytoscape. Then go to the Omics Visualizer table, select all rows (e.g. by pressing **Ctrl+A** on Windows/Linux or **command+A** on Mac), and right-click the rows and choose **Select nodes from selected rows** from the context menu. Go to the menu **File → New Network → From Selected Nodes, All Edges** to create a network of only the significantly regulated genes. Finally, apply a layout (e.g. yFiles Organic Layout) to the new network to bring the nodes closer together.
+
+_How many nodes are in the subnetwork? Does it corresponds to the number of filtered rows from the table?_
+
+### 2.5 Donut visualization
+
+We will now visualize the time-series data onto the subnetwork, showing the columns with different time points as slices in a donut visualization.
+
+Click the donut button above the table or go to the menu **Apps → Omics Visualizer → Create donut visualization**. In the first dialog, choose the data to visualize: select **min0** as the first value set, click the **+**, select **min5** as the second value set, and repeat this process to add all the time points in order. Choose **Continuous** as mapping, and **--- NONE ---** as labels. Click **Next >** to get to the second dialog, select ring is **row** to turn the columns into slices, and then simply **Draw** to visualize the data with the default palette and color gradient.
+
+To enhance the visualization, we will modify it. Click the donut button above the table or go to the menu **Apps → Omics Visualizer → Create donut visualization**. Do not modify the first dialog and click on **Next >**. Change the meaning of the ring by selecting **row**, so that one row of the table will be one ring, and each column will be a slice. Click **Draw** to apply your modifications.
+
+_Is the visualization applied to the first network too?_
+
+### 2.6 Customizing visualization
+
+The default network style applied by Cytoscape creates rectangular nodes, which causes the donuts to become elliptic rather than circular. To fix this, go to the **Style** tab and check **Lock node width and height**.
+
+The RNA-seq data contains the normalized read count for each gene at each time point. Since some genes have orders of magnitude more reads than others, the automatically assigned color scale does not work well. Click the donut button above the table or go to the menu **Apps → Omics Visualizer → Create donut visualization** and click **Next >** in the first dialog without modifying anything. In the second dialog, set **Max** to **4000**, **Middle** to **2000**, and **Min** to **0**. Click **Draw** to update the visualization.
+
+_How could the input data be transformed to avoid this problem?_

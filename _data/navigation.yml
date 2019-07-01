@@ -227,6 +227,21 @@ training-omicsvisualizer:
         url: /training/omicsvisualizer/#15-pie-visualization
       - title: "Customizing colors"
         url: /training/omicsvisualizer/#16-customizing-colors
+  - title: "Exercise 2"
+    url: /training/omicsvisualizer/#exercise-2
+    children:
+      - title: "Network import"
+        url: /training/omicsvisualizer/#21-network-import
+      - title: "Table import"
+        url: /training/omicsvisualizer/#22-table-import
+      - title: "Connect table"
+        url: /training/omicsvisualizer/#23-connect-table
+      - title: "Table row filtering"
+        url: /training/omicsvisualizer/#24-extract-subnetwork
+      - title: "Donut visualization"
+        url: /training/omicsvisualizer/#25-donut-visualization
+      - title: "Customizing visualization"
+        url: /training/omicsvisualizer/#26-customizing-visualization
 
 training-textmining:
   - title: "Learning objectives"
