@@ -236,7 +236,7 @@ training-omicsvisualizer:
         url: /training/omicsvisualizer/#22-table-import
       - title: "Connect table"
         url: /training/omicsvisualizer/#23-connect-table
-      - title: "Table row filtering"
+      - title: "Extract subnetwork"
         url: /training/omicsvisualizer/#24-extract-subnetwork
       - title: "Donut visualization"
         url: /training/omicsvisualizer/#25-donut-visualization

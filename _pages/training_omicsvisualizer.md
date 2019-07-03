@@ -92,7 +92,7 @@ Download the [transcriptomic data file](/assets/omicsvisualizer/Bendjilali2017G3
 
 ### 2.3 Connect table
 
-We now need to tell Omics Visualizer how to connect the data table with the imported network. Since the gene names in the table are the node namess in the network, we will link the table and network using these as keys.
+We now need to tell Omics Visualizer how to connect the data table with the imported network. Since the gene names in the table are the node names in the network, we will link the table and network using these as keys.
 
 Click the connect button above the table or go to the menu **Apps → Omics Visualizer → Manage table connections**. In the **Add a new connection** panel, select the network collection **Yu2008Science.tsv** (unless you renamed the network collection). Select **shared name** as key column from the network and **gene** as key column from the table. Click **Connect** to connect the table with the network. The connection should now be visible in the **Connected Network Collections** panel. Click on **Close**.
 If your table is successfully connected to the network then you should see that the pie and donut visualization buttons are now available.
@@ -114,8 +114,6 @@ _How many nodes are in the subnetwork? Does it corresponds to the number of filt
 We will now visualize the time-series data onto the subnetwork, showing the columns with different time points as slices in a donut visualization.
 
 Click the donut button above the table or go to the menu **Apps → Omics Visualizer → Create donut visualization**. In the first dialog, choose the data to visualize: select **min0** as the first value set, click the **+**, select **min5** as the second value set, and repeat this process to add all the time points in order. Choose **Continuous** as mapping, and **--- NONE ---** as labels. Click **Next >** to get to the second dialog, select ring is **row** to turn the columns into slices, and then simply **Draw** to visualize the data with the default palette and color gradient.
-
-To enhance the visualization, we will modify it. Click the donut button above the table or go to the menu **Apps → Omics Visualizer → Create donut visualization**. Do not modify the first dialog and click on **Next >**. Change the meaning of the ring by selecting **row**, so that one row of the table will be one ring, and each column will be a slice. Click **Draw** to apply your modifications.
 
 _Is the visualization applied to the first network too?_
 
