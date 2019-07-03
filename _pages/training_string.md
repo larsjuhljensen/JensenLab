@@ -109,5 +109,4 @@ Click on the logo at the top of the page to go back to the main search screen.  
 
 _Which host proteins does P interact with?  What types of evidence supports these interactions?_
 
-
 [![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)

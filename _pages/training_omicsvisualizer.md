@@ -124,3 +124,5 @@ The default network style applied by Cytoscape creates rectangular nodes, which 
 The RNA-seq data contains the normalized read count for each gene at each time point. Since some genes have orders of magnitude more reads than others, the automatically assigned color scale does not work well. Click the donut button above the table or go to the menu **Apps → Omics Visualizer → Create donut visualization** and click **Next >** in the first dialog without modifying anything. In the second dialog, set **Max** to **4000**, **Middle** to **2000**, and **Min** to **0**. Click **Draw** to update the visualization.
 
 _How could the input data be transformed to avoid this problem?_
+
+[![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
