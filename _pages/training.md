@@ -33,6 +33,8 @@ Big Data Analytics and Machine Learning I
 
 ## Past events
 
+### 2019
+
 19 June 2019, Berlin, Germany  
 HEIBRiDS Data Science School
 
@@ -47,6 +49,8 @@ Fundamental Bioinformatics
 
 15 January, 2019, Zakopane, Poland  
 Cytoscape/STRING Workshop
+
+### 2018
 
 15 November 2018, Copenhagen, Denmark  
 Cytoscape/STRING Workshop
@@ -87,6 +91,8 @@ From Protein Structure to Biological Function through Interactomics
 24 January 2018, Copenhagen, Denmark  
 Cytoscape/STRING Workshop
 
+### 2017
+
 25--26 October 2017, Copenhagen, Denmark  
 Microbiome Data Interpretation Workshop  
 [Material](https://drive.google.com/open?id=0B3LtU3DLB8MQUGRsLWdWSEY0OWs)
@@ -112,6 +118,8 @@ Statistical Methods in Bioinformatics
 14 March 2017, Copenhagen, Denmark  
 Fundamental Bioinformatics
 
+### 2016
+
 22 September 2016, Copenhagen, Denmark  
 Bioinformatics for Human Biologists
 
@@ -130,6 +138,8 @@ Bioinformatics Spring School
 
 11 March 2016, Copenhagen, Denmark  
 Fundamental Bioinformatics
+
+### 2015
 
 8--13 March 2015, Safed, Israel  
 The Literature Text Mining Approach In Cancer Research  
@@ -163,6 +173,8 @@ Bioinformatics Spring School
 3 March 2015, Copenhagen, Denmark  
 Fundamental Bioinformatics
 
+### 2014
+
 28 September--3 October 2014, Cape Town, South Africa  
 EMBO Practical Course on Computational Analysis of Protein--Protein Interactions
 
@@ -174,6 +186,8 @@ Bioinformatics Spring School
 
 14 March 2014, Copenhagen, Denmark  
 Fundamental Bioinformatics
+
+### 2013
 
 21--25 October 2013, Sydney, Australia  
 EMBL-Australia Masterclass on Protein Sequence Analysis
@@ -193,6 +207,8 @@ Fundamental Bioinformatics
 2--6 March 2013, Seeon--Seebruck, Germany  
 Bioinformatics Spring School
 
+### 2012
+
 15 November 2012, Lyngby, Denmark  
 Chemoinformatics in Drug Discovery
 
@@ -210,6 +226,8 @@ EMBO Practical Course on Computational Analysis of Protein--Protein Interactions
 
 17--21 March 2012, Hainburg, Austria  
 Bioinformatics Spring School
+
+### 2011
 
 17 November 2011, Lyngby, Denmark  
 Chemoinformatics in Drug Discovery
@@ -229,6 +247,8 @@ MaxQuant Summer School
 12--16 March 2011, Ronzano, Italy  
 Bioinformatics Spring School
 
+### 2010
+
 18 November 2010, Lyngby, Denmark  
 Chemoinformatics in Drug Discovery
 
@@ -243,6 +263,8 @@ Workshop on Drug Discovery Informatics
 
 19--22 January 2010, Heidelberg, Germany  
 Exploring Modular Protein Architecture
+
+### 2009
 
 19 November 2009, Lyngby, Denmark  
 Chemoinformatics in Drug Discovery
