@@ -14,7 +14,7 @@ None at the moment.
 ### 2019
 
 Hjaltelin JX, Izarzugaza JMG, Jensen LJ, Russo F, Westergaard D and Brunak S (2019). Identification of hyper-rewired genomic stress non-oncogene addiction genes across 15 cancer types. *NPG Systems Biology and Applications*, **5**:27.  
-[Full text](https://doi.org/10.1038/s41540-019-0104-5) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41540-019-0104-5" data-style="small_rectangle"></span>
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/31396397) [Full text](https://doi.org/10.1038/s41540-019-0104-5) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41540-019-0104-5" data-style="small_rectangle"></span>
 
 Junge A and Jensen LJ (2019). CoCoScore: Context-aware co-occurrence scoring for text mining applications using distant supervision. *Bioinformatics*.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/31199464) [Full text](https://doi.org/10.1093/bioinformatics/btz490) [Preprint](https://doi.org/10.1101/444398) [Source code](https://github.com/JungeAlexander/cocoscore) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btz490" data-style="small_rectangle"></span>
