@@ -13,6 +13,9 @@ None at the moment.
 
 ### 2019
 
+Tagore S, Gorohovski A, Jensen LJ and Frenkel-Morgenstern M (2019). ProtFus: A Comprehensive Method Characterizing Protein-Protein Interactions of Fusion Proteins. *PLOS Computational Biology*, **15**:e1007239.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/31437145) [Full text](https://doi.org/10.1371/journal.pcbi.1007239) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1007239" data-style="small_rectangle"></span>
+
 Hjaltelin JX, Izarzugaza JMG, Jensen LJ, Russo F, Westergaard D and Brunak S (2019). Identification of hyper-rewired genomic stress non-oncogene addiction genes across 15 cancer types. *NPG Systems Biology and Applications*, **5**:27.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/31396397) [Full text](https://doi.org/10.1038/s41540-019-0104-5) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41540-019-0104-5" data-style="small_rectangle"></span>
 
