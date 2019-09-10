@@ -2,6 +2,8 @@
 title: Text-mining exercises
 layout: single
 permalink: /training/textmining/neurology/
+sidebar:
+  nav: "training-textmining-neurology"
 ---
 ## Learning objectives
 
