@@ -287,8 +287,6 @@ training-textmining-neurology:
         url: /training/textmining/neurology/#12-information-retrieval
       - title: "Information extraction"
         url: /training/textmining/neurology/#13-information-extraction
-      - title: "Knowledge discovery"
-        url: /training/textmining/neurology/#14-knowledge-discovery
   - title: "Exercise 2"
     url: /training/textmining/neurology/#exercise-2
     children:
