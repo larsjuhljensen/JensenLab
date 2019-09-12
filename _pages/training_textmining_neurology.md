@@ -87,11 +87,11 @@ The SCN2A gene is well known to be involved in epilepsy. To check if it has also
 
 <https://www.ncbi.nlm.nih.gov/pubmed/?term=%22SCN2A%22+%22autism+spectrum+disorders%22>
 
-Since SCN2A (ENSP00000283256) and autism spectrum disorder (DOID:0060041) are both named entities in our dictionary, we can instead use the results of NER to retrieve relevant documents:
+Since SCN2A (ENSP00000364586) and autism spectrum disorder (DOID:0060041) are both named entities in our dictionary, we can instead use the results of NER to retrieve relevant documents:
 
-<https://diseases.jensenlab.org/Entity?documents=50&type1=9606&type2=-26&id1=ENSP00000283256&id2=DOID:0060041>
+<https://diseases.jensenlab.org/Entity?documents=50&type1=9606&type2=-26&id1=ENSP00000364586&id2=DOID:0060041>
 
-The NER-based approach retrieves several many publications. Inspect these abstracts.
+The NER-based approach retrieves many more publications. Inspect some of these abstracts.
 
 _Are they relevant and why were they were not found by the initial search?_
 
