@@ -71,7 +71,7 @@ _Which disease is most strongly associated with LRRK2 according to text mining?_
 
 Click on **Parkinson's disease** in the text-mining table.
 
-_Do the abstracts in fact support an association between epilepsy disease and LRRK2?_
+_Do the abstracts in fact support an association between Parkinson's disease and LRRK2?_
 
 Cooccurrence-based IE is a very generic approach, which can be used to find associations between any two types of entities for which we can do NER. For example, we can use the same approach to extract LRRK2-associated terms from the mammalian phenotype:
 
