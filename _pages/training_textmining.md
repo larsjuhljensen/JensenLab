@@ -149,7 +149,7 @@ _Are the enriched terms more specific than those with the highest counts?_
 
 These types of analyses are by no means limited to tissues. If the task asks for it, equivalent analyses can be done for, e.g., diseases or environmental descriptors. Perform an enrichment analysis for diseases using a **Z-score cutoff** of **4.0**. The slightly lower cutoff reflects that the text-mined associations between diseases and organisms are not quite as strong as those between tissues and organisms.
 
-_Which are most significantly enriched diseases?_
+_Which is the most significantly enriched disease?_
 
 ### 2.4 Mining for indirect associations
 
