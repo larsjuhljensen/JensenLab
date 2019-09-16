@@ -53,7 +53,7 @@ We run the same NER system used in EXTRACT on entire PubMed every week and make 
 
 Go to <https://organisms.jensenlab.org/> and query for **S. aureus**. You are now presented with several options, since there are many genera starting with S that include an aureus species. Click on the **Staphylococcus aureus** (taxid:1280) row to view the abstracts for this species.
 
-_Do the abstracts shown all mention Staphylococcus aureus?_
+_Do the abstracts shown on the first page all mention Staphylococcus aureus?_
 
 Go back to the search page (e.g. by clicking **ORGANISMS** in the header) and query for **Firmicutes**. You are again presented with many options including the **Firmicutes** phylum itself (taxid:1239) as well as numerous species and strains. Click on the row for the phylum to view abstracts.
 
@@ -69,7 +69,7 @@ _Which diseases are highlighted in the abstracts?_
 
 The goal of cooccurrence-based information extraction (IE) is to link entities (A, B, C) to each other based on them being mentioned together in documents (A → documents → B; B → documents → C).
 
-Go to <https://diseases.jensenlab.org/> and query for **Crohn disease**. Again, click on it on the disambiguation page (like in the ORGANISMS resource).
+Go to <https://diseases.jensenlab.org/> and query for **Crohn's disease**. Again, click on it on the disambiguation page (like in the ORGANISMS resource).
 
 _Which gene is most strongly associated with Crohn's disease according to text mining?_
 
