@@ -1,5 +1,8 @@
 include: ["_pages"]
 
+kramdown:
+  smart_quotes:  ["apos", "apos", "ldquo", "rdquo"]
+
 plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
