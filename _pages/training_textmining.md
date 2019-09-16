@@ -157,7 +157,7 @@ After Fusobacterium nucleatum, the most overrepresented bacterial species in sam
 
 <https://organisms.jensenlab.org/Entity?documents=10&type1=-2&id1=341694&type2=-26&id2=DOID:9256>
 
-Use ARROWSMITH to search for B-terms that connect the A-term **Peptostreptococcus stomatis** to the C-term **colorectal cancer**. Look through the list of suggested B-terms.
+Use [ARROWSMITH](http://arrowsmith.psych.uic.edu/cgi-bin/arrowsmith_uic/start.cgi) to search for B-terms that connect the A-term **Peptostreptococcus stomatis** to the C-term **colorectal cancer**. Look through the list of suggested B-terms.
 
 Most of the top terms are very general terms related to microbiome sequencing. However, multiple terms related to oral squamous cell carcinomas are also found to be linked both to the species in question and to colorectal cancer. Inspect the underlying literature for this indirect association in ARROWSMITH.
 
