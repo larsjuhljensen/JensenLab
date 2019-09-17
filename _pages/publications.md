@@ -14,7 +14,7 @@ None at the moment.
 ### 2019
 
 Kjær C, Barzaghi G, Bak LK, Goetze JP, Yde CW, Woldbye D, Pinborg LH and Jensen LJ (2019). Transcriptome analysis in patients with temporal lobe epilepsy. *Brain*.  
-[Full text](https://doi.org/10.1093/brain/awz265) <span class="__dimensions_badge_embed__" data-doi="10.1093/brain/awz265" data-style="small_rectangle"></span>
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/31504209) [Full text](https://doi.org/10.1093/brain/awz265) <span class="__dimensions_badge_embed__" data-doi="10.1093/brain/awz265" data-style="small_rectangle"></span>
 
 Tagore S, Gorohovski A, Jensen LJ and Frenkel-Morgenstern M (2019). ProtFus: A Comprehensive Method Characterizing Protein-Protein Interactions of Fusion Proteins. *PLOS Computational Biology*, **15**:e1007239.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/31437145) [Full text](https://doi.org/10.1371/journal.pcbi.1007239) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1007239" data-style="small_rectangle"></span>
