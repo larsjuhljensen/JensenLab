@@ -145,11 +145,11 @@ _How does this change the results?_
 
 The [SimpleCount](https://simplecount.jensenlab.org/) server also allows you to count terms in both a foreground and a background set of organisms and test each tissue term for statistically significant overrepresentation in the foreground set. This type of analysis yields terms that are frequent in the foreground set but not in the background set, as opposed to the terms identified above, which are merely frequent in the foreground set. To perform this analysis use the same **Foreground** set as in the previous analysis, paste in the [full list of bacteria identified in the study]({{ site.baseurl }}/assets/textmining/background.txt) into **Background**, set the **Z-score cutoff** to **5.0**, set the **P-value cutoff** to **0.001**, and click **Count**. The results table now includes two additional columns, namely the background count and the p-value. Note that the reported p-values are not corrected for multiple testing.
 
-_Are the enriched terms more specific than those with the highest counts?_
+_Are the overrepresented terms more specific than those with the highest counts?_
 
 These types of analyses are by no means limited to tissues. If the task asks for it, equivalent analyses can be done for, e.g., diseases or environmental descriptors. Perform an enrichment analysis for diseases using a **Z-score cutoff** of **4.0**. The slightly lower cutoff reflects that the text-mined associations between diseases and organisms are not quite as strong as those between tissues and organisms.
 
-_Which is the most significantly enriched disease?_
+_Which is the most significantly overrepresented disease?_
 
 ### 2.4 Mining for indirect associations
 
