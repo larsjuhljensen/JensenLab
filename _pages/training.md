@@ -28,12 +28,12 @@ EMBO Practical Course on Computational Analysis of Protein--Protein Interactions
 25--26 September 2019, Belval, Luxembourg  
 Current advances in text mining
 
-19--20 September 2019, Copenhagen, Denmark  
-Bioinformatics for Human Biologists
-
 ## Past events
 
 ### 2019
+
+19--20 September 2019, Copenhagen, Denmark  
+Bioinformatics for Human Biologists
 
 12--13 September 2019, Copenhagen, Denmark  
 Big Data Analytics and Machine Learning I
