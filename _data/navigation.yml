@@ -43,8 +43,6 @@ projects:
   - title: "Student projects"
     url: /projects/students/
     children:
-      - title: "Deep learning of peptide fragmentation"
-        url: /projects/students/#deep-learning-of-peptide-fragmentation
       - title: "Text mining beyond PubMed"
         url: /projects/students/#text-mining-beyond-pubmed
 
