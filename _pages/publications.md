@@ -375,7 +375,7 @@ Gianoulis TA, Raes J, Patel PV, Bjornson R, Korbel JO, Letunic I, Yamada T, Pacc
 Csikász-Nagy A, Kapuy O, Tóth A, Pál C, Jensen LJ, Uhlmann F, Tyson JJ and Novák B (2009). Cell cycle regulation by feed-forward loops coupling transcription and phosphorylation. *Molecular Systems Biology*, **5**:236.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/19156128) [Full text](https://doi.org/10.1038/msb.2008.73) <span class="__dimensions_badge_embed__" data-doi="10.1038/msb.2008.73" data-style="small_rectangle"></span>
 
-Jensen LJ*, Kuhn M*, Stark M, Chaffron S, Creevey C, Muller J, Doerks T, Julien P, Roth A, Simonovic M, Bork P and von Mering C (2009). STRING 8 - a global view on proteins and their functional interactions in 630 model organisms. *Nucleic Acids Research*, **37**:D412-D416.  
+Jensen LJ\*, Kuhn M\*, Stark M, Chaffron S, Creevey C, Muller J, Doerks T, Julien P, Roth A, Simonovic M, Bork P and von Mering C (2009). STRING 8 - a global view on proteins and their functional interactions in 630 model organisms. *Nucleic Acids Research*, **37**:D412-D416.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/18940858) [Full text](https://doi.org/10.1093/nar/gkn760) [WWW](https://string-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkn760" data-style="small_rectangle"></span>
 
 ### 2008
