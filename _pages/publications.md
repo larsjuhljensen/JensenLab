@@ -418,7 +418,7 @@ Linding R\*, Jensen LJ\*, Ostheimer GJ\*, van Vugt MATM, Jørgensen C, Miron IM,
 von Mering C, Hugenholtz P, Raes J, Tringe SG, Doerks T, Jensen LJ, Ward N and Bork P (2007). Quantitative phylogenetic assessment of microbial communities in diverse environments. *Science*, **315**:1126-1130.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/17272687) [Full text](https://doi.org/10.1126/science.1133420) <span class="__dimensions_badge_embed__" data-doi="10.1126/science.1133420" data-style="small_rectangle"></span>
 
-Hooper SD*, Boue S*, Krause R*, Jensen LJ, Mason CE, Ghanim M, White KP, Furlong EE and Bork P (2007). Identification of tightly regulated groups of genes during Drosophila melanogaster embryogenesis. *Molecular Systems Biology*, **3**:72.  
+Hooper SD\*, Boue S\*, Krause R\*, Jensen LJ, Mason CE, Ghanim M, White KP, Furlong EE and Bork P (2007). Identification of tightly regulated groups of genes during Drosophila melanogaster embryogenesis. *Molecular Systems Biology*, **3**:72.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/17224916) [Full text](https://doi.org/10.1038/msb4100112) <span class="__dimensions_badge_embed__" data-doi="10.1038/msb4100112" data-style="small_rectangle"></span>
 
 von Mering C\*, Jensen LJ\*, Kuhn M, Chaffron S, Doerks T, Krüger B, Snel B and Bork P (2007). STRING 7 - recent developments in the integration and prediction of protein interactions. *Nucleic Acids Research*, **35**:D358-D362.  
