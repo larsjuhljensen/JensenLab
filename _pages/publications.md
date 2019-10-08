@@ -227,7 +227,7 @@ Sylvestersen KB, Horn H, Jungmichel S, Jensen LJ and Nielsen ML (2014). Proteomi
 Eriksson R, Werge T, Jensen LJ and Brunak S (2014). Dose-specific adverse drug reaction identification in electronic patient records: temporal data mining in an inpatient psychiatric population. *Drug Safety*, **37**:237-247.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/24634163) [Full text](https://doi.org/10.1007/s40264-014-0145-z) <span class="__dimensions_badge_embed__" data-doi="10.1007/s40264-014-0145-z" data-style="small_rectangle"></span>
 
-Binder JX*, Pletscher-Frankild S*, Tsafou K, Stolte C, O’Donoghue SI, Schneider R and Jensen LJ (2014). COMPARTMENTS: unification and visualization of protein subcellular localization evidence. *Database*, **2014**:bau012.  
+Binder JX\*, Pletscher-Frankild S\*, Tsafou K, Stolte C, O’Donoghue SI, Schneider R and Jensen LJ (2014). COMPARTMENTS: unification and visualization of protein subcellular localization evidence. *Database*, **2014**:bau012.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/24573882) [Full text](https://doi.org/10.1093/database/bau012) [WWW](https://compartments.jensenlab.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/database/bau012" data-style="small_rectangle"></span>
 
 Powell S, Forslund K, Szklarczyk D, Trachana K, Roth A, Huerta-Cepas J, Gabaldón T, Rattei T, Creevey C, Kuhn M, Jensen LJ\*, von Mering C\* and Bork P\* (2014). eggNOG v4.0: nested orthology inference across 3686 organisms. *Nucleic Acids Research*, **42**:D231-D239.  
