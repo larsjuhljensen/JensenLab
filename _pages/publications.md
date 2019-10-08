@@ -262,7 +262,7 @@ Eriksson R, Jensen PB, Pletscher-Frankild S, Jensen LJ and Brunak S (2013). Dict
 Kuhn M, Al Banchaabouchi M, Campillos M, Jensen LJ, Gross C, Gavin A-C and Bork P (2013). Systematic identification of proteins that elicit drug side effects. *Molecular Systems Biology*, **9**:663.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/23632385) [Full text](https://doi.org/10.1038/msb.2013.10) <span class="__dimensions_badge_embed__" data-doi="10.1038/msb.2013.10" data-style="small_rectangle"></span>
 
-Franceschini A, Szklarczyk D, Pletscher-Frankild S, Kuhn M, Simonovic M, Roth A, Lin J, Minguez P, Bork P*, von Mering C\* and Jensen LJ\* (2013). STRING v9.1: protein-protein interaction networks, with increased coverage and integration. *Nucleic Acids Research*, **41**:D808-D815.  
+Franceschini A, Szklarczyk D, Pletscher-Frankild S, Kuhn M, Simonovic M, Roth A, Lin J, Minguez P, Bork P\*, von Mering C\* and Jensen LJ\* (2013). STRING v9.1: protein-protein interaction networks, with increased coverage and integration. *Nucleic Acids Research*, **41**:D808-D815.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/23203871) [Full text](https://doi.org/10.1093/nar/gks1094) [WWW](https://string-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gks1094" data-style="small_rectangle"></span>
 
 ### 2012
