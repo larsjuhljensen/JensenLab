@@ -380,7 +380,7 @@ Jensen LJ\*, Kuhn M\*, Stark M, Chaffron S, Creevey C, Muller J, Doerks T, Julie
 
 ### 2008
 
-Miller ML*, Jensen LJ*, Diella F, Jørgensen C, Tinti M, Li L, Hsiung M, Parker SA, Bordeaux J, Sicheritz-Ponten T, Olhovsky M, Pasculescu A, Alexander J, Knapp S, Blom N, Bork P, Li S, Cesareni G, Pawson T, Turk BE, Yaffe MB, Brunak S, Linding R (2008). Linear motif atlas for phosphorylation-dependent signaling. *Science Signaling*, **1**:ra2.  
+Miller ML\*, Jensen LJ\*, Diella F, Jørgensen C, Tinti M, Li L, Hsiung M, Parker SA, Bordeaux J, Sicheritz-Ponten T, Olhovsky M, Pasculescu A, Alexander J, Knapp S, Blom N, Bork P, Li S, Cesareni G, Pawson T, Turk BE, Yaffe MB, Brunak S, Linding R (2008). Linear motif atlas for phosphorylation-dependent signaling. *Science Signaling*, **1**:ra2.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/18765831) [Full text](https://doi.org/10.1126/scisignal.1159433) [WWW](http://netphorest.info) <span class="__dimensions_badge_embed__" data-doi="10.1126/scisignal.1159433" data-style="small_rectangle"></span>
 
 Campillos M\*, Kuhn M\*, Gavin A-C, Jensen LJ and Bork P (2008). Drug target identification using side-effect similarity. *Science*, **321**:263-266.  
