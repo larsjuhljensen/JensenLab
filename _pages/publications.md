@@ -305,7 +305,7 @@ Parnell LD, Lindenbaum P, Shameer K, Dall'Olio GM, Swan DC, Jensen LJ, Cockell S
 Waters MR, Stafford Jr. TW, McDonald HG, Gustafson C, Rasmussen M, Cappellini E, Olsen JV, Szklarczyk D, Jensen LJ, Gilbert MTP, Willerslev E (2011). Pre-Clovis Mastodon Hunting 13,800 Years Ago at the Manis Site, Washington. *Science*, **334**:351-353.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/22021854) [Full text](https://doi.org/10.1126/science.1207663) <span class="__dimensions_badge_embed__" data-doi="10.1126/science.1207663" data-style="small_rectangle"></span>
 
-Roque FS*, Jensen PB*, Schmock H, Dalgaard M, Andreatta M, Hansen T, Søeby K, Bredkjær S, Juul A, Werge T, Jensen LJ and Brunak S (2011). Using Electronic Patient Records to Discover Disease Correlations and Stratify Patient Cohorts. *PLOS Computational Biology*, **7**:e1002141.  
+Roque FS\*, Jensen PB\*, Schmock H, Dalgaard M, Andreatta M, Hansen T, Søeby K, Bredkjær S, Juul A, Werge T, Jensen LJ and Brunak S (2011). Using Electronic Patient Records to Discover Disease Correlations and Stratify Patient Cohorts. *PLOS Computational Biology*, **7**:e1002141.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/21901084) [Full text](https://doi.org/10.1371/journal.pcbi.1002141) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1002141" data-style="small_rectangle"></span>
 
 Weinert BT, Wagner SA, Horn H, Henriksen P, Liu WR, Olsen JV, Jensen LJ and Choudhary C (2011). Proteome-wide mapping of the Drosophila acetylome demonstrates a high degree of conservation of lysine acetylation. *Science Signaling*, **4**:ra48.  
