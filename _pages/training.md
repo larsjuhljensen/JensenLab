@@ -25,12 +25,12 @@ Additional training material on other topics is linked to from the events below.
 1--6 December 2019, Bangalore, India  
 EMBO Practical Course on Computational Analysis of Protein--Protein Interactions
 
-25--26 September 2019, Belval, Luxembourg  
-Current advances in text mining
-
 ## Past events
 
 ### 2019
+
+25--26 September 2019, Belval, Luxembourg  
+Current advances in text mining
 
 19--20 September 2019, Copenhagen, Denmark  
 Bioinformatics for Human Biologists
