@@ -13,6 +13,9 @@ None at the moment.
 
 ### 2019
 
+Burgess A, Vuong J, Marzec KA, de Lichtenberg U, O’Donoghue SI and Jensen LJ (2019). SnapShot: S-Phase Entry and Exit. *Cell*.  
+[Full text](https://doi.org/10.1016/j.cell.2019.09.031) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.cell.2019.09.031" data-style="small_rectangle"></span>
+
 Lundby A, Franciosa G, Emdal KB, Refsgaard JC, Gnosa SP, Bekker-Jensen DB, Secher A, Maurya SR, Paul I, Mendez BL, Kelstrup CD, Francavilla C, Kveiborg M, Montoya G, Jensen LJ and Olsen JV (2019). Oncogenic Mutations Rewire Signaling Pathways by Switching Protein Recruitment to Phosphotyrosine Sites. *Cell*.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/31585087) [Full text](https://doi.org/10.1016/j.cell.2019.09.008) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.cell.2019.09.008" data-style="small_rectangle"></span>
 
