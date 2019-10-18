@@ -13,9 +13,6 @@ None at the moment.
 
 ### 2019
 
-Burgess A, Vuong J, Marzec KA, de Lichtenberg U, O’Donoghue SI and Jensen LJ (2019). SnapShot: S-Phase Entry and Exit. *Cell*, **179**:802.  
-[Full text](https://doi.org/10.1016/j.cell.2019.09.031) [WWW](https://minardo.org/snapshots/s-phase) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.cell.2019.09.031" data-style="small_rectangle"></span>
-
 Lundby A, Franciosa G, Emdal KB, Refsgaard JC, Gnosa SP, Bekker-Jensen DB, Secher A, Maurya SR, Paul I, Mendez BL, Kelstrup CD, Francavilla C, Kveiborg M, Montoya G, Jensen LJ and Olsen JV (2019). Oncogenic Mutations Rewire Signaling Pathways by Switching Protein Recruitment to Phosphotyrosine Sites. *Cell*, **179**:543-560.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/31585087) [Full text](https://doi.org/10.1016/j.cell.2019.09.008) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.cell.2019.09.008" data-style="small_rectangle"></span>
 
@@ -579,6 +576,9 @@ Saric J, Jensen LJ, Ouzounova R, Rojas I and Bork P (2004). Extracting Regulator
 [Full text](http://acl.ldc.upenn.edu/P/P04/P04-1025.pdf)
 
 ## Reviews
+
+Burgess A, Vuong J, Marzec KA, de Lichtenberg U, O’Donoghue SI and Jensen LJ (2019). SnapShot: S-Phase Entry and Exit. *Cell*, **179**:802.  
+[Full text](https://doi.org/10.1016/j.cell.2019.09.031) [WWW](https://minardo.org/snapshots/s-phase) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.cell.2019.09.031" data-style="small_rectangle"></span>
 
 Oprea TI, Bologa CG, Brunak S, Campbell A, Gan GN, Gaulton A, Gomez SM, Guha R, Hersey A, Holmes J, Jadhav A, Jensen LJ, Johnson GL, Karlson A, Leach AR, Ma'ayan A, Malovannaya A, Mani S, Mathias SL, McManus MT, Meehan TF, von Mering C, Muthas D, Nguyen DT, Overington JP, Papadatos G, Qin J1, Reich C, Roth BL, Schürer SC, Simeonov A, Sklar LA, Southall N, Tomita S, Tudose I, Ursu O, Vidovic D, Waller A, Westergaard D, Yang JJ and Zahoránszky-Köhalmi G (2018). Unexplored therapeutic opportunities in the human genome. *Nature Reviews Drug Discovery*, **17**:317-332.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/29472638) [Full text](https://doi.org/10.1038/nrd.2018.14) <span class="__dimensions_badge_embed__" data-doi="10.1038/nrd.2018.14" data-style="small_rectangle"></span>
