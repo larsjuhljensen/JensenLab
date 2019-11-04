@@ -578,7 +578,7 @@ Saric J, Jensen LJ, Ouzounova R, Rojas I and Bork P (2004). Extracting Regulator
 ## Reviews
 
 Burgess A, Vuong J, Marzec KA, de Lichtenberg U, O’Donoghue SI and Jensen LJ (2019). SnapShot: S-Phase Entry and Exit. *Cell*, **179**:802.  
-[Full text](https://doi.org/10.1016/j.cell.2019.09.031) [WWW](https://minardo.org/snapshots/s-phase) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.cell.2019.09.031" data-style="small_rectangle"></span>
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/31626778) [Full text](https://doi.org/10.1016/j.cell.2019.09.031) [WWW](https://minardo.org/snapshots/s-phase) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.cell.2019.09.031" data-style="small_rectangle"></span>
 
 Oprea TI, Bologa CG, Brunak S, Campbell A, Gan GN, Gaulton A, Gomez SM, Guha R, Hersey A, Holmes J, Jadhav A, Jensen LJ, Johnson GL, Karlson A, Leach AR, Ma'ayan A, Malovannaya A, Mani S, Mathias SL, McManus MT, Meehan TF, von Mering C, Muthas D, Nguyen DT, Overington JP, Papadatos G, Qin J1, Reich C, Roth BL, Schürer SC, Simeonov A, Sklar LA, Southall N, Tomita S, Tudose I, Ursu O, Vidovic D, Waller A, Westergaard D, Yang JJ and Zahoránszky-Köhalmi G (2018). Unexplored therapeutic opportunities in the human genome. *Nature Reviews Drug Discovery*, **17**:317-332.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/29472638) [Full text](https://doi.org/10.1038/nrd.2018.14) <span class="__dimensions_badge_embed__" data-doi="10.1038/nrd.2018.14" data-style="small_rectangle"></span>
