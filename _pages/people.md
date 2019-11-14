@@ -12,7 +12,8 @@ permalink: /people/
 [Marc Legeay](/people/marclegeay/)  
 [Marie Locard-Paulet](/people/marielocardpaulet/)  
 [Nadezhda Tsankova Doncheva](/people/nadezhdatdoncheva/)  
-[Oana Palasca](https://research.ku.dk/search/?pure=en%2Fpersons%2F405867)  
+[Oana Palasca](https://www.linkedin.com/in/oanapalasca/)  
+[Rebecca Kirsch](https://www.linkedin.com/in/rebecca-kirsch/)  
 [Ufuk Kirik](/people/ufukkirik/)
 
 ## Alumni
