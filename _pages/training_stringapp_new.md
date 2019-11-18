@@ -81,9 +81,9 @@ Close the current session in Cytoscape from the menu **File → Close**. Use the
 
 ### 2.2. Working with node attributes
 
-Note that the retrieved network contains a lot of additional information associated with the nodes and edges, such as the protein sequence, tissue expression data, subcellular localization, disease score (Node Table) as well as the confidence scores for the different interaction evidences (Edge Table). In the following, we will explore these data using Cytoscape.
+Note that the retrieved network contains a lot of additional information associated with the nodes and edges, such as the protein sequence, tissue expression data, subcellular localization, disease score **Node Table**) as well as the confidence scores for the different interaction evidences (**Edge Table**). In the following, we will explore these data using Cytoscape.
 
-Browse through the node attributes table and find the **disease score** column (look at the last columns). Sort it by descending values to see the highest and lowest disease scores. You can highlight the corresponding nodes by selecting the rows in the table, bringing up the context menu (right-click the selected rows) and choosing the 'Select nodes from selected rows' option. Give an example for a node with the highest and lowest disease score. You can also use one of the icons in the menu to zoom into the selected node.
+Browse through the node attributes table and find the **disease score** column (look at the last columns). Sort it by descending values to see the highest and lowest disease scores. You can highlight the corresponding nodes by selecting the rows in the table, bringing up the context menu (right-click the selected rows) and choosing the **Select nodes from selected rows** option. Give an example for a node with the highest and lowest disease score. You can also use one of the icons in the menu to zoom into the selected node.
 
 _Look for an example for a node with the highest and lowest disease score._
 
