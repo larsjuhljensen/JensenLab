@@ -2,6 +2,8 @@
 title: Cytoscape stringApp exercises
 layout: single
 permalink: /training/stringapp/new/
+sidebar:
+  nav: "training-stringapp-new"
 ---
 ## Learning objectives
 
