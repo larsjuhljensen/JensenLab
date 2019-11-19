@@ -21,7 +21,7 @@ In these exercises, we will use the [stringApp](http://apps.cytoscape.org/apps/s
 
 ## Prerequisites
 
-To follow the exercises, please make sure that you have the latest version of Cytoscape installed. Then start Cytoscape and go to **Apps → App Manager** to check for new apps, install them and update the current ones if necessarily. The exercises require you to have certain Cytoscape apps installed. Search for the **stringApp** in the search field; if it is not already installed, select it and press the **Install** button to install it. Similarly, make sure you have the **yFiles Layout Algorithms**, **enhancedGraphics**, and **clusterMaker2** apps installed before closing the App Manager.
+To follow the exercises, please make sure that you have the latest version of Cytoscape installed. Then start Cytoscape and go to **Apps → App Manager** to check for new apps, install them and update the current ones if necessary. The exercises require you to have certain Cytoscape apps installed. Search for the **stringApp** in the search field; if it is not already installed, select it and press the **Install** button to install it. Similarly, make sure you have the **yFiles Layout Algorithms**, **enhancedGraphics**, and **clusterMaker2** apps installed before closing the App Manager.
 
 If you are not already familiar with the STRING database, we highly recommend that you go through the short [STRING exercises](/training/string/) to learn about the underlying data before working with them in these exercises.
 
@@ -55,7 +55,7 @@ The next dialog shows all the matches that the stringApp finds for your disease 
 
 [Import Alzheimer's disease network](cycmd:string disease query disease=DOID:10652 taxonID=9606 limit=100){: .btn .btn--cybrowser .btn--primary}
 
-_Which additional attribute column do you get in the **Node Table** for a disease query compared to a protein query? (Hint: check the last column.)_
+_Which additional attribute column do you get in the **Node Table** for a disease query compared to a protein query? Hint: check the last column._
 
 ### 1.4 PubMed queries
 
@@ -63,7 +63,7 @@ Go to the menu **File → Import → Network from Public Databases**. In the imp
 
 [Import jet-lag network](cycmd:string pubmed query pubmed=jet-lag taxonID=9606 limit=50){: .btn .btn--cybrowser .btn--primary}
 
-_Which attribute column do you get in the **Node Table** for a PubMed query compared to a disease query? (Hint: check the last columns.)_
+_Which attribute column do you get in the **Node Table** for a PubMed query compared to a disease query? Hint: check the last columns._
 
 ### 1.5 New search interface
 
@@ -77,39 +77,41 @@ In this exercise, we are going to use the stringApp to query the [DISEASES](http
 
 Close the current session in Cytoscape from the menu **File → Close**. Use the menu **File → Import → Network from Public Databases** and the **STRING: disease query** option from the **Data Source** drop-down menu. Insert **ovary epithelial cancer** into the **Enter disease term** field, set the **Maximum number of proteins** option to **250** and press the **Import** button. Once the network appears, go to the menu **View → Show Graphics Details** to see the individual nodes and edges.
 
-[Import EOC disease network](cycmd:string disease query disease=DOID:2152 taxonID=9606 limit=250){: .btn .btn--cybrowser .btn--primary} 
+[Import EOC disease network](cycmd:string disease query disease=DOID:2152 taxonID=9606 limit=250){: .btn .btn--cybrowser .btn--primary}
 
 ### 2.2. Working with node attributes
 
-Note that the retrieved network contains a lot of additional information associated with the nodes and edges, such as the protein sequence, tissue expression data, subcellular localization, disease score **Node Table**) as well as the confidence scores for the different interaction evidences (**Edge Table**). In the following, we will explore these data using Cytoscape.
+Note that the retrieved network contains a lot of additional information associated with the nodes and edges, such as the protein sequence, tissue expression data, subcellular localization, disease score (**Node Table**) as well as the confidence scores for the different interaction evidences (**Edge Table**). In the following, we will explore these data using Cytoscape.
 
-Browse through the node attributes table and find the **disease score** column (look at the last columns). Sort it by descending values to see the highest and lowest disease scores. You can highlight the corresponding nodes by selecting the rows in the table, bringing up the context menu (right-click the selected rows) and choosing the **Select nodes from selected rows** option. Give an example for a node with the highest and lowest disease score. You can also use one of the icons in the menu to zoom into the selected node.
+Find the **disease score** column in the node attributes table (look at the last columns). Sort it by values to see the highest and lowest disease scores. You can highlight the corresponding nodes by selecting the rows in the table, bringing up the context menu (right-click the selected rows) and choosing the **Select nodes from selected rows** option. You can also use one of the icons in the menu to zoom into the selected node.
 
-_Look for an example for a node with the highest and lowest disease score._
+_Give an example for a node with the highest and lowest disease score._
 
 ### 2.3 Inspect subcellular localization data
 
 The stringApp automatically retrieves information about in which compartments the proteins are located from the COMPARTMENTS database, which we will take a look at first to better understand the data.
 
-Go to https://compartments.jensenlab.org/ and enter **ARID1A** into the search box.  The resulting page will show all matches for the query ARID1A. 
+Go to https://compartments.jensenlab.org/ and enter **ARID1A** into the search box. The resulting page will show all matches for the query ARID1A.
 
-After selecting the human gene, you will see an overall representation of where in the cell it is located, and below you can see tables containing the specific lines of evidence that contribute to the overall score.
+After selecting the human gene, you will see a schematic of where in the cell it is located and below it tables containing the specific lines of evidence that contribute to the overall score.
 
 _What compartments is ARID1A present in with a confidence of 5? What source do these interactions come from? Hint: you can see what the abbreviations for different evidence types mean [here](http://geneontology.org/docs/guide-go-evidence-codes/)._
 
-### 2.4 Continious color mapping
+### 2.4 Continuous color mapping
 
-Cytoscape allows you to map attributes of the nodes and edges to visual properties such as node color and edge width. Here, we will map the nucleus subcellular localization data to the node color.
+Cytoscape allows you to map attributes of the nodes and edges to visual properties such as node color and edge width. Here, we will map the subcellular localization data for nucleus to the node color.
 
-From the left panel top menu, select **Style** (it is between **Network** and **Select**). Click on the **◀** button to the right of the property you want to change, in this case **Fill Color** and set **Column** to the node column containing the data that you want to use (**nucleus**). Since this is a numeric value, we will use the **Continuous Mapping** as the **Mapping Type**, and set a color gradient for how likely each protein is located in the nucleus. The default Cytoscape color gradient yellow to purple already gives a nice visualization of the confidence of being located in this compartment.
+From the left panel top menu, select **Style** (located between **Network** and **Select**). Click on the **◀** button to the right of the property you want to change, in this case **Fill Color** and set **Column** to the node column containing the data that you want to use (**nucleus**). Since this is a numeric value, we will use the **Continuous Mapping** as the **Mapping Type**, and set a color gradient for how likely each protein is located in the nucleus. The default Cytoscape yellow--purple color gradient already gives a nice visualization of the confidence of being located in this compartment.
 
-_Many proteins are strongly associated with the nucleus -- they will be purple. Why are there nodes colored grey (neither of the color scale colors)? Hint: look at the column **compartments nucleus** in the Node Table._
- 
+_Many proteins are strongly associated with the nucleus -- they will be purple. Why are there nodes colored grey, which is not a color from the gradient? Hint: look at the column **compartments nucleus** in the Node Table._
+
 ### 2.5 Select proteins located in the nucleus
 
-Because a lot of proteins are located in the nucleus, we will identify the proteins with highest confidence of 5.  One way to do this is to use the COMPARTMENTS sliders in the **STRING Results** panel on the right side. Go to the **Node** tab and expand the group of compartments filter by clicking the small triangle. Then, find the slider for **nucleus**. To hide all nodes with a compartments score below 5, set the low bound to 5 by entering the number or using the slider.
+Because many proteins are located in the nucleus, we will identify the proteins with highest confidence of 5. One way to do this is to use the COMPARTMENTS sliders in the **STRING Results** panel on the right side. Go to the **Node** tab and expand the group of compartments filter by clicking the small triangle. To hide all nodes with a compartments score below 5, find the slider for **nucleus** and set the low bound to 5 by entering the number.
 
-_How many proteins are found in the nucleus with a confidence of 5? And in mitochondrion? Hint: You can see the number of hidden nodes in the light grey panel bar on the bottom-right part of the network view panel, just above the Table panel. Remember to move the filter back to 0 before continuing with the next exercise._
+_How many proteins are found in the nucleus with a confidence of 5? And in mitochondrion? Hint: You can see the number of hidden nodes in the light grey panel bar on the bottom-right part of the network view panel, just above the Table panel._
+
+Important: Move the filter back to 0 before continuing with the next exercise.
 
 ## Exercise 3
 
@@ -133,7 +135,7 @@ _Can you find a layout that allows you to easily recognize patterns in the netwo
 
 ### 3.2 Discrete color mapping
 
-Cytoscape allows you to map attributes of the nodes and edges to visual properties such as node color and edge width. Here, we will map drug target family data from the [Pharos](https://pharos.nih.gov/idg/targets) database to the node color. This data is contained in the node attribute called **target family**. 
+Cytoscape allows you to map attributes of the nodes and edges to visual properties such as node color and edge width. Here, we will map drug target family data from the [Pharos](https://pharos.nih.gov/idg/targets) database to the node color. This data is contained in the node attribute called **target family**.
 
 Select **Style** from the top menu in the left panel (it is between **Network** and **Select**). Click the **◀** button to the right of the property you want to change, in this case **Fill Color**, and change **Column** from name to family, the node column containing the data that you want to use. This action will remove the rainbow coloring of the nodes and present you with a list of all the different values of the attributes that exist in the network.
 
@@ -143,7 +145,7 @@ To color the corresponding proteins, first click the field to the right of an at
 
 _How many of the proteins in the network are ion channels or GPCRs?_
 
-We can see that there are many kinases in the network. We can avoid counting them manually by creating a selection filter in the **Select** tab (it’s to the right of **Style**). Click the **ᐩ** button and choose **Column filter** from the drop-down menu. Then, find and select the attribute **Node: family**. Write **kinase** in the text field to select all nodes with this annotation. 
+We can see that there are many kinases in the network. We can avoid counting them manually by creating a selection filter in the **Select** tab (it’s to the right of **Style**). Click the **ᐩ** button and choose **Column filter** from the drop-down menu. Then, find and select the attribute **Node: family**. Write **kinase** in the text field to select all nodes with this annotation.
 
 _How many kinases are in the network?_
 
@@ -179,7 +181,7 @@ Next, we will use the MCL algorithm to identify clusters of tightly connected pr
 
 _How many clusters have at least 10 nodes?_
 
-We will work with the largest cluster in the network (it should be in the upper left corner). Select the nodes of this cluster (hold down the modifier key (Shift or Ctrl or Command on Macs),  left-click and drag to select multiple nodes). Then, create a new network by clicking on the **New Network from Selection (All Edges)** button.
+We will work with the largest cluster in the network (it should be in the upper left corner). Select the nodes of this cluster (hold down the modifier key (Shift or Ctrl or Command on Macs), left-click and drag to select multiple nodes). Then, create a new network by clicking on the **New Network from Selection (All Edges)** button.
 
 _How many nodes and edges are there in this cluster?_
 
@@ -200,7 +202,7 @@ _Which are the four most statistically significant terms? Do the Uniprot and GO 
 
 Next, we will visualize the top-5 enriched terms in the network using split charts, click the colorful chart icon to show the terms as the charts on the network. _Optional:_ You can manually change the layout of the network to have better visualization. First you can apply the **yFiles Organic Layout**, and then to scale the network you can use the **Node Layout Tools (Layout → Node Layout Tools**). Play with the scale so that the nodes with charts do not overlap.
 
-To retrieve a list of publications that are enriched for the proteins in the network, go to the menu **Apps → STRING Enrichment → Retrieve enriched publications**. A new **STRING Publications** tab will appear in the **Table Panel** on the bottom. It contains a table of enriched publications and corresponding information. 
+To retrieve a list of publications that are enriched for the proteins in the network, go to the menu **Apps → STRING Enrichment → Retrieve enriched publications**. A new **STRING Publications** tab will appear in the **Table Panel** on the bottom. It contains a table of enriched publications and corresponding information.
 
 _What is the name of the most recent publication?_
 
@@ -210,7 +212,7 @@ To save the list of enriched terms and associated p-values as a text file, go to
 
 Cytoscape provides functionality to merge two or more networks, building either their union, intersection or difference. We will now merge the EOC network we have from the DISEASES query with the one we have from the data, so that we can identify the overlap between them. We will use the Merge tool (**Tools → Merge → Networks...**) and select the **Intersection** button. Then, select the two STRING networks from **Available Networks** list (‘String Network - ovary epithelial cancer’ and ‘String Network’). Click on **>** to add them to the list of **Networks to Merge** and click **Merge**.
 
-_How many nodes are in the intersection?_ 
+_How many nodes are in the intersection?_
 
 ### 3.8 Integrating networks
 
