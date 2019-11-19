@@ -115,19 +115,19 @@ Important: Move the filter back to 0 before continuing with the next exercise.
 
 ## Exercise 3
 
-In this exercise, we will work with a list of 541 proteins associated with epithelial ovarian cancer (EOC) as identified by phosphoproteomics in the study by [Francavilla et al.](https://doi.org/10.1016/j.celrep.2017.03.015). An adapted, simplified version of their results table can be downloaded [here](/assets/omicsvisualizer/Francavilla2017CellRep.tsv).
+In this exercise, we will work with a list of 541 proteins associated with epithelial ovarian cancer (EOC) as identified by phosphoproteomics in the study by [Francavilla et al.](https://doi.org/10.1016/j.celrep.2017.03.015). An adapted, simplified version of their results table can be downloaded [here](/assets/Francavilla2017CellRep.tsv).
 
 ### 3.1 Protein network retrieval
 
-Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: protein query** as the **Data Source** and paste the list of UniProt accession numbers from the Uniprot column in the table into the **Enter protein names or identifiers** field.
+Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: protein query** as the **Data Source** and paste the list of UniProt accession numbers from the UniProt column in the table into the **Enter protein names or identifiers** field.
 
-Next, the disambiguation dialog shows all STRING proteins that cannot be matched to the query terms uniquely, with the first protein for each query term automatically selected. This default is fine for this exercise; click the **Import** button to continue. Use the menu **View → Show Graphics Details** for a detailed view of the network.
+Next, the disambiguation dialog shows all STRING proteins that cannot be matched to the query terms uniquely, with the first protein for each query term automatically selected. This default is fine for this exercise; click the **Import** button to continue. Check that **View → Show Graphics Details** for a detailed view of the network.
 
 [Import network](cycmd:string protein query query="Q75VX8,P29353,O14492,P19174,Q07890,P62993,P42336,Q9H706,O00750,Q8TER5,P27986,O00459,Q07889,Q92529,P42338,P29590,P62987,Q9UKV5,Q13191,Q13480,Q9Y6I3,O00443,Q8IZ07,Q8N1I0,O75962,O75473,Q96S55,Q15276,P16234,Q63ZY3,Q9UJ41,P52735,Q8TC07,Q06124,O14976,Q9Y4H2,Q9UN70,P42566,Q9H3W5,Q7Z6Z7,P36896,Q86YT6,O75665,Q8WXW3,Q6ZNH5,P10599,P04040,P05413,P14923,Q02413,P22735,P23528,P31025,P62805,P15924,P07737,Q08380,Q99880,P02788,P06702,B9A064,Q08188,Q08554,P61626,P81605,Q6ZMV7,P09104,P62937,Q13410,P13010,P12956,P30512,P09211,O75027,Q9UQ80,Q06830,P51858,O95757" taxonID=9606 limit=0){: .btn .btn--cybrowser .btn--primary}
 
 _How many nodes and edges are there in the resulting network? Do the proteins all form a connected network? Why?_
 
-Cytoscape provides several visualization options under the **Layout** menu. Experiment with these and find one that allows you to see the shape of the network easily. For example, you can try the **Degree Sorted Circle Layout**, the **Prefuse Force Directed Layout** with score as edge weight, and **yFiles Organic Layout**.
+Cytoscape provides several visualization options under the **Layout** menu. Try the **Degree Sorted Circle Layout**, the **Prefuse Force Directed Layout** with score as edge weight, and **yFiles Organic Layout**.
 
 [Layout network](cycmd:layout kamada-kawai){: .btn .btn--cybrowser .btn--primary}
 
@@ -137,7 +137,7 @@ _Can you find a layout that allows you to easily recognize patterns in the netwo
 
 Cytoscape allows you to map attributes of the nodes and edges to visual properties such as node color and edge width. Here, we will map drug target family data from the [Pharos](https://pharos.nih.gov/idg/targets) database to the node color. This data is contained in the node attribute called **target family**.
 
-Select **Style** from the top menu in the left panel (it is between **Network** and **Select**). Click the **◀** button to the right of the property you want to change, in this case **Fill Color**, and change **Column** from name to family, the node column containing the data that you want to use. This action will remove the rainbow coloring of the nodes and present you with a list of all the different values of the attributes that exist in the network.
+Select **Style** from the top menu in the left panel (it is between **Network** and **Select**). Click the **◀** button to the right of the property you want to change, in this case **Fill Color**, and change **Column** from name to family, which is the node column containing the data that you want to use. This action will remove the rainbow coloring of the nodes and present you with a list of all the different values of the attributes that exist in the network.
 
 _Which target families are present in the network?_
 
@@ -145,31 +145,31 @@ To color the corresponding proteins, first click the field to the right of an at
 
 _How many of the proteins in the network are ion channels or GPCRs?_
 
-We can see that there are many kinases in the network. We can avoid counting them manually by creating a selection filter in the **Select** tab (it’s to the right of **Style**). Click the **ᐩ** button and choose **Column filter** from the drop-down menu. Then, find and select the attribute **Node: family**. Write **kinase** in the text field to select all nodes with this annotation.
+There are many kinases in the network. We can avoid counting them manually by creating a selection filter in the **Select** tab (located right of **Style**). Click the **ᐩ** button and choose **Column filter** from the drop-down menu. Then, find and select the attribute **Node: family**. Write **kinase** in the text field to select all nodes with this annotation.
 
 _How many kinases are in the network?_
 
 ### 3.3 Data import
 
-Network nodes and edges can have additional information associated with them that we can load into Cytoscape and use for visualization. We will import the data from the [text file](/assets/omicsvisualizer/Francavilla2017CellRep.tsv).
+Network nodes and edges can have additional information associated with them that we can load into Cytoscape and use for visualization. We will import the data from the [text file](/assets/Francavilla2017CellRep.tsv).
 
-To import the node attributes file into Cytoscape, go to **File → Import → Table from File**. The preview in the import dialog will show how the file is interpreted given the current settings and will update automatically when you change them. To change the default selection chosen by Cytoscape, click on the arrow in the column heading. For example, you can decide whether the column is imported or not by changing the **Meaning** of the column (hover over each symbol with the mouse to see what they mean). This column-specific dialog will also allow you to change the column name and type.
+To import the node attributes file into Cytoscape, go to **File → Import → Table from File**. The preview in the import dialog will show how the file is interpreted given the current settings and will update automatically when you change them. To change the default selection, click the arrow in the column heading. For example, you can decide whether the column is imported or not by changing the **Meaning** of the column (hover over each symbol with the mouse to see what they mean). This column-specific dialog will also allow you to change the column name and type.
 
 Now you need to map unique identifiers between the entries in the data and the nodes in the network. The key point of this is to identify which nodes in the network are equivalent to which entries in the table. This enables mapping of data values into visual properties like Fill Color and Shape. This kind of mapping is typically done by comparing the unique Identifier attribute value for each node (Key Column for Network) with the unique Identifier value for each data value (key symbol). As a default, Cytoscape looks for an attribute value of ‘ID’ in the network and a user-supplied Key in the dataset.
 
-The **Key Column for Network** can be changed using a combo box and allows you to set the node attribute column that is to be used as key to map to. In this case it is **query term** because this attribute contains the UniProt accession numbers you entered when retrieving the network. You can also change the Key by pressing the key button for the column that is to be used as key for mapping values in the dataset. In this case it is the first column in the table called Uniprot, from where you copied the identifiers.
+The **Key Column for Network** can be changed using a combo box and allows you to set the node attribute column that is to be used as key to map to. In this case it is **query term** because this attribute contains the UniProt accession numbers you entered when retrieving the network. You can also change the Key by pressing the key button for the column that is to be used as key for mapping values in the dataset. In this case it is the first column in the table called UniProt, from where you copied the identifiers.
 
 If there is a match between the value of a Key in the dataset and the value the Key Column for Network field in the network, all attribute–-value pairs associated with the element in the dataset are assigned to the matching node in the network. You will find the imported columns at the end of the Node Table.
 
-[Import table](cycmd:table import url url="https://jensenlab.org/assets/omicsvisualizer/Francavilla2017CellRep.tsv" keyColumnForMapping="query term" keyColumnIndex=1 startLoadRow=1){: .btn .btn--cybrowser .btn--primary}
+[Import table](cycmd:table import url url="https://jensenlab.org/assets/Francavilla2017CellRep.tsv" keyColumnForMapping="query term" keyColumnIndex=1 startLoadRow=1){: .btn .btn--cybrowser .btn--primary}
 
 ### 3.4 Continuous color mapping
 
-Now, we want to color the nodes according to the protein abundance (log ratio) between disease and healthy tissues for the most significant site for each protein. From the left panel top menu, select **Style** (it is to the right of **Network**). Then click on the **◀** button to the right of the property you want to change, for example **Fill Color**. Next, set **Column** to the node column containing the data that you want to use (EOC vs EOS&FTE). Since this is a numeric value, we will use the **Continuous Mapping** as the **Mapping Type**, and set a color gradient for how abundant each protein is. The default Cytoscape color gradient blue-white-red already gives a nice visualization of the negative-to-positive abundance ratio.
+Now, we want to color the nodes according to the quantitative phosphorylation data (log ratio) between disease and healthy tissues for the most significant site for each protein. From the left panel top menu, select **Style** (it is to the right of **Network**). Then click on the **◀** button to the right of the property you want to change, for example **Fill Color**. Next, set **Column** to the node column containing the data that you want to use (EOC vs EOS&FTE). Since this is a numeric value, we will use the **Continuous Mapping** as the **Mapping Type**, and set a color gradient for how abundant each protein is. The default Cytoscape color gradient blue--white--red already gives a nice visualization of the log ratio.
 
 _Are the up-regulated nodes grouped together? Do you see any issues with the color gradient?_
 
-To change the colors, double click on the color gradient in order to bring up the **Continuous Mapping Editor** window and edit the colors for the continuous mapping. In the mapping editor dialog, the color that will be used for the minimum value is on the left, and the max is on the right. Double click on the triangles on the top and sides of the gradient to change the colors. The triangles on the top represent the values at which the data will be clipped; anything above the right triangle will be set to the max value. This is useful if you have a small number of values that are significantly higher than the median. As you move the triangles and change the color, the display in the network pane will automatically update — so this is all easier to do than to explain! If at any point it doesn’t seem to work as expected, it is easiest to just delete the mapping and start again.
+To change the colors, double click on the color gradient in order to bring up the **Continuous Mapping Editor** window and edit the colors for the continuous mapping. In the mapping editor dialog, the color that will be used for the minimum value is on the left, and the maximum is on the right. Double click on the triangles on the top and sides of the gradient to change the colors. The triangles on the top represent the values at which the data will be clipped; anything above the right triangle will be set to the max value. This is useful if you have a small number of values that are significantly higher than the median. As you move the triangles and change the color, the display in the network pane will automatically update -- this is all easier to do than to explain! If at any point it does not seem to work as expected, it is easiest to just delete the mapping and start again.
 
 _Can you improve the color mapping such that it is easier to see which nodes have a log ratio below -4 and above 4?_
 
@@ -181,7 +181,7 @@ Next, we will use the MCL algorithm to identify clusters of tightly connected pr
 
 _How many clusters have at least 10 nodes?_
 
-We will work with the largest cluster in the network (it should be in the upper left corner). Select the nodes of this cluster (hold down the modifier key (Shift or Ctrl or Command on Macs), left-click and drag to select multiple nodes). Then, create a new network by clicking on the **New Network from Selection (All Edges)** button.
+We will work with the largest cluster in the network (it should be in the upper left corner). Select the nodes of this cluster by holding down the modifier key (Shift on Windows, Ctrl or Command on Mac) and then left-clicking and dragging to select multiple nodes. Then, create a new network by clicking on the **New Network from Selection (All Edges)** button.
 
 _How many nodes and edges are there in this cluster?_
 
@@ -189,7 +189,7 @@ _How many nodes and edges are there in this cluster?_
 
 Next, we will retrieve functional enrichment for the proteins in our network of the largest cluster. First we will have to tell Cytoscape that the new network we created is a STRING network, go to the menu **Apps → STRING → Set as STRING network**.
 
-After making sure that **no nodes** are selected in the network, go to the menu **Apps → STRING Enrichment → Retrieve functional enrichment** and keep the default settings. A new STRING Enrichment tab will appear in the **Table Panel** on the bottom. It contains a table of enriched terms and corresponding information for each enrichment category. You can see which proteins are annotated with a given term by selecting the term in the **STRING Enrichment panel**.
+After making sure that no nodes are selected in the network, go to the menu **Apps → STRING Enrichment → Retrieve functional enrichment** and keep the default settings. A new STRING Enrichment tab will appear in the **Table Panel** on the bottom. It contains a table of enriched terms and corresponding information for each enrichment category. You can see which proteins are annotated with a given term by selecting the term in the **STRING Enrichment panel**.
 
 [Retrieve functional enrichment](cycmd:string retrieve enrichment){: .btn .btn--cybrowser .btn--primary}
 
@@ -200,26 +200,25 @@ _Which are the four most statistically significant terms? Do the Uniprot and GO 
 [Filter functional enrichment](cycmd:string filter enrichment categories="GO Process,GO Component,GO Function" overlapCutoff=0.2 removeOverlapping=true){: .btn .btn--cybrowser .btn--primary}
  -->
 
-Next, we will visualize the top-5 enriched terms in the network using split charts, click the colorful chart icon to show the terms as the charts on the network. _Optional:_ You can manually change the layout of the network to have better visualization. First you can apply the **yFiles Organic Layout**, and then to scale the network you can use the **Node Layout Tools (Layout → Node Layout Tools**). Play with the scale so that the nodes with charts do not overlap.
+Next, we will visualize the top-5 enriched terms in the network using split charts, click the colorful chart icon to show the terms as the charts on the network. You can manually change the layout of the network to improve the visualization. First apply the **yFiles Organic Layout** and then scale the network to reduce the overlap of the charts using the **Node Layout Tools (Layout → Node Layout Tools**).
 
-To retrieve a list of publications that are enriched for the proteins in the network, go to the menu **Apps → STRING Enrichment → Retrieve enriched publications**. A new **STRING Publications** tab will appear in the **Table Panel** on the bottom. It contains a table of enriched publications and corresponding information.
+To retrieve a list of publications that are enriched for the proteins in the network, go to the menu **Apps → STRING Enrichment → Retrieve enriched publications**. A new **STRING Publications** tab will appear in the **Table Panel** on the bottom. It contains a table of enriched publications and associated information such as how many of the network proteins were mentioned in each publication.
 
-_What is the name of the most recent publication?_
+_What is the title of the most recent publication?_
 
 To save the list of enriched terms and associated p-values as a text file, go to **Apps → STRING Enrichment → Export enrichment results**.
 
 ### 3.7 Overlapping networks
 
-Cytoscape provides functionality to merge two or more networks, building either their union, intersection or difference. We will now merge the EOC network we have from the DISEASES query with the one we have from the data, so that we can identify the overlap between them. We will use the Merge tool (**Tools → Merge → Networks...**) and select the **Intersection** button. Then, select the two STRING networks from **Available Networks** list (‘String Network - ovary epithelial cancer’ and ‘String Network’). Click on **>** to add them to the list of **Networks to Merge** and click **Merge**.
+Cytoscape provides functionality to merge two or more networks, building either their union, intersection or difference. We will now merge the EOC network we have from the DISEASES query with the one we have from the data, so that we can identify the overlap between them. Use the Merge tool (**Tools → Merge → Networks...**) and select the **Intersection** button. Then, select the two STRING networks from **Available Networks** list (‘String Network - ovary epithelial cancer’ and ‘String Network’). Click on **>** to add them to the list of **Networks to Merge** and click **Merge**.
 
 _How many nodes are in the intersection?_
 
 ### 3.8 Integrating networks
 
-Now we will make the union of the merged overlap network, that contains the disease scores, and the experimental network. Use the **Merge** tool to make the **Union** of ‘Merged Network’ and ‘String Network’. Make sure that the new merged network has the same number of nodes and edges as ‘String Network’, and that some nodes have a disease score.
+Now we will make the union of the intersection network, which contains the disease scores, and the experimental network. Use the **Merge** tool again to make the **Union** of ‘Merged Network’ and ‘String Network’. Make sure that the new merged network has the same number of nodes and edges as ‘String Network’, and that some nodes have a disease score.
 
-Now, we can change the visualization of the merged network to be able to identify high disease score proteins. We will change the size of the nodes in function of their disease score. Select **Style** in the **Control Panel**. Click on the **Lock node width and height** option to enable it so that the nodes have only one attribute **Size** instead of two attributes **Height** and **Width**. Click on the ◀ button to add a continuous mapping of the **Size** attribute using the **disease score**. Modify the values so that by default a node size is 30; the mapping should go from 35 to 50. To change the default value, you have to click on the default **35.0** value at the left of the Size attribute.
-To change the mapping values, you have to double click on the chart and then to double click on the square corresponding to the value you want to modify and set the value you want (35 and 50).
+Now, we can change the visualization of the merged network to be able to identify high disease score proteins. Specifically, we will change the size of the nodes in function of their disease score. Select **Style** in the **Control Panel**. Click on the **Lock node width and height** option to enable it so that the nodes have only one attribute **Size** instead of two attributes **Height** and **Width**. Click on the ◀ button to add a continuous mapping of the **Size** attribute using the **disease score**. Modify the values so that by default a node size is 30; the mapping should go from 35 to 50. To change the default value, you have to click on the default **35.0** value at the left of the Size attribute. To change the mapping values, double click on the chart and then to double click on the square corresponding to the value you want to modify and set the value you want (35 and 50).
 
 ## Exercise 4
 
