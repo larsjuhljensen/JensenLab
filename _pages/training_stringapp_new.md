@@ -147,7 +147,8 @@ _How many of the proteins in the network are ion channels or GPCRs?_
 
 There are many kinases in the network. We can avoid counting them manually by creating a selection filter in the **Select** tab (located right of **Style**). Click the **ᐩ** button and choose **Column filter** from the drop-down menu. Then, find and select the attribute **Node: family**. Write **kinase** in the text field to select all nodes with this annotation.
 
-[Create filter for kinases](cycmd:filter create name="myfilter" json='{ "id" : "ColumnFilter", "parameters" : { "criterion" : "Kinase", "columnName" : "target::family", "predicate" : "CONTAINS"} }'){: .btn .btn--cybrowser .btn--primary}
+<!-- [Create filter for kinases](cycmd:filter create name="myfilter" json='{ "id" : "ColumnFilter", "parameters" : { "criterion" : "Kinase", "columnName" : "target::family", "predicate" : "CONTAINS"} }'){: .btn .btn--cybrowser .btn--primary}
+ -->
 
 _How many kinases are in the network?_
 
@@ -185,9 +186,10 @@ _How many clusters have at least 10 nodes?_
 
 We will work with the largest cluster in the network (it should be in the upper left corner). Select the nodes of this cluster by holding down the modifier key (Shift on Windows, Ctrl or Command on Mac) and then left-clicking and dragging to select multiple nodes. Then, create a new network by clicking on the **New Network from Selection (All Edges)** button.
 
-<!-- [Select cluster](cycmd:layout kamada-kawai){: .btn .btn--cybrowser .btn--primary}
-[Create new network from selection](cycmd:layout kamada-kawai){: .btn .btn--cybrowser .btn--primary}
+<!-- [Select cluster](cycmd:filter create name="myfiltercluster1" json='{ "id" : "ColumnFilter", "parameters" : { "criterion" : [ 1, 1 ], "columnName" : "__mclCluster", "predicate" : "BETWEEN"} }'){: .btn .btn--cybrowser .btn--primary}
+[Create new network from selection](cycmd:network create excludeEdges=false nodeList=selected source=current){: .btn .btn--cybrowser .btn--primary}
  -->
+
 _How many nodes and edges are there in this cluster?_
 
 ### 3.6 Functional enrichment and enriched publications
@@ -196,9 +198,11 @@ Next, we will retrieve functional enrichment for the proteins in our network of 
 
 After making sure that no nodes are selected in the network, go to the menu **Apps → STRING Enrichment → Retrieve functional enrichment** and keep the default settings. A new STRING Enrichment tab will appear in the **Table Panel** on the bottom. It contains a table of enriched terms and corresponding information for each enrichment category. You can see which proteins are annotated with a given term by selecting the term in the **STRING Enrichment panel**.
 
-<!-- [Set as STRING network](cycmd:layout kamada-kawai){: .btn .btn--cybrowser .btn--primary}
+[Set as STRING network](cycmd:string make string){: .btn .btn--cybrowser .btn--primary}
 [Retrieve functional enrichment](cycmd:string retrieve enrichment){: .btn .btn--cybrowser .btn--primary}
- -->
+[Show functional enrichment](cycmd:string show enrichment){: .btn .btn--cybrowser .btn--primary}
+
+
 _Which are the four most statistically significant terms? Do the Uniprot and GO Process terms agree with each other, i.e., annotate the same set of nodes?_
 
 <!-- To explore only specific types of terms, e.g. GO terms, and to remove redundant terms from the table, click on the filter icon in the **Table panel** (leftmost icon). Select the three types of GO terms, enable the option to **Remove redundant terms** and set **Redundancy cutoff** to 0.2. In this way, you will see only the statistically significant GO terms that do not represent largely the same set of proteins within the network. You can see which proteins are annotated with a given term by selecting the term in the **STRING Enrichment** panel.
@@ -209,6 +213,9 @@ _Which are the four most statistically significant terms? Do the Uniprot and GO 
 Next, we will visualize the top-5 enriched terms in the network using split charts, click the colorful chart icon to show the terms as the charts on the network. You can manually change the layout of the network to improve the visualization. First apply the **yFiles Organic Layout** and then scale the network to reduce the overlap of the charts using the **Node Layout Tools (Layout → Node Layout Tools**).
 
 To retrieve a list of publications that are enriched for the proteins in the network, go to the menu **Apps → STRING Enrichment → Retrieve enriched publications**. A new **STRING Publications** tab will appear in the **Table Panel** on the bottom. It contains a table of enriched publications and associated information such as how many of the network proteins were mentioned in each publication.
+
+[Retrieve enriched publications](cycmd:string retrieve publications){: .btn .btn--cybrowser .btn--primary}
+[Show enriched publications](cycmd:string show publications){: .btn .btn--cybrowser .btn--primary}
 
 _What is the title of the most recent publication?_
 
