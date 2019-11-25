@@ -79,7 +79,7 @@ Close the current session in Cytoscape from the menu **File → Close**. Use the
 
 [Import EOC disease network](cycmd:string disease query disease=DOID:2152 taxonID=9606 limit=250){: .btn .btn--cybrowser .btn--primary}
 
-### 2.2. Working with node attributes
+### 2.2. Work with node attributes
 
 Note that the retrieved network contains a lot of additional information associated with the nodes and edges, such as the protein sequence, tissue expression data, subcellular localization, disease score (**Node Table**) as well as the confidence scores for the different interaction evidences (**Edge Table**). In the following, we will explore these data using Cytoscape.
 
@@ -221,13 +221,13 @@ _What is the title of the most recent publication?_
 
 To save the list of enriched terms and associated p-values as a text file, go to **Apps → STRING Enrichment → Export enrichment results**.
 
-### 3.7 Overlapping networks
+### 3.7 Overlap networks
 
 Cytoscape provides functionality to merge two or more networks, building either their union, intersection or difference. We will now merge the EOC network we have from the DISEASES query with the one we have from the data, so that we can identify the overlap between them. Use the Merge tool (**Tools → Merge → Networks...**) and select the **Intersection** button. Then, select the two STRING networks from **Available Networks** list (‘String Network - ovary epithelial cancer’ and ‘String Network’). Click on **>** to add them to the list of **Networks to Merge** and click **Merge**.
 
 _How many nodes are in the intersection?_
 
-### 3.8 Integrating networks
+### 3.8 Integrate networks
 
 Now we will make the union of the intersection network, which contains the disease scores, and the experimental network. Use the **Merge** tool again to make the **Union** of ‘Merged Network’ and ‘String Network’. Make sure that the new merged network has the same number of nodes and edges as ‘String Network’, and that some nodes have a disease score.
 
