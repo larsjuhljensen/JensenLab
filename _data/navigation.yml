@@ -161,34 +161,40 @@ training-stringapp:
         url: /training/stringapp/#13-disease-queries
       - title: "PubMed queries"
         url: /training/stringapp/#14-pubmed-queries
-      - title: "New search interface"
-        url: /training/stringapp/#15-new-search-interface
+      - title: "Using the Cytoscape Search bar"
+        url: /training/stringapp/#15-using-the-cytoscape-search-bar
   - title: "Exercise 2"
     url: /training/stringapp/#exercise-2
     children:
-      - title: "Protein network retrieval"
-        url: /training/stringapp/#21-protein-network-retrieval
-      - title: "Discrete color mapping"
-        url: /training/stringapp/#22-discrete-color-mapping
-      - title: "Data import"
-        url: /training/stringapp/#23-data-import
+      - title: "Disease network retrieval"
+        url: /training/stringapp/#21-disease-network-retrieval
+      - title: "Work with node attributes"
+        url: /training/stringapp/#22-work-with-node-attributes
+      - title: "Inspect subcellular localization data"
+        url: /training/stringapp/#23-inspect-subcellular-localization-data
       - title: "Continuous color mapping"
         url: /training/stringapp/#24-continuous-color-mapping
-      - title: "Functional enrichment"
-        url: /training/stringapp/#25-functional-enrichment
+      - title: "Select proteins located in the nucleus"
+        url: /training/stringapp/#25-select-proteins-located-in-the-nucleus
   - title: "Exercise 3"
     url: /training/stringapp/#exercise-3
     children:
-      - title: "Disease network retrieval"
-        url: /training/stringapp/#31-disease-network-retrieval
-      - title: "Working with node attributes"
-        url: /training/stringapp/#32-working-with-node-attributes
-      - title: "Merging networks"
-        url: /training/stringapp/#33-merging-networks
+      - title: "Protein network retrieval"
+        url: /training/stringapp/#31-protein-network-retrieval
+      - title: "Discrete color mapping"
+        url: /training/stringapp/#32-discrete-color-mapping
+      - title: "Data import"
+        url: /training/stringapp/#33-data-import
+      - title: "Continuous color mapping"
+        url: /training/stringapp/#34-continuous-color-mapping
       - title: "Network clustering"
-        url: /training/stringapp/#34-network-clustering
-      - title: "Selection filters and visual style bypass"
-        url: /training/stringapp/#35-selection-filters-and-visual-style-bypass
+        url: /training/stringapp/#35-network-clustering
+      - title: "Functional enrichment and enriched publications"
+        url: /training/stringapp/#36-functional-enrichment-and-enriched-publications
+      - title: "Overlap networks"
+        url: /training/stringapp/#37-overlap-networks
+      - title: "Integrate networks"
+        url: /training/stringapp/#38-integrate-networks
   - title: "Exercise 4"
     url: /training/stringapp/#exercise-4
     children:
@@ -204,6 +210,66 @@ training-stringapp:
         url: /training/stringapp/#44-functional-enrichment
   - title: "Supporting literature"
     url: /training/stringapp/#supporting-literature
+
+training-stringapp-emdal:
+  - title: "Learning objectives"
+    url: /training/stringapp/emdal/#learning-objectives
+  - title: "Prerequisites"
+    url: /training/stringapp/emdal/#prerequisites
+  - title: "Exercise 1"
+    url: /training/stringapp/emdal/#exercise-1
+    children:
+      - title: "Protein queries"
+        url: /training/stringapp/emdal/#11-protein-queries
+      - title: "Compound queries"
+        url: /training/stringapp/emdal/#12-compound-queries
+      - title: "Disease queries"
+        url: /training/stringapp/emdal/#13-disease-queries
+      - title: "PubMed queries"
+        url: /training/stringapp/emdal/#14-pubmed-queries
+      - title: "New search interface"
+        url: /training/stringapp/emdal/#15-new-search-interface
+  - title: "Exercise 2"
+    url: /training/stringapp/emdal/#exercise-2
+    children:
+      - title: "Protein network retrieval"
+        url: /training/stringapp/emdal/#21-protein-network-retrieval
+      - title: "Discrete color mapping"
+        url: /training/stringapp/emdal/#22-discrete-color-mapping
+      - title: "Data import"
+        url: /training/stringapp/emdal/#23-data-import
+      - title: "Continuous color mapping"
+        url: /training/stringapp/emdal/#24-continuous-color-mapping
+      - title: "Functional enrichment"
+        url: /training/stringapp/emdal/#25-functional-enrichment
+  - title: "Exercise 3"
+    url: /training/stringapp/emdal/#exercise-3
+    children:
+      - title: "Disease network retrieval"
+        url: /training/stringapp/emdal/#31-disease-network-retrieval
+      - title: "Working with node attributes"
+        url: /training/stringapp/emdal/#32-working-with-node-attributes
+      - title: "Merging networks"
+        url: /training/stringapp/emdal/#33-merging-networks
+      - title: "Network clustering"
+        url: /training/stringapp/emdal/#34-network-clustering
+      - title: "Selection filters and visual style bypass"
+        url: /training/stringapp/emdal/#35-selection-filters-and-visual-style-bypass
+  - title: "Exercise 4"
+    url: /training/stringapp/emdal/#exercise-4
+    children:
+      - title: "Virus queries"
+        url: /training/stringapp/emdal/#41-virus-queries
+      - title: "Expand with host proteins"
+        url: /training/stringapp/emdal/#42-expand-with-host-proteins
+      - title: "Add specific host proteins"
+        url: /training/stringapp/emdal/#43-add-specific-host-proteins
+      - title: "Merge two host-virus networks"
+        url: /training/stringapp/emdal/#44-merge-two-host-virus-networks
+      - title: "Functional enrichment"
+        url: /training/stringapp/emdal/#44-functional-enrichment
+  - title: "Supporting literature"
+    url: /training/stringapp/emdal/#supporting-literature
 
 training-omicsvisualizer:
   - title: "Learning objectives"
