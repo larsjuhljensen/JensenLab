@@ -27,6 +27,8 @@ projects:
     children:
       - title: "Phosphorylation site localization"
         url: /projects/proteomics/#phosphorylation-site-localization
+      - title: "Network visualization"
+        url: /projects/proteomics/#network-visualization
       - title: "Analysis of in-house data"
         url: /projects/proteomics/#analysis-of-in-house-data
   - title: "Text mining"
