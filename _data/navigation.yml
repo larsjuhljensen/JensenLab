@@ -25,8 +25,8 @@ projects:
   - title: "Proteomics"
     url: /projects/proteomics/
     children:
-      - title: "Fragmentation prediction"
-        url: /projects/proteomics/#fragmentation-prediction
+      - title: "Phosphorylation site localization"
+        url: /projects/proteomics/#phosphorylation-site-localization
       - title: "Analysis of in-house data"
         url: /projects/proteomics/#analysis-of-in-house-data
   - title: "Text mining"

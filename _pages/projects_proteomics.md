@@ -7,9 +7,9 @@ sidebar:
 ---
 Tandem mass-spectrometry has become a method of choice for high-throughput, quantitative analysis in proteomics. Being located next to a world-leading mass-spectrometry facility, we have a keen interest in applying bioinformatics methods to proteomics data and developing new methods.
 
-## Fragmentation prediction
+## Phosphorylation site localization
 
-Since the link between peptides and the proteins they originate from is broken in shotgun proteomics, peptide identification relies on matching of the fragmentation spectra to theoretical spectra of candidate peptides. We are developing a method for efficiently predicting the dominant peaks in the fragmentation spectra of the candidate peptides. The algorithm uses higher-order Hidden Markov Models to learn the relationship between the sequence of a parent ion and how it will most commonly fragment. By predicting which peaks are dominant, we aim to improve the accuracy with which peptides can be matched, thereby increasing both the number of proteins that can be identified and the sequence coverage.
+Phosphorylation-driven cell signaling governs most biological functions and is widely studied using mass spectrometry-based phosphoproteomics. Identifying the peptides and localizing the phosphorylation sites within them from the raw data is challenging and can be performed by several algorithms that return scores that are not directly comparable. This increases the heterogeneity among published phosphoproteomics data sets, prevents their direct integration, and introduces false positives in the dedicated databases. By evaluating the performances of different bioinformatics pipelines for MS-based proteomic analysis of complex phospho-peptide mixtures, we aim to normalize their scores by converting the to estimated false positive rates.
 
 ## Analysis of in-house data
 
