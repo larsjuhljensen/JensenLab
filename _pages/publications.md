@@ -13,6 +13,9 @@ None at the moment.
 
 ### 2019
 
+Kirk IK, Simon C, Banasik K, Holm PC, Haue AD, Jensen PB, Jensen LJ, Rodríguez CL, Pedersen MK, Eriksson R, Andersen HU, Almdal T, Bork-Jensen J, Grarup N, Borch-Johnsen K, Pedersen O, Pociot F, Hansen T, Bergholdt R, Rossing P and Brunak S (2019). Linking glycemic dysregulation in diabetes to symptoms, comorbidities, and genetics through EHR data mining. *eLife*, **8**:e44941.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/31818369) [Full text](https://doi.org/10.7554/eLife.44941)<span class="__dimensions_badge_embed__" data-doi="10.7554/eLife.44941" data-style="small_rectangle"></span>
+
 Lundby A, Franciosa G, Emdal KB, Refsgaard JC, Gnosa SP, Bekker-Jensen DB, Secher A, Maurya SR, Paul I, Mendez BL, Kelstrup CD, Francavilla C, Kveiborg M, Montoya G, Jensen LJ and Olsen JV (2019). Oncogenic Mutations Rewire Signaling Pathways by Switching Protein Recruitment to Phosphotyrosine Sites. *Cell*, **179**:543-560.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/31585087) [Full text](https://doi.org/10.1016/j.cell.2019.09.008) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.cell.2019.09.008" data-style="small_rectangle"></span>
 
