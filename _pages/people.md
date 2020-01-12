@@ -9,7 +9,7 @@ permalink: /people/
 
 ## Current group members
 [Dhouha Grissa](http://dgrissa.wixsite.com/dhouha-grissa)  
-[Katerina Nastou](https://www.linkedin.com/in/katerina-nastou-ba8378b9/)  
+[Katerina Nastou](/people/katerinanastou)  
 [Marc Legeay](/people/marclegeay/)  
 [Marie Locard-Paulet](/people/marielocardpaulet/)  
 [Nadezhda Tsankova Doncheva](/people/nadezhdatdoncheva/)  
