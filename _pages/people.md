@@ -15,7 +15,6 @@ permalink: /people/
 [Nadezhda Tsankova Doncheva](/people/nadezhdatdoncheva/)  
 [Oana Palasca](https://www.linkedin.com/in/oanapalasca/)  
 [Rebecca Kirsch](https://www.linkedin.com/in/rebecca-kirsch/)  
-[Ufuk Kirik](/people/ufukkirik/)
 
 ## Alumni
 Albert Pallejà Caro ([Clinical-Microbiomics A/S](https://www.clinical-microbiomics.com))  
@@ -28,4 +27,5 @@ Helen Victoria Cook ([University of Cambridge, School of Clinical Medicine](http
 Jan Christian Refsgaard ([Intomics A/S](https://www.intomics.com/))  
 Kalliopi Tsafou ([Georgetown University, Toretsky group](http://toretsky.georgetown.edu/))  
 Sune Pletscher-Frankild ([Intomics A/S](https://www.intomics.com/))  
+[Ufuk Kirik](/people/ufukkirik/) ([AstraZeneca](https://www.astrazeneca.com/))
 Xiaoyong Pan ([Erasmus Medical Center](https://www.erasmusmc.nl/?lang=en))
