@@ -22,12 +22,28 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-1--6 December 2019, Bangalore, India  
-EMBO Practical Course on Computational Analysis of Protein--Protein Interactions
+
 
 ## Past events
 
+28 February 2020, Odense, Denmark  
+Cytoscape Workshop
+
+3 March 2020, Copenhagen, Denmark  
+Fundamental Bioinformatics
+
+12 June 2020, Hillerød, Denmark  
+Critical reading of high-throughput data
+
+### 2020
+
+10 January 2020, Copenhagen, Denmark  
+Statistics and study bias
+
 ### 2019
+
+1--6 December 2019, Bangalore, India  
+EMBO Practical Course on Computational Analysis of Protein--Protein Interactions
 
 25--26 September 2019, Belval, Luxembourg  
 Current advances in text mining
@@ -54,6 +70,9 @@ Fundamental Bioinformatics
 Cytoscape/STRING Workshop
 
 ### 2018
+
+7 December 2018, Copenhagen, Denmark  
+Statistics and study bias
 
 15 November 2018, Copenhagen, Denmark  
 Cytoscape/STRING Workshop
