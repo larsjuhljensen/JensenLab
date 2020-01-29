@@ -22,10 +22,6 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-
-
-## Past events
-
 28 February 2020, Odense, Denmark  
 Cytoscape Workshop
 
@@ -34,6 +30,8 @@ Fundamental Bioinformatics
 
 12 June 2020, Hillerød, Denmark  
 Critical reading of high-throughput data
+
+## Past events
 
 ### 2020
 
@@ -83,7 +81,7 @@ EMBO Practical Course on Computational Analysis of Protein--Protein Interactions
 25--26 October 2018, São Pedro, Brazil  
 Network analysis and visualization with Cytoscape and STRING
 
-4--10 October 2018, Luxembourg, Luxembourg  
+4--10 October 2018, Luxembourg City, Luxembourg  
 EMBO Practical Course on Phenotyping Neurological Syndromes for Systems Genetics
 
 20--21 September 2018, Copenhagen, Denmark  
