@@ -1,0 +1,123 @@
+STRING_ID	GENENAME	DISEASE_ID	DISEASE_NAME	Z-SCORE	CONFIDENCE	LABEL	SOURCE
+9606.ENSP00000255040	APCS	AmyCo:29	AA Amyloidosis		4	1	AmyCo
+9606.ENSP00000252486	APOE	AmyCo:29	AA Amyloidosis		4	1	AmyCo
+9606.ENSP00000363827	HSPG2	AmyCo:29	AA Amyloidosis		4	1	AmyCo
+9606.ENSP00000268150	MFGE8	AmyCo:29	AA Amyloidosis		4	2	AmyCo
+9606.ENSP00000348918	SAA1	AmyCo:29	AA Amyloidosis		4	3	AmyCo
+9606.ENSP00000256733	SAA2	AmyCo:29	AA Amyloidosis		4	3	AmyCo
+9606.ENSP00000295897	ALB	AmyCo:17	Apolipoprotein A-I associated Amyloidosis		4	1	AmyCo
+9606.ENSP00000255040	APCS	AmyCo:17	Apolipoprotein A-I associated Amyloidosis		4	1	AmyCo
+9606.ENSP00000292401	AZGP1	AmyCo:17	Apolipoprotein A-I associated Amyloidosis		4	1	AmyCo
+9606.ENSP00000406773	DCD	AmyCo:17	Apolipoprotein A-I associated Amyloidosis		4	1	AmyCo
+9606.ENSP00000330054	EEF1A1	AmyCo:17	Apolipoprotein A-I associated Amyloidosis		4	1	AmyCo
+9606.ENSP00000339063	EEF1A1	AmyCo:17	Apolipoprotein A-I associated Amyloidosis		4	1	AmyCo
+9606.ENSP00000322421	HBA1	AmyCo:17	Apolipoprotein A-I associated Amyloidosis		4	1	AmyCo
+9606.ENSP00000333994	HBB	AmyCo:17	Apolipoprotein A-I associated Amyloidosis		4	1	AmyCo
+9606.ENSP00000257867	LACRT	AmyCo:17	Apolipoprotein A-I associated Amyloidosis		4	1	AmyCo
+9606.ENSP00000348068	SERPINA1	AmyCo:17	Apolipoprotein A-I associated Amyloidosis		4	1	AmyCo
+9606.ENSP00000349960	ACTB	AmyCo:17	Apolipoprotein A-I associated Amyloidosis		4	2	AmyCo
+9606.ENSP00000237014	TTR	AmyCo:17	Apolipoprotein A-I associated Amyloidosis		4	2	AmyCo
+9606.ENSP00000236850	APOA1	AmyCo:17	Apolipoprotein A-I associated Amyloidosis		4	3	AmyCo
+9606.ENSP00000255040	APCS	AmyCo:22	Apolipoprotein A-II associated Amyloidosis		4	1	AmyCo
+9606.ENSP00000252486	APOE	AmyCo:22	Apolipoprotein A-II associated Amyloidosis		4	1	AmyCo
+9606.ENSP00000349960	ACTB	AmyCo:22	Apolipoprotein A-II associated Amyloidosis		4	2	AmyCo
+9606.ENSP00000350425	APOA4	AmyCo:22	Apolipoprotein A-II associated Amyloidosis		4	2	AmyCo
+9606.ENSP00000356969	APOA2	AmyCo:22	Apolipoprotein A-II associated Amyloidosis		4	3	AmyCo
+9606.ENSP00000255040	APCS	AmyCo:28	Apolipoprotein A-IV associated Amyloidosis		4	1	AmyCo
+9606.ENSP00000252486	APOE	AmyCo:28	Apolipoprotein A-IV associated Amyloidosis		4	1	AmyCo
+9606.ENSP00000350425	APOA4	AmyCo:28	Apolipoprotein A-IV associated Amyloidosis		4	3	AmyCo
+9606.ENSP00000255040	APCS	AmyCo:25	Apolipoprotein C-II associated Amyloidosis		4	1	AmyCo
+9606.ENSP00000252486	APOE	AmyCo:25	Apolipoprotein C-II associated Amyloidosis		4	1	AmyCo
+9606.ENSP00000350425	APOA4	AmyCo:25	Apolipoprotein C-II associated Amyloidosis		4	2	AmyCo
+9606.ENSP00000466775	APOC2	AmyCo:25	Apolipoprotein C-II associated Amyloidosis		4	3	AmyCo
+9606.ENSP00000255040	APCS	AmyCo:26	Apolipoprotein C-III associated Amyloidosis		4	1	AmyCo
+9606.ENSP00000252486	APOE	AmyCo:26	Apolipoprotein C-III associated Amyloidosis		4	1	AmyCo
+9606.ENSP00000236850	APOA1	AmyCo:26	Apolipoprotein C-III associated Amyloidosis		4	2	AmyCo
+9606.ENSP00000350425	APOA4	AmyCo:26	Apolipoprotein C-III associated Amyloidosis		4	2	AmyCo
+9606.ENSP00000227667	APOC3	AmyCo:26	Apolipoprotein C-III associated Amyloidosis		4	3	AmyCo
+9606.ENSP00000255040	APCS	DOID:0070028	APP-related cerebral amyloid angiopathy		4	1	AmyCo
+9606.ENSP00000252486	APOE	DOID:0070028	APP-related cerebral amyloid angiopathy		4	1	AmyCo
+9606.ENSP00000376793	GIG25	DOID:0070028	APP-related cerebral amyloid angiopathy		4	1	AmyCo
+9606.ENSP00000366124	CST3	DOID:0070028	APP-related cerebral amyloid angiopathy		4	2	AmyCo
+9606.ENSP00000284981	APP	DOID:0070028	APP-related cerebral amyloid angiopathy		4	3	AmyCo
+9606.ENSP00000255040	APCS	DOID:0070027	Hereditary Cerebral Amyloid Angiopathy Icelandic Type		4	1	AmyCo
+9606.ENSP00000366124	CST3	DOID:0070027	Hereditary Cerebral Amyloid Angiopathy Icelandic Type		4	3	AmyCo
+9606.ENSP00000368678	AGRN	DOID:0070029	ITM2B-related cerebral amyloid angiopathy 1		4	1	AmyCo
+9606.ENSP00000255040	APCS	DOID:0070029	ITM2B-related cerebral amyloid angiopathy 1		4	1	AmyCo
+9606.ENSP00000252486	APOE	DOID:0070029	ITM2B-related cerebral amyloid angiopathy 1		4	1	AmyCo
+9606.ENSP00000315130	CLU	DOID:0070029	ITM2B-related cerebral amyloid angiopathy 1		4	1	AmyCo
+9606.ENSP00000376793	GIG25	DOID:0070029	ITM2B-related cerebral amyloid angiopathy 1		4	1	AmyCo
+9606.ENSP00000264039	GPC1	DOID:0070029	ITM2B-related cerebral amyloid angiopathy 1		4	1	AmyCo
+9606.ENSP00000363827	HSPG2	DOID:0070029	ITM2B-related cerebral amyloid angiopathy 1		4	1	AmyCo
+9606.ENSP00000254351	SDC1	DOID:0070029	ITM2B-related cerebral amyloid angiopathy 1		4	1	AmyCo
+9606.ENSP00000307046	SDC2	DOID:0070029	ITM2B-related cerebral amyloid angiopathy 1		4	1	AmyCo
+9606.ENSP00000344468	SDC3	DOID:0070029	ITM2B-related cerebral amyloid angiopathy 1		4	1	AmyCo
+9606.ENSP00000366124	CST3	DOID:0070029	ITM2B-related cerebral amyloid angiopathy 1		4	2	AmyCo
+9606.ENSP00000367828	ITM2B	DOID:0070029	ITM2B-related cerebral amyloid angiopathy 1		4	3	AmyCo
+9606.ENSP00000368678	AGRN	DOID:0070030	ITM2B-related cerebral amyloid angiopathy 2		4	1	AmyCo
+9606.ENSP00000255040	APCS	DOID:0070030	ITM2B-related cerebral amyloid angiopathy 2		4	1	AmyCo
+9606.ENSP00000252486	APOE	DOID:0070030	ITM2B-related cerebral amyloid angiopathy 2		4	1	AmyCo
+9606.ENSP00000315130	CLU	DOID:0070030	ITM2B-related cerebral amyloid angiopathy 2		4	1	AmyCo
+9606.ENSP00000376793	GIG25	DOID:0070030	ITM2B-related cerebral amyloid angiopathy 2		4	1	AmyCo
+9606.ENSP00000264039	GPC1	DOID:0070030	ITM2B-related cerebral amyloid angiopathy 2		4	1	AmyCo
+9606.ENSP00000363827	HSPG2	DOID:0070030	ITM2B-related cerebral amyloid angiopathy 2		4	1	AmyCo
+9606.ENSP00000254351	SDC1	DOID:0070030	ITM2B-related cerebral amyloid angiopathy 2		4	1	AmyCo
+9606.ENSP00000307046	SDC2	DOID:0070030	ITM2B-related cerebral amyloid angiopathy 2		4	1	AmyCo
+9606.ENSP00000344468	SDC3	DOID:0070030	ITM2B-related cerebral amyloid angiopathy 2		4	1	AmyCo
+9606.ENSP00000284981	APP	DOID:0070030	ITM2B-related cerebral amyloid angiopathy 2		4	2	AmyCo
+9606.ENSP00000366124	CST3	DOID:0070030	ITM2B-related cerebral amyloid angiopathy 2		4	2	AmyCo
+9606.ENSP00000367828	ITM2B	DOID:0070030	ITM2B-related cerebral amyloid angiopathy 2		4	3	AmyCo
+9606.ENSP00000255040	APCS	AmyCo:8	Immunoglobulin Light-chain Amyloidosis		4	1	AmyCo
+9606.ENSP00000252486	APOE	AmyCo:8	Immunoglobulin Light-chain Amyloidosis		4	1	AmyCo
+9606.ENSP00000346839	FN1	AmyCo:8	Immunoglobulin Light-chain Amyloidosis		4	1	AmyCo
+9606.ENSP00000363827	HSPG2	AmyCo:8	Immunoglobulin Light-chain Amyloidosis		4	1	AmyCo
+9606.ENSP00000374309	LAMA1	AmyCo:8	Immunoglobulin Light-chain Amyloidosis		4	2	AmyCo
+9606.ENSP00000255040	APCS	AmyCo:23	AH Amyloidosis		4	1	AmyCo
+9606.ENSP00000252486	APOE	AmyCo:23	AH Amyloidosis		4	1	AmyCo
+9606.ENSP00000255040	APCS	AmyCo:24	AHL Amyloidosis		4	1	AmyCo
+9606.ENSP00000252486	APOE	AmyCo:24	AHL Amyloidosis		4	1	AmyCo
+9606.ENSP00000255040	APCS	AmyCo:67	PrP Systemic Amyloidosis		4	1	AmyCo
+9606.ENSP00000368752	PRNP	AmyCo:67	PrP Systemic Amyloidosis		4	3	AmyCo
+9606.ENSP00000368752	PRNP	AmyCo:36	Variably Protease-Sensitive Prionopathy		4	3	AmyCo
+9606.ENSP00000323929	A2M	AmyCo:33	Wild type beta-2-microglobulin-related Amyloidosis		4	1	AmyCo
+9606.ENSP00000255040	APCS	AmyCo:33	Wild type beta-2-microglobulin-related Amyloidosis		4	1	AmyCo
+9606.ENSP00000252486	APOE	AmyCo:33	Wild type beta-2-microglobulin-related Amyloidosis		4	1	AmyCo
+9606.ENSP00000452780	B2M	AmyCo:33	Wild type beta-2-microglobulin-related Amyloidosis		4	3	AmyCo
+9606.ENSP00000452780	B2M	AmyCo:75	Hereditary beta-2-microglobulin-related Amyloidosis		4	3	AmyCo
+9606.ENSP00000255040	APCS	AmyCo:63	Enfuvirtide-induced Amyloidosis		4	1	AmyCo
+9606.ENSP00000252486	APOE	AmyCo:63	Enfuvirtide-induced Amyloidosis		4	1	AmyCo
+9606.ENSP00000236850	APOA1	AmyCo:63	Enfuvirtide-induced Amyloidosis		4	2	AmyCo
+9606.ENSP00000350425	APOA4	AmyCo:63	Enfuvirtide-induced Amyloidosis		4	2	AmyCo
+9606.ENSP00000255040	APCS	AmyCo:16	Localized insulin-derived Amyloidosis		4	1	AmyCo
+9606.ENSP00000252486	APOE	AmyCo:16	Localized insulin-derived Amyloidosis		4	1	AmyCo
+9606.ENSP00000236850	APOA1	AmyCo:16	Localized insulin-derived Amyloidosis		4	2	AmyCo
+9606.ENSP00000350425	APOA4	AmyCo:16	Localized insulin-derived Amyloidosis		4	2	AmyCo
+9606.ENSP00000250971	INS	AmyCo:16	Localized insulin-derived Amyloidosis		4	3	AmyCo
+9606.ENSP00000237014	TTR	DOID:0050638	Transthyretin amyloidosis		4	3	AmyCo
+9606.ENSP00000224784	ACTA2	DOID:0050637	Finnish type amyloidosis		4	1	AmyCo
+9606.ENSP00000255040	APCS	DOID:0050637	Finnish type amyloidosis		4	1	AmyCo
+9606.ENSP00000252486	APOE	DOID:0050637	Finnish type amyloidosis		4	1	AmyCo
+9606.ENSP00000245907	C3	DOID:0050637	Finnish type amyloidosis		4	1	AmyCo
+9606.ENSP00000263408	C9	DOID:0050637	Finnish type amyloidosis		4	1	AmyCo
+9606.ENSP00000348068	SERPINA1	DOID:0050637	Finnish type amyloidosis		4	1	AmyCo
+9606.ENSP00000366124	CST3	DOID:0050637	Finnish type amyloidosis		4	2	AmyCo
+9606.ENSP00000362924	GSN	DOID:0050637	Finnish type amyloidosis		4	3	AmyCo
+9606.ENSP00000361867	SEMG1	AmyCo:73	Senile Seminal Vesicle Amyloidosis		4	3	AmyCo
+9606.ENSP00000379401	ODAM	AmyCo:35	Calcifying Epithelial Odontogenic Tumor		4	3	AmyCo
+9606.ENSP00000306361	FGA	AmyCo:19	Hereditary fibrinogen A alpha-chain Amyloidosis		4	3	AmyCo
+9606.ENSP00000255040	APCS	AmyCo:27	Leukocyte chemotactic factor 2 Amyloidosis		4	1	AmyCo
+9606.ENSP00000252486	APOE	AmyCo:27	Leukocyte chemotactic factor 2 Amyloidosis		4	1	AmyCo
+9606.ENSP00000274507	LECT2	AmyCo:27	Leukocyte chemotactic factor 2 Amyloidosis		4	3	AmyCo
+9606.ENSP00000237014	TTR	AmyCo:30	Wild-type transthyretin-related Amyloidosis		4	3	AmyCo
+9606.ENSP00000268150	MFGE8	AmyCo:40	Medin Amyloidosis		4	3	AmyCo
+9606.ENSP00000365663	NPPA	AmyCo:37	Isolated Atrial Amyloidosis		4	3	AmyCo
+9606.ENSP00000255040	APCS	DOID:0050639	Primary cutaneous amyloidosis		4	1	AmyCo
+9606.ENSP00000252486	APOE	DOID:0050639	Primary cutaneous amyloidosis		4	1	AmyCo
+9606.ENSP00000349960	ACTB	DOID:0050639	Primary cutaneous amyloidosis		4	3	AmyCo
+9606.ENSP00000331514	ACTG1	DOID:0050639	Primary cutaneous amyloidosis		4	3	AmyCo
+9606.ENSP00000252244	KRT1	DOID:0050639	Primary cutaneous amyloidosis		4	3	AmyCo
+9606.ENSP00000167586	KRT14	DOID:0050639	Primary cutaneous amyloidosis		4	3	AmyCo
+9606.ENSP00000252242	KRT5	DOID:0050639	Primary cutaneous amyloidosis		4	3	AmyCo
+9606.ENSP00000374309	LAMA1	DOID:0050639	Primary cutaneous amyloidosis		4	3	AmyCo
+9606.ENSP00000367891	LGALS7	DOID:0050639	Primary cutaneous amyloidosis		4	3	AmyCo
+9606.ENSP00000261267	LYZ	AmyCo:20	Hereditary lysozyme Amyloidosis		4	3	AmyCo
