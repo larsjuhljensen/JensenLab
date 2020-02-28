@@ -279,7 +279,7 @@ _Which two KEGG pathways have the lowest p-values? Which host proteins are assoc
 
 ## Supporting literature
 
-Doncheva NT, Morris JH, Gorodkin J and Jensen LJ (2018). Cytoscape stringApp: Network analysis and visualization of proteomics data.  
-[Preprint](https://doi.org/10.1101/358283)
+Doncheva NT, Morris JH, Gorodkin J and Jensen LJ (2019). Cytoscape stringApp: Network analysis and visualization of proteomics data. *Journal of Proteome Research*, **18**:623-632.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30450911) [Full text](https://doi.org/10.1021/acs.jproteome.8b00702) [Preprint](https://doi.org/10.1101/358283)
 
 [![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
