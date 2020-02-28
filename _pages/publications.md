@@ -7,7 +7,8 @@ sidebar:
 ---
 ## Preprints
 
-None at the moment.
+Legeay M, Doncheva NT, Morris JH and Jensen LJ (2020). Visualize omics data on networks with Omics Visualizer, a Cytoscape App. *F1000Research*.  
+[Preprint](https://doi.org/10.12688/f1000research.22280.1)
 
 ## Research articles
 
