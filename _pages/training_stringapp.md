@@ -103,7 +103,7 @@ Cytoscape allows you to map attributes of the nodes and edges to visual properti
 
 From the left panel top menu, select **Style** (located between **Network** and **Select**). Click on the **◀** button to the right of the property you want to change, in this case **Fill Color** and set **Column** to the node column containing the data that you want to use (**nucleus**). Since this is a numeric value, we will use the **Continuous Mapping** as the **Mapping Type**, and set a color gradient for how likely each protein is located in the nucleus. The default Cytoscape yellow--purple color gradient already gives a nice visualization of the confidence of being located in this compartment.
 
-_Many proteins are strongly associated with the nucleus -- they will be purple. Why are there nodes colored grey, which is not a color from the gradient? Hint: look at the column **compartments nucleus** in the Node Table._
+_Does it look like the network contains many nuclear proteins?_
 
 ### 2.5 Select proteins located in the nucleus
 
