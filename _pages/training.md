@@ -22,18 +22,18 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-28 February 2020, Odense, Denmark  
-Cytoscape Workshop
-
-3 March 2020, Copenhagen, Denmark  
-Fundamental Bioinformatics
-
 12 June 2020, Hillerød, Denmark  
 Critical reading of high-throughput data
 
 ## Past events
 
 ### 2020
+
+3 March 2020, Copenhagen, Denmark  
+Fundamental Bioinformatics
+
+28 February 2020, Odense, Denmark  
+Cytoscape Workshop
 
 10 January 2020, Copenhagen, Denmark  
 Statistics and study bias
