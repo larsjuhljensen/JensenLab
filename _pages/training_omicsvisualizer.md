@@ -32,7 +32,7 @@ Start Cytoscape or close the current session from the menu **File → Close**. G
 
 ### 1.2 Table row filtering
 
-Omics Visualizer allows you to filter the rows in the table before visualizing them on a network. Click the filter button above the network or go to the menu **Apps → Omics Visualizer → Filter table rows**. In the filter dialog, you can build logical rules that take into account multiple columns in the table. However, here we will create a simple filter to keep only the phosphorylation sites that are statistically significant at a 1% false discovery rate.
+Omics Visualizer allows you to filter the rows in the table before visualizing them on a network. Click the filter button above the network or go to the menu **Apps → Omics Visualizer → Filter table**. In the filter dialog, you can build logical rules that take into account multiple columns in the table. However, here we will create a simple filter to keep only the phosphorylation sites that are statistically significant at a 1% false discovery rate.
 
 Select **Adj p-value** as the column to use for filtering, choose **<=** as the operator, enter **0.01** as the value, and click **Apply**. The filter button above the table should turn green to show that you have an active filter, and the table will only show the rows that passed the filter.
 
@@ -101,7 +101,7 @@ If your table is successfully connected to the network then you should see that 
 
 The interaction network cover 1278 protein-coding genes, almost all of which are also included in the transcriptomic data. However, most of them are not significantly regulated. We will thus now use the filter functionality of Omics Visualizer to select the significantly regulated genes and extract a subnetwork containing only those.
 
-Click the filter button above the network or go to the menu **Apps → Omics Visualizer → Filter table rows**. In the filter dialog, you can build logical rules that take into account multiple columns in the table. Select **autocor.adj** as the column to use for filtering, choose **<=** as the operator, enter **0.05** as the value. Click the **+** button to add the equivalent filter for the column **DESeq.adj**, and click **Apply** then **Close**. The filter button above the table should turn green to show that you have an active filter, and the table will only show rows for the genes that passed the filter.
+Click the filter button above the network or go to the menu **Apps → Omics Visualizer → Filter table**. In the filter dialog, you can build logical rules that take into account multiple columns in the table. Select **autocor.adj** as the column to use for filtering, choose **<=** as the operator, enter **0.05** as the value. Click the **+** button to add the equivalent filter for the column **DESeq.adj**, and click **Apply** then **Close**. The filter button above the table should turn green to show that you have an active filter, and the table will only show rows for the genes that passed the filter.
 
 [Filter table](cycmd:ov filter filter="{(autocor.adj,LOWER_EQUALS,0.05),(DESeq.adj,LOWER_EQUALS,0.05)}"){: .btn .btn--cybrowser .btn--primary}
 
