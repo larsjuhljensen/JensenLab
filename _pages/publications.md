@@ -14,7 +14,7 @@ Legeay M, Doncheva NT, Morris JH and Jensen LJ (2020). Visualize omics data on n
 
 ### 2020
 
-Locard-Paulet M, Bouyssié D, Froment C, Burlet-Schiltz O and Jensen LJ (2020). Comparing 22 Popular Phosphoproteomics Pipelines for Peptide Identification and Site Localization. *Journal of Proteome Research*.  
+Locard-Paulet M, Bouyssié D, Froment C, Burlet-Schiltz O and Jensen LJ (2020). Comparing 22 Popular Phosphoproteomics Pipelines for Peptide Identification and Site Localization. *Journal of Proteome Research*, **19**:1338-1345.  
 [Abstract](https://www.ncbi.nlm.nih.gov/pubmed/31975593) [Full text](https://doi.org/10.1021/acs.jproteome.9b00679) <span class="__dimensions_badge_embed__" data-doi="10.1021/acs.jproteome.9b00679" data-style="small_rectangle"></span>
 
 ### 2019
