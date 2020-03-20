@@ -26,9 +26,10 @@ Work in the laboratory of enzymology and structural biochemistry (LEBS, CNRS UPR
 I would be happy to send full resume upon request.
 
 ## Selection of recent publications
+- **Locard-Paulet M**, Bouyssié D, Froment C, Burlet-Schiltz O, Jensen LJ. Comparing 22 Popular Phosphoproteomics Pipelines for Peptide Identification and Site Localization (2020). J Proteome Res.
 - **Locard-Paulet M**, Parra J, Albigot R, Mouton-Barbosa E, Bardi L, Burlet-Schiltz O, Marcoux J. VisioProt-MS : interactive 2D maps from intact protein mass spectrometry (2018). Bioinformatics.
 - Duguet F\*, **Locard-Paulet M**\*, Marcellin M, Chaoui K, Andreoletti O, Lesourne R, Burlet-Schiltz O, Gonzalez de Peredo A, Saoudi A (2017). Proteomic analysis of regulatory T cells reveals the importance of Themis1 in the control of their suppressive function. Mol. Cell. Proteomics. Aug;16(8):1416-1432. *\*Equal contribution*.
-- **Locard-Paulet M**\*, Lim L\*, Veluscek G, McMahon K, Sinclair J, van Weverwijk A, Worboys JD, Yuan Y, Isacke CM, J??rgensen C (2016). Phosphoproteomic analysis of interacting tumor and endothelial cells identifies regulatory mechanisms of transendothelial migration. Sci. Signal. 9, ra15. *\*Equal contribution*.
+- **Locard-Paulet M**\*, Lim L\*, Veluscek G, McMahon K, Sinclair J, van Weverwijk A, Worboys JD, Yuan Y, Isacke CM, Jorgensen C (2016). Phosphoproteomic analysis of interacting tumor and endothelial cells identifies regulatory mechanisms of transendothelial migration. Sci. Signal. 9, ra15. *\*Equal contribution*.
 
 ## Other places to find me
 
