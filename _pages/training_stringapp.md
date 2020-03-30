@@ -196,7 +196,7 @@ _How many nodes and edges are there in this cluster?_
 
 Next, we will retrieve functional enrichment for the proteins in our network of the largest cluster. First we will have to tell Cytoscape that the new network we created is a STRING network, go to the menu **Apps → STRING → Set as STRING network**.
 
-After making sure that no nodes are selected in the network, go to the menu **Apps → STRING Enrichment → Retrieve functional enrichment** and keep the default settings. A new STRING Enrichment tab will appear in the **Table Panel** on the bottom. It contains a table of enriched terms and corresponding information for each enrichment category. You can see which proteins are annotated with a given term by selecting the term in the **STRING Enrichment panel**.
+After making sure that no nodes are selected in the network, go to the menu **Apps → STRING Enrichment → Retrieve functional enrichment** and select the original not clustered network ‘String Network’ as **Background** (instead of ‘genome’). A new STRING Enrichment tab will appear in the **Table Panel** on the bottom. It contains a table of enriched terms and corresponding information for each enrichment category. You can see which proteins are annotated with a given term by selecting the term in the **STRING Enrichment panel**.
 
 [Set as STRING network](cycmd:string make string){: .btn .btn--cybrowser .btn--primary}
 [Retrieve functional enrichment](cycmd:string retrieve enrichment){: .btn .btn--cybrowser .btn--primary}
