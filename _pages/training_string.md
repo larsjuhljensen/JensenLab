@@ -19,7 +19,7 @@ In these exercises, we will use the [STRING](https://string-db.org/), [STITCH](h
 
 ### 1.1 Single protein query
 
-We will first retrieve a STRING network for human insulin receptor (INSR). Go to <https://string-db.org/>, open the **Protein by name** search interface, and type **INSR** in the field **Protein Name**. You can either specify **Homo sapiens** in the **Organism** field leave it on **auto-detect**. Click **SEARCH**. If you specified the organism, you will immediately receive a protein network; otherwise you will first be presented with a disambiguation page on which you can specify that you meant the human protein.
+We will first retrieve a STRING network for human insulin receptor (INSR). Go to <https://string-db.org/>, open the **Protein by name** search interface, and type **INSR** in the field **Protein Name**. You can either specify **Homo sapiens** in the **Organism** field or leave it on **auto-detect**. Click **SEARCH**. If there is a unique match to your input protein, you will immediately receive a protein network; otherwise you will first be presented with a disambiguation page on which you can specify the protein you are interested in.
 
 ### 1.2 Visual representations
 

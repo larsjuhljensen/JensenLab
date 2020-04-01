@@ -245,7 +245,7 @@ _How many virus proteins are encoded for by this virus? What node information is
 
 ### 4.2 Expand with host interactors
 
-To retrieve interactions with host proteins, go to **Apps → STRING → Expand network**. In the resulting dialog, enter the number of desired host proteins, and select the host species from **Type of interactors to expand network by**. All host species for which we have interactions with the currently imported virus genes, will be shown in the dropdown menu. The **selectivity of interactors** can also be specified -- we recommend a default value of 0.5, but you can move the slider towards 0 to decrease the number of network-sepcific interactors or towards 1 to increase it. In this example, we will import 10 human proteins, and keep the default selectivity.
+To retrieve interactions with host proteins, go to **Apps → STRING → Expand network**. In the resulting dialog, enter the number of desired host proteins, and select the host species from **Type of interactors to expand network by**. All host species for which we have interactions with the currently imported virus genes, will be shown in the dropdown menu. The **selectivity of interactors** can also be specified -- we recommend a default value of 0.5, but you can move the slider towards 0 to decrease the number of network-specific interactors or towards 1 to increase it. In this example, we will import 10 human proteins, and keep the default selectivity.
 
 The resulting network will be automatically re-styled such that the nodes representing virus proteins are red and host proteins are green-blue. These attributes can be changed from the Cytoscape Style menu.
 
@@ -263,7 +263,7 @@ Note that p53 will be added to the network in the previous step if more proteins
 
 ### 4.4 Merge two host-virus networks
 
-Let us now compare the networks for HPV 16 and HPV 1a. Create a new host-virus network for "Human papillomavirus type 1a (HPV 1a)" by repeating steps 4.1 and 4.2. Merge the two networks using **Tools → Merge → Networks**. Move both the HPV 16 and HPV 1a networks into the **Networks to merge** box and otherwise use the defaults for the merge. In the resulting network, use the menu option **Apps → STRING → Set as STRING network** to manipulate the network as a STRING network again. To show any interactions between host nodes that were present in one source network but not the other, first set the confidence to 1, then set the confidence to the desired confidence (0.4) to retrieve any missing interactions.
+Let us now compare the networks for HPV 16 and HPV 1a. Create a new host-virus network for "Human papillomavirus type 1a (HPV 1a)" by repeating steps 4.1 and 4.2. Merge the two networks using **Tools → Merge → Networks**. Move both the HPV 16 and HPV 1a networks into the **Networks to merge** box and otherwise use the defaults for the merge. In the resulting network, use the menu option **Apps → STRING → Set as STRING network** to manipulate the network as a STRING network again. To show any interactions between host nodes that were present in one source network but not the other, first set the confidence to 1 using **Apps → STRING → Change confidence** and click OK. Then set the confidence to the desired confidence (0.4) to retrieve any missing interactions.
 
 The resulting network can be styled to give the nodes of each species a distinct color so that the proteins of the two viruses can be distinguished from each other.
 
@@ -273,7 +273,7 @@ _How many host proteins interact with E6 from both HPV species?_
 
 We will now examine the human proteins to see what pathways are enriched in this network.
 
-Next, we will retrieve functional enrichment for the human proteins. Go to the menu **Apps → STRING Enrichment → Retrieve functional enrichment** and keep the default p-value of 0.05. Homo sapiens will be selected by default in the species dropdown. It is currently only possible to retrieve enrichment for host proteins. A new STRING Enrichment tab will appear in the Table Panel. It contains a table of enriched terms and corresponding information for each enrichment category. Use the filter button in the top left of the STRING Enrichment panel to show only **KEGG Pathways**. Click on the draw charts icon to the right of the filter icon to plot the enrichment values on the network.
+Next, we will retrieve functional enrichment for the human proteins. Go to the menu **Apps → STRING Enrichment → Retrieve functional enrichment** and keep the default settings. Homo sapiens will be selected by default in the species dropdown. It is currently only possible to retrieve enrichment for host proteins. A new STRING Enrichment tab will appear in the Table Panel. It contains a table of enriched terms and corresponding information for each enrichment category. Use the filter button in the top left of the STRING Enrichment panel to show only **KEGG Pathways**. Click on the draw charts icon to the right of the filter icon to plot the enrichment values on the network.
 
 _Which two KEGG pathways have the lowest p-values? Which host proteins are associated with the KEGG pathways "cell cycle"? (Hint: click on the associated row in the enrichment table to select the proteins with this term.)_
 
