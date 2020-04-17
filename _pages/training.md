@@ -22,7 +22,7 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-12 June 2020, Hillerød, Denmark  
+18 November 2020, Hillerød, Denmark  
 Critical reading of high-throughput data
 
 ## Past events
@@ -30,7 +30,8 @@ Critical reading of high-throughput data
 ### 2020
 
 3 March 2020, Copenhagen, Denmark  
-Fundamental Bioinformatics
+Fundamental Bioinformatics  
+[YouTube](https://youtu.be/lH75WJgLeoo)
 
 28 February 2020, Odense, Denmark  
 Cytoscape Workshop
