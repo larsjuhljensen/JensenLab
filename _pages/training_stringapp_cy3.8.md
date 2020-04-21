@@ -156,11 +156,12 @@ _How many kinases are in the network?_
 
 Network nodes and edges can have additional information associated with them that we can load into Cytoscape and use for visualization. We will import the data from the [text file](/assets/Francavilla2017CellRep.tsv).
 
-To import the node attributes file into Cytoscape, go to **File → Import → Table from File**. In the resulting dialog entitled Import Columns From Table, use the drop-down menu next to **Where to Import Table Data** to choose the option **To a Network Collection** (instead of To an unassigned table). Next, change the **Key Column for Network** from **shared name** to **query term** (see a detailed explanation below) and click **OK**. 
+To import the node attributes file into Cytoscape, go to **File → Import → Table from File**. In the resulting dialog entitled Import Columns From Table, use the drop-down menu next to **Where to Import Table Data** to choose the option **To a Network Collection**. Next, change the **Key Column for Network** from **shared name** to **query term** (see detailed explanation below) and click **OK**.
 
 [Import table](cycmd:table import url url="https://jensenlab.org/assets/Francavilla2017CellRep.tsv" keyColumnForMapping="query term" keyColumnIndex=1 startLoadRow=1){: .btn .btn--cybrowser .btn--primary}
 
-#### 3.3.1 Understanding Cytoscape's data import 
+<details>
+#### Understanding Cytoscape's data import
 
 The preview in the bottom of the dialog will show how the file is interpreted given the current settings and will update automatically when you change them. To change the default interpretation of each column, click the arrow in the column heading. For example, you can decide whether the column is imported or not by changing the **Meaning** of the column (hover over each symbol with the mouse to see what they mean). This column-specific dialog will also allow you to change the column name and type.
 
@@ -169,6 +170,7 @@ Another important part is that you need to map unique identifiers between the en
 The **Key Column for Network** can be changed using a drop-down menu and allows you to set the node attribute column that is to be used as key to map to. In this case it is **query term** because this attribute contains the UniProt accession numbers you entered when retrieving the network. You can also change the Key by pressing the key button for the column that is to be used as key for mapping values in the dataset. In this case it is the first column in the table called UniProt, from where you copied the identifiers.
 
 If there is a match between the value of a Key in the dataset and the value the Key Column for Network field in the network, all attribute–-value pairs associated with the element in the dataset are assigned to the matching node in the network. You will find the imported columns at the end of the Node Table.
+</details>
 
 ### 3.4 Continuous color mapping
 
