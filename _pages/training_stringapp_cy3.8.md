@@ -161,7 +161,7 @@ To import the node attributes file into Cytoscape, go to **File → Import → T
 [Import table](cycmd:table import url url="https://jensenlab.org/assets/Francavilla2017CellRep.tsv" keyColumnForMapping="query term" keyColumnIndex=1 startLoadRow=1){: .btn .btn--cybrowser .btn--primary}
 
 <details>
-#### Understanding Cytoscape's data import
+<summary>Understanding Cytoscape's data import</summary>
 
 The preview in the bottom of the dialog will show how the file is interpreted given the current settings and will update automatically when you change them. To change the default interpretation of each column, click the arrow in the column heading. For example, you can decide whether the column is imported or not by changing the **Meaning** of the column (hover over each symbol with the mouse to see what they mean). This column-specific dialog will also allow you to change the column name and type.
 
