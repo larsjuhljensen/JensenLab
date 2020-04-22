@@ -28,10 +28,12 @@ Critical reading of high-throughput data
 ## Past events
 
 ### 2020
+1 April 2020, Online course  
+Statistical Methods in Bioinformatics  
+[YouTube](https://youtu.be/lH75WJgLeoo)
 
 3 March 2020, Copenhagen, Denmark  
-Fundamental Bioinformatics  
-[YouTube](https://youtu.be/lH75WJgLeoo)
+Fundamental Bioinformatics
 
 28 February 2020, Odense, Denmark  
 Cytoscape Workshop
