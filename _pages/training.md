@@ -25,6 +25,15 @@ Additional training material on other topics is linked to from the events below.
 18 November 2020, Hillerød, Denmark  
 Critical reading of high-throughput data
 
+14--18 September 2020, Copenhagen, Denmark  
+Bioinformatics for Human Biologists
+
+14--15 September 2020, Copenhagen, Denmark  
+Introduction to Molecular Bioscience
+
+7--11 September 2020, Copenhagen, Denmark  
+Big Data Analytics and Machine Learning I
+
 ## Past events
 
 ### 2020
@@ -54,6 +63,9 @@ Bioinformatics for Human Biologists
 
 12--13 September 2019, Copenhagen, Denmark  
 Big Data Analytics and Machine Learning I
+
+4--5 September 2018, Copenhagen, Denmark  
+Introduction to Molecular Bioscience
 
 19 June 2019, Berlin, Germany  
 HEIBRiDS Data Science School
@@ -96,6 +108,9 @@ Workshops in Applied Bioinformatics
 13 September 2018, Odense, Denmark  
 STRING and Cytoscape Tutorial
 
+10--11 September 2018, Copenhagen, Denmark  
+Introduction to Molecular Bioscience
+
 30 June 2018, Torún, Poland  
 Microbiome Text Mining Workshop
 
@@ -125,6 +140,9 @@ Applied Structural Bioinformatics
 
 21 September 2017, Copenhagen, Denmark  
 Bioinformatics for Human Biologists
+
+7--8 September 2017, Copenhagen, Denmark  
+Introduction to Molecular Bioscience
 
 20 June 2017, Melbourne, Australia  
 Utilising STRING App for Cytoscape
