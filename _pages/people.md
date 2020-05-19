@@ -8,6 +8,7 @@ permalink: /people/
 [Lars Juhl Jensen](/people/larsjuhljensen/)
 
 ## Current group members
+[Danai Vagiaki](https://www.linkedin.com/in/danai-vagiaki-03976414b/)  
 [Dhouha Grissa](http://dgrissa.wixsite.com/dhouha-grissa)  
 [Katerina Nastou](/people/katerinanastou)  
 [Marc Legeay](/people/marclegeay/)  
