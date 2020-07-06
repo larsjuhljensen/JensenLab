@@ -26,6 +26,7 @@ Work in the laboratory of enzymology and structural biochemistry (LEBS, CNRS UPR
 I would be happy to send full resume upon request.
 
 ## Selection of recent publications
+- **Locard-Paulet M**\*, Voisinne G\*, Froment C, et al. LymphoAtlas: a dynamic and integrated phosphoproteomic resource of TCR signaling in primary T cells reveals ITSN2 as a regulator of effector functions (2020). Mol Syst Biol. *\*Equal contribution*.
 - **Locard-Paulet M**, Bouyssié D, Froment C, Burlet-Schiltz O, Jensen LJ. Comparing 22 Popular Phosphoproteomics Pipelines for Peptide Identification and Site Localization (2020). J Proteome Res.
 - **Locard-Paulet M**, Parra J, Albigot R, Mouton-Barbosa E, Bardi L, Burlet-Schiltz O, Marcoux J. VisioProt-MS : interactive 2D maps from intact protein mass spectrometry (2018). Bioinformatics.
 - Duguet F\*, **Locard-Paulet M**\*, Marcellin M, Chaoui K, Andreoletti O, Lesourne R, Burlet-Schiltz O, Gonzalez de Peredo A, Saoudi A (2017). Proteomic analysis of regulatory T cells reveals the importance of Themis1 in the control of their suppressive function. Mol. Cell. Proteomics. Aug;16(8):1416-1432. *\*Equal contribution*.
