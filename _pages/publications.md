@@ -7,13 +7,16 @@ sidebar:
 ---
 ## Preprints
 
-None at the moment.
+Yarani R, Palasca O, Doncheva DT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litman T, Holmskov U, Bang-Berthelsen CH, Vilien M, Jensen LJ, Gorodkin J and Pociot F (2020). Transcriptome profiling of ulcerative colitis mouse model suggests biomarkers and therapeutic targets for human colitis. *bioRxiv*.  
+[Preprint](https://doi.org/10.1101/2020.08.12.225458)
 
 ## Research articles
 
 ### 2020
 
-Legeay M, Doncheva NT, Morris JH and Jensen LJ (2020). Visualize omics data on networks with Omics Visualizer, a Cytoscape App. *F1000Research*.  
+Grissa D, Rasmussen DN, Krag A, Brunak S and Jensen LJ (2020). Alcoholic liver disease: A registry view on comorbidities and disease prediction. To appear in *PLOS Computational Biology*.  
+
+Legeay M, Doncheva NT, Morris JH and Jensen LJ (2020). Visualize omics data on networks with Omics Visualizer, a Cytoscape App. *F1000Research*, **9**:157.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/32399202) [Full text](https://doi.org/10.12688/f1000research.22280.1) <span class="__dimensions_badge_embed__" data-doi="10.12688/f1000research.22280.1" data-style="small_rectangle"></span>
 
 Locard-Paulet M, Bouyssié D, Froment C, Burlet-Schiltz O and Jensen LJ (2020). Comparing 22 Popular Phosphoproteomics Pipelines for Peptide Identification and Site Localization. *Journal of Proteome Research*, **19**:1338-1345.  
