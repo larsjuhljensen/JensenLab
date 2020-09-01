@@ -108,7 +108,7 @@ _Does it look like the network contains many nuclear proteins?_
 ### 2.5 Select proteins located in the nucleus
 
 Because many proteins are located in the nucleus, we will identify the proteins with highest confidence of 5. One way to do this is to use the COMPARTMENTS sliders in the **STRING Results** panel on the right side. Go to the **Nodes** tab and expand the group of compartments filter by clicking the small triangle. To hide all nodes with a compartment score below 5, find the slider for **nucleus** and set the low bound to 5.0 by typing the number in the text field and pressing **Enter**.
-I w
+
 _How many proteins are found in the nucleus with a confidence of 5? And in mitochondrion? Hint: You can see the number of hidden nodes in the light grey panel bar on the bottom-right part of the network view panel, just above the Table panel._
 
 Important: Move the filter back to 0.0 before continuing with the next exercise.
