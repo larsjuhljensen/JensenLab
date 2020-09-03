@@ -22,7 +22,7 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-18 November 2020, Hillerød, Denmark  
+17--18 November 2020, Hillerød, Denmark  
 Critical reading of high-throughput data
 
 14--18 September 2020, Copenhagen, Denmark  
