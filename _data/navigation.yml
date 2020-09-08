@@ -45,8 +45,12 @@ projects:
   - title: "Student projects"
     url: /projects/students/
     children:
+      - title: "Detecting \"paper-mill publications\""
+        url: /projects/students/#detecting-paper-mill-publications
       - title: "Text mining beyond PubMed"
         url: /projects/students/#text-mining-beyond-pubmed
+      - title: "Connecting lifestyle and diseasesPermalink"
+        url: /projects/students/#connecting-lifestyle-and-diseases
 
 publications:
   - title: "Preprints"
