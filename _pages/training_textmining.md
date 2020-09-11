@@ -17,7 +17,7 @@ In these exercises, we will use a variety of text-mining tools and databases bas
 
 ## Prerequisites
 
-All exercises are purely web-based.
+All exercises are purely web-based. We recommend using [Firefox](http://getfirefox.org/), as some functionality will not work in the latest Chrome and Chrome-based browsers.
 
 ## Exercise 1
 
@@ -57,7 +57,7 @@ _Do the abstracts shown on the first page all mention Staphylococcus aureus?_
 
 Go back to the search page (e.g. by clicking **ORGANISMS** in the header) and query for **Firmicutes**. You are again presented with many options including the **Firmicutes** phylum itself (taxid:1239) as well as numerous species and strains. Click on the row for the phylum to view abstracts.
 
-_Which taxa do you see abstracts for?_
+_Which taxa do you see abstracts for on the first page?_
 
 You can similarly use NER to retrieve abstracts for any disease in the Disease Ontology. For example, the following query will retrieve abstracts for **inflammatory bowel disease** (DOID:0050589):
 
@@ -103,7 +103,7 @@ It is important to note that there are currently no dedicated text-mining tools 
 
 ### 2.1 Using NER to dig deeper
 
-Colorectal cancer studies have revealed a strong cooccurrence pattern between the proinflammatory Fusobacterium nucleatum and Parvimonas micra. This led to a systematic search for literature linking also the latter bacterial species to inflammatory response. A simple PubMed search retrieves only three publications:
+Colorectal cancer studies have revealed a strong cooccurrence pattern between the proinflammatory Fusobacterium nucleatum and Parvimonas micra. This led to a systematic search for literature linking also the latter bacterial species to inflammatory response. A simple PubMed search retrieves only four publications:
 
 <https://www.ncbi.nlm.nih.gov/pubmed/?term=%22Parvimonas+micra%22+%22inflammatory+response%22>
 
@@ -111,7 +111,7 @@ Of these, only one had been published when the colorectal cancer microbiome was 
 
 <http://organisms.jensenlab.org/Entity?documents=10&type1=-2&id1=33033&type2=-21&id2=GO:0006954>
 
-Because NER makes use of synonyms, this retrieves several additional publications. Inspect these abstracts.
+Because NER makes use of synonyms, this retrieves several additional publications. Inspect some of these abstracts.
 
 _Are they relevant and why were they were not found by the initial search?_
 
@@ -147,7 +147,7 @@ The [SimpleCount](https://simplecount.jensenlab.org/) server also allows you to 
 
 _Are the overrepresented terms more specific than those with the highest counts?_
 
-These types of analyses are by no means limited to tissues. If the task asks for it, equivalent analyses can be done for, e.g., diseases or environmental descriptors. Perform an enrichment analysis for diseases using a **Z-score cutoff** of **4.0**. The slightly lower cutoff reflects that the text-mined associations between diseases and organisms are not quite as strong as those between tissues and organisms.
+These types of analyses are by no means limited to tissues. If the task asks for it, equivalent analyses can be done for, e.g., diseases or environmental descriptors. Perform an enrichment analysis for diseases using a **Z-score cutoff** of **5.0**.
 
 _Which is the most significantly overrepresented disease?_
 
