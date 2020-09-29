@@ -22,8 +22,15 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
+5--9 October 2020, Lund, Sweden  
+Omics Integration and Systems Biology
+
 17--18 November 2020, Hillerød, Denmark  
 Critical reading of high-throughput data
+
+## Past events
+
+### 2020
 
 14--18 September 2020, Copenhagen, Denmark  
 Bioinformatics for Human Biologists
@@ -34,9 +41,6 @@ Introduction to Molecular Bioscience
 7--11 September 2020, Copenhagen, Denmark  
 Big Data Analytics and Machine Learning I
 
-## Past events
-
-### 2020
 1 April 2020, Online course  
 Statistical Methods in Bioinformatics  
 [YouTube](https://youtu.be/lH75WJgLeoo)
