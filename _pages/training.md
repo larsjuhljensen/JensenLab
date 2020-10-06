@@ -22,16 +22,16 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-5--9 October 2020, Lund, Sweden  
-Omics Integration and Systems Biology  
-[YouTube](https://youtu.be/lLZWYMXsuGM)
-
 17--18 November 2020, Hillerød, Denmark  
 Critical reading of high-throughput data
 
 ## Past events
 
 ### 2020
+
+5--9 October 2020, Lund, Sweden  
+Omics Integration and Systems Biology  
+[YouTube](https://youtu.be/lLZWYMXsuGM)
 
 14--18 September 2020, Copenhagen, Denmark  
 Bioinformatics for Human Biologists
