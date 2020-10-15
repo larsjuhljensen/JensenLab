@@ -14,7 +14,11 @@ Yarani R, Palasca O, Doncheva DT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litm
 
 ### 2020
 
-Grissa D, Rasmussen DN, Krag A, Brunak S and Jensen LJ (2020). Alcoholic liver disease: A registry view on comorbidities and disease prediction. To appear in *PLOS Computational Biology*.  
+Sheils T, Mathias S, Kelleher K, Siramshetty V, Nguyen D-T, Bologa C, Jensen LJ, Vidovic D, Koleti A, Schurer S, Waller A, Yang J, Holmes J, Bocci G, Southall N, Dharkar P, Mathé E, Simeonov A, Oprea TI (2021). TCRD and Pharos 2020: Mining the Human Proteome for Disease Biology. To appear in *Nucleic Acids Research*.
+
+Nissen JN, Johansen J, Allesøe RL, Sønderby CK, Armenteros JJA, Grønbech CH, Jensen LJ, Nielsen HB, Petersen TN, Winther O, Rasmussen S (2020). Deep learning for binning and high resolution taxonomic profiling of microbial genomes. To appear in *Nature Biotechnology*.
+
+Grissa D, Rasmussen DN, Krag A, Brunak S and Jensen LJ (2020). Alcoholic liver disease: A registry view on comorbidities and disease prediction. To appear in *PLOS Computational Biology*.
 
 Legeay M, Doncheva NT, Morris JH and Jensen LJ (2020). Visualize omics data on networks with Omics Visualizer, a Cytoscape App. *F1000Research*, **9**:157.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/32399202) [Full text](https://doi.org/10.12688/f1000research.22280.1) <span class="__dimensions_badge_embed__" data-doi="10.12688/f1000research.22280.1" data-style="small_rectangle"></span>
