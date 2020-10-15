@@ -22,27 +22,33 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
+23 October 2020, Warsaw, Poland (online)  
+Do Science!
+
 17--18 November 2020, Hillerød, Denmark  
 Critical reading of high-throughput data
+
+18 December 2020, Copenhagen, Denmark  
+Statistics and study bias
 
 ## Past events
 
 ### 2020
 
-5--9 October 2020, Lund, Sweden  
+5--9 October 2020, Lund, Sweden (online)  
 Omics Integration and Systems Biology  
 [YouTube](https://youtu.be/lLZWYMXsuGM)
 
 14--18 September 2020, Copenhagen, Denmark  
 Bioinformatics for Human Biologists
 
-14--15 September 2020, Copenhagen, Denmark  
+14--15 September 2020, Copenhagen, Denmark (online)  
 Introduction to Molecular Bioscience
 
 7--11 September 2020, Copenhagen, Denmark  
 Big Data Analytics and Machine Learning I
 
-1 April 2020, Online course  
+1 April 2020, Copenhagen, Denmark (online)  
 Statistical Methods in Bioinformatics  
 [YouTube](https://youtu.be/lH75WJgLeoo)
 
@@ -135,6 +141,9 @@ From Protein Structure to Biological Function through Interactomics
 Cytoscape/STRING Workshop
 
 ### 2017
+
+17 November 2017, Copenhagen, Denmark  
+Statistics and study bias
 
 25--26 October 2017, Copenhagen, Denmark  
 Microbiome Data Interpretation Workshop  
