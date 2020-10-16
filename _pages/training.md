@@ -22,9 +22,6 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-23 October 2020, Warsaw, Poland (online)  
-Do Science!
-
 17--18 November 2020, Hillerød, Denmark  
 Critical reading of high-throughput data
 
