@@ -32,6 +32,9 @@ Statistics and study bias
 
 ### 2020
 
+9--13 November 2020, Copenhagen, Denmark (online)  
+Mass Spectrometry-based proteomics and its applications in biology
+
 5--9 October 2020, Lund, Sweden (online)  
 Omics Integration and Systems Biology  
 [YouTube](https://youtu.be/lLZWYMXsuGM)
