@@ -14,11 +14,13 @@ Yarani R, Palasca O, Doncheva DT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litm
 
 ### 2020
 
-Sheils T, Mathias S, Kelleher K, Siramshetty V, Nguyen D-T, Bologa C, Jensen LJ, Vidovic D, Koleti A, Schurer S, Waller A, Yang J, Holmes J, Bocci G, Southall N, Dharkar P, Mathé E, Simeonov A, Oprea TI (2021). TCRD and Pharos 2020: Mining the Human Proteome for Disease Biology. To appear in *Nucleic Acids Research*.
+Sheils T, Mathias S, Kelleher K, Siramshetty V, Nguyen D-T, Bologa C, Jensen LJ, Vidovic D, Koleti A, Schurer S, Waller A, Yang J, Holmes J, Bocci G, Southall N, Dharkar P, Mathé E, Simeonov A, Oprea TI (2021). TCRD and Pharos 2020: Mining the Human Proteome for Disease Biology. *Nucleic Acids Research*.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/33156327) [Full text](https://doi.org/10.1093/nar/gkaa993) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkaa993" data-style="small_rectangle"></span>
 
 Nissen JN, Johansen J, Allesøe RL, Sønderby CK, Armenteros JJA, Grønbech CH, Jensen LJ, Nielsen HB, Petersen TN, Winther O, Rasmussen S (2020). Deep learning for binning and high resolution taxonomic profiling of microbial genomes. To appear in *Nature Biotechnology*.
 
-Grissa D, Rasmussen DN, Krag A, Brunak S and Jensen LJ (2020). Alcoholic liver disease: A registry view on comorbidities and disease prediction. To appear in *PLOS Computational Biology*.
+Grissa D, Rasmussen DN, Krag A, Brunak S and Jensen LJ (2020). Alcoholic liver disease: A registry view on comorbidities and disease prediction. *PLOS Computational Biology*, **16**:e1008244.  
+[Full text](https://doi.org/10.1371/journal.pcbi.1008244) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1008244" data-style="small_rectangle"></span>
 
 Legeay M, Doncheva NT, Morris JH and Jensen LJ (2020). Visualize omics data on networks with Omics Visualizer, a Cytoscape App. *F1000Research*, **9**:157.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/32399202) [Full text](https://doi.org/10.12688/f1000research.22280.1) <span class="__dimensions_badge_embed__" data-doi="10.12688/f1000research.22280.1" data-style="small_rectangle"></span>
@@ -89,9 +91,6 @@ Pan X, Wenzel A, Jensen LJ\*, Gorodkin J\* (2018). Genome-wide identification of
 
 Hendriks IA, Lyon D, Su D, Skotte NH, Daniel JA, Jensen LJ and Nielsen ML (2018). Site-specific characterization of endogenous SUMOylation across species and organs. *Nature Communications*, **9**:2456.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/29942033) [Full text](https://doi.org/10.1038/s41467-018-04957-4) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-018-04957-4" data-style="small_rectangle"></span>
-
-Oprea TI, Bologa CG, Brunak S, Campbell A, Gan GN, Gaulton A, Gomez SM, Guha R, Hersey A, Holmes J, Jadhav A, Jensen LJ, Johnson GL, Karlson A, Leach AR, Ma'ayan A, Malovannaya A, Mani S, Mathias SL, McManus MT, Meehan TF, von Mering C, Muthas D, Nguyen DT, Overington JP, Papadatos G, Qin J, Reich C, Roth BL, Schürer SC, Simeonov A, Sklar LA, Southall N, Tomita S, Tudose I, Ursu O, Vidovic D, Waller A, Westergaard D, Yang JJ and Zahoránszky-Köhalmi G (2018). Unexplored therapeutic opportunities in the human genome. *Nature Reviews Drug Discovery*, **17**:377.  
-[Abstract](https://pubmed.ncbi.nlm.nih.gov/29472638) [Full text](https://doi.org/10.1038/nrd.2018.14) <span class="__dimensions_badge_embed__" data-doi="10.1038/nrd.2018.14" data-style="small_rectangle"></span>
 
 Mackie M, Rüther P, Samodova D, Di Gianvincenzo F, Granzotto C, Lyon D, Peggie DA, Howard H, Harrison L, Jensen LJ, Olsen JV and Cappellini E (2018). Palaeoproteomic profiling of conservation layers on a 14th century Italian wall painting. *Angewandte Chemie International Edition*, **57**:7369-7374.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/29603563) [Full text](https://doi.org/10.1002/anie.201713020) <span class="__dimensions_badge_embed__" data-doi="10.1002/anie.201713020" data-style="small_rectangle"></span>
