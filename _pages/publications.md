@@ -14,10 +14,13 @@ Yarani R, Palasca O, Doncheva DT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litm
 
 ### 2020
 
-Sheils T, Mathias S, Kelleher K, Siramshetty V, Nguyen D-T, Bologa C, Jensen LJ, Vidovic D, Koleti A, Schurer S, Waller A, Yang J, Holmes J, Bocci G, Southall N, Dharkar P, Mathé E, Simeonov A, Oprea TI (2021). TCRD and Pharos 2020: Mining the Human Proteome for Disease Biology. *Nucleic Acids Research*.  
+Szklarczyk D, Gable AL, Nastou KC, Lyon D, Kirsch R, Pyysalo S, Doncheva NT, Legeay M, Fang T, Bork P, Jensen LJ and von Mering C (2021). The STRING database in 2021: customizable protein-protein networks, and functional characterization of user-uploaded gene/measurement sets. *Nucleic Acids Research*.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/33237311) [Full text](https://doi.org/10.1093/nar/gkaa1074) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkaa1074" data-style="small_rectangle"></span>
+
+Sheils T, Mathias S, Kelleher K, Siramshetty V, Nguyen D-T, Bologa C, Jensen LJ, Vidovic D, Koleti A, Schurer S, Waller A, Yang J, Holmes J, Bocci G, Southall N, Dharkar P, Mathé E, Simeonov A and Oprea TI (2021). TCRD and Pharos 2020: Mining the Human Proteome for Disease Biology. *Nucleic Acids Research*.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/33156327) [Full text](https://doi.org/10.1093/nar/gkaa993) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkaa993" data-style="small_rectangle"></span>
 
-Nissen JN, Johansen J, Allesøe RL, Sønderby CK, Armenteros JJA, Grønbech CH, Jensen LJ, Nielsen HB, Petersen TN, Winther O, Rasmussen S (2020). Deep learning for binning and high resolution taxonomic profiling of microbial genomes. To appear in *Nature Biotechnology*.
+Nissen JN, Johansen J, Allesøe RL, Sønderby CK, Armenteros JJA, Grønbech CH, Jensen LJ, Nielsen HB, Petersen TN, Winther O and Rasmussen S (2020). Deep learning for binning and high resolution taxonomic profiling of microbial genomes. To appear in *Nature Biotechnology*.
 
 Grissa D, Rasmussen DN, Krag A, Brunak S and Jensen LJ (2020). Alcoholic liver disease: A registry view on comorbidities and disease prediction. *PLOS Computational Biology*, **16**:e1008244.  
 [Full text](https://doi.org/10.1371/journal.pcbi.1008244) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1008244" data-style="small_rectangle"></span>
