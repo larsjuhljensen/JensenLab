@@ -17,6 +17,9 @@ Santos A, Colaço AR, Nielsen AB, Niu L, Geyer PE, Coscia F, Albrechtsen NJW, Mu
 
 ### 2020
 
+Jensen PSH, Johansen M, Bak LK, Jensen LJ and Kjær C (2020). Yield and integrity of RNA from brain samples are largely unaffected by pre-analytical procedures. *Neurochemical Research*.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/33249516) [Full text](https://doi.org/10.1007/s11064-020-03183-z) <span class="__dimensions_badge_embed__" data-doi="10.1007/s11064-020-03183-z" data-style="small_rectangle"></span>
+
 Szklarczyk D, Gable AL, Nastou KC, Lyon D, Kirsch R, Pyysalo S, Doncheva NT, Legeay M, Fang T, Bork P, Jensen LJ and von Mering C (2021). The STRING database in 2021: customizable protein-protein networks, and functional characterization of user-uploaded gene/measurement sets. *Nucleic Acids Research*.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/33237311) [Full text](https://doi.org/10.1093/nar/gkaa1074) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkaa1074" data-style="small_rectangle"></span>
 
