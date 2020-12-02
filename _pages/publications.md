@@ -7,6 +7,9 @@ sidebar:
 ---
 ## Preprints
 
+Yang JJ, Grissa D, Lambert CG, Bologa CG, Mathias SL, Waller A, Wild DJ, Jensen LJ and Oprea TI (2020). TIGA: Target illumination GWAS analytics. *bioRxiv*.  
+[Preprint](https://doi.org/10.1101/2020.11.11.378596)
+
 Yarani R, Palasca O, Doncheva DT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litman T, Holmskov U, Bang-Berthelsen CH, Vilien M, Jensen LJ, Gorodkin J and Pociot F (2020). Transcriptome profiling of ulcerative colitis mouse model suggests biomarkers and therapeutic targets for human colitis. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2020.08.12.225458)
 
