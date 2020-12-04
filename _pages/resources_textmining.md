@@ -26,7 +26,7 @@ Most of our other dictionaries are built based on existing taxonomy and ontology
 * [Phenotypes](http://download.jensenlab.org/phenotypes_dictionary.tar.gz)
 * [Environments](http://download.jensenlab.org/environments_dictionary.tar.gz)
 
-In addition to the dictionaries listed above, we also provide the combined [full dictionary](http://download.jensenlab.org/tagger_dictionary.tar.gz), which is used for text-mining in our databases, as well as the reduced [tagger dictionary](http://download.jensenlab.org/tagger_dictionary.tar.gz), which is used by the Tagger web service.
+In addition to the dictionaries listed above, we also provide the combined [full dictionary](http://download.jensenlab.org/full_dictionary.tar.gz), which is used for text-mining in our databases, as well as the reduced [tagger dictionary](http://download.jensenlab.org/tagger_dictionary.tar.gz), which is used by the Tagger web service.
 
 ## Tools
 
