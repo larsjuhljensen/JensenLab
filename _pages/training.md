@@ -22,15 +22,15 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-17--18 November 2020, Hillerød, Denmark  
-Critical reading of high-throughput data
-
-18 December 2020, Copenhagen, Denmark  
-Statistics and study bias
+18 December 2020, Copenhagen, Denmark (online)  
+Protein Research and Critical Thinking
 
 ## Past events
 
 ### 2020
+
+17--18 November 2020, Hillerød, Denmark  
+Critical reading of high-throughput data
 
 9--13 November 2020, Copenhagen, Denmark (online)  
 Mass Spectrometry-based proteomics and its applications in biology
@@ -59,7 +59,7 @@ Fundamental Bioinformatics
 Cytoscape Workshop
 
 10 January 2020, Copenhagen, Denmark  
-Statistics and study bias
+Protein Research and Critical Thinking
 
 ### 2019
 
@@ -96,7 +96,7 @@ Cytoscape/STRING Workshop
 ### 2018
 
 7 December 2018, Copenhagen, Denmark  
-Statistics and study bias
+Protein Research and Critical Thinking
 
 15 November 2018, Copenhagen, Denmark  
 Cytoscape/STRING Workshop
@@ -143,7 +143,7 @@ Cytoscape/STRING Workshop
 ### 2017
 
 17 November 2017, Copenhagen, Denmark  
-Statistics and study bias
+Protein Research and Critical Thinking
 
 25--26 October 2017, Copenhagen, Denmark  
 Microbiome Data Interpretation Workshop  
