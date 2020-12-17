@@ -20,7 +20,7 @@ Santos A, Colaço AR, Nielsen AB, Niu L, Geyer PE, Coscia F, Albrechtsen NJW, Mu
 
 ### 2020
 
-Ashwood C, Bittremieux W, Deutsch EW, Doncheva NT, Dorfer V, Gabriels R, Gorshkov V, Gupta S, Jones AR, Käll L, Kopczynski D, Lane L, Lautenbacher L, Legeay M, Locard-Paulet M*, Mesuere B, Perez-Riverol Y, Netz E, Pfeuffer J, Sachsenberg T, Salz R, Samaras P, Schiebenhoefer H, Schmidt T, Schwämmle V*, Soggiu A, Uszkoreit J, Van Den Bossche T, Van Puyvelde B, Van Strien J, Verschaffelt P, Webel H, Willems S (2020). Proceedings of the EuBIC-MS 2020 Developers’ Meeting. *EuPA Open Proteomics*.  
+Ashwood C, Bittremieux W, Deutsch EW, Doncheva NT, Dorfer V, Gabriels R, Gorshkov V, Gupta S, Jones AR, Käll L, Kopczynski D, Lane L, Lautenbacher L, Legeay M, Locard-Paulet M\*, Mesuere B, Perez-Riverol Y, Netz E, Pfeuffer J, Sachsenberg T, Salz R, Samaras P, Schiebenhoefer H, Schmidt T, Schwämmle V\*, Soggiu A, Uszkoreit J, Van Den Bossche T, Van Puyvelde B, Van Strien J, Verschaffelt P, Webel H, Willems S (2020). Proceedings of the EuBIC-MS 2020 Developers’ Meeting. *EuPA Open Proteomics*.  
 [Full text](https://www.sciencedirect.com/science/article/pii/S2212968520300015) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.euprot.2020.11.001" data-style="small_rectangle"></span>
 
 Jensen PSH, Johansen M, Bak LK, Jensen LJ and Kjær C (2020). Yield and integrity of RNA from brain samples are largely unaffected by pre-analytical procedures. *Neurochemical Research*.  
