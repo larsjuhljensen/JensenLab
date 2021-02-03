@@ -22,12 +22,20 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-18 December 2020, Copenhagen, Denmark (online)  
-Protein Research and Critical Thinking
+9 March 2021, Copenhagen, Denmark (online)  
+Fundamental Bioinformatics
 
 ## Past events
 
+### 2021
+
+29 January 2021, Copenhagen, Denmark (online)  
+Drug Research Academy Winter School
+
 ### 2020
+
+18 December 2020, Copenhagen, Denmark (online)  
+Protein Research and Critical Thinking
 
 17--18 November 2020, Hillerød, Denmark  
 Critical reading of high-throughput data
