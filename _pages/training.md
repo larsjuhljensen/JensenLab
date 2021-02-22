@@ -25,7 +25,7 @@ Additional training material on other topics is linked to from the events below.
 9 March 2021, Copenhagen, Denmark (online)  
 Fundamental Bioinformatics
 
-17 March 2021, Delaware, United States of America  
+17 March 2021, Delaware, United States of America (online)  
 Introduction to Bioinformatics
 
 13 April 2021, Copenhagen, Denmark (online)  
