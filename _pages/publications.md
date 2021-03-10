@@ -20,9 +20,8 @@ Santos A, Colaço AR, Nielsen AB, Niu L, Geyer PE, Coscia F, Albrechtsen NJW, Mu
 
 ### 2021
 
-
 Somyajit K, Spies J, Coscia F, Kirik U, Rask M-B, Lee J-H, Neelsen KJ, Mund A, Jensen LJ, Paull TT, Mann M, and Lukas J (2021). Homology-directed repair protects the replicating genome from metabolic assaults. *Developmental Cell*, **56**:461-477.  
-[Full text](https://doi.org/10.1016/j.devcel.2021.01.011) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.devcel.2021.01.011" data-style="small_rectangle"></span>
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/33621493/) [Full text](https://doi.org/10.1016/j.devcel.2021.01.011) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.devcel.2021.01.011" data-style="small_rectangle"></span>
 
 Doncheva NT, Palasca O, Yarani R, Litman T, Anthon C, Groenen M, Stadler PF, Pociot F, Jensen LJ\*, and Gorodkin J\* (2021). Human pathways in animal models: possibilities and limitations. *Nucleic Acids Research*, **49**:1859-1871.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/33524155/) [Full text](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkab012/6125659) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkab012" data-style="small_rectangle"></span>
