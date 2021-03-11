@@ -24,7 +24,7 @@ Somyajit K, Spies J, Coscia F, Kirik U, Rask M-B, Lee J-H, Neelsen KJ, Mund A, J
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/33621493/) [Full text](https://doi.org/10.1016/j.devcel.2021.01.011) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.devcel.2021.01.011" data-style="small_rectangle"></span>
 
 Doncheva NT, Palasca O, Yarani R, Litman T, Anthon C, Groenen M, Stadler PF, Pociot F, Jensen LJ\*, and Gorodkin J\* (2021). Human pathways in animal models: possibilities and limitations. *Nucleic Acids Research*, **49**:1859-1871.  
-[Abstract](https://pubmed.ncbi.nlm.nih.gov/33524155/) [Full text](https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkab012/6125659) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkab012" data-style="small_rectangle"></span>
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/33524155/) [Full text](https://doi.org/10.1093/nar/gkab012) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkab012" data-style="small_rectangle"></span>
 
 Nissen JN, Johansen J, Allesøe RL, Sønderby CK, Armenteros JJA, Grønbech CH, Jensen LJ, Nielsen HB, Petersen TN, Winther O and Rasmussen S (2021). Improved metagenome binning and assembly
 using deep variational autoencoders. *Nature Biotechnology*.  
