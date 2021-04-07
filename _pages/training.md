@@ -22,15 +22,18 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-17 March 2021, Delaware, United States of America (online)  
-Introduction to Bioinformatics
-
 13 April 2021, Copenhagen, Denmark (online)  
 Statistical Methods in Bioinformatics
 
 ## Past events
 
 ### 2021
+
+6 April 2021, Copenhagen, Denmark (online)
+Systematic Reviews and Meta-Analysis
+
+17 March 2021, Delaware, United States of America (online)  
+Introduction to Bioinformatics
 
 9 March 2021, Copenhagen, Denmark (online)  
 Fundamental Bioinformatics
