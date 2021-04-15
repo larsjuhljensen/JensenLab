@@ -22,12 +22,21 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-13 April 2021, Copenhagen, Denmark (online)  
-Statistical Methods in Bioinformatics
+17 and 22 September 2021, Copenhagen, Denmark  
+Bioinformatics for Human Biologists
+
+12--15 October 2021, Copenhagen, Denmark  
+Translational Discovery Omics II
+
+8--12 November 2021, Copenhagen, Denmark  
+Big Data Analytics and Machine Learning I
 
 ## Past events
 
 ### 2021
+
+13 April 2021, Copenhagen, Denmark (online)  
+Statistical Methods in Bioinformatics
 
 6 April 2021, Copenhagen, Denmark (online)
 Systematic Reviews and Meta-Analysis
