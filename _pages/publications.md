@@ -20,6 +20,9 @@ Santos A, Colaço AR, Nielsen AB, Niu L, Geyer PE, Coscia F, Albrechtsen NJW, Mu
 
 ### 2021
 
+Linscheid N, Santos A, Poulsen PC, Mills RW, Calloe K, Leurs U, Ye JZ, Stolte C, Thomsen MB, Bentzen BH, Lundegaard PR, Olesen MS, Jensen LJ, Olsen JV and Lundby A (2021). Quantitative proteome comparison of human hearts with those of model organisms. *PLOS Biology*.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/33872299/) [Full text](http://doi.org/10.1371/journal.pbio.3001144) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pbio.3001144" data-style="small_rectangle"></span>
+
 Somyajit K, Spies J, Coscia F, Kirik U, Rask M-B, Lee J-H, Neelsen KJ, Mund A, Jensen LJ, Paull TT, Mann M, and Lukas J (2021). Homology-directed repair protects the replicating genome from metabolic assaults. *Developmental Cell*, **56**:461-477.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/33621493/) [Full text](https://doi.org/10.1016/j.devcel.2021.01.011) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.devcel.2021.01.011" data-style="small_rectangle"></span>
 
