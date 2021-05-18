@@ -7,6 +7,9 @@ sidebar:
 ---
 ## Preprints
 
+Baltoumas FA, Zafeiropoulou S, Karatzas E, Paragkamian S, Thanati F, Iliopoulos I,  Eliopoulos AG, Schneider R, Jensen LJ, Pafilis E and Pavlopoulos GA (2021). OnTheFly2.0: a text-mining web application for automated biomedical entity recognition, document annotation, network and functional enrichment analysis. *bioRxiv*.  
+[Preprint](https://doi.org/10.1101/2021.05.14.444150)
+
 Yang JJ, Grissa D, Lambert CG, Bologa CG, Mathias SL, Waller A, Wild DJ, Jensen LJ and Oprea TI (2020). TIGA: Target illumination GWAS analytics. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2020.11.11.378596)
 
@@ -20,7 +23,7 @@ Santos A, Colaço AR, Nielsen AB, Niu L, Geyer PE, Coscia F, Albrechtsen NJW, Mu
 
 ### 2021
 
-Linscheid N, Santos A, Poulsen PC, Mills RW, Calloe K, Leurs U, Ye JZ, Stolte C, Thomsen MB, Bentzen BH, Lundegaard PR, Olesen MS, Jensen LJ, Olsen JV and Lundby A (2021). Quantitative proteome comparison of human hearts with those of model organisms. *PLOS Biology*.  
+Linscheid N, Santos A, Poulsen PC, Mills RW, Calloe K, Leurs U, Ye JZ, Stolte C, Thomsen MB, Bentzen BH, Lundegaard PR, Olesen MS, Jensen LJ, Olsen JV and Lundby A (2021). Quantitative proteome comparison of human hearts with those of model organisms. *PLOS Biology*, **19**:e3001144.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/33872299/) [Full text](http://doi.org/10.1371/journal.pbio.3001144) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pbio.3001144" data-style="small_rectangle"></span>
 
 Somyajit K, Spies J, Coscia F, Kirik U, Rask M-B, Lee J-H, Neelsen KJ, Mund A, Jensen LJ, Paull TT, Mann M, and Lukas J (2021). Homology-directed repair protects the replicating genome from metabolic assaults. *Developmental Cell*, **56**:461-477.  
@@ -30,8 +33,11 @@ Doncheva NT, Palasca O, Yarani R, Litman T, Anthon C, Groenen M, Stadler PF, Poc
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/33524155/) [Full text](https://doi.org/10.1093/nar/gkab012) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkab012" data-style="small_rectangle"></span>
 
 Nissen JN, Johansen J, Allesøe RL, Sønderby CK, Armenteros JJA, Grønbech CH, Jensen LJ, Nielsen HB, Petersen TN, Winther O and Rasmussen S (2021). Improved metagenome binning and assembly
-using deep variational autoencoders. *Nature Biotechnology*.  
+using deep variational autoencoders. *Nature Biotechnology*, **39**:555-560.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/33398153) [Full text](https://doi.org/10.1038/s41587-020-00777-4) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41587-020-00777-4" data-style="small_rectangle"></span>
+
+Jensen PSH, Johansen M, Bak LK, Jensen LJ and Kjær C (2020). Yield and integrity of RNA from brain samples are largely unaffected by pre-analytical procedures. *Neurochemical Research*, **46**:447-454.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/33249516) [Full text](https://doi.org/10.1007/s11064-020-03183-z) <span class="__dimensions_badge_embed__" data-doi="10.1007/s11064-020-03183-z" data-style="small_rectangle"></span>
 
 Szklarczyk D, Gable AL, Nastou KC, Lyon D, Kirsch R, Pyysalo S, Doncheva NT, Legeay M, Fang T, Bork P, Jensen LJ and von Mering C (2021). The STRING database in 2021: customizable protein-protein networks, and functional characterization of user-uploaded gene/measurement sets. *Nucleic Acids Research*, **49**:D605–D612.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/33237311) [Full text](https://doi.org/10.1093/nar/gkaa1074) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkaa1074" data-style="small_rectangle"></span>
@@ -44,9 +50,6 @@ Sheils T, Mathias S, Kelleher K, Siramshetty V, Nguyen D-T, Bologa C, Jensen LJ,
 
 Ashwood C, Bittremieux W, Deutsch EW, Doncheva NT, Dorfer V, Gabriels R, Gorshkov V, Gupta S, Jones AR, Käll L, Kopczynski D, Lane L, Lautenbacher L, Legeay M, Locard-Paulet M, Mesuere B, Perez-Riverol Y, Netz E, Pfeuffer J, Sachsenberg T, Salz R, Samaras P, Schiebenhoefer H, Schmidt T, Schwämmle V\*, Soggiu A, Uszkoreit J, Van Den Bossche T, Van Puyvelde B, Van Strien J, Verschaffelt P, Webel H, Willems S (2020). Proceedings of the EuBIC-MS 2020 Developers’ Meeting. *EuPA Open Proteomics*, **24**:1-6.  
 [Full text](https://www.sciencedirect.com/science/article/pii/S2212968520300015) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.euprot.2020.11.001" data-style="small_rectangle"></span>
-
-Jensen PSH, Johansen M, Bak LK, Jensen LJ and Kjær C (2020). Yield and integrity of RNA from brain samples are largely unaffected by pre-analytical procedures. *Neurochemical Research*.  
-[Abstract](https://pubmed.ncbi.nlm.nih.gov/33249516) [Full text](https://doi.org/10.1007/s11064-020-03183-z) <span class="__dimensions_badge_embed__" data-doi="10.1007/s11064-020-03183-z" data-style="small_rectangle"></span>
 
 Grissa D, Rasmussen DN, Krag A, Brunak S and Jensen LJ (2020). Alcoholic liver disease: A registry view on comorbidities and disease prediction. *PLOS Computational Biology*, **16**:e1008244.  
 [Full text](https://doi.org/10.1371/journal.pcbi.1008244) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1008244" data-style="small_rectangle"></span>

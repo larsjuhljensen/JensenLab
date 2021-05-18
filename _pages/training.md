@@ -25,6 +25,9 @@ Additional training material on other topics is linked to from the events below.
 17 and 22 September 2021, Copenhagen, Denmark  
 Bioinformatics for Human Biologists
 
+23 September 2021, Budapest, Hungary (online)  
+Applied Systems Biology
+
 12--15 October 2021, Copenhagen, Denmark  
 Translational Discovery Omics II
 
