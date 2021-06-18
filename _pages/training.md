@@ -22,6 +22,12 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
+9--13 August 2021, Odense, Denmark (online)
+NordBioMedNet Summer School (computational proteomics)
+
+13--17 September 2021, Barcelona, Spain (online)
+PROTrEIN summer school
+
 17 and 22 September 2021, Copenhagen, Denmark  
 Bioinformatics for Human Biologists
 
