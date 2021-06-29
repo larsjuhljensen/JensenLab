@@ -12,7 +12,7 @@ permalink: /people/
 [Katerina Nastou](/people/katerinanastou)  
 [Marie Locard-Paulet](/people/marielocardpaulet/)  
 [Mikaela Koutrouli](https://www.linkedin.com/in/mikaela-koutrouli-24a877156/)  
-[Nadezhda Tsankova Doncheva](/people/nadezhdatdoncheva/)  
+[Nadezhda T. Doncheva](/people/nadezhdatdoncheva/)  
 [Oana Palasca](https://www.linkedin.com/in/oanapalasca/)  
 [Rebecca Kirsch](https://www.linkedin.com/in/rebecca-kirsch/)
 
