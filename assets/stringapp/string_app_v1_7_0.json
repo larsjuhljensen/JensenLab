@@ -1,6 +1,6 @@
 {
 	"URI": "https://api11.jensenlab.org/",
-	"DataVersion": "11",
+	"DataVersion": "11.5",
 	"STRINGResolveURI": "https://string-preview.org/api/",
 	"STITCHResolveURI": "http://stitch.embl.de/api/",
 	"VIRUSESResolveURI": "http://viruses.string-db.org/cgi/webservice_handler.pl",
