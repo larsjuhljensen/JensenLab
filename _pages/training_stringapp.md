@@ -95,7 +95,7 @@ Go to [COMPARTMENTS](https://compartments.jensenlab.org/) and enter **ARID1A** i
 
 After selecting the human gene, you will see a schematic of where in the cell it is located and below it tables containing the specific lines of evidence that contribute to the overall score.
 
-_What compartments is ARID1A present in with a confidence of 5? What source do these associations come from? Hint: you can see what the abbreviations for different evidence types mean [here](http://geneontology.org/docs/guide-go-evidence-codes/)._
+_What compartments is ARID1A present in with a confidence of 5 (stars)? What source do these associations come from? Hint: you can see what the abbreviations for different evidence types mean [here](http://geneontology.org/docs/guide-go-evidence-codes/)._
 
 ### 2.4 Continuous color mapping
 
@@ -111,7 +111,7 @@ Because many proteins are located in the nucleus, we will identify the proteins 
 
 Select all remaining nodes in the network view by holding down the modifier key (Shift on Windows, Ctrl or Command on Mac) and then left-clicking and dragging to select multiple nodes. The nodes will turn yellow if they are selected properly. The number of selected nodes is shown in the light grey panel bar on the bottom-right part of the network view panel, just above the **Table panel**.
 
-_How many proteins are found in the nucleus with a confidence of 5? And in mitochondrion?_
+_How many proteins are found in the nucleus with a confidence of 5 (stars)? And in mitochondrion? And in both nucleus and mitochondrion?_
 
 Important: Move the filter back to 0.0 before continuing with the next exercise.
 
@@ -139,13 +139,11 @@ _Can you find a layout that allows you to easily recognize patterns in the netwo
 
 Cytoscape allows you to map attributes of the nodes and edges to visual properties such as node color and edge width. Here, we will map drug target family data from the [Pharos](https://pharos.nih.gov/idg/targets) database to the node color. This data is contained in the node attribute called **target family**.
 
-Select **Style** from the side menu in the left panel (it is between **Network** and **Filter**). Click the **◀** button to the right of the property you want to change, in this case **Fill Color**, and change **Column** from name to **family**, which is the node column containing the data that you want to use. The **Mapping Type** should remain set to **Discrete Mapping**. This action will remove the rainbow coloring of the nodes and present you with a list of all the different values of the attributes that exist in the network.
-
-_Which target families are present in the network?_
+Select **Style** from the side menu in the left panel (it is between **Network** and **Filter**). Click the **◀** button to the right of the property you want to change, in this case **Fill Color**, and change **Column** from name to **family**, which is the node column containing the data that you want to use. The **Mapping Type** should remain set to **Discrete Mapping**. This action will remove the rainbow coloring of the nodes and present you with a list of all the different values of the attribute that exist in the network, in this case several protein target families.
 
 To color the corresponding proteins, first click the field to the right of an attribute value, i.e. **GPCR** or **Kinase**, then click the ⋯ button and choose a color from the color selection dialog. You can also set a default color, e.g. for all nodes that do not have a target family annotation from Pharos, by clicking on the grey button in the first column of the same row.
 
-_How many of the proteins in the network are ion channels or GPCRs?_
+_How many of the proteins in the network are ion channels (IC) or GPCRs?_
 
 There are many kinases in the network. We can avoid counting them manually by creating a selection filter in the **Filter** tab (located underneath **Style**). Click the **ᐩ** button and choose **Column filter** from the drop-down menu. Then, find and select the attribute **Node: family**. Write **kinase** in the text field to select all nodes with this annotation.
 
@@ -204,14 +202,13 @@ _How many nodes and edges are there in this cluster?_
 
 ### 3.6 Functional enrichment and enriched publications
 
-Next, we will retrieve functional enrichment for the proteins in our network of the largest cluster. After making sure that no nodes are selected in the network, go to the menu **Apps → STRING Enrichment → Retrieve functional enrichment** or use the **Functional Enrichment** button in the **STRING Panel** on the right side. Then, select the original, not clustered network ‘String Network’ as **Background** (instead of ‘genome’) and click **OK**. A new STRING Enrichment tab will appear in the **Table Panel** on the bottom. It contains a table of enriched terms and corresponding information for each enrichment category. You can see which proteins are annotated with a given term by selecting the term in the **STRING Enrichment panel**.
+Next, we will retrieve functional enrichment for the proteins in our network of the largest cluster. After making sure that no nodes are selected in the network, go to the menu **Apps → STRING Enrichment → Retrieve functional enrichment** or use the **Functional Enrichment** button in the **STRING Panel** on the right side. Then, select the original, not clustered network ‘String Network’ as **Background** (instead of ‘genome’) and click **OK**. A new STRING Enrichment tab will appear in the **Table Panel** on the bottom. It contains a table of enriched terms and corresponding information for each enrichment category. You can see which proteins are annotated with a given term by selecting the term in the **STRING Enrichment panel** and you can see the terms annotating a given node by slecting it.
 
 [Set as STRING network](cycmd:string make string){: .btn .btn--cybrowser .btn--primary}
 [Retrieve functional enrichment](cycmd:string retrieve enrichment){: .btn .btn--cybrowser .btn--primary}
 [Show functional enrichment](cycmd:string show enrichment){: .btn .btn--cybrowser .btn--primary}
 
-
-_Which are the four most statistically significant terms? Hint: Look at the FDR (false discovery rate) value column. Do the UniProt and GO Biological Process terms agree with each other, i.e., annotate the same set of nodes?_
+_How many statistically significant annotation terms are in the table? Which is the most significant term for the categories GO Biological Process, GO Molecular Function, and KEGG Pathways? Hint: Look at the FDR (false discovery rate) value column and use the Filter button to select individual categories._
 
 <!-- To explore only specific types of terms, e.g. GO terms, and to remove redundant terms from the table, click on the filter icon in the **Table panel** (leftmost icon). Select the three types of GO terms, enable the option to **Remove redundant terms** and set **Redundancy cutoff** to 0.2. In this way, you will see only the statistically significant GO terms that do not represent largely the same set of proteins within the network. You can see which proteins are annotated with a given term by selecting the term in the **STRING Enrichment** panel.
 
@@ -239,9 +236,9 @@ _How many nodes are in the intersection?_
 
 Now we will make the union of the intersection network, which contains the disease scores, and the experimental network. Use the **Merge** tool again to make the **Union** of the merged network and ‘String Network’. Make sure that the new merged network has the same number of nodes and edges as ‘String Network’, and that some nodes have a disease score (look for the column with this name and sort it by clicking on the column name).
 
-Now, we can change the visualization of the merged network to look like a STRING network and to be able to identify proteins with a high disease score. Specifically, we will change the size of the nodes in function of their disease score. Select **Style** in the **Control Panel** and click on the drop-down menu to change the style from **default** to **STRING style v1.5**. Then, click on the **Lock node width and height** option to enable it so that the nodes have only one attribute **Size** instead of two attributes **Height** and **Width**. Modify the values so that by default a node size is 30. To change the default value, you have to click on the default **35.0** value at the left of the Size attribute. Click on the ◀ button to add a continuous mapping of the **Size** attribute using the **disease score**. The mapping should go from 35 for the lowest disease score to 60 for the highest score. To change the mapping values, first double click on the chart and then double click on the square corresponding to the value you want to modify and set the value you want (35 and 60). Remember to _show the graphics details_ as well as to use a layout that allows you to see all nodes in the network (e.g. **yFiles Organic Layout**).
+Now, we can change the visualization of the merged network to look like a STRING network and to be able to identify proteins with a high disease score. Specifically, we will change the size of the nodes in function of their disease score. Select **Style** in the **Control Panel** and click on the drop-down menu to change the style from **default** to **STRING style v1.5**. Then, click on the **Lock node width and height** option to enable it so that the nodes have only one attribute **Size** instead of two attributes **Height** and **Width**. Modify the values so that by default a node size is 30. To change the default value, you have to click on the default **35.0** value at the left of the Size attribute. Click on the ◀ button to add a continuous mapping of the **Size** attribute using the **disease score**. The mapping should go from 40 for the lowest disease score to 80 for the highest score. To change the mapping values, first double click on the chart and then double click on the square corresponding to the value you want to modify and set the value you want (40 and 80). Remember to _show the graphics details_ as well as to use a layout that allows you to see all nodes in the network (e.g. **yFiles Organic Layout**).
 
-_Which protein has the highest EOC disease score?_
+_Which protein has the highest score of association with EOC according to DISEASES? Hint: sort the disease score column or find the largest node in the network view._
 
 ## Exercise 4
 
