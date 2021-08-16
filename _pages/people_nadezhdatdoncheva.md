@@ -10,7 +10,8 @@ permalink: /people/nadezhdatdoncheva/
 
 ## Experience
 
-- 05/2016--present: PostDoc researcher at the [NNF Center for Protein Research](http://www.cpr.ku.dk/) and at the [Center for non-coding RNA in Technology and Health](https://rth.dk/) at the [University of Copenhagen](http://www.ku.dk/), Denmark
+- 05/2020--present: Assistant Professor at the [NNF Center for Protein Research](http://www.cpr.ku.dk/) at the [University of Copenhagen](http://www.ku.dk/), Denmark
+- 05/2016--05/2020: PostDoc researcher at the [NNF Center for Protein Research](http://www.cpr.ku.dk/) and at the [Center for non-coding RNA in Technology and Health](https://rth.dk/) at the [University of Copenhagen](http://www.ku.dk/), Denmark
 - 01/2010--05/2016: Research scientist in the [Department for Computational Biology and Applied Algorithmics](http://medbioinf.mpi-inf.mpg.de/) at the Max Planck Institute for Informatics, Germany 
 - 03/2013--05/2013: Research scientist in the [Resource on Biocomputing, Visualization, and Informatics](http://www.rbvi.ucsf.edu/) at the University of California, San Francisco, USA
 
