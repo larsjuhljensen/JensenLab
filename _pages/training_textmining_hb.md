@@ -1,9 +1,9 @@
 ---
 title: Text-mining exercises
 layout: single
-permalink: /training/textmining/human_biology
+permalink: /training/textmining_hb
 sidebar:
-  nav: "training-textmining-human-biology"
+  nav: "training-textmining-hb"
 ---
 ## Learning objectives
 
