@@ -18,6 +18,8 @@ As part of running recurring training events, we maintain up-to-date exercises o
 * [Omics Visualizer](/training/omicsvisualizer/)
 * [Text mining](/training/textmining/)
 
+You can also find several lectures on [YouTube](https://www.youtube.com/c/larsjuhljensen).
+
 Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events

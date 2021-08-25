@@ -39,7 +39,7 @@ using deep variational autoencoders. *Nature Biotechnology*, **39**:555-560.
 Jensen PSH, Johansen M, Bak LK, Jensen LJ and Kjær C (2020). Yield and integrity of RNA from brain samples are largely unaffected by pre-analytical procedures. *Neurochemical Research*, **46**:447-454.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/33249516) [Full text](https://doi.org/10.1007/s11064-020-03183-z) <span class="__dimensions_badge_embed__" data-doi="10.1007/s11064-020-03183-z" data-style="small_rectangle"></span>
 
-Szklarczyk D, Gable AL, Nastou KC, Lyon D, Kirsch R, Pyysalo S, Doncheva NT, Legeay M, Fang T, Bork P, Jensen LJ and von Mering C (2021). The STRING database in 2021: customizable protein-protein networks, and functional characterization of user-uploaded gene/measurement sets. *Nucleic Acids Research*, **49**:D605–D612.  
+Szklarczyk D\*, Gable AL\*, Nastou KC, Lyon D, Kirsch R, Pyysalo S, Doncheva NT, Legeay M, Fang T, Bork P\*, Jensen LJ\* and von Mering C\* (2021). The STRING database in 2021: customizable protein-protein networks, and functional characterization of user-uploaded gene/measurement sets. *Nucleic Acids Research*, **49**:D605–D612.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/33237311) [Full text](https://doi.org/10.1093/nar/gkaa1074) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkaa1074" data-style="small_rectangle"></span>
 
 Sheils T, Mathias S, Kelleher K, Siramshetty V, Nguyen D-T, Bologa C, Jensen LJ, Vidovic D, Koleti A, Schurer S, Waller A, Yang J, Holmes J, Bocci G, Southall N, Dharkar P, Mathé E, Simeonov A and Oprea TI (2021). TCRD and Pharos 2020: Mining the human proteome for disease biology. *Nucleic Acids Research*, **49**:D1334-D1346.  
