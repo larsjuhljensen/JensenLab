@@ -96,7 +96,7 @@ Studies on the colorectal cancer microbiome (e.g. [Zeller et al., 2014](https://
 
 <https://www.ncbi.nlm.nih.gov/pubmed/?term=%22Parvimonas+micra%22+%22inflammatory+response%22>
 
-Of these, only one had been published when the colorectal cancer microbiome was being analyzed ([ X et al., 2014]()**_**_**add link to paper here**_**_**), and it sheds no light on the topic. However, since, as we saw before, _Parvimonas micra_ has an NCBI Taxonomy ID (taxid:33033) and inflammatory response is a GO term (GO:0006954), we can instead use the results of NER to retrieve relevant documents by plugging in these identifiers in the URL of our database with textmining results:
+Of these, only one had been published when the colorectal cancer microbiome was being analyzed ([Rutger Persson et al., 2014](https://pubmed.ncbi.nlm.nih.gov/18517068/)), and it sheds no light on the topic. However, since, as we saw before, _Parvimonas micra_ has an NCBI Taxonomy ID (taxid:33033) and inflammatory response is a GO term (GO:0006954), we can instead use the results of NER to retrieve relevant documents by plugging in these identifiers in the URL of our database with textmining results:
 
 <http://organisms.jensenlab.org/Entity?documents=100&type1=-2&id1=33033&type2=-21&id2=GO:0006954>
 
@@ -116,9 +116,9 @@ Above, we saw how existing text-mining resources can be used to retrieve abstrac
 
 ### 1.5 Text mining-based enrichment analysis
 
-Already prior to the microbiome study analyzed here, it had been noted that several bacteria associated with **colorectal cancer** were first described as **oral pathogens**. It had also been suggested that their invasion of the gut might cause or contribute to tumorigenesis ([Warren et al., 2013]()**_**_**add link to paper here**_**_**). We will explore this in a systematic manner by investigating the text-mined associations between bacteria identified in the colorectal cancer microbiome study and human tissues.
+Already prior to the microbiome study analyzed here, it had been noted that several bacteria associated with **colorectal cancer** were first described as **oral pathogens**. It had also been suggested that their invasion of the gut might cause or contribute to tumorigenesis ([Warren et al., 2013](https://microbiomejournal.biomedcentral.com/articles/10.1186/2049-2618-1-16)). We will explore this in a systematic manner by investigating the text-mined associations between bacteria identified in the colorectal cancer microbiome study and human tissues.
 
-In that context, simplest possible characterization is to just count how many of the bacteria associated with colorectal cancer can be associated with each tissue (tissue terms as defined in [Brenda Tisse Ontology (BTO)]()**_**_**add link to paper here**_**_**) through text mining. 
+In that context, simplest possible characterization is to just count how many of the bacteria associated with colorectal cancer can be associated with each tissue (tissue terms as defined in [Brenda Tisse Ontology (BTO)](https://www.ebi.ac.uk/ols/ontologies/bto)) through text mining. 
 
 To perform such an analysis: 
 
@@ -169,6 +169,18 @@ _Which is the most significantly overrepresented disease?_
 **Summarize results in Padlet** 
 
 [comment]: # (I will give them the links to Padlet to use them to submit their reports afterwards)
+
+## Supporting Videos
+
+[Biomedical text mining: A short introduction to the core concepts](https://www.youtube.com/watch?v=NcntH0WYp1M)
+
+[Named entity recognition: A deeper dive into methods for finding things mentioned in papers](https://www.youtube.com/watch?v=Uxfedtto8Fo)
+
+[Information retrieval: A deeper dive into methods for finding relevant papers](https://www.youtube.com/watch?v=hCju07CkgNs)
+
+[Relation extraction: A deeper dive into methods for extracting information from text](https://www.youtube.com/watch?v=25u7ZmczdI8)
+
+[Enrichment analysis: A short introduction to the core concepts of gene set enrichment analysis](https://www.youtube.com/watch?v=2NC1QOXmc5o)
 
 ## Supporting literature
 
