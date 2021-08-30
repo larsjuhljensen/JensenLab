@@ -134,7 +134,7 @@ To perform such an analysis:
 
 After a few seconds, you will see a table with the results of the analysis; you can sort the table by clicking on the column headings.
 
-_Which are the most frequent tissue terms? Are these terms specific of very broad?_
+_Which are the most frequent tissue terms? Are these terms specific or very broad?_
 
 Go back to the input page, lower the **Z-score cutoff** to **3.0** and rerun the analysis.
 
@@ -156,7 +156,7 @@ To perform this analysis:
 
 5) and click **Count**
 
-The results table now includes two additional columns, namely the **background count** and the **p-value**. (_Note that the reported p-values are not corrected for multiple testing_).
+The results table now includes two additional columns, namely the **background count** and the **p-value**. (_Note that the reported p-values are not corrected for multiple testing. If you want to correct for multiple testing you can do Bonferroni correction or calculate the false discovery rate (this is typically done by enrichment tools)_).
 
 _Are the overrepresented terms more specific than those with the highest counts?_
 
