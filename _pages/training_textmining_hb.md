@@ -34,21 +34,21 @@ Install the EXTRACT bookmarklet as described on the [EXTRACT website](https://ex
 
 Open the paper "Binding of _Actinobacillus actinomycetemcomitans_ lipopolysaccharides to _Peptostreptococcus micros_ stimulates tumor necrosis factor alpha production by macrophage-like cells" ([Yoshioka et al., 2005](https://pubmed.ncbi.nlm.nih.gov/15720573/)) and click the **EXTRACT** bookmarklet. After a short time, terms should be highlighted in the text.
 
-_What do the different colors mean?_
+_1. What do the different colors mean?_
 
 By clicking or hovering over a tagged term, you will get a popup that includes its standard name, entity type, database or ontology identifier, and a link to its reference record. Click or hover over **_Peptostreptococcus micros_** and **inflammatory response**.
 
-_What is an alternative name for Peptostreptococcus micros? What is the difference between Peptostreptococcus micros and Parvimonas micra?_
+_2. What is an alternative name for Peptostreptococcus micros? What is the difference between Peptostreptococcus micros and Parvimonas micra?_
 
-_What is the NCBI Taxonomy ID of Peptostreptococcus micros and what is the Gene Ontology identifier of inflammatory response?_
+_3. What is the NCBI Taxonomy ID of Peptostreptococcus micros and what is the Gene Ontology identifier of inflammatory response?_
 
 Select the **Title** in the paper and click the **EXTRACT** bookmarklet. Hover over terms in the text or lines in the table.
 
-_What happens when you hover over the terms?_
+_4. What happens when you hover over the terms?_
 
 Use the buttons in the popup to copy the data into a spreadsheet (e.g. Microsoft excel/[Google sheets](https://docs.google.com/spreadsheets/u/0/)) or text file (e.g. Notepad/[Notepad++](https://notepad-plus-plus.org/downloads/)) or save it in tabular (tsv/csv) format.
 
-_Which information is then provided in addition to what is shown in the popup?_
+_5. Which information is then provided in addition to what is shown in the popup?_
 
 ### 1.2 Information retrieval
 
@@ -56,19 +56,19 @@ The goal of information retrieval (IR) is to find the documents pertaining to a 
 
 We run the same NER system used in EXTRACT on entire PubMed every week and make the results available through a suite of web resources. One such resource is [ORGANISMS](https://organisms.jensenlab.org/). It allows users to retrieve abstracts that mention any organism of interest (specified by an NCBI TaxID) based on the NER results.
 
-Go to <https://organisms.jensenlab.org/> and query for **P. micra**. You are now presented with several options, since there are several genera starting with P that include a micra species. Click on the **Parvimonas micra** (taxid: 33033) row to view the abstracts for this species.
+Go to <https://organisms.jensenlab.org/> and query for **P. micra**. You are now presented with several options, since there are several genera starting with P that include a micra species. Click on the **Parvimonas micra** (taxid: 33033) row to view the papers for this species.
 
-_Do the abstracts shown on the first page all mention Parvimonas micra?_
+_6. Do the papers shown on the second page all mention Parvimonas micra?_ (Hint: Press _Next>_ on the top of the table to move to the second page and _[View Text]_ to see the text from the paper)
 
-Go back to the search page (e.g. by clicking **ORGANISMS** in the header) and query for **Firmicutes**. You are again presented with many options including the **Firmicutes** phylum itself (taxid:1239) as well as numerous species and strains. Click on the row for the phylum to view abstracts.
+Go back to the search page (e.g. by clicking **ORGANISMS** in the header) and query for **Firmicutes**. You are again presented with many options including the **Firmicutes** phylum itself (taxid:1239) as well as numerous species and strains. Click on the row for the phylum to view papers.
 
-_Which taxa do you see abstracts for on the first page?_
+_7. Which taxa do you see papers for on the first page?_
 
 You can similarly use NER to retrieve abstracts for any disease in the Disease Ontology. For example, the following query will retrieve abstracts for **cancer** (DOID:162):
 
 <https://diseases.jensenlab.org/Entity?documents=10&type1=-26&id1=DOID:162>
 
-_Which diseases are highlighted in the abstracts?_
+_8. Which diseases are highlighted in the abstracts?_
 
 ### 1.3 Information extraction
 
@@ -76,17 +76,17 @@ The goal of cooccurrence-based information extraction (IE) is to link entities (
 
 Go to <https://diseases.jensenlab.org/> and query for **colorectal cancer**. Again, click on it on the Search results page (like in the ORGANISMS resource).
 
-_Which gene is most strongly associated with colorectal cancer according to text mining?_
+_9. Which gene is most strongly associated with colorectal cancer according to text mining?_
 
 Click on **TP53** in the text-mining table.
 
-_Do the abstracts in fact support an association between colorectal cancer and TP53?_
+_10. Do the abstracts in fact support an association between colorectal cancer and TP53?_
 
 Cooccurrence-based information extraction is a very generic approach, which can be used to find associations between any two types of entities for which we can do NER. For example, we can use the same approach to link the species **_Fusobacterium nucleatum_** together with **colorectal cancer** (DOID:9256):
 
 <https://organisms.jensenlab.org/Entity?documents=10&type1=-2&id1=851&type2=-26&id2=DOID:9256>
 
-_Is this association supported by only few papers or is it well established in the literature?_
+_11. Is this association supported by only few papers or is it well established in the literature?_
 
 ### 1.4 Microbiome characterization with text mining
 
@@ -102,13 +102,13 @@ Of these, only one had been published when the colorectal cancer microbiome was 
 
 Inspect some of these abstracts (Hint: focus on those where terms are higlighted in blue and red).
 
-_Are they relevant and why were they not found by the initial search?_ 
+_12. Are they relevant and why were they not found by the initial search?_ 
 
 [comment]: # (Because NER makes use of synonyms, this retrieves several additional publications.)
 
 In the results list you can find the abstract we analyzed above ([Yoshioka et al., 2005](https://pubmed.ncbi.nlm.nih.gov/15720573/)) 
 
-_Can you find the possible link between _Parvimonas micra_, _Fusobacterium nucleatum_ and inflammatory response by looking at this abstract?_ (Hint: _Fusobacterium nucleatum_ is a Gram-negative bacterium).
+_13. Can you find the possible link between _Parvimonas micra_, _Fusobacterium nucleatum_ _and inflammatory response by looking at this abstract?_ (Hint: _Fusobacterium nucleatum_ is a Gram-negative bacterium).
 
 [comment]: # (possible link between the two bacteria and oral inflammatory response: _Parvimonas micra_ can bind to lipopolysaccharides on Gram-negative bacteria such as _Fusobacterium nucleatum_ and thereby induce inflammatory response. This publication was missed by the PubMed query, because _Parvimonas micra_ is referred to under its older name _Peptostreptococcus micros_. The species is thus mentioned, but a search for its current name will not retrieve it. As you saw before, on the popup its current official name shows up.)
 
@@ -134,11 +134,11 @@ To perform such an analysis:
 
 After a few seconds, you will see a table with the results of the analysis; you can sort the table by clicking on the column headings.
 
-_Which are the most frequent tissue terms? Are these terms specific or very broad?_
+_14. Which are the most frequent tissue terms? Are these terms specific or very broad?_
 
 Go back to the input page, lower the **Z-score cutoff** to **3.0** and rerun the analysis.
 
-_How does this change the results?_
+_15. How does this change the results?_
 
 The [SimpleCount](https://simplecount.jensenlab.org/) server also allows you to count terms in both a foreground and a background set of organisms and test each tissue term for statistically significant overrepresentation in the foreground set. 
 
@@ -158,17 +158,18 @@ To perform this analysis:
 
 The results table now includes two additional columns, namely the **background count** and the **p-value**. (_Note that the reported p-values are not corrected for multiple testing. If you want to correct for multiple testing you can do Bonferroni correction or calculate the false discovery rate (this is typically done by enrichment tools)_).
 
-_Are the overrepresented terms more specific than those with the highest counts?_
+_16. Are the overrepresented terms more specific than those with the highest counts?_
 
 These types of analyses are by no means limited to tissues. If the task asks for it, equivalent analyses can be done for, e.g., diseases or environmental descriptors. 
 
 Perform an enrichment analysis for diseases using a **Z-score cutoff** of **5.0**.
 
-_Which is the most significantly overrepresented disease?_
+_17. Which is the most significantly overrepresented disease?_
 
-**Summarize results in Padlet** 
+## Further questions
+Post them on this [Padlet](https://ucph.padlet.org/katerinanastou/2dghxogasnybwh47)
 
-[comment]: # (I will give them the links to Padlet to use them to submit their reports afterwards)
+(just double click in the background to add your question) 
 
 ## Supporting Videos
 
