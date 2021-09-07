@@ -108,7 +108,7 @@ _12. Are they relevant and why were they not found by the initial search?_
 
 In the results list you can find the abstract we analyzed above ([Yoshioka et al., 2005](https://pubmed.ncbi.nlm.nih.gov/15720573/)) 
 
-_13. Can you find the possible link between _Parvimonas micra_, _Fusobacterium nucleatum_ _and inflammatory response by looking at this abstract?_ (Hint: _Fusobacterium nucleatum_ is a Gram-negative bacterium).
+_13. Can you find the possible link between Parvimonas micra, Fusobacterium nucleatum and inflammatory response by looking at this abstract?_ (Hint: _Fusobacterium nucleatum_ is a Gram-negative bacterium).
 
 [comment]: # (possible link between the two bacteria and oral inflammatory response: _Parvimonas micra_ can bind to lipopolysaccharides on Gram-negative bacteria such as _Fusobacterium nucleatum_ and thereby induce inflammatory response. This publication was missed by the PubMed query, because _Parvimonas micra_ is referred to under its older name _Peptostreptococcus micros_. The species is thus mentioned, but a search for its current name will not retrieve it. As you saw before, on the popup its current official name shows up.)
 
@@ -118,7 +118,7 @@ Above, we saw how existing text-mining resources can be used to retrieve abstrac
 
 Already prior to the microbiome study analyzed here, it had been noted that several bacteria associated with **colorectal cancer** were first described as **oral pathogens**. It had also been suggested that their invasion of the gut might cause or contribute to tumorigenesis ([Warren et al., 2013](https://microbiomejournal.biomedcentral.com/articles/10.1186/2049-2618-1-16)). We will explore this in a systematic manner by investigating the text-mined associations between bacteria identified in the colorectal cancer microbiome study and human tissues.
 
-In that context, simplest possible characterization is to just count how many of the bacteria associated with colorectal cancer can be associated with each tissue (tissue terms as defined in [Brenda Tisse Ontology (BTO)](https://www.ebi.ac.uk/ols/ontologies/bto)) through text mining. 
+In that context, the simplest possible characterization is to just count how many of the bacteria associated with colorectal cancer can be associated with each tissue (tissue terms as defined in [Brenda Tissue Ontology (BTO)](https://www.ebi.ac.uk/ols/ontologies/bto)) through text mining. 
 
 To perform such an analysis: 
 
