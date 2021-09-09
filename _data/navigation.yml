@@ -108,6 +108,8 @@ training:
         url: /training/omicsvisualizer/
       - title: "Text mining"
         url: /training/textmining/
+      - title: "Text mining for the Human Biology MSc"
+        url: /training/textmining/hb
   - title: "Upcoming events"
     url: /training/#upcoming-events
   - title: "Past events"
@@ -366,3 +368,28 @@ training-textmining-neurology:
         url: /training/textmining/neurology/#22-linking-diseases-via-genes
   - title: "Supporting literature"
     url: /training/textmining/neurology/#supporting-literature
+
+training-textmining-hb:
+  - title: "Learning objectives"
+    url: /training/textmining/hb/#learning-objectives
+  - title: "Prerequisites"
+    url: /training/textmining/hb/#prerequisites
+  - title: "Exercise"
+    url: /training/textmining/hb/#exercise
+    children:
+      - title: "Named entity recognition"
+        url: /training/textmining/hb/#11-named-entity-recognition
+      - title: "Information retrieval"
+        url: /training/textmining/hb/#12-information-retrieval
+      - title: "Information extraction"
+        url: /training/textmining/hb/#13-information-extraction
+      - title: "Microbiome characterization with text mining"
+        url: /training/textmining/hb/#14-microbiome-characterization-with-text-mining
+      - title: "Text mining-based enrichment analysis"
+        url: /training/textmining/hb/#15-text-mining-based-enrichment-analysis
+  - title: "Further questions"
+    url: /training/textmining/hb/#further-questions
+  - title: "Supporting videos"
+    url: /training/textmining/hb/#supporting-videos
+  - title: "Supporting literature"
+    url: /training/textmining/hb/#supporting-literature
