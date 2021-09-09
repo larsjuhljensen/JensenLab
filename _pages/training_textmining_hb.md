@@ -1,7 +1,7 @@
 ---
 title: Text-mining exercises
 layout: single
-permalink: /training/textmining_hb
+permalink: /training/textmining/hb
 sidebar:
   nav: "training-textmining-hb"
 ---
