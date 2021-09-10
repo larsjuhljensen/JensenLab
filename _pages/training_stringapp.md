@@ -18,6 +18,14 @@ In these exercises, we will use the [stringApp](http://apps.cytoscape.org/apps/s
 * select proteins by attributes
 * identify functional modules through network clustering
 
+## Online lectures
+
+The theoretical background for these exercises is covered in these short online lectures:
+
+[![STRING](training_string.png)](https://youtu.be/o208DwyFbNk)
+[![Cytoscape](training_cytoscape.png)](https://youtu.be/Ohf9IPUJ82w)
+[![DISEASES](training_diseases.png)](https://youtu.be/xkYixhO2CJQ)
+[![Enrichment analysis](training_enrichment_analysis.png)](https://youtu.be/2NC1QOXmc5o)
 
 ## Prerequisites
 
@@ -107,7 +115,7 @@ _Does it look like the network contains many nuclear proteins?_
 
 ### 2.5 Select proteins located in the nucleus
 
-Because many proteins are located in the nucleus, we will identify the proteins with highest confidence of 5. One way to do this is to use the COMPARTMENTS sliders in the **STRING Results** panel on the right side. Go to the **Nodes** tab and expand the group of compartments filter by clicking the small triangle. To hide all nodes with a compartment score below 5, find the slider for **nucleus** and set the low bound to 5.0 by typing the number in the text field and pressing **Enter**. 
+Because many proteins are located in the nucleus, we will identify the proteins with highest confidence of 5. One way to do this is to use the COMPARTMENTS sliders in the **STRING Results** panel on the right side. Go to the **Nodes** tab and expand the group of compartments filter by clicking the small triangle. To hide all nodes with a compartment score below 5, find the slider for **nucleus** and set the low bound to 5.0 by typing the number in the text field and pressing **Enter**.
 
 Select all remaining nodes in the network view by holding down the modifier key (Shift on Windows, Ctrl or Command on Mac) and then left-clicking and dragging to select multiple nodes. The nodes will turn yellow if they are selected properly. The number of selected nodes is shown in the light grey panel bar on the bottom-right part of the network view panel, just above the **Table panel**.
 
