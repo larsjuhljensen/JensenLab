@@ -382,8 +382,8 @@ training-textmining-hb:
     url: /training/textmining/hb/#learning-objectives
   - title: "Prerequisites"
     url: /training/textmining/hb/#prerequisites
-  - title: "Exercise"
-    url: /training/textmining/hb/#exercise
+  - title: "Exercise 1"
+    url: /training/textmining/hb/#exercise-1
     children:
       - title: "Named entity recognition"
         url: /training/textmining/hb/#11-named-entity-recognition
@@ -391,13 +391,16 @@ training-textmining-hb:
         url: /training/textmining/hb/#12-information-retrieval
       - title: "Information extraction"
         url: /training/textmining/hb/#13-information-extraction
+  - title: "Exercise 2"
+    url: /training/textmining/#exercise-2
+    children:
       - title: "Microbiome characterization with text mining"
-        url: /training/textmining/hb/#14-microbiome-characterization-with-text-mining
+        url: /training/textmining/hb/#21-microbiome-characterization-with-text-mining
       - title: "Text mining-based enrichment analysis"
-        url: /training/textmining/hb/#15-text-mining-based-enrichment-analysis
+        url: /training/textmining/hb/#22-text-mining-based-enrichment-analysis
   - title: "Further questions"
     url: /training/textmining/hb/#further-questions
-  - title: "Supporting videos"
-    url: /training/textmining/hb/#supporting-videos
+  - title: "Supporting lectures"
+    url: /training/textmining/hb/#supporting-lectures
   - title: "Supporting literature"
     url: /training/textmining/hb/#supporting-literature

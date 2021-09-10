@@ -18,13 +18,9 @@ In these exercises, we will use a variety of text-mining tools and databases bas
 
 All exercises are purely web-based. We recommend using [Firefox](http://getfirefox.org/), as some functionality will not work in the latest Chrome and Chrome-based browsers.
 
-## Exercise
+## Exercise 1
 
 In this exercise we will first introduce the basics of text mining: 1) dictionary-based __named entity recognition__ and 2) how this can used to help __retrieve literature__. Afterwards we will move on to how one can use the complete literature to 3) __extract associations between entities__.
-
-Then we will focus on how one can utilize text-mining tools to interpret the results from a microbiome analysis. To this end, we will start from the results published on the human colorectal cancer microbiome ([Zeller et al., 2014](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4299606/)).
-
-It is important to note that there are currently no dedicated text-mining tools that have been designed to aid microbiome analysis. What we will do is thus to (ab)use existing text-mining tools and resources, to illustrate what is already now possible with text-mining and which will hopefully be possible to do in a more user-friendly manner in the future.
 
 ### 1.1 Named Entity Recognition
 
@@ -88,7 +84,13 @@ Cooccurrence-based information extraction is a very generic approach, which can 
 
 _11. Is this association supported by only few papers or is it well established in the literature?_
 
-### 1.4 Microbiome characterization with text mining
+## Exercise 2
+
+Now we will focus on how one can utilize text-mining tools to interpret the results from a microbiome analysis. To this end, we will start from the results published on the human colorectal cancer microbiome ([Zeller et al., 2014](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4299606/)).
+
+It is important to note that there are currently no dedicated text-mining tools that have been designed to aid microbiome analysis. What we will do is thus to (ab)use existing text-mining tools and resources, to illustrate what is already now possible with text-mining and which will hopefully be possible to do in a more user-friendly manner in the future.
+
+### 2.1 Microbiome characterization with text mining
 
 Now that we've seen what can be generally done let's switch our focus to microbiome data.
 
@@ -114,7 +116,7 @@ _13. Can you find the possible link between Parvimonas micra, Fusobacterium nucl
 
 Above, we saw how existing text-mining resources can be used to retrieve abstracts that mention a species of interest with a disease of interest. To do this systematically for all taxa found in a microbiome study, automation is desirable. One could obviously partially automate this by producing a web page with links like the one above for a list of organisms. Alternatively, one can download the full results from named entity recognition and write a simple script to identify all abstracts that mention organisms of interest with diseases of interest, which can then serve as a starting point for either manual curation of the associated articles or statistical analyses.
 
-### 1.5 Text mining-based enrichment analysis
+### 2.2 Text mining-based enrichment analysis
 
 Already prior to the microbiome study analyzed here, it had been noted that several bacteria associated with **colorectal cancer** were first described as **oral pathogens**. It had also been suggested that their invasion of the gut might cause or contribute to tumorigenesis ([Warren et al., 2013](https://microbiomejournal.biomedcentral.com/articles/10.1186/2049-2618-1-16)). We will explore this in a systematic manner by investigating the text-mined associations between bacteria identified in the colorectal cancer microbiome study and human tissues.
 
@@ -171,7 +173,7 @@ Post them on this [Padlet](https://ucph.padlet.org/katerinanastou/2dghxogasnybwh
 
 (just double click in the background to add your question) 
 
-## Supporting Videos
+## Supporting Lectures
 
 [Biomedical text mining: A short introduction to the core concepts](https://www.youtube.com/watch?v=NcntH0WYp1M)
 
