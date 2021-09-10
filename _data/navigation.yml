@@ -152,6 +152,10 @@ training-string:
         url: /training/string/#42-inspect-virus-evidence
       - title: "Single virus protein query"
         url: /training/string/#43-single-virus-protein-query
+  - title: "Supporting lectures"
+    url: /training/string/#supporting-lectures
+  - title: "Supporting literature"
+    url: /training/string/#supporting-literature
 
 training-stringapp:
   - title: "Learning objectives"
@@ -216,6 +220,8 @@ training-stringapp:
         url: /training/stringapp/#44-merge-two-host-virus-networks
       - title: "Functional enrichment"
         url: /training/stringapp/#44-functional-enrichment
+  - title: "Supporting lectures"
+    url: /training/stringapp/#supporting-lectures
   - title: "Supporting literature"
     url: /training/stringapp/#supporting-literature
 
@@ -342,6 +348,8 @@ training-textmining:
         url: /training/textmining/#23-microbiome-characterization
       - title: "Mining for indirect associations"
         url: /training/textmining/#24-mining-for-indirect-associations
+  - title: "Supporting lectures"
+    url: /training/textmining/neurology/#supporting-lectures
   - title: "Supporting literature"
     url: /training/textmining/#supporting-literature
 

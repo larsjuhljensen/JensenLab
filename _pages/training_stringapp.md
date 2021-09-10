@@ -18,7 +18,6 @@ In these exercises, we will use the [stringApp](http://apps.cytoscape.org/apps/s
 * select proteins by attributes
 * identify functional modules through network clustering
 
-
 ## Prerequisites
 
 To follow the exercises, please make sure that you have the latest version of Cytoscape installed. Then start Cytoscape and go to **Apps → App Manager** to check for new apps, install them and update the current ones if necessary. The exercises require you to have certain Cytoscape apps installed. Search for the **stringApp** in the search field; if it is not already installed, select it and press the **Install** button to install it. Similarly, make sure you have the **yFiles Layout Algorithms**, **enhancedGraphics**, and **clusterMaker2** apps installed before closing the App Manager.
@@ -107,7 +106,7 @@ _Does it look like the network contains many nuclear proteins?_
 
 ### 2.5 Select proteins located in the nucleus
 
-Because many proteins are located in the nucleus, we will identify the proteins with highest confidence of 5. One way to do this is to use the COMPARTMENTS sliders in the **STRING Results** panel on the right side. Go to the **Nodes** tab and expand the group of compartments filter by clicking the small triangle. To hide all nodes with a compartment score below 5, find the slider for **nucleus** and set the low bound to 5.0 by typing the number in the text field and pressing **Enter**. 
+Because many proteins are located in the nucleus, we will identify the proteins with highest confidence of 5. One way to do this is to use the COMPARTMENTS sliders in the **STRING Results** panel on the right side. Go to the **Nodes** tab and expand the group of compartments filter by clicking the small triangle. To hide all nodes with a compartment score below 5, find the slider for **nucleus** and set the low bound to 5.0 by typing the number in the text field and pressing **Enter**.
 
 Select all remaining nodes in the network view by holding down the modifier key (Shift on Windows, Ctrl or Command on Mac) and then left-clicking and dragging to select multiple nodes. The nodes will turn yellow if they are selected properly. The number of selected nodes is shown in the light grey panel bar on the bottom-right part of the network view panel, just above the **Table panel**.
 
@@ -283,6 +282,15 @@ We will now examine the human proteins to see what pathways are enriched in this
 Next, we will retrieve functional enrichment for the human proteins. Go to the menu **Apps → STRING Enrichment → Retrieve functional enrichment** and keep the default settings. Homo sapiens will be selected by default in the species dropdown. It is currently only possible to retrieve enrichment for host proteins. A new STRING Enrichment tab will appear in the Table Panel. It contains a table of enriched terms and corresponding information for each enrichment category. Use the filter button in the top left of the STRING Enrichment panel to show only **KEGG Pathways**. Click on the draw charts icon to the right of the filter icon to plot the enrichment values on the network.
 
 _Which two KEGG pathways have the lowest p-values? Which host proteins are associated with the KEGG pathways "cell cycle"? (Hint: click on the associated row in the enrichment table to select the proteins with this term.)_
+
+## Supporting lectures
+
+The theoretical background for these exercises is covered in these short online lectures:
+
+[![STRING](training_string.png)](https://youtu.be/o208DwyFbNk)
+[![Cytoscape](training_cytoscape.png)](https://youtu.be/Ohf9IPUJ82w)
+[![DISEASES](training_diseases.png)](https://youtu.be/xkYixhO2CJQ)
+[![Enrichment analysis](training_enrichment_analysis.png)](https://youtu.be/2NC1QOXmc5o)
 
 ## Supporting literature
 

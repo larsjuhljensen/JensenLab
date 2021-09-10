@@ -165,6 +165,17 @@ _Does this indirect association appear to hold up to closer scrutiny?_
 
 Similarly, query ARROWSMITH for terms connecting **Lactobacillus ruminis** to **colorectal cancer**. This should suggest inflammation as a possible (if somewhat vague) connection between the two.
 
+## Supporting lectures
+
+The theoretical background for these exercises is covered in these short online lectures:
+
+[![Core concepts](training_textmining.png)](https://youtu.be/NcntH0WYp1M)
+[![Information retrieval](training_information_retrieval.png)](https://youtu.be/hCju07CkgNs)
+[![Named entity recognition](training_named_entity_recognition.png)](https://youtu.be/Uxfedtto8Fo)
+[![Relation extraction](training_relation_extraction.png)](https://youtu.be/25u7ZmczdI8)
+[![DISEASES](training_diseases.png)](https://youtu.be/xkYixhO2CJQ)
+[![Enrichment analysis](training_enrichment_analysis.png)](https://youtu.be/2NC1QOXmc5o)
+
 ## Supporting literature
 
 Jensen LJ, Saric S and Bork P (2006). Literature mining for the biologist: from information retrieval to biological discovery. *Nature Reviews Genetics*, **7**:119–129.  
