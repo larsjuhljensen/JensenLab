@@ -15,13 +15,6 @@ In these exercises, we will use the [STRING](https://string-db.org/), [STITCH](h
 * retrieve a STITCH network for chemical compound of interest
 * use DISEASES to find proteins associated with a disease of interest
 
-## Online lectures
-
-The theoretical background for these exercises is covered in these short online lectures:
-
-[![STRING](training_string.png)](https://youtu.be/o208DwyFbNk)
-[![DISEASES](training_diseases.png)](https://youtu.be/xkYixhO2CJQ)
-
 ## Exercise 1
 
 ### 1.1 Single protein query
@@ -115,5 +108,20 @@ _What types of evidence support an interaction between these proteins?  List two
 Click on the logo at the top of the page to go back to the main search screen.  Select **Virus by Single Protein** from the left, and then enter "P" as the **Virus Protein Name** and "bacteriophage lambda" as the **Virus**.  The **Host** can again be left to auto-detect E. coli.  Protein P is responsible for the bi-directional replication of phage DNA.  
 
 _Which host proteins does P interact with?  What types of evidence supports these interactions?_
+
+## Supporting lectures
+
+The theoretical background for these exercises is covered in these short online lectures:
+
+[![STRING](training_string.png)](https://youtu.be/o208DwyFbNk)
+[![DISEASES](training_diseases.png)](https://youtu.be/xkYixhO2CJQ)
+
+## Supporting literature
+
+Szklarczyk D, Gable AL, Nastou KC, Lyon D, Kirsch R, Pyysalo S, Doncheva NT, Legeay M, Fang T, Bork P, Jensen LJ and von Mering C (2021). The STRING database in 2021: customizable protein-protein networks, and functional characterization of user-uploaded gene/measurement sets. *Nucleic Acids Research*, **49**:D605–D612.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/33237311) [Full text](https://doi.org/10.1093/nar/gkaa1074)
+
+Pletscher-Frankild S, Pallejà A, Tsafou K, Binder JX and Jensen LJ (2015). DISEASES: Text mining and data integration of disease–gene associations. *Methods*, **74**:83-89.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/25484339) [Full text](https://doi.org/10.1016/j.ymeth.2014.11.020)
 
 [![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)

@@ -15,17 +15,6 @@ In these exercises, we will use a variety of text-mining tools and databases bas
 * discover novel, indirect associations between entities
 * perform text-mining-based term enrichment analysis
 
-## Online lectures
-
-The theoretical background for these exercises is covered in these short online lectures:
-
-[![Core concepts](training_textmining.png)](https://youtu.be/NcntH0WYp1M)
-[![Information retrieval](training_information_retrieval.png)](https://youtu.be/hCju07CkgNs)
-[![Named entity recognition](training_named_entity_recognition.png)](https://youtu.be/Uxfedtto8Fo)
-[![Relation extraction](training_relation_extraction.png)](https://youtu.be/25u7ZmczdI8)
-[![DISEASES](training_diseases.png)](https://youtu.be/xkYixhO2CJQ)
-[![Enrichment analysis](training_enrichment_analysis.png)](https://youtu.be/2NC1QOXmc5o)
-
 ## Prerequisites
 
 All exercises are purely web-based. We recommend using [Firefox](http://getfirefox.org/), as some functionality will not work in the latest Chrome and Chrome-based browsers.
@@ -175,6 +164,17 @@ Most of the top terms are very general terms related to microbiome sequencing. H
 _Does this indirect association appear to hold up to closer scrutiny?_
 
 Similarly, query ARROWSMITH for terms connecting **Lactobacillus ruminis** to **colorectal cancer**. This should suggest inflammation as a possible (if somewhat vague) connection between the two.
+
+## Supporting lectures
+
+The theoretical background for these exercises is covered in these short online lectures:
+
+[![Core concepts](training_textmining.png)](https://youtu.be/NcntH0WYp1M)
+[![Information retrieval](training_information_retrieval.png)](https://youtu.be/hCju07CkgNs)
+[![Named entity recognition](training_named_entity_recognition.png)](https://youtu.be/Uxfedtto8Fo)
+[![Relation extraction](training_relation_extraction.png)](https://youtu.be/25u7ZmczdI8)
+[![DISEASES](training_diseases.png)](https://youtu.be/xkYixhO2CJQ)
+[![Enrichment analysis](training_enrichment_analysis.png)](https://youtu.be/2NC1QOXmc5o)
 
 ## Supporting literature
 
