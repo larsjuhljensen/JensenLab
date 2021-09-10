@@ -15,6 +15,16 @@ In these exercises, we will use a variety of text-mining tools and databases bas
 * discover novel, indirect associations between entities
 * perform text-mining-based term enrichment analysis
 
+## Online lectures
+
+The theoretical background for these exercises is covered in these short online lectures:
+
+[![Core concepts](training_textmining_core_concepts.png)](https://youtu.be/NcntH0WYp1M)
+[![Information retrieval](training_textmining_information_retrieval.png)](https://youtu.be/hCju07CkgNs)
+[![Named entity recognition](training_textmining_named_entity_recognition.png)](https://youtu.be/Uxfedtto8Fo)
+[![Relation extraction](training_textmining_relation_extraction.png)](https://youtu.be/25u7ZmczdI8)
+
+
 ## Prerequisites
 
 All exercises are purely web-based. We recommend using [Firefox](http://getfirefox.org/), as some functionality will not work in the latest Chrome and Chrome-based browsers.
