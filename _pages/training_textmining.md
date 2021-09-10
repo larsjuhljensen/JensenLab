@@ -20,12 +20,11 @@ In these exercises, we will use a variety of text-mining tools and databases bas
 The theoretical background for these exercises is covered in these short online lectures:
 
 [![Core concepts](training_textmining.png)](https://youtu.be/NcntH0WYp1M)
-
 [![Information retrieval](training_information_retrieval.png)](https://youtu.be/hCju07CkgNs)
-
 [![Named entity recognition](training_named_entity_recognition.png)](https://youtu.be/Uxfedtto8Fo)
-
 [![Relation extraction](training_relation_extraction.png)](https://youtu.be/25u7ZmczdI8)
+[![DISEASES](training_diseases.png)](https://youtu.be/xkYixhO2CJQ)
+[![Enrichment analysis](training_enrichment_analysis.png)](https://youtu.be/2NC1QOXmc5o)
 
 ## Prerequisites
 

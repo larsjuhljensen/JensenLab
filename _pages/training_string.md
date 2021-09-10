@@ -20,7 +20,6 @@ In these exercises, we will use the [STRING](https://string-db.org/), [STITCH](h
 The theoretical background for these exercises is covered in these short online lectures:
 
 [![STRING](training_string.png)](https://youtu.be/o208DwyFbNk)
-
 [![DISEASES](training_diseases.png)](https://youtu.be/xkYixhO2CJQ)
 
 ## Exercise 1
