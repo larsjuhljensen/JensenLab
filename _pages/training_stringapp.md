@@ -293,6 +293,7 @@ The theoretical background for these exercises is covered in these short online 
 
 [![STRING](training_string.png)](https://youtu.be/o208DwyFbNk)
 [![Cytoscape](training_cytoscape.png)](https://youtu.be/Ohf9IPUJ82w)
+[![Cytoscape stringApp](training_stringapp.png)](https://youtu.be/MXmzXxNqmnI)
 [![DISEASES](training_diseases.png)](https://youtu.be/xkYixhO2CJQ)
 [![Enrichment analysis](training_enrichment_analysis.png)](https://youtu.be/2NC1QOXmc5o)
 
