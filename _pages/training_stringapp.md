@@ -22,7 +22,7 @@ In these exercises, we will use the [stringApp](http://apps.cytoscape.org/apps/s
 
 To follow the exercises, please make sure that you have the latest version of Cytoscape installed. Then start Cytoscape and go to **Apps → App Manager** to check for new apps, install them and update the current ones if necessary. The exercises require you to have certain Cytoscape apps installed. Search for the **stringApp** in the search field; if it is not already installed, select it and press the **Install** button to install it. Similarly, make sure you have the **yFiles Layout Algorithms**, **enhancedGraphics**, and **clusterMaker2** apps installed before closing the App Manager.
 
-If you are not already familiar with the STRING database, we highly recommend that you go through the short [STRING exercises](/training/string/) to learn about the underlying data before working with them in these exercises.
+If you are not already familiar with the STRING and DISEASES databases, we highly recommend that you go through the short [STRING exercises](/training/string/) to learn about the underlying data before working with them in these exercises.
 
 ## Exercise 1
 
@@ -32,7 +32,7 @@ In this exercise, we will perform some simple queries to retrieve molecular netw
 
 Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: protein query** as **Data Source** and type your favorite protein into the **Enter protein names or identifiers** field (e.g. SORCS2). You can select the appropriate organism by typing the name (e.g. Homo sapiens). The **Maximum number of interactors** determines how many interaction partners of your protein(s) of interest will be added to the network. By default, if you enter only one protein name, the resulting network will contain 10 additional interactors. If you enter more than one protein name, the network will contain only the interactions among these proteins, unless you explicitly ask for additional proteins.
 
-Unless the name(s) you entered give unambiguous matches, a disambiguation dialog will be shown next. It lists all the matches that the stringApp finds for each query term and selects the first one for each. Select the right one(s) you meant and continue by pressing the **Import** button.
+Unless the name(s) you entered give unambiguous matches, a disambiguation dialog will be shown next. It lists all the matches that the stringApp finds for each ambiguous query term and selects the first one for each. Select the right one(s) you meant and continue by pressing the **Import** button.
 
 [Import SORCS2 network](cycmd:string protein query query=SORCS2 taxonID=9606){: .btn .btn--cybrowser .btn--primary}
 
@@ -82,7 +82,7 @@ Close the current session in Cytoscape from the menu **File → Close**. Use the
 
 Note that the retrieved network contains a lot of additional information associated with the nodes and edges, such as the protein sequence, tissue expression data, subcellular localization, disease score (**Node Table**) as well as the confidence scores for the different interaction evidences (**Edge Table**). In the following, we will explore these data using Cytoscape.
 
-Find the **disease score** column in the node attributes table (look at the last columns). Sort it by values to see the highest and lowest disease scores. You can highlight the corresponding nodes by selecting the rows in the table, bringing up the context menu (right-click the selected rows) and choosing the **Select nodes from selected rows** option. You can also use the **Fit Selected** icon in the menu bar to zoom into the selected node (**View → Fit Selected**).
+Find the **disease score** column in the node attributes table (look at the last columns). Sort it by values to see the highest and lowest confidence scores. You can highlight the corresponding nodes by selecting the rows in the table, bringing up the context menu (right-click the selected rows) and choosing the **Select nodes from selected rows** option. You can also use the **Fit Selected** icon in the menu bar to zoom into the selected node (**View → Fit Selected**).
 
 _Give an example for a node with the highest and lowest disease score._
 
@@ -106,11 +106,11 @@ _Does it look like the network contains many nuclear proteins?_
 
 ### 2.5 Select proteins located in the nucleus
 
-Because many proteins are located in the nucleus, we will identify the proteins with highest confidence of 5. One way to do this is to use the COMPARTMENTS sliders in the **STRING Results** panel on the right side. Go to the **Nodes** tab and expand the group of compartments filter by clicking the small triangle. To hide all nodes with a compartment score below 5, find the slider for **nucleus** and set the low bound to 5.0 by typing the number in the text field and pressing **Enter**.
+Because many proteins are located in the nucleus, we will identify the proteins with highest confidence of 5. One way to do this is to use the COMPARTMENTS sliders in the **STRING Results** panel on the right side. In the **Nodes** tab expand the group of compartment filters by clicking the small triangle and find the slider for **nucleus**. To hide all nodes with a confidence score below 5, set the low bound to 5.0 by typing the number in the text field and pressing **Enter**.
 
 Select all remaining nodes in the network view by holding down the modifier key (Shift on Windows, Ctrl or Command on Mac) and then left-clicking and dragging to select multiple nodes. The nodes will turn yellow if they are selected properly. The number of selected nodes is shown in the light grey panel bar on the bottom-right part of the network view panel, just above the **Table panel**.
 
-_How many proteins are found in the nucleus with a confidence of 5 (stars)? And in mitochondrion? And in both nucleus and mitochondrion?_
+_How many proteins are found in the nucleus with a confidence score of 5? In mitochondrion? In both nucleus and mitochondrion?_
 
 Important: Move the filter back to 0.0 before continuing with the next exercise.
 
@@ -138,13 +138,13 @@ _Can you find a layout that allows you to easily recognize patterns in the netwo
 
 Cytoscape allows you to map attributes of the nodes and edges to visual properties such as node color and edge width. Here, we will map drug target family data from the [Pharos](https://pharos.nih.gov/idg/targets) database to the node color. This data is contained in the node attribute called **target family**.
 
-Select **Style** from the side menu in the left panel (it is between **Network** and **Filter**). Click the **◀** button to the right of the property you want to change, in this case **Fill Color**, and change **Column** from name to **family**, which is the node column containing the data that you want to use. The **Mapping Type** should remain set to **Discrete Mapping**. This action will remove the rainbow coloring of the nodes and present you with a list of all the different values of the attribute that exist in the network, in this case several protein target families.
+Select **Style** from the side menu in the left panel (it is between **Network** and **Filter**). Click the **◀** button to the right of the property you want to change, in this case **Fill Color**, and change **Column** from name to **(T) family**, which is the node column containing the data that you want to use. The **Mapping Type** should remain set to **Discrete Mapping**. This action will remove the rainbow coloring of the nodes and present you with a list of all the different values of the attribute that exist in the network, in this case several protein target families.
 
 To color the corresponding proteins, first click the field to the right of an attribute value, i.e. **GPCR** or **Kinase**, then click the ⋯ button and choose a color from the color selection dialog. You can also set a default color, e.g. for all nodes that do not have a target family annotation from Pharos, by clicking on the grey button in the first column of the same row.
 
 _How many of the proteins in the network are ion channels (IC) or GPCRs?_
 
-There are many kinases in the network. We can avoid counting them manually by creating a selection filter in the **Filter** tab (located underneath **Style**). Click the **ᐩ** button and choose **Column filter** from the drop-down menu. Then, find and select the attribute **Node: family**. Write **kinase** in the text field to select all nodes with this annotation.
+There are many kinases in the network. We can avoid counting them manually by creating a selection filter in the **Filter** tab (located underneath **Style**). Click the **ᐩ** button and choose **Column filter** from the drop-down menu. Then, find and select the attribute **(T) Node: family**. Write **kinase** in the text field to select all nodes with this annotation.
 
 <!-- [Create filter for kinases](cycmd:filter create name="myfilter" json='{ "id" : "ColumnFilter", "parameters" : { "criterion" : "Kinase", "columnName" : "target::family", "predicate" : "CONTAINS"} }'){: .btn .btn--cybrowser .btn--primary}
  -->
@@ -199,15 +199,19 @@ We will work with the largest cluster in the network (it should be in the upper 
 
 _How many nodes and edges are there in this cluster?_
 
+The cluster is very dense and almost fully connected, i.e. it has edges representing functional associations between almost all pairs of nodes. Change the network type to physical interactions by clicking the **Change network type** button in the **Edges tab** in the **STRING Results panel** on the right side. To better see the new set of edges, apply a layout of your choosing, e.g. the **yFiles Organic Layout**.
+
+_How many edges does the network contain now and why?_
+
 ### 3.6 Functional enrichment and enriched publications
 
-Next, we will retrieve functional enrichment for the proteins in our network of the largest cluster. After making sure that no nodes are selected in the network, go to the menu **Apps → STRING Enrichment → Retrieve functional enrichment** or use the **Functional Enrichment** button in the **STRING Panel** on the right side. Then, select the original, not clustered network ‘String Network’ as **Background** (instead of ‘genome’) and click **OK**. A new STRING Enrichment tab will appear in the **Table Panel** on the bottom. It contains a table of enriched terms and corresponding information for each enrichment category. You can see which proteins are annotated with a given term by selecting the term in the **STRING Enrichment panel** and you can see the terms annotating a given node by slecting it.
+Next, we will retrieve functional enrichment for the proteins in our network of the largest cluster. After making sure that no nodes are selected in the network, go to the menu **Apps → STRING Enrichment → Retrieve functional enrichment** or use the **Functional Enrichment** button in the **Nodes tab** of the **STRING Panel** on the right side. Then, select the original, not clustered network ‘String Network’ as **Background** (instead of ‘genome’) and click **OK**. A new **STRING Enrichment tab** will appear in the **Table Panel** on the bottom. It contains a table of enriched terms and corresponding information for each enrichment category. You can see which proteins are annotated with a given term by selecting the term in the **STRING Enrichment panel** and you can see the terms annotating a given node by slecting it.
 
 [Set as STRING network](cycmd:string make string){: .btn .btn--cybrowser .btn--primary}
 [Retrieve functional enrichment](cycmd:string retrieve enrichment){: .btn .btn--cybrowser .btn--primary}
 [Show functional enrichment](cycmd:string show enrichment){: .btn .btn--cybrowser .btn--primary}
 
-_How many statistically significant annotation terms are in the table? Which is the most significant term for the categories GO Biological Process, GO Molecular Function, and KEGG Pathways? Hint: Look at the FDR (false discovery rate) value column and use the Filter button to select individual categories._
+_How many statistically significant terms are in the table? Which is the most significant term for each of the categories GO Biological Process, GO Molecular Function, and KEGG Pathways? Hint: Look at the FDR (false discovery rate) value column and use the **Filter** button to select individual categories._
 
 <!-- To explore only specific types of terms, e.g. GO terms, and to remove redundant terms from the table, click on the filter icon in the **Table panel** (leftmost icon). Select the three types of GO terms, enable the option to **Remove redundant terms** and set **Redundancy cutoff** to 0.2. In this way, you will see only the statistically significant GO terms that do not represent largely the same set of proteins within the network. You can see which proteins are annotated with a given term by selecting the term in the **STRING Enrichment** panel.
 
@@ -235,9 +239,9 @@ _How many nodes are in the intersection?_
 
 Now we will make the union of the intersection network, which contains the disease scores, and the experimental network. Use the **Merge** tool again to make the **Union** of the merged network and ‘String Network’. Make sure that the new merged network has the same number of nodes and edges as ‘String Network’, and that some nodes have a disease score (look for the column with this name and sort it by clicking on the column name).
 
-Now, we can change the visualization of the merged network to look like a STRING network and to be able to identify proteins with a high disease score. Specifically, we will change the size of the nodes in function of their disease score. Select **Style** in the **Control Panel** and click on the drop-down menu to change the style from **default** to **STRING style v1.5**. Then, click on the **Lock node width and height** option to enable it so that the nodes have only one attribute **Size** instead of two attributes **Height** and **Width**. Modify the values so that by default a node size is 30. To change the default value, you have to click on the default **35.0** value at the left of the Size attribute. Click on the ◀ button to add a continuous mapping of the **Size** attribute using the **disease score**. The mapping should go from 40 for the lowest disease score to 80 for the highest score. To change the mapping values, first double click on the chart and then double click on the square corresponding to the value you want to modify and set the value you want (40 and 80). Remember to _show the graphics details_ as well as to use a layout that allows you to see all nodes in the network (e.g. **yFiles Organic Layout**).
+Now, we can change the visualization of the merged network to look like a STRING network and to be able to identify proteins with a high disease confidence score. Specifically, we will change the size of the nodes in function of their **disease score**. Select **Style** in the **Control Panel** and click on the drop-down menu to change the style from **default** to **STRING style v1.5**. Then, click on the **Lock node width and height** option to enable it so that the nodes have only one attribute **Size** instead of two attributes **Height** and **Width**. Modify the values so that by default a node size is 30. To change the default value, you have to click on the default **35.0** value at the left of the Size attribute. Click on the ◀ button to add a continuous mapping of the **Size** attribute using the **disease score**. The mapping should go from 40 for the lowest disease score to 80 for the highest score. To change the mapping values, first double click on the chart and then double click on the square corresponding to the value you want to modify and set the value you want (40 and 80). Remember to _show the graphics details_ as well as to use a layout that allows you to see all nodes in the network (e.g. **yFiles Organic Layout**).
 
-_Which protein has the highest score of association with EOC according to DISEASES? Hint: sort the disease score column or find the largest node in the network view._
+_Which protein has the highest confidence score for association with EOC according to DISEASES? Hint: sort the **disease score** column or find the largest node in the network view._
 
 ## Exercise 4
 
