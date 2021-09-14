@@ -28,6 +28,8 @@ The goal of named entity recognition (NER) is to find names mentioned in text an
 
 Install the EXTRACT bookmarklet as described on the [EXTRACT website](https://extract.jensenlab.org/). We recommend using [Firefox](http://getfirefox.org/), as some functionality will not work in the latest Chrome and Chrome-based browsers.
 
+_Hint: If the bookmarks toolbar is not showing in Firefox then go the File menu bar and select View → Toolbars → Bookmarks Toolbar → Always show_
+
 Open the paper "Binding of _Actinobacillus actinomycetemcomitans_ lipopolysaccharides to _Peptostreptococcus micros_ stimulates tumor necrosis factor alpha production by macrophage-like cells" ([Yoshioka et al., 2005](https://pubmed.ncbi.nlm.nih.gov/15720573/)) and click the **EXTRACT** bookmarklet. After a short time, terms should be highlighted in the text.
 
 _1. What do the different colors mean?_
@@ -66,9 +68,9 @@ You can similarly use NER to retrieve abstracts for any disease in the Disease O
 
 _8. Which diseases are highlighted in the abstracts?_
 
-### 1.3 Information extraction
+### 1.3 Relation extraction
 
-The goal of cooccurrence-based information extraction (IE) is to link entities (A, B) to each other based on them being mentioned together in documents (A → documents → B).
+The goal of cooccurrence-based relation extraction (RE) is to link entities (A, B) to each other based on them being mentioned together in documents (A → documents → B).
 
 Go to <https://diseases.jensenlab.org/> and query for **colorectal cancer**. Again, click on it on the Search results page (like in the ORGANISMS resource).
 
@@ -78,7 +80,7 @@ Click on **TP53** in the text-mining table.
 
 _10. Do the abstracts in fact support an association between colorectal cancer and TP53?_
 
-Cooccurrence-based information extraction is a very generic approach, which can be used to find associations between any two types of entities for which we can do NER. For example, we can use the same approach to link the species **_Fusobacterium nucleatum_** together with **colorectal cancer** (DOID:9256):
+Cooccurrence-based relation extraction is a very generic approach, which can be used to find associations between any two types of entities for which we can do NER. For example, we can use the same approach to link the species **_Fusobacterium nucleatum_** together with **colorectal cancer** (DOID:9256):
 
 <https://organisms.jensenlab.org/Entity?documents=10&type1=-2&id1=851&type2=-26&id2=DOID:9256>
 
