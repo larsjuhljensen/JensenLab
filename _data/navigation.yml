@@ -389,8 +389,8 @@ training-textmining-hb:
         url: /training/textmining/hb/#11-named-entity-recognition
       - title: "Information retrieval"
         url: /training/textmining/hb/#12-information-retrieval
-      - title: "Information extraction"
-        url: /training/textmining/hb/#13-information-extraction
+      - title: "Relation extraction"
+        url: /training/textmining/hb/#13-relation-extraction
   - title: "Exercise 2"
     url: /training/textmining/#exercise-2
     children:

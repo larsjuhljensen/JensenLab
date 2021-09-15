@@ -42,7 +42,7 @@ _3. What is the NCBI Taxonomy ID of Peptostreptococcus micros and what is the Ge
 
 Select the **Title** in the paper and click the **EXTRACT** bookmarklet. Hover over terms in the text or lines in the table.
 
-_4. What happens when you hover over the terms?_
+_4. What happens when you hover over the terms under the selected text section?_
 
 Use the buttons in the popup to copy the data into a spreadsheet (e.g. Microsoft excel/[Google sheets](https://docs.google.com/spreadsheets/u/0/)) or text file (e.g. Notepad/[Notepad++](https://notepad-plus-plus.org/downloads/)) or save it in tabular (tsv/csv) format.
 
@@ -66,7 +66,7 @@ You can similarly use NER to retrieve abstracts for any disease in the Disease O
 
 <https://diseases.jensenlab.org/Entity?documents=10&type1=-26&id1=DOID:162>
 
-_8. Which diseases are highlighted in the abstracts?_
+_8. Which diseases are highlighted in the first three abstracts?_
 
 ### 1.3 Relation extraction
 
