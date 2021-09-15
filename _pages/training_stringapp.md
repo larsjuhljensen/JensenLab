@@ -199,9 +199,9 @@ We will work with the largest cluster in the network (it should be in the upper 
 
 _How many nodes and edges are there in this cluster?_
 
-The cluster is very dense and almost fully connected, i.e. it has edges representing functional associations between almost all pairs of nodes. Change the network type to physical interactions by clicking the **Change network type** button in the **Edges tab** in the **STRING Results panel** on the right side. To better see the new set of edges, apply a layout of your choosing, e.g. the **yFiles Organic Layout**.
+The cluster is very dense and almost fully connected, i.e. it has edges representing functional associations between almost all pairs of nodes. Change the network type to physical interactions by navigating to the **Edges tab** in the **STRING Results panel** and clicking the **Change network type** button. Leave the confidence cutoff at the default value, change the network type from **full STRING network** to **physical subnetwork** using the drop-down menu, and click **OK**. To better see the new set of edges, apply a layout of your choosing, e.g. the **yFiles Organic Layout**.
 
-_How many edges does the network contain now and why?_
+_How many edges does the resulting network contain and why are there now fewer edges_
 
 ### 3.6 Functional enrichment and enriched publications
 
