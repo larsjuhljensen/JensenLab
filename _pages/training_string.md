@@ -12,6 +12,7 @@ In these exercises, we will use the [STRING](https://string-db.org/), [STITCH](h
 * retrieve a STRING network for a protein of interest
 * interpret the different visual representations
 * inspect the evidence behind an interaction
+* understand the query parameters and customize searches
 * retrieve a STITCH network for chemical compound of interest
 * use DISEASES to find proteins associated with a disease of interest
 
@@ -19,7 +20,7 @@ In these exercises, we will use the [STRING](https://string-db.org/), [STITCH](h
 
 ### 1.1 Single protein query
 
-We will first retrieve a STRING network for human insulin receptor (INSR). Go to <https://string-db.org/>, open the **Protein by name** search interface, and type **INSR** in the field **Protein Name**. You can either specify **Homo sapiens** in the **Organism** field or leave it on **auto-detect**. Click **SEARCH**. If there is a unique match to your input protein, you will immediately receive a protein network; otherwise you will first be presented with a disambiguation page on which you can specify the protein you are interested in.
+We will first retrieve a STRING network for human insulin receptor (INSR). Go to <https://string-db.org/>, open the **Protein by name** search interface, and type **INSR** in the field **Protein Name**. You can either specify **Homo sapiens** in the **Organism** field or leave it on **auto-detect**. Click **SEARCH**. You will first be presented with a disambiguation page, on which you can specify that the protein you are interested in is the human protein INSR, and press **Continue** to view the protein network.
 
 ### 1.2 Visual representations
 
@@ -35,7 +36,7 @@ _Which types of evidence support the interaction between insulin receptor (INSR)
 
 Further detail on the evidence of an interaction can be seen in a popup by clicking on the corresponding edge in the network. Click on the edge between INSR and IRS1 to view its popup; you may need to move the nodes to make this easier.
 
-_Which type of evidence gives the largest contribution to the confidence score?_
+_Which type of evidence gives the largest contribution to the confidence score 0.999?_
 
 Click on the **Show** button to view the experimental evidence for the interaction.
 
@@ -43,25 +44,27 @@ _Which types of experiments support this interaction?_
 
 ### 1.4 Query parameters
 
-The **Settings** tab also allows you to modify detailed parameters for the search, such as the types of evidence to use (**active interaction sources**), the **minimum required interaction score**, and the **max number of interactors to show**.
+The **Settings** tab also allows you to modify detailed parameters for the search, such as the **network type**, the types of evidence to use (**active interaction sources**), the **minimum required interaction score**, and the **max number of interactors to show**.
 
 Change the **minimum required interaction score** to high confidence (0.700).
 
 _Does this change the set of proteins shown? Does it change the interactions shown?_
 
-Turn off all evidence types except experiments.
+Change the network type from **full STRING network** to **physical subnetwork**. 
 
-_Does this change the set of proteins shown in the network?_
+_Does this change the set of proteins and interactions shown in the network? (Hint: check the Legend tab.)_
+
+_What evidence types are available for the physical interactions? Are there more or fewer evidence types than in the full STRING network?_
 
 Increase the **max number of interactors to show** to 20.
 
-_How many interaction partners of INSR do you get in the network?_
+_How many interaction partners of INSR do you get in the network? What happens if you increase it to 50?_
 
 Change the **minimum required interaction score** back to 0.400.
 
-_How many INSR interactors do you now get?_
+_How many INSR interactors do you now get? (Hint: check the Analysis tab.)_
 
-Turn on all evidence types back on.
+Switch back to **full STRING network**.
 
 _Does this change the set of proteins shown in the network?_
 
