@@ -66,7 +66,7 @@ You can similarly use NER to retrieve abstracts for any disease in the Disease O
 
 <https://diseases.jensenlab.org/Entity?documents=10&type1=-26&id1=DOID:162>
 
-_8. Which diseases are highlighted in the first three abstracts?_
+_8. Which diseases are highlighted in the first five abstracts?_
 
 ### 1.3 Relation extraction
 
@@ -78,7 +78,7 @@ _9. Which gene is most strongly associated with colorectal cancer according to t
 
 Click on **TP53** in the text-mining table.
 
-_10. Do the abstracts in fact support an association between colorectal cancer and TP53?_
+_10. Do the abstracts in fact support an association between colorectal cancer and TP53? Comparing it with KRAS which disease-gene association seems to be more clearly stated in the text? Can you think of a reason why?_
 
 Cooccurrence-based relation extraction is a very generic approach, which can be used to find associations between any two types of entities for which we can do NER. For example, we can use the same approach to link the species **_Fusobacterium nucleatum_** together with **colorectal cancer** (DOID:9256):
 
