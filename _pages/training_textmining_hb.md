@@ -128,7 +128,7 @@ To perform such an analysis:
 
 1) Go to the [SimpleCount](https://simplecount.jensenlab.org/) web server
 
-2) As **Foreground** paste in the list of NCBI TaxIDs corresponding to the bacteria of interest; we have prepared a file with the [colorectal cancer-associated NCBI TaxIDs]({{ site.baseurl }}/assets/textmining/organisms.txt)
+2) As **Foreground** paste in the list of NCBI TaxIDs corresponding to the bacteria of interest; we have prepared a file with the [colorectal cancer-associated NCBI TaxIDs]({{ site.baseurl }}/assets/textmining/organisms.txt). We leave the **Background** empty for now. 
 
 3) Next select the **Dictionary** that you want counts for (i.e. **Tissues**)
 
