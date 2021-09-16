@@ -7,9 +7,6 @@ sidebar:
 ---
 ## Preprints
 
-Baltoumas FA, Zafeiropoulou S, Karatzas E, Paragkamian S, Thanati F, Iliopoulos I,  Eliopoulos AG, Schneider R, Jensen LJ, Pafilis E and Pavlopoulos GA (2021). OnTheFly2.0: a text-mining web application for automated biomedical entity recognition, document annotation, network and functional enrichment analysis. *bioRxiv*.  
-[Preprint](https://doi.org/10.1101/2021.05.14.444150)
-
 Yarani R, Palasca O, Doncheva NT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litman T, Holmskov U, Bang-Berthelsen CH, Vilien M, Jensen LJ, Gorodkin J and Pociot F (2020). Transcriptome profiling of ulcerative colitis mouse model suggests biomarkers and therapeutic targets for human colitis. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2020.08.12.225458)
 
@@ -20,8 +17,11 @@ Santos A, Colaço AR, Nielsen AB, Niu L, Geyer PE, Coscia F, Albrechtsen NJW, Mu
 
 ### 2021
 
+Baltoumas FA, Zafeiropoulou S, Karatzas E, Paragkamian S, Thanati F, Iliopoulos I,  Eliopoulos AG, Schneider R, Jensen LJ, Pafilis E and Pavlopoulos GA (2021). OnTheFly2.0: a text-mining web application for automated biomedical entity recognition, document annotation, network and functional enrichment analysis. To appear in *Nucleic Acids Research*.  
+[Preprint](https://doi.org/10.1101/2021.05.14.444150)
+
 Yang JJ, Grissa D, Lambert CG, Bologa CG, Mathias SL, Waller A, Wild DJ, Jensen LJ 3 and Oprea TI (2021). TIGA: Target illumination GWAS analytics. *Bioinformatics*.  
-[Abstract](https://pubmed.ncbi.nlm.nih.gov/34086846/) [Full text](https://doi.org/10.1093/bioinformatics/btab427) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btab427" data-style="small_rectangle"></span>
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/34086846/) [Full text](https://doi.org/10.1093/bioinformatics/btab427) [Preprint](https://doi.org/10.1101/2020.11.11.378596) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btab427" data-style="small_rectangle"></span>
 
 Linscheid N, Santos A, Poulsen PC, Mills RW, Calloe K, Leurs U, Ye JZ, Stolte C, Thomsen MB, Bentzen BH, Lundegaard PR, Olesen MS, Jensen LJ, Olsen JV and Lundby A (2021). Quantitative proteome comparison of human hearts with those of model organisms. *PLOS Biology*, **19**:e3001144.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/33872299/) [Full text](https://doi.org/10.1371/journal.pbio.3001144) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pbio.3001144" data-style="small_rectangle"></span>
