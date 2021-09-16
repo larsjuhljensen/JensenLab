@@ -154,19 +154,19 @@ To perform this analysis:
 
 2) Paste in the [full list of bacteria identified in the study]({{ site.baseurl }}/assets/textmining/background.txt) into **Background**
 
-3) Set the **Z-score cutoff** to **5.0** 
+3) Set the **Z-score cutoff** to **6.0** 
 
-4) set the **P-value cutoff** to **0.001** 
+4) set the **P-value cutoff** to **0.05** 
 
 5) and click **Count**
 
 The results table now includes two additional columns, namely the **background count** and the **p-value**. (_Note that the reported p-values are not corrected for multiple testing. If you want to correct for multiple testing you can do Bonferroni correction or calculate the false discovery rate (this is typically done by enrichment tools)_).
 
-_16. Are the overrepresented terms more specific than those with the highest counts?_
+_16. Are the overrepresented terms more specific than those with the highest foreground counts?_
 
 These types of analyses are by no means limited to tissues. If the task asks for it, equivalent analyses can be done for, e.g., diseases or environmental descriptors. 
 
-Perform an enrichment analysis for diseases using a **Z-score cutoff** of **5.0**.
+Perform an enrichment analysis for diseases using a **Z-score cutoff** of **6.0** and a **P-value cutoff** of **0.05**.
 
 _17. Which is the most significantly overrepresented disease?_
 
