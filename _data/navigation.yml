@@ -108,8 +108,6 @@ training:
         url: /training/omicsvisualizer/
       - title: "Text mining"
         url: /training/textmining/
-      - title: "Text mining for the Human Biology MSc"
-        url: /training/textmining/hb/
   - title: "Upcoming events"
     url: /training/#upcoming-events
   - title: "Past events"
