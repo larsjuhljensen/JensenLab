@@ -296,6 +296,7 @@ The theoretical background for these exercises is covered in these short online 
 [![Cytoscape stringApp](training_stringapp.png)](https://youtu.be/MXmzXxNqmnI)
 [![DISEASES](training_diseases.png)](https://youtu.be/xkYixhO2CJQ)
 [![Enrichment analysis](training_enrichment_analysis.png)](https://youtu.be/2NC1QOXmc5o)
+[![stringApp enrichment analysis](training_stringapp_enrichment_analysis.png)](https://youtu.be/AUEyZw-iJHg)
 
 ## Supporting literature
 
