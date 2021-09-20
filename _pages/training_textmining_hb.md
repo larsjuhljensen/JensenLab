@@ -26,7 +26,7 @@ In this exercise we will first introduce the basics of text mining: 1) dictionar
 
 The goal of named entity recognition (NER) is to find names mentioned in text and resolve them to the underlying biomedical entities (document → entity A, entity B, entity C). To illustrate this, we will use the EXTRACT tool, which is designed to use NER to support manual database curation.
 
-Install the EXTRACT bookmarklet as described on the [EXTRACT website](https://extract.jensenlab.org/). We recommend using [Firefox](http://getfirefox.org/), as some functionality will not work in the latest Chrome and Chrome-based browsers.
+Install the EXTRACT bookmarklet as described on the [EXTRACT website](https://extract.jensenlab.org/). We recommend using [Firefox](http://getfirefox.org/), as some functionality might not work in the latest Chrome and Chrome-based browsers. (If you wish to run EXTRACT on articles in several formats (e.g. word documents or PDFs) please use the [OnTheFly2.0 webserver](http://bib.fleming.gr:3838/OnTheFly/)).
 
 _Hint: If the bookmarks toolbar is not showing in Firefox then go the File menu bar and select View → Toolbars → Bookmarks Toolbar → Always show_
 
@@ -175,7 +175,7 @@ Post them on this [Padlet](https://ucph.padlet.org/katerinanastou/2dghxogasnybwh
 
 (just double click in the background to add your question) 
 
-## Supporting Lectures
+## Supporting Video Lectures
 
 [Biomedical text mining: A short introduction to the core concepts](https://www.youtube.com/watch?v=NcntH0WYp1M)
 
