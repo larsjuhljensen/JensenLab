@@ -37,6 +37,9 @@ Translational Discovery Omics II
 8--12 November 2021, Copenhagen, Denmark  
 Big Data Analytics and Machine Learning I
 
+7 February 2021, Copenhagen, Denmark
+Bioinformatics Analysis of Gene Expression Data
+
 22 March 2022, Copenhagen, Denmark  
 Statistical Methods in Bioinformatics
 
