@@ -62,6 +62,9 @@ Introduction to Bioinformatics
 9 March 2021, Copenhagen, Denmark (online)  
 Fundamental Bioinformatics
 
+15 February 2021, Copenhagen, Denmark (online)
+Bioinformatics Analysis of Gene Expression Data
+
 29 January 2021, Copenhagen, Denmark (online)  
 Drug Research Academy Winter School
 
@@ -106,6 +109,9 @@ Protein Research and Critical Thinking
 
 1--6 December 2019, Bangalore, India  
 EMBO Practical Course on Computational Analysis of Protein--Protein Interactions
+
+21 November 2019, Copenhagen, Denmark
+Bioinformatics for Animal Genomics
 
 25--26 September 2019, Belval, Luxembourg  
 Current advances in text mining
