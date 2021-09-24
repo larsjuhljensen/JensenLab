@@ -37,7 +37,7 @@ Translational Discovery Omics II
 8--12 November 2021, Copenhagen, Denmark  
 Big Data Analytics and Machine Learning I
 
-7 February 2021, Copenhagen, Denmark
+7 February 2021, Copenhagen, Denmark  
 Bioinformatics Analysis of Gene Expression Data
 
 22 March 2022, Copenhagen, Denmark  
@@ -56,7 +56,7 @@ NordBioMedNet Summer School (computational proteomics)
 13 April 2021, Copenhagen, Denmark (online)  
 Statistical Methods in Bioinformatics
 
-6 April 2021, Copenhagen, Denmark (online)
+6 April 2021, Copenhagen, Denmark (online)  
 Systematic Reviews and Meta-Analysis
 
 17 March 2021, Delaware, United States of America (online)  
@@ -65,7 +65,7 @@ Introduction to Bioinformatics
 9 March 2021, Copenhagen, Denmark (online)  
 Fundamental Bioinformatics
 
-15 February 2021, Copenhagen, Denmark (online)
+15 February 2021, Copenhagen, Denmark (online)  
 Bioinformatics Analysis of Gene Expression Data
 
 29 January 2021, Copenhagen, Denmark (online)  
@@ -113,7 +113,7 @@ Protein Research and Critical Thinking
 1--6 December 2019, Bangalore, India  
 EMBO Practical Course on Computational Analysis of Protein--Protein Interactions
 
-21 November 2019, Copenhagen, Denmark
+21 November 2019, Copenhagen, Denmark  
 Bioinformatics for Animal Genomics
 
 25--26 September 2019, Belval, Luxembourg  
