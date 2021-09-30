@@ -318,6 +318,10 @@ training-omicsvisualizer:
         url: /training/omicsvisualizer/#25-donut-visualization
       - title: "Customizing visualization"
         url: /training/omicsvisualizer/#26-customizing-visualization
+  - title: "Supporting lectures"
+    url: /training/omicsvisualizer/#supporting-lectures
+  - title: "Supporting literature"
+    url: /training/omicsvisualizer/#supporting-literature
 
 training-textmining:
   - title: "Learning objectives"
