@@ -125,4 +125,16 @@ The RNA-seq data contains the normalized read count for each gene at each time p
 
 _How could the input data be transformed to avoid this problem?_
 
+## Supporting lectures
+
+The theoretical background for these exercises is covered in these short online lectures:
+
+[![Cytoscape](training_cytoscape.png)](https://youtu.be/Ohf9IPUJ82w)
+[![Omics Visualizer](training_omicsvisualizer.png)](https://youtu.be/-O1m0T6WdrA)
+
+## Supporting literature
+
+Legeay M, Doncheva NT, Morris JH and Jensen LJ (2020). Visualize omics data on networks with Omics Visualizer, a Cytoscape App. *F1000Research*, **9**:157.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/32399202) [Full text](https://doi.org/10.12688/f1000research.22280.1)
+
 [![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
