@@ -17,6 +17,14 @@ However, text mining is by no means the only topic available for student project
 
 Below is a list of projects that have already been done by students or are currently being done. These projects are thus not available, but they should give you an idea of the kind of concrete projects that are feasible to do as a student project.
 
+### Deep learning for link prediction in multilayer protein networks
+
+The [STRING database](https://string-db.org) integrates many types of evidence that allow us to link proteins. These links includes a broad range of edge types such as functional associations, physical interactions, genetic interactions, and sequence similarity. The STRING network can thus be considered a so-called multilayer network. However, despite the large amounts of data integrated in STRING, our current knowledge of interactions is incomplete, and it is thus of interest to be able to predict missing edges, a task known as link prediction or link regression.
+
+The aim of the project is to assess several state-of-the-art deep-learning (DL) methods designed to work on networks, such as node2vec, graph neural networks, and graph attention networks. You will first compile the needed training and test sets based on the data in STRING and subsequently use these to train DL models that produce vector embeddings of the network neighborhoods of nodes. You will primarily use these node embeddings as input for predicting links in the test set and evaluate the performance of each method for each type of interaction (e.g. physical interactions or genetic interactions).
+
+*Project advisor: [Lars Juhl Jensen](/people/larsjuhljensen/)*
+
 ### Text mining of pharmacologically relevant human protein complexes
 
 Text mining of biomedical literature is a powerful tool to automatically extract and integrate knowledge from the vast body of existing research that is documented in scientific publications. Widely used community databases, such as [STRING](https://string-db.org) and [DISEASES](https://diseases.jensenlab.org/), already utilize text mining to extract biological associations from the scientific literature. The first step in this process is to detect the names of biological entities in text. The text-mining pipeline used in the mentioned databases achieves this by utilizing constantly developed, concept-specific dictionaries of names, compiled from data deposited in a plethora of well-established resources like [UniProtKB](https://uniprot.org) or [OMIM](https://omim.org). However, the recognition of higher-level concepts, like protein complexes, is still lacking, mainly because a lot of information is scattered across several databases and no single reference resource exists, rendering the creation of a dedicated dictionary a very difficult task.
