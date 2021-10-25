@@ -379,6 +379,36 @@ training-textmining-neurology:
   - title: "Supporting literature"
     url: /training/textmining/neurology/#supporting-literature
 
+training-textmining-bridge:
+  - title: "Learning objectives"
+    url: /training/textmining/bridge/#learning-objectives
+  - title: "Prerequisites"
+    url: /training/textmining/bridge/#prerequisites
+  - title: "Exercise 1"
+    url: /training/textmining/bridge/#exercise-1
+    children:
+      - title: "Named entity recognition"
+        url: /training/textmining/bridge/#11-named-entity-recognition
+      - title: "Information retrieval"
+        url: /training/textmining/bridge/#12-information-retrieval
+      - title: "Information extraction"
+        url: /training/textmining/bridge/#13-relation-extraction
+  - title: "Exercise 2"
+    url: /training/textmining/bridge/#exercise-2
+    children:
+      - title: "Using NER to dig deeper"
+        url: /training/textmining/bridge/#21-using-ner-to-dig-deeper
+      - title: "Linking diseases via genes"
+        url: /training/textmining/bridge/#22-linking-diseases-via-genes
+  - title: "Further questions"
+    url: /training/textmining/bridge/#further-questions
+  - title: "Supporting lectures"
+    url: /training/textmining/bridge/#supporting-lectures
+  - title: "Supporting literature"
+    url: /training/textmining/bridge/#supporting-literature
+
+
+
 training-textmining-hb:
   - title: "Learning objectives"
     url: /training/textmining/hb/#learning-objectives
