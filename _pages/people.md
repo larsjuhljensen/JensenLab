@@ -9,7 +9,8 @@ permalink: /people/
 
 ## Current group members
 [Dhouha Grissa](http://dgrissa.wixsite.com/dhouha-grissa)  
-[Katerina Nastou](/people/katerinanastou)  
+[Henrietta Holze](/people/henriettaholze/)  
+[Katerina Nastou](/people/katerinanastou/)  
 [Marie Locard-Paulet](/people/marielocardpaulet/)  
 [Mikaela Koutrouli](https://www.linkedin.com/in/mikaela-koutrouli-24a877156/)  
 [Nadezhda T. Doncheva](/people/nadezhdatdoncheva/)  
