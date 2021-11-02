@@ -69,31 +69,31 @@ The goal of cooccurrence-based relation extraction (RE) is to link entities (A, 
 
 Go to <https://diseases.jensenlab.org/> and query for **colorectal cancer**. Again, click on it on the Search results page .
 
-_9. Which gene is most strongly associated with colorectal cancer according to text mining?_
+_Which gene is most strongly associated with colorectal cancer according to text mining?_
 
 Click on **TP53** in the text-mining table.
 
-_10. Do the abstracts in fact support an association between colorectal cancer and TP53? Comparing it with KRAS which disease-gene association seems to be more clearly stated in the text? Can you think of a reason why?_
+_Do the abstracts in fact support an association between colorectal cancer and TP53? Comparing it with KRAS which disease-gene association seems to be more clearly stated in the text? Can you think of a reason why?_
 
 Cooccurrence-based relation extraction is a very generic approach, which can be used to find associations between any two types of entities for which we can do NER. For example, we can use the same approach to extract **EGFR**-associated terms from the mammalian phenotype:
 
 <https://phenotypes.jensenlab.org/Entity?textmining=20&type1=9606&type2=-36&id1=ENSP00000256078>
 
-_11. Is the association between EGFR and Increased cell death well established in the literature? Do **all** the papers that mention the two terms actually support this association?_
+_Is the association between EGFR and Increased cell death well established in the literature? Do **all** the papers that mention the two terms actually support this association?_
 
 ## Exercise 2
 
-In this exercise, we will focus on how one can utilize the text-mining tools used in exercise 1 to analyze an observed association between **Lou Gehrig's disease** and **Parkinson's disease**.
+In this exercise, we will focus on how one can utilize the text-mining tools used in exercise 1 to analyze an observed association between **gastrointestinal system diseases** and **Parkinson's disease**.
 
 ### 2.1 Using NER to dig deeper
 
-**Alpha-synuclein** is a protein that is well known to be involved in **Parkinson's disease**. To check if it has also been implicated in **Lou Gehrig's disease**, we will perform a systematic search for literature linking the two. A simple PubMed search retrieves only two publications:
+**LRRK2** is a protein that is well known to be involved in **Parkinson's disease**. To check if it has also been implicated in **gastrointestinal system diseases**, we will perform a systematic search for literature linking the two. A simple PubMed search retrieves no publications:
 
-<https://www.ncbi.nlm.nih.gov/pubmed/?term=%22alpha-synuclein%22+%22lou+gehrig%27s+disease%22>
+<https://www.ncbi.nlm.nih.gov/pubmed/?term=%22LRRK2%22+%22gastrointestinal+system+diseases%22>
 
-Since **alpha-synuclein** (ENSP00000338345) and **Lou Gehrig's disease** (DOID:332) are both named entities in our dictionary, we can instead use the results of NER to retrieve relevant documents:
+Since **LRRK2** (ENSP00000298910) and **gastrointestinal system diseases** (DOID:77) are both named entities in our dictionary, we can instead use the results of NER to retrieve relevant documents:
 
-<https://diseases.jensenlab.org/Entity?documents=50&type2=9606&type1=-26&id2=ENSP00000338345&id1=DOID:332>
+<https://diseases.jensenlab.org/Entity?documents=50&type2=9606&type1=-26&id2=ENSP00000298910&id1=DOID:77>
 
 The NER-based approach retrieves many more publications. Inspect some of these abstracts.
 
@@ -103,15 +103,15 @@ _Are they relevant and why were they were not found by the initial search?_
 
 Above, we saw how existing text-mining resources can be used to retrieve abstracts connecting entities of interest and to extract associations. We will now use this in a few different ways to attempt to find genes that link two diseases of interest.
 
-The first idea is to use NER-based information retrieval to find abstracts that mention both **Lou Gehrig's disease** (DOID:332) and **Parkinson's disease** (DOID:14330). Click the link below to view these abstracts:
+The first idea is to use NER-based information retrieval to find abstracts that mention both **gastrointestinal system diseases** (DOID:77) and **Parkinson's disease** (DOID:14330). Click the link below to view these abstracts:
 
-<https://diseases.jensenlab.org/Entity?documents=10&type1=-26&&type2=-26&id1=DOID:332&id2=DOID:14330>
+<https://diseases.jensenlab.org/Entity?documents=10&type1=-26&&type2=-26&id1=DOID:77&id2=DOID:14330>
 
-_Which, if any, genes do you see mentioned in these abstracts? (Look at the first 2-3 pages of results)_
+_Which, if any, genes do you see mentioned in these abstracts?_
 
-This approach obviously only works when the association between the two diseases is sufficiently well described in the literature for there to be abstracts that mention both diseases as well as the genes of interest. If that is not the case, but one has a candidate gene in mind, one can instead use information extraction to obtain a list of diseases for the gene in question to see if it is in fact associated with both diseases in the literature. Go to <https://diseases.jensenlab.org/>, query for **alpha-synuclein**, and view the disease associations obtained from text mining.
+This approach obviously only works when the association between the two diseases is sufficiently well described in the literature for there to be abstracts that mention both diseases as well as the genes of interest. If that is not the case, but one has a candidate gene in mind, one can instead use information extraction to obtain a list of diseases for the gene in question to see if it is in fact associated with both diseases in the literature. Go to <https://diseases.jensenlab.org/>, query for **LRRK2**, and view the disease associations obtained from text mining.
 
-_Is alpha-synuclein associated with both diseases of interest?_
+_Is LRRK2 associated with both Parkinson's disease and gastrointestinal system diseases?_
 
 When one does not have a candidate gene, the best solution is to obtain two gene lists, one for each disease, and then identify the ones that rank high on both lists. This is a variant of the closed knowledge discovery problem. It is unfortunately not currently possible to perform such an analysis via a web interface, but it can be done by downloading the complete set disease–gene association from the [DISEASES downloads page](https://diseases.jensenlab.org/Downloads) and analyzing them in Python or R. Alternatively, the analysis can be performed through Cytoscape as illustrated in the [Cytoscape stringApp exercises](https://jensenlab.org/training/stringapp/).
 
