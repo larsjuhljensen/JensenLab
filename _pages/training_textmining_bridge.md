@@ -77,7 +77,7 @@ _Do the abstracts in fact support an association between colorectal cancer and T
 
 Cooccurrence-based relation extraction is a very generic approach, which can be used to find associations between any two types of entities for which we can do NER. For example, we can use the same approach to extract **EGFR**-associated terms from the mammalian phenotype:
 
-<https://phenotypes.jensenlab.org/Entity?textmining=20&type1=9606&type2=-36&id1=ENSP00000256078>
+<https://phenotypes.jensenlab.org/Entity?textmining=20&type1=9606&type2=-36&id1=ENSP00000275493>
 
 _Is the association between EGFR and Increased cell death well established in the literature? Do **all** the papers that mention the two terms actually support this association?_
 
