@@ -31,7 +31,7 @@ _Hint: If the bookmarks toolbar is not showing in Firefox then go the File menu 
 
 Open the paper "Identification of BCL-XL as highly active survival factor and promising therapeutic target in colorectal cancer" ([Scherr et al., 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7568722/)) and click the **EXTRACT** bookmarklet. After a short time, terms should be highlighted in the text.
 
-_What do the different colors mean? How many different types of biomedical entities can you see in the abstract?_
+_What do the different colors mean? How many different types of biomedical entities can you see in the abstract? Does any of these terms seems to be put in a wrong category and can you think of a reason why that happens if you hover over the term?_
 
 By clicking or hovering over a tagged term, you will get a popup that includes its standard name, entity type, database or ontology identifier, and a link to its reference record. Click or hover over **BCL-XL** and **colorectal cancer**.
 
@@ -51,11 +51,11 @@ The goal of information retrieval (IR) is to find the documents pertaining to a 
 
 We run the same NER system used in EXTRACT on entire PubMed every week and make the results available through a suite of web resources. One such resource is [DISEASES](https://diseases.jensenlab.org/). While primarily intended to view disease–gene associations extracted from literature, it can also be used for information retrieval.
 
-Click the following link to retrieve abstracts that mention the gene **LRRK2**:
+Click the following link to retrieve abstracts that mention **SCN2A**:
 
-<https://diseases.jensenlab.org/Entity?documents=10&type1=9606&id1=ENSP00000298910>
+<https://diseases.jensenlab.org/Entity?documents=10&type1=9606&id1=ENSP00000364586>
 
-_Do the abstracts shown all mention LRRK2?_
+_Do the abstracts shown in the first two pages all mention SCN2A?_
 
 You can similarly use NER to retrieve abstracts for any disease in the Disease Ontology. For example, the following query will retrieve abstracts for **neurodegenerative disease** (DOID:1289):
 
