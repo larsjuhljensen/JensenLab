@@ -10,12 +10,12 @@ sidebar:
 Yarani R, Palasca O, Doncheva NT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litman T, Holmskov U, Bang-Berthelsen CH, Vilien M, Jensen LJ, Gorodkin J and Pociot F (2020). Transcriptome profiling of ulcerative colitis mouse model suggests biomarkers and therapeutic targets for human colitis. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2020.08.12.225458)
 
-Santos A, Colaço AR, Nielsen AB, Niu L, Geyer PE, Coscia F, Albrechtsen NJW, Mundt F, Jensen LJ and Mann M (2020). Clinical knowledge graph integrates proteomics data into clinical decision-making. *bioRxiv*.  
-[Preprint](https://doi.org/10.1101/2020.05.09.084897)
-
 ## Research articles
 
 ### 2021
+
+Santos A, Colaço AR, Nielsen AB, Niu L, Geyer PE, Coscia F, Albrechtsen NJW, Mundt F, Jensen LJ and Mann M (2020). Clinical knowledge graph integrates proteomics data into clinical decision-making. To appear in *Nature Biotechnology*.  
+[Preprint](https://doi.org/10.1101/2020.05.09.084897)
 
 Baltoumas FA, Zafeiropoulou S, Karatzas E, Paragkamian S, Thanati F, Iliopoulos I,  Eliopoulos AG, Schneider R, Jensen LJ, Pafilis E and Pavlopoulos GA (2021). OnTheFly2.0: a text-mining web application for automated biomedical entity recognition, document annotation, network and functional enrichment analysis. To appear in *Nucleic Acids Research*.  
 [Preprint](https://doi.org/10.1101/2021.05.14.444150)
