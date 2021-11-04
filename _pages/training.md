@@ -24,15 +24,6 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-17 and 22 September 2021, Copenhagen, Denmark  
-Bioinformatics for Human Biologists
-
-23 September 2021, Budapest, Hungary (online)  
-Applied Systems Biology
-
-12--15 October 2021, Copenhagen, Denmark  
-Translational Discovery Omics II
-
 8--12 November 2021, Copenhagen, Denmark  
 Big Data Analytics and Machine Learning I
 
@@ -45,6 +36,18 @@ Statistical Methods in Bioinformatics
 ## Past events
 
 ### 2021
+
+4 November 2021, Copenhagen, Denmark (online)  
+Network Biology for Dummies
+
+12--15 October 2021, Copenhagen, Denmark  
+Translational Discovery Omics II
+
+23 September 2021, Budapest, Hungary (online)  
+Applied Systems Biology
+
+17 and 22 September 2021, Copenhagen, Denmark  
+Bioinformatics for Human Biologists
 
 13--17 September 2021, Barcelona, Spain (online)  
 PROTrEIN summer school
