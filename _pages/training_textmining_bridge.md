@@ -7,7 +7,7 @@ sidebar:
 ---
 ## Learning objectives
 
-In these exercises, we will use a variety of text-mining tools and databases based on text mining to interpret the results from microbiome studies. The exercises will teach you how to:
+In these exercises, we will use a variety of text-mining tools and databases based on text mining to interpret the associations of genes and diseases. The exercises will teach you how to:
 
 * automatically highlight named entities in a web page
 * use named entity recognition for synonym-aware information retrieval
@@ -19,7 +19,7 @@ All exercises are purely web-based. We recommend using [Firefox](http://getfiref
 
 ## Exercise 1
 
-In this exercise we will first introduce the basics of text mining: 1) dictionary-based __named entity recognition__ and 2) how this can used to help __retrieve literature__. Afterwards we will move on to how one can use the complete literature to 3) __extract associations between entities__ and finally 4) how these associations can be used for knowledge discovery.
+In this exercise we will first introduce the basics of text mining: 1) dictionary-based __named entity recognition__ and 2) how this can be used to help __retrieve literature__. Afterwards we will move on to how one can use the complete literature to 3) __extract associations between entities__ and finally 4) how these associations can be used for knowledge discovery.
 
 ### 1.1 Named Entity Recognition
 
@@ -31,7 +31,7 @@ _Hint: If the bookmarks toolbar is not showing in Firefox then go the File menu 
 
 Open the paper "Identification of BCL-XL as highly active survival factor and promising therapeutic target in colorectal cancer" ([Scherr et al., 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7568722/)) and click the **EXTRACT** bookmarklet. After a short time, terms should be highlighted in the text.
 
-_What do the different colors mean? How many different types of biomedical entities can you see in the abstract? Does any of these terms seems to be put in a wrong category and can you think of a reason why that happens if you hover over the term?_
+_What do the different colors mean? How many different types of biomedical entities can you see in the abstract? Does any of these terms seems to be put in a wrong category and can you think of a reason why that happens if you hover over the term(s)?_
 
 By clicking or hovering over a tagged term, you will get a popup that includes its standard name, entity type, database or ontology identifier, and a link to its reference record. Click or hover over **BCL-XL** and **colorectal cancer**.
 
@@ -61,13 +61,13 @@ You can similarly use NER to retrieve abstracts for any disease in the Disease O
 
 <https://diseases.jensenlab.org/Entity?documents=10&type1=-26&id1=DOID:1289>
 
-_Which diseases are highlighted in the abstracts? Can you think of the reason why other diseases are also mentioned?_
+_Which diseases are highlighted in the abstracts? Can you think of the reason why they are highlighted?_
 
 ### 1.3 Relation extraction
 
 The goal of cooccurrence-based relation extraction (RE) is to link entities (A, B) to each other based on them being mentioned together in documents (A → documents → B).
 
-Go to <https://diseases.jensenlab.org/> and query for **colorectal cancer**. Again, click on it on the Search results page .
+Go to <https://diseases.jensenlab.org/> and query for **colorectal cancer**. Click on the disease term on the Search results page.
 
 _Which gene is most strongly associated with colorectal cancer according to text mining?_
 
@@ -75,11 +75,11 @@ Click on **TP53** in the text-mining table.
 
 _Do the abstracts in fact support an association between colorectal cancer and TP53? Comparing it with KRAS which disease-gene association seems to be more clearly stated in the text? Can you think of a reason why?_
 
-Cooccurrence-based relation extraction is a very generic approach, which can be used to find associations between any two types of entities for which we can do NER. For example, we can use the same approach to extract **EGFR**-associated terms from the mammalian phenotype:
+Cooccurrence-based relation extraction is a very generic approach, which can be used to find associations between any two types of entities for which we can do NER. For example, we can use the same approach to extract **EGFR**-associated terms from the [mammalian phenotype database](https://phenotypes.jensenlab.org/About):
 
 <https://phenotypes.jensenlab.org/Entity?textmining=20&type1=9606&type2=-36&id1=ENSP00000275493>
 
-_Is the association between EGFR and Increased cell death well established in the literature? Do **all** the papers that mention the two terms actually support this association?_
+_Is the association between EGFR and Increased cell death well established in the literature? Do **all** the papers that mention the two terms in the first page of the results actually support this association?_
 
 ## Exercise 2
 
