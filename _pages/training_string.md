@@ -50,7 +50,7 @@ Change the **minimum required interaction score** to high confidence (0.700).
 
 _Does this change the set of proteins shown? Does it change the interactions shown?_
 
-Change the network type from **full STRING network** to **physical subnetwork**. 
+Change the network type from **full STRING network** to **physical subnetwork**.
 
 _Does this change the set of proteins and interactions shown in the network? (Hint: check the Legend tab.)_
 
@@ -117,6 +117,7 @@ _Which host proteins does P interact with?  What types of evidence supports thes
 The theoretical background for these exercises is covered in these short online lectures:
 
 [![STRING](training_string.png)](https://youtu.be/o208DwyFbNk)
+[![STRING tutorial](training_string_tutorial.png)](https://youtu.be/KhRAyUNYFyE)
 [![DISEASES](training_diseases.png)](https://youtu.be/xkYixhO2CJQ)
 
 ## Supporting literature
