@@ -24,9 +24,6 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-8--12 November 2021, Copenhagen, Denmark  
-Big Data Analytics and Machine Learning I
-
 7 February 2022, Copenhagen, Denmark  
 Bioinformatics Analysis of Gene Expression Data
 
@@ -36,6 +33,12 @@ Statistical Methods in Bioinformatics
 ## Past events
 
 ### 2021
+
+8 December 2021, Odense, Denmark
+Workshops in Applied Bioinformatics
+
+8--12 November 2021, Copenhagen, Denmark  
+Big Data Analytics and Machine Learning I
 
 4 November 2021, Copenhagen, Denmark (online)  
 Network Biology for Dummies
