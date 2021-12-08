@@ -34,7 +34,7 @@ Statistical Methods in Bioinformatics
 
 ### 2021
 
-8 December 2021, Odense, Denmark
+8 December 2021, Odense, Denmark  
 Workshops in Applied Bioinformatics
 
 8--12 November 2021, Copenhagen, Denmark  
