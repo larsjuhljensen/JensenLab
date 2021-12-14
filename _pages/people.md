@@ -9,6 +9,7 @@ permalink: /people/
 
 ## Current group members
 [Dhouha Grissa](http://dgrissa.wixsite.com/dhouha-grissa)  
+[Esmaeil Nourani](https://www.linkedin.com/in/esmaeil-nourani-84618753/)  
 [Henrietta Holze](/people/henriettaholze/)  
 [Katerina Nastou](/people/katerinanastou/)  
 [Marie Locard-Paulet](/people/marielocardpaulet/)  
