@@ -13,6 +13,7 @@ permalink: /people/
 [Henrietta Holze](/people/henriettaholze/)  
 [Katerina Nastou](/people/katerinanastou/)  
 [Marie Locard-Paulet](/people/marielocardpaulet/)  
+[Maud Kerstholt](https://www.linkedin.com/in/mkerstholt/)  
 [Mikaela Koutrouli](https://www.linkedin.com/in/mikaela-koutrouli-24a877156/)  
 [Nadezhda T. Doncheva](/people/nadezhdatdoncheva/)  
 [Oana Palasca](https://www.linkedin.com/in/oanapalasca/)  
