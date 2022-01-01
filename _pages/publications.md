@@ -23,8 +23,8 @@ Yarani R, Palasca O, Doncheva NT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litm
 Santos A, Colaço AR, Nielsen AB, Niu L, Geyer PE, Coscia F, Albrechtsen NJW, Mundt F, Jensen LJ and Mann M (2020). Clinical knowledge graph integrates proteomics data into clinical decision-making. To appear in *Nature Biotechnology*.  
 [Preprint](https://doi.org/10.1101/2020.05.09.084897)
 
-Baltoumas FA, Zafeiropoulou S, Karatzas E, Paragkamian S, Thanati F, Iliopoulos I,  Eliopoulos AG, Schneider R, Jensen LJ, Pafilis E and Pavlopoulos GA (2021). OnTheFly2.0: a text-mining web application for automated biomedical entity recognition, document annotation, network and functional enrichment analysis. To appear in *Nucleic Acids Research*.  
-[Preprint](https://doi.org/10.1101/2021.05.14.444150)
+Baltoumas FA, Zafeiropoulou S, Karatzas E, Paragkamian S, Thanati F, Iliopoulos I,  Eliopoulos AG, Schneider R, Jensen LJ, Pafilis E and Pavlopoulos GA (2021). OnTheFly 2.0: a text-mining web application for automated biomedical entity recognition, document annotation, network and functional enrichment analysis. *Nucleic Acids Research Genomics and Bioinformatics*, **3**:lqab090.  
+[Full text](https://doi.org/10.1093/nargab/lqab090) [Preprint](https://doi.org/10.1101/2021.05.14.444150) <span class="__dimensions_badge_embed__" data-doi="10.1093/nargab/lqab090" data-style="small_rectangle"></span>
 
 Yang JJ, Grissa D, Lambert CG, Bologa CG, Mathias SL, Waller A, Wild DJ, Jensen LJ and Oprea TI (2021). TIGA: Target illumination GWAS analytics. *Bioinformatics*.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/34086846/) [Full text](https://doi.org/10.1093/bioinformatics/btab427) [Preprint](https://doi.org/10.1101/2020.11.11.378596) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btab427" data-style="small_rectangle"></span>
