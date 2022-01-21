@@ -20,6 +20,8 @@ projects:
         url: /projects/networks/#hostpathogen-interactions
       - title: "Animal models of diseases"
         url: /projects/networks/#animal-models-of-diseases
+      - title: "Network-based CRISPR design"
+        url: /projects/networks/#networkbased-crispr-design
       - title: "Disease networks"
         url: /projects/networks/#disease-networks
   - title: "Proteomics"

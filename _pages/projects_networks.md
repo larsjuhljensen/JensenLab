@@ -13,7 +13,11 @@ The study of host--parasite interactions is essential to understand parasitic in
 
 ## Animal models of diseases
 
-Having a good animal model of a disease is critical to study its molecular basis and to test possible treatments. However, it can be difficult to tell model organisms are best suited to study a given disease. We collaborate closely with the [Center for non-Coding RNA in Technology and Health](https://rth.dk/) to address this challenge as part of the AniGen project. By comparing disease-relevant interaction networks and pathways in the context both evolutionary information and tissue expression data, we aim to identify the differences that make one organism a better animal model of a human disease than another organism.
+Having a good animal model of a disease is critical to study its molecular basis and to test possible treatments. However, it can be difficult to tell model organisms are best suited to study a given disease. We collaborate closely with the the group of [Jan Gorodkin](https://rth.dk/) to address this challenge as part of the AniGen project. By comparing disease-relevant interaction networks and pathways in the context both evolutionary information and tissue expression data, we aim to identify the differences that make one organism a better animal model of a human disease than another organism.
+
+## Network-based CRISPR design
+
+CRISPR technology has revolutionized the gene functions are studied in basic and applied research. The two major challenges in designing CRISPR experiments is to create gRNAs that make the desired edits while avoid unintended edits elsewhere in the genome, and that the functions of the target gene may be compensated for by other genes. In a new project funded by the [Novo Nordisk Foundation](https://novonordiskfonden.dk/en/), we collaborate with the groups of [Yonglun Luo](https://dream.au.dk/) and [Jan Gorodkin](https://rth.dk/) to address both of these challenges, with our group specifically using deep learning on gene networks to address redundancy.
 
 ## Disease networks
 
