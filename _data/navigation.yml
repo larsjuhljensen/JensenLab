@@ -319,7 +319,7 @@ training-stringapp-dsd:
     children:
       - title: "Protein queries"
         url: /training/stringapp/dsd/#11-protein-queries
-      - title: "Compound queries"
+      - title: "Disease queries"
         url: /training/stringapp/dsd/#12-disease-queries
       - title: "Using the Cytoscape Search bar"
         url: /training/stringapp/dsd/#13-using-the-cytoscape-search-bar
@@ -336,10 +336,12 @@ training-stringapp-dsd:
         url: /training/stringapp/dsd/#24-continuous-color-mapping
       - title: "Network clustering"
         url: /training/stringapp/dsd/#25-network-clustering
+      - title: "Functional enrichment"
+        url: /training/stringapp/dsd/#26-functional-enrichment
       - title: "Overlap networks"
-        url: /training/stringapp/dsd/#26-overlap-networks
+        url: /training/stringapp/dsd/#27-overlap-networks
       - title: "Integrate networks"
-        url: /training/stringapp/dsd/#27-integrate-networks
+        url: /training/stringapp/dsd/#28-integrate-networks
   - title: "Supporting lectures"
     url: /training/stringapp/dsd/#supporting-lectures
   - title: "Supporting literature"

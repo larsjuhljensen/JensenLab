@@ -13,9 +13,10 @@ In these exercises, we will use the [stringApp](http://apps.cytoscape.org/apps/s
 * retrieve networks for a disease
 * layout and visually style the resulting networks
 * import external data and map them onto a network
+* identify functional modules through network clustering
+* perform enrichment analyses 
 * merge and compare networks
 * select proteins by attributes
-* identify functional modules through network clustering
 
 ## Prerequisites
 
@@ -39,7 +40,7 @@ _How many nodes are in the resulting network? What types of information does the
 
 ### 1.2 Disease queries
 
-Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: disease query** as **Data Source** and type a disease of interest into the **Enter disease term** field (e.g. Alzheimer's disease). The stringApp will retrieve a STRING network for the top-N proteins (by default 100) associated with the disease.
+Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: disease query** as **Data Source** and type a disease of interest into the **Enter disease term** field (e.g. temporal lobe epilepsy). The stringApp will retrieve a STRING network for the top-N proteins (by default 100) associated with the disease.
 
 The next dialog shows all the matches that the stringApp finds for your disease query and selects the first one. Make sure to select the intended disease before pressing the **Import** button to continue.
 
@@ -57,7 +58,7 @@ In this exercise, we will work with the list of genes identified as differential
 
 ### 2.1 Protein network retrieval
 
-Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: protein query** as the **Data Source** and paste the list of gene names from the _Gene.name_ column in the table into the **Enter protein names or identifiers** field.
+Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: protein query** as the **Data Source** and paste the list of gene names from the _Gene.name_ column in the table into the **Enter protein names or identifiers** field. Change the **Network type** to **physical subnetwork**
 
 Next, the disambiguation dialog shows all query terms that cannot be matched to a unique STRING protein, with the first matching STRING protein for each query term automatically selected. This default is fine for this exercise; click the **Import** button to continue. Check that **View → Always Show Graphics Details** for a detailed view of the network.
 
@@ -79,14 +80,14 @@ Select **Style** from the side menu in the left panel (it is between **Network**
 
 To color the proteins in a given target family, first click the field to the **right** of an attribute value, i.e. **GPCR** or **Kinase**, then click the ⋯ button and choose a color from the color selection dialog. You can also set the default color for all nodes that do not have a target family annotation from Pharos by clicking on the **grey square** in the first column of the **Fill Color** row.
 
-_How many of the proteins in the network are ion channels (IC) or GPCRs?_
+_How many of the proteins in the network are nuclear receptors (NR)?_
 
-There are many kinases in the network. We can avoid counting them manually by creating a selection filter in the **Filter** tab (located underneath **Style**). Click the **ᐩ** button and choose **Column filter** from the drop-down menu. Then, find and select the attribute **(T) Node: family**. Write **kinase** in the text field to select all nodes with this annotation.
+There are many GPCRs in the network. We can avoid counting them manually by creating a selection filter in the **Filter** tab (located underneath **Style**). Click the **ᐩ** button and choose **Column filter** from the drop-down menu. Then, find and select the attribute **(T) Node: family**. Write **GPCR** in the text field to select all nodes with this annotation.
 
 <!-- [Create filter for kinases](cycmd:filter create name="myfilter" json='{ "id" : "ColumnFilter", "parameters" : { "criterion" : "Kinase", "columnName" : "target::family", "predicate" : "CONTAINS"} }'){: .btn .btn--cybrowser .btn--primary}
  -->
 
-_How many kinases are in the network?_
+_How many GPCRs are in the network?_
 
 ### 2.3 Data import
 
@@ -95,6 +96,8 @@ Network nodes and edges can have additional information associated with them tha
 To import the node attributes file into Cytoscape, go to **File → Import → Table from File**. In the resulting dialog entitled Import Columns From Table, use the drop-down menu next to **Where to Import Table Data** to choose the option **To a Network Collection**. Next, change the **Key Column for Network** from **shared name** to **query term** and click **OK**.
 
 [Import table](cycmd:table import url url="https://jensenlab.org/assets/Francavilla2017CellRep.tsv" keyColumnForMapping="query term" keyColumnIndex=1 startLoadRow=1){: .btn .btn--cybrowser .btn--primary}
+
+_Do you see the columns from the Excel table in the Node Table in Cytoscape?_
 
 <details>
 <summary><em>Detailed explanation: Understanding Cytoscape's data import</em></summary>
@@ -110,23 +113,29 @@ To import the node attributes file into Cytoscape, go to **File → Import → T
 
 ### 2.4 Continuous color mapping
 
-Now, we want to color the nodes according to the quantitative phosphorylation data (log ratios) between disease (EOC) and the two healthy tissues distal fallopian tube epithelium (FTE) and ovarian surface epithelium (OSE) for the most significant site for each protein. From the left panel side menu, select **Style** (it is underneath **Network**). Then click on the **◀** button to the right of the property you want to change, for example **Fill Color**. Next, set **Column** to the node column containing the data that you want to use (EOC vs FTE&OSE). Since this is a numeric value, we will use the **Continuous Mapping** as the **Mapping Type**, and set a color gradient for how abundant each protein is. The default Cytoscape color gradient blue--white--red already gives a nice visualization of the log ratio.
+Now, we want to color the nodes according to the differential expression . From the left panel side menu, select **Style** (it is underneath **Network**). Then click on the **◀** button to the right of the property you want to change, for example **Fill Color**. Next, set **Column** to the node column containing the data that you want to use (EOC vs FTE&OSE). Since this is a numeric value, we will use the **Continuous Mapping** as the **Mapping Type**, and set a color gradient for how abundant each protein is. The default Cytoscape color gradient blue--white--red already gives a nice visualization of the log ratio.
 
 _Are the up-regulated nodes grouped together? Do you see any issues with the color gradient?_
 
 To change the colors, double click on the color gradient in order to bring up the **Continuous Mapping Editor** window and edit the colors for the continuous mapping. In the mapping editor dialog, the color that will be used for the minimum value is on the left, and the maximum is on the right. Double click on the triangles on the top and sides of the gradient to change the colors. The triangles on the top represent the values at which the data will be clipped; anything above the right triangle will be set to the max value. This is useful if you have a small number of values that are significantly higher than the median. As you move the triangles and change the color, the display in the network pane will automatically update -- this is all easier to do than to explain! If at any point it does not seem to work as expected, it is easiest to just delete the mapping and start again.
 
-_Can you improve the color mapping such that it is easier to see which nodes have a log ratio below -4 and above 4?_
+_Can you improve the color mapping such that it is easier to see which nodes have a log ratio below -2 and above 2?_
 
 ### 2.5 Network clustering
 
 Next, we will use the MCL algorithm to identify clusters of tightly connected proteins within the network. To do that, press the **Cluster network (MCL)** button in the **STRING Results panel** on the right side of the network view. Keep the default **granularity parameter (inflation value)** set to **4** and click **OK** to start the clustering. The clusterMaker app will now run the algorithm and automatically create a network showing the clusters.
 
-<!--Go to the menu **Apps → clusterMaker → MCL Cluster**. Set the **Granularity parameter (inflation value)** to 4 and choose the **stringdb::score** attribute (i.e. the overall STRING confidence score) as **Array Sources**, select the option **Create new clustered network**, and click OK to start the clustering. The app will now run the algorithm and automatically create a network showing the clusters.
--->
+<details>
+<summary><em>Alternative instructions for clustering</em></summary>
+
+<p>Go to the menu **Apps → clusterMaker → MCL Cluster**. Set the **Granularity parameter (inflation value)** to 4 and choose the **stringdb::score** attribute (i.e. the overall STRING confidence score) as **Array Sources**, select the option **Create new clustered network**, and click OK to start the clustering. The app will now run the algorithm and automatically create a network showing the clusters.</p>
+</details>
+
 [Cluster network](cycmd:cluster mcl attribute=score inflation_parameter=4 showUI=true){: .btn .btn--cybrowser .btn--primary}
 
 _How many clusters have at least 10 nodes?_
+
+### 2.6 Functional enrichment
 
 We will work with the largest cluster in the network (it should be in the upper left corner). Select the nodes of this cluster by holding down the modifier key (Shift on Windows, Ctrl or Command on Mac) and then left-clicking and dragging to select multiple nodes. The nodes will turn yellow if they are selected properly. Then, create a new network by clicking on the **New Network from Selection** button and choosing the option **From Selected Nodes, All Edges** or via the menu item **File → New Network → From Selected Nodes, All Edges**.
 
@@ -136,21 +145,43 @@ We will work with the largest cluster in the network (it should be in the upper 
 
 _How many nodes and edges are there in this cluster?_
 
-The cluster is very dense and almost fully connected, i.e. it has edges representing functional associations between almost all pairs of nodes. Change the network type to physical interactions by navigating to the **Edges tab** in the **STRING Results panel** and clicking the **Change network type** button. Leave the confidence cutoff at the default value, change the network type from **full STRING network** to **physical subnetwork** using the drop-down menu, and click **OK**. To better see the new set of edges, apply a layout of your choosing, e.g. the **yFiles Organic Layout**.
+After making sure that no nodes are selected in the current network, go to the menu **Apps → STRING Enrichment → Retrieve functional enrichment** or use the **Functional Enrichment** button in the **Nodes tab** of the **STRING Panel** on the right side. Then, select the original, not clustered network ‘String Network’ as **Background** (instead of ‘genome’) and click **OK**. A new **STRING Enrichment tab** will appear in the **Table Panel** on the bottom. It contains a table of enriched terms and corresponding information for each enrichment category. You can see which proteins are annotated with a given term by selecting the term in the **STRING Enrichment panel** and you can see the terms annotating a given node by slecting it.
 
-_How many edges does the resulting network contain and why are there now fewer edges?_
+[Set as STRING network](cycmd:string make string){: .btn .btn--cybrowser .btn--primary}
+[Retrieve functional enrichment](cycmd:string retrieve enrichment){: .btn .btn--cybrowser .btn--primary}
+[Show functional enrichment](cycmd:string show enrichment){: .btn .btn--cybrowser .btn--primary}
 
-### 2.6 Overlap networks
+_How many statistically significant terms are in the table? Which is the most significant term for each of the categories GO Biological Process, Reactome and KEGG Pathways? Hint: Look at the FDR (false discovery rate) value column and use the **Filter** button to select individual categories._
 
-Cytoscape provides functionality to merge two or more networks, building either their union, intersection or difference. We will now merge the network we have from the DISEASES query with the one we have from the data, so that we can identify the overlap between them. Use the Merge tool (**Tools → Merge → Networks...**) and select the **Intersection** button. Then, select the two STRING networks from **Available Networks** list. Click on **>** to add them to the list of **Networks to Merge** and click **Merge**.
+<!-- To explore only specific types of terms, e.g. GO terms, and to remove redundant terms from the table, click on the filter icon in the **Table panel** (leftmost icon). Select the three types of GO terms, enable the option to **Remove redundant terms** and set **Redundancy cutoff** to 0.2. In this way, you will see only the statistically significant GO terms that do not represent largely the same set of proteins within the network. You can see which proteins are annotated with a given term by selecting the term in the **STRING Enrichment** panel.
+
+[Filter functional enrichment](cycmd:string filter enrichment categories="GO Process,GO Component,GO Function" overlapCutoff=0.2 removeOverlapping=true){: .btn .btn--cybrowser .btn--primary}
+ -->
+
+<!--
+Next, we will visualize the top-5 enriched terms in the network using split charts. Choose the category **GO Biological Process** and click the colorful chart icon to show the terms as the charts on the network. You can manually change the layout of the network to improve the visualization. First apply the **yFiles Organic Layout** and then scale the network to reduce the overlap of the charts using the **Layout Tools (Layout → Layout Tools**).
+
+To save the list of enriched terms and associated p-values as a text file, go to **Apps → STRING Enrichment → Export enrichment results**.
+
+To retrieve a list of publications that are enriched for the proteins in the network, go to the menu **Apps → STRING Enrichment → Retrieve enriched publications** or press the **Enriched Publications** button. A new tab called **STRING Publications** will appear in the **Table Panel** on the bottom. It contains a table of enriched publications and associated information such as how many of the network proteins were mentioned in each publication.
+
+[Retrieve enriched publications](cycmd:string retrieve publications){: .btn .btn--cybrowser .btn--primary}
+[Show enriched publications](cycmd:string show publications){: .btn .btn--cybrowser .btn--primary}
+
+_What is the title of the most recent publication?_
+-->
+
+### 2.7 Overlap networks
+
+Cytoscape provides functionality to merge two or more networks, building either their union, intersection or difference. We will now merge the network we have from the DISEASES query (_STRING network - temporal lobe epilepsy_) with the one we have from the data, so that we can identify the overlap between them. Use the Merge tool (**Tools → Merge → Networks...**) and select the **Intersection** button. Then, select the two STRING networks from **Available Networks** list. Click on **>** to add them to the list of **Networks to Merge** and click **Merge**.
 
 _How many nodes are in the intersection?_
 
-### 2.7 Integrate networks
+### 2.8 Integrate networks
 
-Now we will make the union of the intersection network, which contains the disease scores, and the experimental network. Use the **Merge** tool again to make the **Union** of the merged network and ‘String Network’. Make sure that the new merged network has the same number of nodes and edges as ‘String Network’, and that some nodes have a disease score (look for the column with this name and sort it by clicking on the column name).
+Now we will make the union of the intersection network, which contains the disease scores, and the experimental network. Use the **Merge** tool again to make the **Union** of the merged network and ‘String Network’. Make sure that the new merged network has the same number of nodes and edges as _STRING Network (physical)_, and that some nodes have a disease score (look for the column with this name and sort it by clicking on the column name).
 
-Now, we can change the visualization of the merged network to look like a STRING network and to be able to identify proteins with a high disease confidence score. Specifically, we will change the size of the nodes in function of their **disease score**. Select **Style** in the **Control Panel** and click on the drop-down menu to change the style from **default** to **STRING style v1.5**. Then, click on the **Lock node width and height** option to enable it so that the nodes have only one attribute **Size** instead of two attributes **Height** and **Width**. Modify the values so that by default a node size is 30. To change the default value, you have to click on the default **35.0** value at the left of the Size attribute. Click on the ◀ button to add a continuous mapping of the **Size** attribute using the **disease score**. The mapping should go from 40 for the lowest disease score to 80 for the highest score. To change the mapping values, first double click on the chart and then double click on the square corresponding to the value you want to modify and set the value you want (40 and 80). Remember to _show the graphics details_ as well as to use a layout that allows you to see all nodes in the network (e.g. **yFiles Organic Layout**).
+Now, we can change the visualization of the merged network to look like a STRING network and to be able to identify proteins with a high disease confidence score. Specifically, we will change the size of the nodes in function of their **disease score**. Select **Style** in the **Control Panel** and click on the drop-down menu to change the style from **default** to **STRING style v1.5**. Then, click on the **Lock node width and height** option to enable it so that the nodes have only one attribute **Size** instead of two attributes **Height** and **Width**. Modify the values so that by default a node size is 30. To change the default value, you have to click on the default **35.0** value at the left of the Size attribute. Click on the ◀ button to add a continuous mapping of the **Size** attribute using the **disease score**. The mapping should go from 40 for the lowest disease score to 80 for the highest score. To change the mapping values, first double click on the chart and then double click on the triangle corresponding to the value you want to modify and set the value you want (40 and 80). Remember to _show the graphics details_ as well as to use a layout that allows you to see all nodes in the network (e.g. **yFiles Organic Layout**).
 
 _Which protein from the experimental data has the highest disease score? Hint: sort the **disease score** column or find the largest node in the network view._
 
