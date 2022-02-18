@@ -54,7 +54,7 @@ The types of queries described above can alternatively be performed through the 
 
 ## Exercise 2
 
-In this exercise, we will work with the list of genes identified as differentially expressed in the study by [Kjaer et al.](https://doi.org/10.1093/brain/awz265). The results table can be downloaded [here]().
+In this exercise, we will work with the list of genes identified as differentially expressed in the study by [Kjær et al.](https://doi.org/10.1093/brain/awz265). We recommend using Excel or a similar program to open the file, which you can download from [here]().
 
 ### 2.1 Protein network retrieval
 
@@ -128,7 +128,7 @@ Next, we will use the MCL algorithm to identify clusters of tightly connected pr
 <details>
 <summary><em>Alternative instructions for clustering</em></summary>
 
-<p>Go to the menu **Apps → clusterMaker → MCL Cluster**. Set the **Granularity parameter (inflation value)** to 4 and choose the **stringdb::score** attribute (i.e. the overall STRING confidence score) as **Array Sources**, select the option **Create new clustered network**, and click OK to start the clustering. The app will now run the algorithm and automatically create a network showing the clusters.</p>
+<p>Go to the menu <b>Apps → clusterMaker → MCL Cluster</b>>. Set the <b>Granularity parameter (inflation value)</b> to 4 and choose the <b>stringdb::score</b> attribute (i.e. the overall STRING confidence score) as <b>Array Sources</b>, select the option <b>Create new clustered network</b>, and click OK to start the clustering. The app will now run the algorithm and automatically create a network showing the clusters.</p>
 </details>
 
 [Cluster network](cycmd:cluster mcl attribute=score inflation_parameter=4 showUI=true){: .btn .btn--cybrowser .btn--primary}

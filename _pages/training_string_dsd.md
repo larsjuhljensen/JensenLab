@@ -50,7 +50,7 @@ _Do the abstracts all mention both the protein and the disease? Do they all use 
 
 ## Exercise 2
 
-In this exercise, we will work with the list of genes identified as differentially expressed in the study by [Kjaer et al.](https://doi.org/10.1093/brain/awz265). The results table can be downloaded [here]().
+In this exercise, we will work with the list of genes identified as differentially expressed in the study by [Kjær et al.](https://doi.org/10.1093/brain/awz265). We recommend using Excel or a similar program to open the file, which you can download from [here](). 
 
 ### 2.1 Multiple proteins query 
 
