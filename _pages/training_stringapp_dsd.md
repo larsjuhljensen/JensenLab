@@ -54,7 +54,7 @@ The types of queries described above can alternatively be performed through the 
 
 ## Exercise 2
 
-In this exercise, we will work with the list of genes identified as differentially expressed in the study by [Kjær et al.](https://doi.org/10.1093/brain/awz265). We recommend using Excel or a similar program to open the file, which you can download from [here]().
+In this exercise, we will work with the list of genes identified as differentially expressed in the study by [Kjær et al.](https://doi.org/10.1093/brain/awz265). We recommend using Excel or a similar program to open the file, which you can download from [here](/assets/DEA.sig.padj.logFC.baseMean.tsv).
 
 ### 2.1 Protein network retrieval
 
