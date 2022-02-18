@@ -97,6 +97,7 @@ _Do the pathways annotate the same set of genes or not?_
 The theoretical background for these exercises is covered in these short online lectures:
 
 [![STRING](training_string.png)](https://youtu.be/o208DwyFbNk)
+[![Enrichment analysis](training_enrichment_analysis.png)](https://youtu.be/2NC1QOXmc5o)
 [![STRING tutorial](training_string_tutorial.png)](https://youtu.be/KhRAyUNYFyE)
 
 ## Supporting literature
