@@ -155,6 +155,32 @@ training-string:
   - title: "Supporting literature"
     url: /training/string/#supporting-literature
 
+training-string-dsd:
+  - title: "Learning objectives"
+    url: /training/string/dsd/#learning-objectives
+  - title: "Exercise 1"
+    url: /training/string/dsd/#exercise-1
+    children:
+      - title: "Single protein query"
+        url: /training/string/dsd/#11-single-protein-query
+      - title: "Visual representations"
+        url: /training/string/dsd/#12-visual-representations
+      - title: "Evidence viewers"
+        url: /training/string/dsd/#13-evidence-viewers
+  - title: "Exercise 2"
+    url: /training/string/dsd/#exercise-2
+    children:
+      - title: "Multiple proteins query"
+        url: /training/string/dsd/#21-multiple-proteins-query
+      - title: "Query parameters"
+        url: /training/string/dsd/#22-query-parameters
+      - title: "Functional enrichment"
+        url: /training/string/dsd/#23-functional-enrichment
+  - title: "Supporting lectures"
+    url: /training/string/dsd/#supporting-lectures
+  - title: "Supporting literature"
+    url: /training/string/dsd/#supporting-literature
+
 training-stringapp:
   - title: "Learning objectives"
     url: /training/stringapp/#learning-objectives
