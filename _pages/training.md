@@ -35,10 +35,15 @@ Statistical Methods in Bioinformatics
 
 ## Past events
 
-### 2021
+### 2022
 
 7 February 2022, Copenhagen, Denmark
 Bioinformatics Analysis of Gene Expression Data
+
+7 January 2022, Copenhagen, Denmark (online)  
+Protein Research and Critical Thinking
+
+### 2021
 
 8 December 2021, Odense, Denmark  
 Workshops in Applied Bioinformatics
