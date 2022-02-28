@@ -321,8 +321,6 @@ training-stringapp-dsd:
         url: /training/stringapp/dsd/#11-protein-queries
       - title: "Disease queries"
         url: /training/stringapp/dsd/#12-disease-queries
-      - title: "Using the Cytoscape Search bar"
-        url: /training/stringapp/dsd/#13-using-the-cytoscape-search-bar
   - title: "Exercise 2"
     url: /training/stringapp/dsd/#exercise-2
     children:
