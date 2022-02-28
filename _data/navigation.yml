@@ -334,14 +334,17 @@ training-stringapp-dsd:
         url: /training/stringapp/dsd/#23-data-import
       - title: "Continuous color mapping"
         url: /training/stringapp/dsd/#24-continuous-color-mapping
+  - title: "Exercise 3"
+    url: /training/stringapp/dsd/#exercise-3
+    children:
       - title: "Network clustering"
-        url: /training/stringapp/dsd/#25-network-clustering
+        url: /training/stringapp/dsd/#31-network-clustering
       - title: "Functional enrichment"
-        url: /training/stringapp/dsd/#26-functional-enrichment
-      - title: "Overlap networks"
-        url: /training/stringapp/dsd/#27-overlap-networks
+        url: /training/stringapp/dsd/#32-functional-enrichment
+      - title: "Overlap with DISEASES network"
+        url: /training/stringapp/dsd/#33-overlap-with-diseases-network
       - title: "Integrate networks"
-        url: /training/stringapp/dsd/#28-integrate-networks
+        url: /training/stringapp/dsd/#34-integrate-networks
   - title: "Supporting lectures"
     url: /training/stringapp/dsd/#supporting-lectures
   - title: "Supporting literature"

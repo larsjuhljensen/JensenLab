@@ -36,7 +36,7 @@ Unless the name(s) you entered give unambiguous matches, a disambiguation dialog
 
 [Import SORCS2 network](cycmd:string protein query query=SORCS2 taxonID=9606){: .btn .btn--cybrowser .btn--primary}
 
-_How many nodes are in the resulting network? What types of information does the **Node Table** provide?_
+_How many nodes are in the resulting network? What types of information do the **Node Table** and the **Edge Table** provide?_
 
 ### 1.2 Disease queries
 
@@ -48,9 +48,10 @@ The next dialog shows all the matches that the stringApp finds for your disease 
 
 _Which additional attribute column do you get in the **Node Table** for a disease query compared to a protein query? Hint: check the last column._
 
-### 1.3 Using the Cytoscape Search bar
+<!-- ### 1.3 Using the Cytoscape Search bar
 
 The types of queries described above can alternatively be performed through the Cytoscape Search bar (located at the top of the **Network** panel in the **Control Panel**). Click on the drop-down menu with an icon for the different resources. Select one of the four possible STRING queries and directly enter your query in the text field. To change settings such as organism, click the ☰ button next to the text field. Finally, click the 🔍 button to retrieve a STRING network for your query.
+ -->
 
 ## Exercise 2
 
@@ -66,11 +67,11 @@ Next, the disambiguation dialog shows all query terms that cannot be matched to 
 
 _How many nodes and edges are there in the resulting network? Do the proteins all form a connected network? Why?_
 
-Cytoscape provides several visualization options under the **Layout** menu. Try the **Degree Sorted Circle Layout**, the **Prefuse Force Directed Layout** with score as edge weight, and **yFiles Organic Layout**.
+Cytoscape provides several visualization options under the **Layout** menu. Try the **Degree Sorted Circle Layout**, the **Prefuse Force Directed Layout** or the **Edge-weighted Spring Embedded Layout** with **score** as edge weight, and the **yFiles Organic Layout**.
 
 [Layout network](cycmd:layout kamada-kawai){: .btn .btn--cybrowser .btn--primary}
 
-_Can you find a layout that allows you to easily recognize patterns in the network? What about the Edge-weighted Spring Embedded Layout with the attribute ‘score’, which is the combined STRING interaction score?_
+_Does any of the suggested layouts make patterns in the network easy to recognize?_
 
 ### 2.2 Discrete color mapping
 
@@ -121,7 +122,9 @@ To change the colors, double click on the color gradient in order to bring up th
 
 _Can you improve the color mapping such that it is easier to see which nodes have a log ratio below -2 and above 2?_
 
-### 2.5 Network clustering
+## Exercise 3
+
+### 3.1 Network clustering
 
 Next, we will use the MCL algorithm to identify clusters of tightly connected proteins within the network. To do that, press the **Cluster network (MCL)** button in the **STRING Results panel** on the right side of the network view. Keep the default **granularity parameter (inflation value)** set to **4** and click **OK** to start the clustering. The clusterMaker app will now run the algorithm and automatically create a network showing the clusters.
 
@@ -135,7 +138,7 @@ Next, we will use the MCL algorithm to identify clusters of tightly connected pr
 
 _How many clusters have at least 10 nodes?_
 
-### 2.6 Functional enrichment
+### 3.2 Functional enrichment
 
 We will work with the largest cluster in the network (it should be in the upper left corner). Select the nodes of this cluster by holding down the modifier key (Shift on Windows, Ctrl or Command on Mac) and then left-clicking and dragging to select multiple nodes. The nodes will turn yellow if they are selected properly. Then, create a new network by clicking on the **New Network from Selection** button and choosing the option **From Selected Nodes, All Edges** or via the menu item **File → New Network → From Selected Nodes, All Edges**.
 
@@ -171,20 +174,21 @@ To retrieve a list of publications that are enriched for the proteins in the net
 _What is the title of the most recent publication?_
 -->
 
-### 2.7 Overlap networks
+### 3.3 Overlap with DISEASES network
 
 Cytoscape provides functionality to merge two or more networks, building either their union, intersection or difference. We will now merge the network we have from the DISEASES query (_STRING network - temporal lobe epilepsy_) with the one we have from the data, so that we can identify the overlap between them. Use the Merge tool (**Tools → Merge → Networks...**) and select the **Intersection** button. Then, select the two STRING networks from **Available Networks** list. Click on **>** to add them to the list of **Networks to Merge** and click **Merge**.
 
 _How many nodes are in the intersection?_
 
-### 2.8 Integrate networks
+### 3.4 Integrate networks
 
 Now we will make the union of the intersection network, which contains the disease scores, and the experimental network. Use the **Merge** tool again to make the **Union** of the merged network and ‘String Network’. Make sure that the new merged network has the same number of nodes and edges as _STRING Network (physical)_, and that some nodes have a disease score (look for the column with this name and sort it by clicking on the column name).
 
+_Which protein from the experiment has the highest disease score?_
+
 Now, we can change the visualization of the merged network to look like a STRING network and to be able to identify proteins with a high disease confidence score. Specifically, we will change the size of the nodes in function of their **disease score**. Select **Style** in the **Control Panel** and click on the drop-down menu to change the style from **default** to **STRING style v1.5**. Then, click on the **Lock node width and height** option to enable it so that the nodes have only one attribute **Size** instead of two attributes **Height** and **Width**. Modify the values so that by default a node size is 30. To change the default value, you have to click on the default **35.0** value at the left of the Size attribute. Click on the ◀ button to add a continuous mapping of the **Size** attribute using the **disease score**. The mapping should go from 40 for the lowest disease score to 80 for the highest score. To change the mapping values, first double click on the chart and then double click on the triangle corresponding to the value you want to modify and set the value you want (40 and 80). Remember to _show the graphics details_ as well as to use a layout that allows you to see all nodes in the network (e.g. **yFiles Organic Layout**).
 
-_Which protein from the experimental data has the highest disease score? Hint: sort the **disease score** column or find the largest node in the network view._
-
+_Can you find the protein with the highest disease score in the network view?_
 
 ## Supporting lectures
 

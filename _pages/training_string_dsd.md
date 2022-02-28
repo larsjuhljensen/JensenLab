@@ -60,15 +60,15 @@ _How many nodes and edges are in the resulting network?_
 
 ### 2.2 Query parameters
 
-The **Settings** tab allows you to modify detailed parameters for the search, such as the **network type**, the types of evidence to use (**active interaction sources**), the **minimum required interaction score**, and the **max number of interactors to show**.
+The **Settings** tab allows you to modify detailed parameters for the search, such as the **network type**, the **minimum required interaction score**, and the types of evidence to use (**active interaction sources**).
 
 Change the **minimum required interaction score** to high confidence (0.700).
 
-_How does this change the set of interactions shown?_
+_How does changing the confidence influence the set of interactions shown?_
 
 Change the network type from **full STRING network** to **physical subnetwork**. Do not forget to press the **UPDATE** button.
 
-_How does this change the set of interactions shown in the network?_
+_How does changing the network type influence the set of interactions shown in the network?_
 
 Change the **minimum required interaction score** back to medium confidence (0.400). 
 
