@@ -136,7 +136,7 @@ Bioinformatics for Human Biologists
 12--13 September 2019, Copenhagen, Denmark  
 Big Data Analytics and Machine Learning I
 
-4--5 September 2018, Copenhagen, Denmark  
+4--5 September 2019, Copenhagen, Denmark  
 Introduction to Molecular Bioscience
 
 19 June 2019, Berlin, Germany  
