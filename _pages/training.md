@@ -24,10 +24,10 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-3 March 2022, Copenhagen, Denmark
+3 March 2022, Copenhagen, Denmark  
 Digital Health and Data
 
-20 March 2022, Lisbon, Portugal
+20 March 2022, Lisbon, Portugal  
 EuBIC-MS Winter School 2022
 
 22 March 2022, Copenhagen, Denmark  
@@ -37,7 +37,7 @@ Statistical Methods in Bioinformatics
 
 ### 2022
 
-7 February 2022, Copenhagen, Denmark
+7 February 2022, Copenhagen, Denmark  
 Bioinformatics Analysis of Gene Expression Data
 
 7 January 2022, Copenhagen, Denmark (online)  
