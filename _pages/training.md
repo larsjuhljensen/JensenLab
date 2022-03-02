@@ -31,7 +31,7 @@ Digital Health and Data
 Fundamental Bioinformatics
 
 20 March 2022, Lisbon, Portugal  
-EuBIC-MS Winter School 2022
+EuBIC-MS Winter School
 
 22 March 2022, Copenhagen, Denmark  
 Statistical Methods in Bioinformatics
@@ -166,7 +166,7 @@ Statistical Methods in Bioinformatics
 Fundamental Bioinformatics
 
 15 January, 2019, Zakopane, Poland  
-EuBIC-MS Winter School 2019
+EuBIC-MS Winter School
 
 ### 2018
 
