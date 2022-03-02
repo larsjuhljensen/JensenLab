@@ -166,7 +166,7 @@ Statistical Methods in Bioinformatics
 Fundamental Bioinformatics
 
 15 January, 2019, Zakopane, Poland  
-Cytoscape/STRING Workshop
+EuBIC-MS Winter School 2019
 
 ### 2018
 
