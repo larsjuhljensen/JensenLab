@@ -180,7 +180,7 @@ Cytoscape/STRING Workshop
 EMBO Practical Course on Computational Analysis of Protein--Protein Interactions
 
 25--26 October 2018, São Pedro, Brazil  
-Network analysis and visualization with Cytoscape and STRING
+Network Analysis and Visualization with Cytoscape and STRING
 
 4--10 October 2018, Luxembourg City, Luxembourg  
 EMBO Practical Course on Phenotyping Neurological Syndromes for Systems Genetics
