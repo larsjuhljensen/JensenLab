@@ -43,7 +43,7 @@ Introduction to Bioinformatics
 
 ### 2022
 
-7 February 2022, Copenhagen, Denmark  
+7 February 2022, Copenhagen, Denmark (online)  
 Bioinformatics Analysis of Gene Expression Data
 
 7 January 2022, Copenhagen, Denmark (online)  
