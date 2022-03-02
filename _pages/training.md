@@ -24,20 +24,26 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-3 March 2022, Copenhagen, Denmark
+3 March 2022, Copenhagen, Denmark  
 Digital Health and Data
 
-20 March 2022, Lisbon, Portugal
+15 March 2022, Copenhagen, Denmark  
+Fundamental Bioinformatics
+
+20 March 2022, Lisbon, Portugal  
 EuBIC-MS Winter School 2022
 
 22 March 2022, Copenhagen, Denmark  
 Statistical Methods in Bioinformatics
 
+23 March 2022, Delaware, United States of America (online)  
+Introduction to Bioinformatics
+
 ## Past events
 
 ### 2022
 
-7 February 2022, Copenhagen, Denmark
+7 February 2022, Copenhagen, Denmark  
 Bioinformatics Analysis of Gene Expression Data
 
 7 January 2022, Copenhagen, Denmark (online)  
@@ -63,11 +69,14 @@ Applied Systems Biology
 17 and 22 September 2021, Copenhagen, Denmark  
 Bioinformatics for Human Biologists
 
+15--16 September 2021, Copenhagen, Denmark (online)  
+Introduction to Molecular Bioscience
+
 13--17 September 2021, Barcelona, Spain (online)  
 PROTrEIN summer school
 
 9--13 August 2021, Odense, Denmark (online)  
-NordBioMedNet Summer School (computational proteomics)
+NordBioMedNet Summer School
 
 13 April 2021, Copenhagen, Denmark (online)  
 Statistical Methods in Bioinformatics
@@ -93,10 +102,10 @@ Drug Research Academy Winter School
 Protein Research and Critical Thinking
 
 17--18 November 2020, Hillerød, Denmark  
-Critical reading of high-throughput data
+MoMeD Summer School
 
 9--13 November 2020, Copenhagen, Denmark (online)  
-Mass Spectrometry-based proteomics and its applications in biology
+Mass Spectrometry-based Proteomics and Its Applications in Biology
 
 5--9 October 2020, Lund, Sweden (online)  
 Omics Integration and Systems Biology  
@@ -133,7 +142,7 @@ EMBO Practical Course on Computational Analysis of Protein--Protein Interactions
 Bioinformatics for Animal Genomics
 
 25--26 September 2019, Belval, Luxembourg  
-Current advances in text mining
+Current Advances in Text Mining
 
 19--20 September 2019, Copenhagen, Denmark  
 Bioinformatics for Human Biologists
@@ -148,7 +157,7 @@ Introduction to Molecular Bioscience
 HEIBRiDS Data Science School
 
 6 June 2019, Hillerød, Denmark  
-Critical reading of high-throughput data
+MoMeD Summer School
 
 9 April 2019, Copenhagen, Denmark  
 Statistical Methods in Bioinformatics
