@@ -191,9 +191,6 @@ Bioinformatics for Human Biologists
 13 September 2018, Odense, Denmark  
 Workshops in Applied Bioinformatics
 
-13 September 2018, Odense, Denmark  
-STRING and Cytoscape Tutorial
-
 10--11 September 2018, Copenhagen, Denmark  
 Introduction to Molecular Bioscience
 
