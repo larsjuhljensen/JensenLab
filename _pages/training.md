@@ -24,9 +24,6 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-3 March 2022, Copenhagen, Denmark  
-Digital Health and Data
-
 15 March 2022, Copenhagen, Denmark  
 Fundamental Bioinformatics
 
@@ -42,6 +39,9 @@ Introduction to Bioinformatics
 ## Past events
 
 ### 2022
+
+3 March 2022, Copenhagen, Denmark  
+Digital Health and Data
 
 7 February 2022, Copenhagen, Denmark (online)  
 Bioinformatics Analysis of Gene Expression Data
