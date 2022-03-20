@@ -9,7 +9,7 @@ sidebar:
 
 In these exercises, we will use the [STRING](https://string-db.org/) database through its respective web interface. The exercises will teach you how to:
 
-* retrieve a STRING network for a protein of interest or a whole list of genes/proteins from a high-throughput experiment
+* retrieve a STRING network for a protein of interest or a list of genes/proteins from a high-throughput experiment
 * interpret the different visual representations
 * inspect the evidence behind an interaction
 * understand the query parameters and customize searches
@@ -50,11 +50,11 @@ _Do the abstracts all mention both the protein and the disease? Do they all use 
 
 ## Exercise 2
 
-In this exercise, we will work with the list of genes identified as differentially expressed in the study by [Kjær et al.](https://doi.org/10.1093/brain/awz265). We recommend using Excel or a similar program to open the file, which you can download from [here](/assets/DEA.sig.padj.logFC.baseMean.tsv). 
+In this exercise, we will work with the list of 541 proteins associated with epithelial ovarian cancer (EOC) as identified by phosphoproteomics in the study by [Francavilla et al.](https://doi.org/10.1016/j.celrep.2017.03.015). An adapted, simplified version of their results table can be downloaded [here](/assets/Francavilla2017CellRep.tsv). We recommend using Excel or a similar program to open the file. 
 
 ### 2.1 Multiple proteins query 
 
-We will first retrieve a network for the genes from the study. Go to <https://string-db.org/>, open the **Multiple proteins** search interface, and paste the list of gene names from the _Gene.name_ column in the table into the field **List Of Names**. Specify **Homo sapiens** in the **Organism** field and click **SEARCH**. You will first be presented with a disambiguation page, on which you can verify that the genes you entered are correctly mapped. Press **Continue** to view the protein network.
+We will first retrieve a network for the proteins from the study. Go to <https://string-db.org/>, open the **Multiple proteins** search interface, and paste the list of UniProt accession numbers from the _UniProt_ column in the table into the field **List Of Names**. Specify **Homo sapiens** in the **Organism** field and click **SEARCH**. You will first be presented with a disambiguation page, on which you can verify that the proteins you entered are correctly mapped. Press **Continue** to view the protein network.
 
 _How many nodes and edges are in the resulting network?_
 
@@ -88,9 +88,9 @@ Look at one of the categories you find interesting, for example the **Reactome P
 
 _What information is shown in each line of the table? How can you find out more about this annotation term?_
 
-Press on the first 3 pathways and you will see a color showing up next to each of them. Scroll up to the network view and find the genes annotated by these pathways.
+Press on the first 3 pathways and you will see a color showing up next to each of them. Scroll up to the network view and find the proteins annotated by these pathways.
 
-_Do the pathways annotate the same set of genes or not?_
+_Do the pathways annotate the same set of proteins or not?_
 
 ## Supporting lectures
 
