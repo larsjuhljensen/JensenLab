@@ -181,6 +181,32 @@ training-string-dsd:
   - title: "Supporting literature"
     url: /training/string/dsd/#supporting-literature
 
+training-string-eubic:
+  - title: "Learning objectives"
+    url: /training/string/eubic/#learning-objectives
+  - title: "Exercise 1"
+    url: /training/string/eubic/#exercise-1
+    children:
+      - title: "Single protein query"
+        url: /training/string/eubic/#11-single-protein-query
+      - title: "Visual representations"
+        url: /training/string/eubic/#12-visual-representations
+      - title: "Evidence viewers"
+        url: /training/string/eubic/#13-evidence-viewers
+  - title: "Exercise 2"
+    url: /training/string/eubic/#exercise-2
+    children:
+      - title: "Multiple proteins query"
+        url: /training/string/eubic/#21-multiple-proteins-query
+      - title: "Query parameters"
+        url: /training/string/eubic/#22-query-parameters
+      - title: "Functional enrichment"
+        url: /training/string/eubic/#23-functional-enrichment
+  - title: "Supporting lectures"
+    url: /training/string/eubic/#supporting-lectures
+  - title: "Supporting literature"
+    url: /training/string/eubic/#supporting-literature
+
 training-stringapp:
   - title: "Learning objectives"
     url: /training/stringapp/#learning-objectives
@@ -347,6 +373,45 @@ training-stringapp-dsd:
     url: /training/stringapp/dsd/#supporting-lectures
   - title: "Supporting literature"
     url: /training/stringapp/dsd/#supporting-literature
+
+training-stringapp-eubic:
+  - title: "Learning objectives"
+    url: /training/stringapp/eubic/#learning-objectives
+  - title: "Prerequisites"
+    url: /training/stringapp/eubic/#prerequisites
+  - title: "Exercise 1"
+    url: /training/stringapp/eubic/#exercise-1
+    children:
+      - title: "Protein queries"
+        url: /training/stringapp/eubic/#11-protein-queries
+      - title: "Disease queries"
+        url: /training/stringapp/eubic/#12-disease-queries
+  - title: "Exercise 2"
+    url: /training/stringapp/eubic/#exercise-2
+    children:
+      - title: "Protein network retrieval"
+        url: /training/stringapp/eubic/#21-protein-network-retrieval
+      - title: "Discrete color mapping"
+        url: /training/stringapp/eubic/#22-discrete-color-mapping
+      - title: "Data import"
+        url: /training/stringapp/eubic/#23-data-import
+      - title: "Continuous color mapping"
+        url: /training/stringapp/eubic/#24-continuous-color-mapping
+  - title: "Exercise 3"
+    url: /training/stringapp/eubic/#exercise-3
+    children:
+      - title: "Network clustering"
+        url: /training/stringapp/eubic/#31-network-clustering
+      - title: "Functional enrichment"
+        url: /training/stringapp/eubic/#32-functional-enrichment
+      - title: "Overlap with DISEASES network"
+        url: /training/stringapp/eubic/#33-overlap-with-diseases-network
+      - title: "Integrate networks"
+        url: /training/stringapp/eubic/#34-integrate-networks
+  - title: "Supporting lectures"
+    url: /training/stringapp/eubic/#supporting-lectures
+  - title: "Supporting literature"
+    url: /training/stringapp/eubic/#supporting-literature
 
 training-omicsvisualizer:
   - title: "Learning objectives"
