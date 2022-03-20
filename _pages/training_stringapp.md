@@ -140,7 +140,7 @@ Cytoscape allows you to map attributes of the nodes and edges to visual properti
 
 Select **Style** from the side menu in the left panel (it is between **Network** and **Filter**). Click the **◀** button to the right of the property you want to change, in this case **Fill Color**, and change **Column** from name to **(T) family**, which is the node column containing the data that you want to use. The **Mapping Type** should remain set to **Discrete Mapping**. This action will remove the rainbow coloring of the nodes and present you with a list of all the different values of the attribute that exist in the network, in this case several protein target families.
 
-To color the proteins in a given target family, first click the field to the **right** of an attribute value, i.e. **GPCR** or **Kinase**, then click the ⋯ button and choose a color from the color selection dialog. You can also set the default color for all nodes that do not have a target family annotation from Pharos by clicking on the **grey square** in the first column of the **Fill Color** row.
+To color the proteins in a given target family, first click the field to the **right** of an attribute value, i.e. **GPCR** or **IC**, then click the ⋯ button and choose a color from the color selection dialog. You can also set the default color for all nodes that do not have a target family annotation from Pharos by clicking on the **grey square** in the first column of the **Fill Color** row.
 
 _How many of the proteins in the network are ion channels (IC) or GPCRs?_
 
