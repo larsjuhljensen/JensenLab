@@ -84,7 +84,7 @@ Another key feature of STRING is the Analysis, where one can find network stats 
 
 _How many categories contain enriched annotation terms?_
 
-Look at one of the categories you find interesting, for example the **Reactome Pathways**, and explore it in more detail.
+Look at one of the categories you find interesting, for example the **KEGG Pathways**, and explore it in more detail.
 
 _What information is shown in each line of the table? How can you find out more about this annotation term?_
 
