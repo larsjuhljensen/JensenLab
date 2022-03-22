@@ -24,12 +24,6 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-15 March 2022, Copenhagen, Denmark  
-Fundamental Bioinformatics
-
-20 March 2022, Lisbon, Portugal  
-EuBIC-MS Winter School
-
 22 March 2022, Copenhagen, Denmark  
 Statistical Methods in Bioinformatics
 
@@ -39,6 +33,12 @@ Introduction to Bioinformatics
 ## Past events
 
 ### 2022
+
+20 March 2022, Lisbon, Portugal  
+EuBIC-MS Winter School
+
+15 March 2022, Copenhagen, Denmark  
+Fundamental Bioinformatics
 
 3 March 2022, Copenhagen, Denmark  
 Digital Health and Data
