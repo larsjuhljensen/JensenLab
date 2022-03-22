@@ -404,10 +404,8 @@ training-stringapp-eubic:
         url: /training/stringapp/eubic/#31-network-clustering
       - title: "Functional enrichment"
         url: /training/stringapp/eubic/#32-functional-enrichment
-      - title: "Overlap with DISEASES network"
-        url: /training/stringapp/eubic/#33-overlap-with-diseases-network
-      - title: "Integrate networks"
-        url: /training/stringapp/eubic/#34-integrate-networks
+      - title: "Functional enrichment extras"
+        url: /training/stringapp/eubic/#32-functional-enrichment-extras
   - title: "Supporting lectures"
     url: /training/stringapp/eubic/#supporting-lectures
   - title: "Supporting literature"

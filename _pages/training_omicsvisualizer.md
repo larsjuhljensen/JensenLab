@@ -56,7 +56,7 @@ We are now ready to start mapping the site-specific phosphoproteomics data onto 
 
 Click the donut button above the table or go to the menu **Apps → Omics Visualizer → Create donut visualization**. In the first dialog you choose the data to visualize; select **EOC vs FTE** as the first value set, click the **+** to add a second, select **EOC vs OSE** as the second value set, and choose **Continuous** as mapping. To label the visualization with the modified position(s) in the protein, select **AA position** as labels. Click **Next >** to get to the second dialog, which allows you to select the color palette and fine-tune the color gradient; as the default values are fine, simply click **Draw** to produce the visualization.
 
-_How are multiple sites on the same protein shown? Do different different within a protein always show similar changes?_
+_How are multiple sites on the same protein shown? Do different donut slices within a protein always show similar changes?_
 
 ### 1.5 Pie visualization
 
