@@ -24,15 +24,15 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-22 March 2022, Copenhagen, Denmark  
-Statistical Methods in Bioinformatics
-
 23 March 2022, Delaware, United States of America (online)  
 Introduction to Bioinformatics
 
 ## Past events
 
 ### 2022
+
+22 March 2022, Copenhagen, Denmark  
+Statistical Methods in Bioinformatics
 
 20 March 2022, Lisbon, Portugal  
 EuBIC-MS Winter School
