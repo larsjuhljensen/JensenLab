@@ -24,12 +24,21 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-23 March 2022, Delaware, United States of America (online)  
-Introduction to Bioinformatics
+21 and 28 September 2022, Copenhagen, Denmark  
+Bioinformatics for Human Biologists
+
+11--14 October 2022, Copenhagen, Denmark  
+Translational Discovery Omics II
+
+15--18 November 2022, Copenhagen, Denmark  
+Big Data Analytics and Machine Learning I
 
 ## Past events
 
 ### 2022
+
+23 March 2022, Delaware, United States of America (online)  
+Introduction to Bioinformatics
 
 22 March 2022, Copenhagen, Denmark  
 Statistical Methods in Bioinformatics
