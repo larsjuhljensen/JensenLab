@@ -20,6 +20,12 @@ Yarani R, Palasca O, Doncheva NT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litm
 
 ### 2022
 
+Pfeiffer A, Franciosa G, Locard-Paulet M, Piga I, Reckzeh K, Vemulapalli V, Blacklow SC, Theilgaard-Mönch K, Jensen LJ and Olsen JV (2022). Phosphorylation of SHP2 at Tyr62 enables acquired resistance to SHP2 allosteric inhibitors in FLT3-ITD-driven AML. *Cancer Research*.  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/35311954/) [Full text](https://doi.org/10.1158/0008-5472.CAN-21-0548) <span class="__dimensions_badge_embed__" data-doi="10.1158/0008-5472.CAN-21-0548" data-style="small_rectangle"></span>
+
+Grissa D, Junge A, Oprea TI and Jensen LJ (2021). DISEASES 2.0: a weekly updated database of disease–gene associations from text mining and data integration. *Database*, **2022**:baac019.  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/35348648/) [Full text](https://doi.org/10.1093/database/baac019) [Preprint](https://doi.org/10.1101/2021.12.07.471296) [WWW](https://diseases.jensenlab.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/database/baac019" data-style="small_rectangle"></span>
+
 Zahoránszky-Kőhalmi G, Siramshetty VB, Kumar P, Gurumurthy M, Grillo B, Mathew B, Metaxatos D, Backus M, Mierzwa T, Simon R, Grishagin I, Brovold L, Mathé EA, Hall MD, Michael SG, Godfrey AG, Mestres J, Jensen LJ and Oprea TI (2022). A workflow of integrated resources to catalyze network pharmacology driven COVID-19 research. *Journal of Chemical Information and Modeling*, **62**:718-729.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/35057621/) [Full text](https://doi.org/10.1021/acs.jcim.1c00431) <span class="__dimensions_badge_embed__" data-doi="10.1021/acs.jcim.1c00431" data-style="small_rectangle"></span>
 
