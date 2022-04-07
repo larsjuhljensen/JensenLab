@@ -7,8 +7,8 @@ sidebar:
 ---
 ## Preprints
 
-Grissa D, Junge A, Oprea TI, and Jensen LJ (2021). DISEASES 2.0: a weekly updated database of disease–gene associations from text mining and data integration. *bioRxiv*.  
-[Preprint](https://doi.org/10.1101/2021.12.07.471296) [WWW](https://diseases.jensenlab.org)
+Geissler A, Poulsen LD, Doncheva NT, Anthon C, Seemann SE, González-Tortuero E, Breüner A, Jensen LJ, Hjort C, Vinther J and Gorodkin J (2022). The impact of PrsA over-expression on the Bacillus subtilis transcriptome during fed-batch fermentation of alpha-amylase production. *bioRxiv*.  
+[Preprint](https://doi.org/10.1101/2022.04.05.487122)
 
 Koutrouli M, Morris JM, and Jensen LJ (2021). U-CIE [/juː 'siː/]: Color encoding of high-dimensional data. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2021.12.02.470966) [WWW](https://u-cie.jensenlab.org)
