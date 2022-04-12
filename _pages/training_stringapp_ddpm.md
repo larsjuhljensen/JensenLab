@@ -22,7 +22,7 @@ If you are not already familiar with the STRING and DISEASES databases, we highl
 
 ## Exercise 1
 
-In this exercise, we will perform some simple queries to retrieve molecular networks based on a protein and a topic in PubMed.
+In this exercise, we will perform a simple query to retrieve molecular networks based on a protein of interest.
 
 ### 1.1 Protein queries
 
@@ -34,14 +34,14 @@ Unless the name(s) you entered give unambiguous matches, a disambiguation dialog
 
 _How many nodes are in the resulting network? How does this compare to the maximum number of interactors you specified? What types of information do the **Node Table** and **Edge Table** provide?_
 
-### 1.2 PubMed queries
+<!-- ### 1.2 PubMed queries
 
 Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: PubMed query** as **Data Source** and type query representing a topic of interest into the **PubMed Query** field (e.g. jet-lag). You can use any query that would work on the PubMed website, but it should obviously a topic with related genes or proteins. The stringApp will query PubMed for the abstracts, find the top-N proteins (by default 100) associated with these abstracts, and retrieve a STRING network for them.
 
 [Import jet-lag network](cycmd:string pubmed query pubmed=jet-lag taxonID=9606 limit=50){: .btn .btn--cybrowser .btn--primary}
 
 _Which attribute column do you get in the **Node Table** for a PubMed query compared to a protein query? Hint: check the last columns._
-
+ -->
 ## Exercise 2
 
 In this exercise, we are going to use the stringApp to query the [DISEASES](https://diseases.jensenlab.org) database for proteins associated with diabetes, retrieve a STRING network for them, and explore the resulting network.
@@ -54,12 +54,12 @@ Note that the retrieved network contains a lot of additional information associa
 
 Find the **disease score** column in the node attributes table (look at the last columns). Sort it by values to see the highest and lowest confidence scores. You can highlight the corresponding nodes by selecting the rows in the table, bringing up the context menu (right-click the selected rows) and choosing the **Select nodes from selected rows** option. You can also use the **Fit Selected** icon in the menu bar to zoom into the selected node (**View → Fit Selected**).
 
-_Give an example for a node with the highest and lowest disease score._
+_How many nodes and edges are there in the resulting network? Are all proteins connected and why (not)? Which node has the highest disease score?_
 
-Cytoscape provides several visualization options under the **Layout** menu. Try the **Degree Sorted Circle Layout**, the **Prefuse Force Directed Layout** and the **Edge-weighted Spring Embedded Layout** with the attribute **score**, which is the combined STRING interaction scorewith **score**. If you have installed the **yFiles Layout Algorithms** app, you can also try the **yFiles Organic Layout**.
+<!-- Cytoscape provides several visualization options under the **Layout** menu. Try the **Degree Sorted Circle Layout**, the **Prefuse Force Directed Layout** and the **Edge-weighted Spring Embedded Layout** with the attribute **score**, which is the combined STRING interaction scorewith **score**. If you have installed the **yFiles Layout Algorithms** app, you can also try the **yFiles Organic Layout**.
 
 _Does any of the suggested layouts make patterns in the network easy to recognize?_
-
+ -->
 ### 2.2 Discrete color mapping
 
 Cytoscape allows you to map attributes of the nodes and edges to visual properties such as node color and edge width. Here, we will map drug target family data from the [Pharos](https://pharos.nih.gov/idg/targets) database to the node color. This data is contained in the node attribute called **target family**.
@@ -70,14 +70,14 @@ To color the proteins in a given target family, first click the field to the **r
 
 _How many of the proteins in the network are ion channels (IC) or GPCRs?_
 
-There are many kinases in the network. We can avoid counting them manually by creating a selection filter in the **Filter** tab (located underneath **Style**). Click the **ᐩ** button and choose **Column filter** from the drop-down menu. Then, find and select the attribute **(T) Node: family**. Write **kinase** in the text field to select all nodes with this annotation. Note that the current selection criterium is set to **contains**, but you can change it other values, such as **is** or **doesn't contain**.
+There are a few kinases in the network. We can avoid counting them manually by creating a selection filter in the **Filter** tab (located underneath **Style**). Click the **ᐩ** button and choose **Column filter** from the drop-down menu. Then, find and select the attribute **(T) Node: family**. Write **kinase** in the text field to select all nodes with this annotation. Note that the current selection criterium is set to **contains**, but you can change it other values, such as **is** or **doesn't contain**.
 
 _How many kinases are in the network?_
 
 
 ### 2.3 Inspect subcellular localization data
 
-The stringApp automatically retrieves information about in which compartments the proteins are located from the [COMPARTMENTS](https://compartments.jensenlab.org/) database, which we will take a look at first to better understand the data.
+The stringApp automatically retrieves information about compartments, in which the proteins are located, from the [COMPARTMENTS](https://compartments.jensenlab.org/) database. We will take a look at it first to better understand the data.
 
 Go to [COMPARTMENTS](https://compartments.jensenlab.org/) and enter **HNF1A** into the search box. The resulting page will show all matches for the query HNF1A. After selecting the human gene, you will see a schematic of where in the cell it is located and below it tables containing the specific lines of evidence that contribute to the overall score.
 
@@ -87,7 +87,7 @@ In Cytoscape, we can identify all the proteins in our network that are located i
 
 Select all remaining nodes in the network view by holding down the modifier key (Shift on Windows, Ctrl or Command on Mac) and then left-clicking and dragging to select multiple nodes. The nodes will turn yellow if they are selected properly. The number of selected nodes is shown in the light grey panel bar on the bottom-right part of the network view panel, just above the **Table panel**.
 
-_How many proteins are found in the nucleus with a confidence score of 5? In mitochondrion? In both nucleus and mitochondrion?_
+_How many proteins are found in the nucleus with a confidence score of 5? And in mitochondrion? And in both nucleus and mitochondrion?_
 
 Important: Move the filter back to 0.0 to see all nodes again before continuing with the next exercise.
 
