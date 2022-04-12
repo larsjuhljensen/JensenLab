@@ -411,6 +411,34 @@ training-stringapp-eubic:
   - title: "Supporting literature"
     url: /training/stringapp/eubic/#supporting-literature
 
+training-stringapp-ddpm:
+  - title: "Learning objectives"
+    url: /training/stringapp/ddpm/#learning-objectives
+  - title: "Prerequisites"
+    url: /training/stringapp/ddpm/#prerequisites
+  - title: "Exercise 1"
+    url: /training/stringapp/ddpm/#exercise-1
+    children:
+      - title: "Protein queries"
+        url: /training/stringapp/ddpm/#11-protein-queries
+      - title: "PubMed queries"
+        url: /training/stringapp/ddpm/#12-pubmed-queries
+  - title: "Exercise 2"
+    url: /training/stringapp/ddpm/#exercise-2
+    children:
+      - title: "Disease network retrieval"
+        url: /training/stringapp/ddpm/#21-disease-network-retrieval
+      - title: "Discrete color mapping"
+        url: /training/stringapp/ddpm/#22-discrete-color-mapping
+      - title: "Inspect subcellular localization data"
+        url: /training/stringapp/#23-inspect-subcellular-localization-data
+      - title: "Continuous color mapping"
+        url: /training/stringapp/ddpm/#24-continuous-color-mapping
+  - title: "Supporting lectures"
+    url: /training/stringapp/ddpm/#supporting-lectures
+  - title: "Supporting literature"
+    url: /training/stringapp/ddpm/#supporting-literature
+
 training-omicsvisualizer:
   - title: "Learning objectives"
     url: /training/omicsvisualizer/#learning-objectives
