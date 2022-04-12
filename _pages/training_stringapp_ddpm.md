@@ -16,9 +16,9 @@ In these exercises, we will use the [stringApp](http://apps.cytoscape.org/apps/s
 
 ## Prerequisites
 
-To follow the exercises, please make sure that you have the latest version of Cytoscape installed. Then start Cytoscape and go to **Apps → App Manager** to check for new apps, install them and update the current ones if necessary. The exercises require you to have certain Cytoscape apps installed. Search for the **stringApp** in the search field; if it is not already installed, select it and press the **Install** button to install it. Similarly, make sure you have the **yFiles Layout Algorithms** app installed before closing the App Manager.
+To follow the exercises, please make sure that you have the latest version of Cytoscape installed. Then start Cytoscape and go to **Apps → App Manager** to check for new apps, install them and update the current ones if necessary. Search for the **stringApp** in the search field; if it is not already installed, select it and press the **Install** button to install it. 
 
-If you are not already familiar with the STRING and DISEASES databases, we highly recommend that you go through the short [STRING exercises](/training/string/) to learn about the underlying data before working with them in these exercises.
+If you are not already familiar with the STRING and DISEASES databases, we highly recommend that you go through the [STRING exercises](/training/string/) to learn about the underlying data before working with them in these exercises.
 
 ## Exercise 1
 
