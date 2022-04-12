@@ -24,6 +24,9 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
+22 April and 21 June 2022, Copenhagen, Denmark  
+Datadrevet personlig medicin
+
 21 and 28 September 2022, Copenhagen, Denmark  
 Bioinformatics for Human Biologists
 
@@ -43,7 +46,7 @@ Introduction to Bioinformatics
 22 March 2022, Copenhagen, Denmark  
 Statistical Methods in Bioinformatics
 
-20 March 2022, Lisbon, Portugal  
+21 March 2022, Lisbon, Portugal  
 EuBIC-MS Winter School
 
 15 March 2022, Copenhagen, Denmark  
