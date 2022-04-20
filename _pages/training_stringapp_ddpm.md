@@ -87,7 +87,7 @@ _What tissues is INS present in with a high confidence? What source do these ass
 
 In Cytoscape, we can identify all the proteins in our network that are expressed in the pancreas with highest confidence of 5 by using the tissue sliders in the **STRING** results panel on the right side. In the **Nodes** tab expand the group of **Tissue filters** by clicking the small triangle and find the slider for **pancreas**. To hide all nodes with a confidence score below 5, set the low bound to 5.0 by typing the number in the text field and pressing **Enter**.
 
-_How many proteins are expressed in the pancreas with a confidence score of 5?_
+_How many proteins are expressed in pancreas with a confidence score of 5?_
 
 Important: Move the filter back to 0.0 to see all nodes again before continuing with the next exercise.
 
