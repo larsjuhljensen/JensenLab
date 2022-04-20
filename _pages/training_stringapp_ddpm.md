@@ -18,7 +18,7 @@ In these exercises, we will use the [stringApp](http://apps.cytoscape.org/apps/s
 
 To follow the exercises, please make sure that you have the latest version of Cytoscape installed. Then start Cytoscape and go to **Apps → App Manager** to check for new apps, install them and update the current ones if necessary. Search for the **stringApp** in the search field; if it is not already installed, select it and press the **Install** button to install it. 
 
-If you are not already familiar with the STRING and DISEASES databases, we highly recommend that you go through the [STRING exercises](/training/string/) to learn about the underlying data before working with them in these exercises.
+If you are not already familiar with the STRING database, we highly recommend that you go through the [STRING exercises](/training/string/) to learn about the underlying data before working with them in these exercises.
 
 ## Exercise 1
 
@@ -60,7 +60,7 @@ Note that the retrieved network contains a lot of additional information associa
 
 Find the **disease score** column in the node attributes table (look at the last columns). Sort it by values to see the highest and lowest confidence scores. You can highlight the corresponding nodes by selecting the rows in the table, bringing up the context menu (right-click the selected rows) and choosing the **Select nodes from selected rows** option. You can also use the **Fit Selected** icon in the menu bar to zoom into the selected node (**View → Fit Selected**).
 
-_How many nodes and edges are there in the resulting network? Are all proteins connected and why (not)? Which node has the highest disease score? Hint: check the last column in the Node Table._
+_How many nodes and edges are there in the resulting network? Are all proteins connected and why (not)? How many nodes have the highest disease score? Give at least one example._
 
 ### 2.3 Discrete color mapping
 
@@ -81,7 +81,7 @@ _How many TFs are in the network?_
 
 The stringApp automatically retrieves information about tissues, in which the proteins are expressed, from the [TISSUES](https://tissues.jensenlab.org/) database. We will take a look at it first to better understand the data.
 
-Go to [TISSUES](https://tissues.jensenlab.org/) and enter **INS** into the search box. The resulting page will show all matches for the query INS. After selecting the human gene, you will see a schematic of where in the body it is located and tables containing the specific lines of evidence that contribute to the overall score.
+Go to [TISSUES](https://tissues.jensenlab.org/) and enter **INS** into the search box. The resulting page will show all matches for the query INS. After selecting the human gene, you will see a schematic of where in the body it is expressed and tables containing the specific lines of evidence that contribute to the overall score.
 
 _What tissues is INS present in with a high confidence? What source do these associations come from?_
 

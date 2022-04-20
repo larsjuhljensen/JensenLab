@@ -431,7 +431,7 @@ training-stringapp-ddpm:
       - title: "Discrete color mapping"
         url: /training/stringapp/ddpm/#23-discrete-color-mapping
       - title: "Inspect tissue expression data"
-        url: /training/stringapp/#24-inspect-tissue-expression-data
+        url: /training/stringapp/ddpm/#24-inspect-tissue-expression-data
       - title: "Continuous color mapping"
         url: /training/stringapp/ddpm/#25-continuous-color-mapping
   - title: "Supporting lectures"
