@@ -421,19 +421,19 @@ training-stringapp-ddpm:
     children:
       - title: "Protein queries"
         url: /training/stringapp/ddpm/#11-protein-queries
-      - title: "PubMed queries"
-        url: /training/stringapp/ddpm/#12-pubmed-queries
   - title: "Exercise 2"
     url: /training/stringapp/ddpm/#exercise-2
     children:
+      - title: "Disease query"
+        url: /training/stringapp/ddpm/#21-disease-query
       - title: "Disease network retrieval"
-        url: /training/stringapp/ddpm/#21-disease-network-retrieval
+        url: /training/stringapp/ddpm/#22-disease-network-retrieval
       - title: "Discrete color mapping"
-        url: /training/stringapp/ddpm/#22-discrete-color-mapping
-      - title: "Inspect subcellular localization data"
-        url: /training/stringapp/#23-inspect-subcellular-localization-data
+        url: /training/stringapp/ddpm/#23-discrete-color-mapping
+      - title: "Inspect tissue expression data"
+        url: /training/stringapp/#24-inspect-tissue-expression-data
       - title: "Continuous color mapping"
-        url: /training/stringapp/ddpm/#24-continuous-color-mapping
+        url: /training/stringapp/ddpm/#25-continuous-color-mapping
   - title: "Supporting lectures"
     url: /training/stringapp/ddpm/#supporting-lectures
   - title: "Supporting literature"

@@ -26,11 +26,9 @@ In this exercise, we will perform a simple query to retrieve molecular networks 
 
 ### 1.1 Protein queries
 
-Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: protein query** as **Data Source** and type your favorite protein into the **Enter protein names or identifiers** field (e.g. SORCS2). You can select the appropriate organism by typing the name (e.g. Homo sapiens). The **Maximum number of interactors** determines how many interaction partners of your protein(s) of interest will be added to the network. By default, if you enter only one protein name, the resulting network will contain 10 additional interactors. If you enter more than one protein name, the network will contain only the interactions among these proteins, unless you explicitly ask for additional proteins.
+Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: protein query** as **Data Source** and type your favorite protein into the **Enter protein names or identifiers** field (e.g. SORCS2 or INSR). You can select the appropriate organism by typing the name (e.g. Homo sapiens). The **Maximum number of interactors** determines how many interaction partners of your protein(s) of interest will be added to the network. By default, if you enter only one protein name, the resulting network will contain 10 additional interactors. If you enter more than one protein name, the network will contain only the interactions among these proteins, unless you explicitly ask for additional proteins.
 
 Unless the name(s) you entered give unambiguous matches, a disambiguation dialog will be shown next. It lists all the matches that the stringApp finds for each ambiguous query term and selects the first one for each. Select the right one(s) you meant and continue by pressing the **Import** button.
-
-[Import SORCS2 network](cycmd:string protein query query=SORCS2 taxonID=9606){: .btn .btn--cybrowser .btn--primary}
 
 _How many nodes are in the resulting network? How does this compare to the maximum number of interactors you specified? What types of information do the **Node Table** and **Edge Table** provide?_
 
@@ -44,23 +42,27 @@ _Which attribute column do you get in the **Node Table** for a PubMed query comp
  -->
 ## Exercise 2
 
-In this exercise, we are going to use the stringApp to query the [DISEASES](https://diseases.jensenlab.org) database for proteins associated with diabetes, retrieve a STRING network for them, and explore the resulting network.
+In this exercise, we are going to use the stringApp to query the [DISEASES](https://diseases.jensenlab.org) database for proteins associated with type 1 diabetes, retrieve a STRING network for them, and explore the resulting network.
 
-### 2.1 Disease network retrieval
+### 2.1 Disease query
 
-Close the current session in Cytoscape from the menu **File → Close**. Use the menu **File → Import → Network from Public Databases** and the **STRING: disease query** option from the **Data Source** drop-down menu. Insert **Diabetes mellitus** into the **Enter disease term** field and press the **Import** button. The stringApp will retrieve a STRING network for the top-N proteins (by default 100) associated with the disease. Once the network appears, go to the menu **View → Always Show Graphics Details** to see the individual nodes and edges.
+Go to <https://diseases.jensenlab.org/>, type **type 1 diabetes** in the search field, and click the **search** button. The web interface will now show the search results, which include all diseases and protein names starting with the search term. Click **Type 1 diabetes mellitus** to get to the results page showing proteins associated with the disease.
+
+Like STRING, the DISEASES database integrates several types of evidence, in this case automatic text mining, manually curated knowledge, and experimental evidence from genome-wide association studies.
+
+_Are there any proteins that are supported by all three types of evidence (for example INS)?_
+
+### 2.2 Disease network retrieval
+
+Now go to Cytoscape and close the current session from the menu **File → Close**. Use the menu **File → Import → Network from Public Databases** and the **STRING: disease query** option from the **Data Source** drop-down menu. Insert **type 1 diabetes mellitus** into the **Enter disease term** field and press the **Import** button. The next dialog shows all possible matches and the correct one should be chosen by default, so just press **Import** again. The stringApp will retrieve a STRING network for the top-N proteins (by default 100) associated with the disease. Once the network appears, go to the menu **View → Always Show Graphics Details** to see the individual nodes and edges.
 
 Note that the retrieved network contains a lot of additional information associated with the nodes and edges, such as the protein sequence, tissue expression data, subcellular localization, disease score (**Node Table**) as well as the confidence scores for the different interaction evidences (**Edge Table**). In the following, we will explore these data using Cytoscape.
 
 Find the **disease score** column in the node attributes table (look at the last columns). Sort it by values to see the highest and lowest confidence scores. You can highlight the corresponding nodes by selecting the rows in the table, bringing up the context menu (right-click the selected rows) and choosing the **Select nodes from selected rows** option. You can also use the **Fit Selected** icon in the menu bar to zoom into the selected node (**View → Fit Selected**).
 
-_How many nodes and edges are there in the resulting network? Are all proteins connected and why (not)? Which node has the highest disease score?_
+_How many nodes and edges are there in the resulting network? Are all proteins connected and why (not)? Which node has the highest disease score? Hint: check the last column in the Node Table._
 
-<!-- Cytoscape provides several visualization options under the **Layout** menu. Try the **Degree Sorted Circle Layout**, the **Prefuse Force Directed Layout** and the **Edge-weighted Spring Embedded Layout** with the attribute **score**, which is the combined STRING interaction scorewith **score**. If you have installed the **yFiles Layout Algorithms** app, you can also try the **yFiles Organic Layout**.
-
-_Does any of the suggested layouts make patterns in the network easy to recognize?_
- -->
-### 2.2 Discrete color mapping
+### 2.3 Discrete color mapping
 
 Cytoscape allows you to map attributes of the nodes and edges to visual properties such as node color and edge width. Here, we will map drug target family data from the [Pharos](https://pharos.nih.gov/idg/targets) database to the node color. This data is contained in the node attribute called **target family**.
 
@@ -70,32 +72,30 @@ To color the proteins in a given target family, first click the field to the **r
 
 _How many of the proteins in the network are ion channels (IC) or GPCRs?_
 
-There are a few kinases in the network. We can avoid counting them manually by creating a selection filter in the **Filter** tab (located underneath **Style**). Click the **ᐩ** button and choose **Column filter** from the drop-down menu. Then, find and select the attribute **(T) Node: family**. Write **kinase** in the text field to select all nodes with this annotation. Note that the current selection criterium is set to **contains**, but you can change it other values, such as **is** or **doesn't contain**.
+There are many transcription factors (TFs) in the network. We can avoid counting them manually by creating a selection filter in the **Filter** tab (located underneath **Style**). Click the **ᐩ** button and choose **Column filter** from the drop-down menu. Then, find and select the attribute **(T) Node: family**. Write **TF** in the text field to select all nodes with this annotation. Note that the current selection criterion is set to **contains**, but you can change it to other values, such as **is** or **doesn't contain**.
 
-_How many kinases are in the network?_
+_How many TFs are in the network?_
 
 
-### 2.3 Inspect subcellular localization data
+### 2.4 Inspect tissue expression data
 
-The stringApp automatically retrieves information about compartments, in which the proteins are located, from the [COMPARTMENTS](https://compartments.jensenlab.org/) database. We will take a look at it first to better understand the data.
+The stringApp automatically retrieves information about tissues, in which the proteins are expressed, from the [TISSUES](https://tissues.jensenlab.org/) database. We will take a look at it first to better understand the data.
 
-Go to [COMPARTMENTS](https://compartments.jensenlab.org/) and enter **HNF1A** into the search box. The resulting page will show all matches for the query HNF1A. After selecting the human gene, you will see a schematic of where in the cell it is located and below it tables containing the specific lines of evidence that contribute to the overall score.
+Go to [TISSUES](https://tissues.jensenlab.org/) and enter **INS** into the search box. The resulting page will show all matches for the query INS. After selecting the human gene, you will see a schematic of where in the body it is located and tables containing the specific lines of evidence that contribute to the overall score.
 
-_What compartments is HNF1A present in with a confidence of 5 (stars)? What source do these associations come from? Hint: you can see what the abbreviations for different evidence types mean [here](http://geneontology.org/docs/guide-go-evidence-codes/)._
+_What tissues is INS present in with a high confidence? What source do these associations come from?_
 
-In Cytoscape, we can identify all the proteins in our network that are located in the nucleus with highest confidence of 5 by using the COMPARTMENTS sliders in the **STRING** results panel on the right side. In the **Nodes** tab expand the group of compartment filters by clicking the small triangle and find the slider for **nucleus**. To hide all nodes with a confidence score below 5, set the low bound to 5.0 by typing the number in the text field and pressing **Enter**.
+In Cytoscape, we can identify all the proteins in our network that are expressed in the pancreas with highest confidence of 5 by using the tissue sliders in the **STRING** results panel on the right side. In the **Nodes** tab expand the group of **Tissue filters** by clicking the small triangle and find the slider for **pancreas**. To hide all nodes with a confidence score below 5, set the low bound to 5.0 by typing the number in the text field and pressing **Enter**.
 
-Select all remaining nodes in the network view by holding down the modifier key (Shift on Windows, Ctrl or Command on Mac) and then left-clicking and dragging to select multiple nodes. The nodes will turn yellow if they are selected properly. The number of selected nodes is shown in the light grey panel bar on the bottom-right part of the network view panel, just above the **Table panel**.
-
-_How many proteins are found in the nucleus with a confidence score of 5? And in mitochondrion? And in both nucleus and mitochondrion?_
+_How many proteins are expressed in the pancreas with a confidence score of 5?_
 
 Important: Move the filter back to 0.0 to see all nodes again before continuing with the next exercise.
 
-### 2.4 Continuous color mapping
+### 2.5 Continuous color mapping
 
-Finally, we will map the subcellular localization data for nucleus to the node color. From the left panel side menu, select **Style** (located underneath **Network** and above **Filter**). Click on the **◀** button to the right of the property you want to change, in this case **Fill Color** and set **Column** to the node column containing the data that you want to use (**nucleus**). Since this is a numeric value, we will use the **Continuous Mapping** as the **Mapping Type**, and set a color gradient for how likely each protein is located in the nucleus. The default Cytoscape yellow--purple color gradient already gives a nice visualization of the confidence of being located in this compartment.
+Finally, we will map the tissue expression data for pancreas to the node color. From the left panel side menu, select **Style** (located underneath **Network** and above **Filter**). Click on the **◀** button to the right of the property you want to change, in this case **Fill Color** and set **Column** to the node column containing the data that you want to use (**(T) pancreas**). Since this is a numeric value, we will use the **Continuous Mapping** as the **Mapping Type**, and set a color gradient for how likely each protein is expressed in pancreas. The default Cytoscape yellow--purple color gradient already gives a nice visualization of the confidence of being expressed in this tissue.
 
-_Does it look like the network contains many nuclear proteins?_
+_Does it look like the network contains many proteins expressed in pancreas?_
 
 <!-- ### 2.5 Functional enrichment
 
@@ -118,8 +118,6 @@ The theoretical background for these exercises is covered in these short online 
 [![stringApp](training_stringapp.png)](https://youtu.be/MXmzXxNqmnI)
 [![stringApp tutorial](training_stringapp_tutorial.png)](https://youtu.be/kRQyPDMF_8k)
 [![DISEASES](training_diseases.png)](https://youtu.be/xkYixhO2CJQ)
-[![Enrichment analysis](training_enrichment_analysis.png)](https://youtu.be/2NC1QOXmc5o)
-[![stringApp enrichment analysis](training_stringapp_enrichment_analysis.png)](https://youtu.be/AUEyZw-iJHg)
 
 ## Supporting literature
 
