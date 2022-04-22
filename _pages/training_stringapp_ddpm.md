@@ -58,7 +58,7 @@ Note that the retrieved network contains a lot of additional information associa
 
 Find the **disease score** column in the node attributes table (look at the last columns). Sort it by values to see the highest and lowest confidence scores. You can highlight the corresponding nodes by selecting the rows in the table, bringing up the context menu (right-click the selected rows) and choosing the **Select nodes from selected rows** option. You can also use the **Fit Selected** icon in the menu bar to zoom into the selected node (**View → Fit Selected**).
 
-_How many nodes and edges are there in the resulting network? Are all proteins connected and why (not)? How many nodes have the highest disease score? Give at least one example._
+_How many nodes and edges are there in the resulting network? How many nodes have the highest disease score? Give at least one example._
 
 ### 2.3 Discrete color mapping
 
@@ -75,7 +75,7 @@ There are many transcription factors (TFs) in the network. We can avoid counting
 _How many TFs are in the network?_
 
 
-### 2.4 Inspect tissue expression data
+### 2.4 Inspect tissue expression data [Optional]
 
 The stringApp automatically retrieves information about tissues, in which the proteins are expressed, from the [TISSUES](https://tissues.jensenlab.org/) database. We will take a look at it first to better understand the data.
 
@@ -89,7 +89,7 @@ _How many proteins are expressed in pancreas with a confidence score of 5?_
 
 Important: Move the filter back to 0.0 to see all nodes again before continuing with the next exercise.
 
-### 2.5 Continuous color mapping
+### 2.5 Continuous color mapping [Optional]
 
 Finally, we will map the tissue expression data for pancreas to the node color. From the left panel side menu, select **Style** (located underneath **Network** and above **Filter**). Click on the **◀** button to the right of the property you want to change, in this case **Fill Color** and set **Column** to the node column containing the data that you want to use (**(T) pancreas**). Since this is a numeric value, we will use the **Continuous Mapping** as the **Mapping Type**, and set a color gradient for how likely each protein is expressed in pancreas. The default Cytoscape yellow--purple color gradient already gives a nice visualization of the confidence of being expressed in this tissue.
 
