@@ -24,6 +24,9 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
+1 June 2022, Hillerød, Denmark  
+MoMeD Summer School
+
 22 April and 21 June 2022, Copenhagen, Denmark  
 Datadrevet personlig medicin
 

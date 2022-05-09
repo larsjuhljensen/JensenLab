@@ -54,7 +54,7 @@ Nissen JN, Johansen J, Allesøe RL, Sønderby CK, Armenteros JJA, Grønbech CH, 
 using deep variational autoencoders. *Nature Biotechnology*, **39**:555-560.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/33398153) [Full text](https://doi.org/10.1038/s41587-020-00777-4) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41587-020-00777-4" data-style="small_rectangle"></span>
 
-Jensen PSH, Johansen M, Bak LK, Jensen LJ and Kjær C (2020). Yield and integrity of RNA from brain samples are largely unaffected by pre-analytical procedures. *Neurochemical Research*, **46**:447-454.  
+Jensen PSH, Johansen M, Bak LK, Jensen LJ and Kjær C (2021). Yield and integrity of RNA from brain samples are largely unaffected by pre-analytical procedures. *Neurochemical Research*, **46**:447-454.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/33249516) [Full text](https://doi.org/10.1007/s11064-020-03183-z) <span class="__dimensions_badge_embed__" data-doi="10.1007/s11064-020-03183-z" data-style="small_rectangle"></span>
 
 Szklarczyk D\*, Gable AL\*, Nastou KC, Lyon D, Kirsch R, Pyysalo S, Doncheva NT, Legeay M, Fang T, Bork P\*, Jensen LJ\* and von Mering C\* (2021). The STRING database in 2021: customizable protein-protein networks, and functional characterization of user-uploaded gene/measurement sets. *Nucleic Acids Research*, **49**:D605–D612.  
