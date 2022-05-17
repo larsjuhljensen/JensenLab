@@ -24,6 +24,9 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
+20--24 June 2022, Oeiras, Portugal   
+Integrative Biological Interpretation using Proteomics
+
 1 June 2022, Hillerød, Denmark  
 MoMeD Summer School
 
