@@ -52,7 +52,7 @@ Introduction to Bioinformatics
 22 March 2022, Copenhagen, Denmark  
 Statistical Methods in Bioinformatics
 
-21 March 2022, Lisbon, Portugal  
+21 March 2022, Oeiras, Portugal  
 EuBIC-MS Winter School
 
 15 March 2022, Copenhagen, Denmark  
