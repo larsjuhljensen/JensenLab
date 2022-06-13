@@ -30,7 +30,7 @@ MoMeD Summer School
 22 April and 21 June 2022, Copenhagen, Denmark  
 Datadrevet personlig medicin
 
-20--24 June 2022, Oeiras, Portugal 
+20--24 June 2022, Oeiras, Portugal    
 Integrative Biological Interpretation using Proteomics
 
 21 and 28 September 2022, Copenhagen, Denmark  
