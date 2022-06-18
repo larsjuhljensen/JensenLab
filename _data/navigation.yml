@@ -563,7 +563,33 @@ training-textmining-bridge:
   - title: "Supporting literature"
     url: /training/textmining/bridge/#supporting-literature
 
-
+training-textmining-ddpm:
+  - title: "Learning objectives"
+    url: /training/textmining/ddpm/#learning-objectives
+  - title: "Prerequisites"
+    url: /training/textmining/ddpm/#prerequisites
+  - title: "Exercise 1"
+    url: /training/textmining/ddpm/#exercise-1
+    children:
+      - title: "Named entity recognition"
+        url: /training/textmining/ddpm/#11-named-entity-recognition
+      - title: "Information retrieval"
+        url: /training/textmining/ddpm/#12-information-retrieval
+      - title: "Information extraction"
+        url: /training/textmining/ddpm/#13-relation-extraction
+  - title: "Exercise 2"
+    url: /training/textmining/ddpm/#exercise-2
+    children:
+      - title: "Using NER to dig deeper"
+        url: /training/textmining/ddpm/#21-using-ner-to-dig-deeper
+      - title: "Linking diseases via genes"
+        url: /training/textmining/ddpm/#22-linking-diseases-via-genes
+  - title: "Further questions"
+    url: /training/textmining/ddpm/#further-questions
+  - title: "Supporting lectures"
+    url: /training/textmining/ddpm/#supporting-lectures
+  - title: "Supporting literature"
+    url: /training/textmining/ddpm/#supporting-literature
 
 training-textmining-hb:
   - title: "Learning objectives"
