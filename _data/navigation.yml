@@ -591,8 +591,6 @@ training-textmining-ddpm:
         url: /training/textmining/ddpm/#21-using-ner-to-dig-deeper
       - title: "Linking diseases via genes"
         url: /training/textmining/ddpm/#22-linking-diseases-via-genes
-  - title: "Further questions"
-    url: /training/textmining/ddpm/#further-questions
   - title: "Supporting lectures"
     url: /training/textmining/ddpm/#supporting-lectures
   - title: "Supporting literature"
