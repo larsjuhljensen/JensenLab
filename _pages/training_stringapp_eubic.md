@@ -123,7 +123,7 @@ _Can you improve the color mapping such that it is easier to see which nodes hav
 
 ## Exercise 3
 
-In this exercise, we will focus on common network analysis tasks such as clustering. 
+In this exercise, we will focus on clustering, a common network analysis task, as well as functional enrichment within the Cytoscape stringApp environment. 
 
 ### 3.1 Network clustering
 
@@ -174,22 +174,25 @@ To retrieve a list of publications that are enriched for the proteins in the net
 
 _What is the title of the most recent publication?_
 
-<!-- ### 4.1 Overlap with DISEASES network
+## Exercise 4
 
-Cytoscape provides functionality to merge two or more networks, building either their union, intersection or difference. We will now merge the network we have from the DISEASES query (_STRING network - temporal lobe epilepsy_) with the one we have from the data, so that we can identify the overlap between them. Use the Merge tool (**Tools → Merge → Networks...**) and select the **Intersection** button. Then, select the two STRING networks from **Available Networks** list. Click on **>** to add them to the list of **Networks to Merge** and click **Merge**.
+In this exercise, we will compare the network of differentially abundant proteins from the study by [Francavilla et al.](https://doi.org/10.1016/j.celrep.2017.03.015) and the network of genes associated with the same disease based on literature and knowledge from the [DISEASES](https://diseases.jensenlab.org/) database.
+
+### 4.1 Overlap with DISEASES network
+
+Cytoscape provides functionality to merge two or more networks, building either their union, intersection or difference. We will now merge the network we have from the DISEASES query (_STRING network - ovary epithelial cancer_) with the one we have from the data (_String Network (physical)_), so that we can identify the overlap between them. Use the Merge tool (**Tools → Merge → Networks...**) and select the **Intersection** button. Then, select the two STRING networks from **Available Networks** list. Click on **>** to add them to the list of **Networks to Merge** and click **Merge**.
 
 _How many nodes are in the intersection?_
 
 ### 4.2 Integrate networks
 
-Now we will make the union of the intersection network, which contains the disease scores, and the experimental network. Use the **Merge** tool again to make the **Union** of the merged network and ‘String Network’. Make sure that the new merged network has the same number of nodes and edges as _STRING Network (physical)_, and that some nodes have a disease score (look for the column with this name and sort it by clicking on the column name).
+Now we will make the union of the intersection network, which contains the disease scores, and the experimental network. Use the **Merge** tool again to make the **Union** of the merged network and _String Network (physical)_. Make sure that the new merged network has the same number of nodes and edges as _STRING Network (physical)_, and that some nodes have a disease score (look for the column with this name and sort it by clicking on the column name).
 
 _Which protein from the experiment has the highest disease score?_
 
 Now, we can change the visualization of the merged network to look like a STRING network and to be able to identify proteins with a high disease confidence score. Specifically, we will change the size of the nodes in function of their **disease score**. Select **Style** in the **Control Panel** and click on the drop-down menu to change the style from **default** to **STRING style v1.5**. Then, click on the **Lock node width and height** option to enable it so that the nodes have only one attribute **Size** instead of two attributes **Height** and **Width**. Modify the values so that by default a node size is 30. To change the default value, you have to click on the default **35.0** value at the left of the Size attribute. Click on the ◀ button to add a continuous mapping of the **Size** attribute using the **disease score**. The mapping should go from 40 for the lowest disease score to 80 for the highest score. To change the mapping values, first double click on the chart and then double click on the triangle corresponding to the value you want to modify and set the value you want (40 and 80). Remember to _show the graphics details_ as well as to use a layout that allows you to see all nodes in the network (e.g. **yFiles Organic Layout**).
 
 _Can you find the protein with the highest disease score in the network view?_
- -->
 
 ## Supporting lectures
 

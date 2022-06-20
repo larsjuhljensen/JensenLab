@@ -406,6 +406,13 @@ training-stringapp-eubic:
         url: /training/stringapp/eubic/#32-functional-enrichment
       - title: "Functional enrichment extras"
         url: /training/stringapp/eubic/#32-functional-enrichment-extras
+  - title: "Exercise 4"
+    url: /training/stringapp/eubic/#exercise-4
+    children:
+      - title: "Overlap with DISEASES network"
+        url: /training/stringapp/eubic/#41-overlap-with-diseases-network
+      - title: "Integrate networks"
+        url: /training/stringapp/eubic/#42-integrate-networks
   - title: "Supporting lectures"
     url: /training/stringapp/eubic/#supporting-lectures
   - title: "Supporting literature"
