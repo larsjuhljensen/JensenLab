@@ -15,19 +15,19 @@ In these exercises, we will use a variety of text-mining tools and databases bas
 
 ## Prerequisites
 
-All exercises are purely web-based. We recommend using [Firefox](http://getfirefox.org/), as some functionality will not work in the latest Chrome and Chrome-based browsers.
+All exercises are purely web-based. If you have problems making EXTRACT work in your browser, we recommend installing [Firefox](http://getfirefox.org/), as some functionality might not work in some other browsers.
 
 ## Exercise 1
 
-In this exercise we will first introduce the basics of text mining: 1) dictionary-based __named entity recognition__ and 2) how this can be used to help __retrieve literature__. Afterwards we will move on to how one can use the complete literature to 3) __extract associations between entities__ and finally 4) how these associations can be used for knowledge discovery.
+In this exercise we will first introduce the basics of text mining: 1) dictionary-based named entity recognition and 2) how this can be used to help retrieve literature. Afterwards we will move on to how one can use the complete literature to 3) extract associations between entities and finally 4) how these associations can be used for knowledge discovery.
 
 ### 1.1 Named Entity Recognition
 
 The goal of named entity recognition (NER) is to find names mentioned in text and resolve them to the underlying biomedical entities (document → entity A, entity B, entity C). To illustrate this, we will use the EXTRACT tool, which is designed to use NER to support manual database curation.
 
-Install the EXTRACT bookmarklet as described on the [EXTRACT website](https://extract.jensenlab.org/). We recommend using [Firefox](http://getfirefox.org/), as some functionality might not work in the latest Chrome and Chrome-based browsers. (If you wish to run EXTRACT on articles in several formats (e.g. word documents or PDFs) please use the [OnTheFly2.0 webserver](http://bib.fleming.gr:3838/OnTheFly/)).
+Install the EXTRACT bookmarklet as described on the [EXTRACT website](https://extract.jensenlab.org/). Note that EXTRACT only works on webpages; if you wish to run EXTRACT on articles in formats (e.g. PDF) try the [OnTheFly2.0 webserver](http://bib.fleming.gr:3838/OnTheFly/).
 
-_Hint: If the bookmarks toolbar is not showing in Firefox then go the File menu bar and select View → Toolbars → Bookmarks Toolbar → Always show_
+_Hint: If the bookmarks toolbar is not showing in Firefox, go the File menu bar and select View → Toolbars → Bookmarks Toolbar → Always show (or the equivalent in your web browser)_
 
 Open the paper "Identification of BCL-XL as highly active survival factor and promising therapeutic target in colorectal cancer" ([Scherr et al., 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7568722/)) and click the **EXTRACT** bookmarklet. After a short time, terms should be highlighted in the text.
 
@@ -41,27 +41,27 @@ _What is the Ensembl Protein ID of BCL-XL and what is the Disease Ontology ident
 
 Select the **Title** in the paper and click the **EXTRACT** bookmarklet. Hover your mouse on top of the terms in the title text. You will see that the text in the identified terms is then highlighted in the results table
 
-Use the buttons in the popup to copy the data into a spreadsheet (e.g. Microsoft excel/[Google sheets](https://docs.google.com/spreadsheets/u/0/)) or text file (e.g. Notepad/[Notepad++](https://notepad-plus-plus.org/downloads/)) or save it in tabular (tsv/csv) format.
+Use the buttons in the popup to copy the data into a spreadsheet (e.g. Microsoft Excel, Numbers, or [Google sheets](https://docs.google.com/spreadsheets/u/0/)) or text file (e.g. Notepad or TextEdit).
 
-_Which information is then provided in addition to what is shown in the popup?_
+_Which extra information is provided compared to what is shown in the popup? What is that useful for?_
 
 ### 1.2 Information retrieval
 
 The goal of information retrieval (IR) is to find the documents pertaining to a topic of interest. When the topic is a biological entity (A), NER can be used to index the literature and thereby support retrieval of relevant documents (A → documents).
 
-We run the same NER system used in EXTRACT on entire PubMed every week and make the results available through a suite of web resources. One such resource is [DISEASES](https://diseases.jensenlab.org/). While primarily intended to view disease–gene associations extracted from literature, it can also be used for information retrieval.
+We run the same NER system used in EXTRACT on entire PubMed every week and make the results available through a suite of web resources. One such resource is [DISEASES](https://diseases.jensenlab.org/). While intended for viewing disease–gene associations extracted from literature, we here use it to illustrate NER-based information retrieval.
 
 Click the following link to retrieve abstracts that mention **SCN2A**:
 
 <https://diseases.jensenlab.org/Entity?documents=10&type1=9606&id1=ENSP00000364586>
 
-_Do the abstracts shown in the first two pages all mention SCN2A?_
+_Do the abstracts shown in the first page all mention SCN2A? Do they all use this name for it?_
 
 You can similarly use NER to retrieve abstracts for any disease in the Disease Ontology. For example, the following query will retrieve abstracts for **neurodegenerative disease** (DOID:1289):
 
 <https://diseases.jensenlab.org/Entity?documents=10&type1=-26&id1=DOID:1289>
 
-_Which diseases are highlighted in the abstracts? Can you think of the reason why they are highlighted?_
+_Which diseases are highlighted in the abstracts? Why are these diseases highlighted?_
 
 ### 1.3 Relation extraction
 
@@ -73,13 +73,13 @@ _Which gene is most strongly associated with colorectal cancer according to text
 
 Click on **TP53** in the text-mining table.
 
-_Do the abstracts in fact support an association between colorectal cancer and TP53? Comparing it with KRAS which disease-gene association seems to be more clearly stated in the text? Can you think of a reason why?_
+_Do the abstracts in fact support an association between colorectal cancer and TP53? Comparing it with KRAS which disease-gene association seems to be more clearly stated in the text? Why do you think that is the case?_
 
-Cooccurrence-based relation extraction is a very generic approach, which can be used to find associations between any two types of entities for which we can do NER. For example, we can use the same approach to extract **EGFR**-associated terms from the [mammalian phenotype database](https://phenotypes.jensenlab.org/About):
+Cooccurrence-based relation extraction is a very generic approach, which can be used to find associations between any two types of entities for which we can do NER. For example, we can use the same approach to extract **EGFR**-associated terms from the Mammalian Phenotype Ontology.
 
-<https://phenotypes.jensenlab.org/Entity?textmining=20&type1=9606&type2=-36&id1=ENSP00000275493>
+Go to <https://phenotypes.jensenlab.org/>, query for **EGFR**, and click on EGFR from human. Inspect the association with **Increased cell death**.
 
-_Is the association between EGFR and Increased cell death well established in the literature? Do **all** the papers that mention the two terms in the first page of the results actually support this association?_
+_Is the association between EGFR and Increased cell death well established in the literature? Do all the papers that mention the two terms in the first page of the results actually support this association?_
 
 ## Exercise 2
 
@@ -114,11 +114,6 @@ This approach obviously only works when the association between the two diseases
 _Is LRRK2 associated with both Parkinson's disease and gastrointestinal system diseases?_
 
 When one does not have a candidate gene, the best solution is to obtain two gene lists, one for each disease, and then identify the ones that rank high on both lists. This is a variant of the closed knowledge discovery problem. It is unfortunately not currently possible to perform such an analysis via a web interface, but it can be done by downloading the complete set disease–gene association from the [DISEASES downloads page](https://diseases.jensenlab.org/Downloads) and analyzing them in Python or R. Alternatively, the analysis can be performed through Cytoscape as illustrated in the [Cytoscape stringApp exercises](https://jensenlab.org/training/stringapp/).
-
-## Further questions
-Post them on this [Padlet](https://ucph.padlet.org/katerinanastou/2dghxogasnybwh47)
-
-(just double click in the background to add your question)
 
 ## Supporting Video Lectures
 
