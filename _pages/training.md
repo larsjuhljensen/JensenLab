@@ -24,15 +24,6 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-1 June 2022, Hillerød, Denmark  
-MoMeD Summer School
-
-22 April and 21 June 2022, Copenhagen, Denmark  
-Datadrevet personlig medicin
-
-20--24 June 2022, Oeiras, Portugal    
-Integrative Biological Interpretation using Proteomics
-
 21 and 28 September 2022, Copenhagen, Denmark  
 Bioinformatics for Human Biologists
 
@@ -42,9 +33,21 @@ Translational Discovery Omics II
 15--18 November 2022, Copenhagen, Denmark  
 Big Data Analytics and Machine Learning I
 
+6 January 2023, Copenhagen, Denmark (online)  
+Protein Research and Critical Thinking
+
 ## Past events
 
 ### 2022
+
+20--24 June 2022, Oeiras, Portugal    
+Integrative Biological Interpretation using Proteomics
+
+1 June 2022, Hillerød, Denmark  
+MoMeD Summer School
+
+22 April and 21 June 2022, Copenhagen, Denmark  
+Datadrevet personlig medicin
 
 23 March 2022, Delaware, United States of America (online)  
 Introduction to Bioinformatics
