@@ -7,11 +7,8 @@ sidebar:
 ---
 ## Preprints
 
-Geissler A, Poulsen LD, Doncheva NT, Anthon C, Seemann SE, González-Tortuero E, Breüner A, Jensen LJ, Hjort C, Vinther J and Gorodkin J (2022). The impact of PrsA over-expression on the Bacillus subtilis transcriptome during fed-batch fermentation of alpha-amylase production. *bioRxiv*.  
-[Preprint](https://doi.org/10.1101/2022.04.05.487122)
-
-Koutrouli M, Morris JM, and Jensen LJ (2021). U-CIE [/juː 'siː/]: Color encoding of high-dimensional data. *bioRxiv*.  
-[Preprint](https://doi.org/10.1101/2021.12.02.470966) [WWW](https://u-cie.jensenlab.org)
+Koutrouli M, Lindez PP, Bouwmeester R, Martens L and Jensen LJ (2022). FAVA: High-quality functional association networks inferred from scRNA-seq and proteomics data. *bioRxiv*.
+[Preprint](https://doi.org/10.1101/2022.07.06.499022)
 
 Yarani R, Palasca O, Doncheva NT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litman T, Holmskov U, Bang-Berthelsen CH, Vilien M, Jensen LJ, Gorodkin J and Pociot F (2020). Transcriptome profiling of ulcerative colitis mouse model suggests biomarkers and therapeutic targets for human colitis. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2020.08.12.225458)
@@ -20,7 +17,13 @@ Yarani R, Palasca O, Doncheva NT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litm
 
 ### 2022
 
-Pfeiffer A, Franciosa G, Locard-Paulet M, Piga I, Reckzeh K, Vemulapalli V, Blacklow SC, Theilgaard-Mönch K, Jensen LJ and Olsen JV (2022). Phosphorylation of SHP2 at Tyr62 enables acquired resistance to SHP2 allosteric inhibitors in FLT3-ITD-driven AML. *Cancer Research*.  
+Geissler A, Poulsen LD, Doncheva NT, Anthon C, Seemann SE, González-Tortuero E, Breüner A, Jensen LJ, Hjort C, Vinther J and Gorodkin J (2022). The impact of PrsA over-expression on the Bacillus subtilis transcriptome during fed-batch fermentation of alpha-amylase production. To appear in *Frontiers in Microbiology*.  
+[Preprint](https://doi.org/10.1101/2022.04.05.487122)
+
+Koutrouli M, Morris JM, and Jensen LJ (2022). U-CIE [/juː 'siː/]: Color encoding of high-dimensional data. To appear in *Protein Science*.  
+[Preprint](https://doi.org/10.1101/2021.12.02.470966) [WWW](https://u-cie.jensenlab.org)
+
+Pfeiffer A, Franciosa G, Locard-Paulet M, Piga I, Reckzeh K, Vemulapalli V, Blacklow SC, Theilgaard-Mönch K, Jensen LJ and Olsen JV (2022). Phosphorylation of SHP2 at Tyr62 enables acquired resistance to SHP2 allosteric inhibitors in FLT3-ITD-driven AML. *Cancer Research*, **82**:2141-2155.  
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/35311954/) [Full text](https://doi.org/10.1158/0008-5472.CAN-21-0548) <span class="__dimensions_badge_embed__" data-doi="10.1158/0008-5472.CAN-21-0548" data-style="small_rectangle"></span>
 
 Grissa D, Junge A, Oprea TI and Jensen LJ (2021). DISEASES 2.0: a weekly updated database of disease–gene associations from text mining and data integration. *Database*, **2022**:baac019.  
@@ -29,7 +32,7 @@ Grissa D, Junge A, Oprea TI and Jensen LJ (2021). DISEASES 2.0: a weekly updated
 Zahoránszky-Kőhalmi G, Siramshetty VB, Kumar P, Gurumurthy M, Grillo B, Mathew B, Metaxatos D, Backus M, Mierzwa T, Simon R, Grishagin I, Brovold L, Mathé EA, Hall MD, Michael SG, Godfrey AG, Mestres J, Jensen LJ and Oprea TI (2022). A workflow of integrated resources to catalyze network pharmacology driven COVID-19 research. *Journal of Chemical Information and Modeling*, **62**:718-729.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/35057621/) [Full text](https://doi.org/10.1021/acs.jcim.1c00431) <span class="__dimensions_badge_embed__" data-doi="10.1021/acs.jcim.1c00431" data-style="small_rectangle"></span>
 
-Santos A, Colaço AR, Nielsen AB, Niu L, Strauss M, Geyer PE, Coscia F, Albrechtsen NJW, Mundt F, Jensen LJ and Mann M (2022). Clinical knowledge graph integrates proteomics data into clinical decision-making. *Nature Biotechnology*.  
+Santos A, Colaço AR, Nielsen AB, Niu L, Strauss M, Geyer PE, Coscia F, Albrechtsen NJW, Mundt F, Jensen LJ and Mann M (2022). Clinical knowledge graph integrates proteomics data into clinical decision-making. *Nature Biotechnology*, **40**:692-702.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/35102292/) [Full text](https://doi.org/10.1038/s41587-021-01145-6) [Preprint](https://doi.org/10.1101/2020.05.09.084897) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41587-021-01145-6" data-style="small_rectangle"></span>
 
 
