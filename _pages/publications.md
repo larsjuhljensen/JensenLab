@@ -23,8 +23,11 @@ Geissler A, Poulsen LD, Doncheva NT, Anthon C, Seemann SE, González-Tortuero E,
 Koutrouli M, Morris JM, and Jensen LJ (2022). U-CIE [/juː 'siː/]: Color encoding of high-dimensional data. To appear in *Protein Science*.  
 [Preprint](https://doi.org/10.1101/2021.12.02.470966) [WWW](https://u-cie.jensenlab.org)
 
+Versace E, Sgadò P, George J, Loveland JL, Ward J, Thorpe P, Jensen LJ, Spencer KA, Paracchini S and Vallortigara G (2022). Light-induced asymmetries in embryonic retinal gene expression are mediated by the vascular system and extracellular matrix. *Scientific Reports*, **12**:12086.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/35840576/) [Full text](https://doi.org/10.1038/s41598-022-14963-8) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41598-022-14963-8" data-style="small_rectangle"></span>
+
 Bernard C, Locard-Paulet M, Noël C, Duchateau M, Gianetto QG, Moumen B, Rattei T, Hechard Y, Jensen LJ, Matondo M and Samba-Louaka A (2022). A time-resolved multi-omics atlas of Acanthamoeba castellanii encystment. *Nature Communications*.  
-[Full text](https://doi.org/10.1038/s41467-022-31832-0) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-022-31832-0" data-style="small_rectangle"></span>
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/35835784/) [Full text](https://doi.org/10.1038/s41467-022-31832-0) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-022-31832-0" data-style="small_rectangle"></span>
 
 Pfeiffer A, Franciosa G, Locard-Paulet M, Piga I, Reckzeh K, Vemulapalli V, Blacklow SC, Theilgaard-Mönch K, Jensen LJ and Olsen JV (2022). Phosphorylation of SHP2 at Tyr62 enables acquired resistance to SHP2 allosteric inhibitors in FLT3-ITD-driven AML. *Cancer Research*, **82**:2141-2155.  
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/35311954/) [Full text](https://doi.org/10.1158/0008-5472.CAN-21-0548) <span class="__dimensions_badge_embed__" data-doi="10.1158/0008-5472.CAN-21-0548" data-style="small_rectangle"></span>
