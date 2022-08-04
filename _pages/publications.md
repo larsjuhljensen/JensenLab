@@ -17,11 +17,11 @@ Yarani R, Palasca O, Doncheva NT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litm
 
 ### 2022
 
-Geissler A, Poulsen LD, Doncheva NT, Anthon C, Seemann SE, González-Tortuero E, Breüner A, Jensen LJ, Hjort C, Vinther J and Gorodkin J (2022). The impact of PrsA over-expression on the Bacillus subtilis transcriptome during fed-batch fermentation of alpha-amylase production. To appear in *Frontiers in Microbiology*.  
-[Preprint](https://doi.org/10.1101/2022.04.05.487122)
-
 Koutrouli M, Morris JM, and Jensen LJ (2022). U-CIE [/juː 'siː/]: Color encoding of high-dimensional data. To appear in *Protein Science*.  
 [Preprint](https://doi.org/10.1101/2021.12.02.470966) [WWW](https://u-cie.jensenlab.org)
+
+Geissler A, Poulsen LD, Doncheva NT, Anthon C, Seemann SE, González-Tortuero E, Breüner A, Jensen LJ, Hjort C, Vinther J and Gorodkin J (2022). The impact of PrsA over-expression on the Bacillus subtilis transcriptome during fed-batch fermentation of alpha-amylase production. To appear in *Frontiers in Microbiology*.  
+[Full text](https://doi.org/10.3389/fmicb.2022.909493) <span class="__dimensions_badge_embed__" data-doi="10.3389/fmicb.2022.909493" data-style="small_rectangle"></span>
 
 Versace E, Sgadò P, George J, Loveland JL, Ward J, Thorpe P, Jensen LJ, Spencer KA, Paracchini S and Vallortigara G (2022). Light-induced asymmetries in embryonic retinal gene expression are mediated by the vascular system and extracellular matrix. *Scientific Reports*, **12**:12086.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/35840576/) [Full text](https://doi.org/10.1038/s41598-022-14963-8) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41598-022-14963-8" data-style="small_rectangle"></span>
