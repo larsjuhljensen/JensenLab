@@ -53,8 +53,6 @@ Change back to the **Settings* tab. Increase the **minimum required interaction 
 
 _How many nodes do you have in the network? Which of the two settings now limits the number of nodes shown?_
 
-__
-
 ## Exercise 2
 
 In this exercise, we will work with the list of 541 proteins associated with epithelial ovarian cancer (EOC) as identified by phosphoproteomics in the study by [Francavilla et al.](https://doi.org/10.1016/j.celrep.2017.03.015). An adapted, simplified version of their results table can be downloaded [here](/assets/Francavilla2017CellRep.tsv). We recommend using Excel or a similar program to open the file. 
