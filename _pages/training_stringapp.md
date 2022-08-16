@@ -78,15 +78,7 @@ Close the current session in Cytoscape from the menu **File → Close**. Use the
 
 [Import EOC disease network](cycmd:string disease query disease=DOID:2152 taxonID=9606 limit=250){: .btn .btn--cybrowser .btn--primary}
 
-### 2.2. Work with node attributes
-
-Note that the retrieved network contains a lot of additional information associated with the nodes and edges, such as the protein sequence, tissue expression data, subcellular localization, disease score (**Node Table**) as well as the confidence scores for the different interaction evidences (**Edge Table**). In the following, we will explore these data using Cytoscape.
-
-Find the **disease score** column in the node attributes table (look at the last columns). Sort it by values to see the highest and lowest confidence scores. You can highlight the corresponding nodes by selecting the rows in the table, bringing up the context menu (right-click the selected rows) and choosing the **Select nodes from selected rows** option. You can also use the **Fit Selected** icon in the menu bar to zoom into the selected node (**View → Fit Selected**).
-
-_Give an example for a node with the highest and lowest disease score._
-
-### 2.3 Inspect subcellular localization data
+### 2.2 Inspect subcellular localization data
 
 The stringApp automatically retrieves information about in which compartments the proteins are located from the [COMPARTMENTS](https://compartments.jensenlab.org/) database, which we will take a look at first to better understand the data.
 
@@ -96,7 +88,7 @@ After selecting the human gene, you will see a schematic of where in the cell it
 
 _What compartments is ARID1A present in with a confidence of 5 (stars)? What source do these associations come from? Hint: you can see what the abbreviations for different evidence types mean [here](http://geneontology.org/docs/guide-go-evidence-codes/)._
 
-### 2.4 Continuous color mapping
+### 2.3 Continuous color mapping
 
 Cytoscape allows you to map attributes of the nodes and edges to visual properties such as node color and edge width. Here, we will map the subcellular localization data for nucleus to the node color.
 
@@ -104,7 +96,7 @@ From the left panel side menu, select **Style** (located underneath **Network** 
 
 _Does it look like the network contains many nuclear proteins?_
 
-### 2.5 Select proteins located in the nucleus
+### 2.4 Select proteins located in the nucleus
 
 Because many proteins are located in the nucleus, we will identify the proteins with highest confidence of 5. One way to do this is to use the COMPARTMENTS sliders in the **STRING Results** panel on the right side. In the **Nodes** tab expand the group of compartment filters by clicking the small triangle and find the slider for **nucleus**. To hide all nodes with a confidence score below 5, set the low bound to 5.0 by typing the number in the text field and pressing **Enter**.
 
@@ -181,12 +173,22 @@ To change the colors, double click on the color gradient in order to bring up th
 
 _Can you improve the color mapping such that it is easier to see which nodes have a log ratio below -4 and above 4?_
 
-### 3.5 Network clustering
+## Exercise 4
 
-Next, we will use the MCL algorithm to identify clusters of tightly connected proteins within the network. To do that, press the **Cluster network (MCL)** button in the **STRING Results panel** on the right side of the network view. Keep the default **granularity parameter (inflation value)** set to **4** and click **OK** to start the clustering. The clusterMaker app will now run the algorithm and automatically create a network showing the clusters.
+In this exercise, we will focus on clustering, a common network analysis task, as well as functional enrichment within the Cytoscape stringApp environment.
 
-<!--Go to the menu **Apps → clusterMaker → MCL Cluster**. Set the **Granularity parameter (inflation value)** to 4 and choose the **stringdb::score** attribute (i.e. the overall STRING confidence score) as **Array Sources**, select the option **Create new clustered network**, and click OK to start the clustering. The app will now run the algorithm and automatically create a network showing the clusters.
--->
+### 4.1 Network clustering
+
+Starting from the network in Exercise 3, we will use the MCL algorithm to identify clusters of tightly connected proteins within the network. To do that, press the **Cluster network (MCL)** button in the **STRING Results panel** on the right side of the network view. Keep the default **granularity parameter (inflation value)** set to **4** and click **OK** to start the clustering. The clusterMaker app will now run the algorithm and automatically create a network showing the clusters.
+
+<details>
+<summary><em>Alternative instructions for clustering</em></summary>
+
+<p>Go to the menu <b>Apps → clusterMaker → MCL Cluster</b>>. Set the <b>Granularity parameter (inflation value)</b> to 4 and choose the <b>stringdb::score</
+b> attribute (i.e. the overall STRING confidence score) as <b>Array Sources</b>, select the option <b>Create new clustered network</b>, and click OK to star
+t the clustering. The app will now run the algorithm and automatically create a network showing the clusters.</p>
+</details>
+
 [Cluster network](cycmd:cluster mcl attribute=score inflation_parameter=4 showUI=true){: .btn .btn--cybrowser .btn--primary}
 
 _How many clusters have at least 10 nodes?_
@@ -203,7 +205,7 @@ The cluster is very dense and almost fully connected, i.e. it has edges represen
 
 _How many edges does the resulting network contain and why are there now fewer edges?_
 
-### 3.6 Functional enrichment and enriched publications
+### 4.2 Functional enrichment
 
 Next, we will retrieve functional enrichment for the proteins in our network of the largest cluster. After making sure that no nodes are selected in the network, go to the menu **Apps → STRING Enrichment → Retrieve functional enrichment** or use the **Functional Enrichment** button in the **Nodes tab** of the **STRING Panel** on the right side. Then, select the original, not clustered network ‘String Network’ as **Background** (instead of ‘genome’) and click **OK**. A new **STRING Enrichment tab** will appear in the **Table Panel** on the bottom. It contains a table of enriched terms and corresponding information for each enrichment category. You can see which proteins are annotated with a given term by selecting the term in the **STRING Enrichment panel** and you can see the terms annotating a given node by slecting it.
 
@@ -222,6 +224,8 @@ Next, we will visualize the top-5 enriched terms in the network using split char
 
 To save the list of enriched terms and associated p-values as a text file, go to **Apps → STRING Enrichment → Export enrichment results**.
 
+### 4.3 Enriched publications
+
 To retrieve a list of publications that are enriched for the proteins in the network, go to the menu **Apps → STRING Enrichment → Retrieve enriched publications** or press the **Enriched Publications** button. A new tab called **STRING Publications** will appear in the **Table Panel** on the bottom. It contains a table of enriched publications and associated information such as how many of the network proteins were mentioned in each publication.
 
 [Retrieve enriched publications](cycmd:string retrieve publications){: .btn .btn--cybrowser .btn--primary}
@@ -229,13 +233,19 @@ To retrieve a list of publications that are enriched for the proteins in the net
 
 _What is the title of the most recent publication?_
 
-### 3.7 Overlap networks
+## Exercise 5
+
+In this exercise, we will compare the network of differentially abundant proteins from the study by [Francavilla et al.](https://doi.org/10.1016/j.celrep.20
+17.03.015) (Exercise 3) and the network of genes associated with the same disease based on literature and knowledge from the [DISEASES](https://diseases.jensenlab.org/) 
+database (Exercise 2).
+
+### 5.1 Overlap networks
 
 Cytoscape provides functionality to merge two or more networks, building either their union, intersection or difference. We will now merge the EOC network we have from the DISEASES query with the one we have from the data, so that we can identify the overlap between them. Use the Merge tool (**Tools → Merge → Networks...**) and select the **Intersection** button. Then, select the two STRING networks from **Available Networks** list (‘String Network - ovary epithelial cancer’ and ‘String Network’). Click on **>** to add them to the list of **Networks to Merge** and click **Merge**.
 
 _How many nodes are in the intersection?_
 
-### 3.8 Integrate networks
+### 5.2 Integrate networks
 
 Now we will make the union of the intersection network, which contains the disease scores, and the experimental network. Use the **Merge** tool again to make the **Union** of the merged network and ‘String Network’. Make sure that the new merged network has the same number of nodes and edges as ‘String Network’, and that some nodes have a disease score (look for the column with this name and sort it by clicking on the column name).
 

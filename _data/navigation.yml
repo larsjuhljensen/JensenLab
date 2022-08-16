@@ -216,14 +216,12 @@ training-stringapp:
     children:
       - title: "Disease network retrieval"
         url: /training/stringapp/#21-disease-network-retrieval
-      - title: "Work with node attributes"
-        url: /training/stringapp/#22-work-with-node-attributes
       - title: "Inspect subcellular localization data"
-        url: /training/stringapp/#23-inspect-subcellular-localization-data
+        url: /training/stringapp/#22-inspect-subcellular-localization-data
       - title: "Continuous color mapping"
-        url: /training/stringapp/#24-continuous-color-mapping
+        url: /training/stringapp/#23-continuous-color-mapping
       - title: "Select proteins located in the nucleus"
-        url: /training/stringapp/#25-select-proteins-located-in-the-nucleus
+        url: /training/stringapp/#24-select-proteins-located-in-the-nucleus
   - title: "Exercise 3"
     url: /training/stringapp/#exercise-3
     children:
@@ -235,14 +233,22 @@ training-stringapp:
         url: /training/stringapp/#33-data-import
       - title: "Continuous color mapping"
         url: /training/stringapp/#34-continuous-color-mapping
+  - title: "Exercise 4"
+    url: /training/stringapp/#exercise-4
+    children:
       - title: "Network clustering"
-        url: /training/stringapp/#35-network-clustering
-      - title: "Functional enrichment and enriched publications"
-        url: /training/stringapp/#36-functional-enrichment-and-enriched-publications
+        url: /training/stringapp/#41-network-clustering
+      - title: "Functional enrichment"
+        url: /training/stringapp/#42-functional-enrichment
+      - title: "Enriched publications"
+        url: /training/stringapp/#43-enriched-publications
+  - title: "Exercise 5"
+    url: /training/stringapp/#exercise-5
+    children:
       - title: "Overlap networks"
-        url: /training/stringapp/#37-overlap-networks
+        url: /training/stringapp/#51-overlap-networks
       - title: "Integrate networks"
-        url: /training/stringapp/#38-integrate-networks
+        url: /training/stringapp/#52-integrate-networks
   - title: "Supporting lectures"
     url: /training/stringapp/#supporting-lectures
   - title: "Supporting literature"
