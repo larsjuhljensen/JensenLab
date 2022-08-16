@@ -125,31 +125,17 @@ training-string:
         url: /training/string/#12-visual-representations
       - title: "Evidence viewers"
         url: /training/string/#13-evidence-viewers
-      - title: "Query parameters"
-        url: /training/string/#14-query-parameters
+      - title: "Query settings"
+        url: /training/string/#14-query-settings
   - title: "Exercise 2"
     url: /training/string/#exercise-2
     children:
-      - title: "Chemical compound query"
-        url: /training/string/#21-chemical-compound-query
-      - title: "Binding assay data"
-        url: /training/string/#22-binding-assay-data
-  - title: "Exercise 3"
-    url: /training/string/#exercise-3
-    children:
-      - title: "Disease query"
-        url: /training/string/#31-disease-query
-      - title: "Validation of text mining"
-        url: /training/string/#32-validation-of-text-mining
-  - title: "Exercise 4"
-    url: /training/string/#exercise-4
-    children:
-      - title: "Complete virus query"
-        url: /training/string/#41-complete-virus-query
-      - title: "Inspect virus evidence"
-        url: /training/string/#42-inspect-virus-evidence
-      - title: "Single virus protein query"
-        url: /training/string/#43-single-virus-protein-query
+      - title: "Multiple proteins query"
+        url: /training/string/#21-multiple-proteins-query
+      - title: "Query settings"
+        url: /training/string/#22-query-settings
+      - title: "Functional enrichment"
+        url: /training/string/#23-functional-enrichment
   - title: "Supporting lectures"
     url: /training/string/#supporting-lectures
   - title: "Supporting literature"
