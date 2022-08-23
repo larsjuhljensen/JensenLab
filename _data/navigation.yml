@@ -107,7 +107,7 @@ training:
       - title: "Omics Visualizer"
         url: /training/omicsvisualizer/
       - title: "Text mining"
-        url: /training/textmining/
+        url: /training/textmining/hb/
   - title: "Upcoming events"
     url: /training/#upcoming-events
   - title: "Past events"
