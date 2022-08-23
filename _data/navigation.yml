@@ -592,13 +592,13 @@ training-textmining-hb:
   - title: "Exercise 2"
     url: /training/textmining/#exercise-2
     children:
-      - title: "Microbiome characterization with text mining"
-        url: /training/textmining/hb/#21-microbiome-characterization-with-text-mining
-      - title: "Text mining-based enrichment analysis"
-        url: /training/textmining/hb/#22-text-mining-based-enrichment-analysis
+      - title: "Using NER to dig deeper"
+        url: /training/textmining/hb/#21-using-ner-to-dig-deeper
+      - title: "Linking diseases via genes"
+        url: /training/textmining/hb/#22-linking-diseases-via-genes
   - title: "Further questions"
     url: /training/textmining/hb/#further-questions
-  - title: "Supporting lectures"
-    url: /training/textmining/hb/#supporting-lectures
+  - title: "Supporting Video Lectures"
+    url: /training/textmining/hb/#supporting-video-lectures
   - title: "Supporting literature"
     url: /training/textmining/hb/#supporting-literature

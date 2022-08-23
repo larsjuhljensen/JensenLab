@@ -16,7 +16,7 @@ As part of running recurring training events, we maintain up-to-date exercises o
 * [STRING database](/training/string/)
 * [Cytoscape stringApp](/training/stringapp/)
 * [Omics Visualizer](/training/omicsvisualizer/)
-* [Text mining](/training/textmining/bridge/)
+* [Text mining](/training/textmining/hb/)
 
 You can also find several lectures on [YouTube](https://www.youtube.com/c/larsjuhljensen).
 
