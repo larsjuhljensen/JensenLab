@@ -49,7 +49,7 @@ In addition to the network view, the set of interactors can also be viewed in a 
 
 _How many functional partners are shown for INSR? What is the confidence score for the lowest scoring one?_
 
-Change back to the **Settings* tab. Increase the **minimum required interaction score** from 0.4 to 0.7 and the **max number of interactors to show** from 10 to 50. Press the **UPDATE** button to apply the changes. Go to the **Analysis** tab.
+Change back to the **Settings** tab. Increase the **minimum required interaction score** from 0.4 to 0.7 and the **max number of interactors to show** from 10 to 50. Press the **UPDATE** button to apply the changes. Go to the **Analysis** tab.
 
 _How many nodes do you have in the network? Which of the two settings now limits the number of nodes shown?_
 

@@ -153,13 +153,15 @@ training-string-dsd:
         url: /training/string/dsd/#12-visual-representations
       - title: "Evidence viewers"
         url: /training/string/dsd/#13-evidence-viewers
+      - title: "Query settings"
+        url: /training/string/dsd/#14-query-settings
   - title: "Exercise 2"
     url: /training/string/dsd/#exercise-2
     children:
       - title: "Multiple proteins query"
         url: /training/string/dsd/#21-multiple-proteins-query
-      - title: "Query parameters"
-        url: /training/string/dsd/#22-query-parameters
+      - title: "Query settings"
+        url: /training/string/dsd/#22-query-settings
       - title: "Functional enrichment"
         url: /training/string/dsd/#23-functional-enrichment
   - title: "Supporting lectures"

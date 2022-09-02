@@ -37,16 +37,21 @@ _Which types of evidence support the interaction between insulin receptor (INSR)
 
 Further detail on the evidence of an interaction can be seen in a popup by clicking on the corresponding edge in the network. Click on the edge between INSR and IRS1 to view its popup; you may need to move the nodes to make this easier.
 
-_Which type of evidence gives the largest contribution to the confidence score 0.999?_
+_Which type of evidence gives the largest contribution to the confidence score?_
 
 Click on the **Show** button to view the experimental evidence for the interaction.
 
 _Which types of experiments support this interaction?_
 
-<!-- Since the predominant source of evidence is automatic text mining, it is always wise to read the underlying text to manually validate the results. Click on the **Show** button to view the text based on which the two proteins were connected. Click **View abstract** for a given entry to see the complete abstract rather than only the title.
+### 1.4 Query settings
 
-_Do the abstracts all mention both the protein and the disease? Do they all use the same name for the protein?_
- -->
+In addition to the network view, the set of interactors can also be viewed in a tabular form. Change to the **Legend** tab and look at the table below the network.
+
+_How many functional partners are shown for INSR? What is the confidence score for the lowest scoring one?_
+
+Change back to the **Settings* tab. Increase the **minimum required interaction score** from 0.4 to 0.7 and the **max number of interactors to show** from 10 to 50. Press the **UPDATE** button to apply the changes. Go to the **Analysis** tab.
+
+_How many nodes do you have in the network? Which of the two settings now limits the number of nodes shown?_
 
 ## Exercise 2
 
@@ -58,7 +63,7 @@ We will first retrieve a network for the genes from the study. Go to <https://st
 
 _How many nodes and edges are in the resulting network?_
 
-### 2.2 Query parameters
+### 2.2 Query settings
 
 The **Settings** tab allows you to modify detailed parameters for the search, such as the **network type**, the **minimum required interaction score**, and the types of evidence to use (**active interaction sources**).
 
@@ -70,27 +75,19 @@ Change the network type from **full STRING network** to **physical subnetwork**.
 
 _How does changing the network type influence the set of interactions shown in the network?_
 
-Change the **minimum required interaction score** back to medium confidence (0.400). 
-
-_How does the network look now?_
-
-Change the network view from *confidence* to *evidence* and press the **UPDATE** button.
-
-_What evidence types are available for the physical interactions? Are there more or fewer evidence types than in the full STRING network?_
-
 ### 2.3 Functional enrichment
 
-Another key feature of STRING is the Analysis, where one can find network stats and functional enrichment computed for the network. Go to the **Analysis** tab below the network and look at the different enrichment categories. 
+Another key feature of STRING is the provided network analysis, where one can find network statistics and functional enrichment computed for the network. Go to the **Analysis** tab below the network and look at the different enrichment categories. 
 
 _How many categories contain enriched annotation terms?_
 
-Look at one of the categories you find interesting, for example the **Reactome Pathways**, and explore it in more detail.
+Look at the enriched **Reactome Pathways** and explore the table in more detail.
 
-_What information is shown in each line of the table? How can you find out more about this annotation term?_
+_How many pathways are enriched?_
 
-Press on the first 3 pathways and you will see a color showing up next to each of them. Scroll up to the network view and find the genes annotated by these pathways.
+Press on the first three pathways and you will see a color showing up next to each of them. Scroll up to the network view and find the proteins annotated by these pathways.
 
-_Do the pathways annotate the same set of genes or not?_
+_Do the pathways annotate the same set of proteins or not?_
 
 ## Supporting lectures
 
@@ -99,6 +96,7 @@ The theoretical background for these exercises is covered in these short online 
 [![STRING](training_string.png)](https://youtu.be/o208DwyFbNk)
 [![Enrichment analysis](training_enrichment_analysis.png)](https://youtu.be/2NC1QOXmc5o)
 [![STRING tutorial](training_string_tutorial.png)](https://youtu.be/KhRAyUNYFyE)
+[![STRING enrichment analysis](training_string_enrichment_analysis.png)](https://youtu.be/jUTF9tbb-nQ)
 
 ## Supporting literature
 
