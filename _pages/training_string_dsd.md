@@ -55,7 +55,7 @@ _How many nodes do you have in the network? Which of the two settings now limits
 
 ## Exercise 2
 
-In this exercise, we will work with the list of 113 genes identified as potential targets in epilepsey using RNA-seq data by [Kjær et al.](https://doi.org/10.1093/brain/awz265). We recommend using Excel or a similar program to open the file, which you can download from [here in TSV format](/assets/teaching_dsd/candidates_consensus_113.tsv) and [here in XLSX format](/assets/teaching_dsd/candidates_consensus_113.xlsx). 
+In this exercise, we will work with the list of genes identified as potential targets in temporal lobe epilepsy using RNA-sequencing by [Kjær et al.](https://doi.org/10.1093/brain/awz265). We recommend using Excel or a similar program to open the file, which you can download from [here in TSV format](/assets/teaching_dsd/candidates_consensus.tsv) and [here in XLSX format](/assets/teaching_dsd/candidates_consensus.xlsx). 
 
 ### 2.1 Multiple proteins query 
 
@@ -79,7 +79,7 @@ _How many categories contain enriched annotation terms?_
 
 Look at the enriched **Molecular Function (Gene Ontology)** terms and explore the table in more detail.
 
-_How many function terms are enriched?_
+_How many molecular function terms are enriched?_
 
 Press on a few of them and you will see a color showing up next to each of them. Scroll up to the network view and find the proteins annotated with these molecular functions.
 
