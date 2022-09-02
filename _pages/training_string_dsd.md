@@ -49,13 +49,13 @@ In addition to the network view, the set of interactors can also be viewed in a 
 
 _How many functional partners are shown for INSR? What is the confidence score for the lowest scoring one?_
 
-Change back to the **Settings* tab. Increase the **minimum required interaction score** from 0.4 to 0.7 and the **max number of interactors to show** from 10 to 50. Press the **UPDATE** button to apply the changes. Go to the **Analysis** tab.
+Change back to the **Settings** tab. Increase the **minimum required interaction score** from 0.4 to 0.7 and the **max number of interactors to show** from 10 to 50. Press the **UPDATE** button to apply the changes. Go to the **Analysis** tab.
 
 _How many nodes do you have in the network? Which of the two settings now limits the number of nodes shown?_
 
 ## Exercise 2
 
-In this exercise, we will work with the list of genes identified as differentially expressed in the study by [Kjær et al.](https://doi.org/10.1093/brain/awz265). We recommend using Excel or a similar program to open the file, which you can download from [here](/assets/DEA.sig.padj.logFC.baseMean.tsv). 
+In this exercise, we will work with the list of 113 genes identified as potential targets in epilepsey using RNA-seq data by [Kjær et al.](https://doi.org/10.1093/brain/awz265). We recommend using Excel or a similar program to open the file, which you can download from [here in TSV format](/assets/teaching_dsd/candidates_consensus_113.tsv) and [here in XLSX format](/assets/teaching_dsd/candidates_consensus_113.xlsx). 
 
 ### 2.1 Multiple proteins query 
 
@@ -67,10 +67,6 @@ _How many nodes and edges are in the resulting network?_
 
 The **Settings** tab allows you to modify detailed parameters for the search, such as the **network type**, the **minimum required interaction score**, and the types of evidence to use (**active interaction sources**).
 
-Change the **minimum required interaction score** to high confidence (0.700).
-
-_How does changing the confidence influence the set of interactions shown?_
-
 Change the network type from **full STRING network** to **physical subnetwork**. Do not forget to press the **UPDATE** button.
 
 _How does changing the network type influence the set of interactions shown in the network?_
@@ -81,13 +77,13 @@ Another key feature of STRING is the provided network analysis, where one can fi
 
 _How many categories contain enriched annotation terms?_
 
-Look at the enriched **Reactome Pathways** and explore the table in more detail.
+Look at the enriched **Molecular Function (Gene Ontology)** terms and explore the table in more detail.
 
-_How many pathways are enriched?_
+_How many function terms are enriched?_
 
-Press on the first three pathways and you will see a color showing up next to each of them. Scroll up to the network view and find the proteins annotated by these pathways.
+Press on a few of them and you will see a color showing up next to each of them. Scroll up to the network view and find the proteins annotated with these molecular functions.
 
-_Do the pathways annotate the same set of proteins or not?_
+_Do the terms annotate the same set of proteins or not?_
 
 ## Supporting lectures
 
