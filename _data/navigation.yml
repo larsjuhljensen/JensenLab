@@ -346,10 +346,13 @@ training-stringapp-dsd:
         url: /training/stringapp/dsd/#31-network-clustering
       - title: "Functional enrichment"
         url: /training/stringapp/dsd/#32-functional-enrichment
+  - title: "Exercise 4"
+    url: /training/stringapp/dsd/#exercise-4
+    children:
       - title: "Overlap with DISEASES network"
-        url: /training/stringapp/dsd/#33-overlap-with-diseases-network
+        url: /training/stringapp/dsd/#41-overlap-with-diseases-network
       - title: "Integrate networks"
-        url: /training/stringapp/dsd/#34-integrate-networks
+        url: /training/stringapp/dsd/#42-integrate-networks
   - title: "Supporting lectures"
     url: /training/stringapp/dsd/#supporting-lectures
   - title: "Supporting literature"

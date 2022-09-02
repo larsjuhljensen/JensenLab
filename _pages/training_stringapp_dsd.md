@@ -100,7 +100,7 @@ _Are the up-regulated nodes grouped together?_
 
 ## Exercise 3
 
-In this exercise, we will focus on common network analysis tasks such as clustering and merging networks. 
+In this exercise, we will focus on common network analysis tasks such as clustering and functional enrichment. 
 
 ### 3.1 Network clustering
 
@@ -125,15 +125,19 @@ After making sure that no nodes are selected in the current network, go to the m
 
 _How many statistically significant terms are in the table? Which is the most significant term for each of the categories GO Biological Process, Reactome and KEGG Pathways? Hint: Look at the FDR (false discovery rate) value column and use the **Filter** button to select individual categories._
 
-### 3.3 Overlap with DISEASES network
+## Exercise 4
+
+In this exercise, we will show you how to compare two different networks.
+
+### 4.1 Overlap with DISEASES network
 
 Cytoscape provides functionality to merge two or more networks, building either their union, intersection or difference. We will now merge the network we have from the DISEASES query (_STRING network - temporal lobe epilepsy_) with the one we have from the data, so that we can identify the overlap between them. Use the Merge tool (**Tools → Merge → Networks...**) and select the **Intersection** button. Then, select the two STRING networks from **Available Networks** list. Click on **>** to add them to the list of **Networks to Merge** and click **Merge**.
 
 _How many nodes are in the intersection?_
 
-### 3.4 Integrate networks
+### 4.2 Integrate networks
 
-Now we will make the union of the intersection network, which contains the disease scores, and the experimental network. Use the **Merge** tool again to make the **Union** of the merged network and ‘String Network’. Make sure that the new merged network has the same number of nodes and edges as _STRING Network_, and that some nodes have a disease score (look for the column with this name and sort it by clicking on the column name).
+Now we will make the union of the intersection network, which contains the disease scores, and the experimental network. Use the **Merge** tool again to make the **Union** of the merged network and _STRING Network_. Make sure that the new merged network has the same number of nodes and edges as _STRING Network_, and that some nodes have a disease score (look for the column with this name and sort it by clicking on the column name).
 
 _Which protein from the experiment has the highest disease score?_
 
