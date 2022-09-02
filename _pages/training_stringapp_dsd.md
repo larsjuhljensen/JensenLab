@@ -106,14 +106,13 @@ In this exercise, we will focus on common network analysis tasks such as cluster
 
 We will use the MCL algorithm to identify clusters of tightly connected proteins within the network. To do that, press the **Cluster network (MCL)** button in the **STRING Results panel** on the right side of the network view. Keep the default **granularity parameter (inflation value)** set to **4** and click **OK** to start the clustering. The clusterMaker app will now run the algorithm and automatically create a network showing the clusters.
 
+_How many clusters have at least 10 nodes?_
+
 <details>
 <summary><em>Alternative instructions for clustering</em></summary>
 
 <p>Go to the menu <b>Apps → clusterMaker → MCL Cluster</b>>. Set the <b>Granularity parameter (inflation value)</b> to 4 and choose the <b>stringdb::score</b> attribute (i.e. the overall STRING confidence score) as <b>Array Sources</b>, select the option <b>Create new clustered network</b>, and click OK to start the clustering. The app will now run the algorithm and automatically create a network showing the clusters.</p>
 </details>
-
-
-_How many clusters have at least 10 nodes?_
 
 ### 3.2 Functional enrichment
 
