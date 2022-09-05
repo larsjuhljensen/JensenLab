@@ -26,29 +26,17 @@ If you are not already familiar with the STRING database, we highly recommend th
 
 ## Exercise 1
 
-In this exercise, we will perform some simple queries to retrieve molecular networks based on a protein and a disease.
-
-### 1.1 Protein queries
+In this exercise, we will perform a simple query to retrieve a STRING molecular network for a protein of interest.
 
 Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: protein query** as **Data Source** and type your favorite protein into the **Enter protein names or identifiers** field (e.g. SORCS2). You can select the appropriate organism by typing the name (e.g. Homo sapiens). The **Maximum number of interactors** determines how many interaction partners of your protein(s) of interest will be added to the network. By default, if you enter only one protein name, the resulting network will contain 10 additional interactors. If you enter more than one protein name, the network will contain only the interactions among these proteins, unless you explicitly ask for additional proteins.
-
-Unless the name(s) you entered give unambiguous matches, a disambiguation dialog will be shown next. It lists all the matches that the stringApp finds for each ambiguous query term and selects the first one for each. Select the right one(s) you meant and continue by pressing the **Import** button.
 
 [Import SORCS2 network](cycmd:string protein query query=SORCS2 taxonID=9606){: .btn .btn--cybrowser .btn--primary}
 
 _How many nodes are in the resulting network? What types of information do the **Node Table** and the **Edge Table** provide?_
 
-### 1.2 Disease queries
-
-Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: disease query** as **Data Source** and type a disease of interest into the **Enter disease term** field (e.g. temporal lobe epilepsy). The stringApp will retrieve a STRING network for the top-N proteins (by default 100) associated with the disease.
-
-The next dialog shows all the matches that the stringApp finds for your disease query and selects the first one. Make sure to select the intended disease before pressing the **Import** button to continue.
-
-_Which additional attribute column do you get in the **Node Table** for a disease query compared to a protein query? Hint: check the last column._
-
 ## Exercise 2
 
-In this exercise, we will work with the list of genes identified as potential targets in temporal lobe epilepsy using RNA-sequencing by [Kjær et al.](https://doi.org/10.1093/brain/awz265) to perform typical network import and visualization tasks. We recommend using Excel or a similar program to open the file, which you can download from [here in TSV format](/assets/teaching_dsd/candidates_consensus.tsv) and [here in XLSX format](/assets/teaching_dsd/candidates_consensus.xlsx). 
+In this exercise, we will work with the list of genes identified as potential targets in temporal lobe epilepsy using RNA-sequencing data analysis by [Kjær et al.](https://doi.org/10.1093/brain/awz265) to perform typical network import and visualization tasks. We recommend using Excel or a similar program to open the file, which you can download from [here in TSV format](/assets/teaching_dsd/candidates_consensus.tsv) or [here in XLSX format](/assets/teaching_dsd/candidates_consensus.xlsx). 
 
 ### 2.1 Protein network retrieval
 
@@ -60,7 +48,7 @@ _How many nodes and edges are there in the resulting network? Do the proteins al
 
 ### 2.2 Discrete color mapping
 
-Cytoscape allows you to map attributes of the nodes and edges to visual properties such as node color and edge width. Here, we will map drug target information from the [Pharos](https://pharos.nih.gov/idg/targets) database to the node border color. This data is contained in the node attribute called **target development level** and can be on of the four categories: Tbio, Tchem, Tclin, and Tdark. See more about the different categories [here](http://juniper.health.unm.edu/tcrd/).
+Cytoscape allows you to map attributes of the nodes and edges to visual properties such as node color and edge width. Here, we will map drug target information from the [Pharos database](https://pharos.nih.gov/idg/targets) to the node border color. This data is contained in the node attribute called **target development level** and can be on of the four categories: Tbio, Tchem, Tclin, and Tdark. See more about the different categories [here](http://juniper.health.unm.edu/tcrd/).
 
 Select **Style** from the side menu in the left panel (it is between **Network** and **Filter**). First, we will change the border width and then the border color. Find the row **Border Width** and click on the first column (**Def.**). Enter the value **10.0** and press the **OK** button, which will show a gewy border around all nodes. Next, click the **◀** button to the right of the property you want to create a mapping for, in this case **Border Paint**. Change **Column** from name to **(T) development level**, which is the node column containing the data that you want to use. Choose **Discrete Mapping** from the **Mapping Type** dorp-down menu. This action will present you with a list of all the different values of the attribute that exist in the network, in this case Tbio, Tchem, Tclin, and Tdark.
 
@@ -126,17 +114,25 @@ _How many statistically significant terms are in the table? Which is the most si
 
 ## Exercise 4
 
-In this exercise, we will show you how to compare two different networks.
+In this exercise, we will show you how to compare the network of candidates to a network with genes associated with the same disease according to the [DISEASES database](https://diseases.jensenlab.org/Search).
 
-### 4.1 Overlap with DISEASES network
+### 4.1 Disease queries
 
-Cytoscape provides functionality to merge two or more networks, building either their union, intersection or difference. We will now merge the network we have from the DISEASES query (_STRING network - temporal lobe epilepsy_) with the one we have from the data, so that we can identify the overlap between them. Use the Merge tool (**Tools → Merge → Networks...**) and select the **Intersection** button. Then, select the two STRING networks from **Available Networks** list. Click on **>** to add them to the list of **Networks to Merge** and click **Merge**.
+Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: disease query** as **Data Source** and type _temporal lobe epilepsy_ into the **Enter disease term** field. The stringApp will retrieve a STRING network for the top-N proteins (by default 100) associated with the disease.
+
+The next dialog shows all the matches that the stringApp finds for your disease query and selects the first one. Make sure to select the intended disease before pressing the **Import** button to continue.
+
+_Which additional attribute column do you get in the **Node Table** for a disease query compared to a protein query? Hint: check the last column._
+
+### 4.2 Overlap with DISEASES network
+
+Cytoscape provides functionality to merge two or more networks, building either their union, intersection or difference. We will now merge the network we have from the DISEASES query (_STRING network - temporal lobe epilepsy_) with the one we have from the data (_STRING network_), so that we can identify the overlap between them. Use the Merge tool (**Tools → Merge → Networks...**) and select the **Intersection** button. Then, select the two STRING networks from **Available Networks** list. Click on **>** to add them to the list of **Networks to Merge** and click **Merge**.
 
 _How many nodes are in the intersection?_
 
-### 4.2 Integrate networks
+### 4.3 Integrate networks
 
-Now we will make the union of the intersection network, which contains the disease scores, and the experimental network. Use the **Merge** tool again to make the **Union** of the merged network and _STRING Network_. Make sure that the new merged network has the same number of nodes and edges as _STRING Network_, and that some nodes have a disease score (look for the column with this name and sort it by clicking on the column name).
+Now we will make the union of the intersection network, which contains the disease scores, and the experimental network. Use the **Merge** tool again to make the **Union** of the _Merged network_ and _STRING Network_. Make sure that the new merged network has the same number of nodes and edges as _STRING Network_, and that some nodes have a disease score (look for the column with this name and sort it by clicking on the column name).
 
 _Which protein from the experiment has the highest disease score?_
 

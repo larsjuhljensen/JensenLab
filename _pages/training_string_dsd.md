@@ -15,6 +15,12 @@ In these exercises, we will use the [STRING](https://string-db.org/) database th
 * understand the query parameters and customize searches
 * inspect functional enrichment for a network of interest
 
+## Prerequisites
+
+To get yourself a bit more familiar with the STRING database before starting the exercises, we highly recommend that you to watch this short [YouTube video](https://youtu.be/o208DwyFbNk) that contains a brief introduction to protein networks and how they are made.
+
+[![STRING](training_string.png)](https://youtu.be/o208DwyFbNk)
+
 ## Exercise 1
 
 ### 1.1 Single protein query

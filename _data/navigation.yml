@@ -144,6 +144,8 @@ training-string:
 training-string-dsd:
   - title: "Learning objectives"
     url: /training/string/dsd/#learning-objectives
+  - title: "Prerequisites"
+    url: /training/string/dsd/#prerequisites
   - title: "Exercise 1"
     url: /training/string/dsd/#exercise-1
     children:
@@ -323,11 +325,6 @@ training-stringapp-dsd:
     url: /training/stringapp/dsd/#prerequisites
   - title: "Exercise 1"
     url: /training/stringapp/dsd/#exercise-1
-    children:
-      - title: "Protein queries"
-        url: /training/stringapp/dsd/#11-protein-queries
-      - title: "Disease queries"
-        url: /training/stringapp/dsd/#12-disease-queries
   - title: "Exercise 2"
     url: /training/stringapp/dsd/#exercise-2
     children:
@@ -349,10 +346,12 @@ training-stringapp-dsd:
   - title: "Exercise 4"
     url: /training/stringapp/dsd/#exercise-4
     children:
+      - title: "Disease queries"
+        url: /training/stringapp/dsd/#41-disease-queries
       - title: "Overlap with DISEASES network"
-        url: /training/stringapp/dsd/#41-overlap-with-diseases-network
+        url: /training/stringapp/dsd/#42-overlap-with-diseases-network
       - title: "Integrate networks"
-        url: /training/stringapp/dsd/#42-integrate-networks
+        url: /training/stringapp/dsd/#43-integrate-networks
   - title: "Supporting lectures"
     url: /training/stringapp/dsd/#supporting-lectures
   - title: "Supporting literature"
