@@ -102,7 +102,7 @@ _How many clusters have more than 3 nodes?_
 
 ### 3.2 Functional enrichment
 
-We will work with the **second largest cluster** in the network (it should be in the second one in the first row). Select the nodes of this cluster by holding down the modifier key (_Shift_ on Windows, _Ctrl_ or _Command_ on Mac) and then left-clicking and dragging to select multiple nodes. The nodes will turn yellow if they are selected properly. Then, create a new network by clicking on the **New Network from Selection** button and choosing the option **From Selected Nodes, All Edges** or via the menu item **File → New Network → From Selected Nodes, All Edges**.
+We will work with the **second largest cluster** in the network (it should be the second one in the first row). Select the nodes of this cluster by holding down the modifier key (_Shift_ on Windows, _Ctrl_ or _Command_ on Mac) and then left-clicking and dragging to select multiple nodes. The nodes will turn yellow if they are selected properly. Then, create a new network by clicking on the **New Network from Selection** button and choosing the option **From Selected Nodes, All Edges** or via the menu item **File → New Network → From Selected Nodes, All Edges**.
 
 _How many nodes and edges are there in this cluster?_
 
