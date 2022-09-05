@@ -55,11 +55,11 @@ _How many nodes do you have in the network? Which of the two settings now limits
 
 ## Exercise 2
 
-In this exercise, we will work with the list of genes identified as potential targets in temporal lobe epilepsy using RNA-sequencing by [Kjær et al.](https://doi.org/10.1093/brain/awz265). We recommend using Excel or a similar program to open the file, which you can download from [here in TSV format](/assets/teaching_dsd/candidates_consensus.tsv) and [here in XLSX format](/assets/teaching_dsd/candidates_consensus.xlsx). 
+In this exercise, we will work with the list of genes identified as potential targets in temporal lobe epilepsy using RNA-sequencing data analysis by [Kjær et al.](https://doi.org/10.1093/brain/awz265). You can download the file from [here](/assets/teaching_dsd/candidates_consensus_genes.tsv). 
 
 ### 2.1 Multiple proteins query 
 
-We will first retrieve a network for the genes from the study. Go to <https://string-db.org/>, open the **Multiple proteins** search interface, and paste the list of gene names from the _Gene.name_ column in the table into the field **List Of Names**. Specify **Homo sapiens** in the **Organism** field and click **SEARCH**. You will first be presented with a disambiguation page, on which you can verify that the genes you entered are correctly mapped. Press **Continue** to view the protein network.
+We will first retrieve a network for the genes from the study. Go to <https://string-db.org/>, open the **Multiple proteins** search interface, and paste the list of gene names from the file into the field **List Of Names**. Specify **Homo sapiens** in the **Organism** field and click **SEARCH**. You will first be presented with a disambiguation page, on which you can verify that the genes you entered are correctly mapped. Press **Continue** to view the protein network.
 
 _How many nodes and edges are in the resulting network?_
 
