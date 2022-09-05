@@ -20,9 +20,7 @@ In these exercises, we will use the [stringApp](http://apps.cytoscape.org/apps/s
 
 ## Prerequisites
 
-To follow the exercises, please make sure that you have the latest version of Cytoscape installed. Then start Cytoscape and go to **Apps → App Manager** to check for new apps, install them and update the current ones if necessary. The exercises require you to have certain Cytoscape apps installed. Search for the **stringApp** in the search field; if it is not already installed, select it and press the **Install** button to install it. Similarly, make sure you have the **yFiles Layout Algorithms**, and **clusterMaker2** apps installed before closing the App Manager.
-
-If you are not already familiar with the STRING database, we highly recommend that you go through the short [STRING exercises](/training/string/) to learn about the underlying data before working with them in these exercises.
+To follow the exercises, please make sure that you have the latest version of Cytoscape installed. Then start Cytoscape and go to **Apps → App Manager** to check for new apps, install them and update the current ones if necessary. The exercises require you to have certain Cytoscape apps installed. Search for the **stringApp** in the search field; if it is not already installed, select it and press the **Install** button to install it. Similarly, make sure you have the **clusterMaker2** app installed before closing the App Manager.
 
 ## Exercise 1
 
@@ -94,7 +92,7 @@ In this exercise, we will focus on common network analysis tasks such as cluster
 
 We will use the MCL algorithm to identify clusters of tightly connected proteins within the network. To do that, press the **Cluster network (MCL)** button in the **STRING Results panel** on the right side of the network view. Keep the default **granularity parameter (inflation value)** set to **4** and click **OK** to start the clustering. The clusterMaker app will now run the algorithm and automatically create a network showing the clusters.
 
-_How many clusters have at least 10 nodes?_
+_How many clusters have more than 3 nodes?_
 
 <details>
 <summary><em>Alternative instructions for clustering</em></summary>
@@ -104,21 +102,21 @@ _How many clusters have at least 10 nodes?_
 
 ### 3.2 Functional enrichment
 
-We will work with the largest cluster in the network (it should be in the upper left corner). Select the nodes of this cluster by holding down the modifier key (_Shift_ on Windows, _Ctrl_ or _Command_ on Mac) and then left-clicking and dragging to select multiple nodes. The nodes will turn yellow if they are selected properly. Then, create a new network by clicking on the **New Network from Selection** button and choosing the option **From Selected Nodes, All Edges** or via the menu item **File → New Network → From Selected Nodes, All Edges**.
+We will work with the **second largest cluster** in the network (it should be in the second one in the first row). Select the nodes of this cluster by holding down the modifier key (_Shift_ on Windows, _Ctrl_ or _Command_ on Mac) and then left-clicking and dragging to select multiple nodes. The nodes will turn yellow if they are selected properly. Then, create a new network by clicking on the **New Network from Selection** button and choosing the option **From Selected Nodes, All Edges** or via the menu item **File → New Network → From Selected Nodes, All Edges**.
 
 _How many nodes and edges are there in this cluster?_
 
 After making sure that **no** nodes are selected in the current network, go to the menu **Apps → STRING Enrichment → Retrieve functional enrichment** or use the **Functional Enrichment** button in the **Nodes tab** of the **STRING Panel** on the right side. Then, select the original, not clustered network ‘String Network’ as **Background** (instead of ‘genome’) and click **OK**. A new **STRING Enrichment tab** will appear in the **Table Panel** on the bottom. It contains a table of enriched terms and corresponding information for each enrichment category. You can see which proteins are annotated with a given term by selecting the term in the **STRING Enrichment panel** and you can see the terms annotating a given node by slecting it.
 
-_How many statistically significant terms are in the table? Which is the most significant term for each of the categories GO Biological Process, Reactome and KEGG Pathways? Hint: Look at the FDR (false discovery rate) value column and use the **Filter** button to select individual categories._
+_How many statistically significant terms are in the table and which is the most significant one? Hint: Look at the FDR (false discovery rate) value column._
 
 ## Exercise 4
 
-In this exercise, we will show you how to compare the network of candidates to a network with genes associated with the same disease according to the [DISEASES database](https://diseases.jensenlab.org/Search).
+In this exercise, we will show you how to compare the network of candidate targets to a network with genes associated with the same disease according to the [DISEASES database](https://diseases.jensenlab.org/Search).
 
 ### 4.1 Disease queries
 
-Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: disease query** as **Data Source** and type _temporal lobe epilepsy_ into the **Enter disease term** field. The stringApp will retrieve a STRING network for the top-N proteins (by default 100) associated with the disease.
+Go to the menu **File → Import → Network from Public Databases** and choose the **STRING: disease query** option from the **Data Source** drop-down menu. Insert _temporal lobe epilepsy_  into the **Enter disease term** field, set the **Maximum number of proteins** option to **250** and press the **Import** button. The stringApp will retrieve a STRING network for the top-N proteins (in this case the top-250) associated with the disease.
 
 The next dialog shows all the matches that the stringApp finds for your disease query and selects the first one. Make sure to select the intended disease before pressing the **Import** button to continue.
 
