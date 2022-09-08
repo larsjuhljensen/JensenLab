@@ -8,6 +8,7 @@ permalink: /people/
 [Lars Juhl Jensen](/people/larsjuhljensen/)
 
 ## Current group members
+[Dewei Hu](https://www.linkedin.com/in/dewei-hu-65a717197/)  
 [Dhouha Grissa](http://dgrissa.wixsite.com/dhouha-grissa)  
 [Esmaeil Nourani](https://www.linkedin.com/in/esmaeil-nourani-84618753/)  
 [Katerina Nastou](/people/katerinanastou/)  
