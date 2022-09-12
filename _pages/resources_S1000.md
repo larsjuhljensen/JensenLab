@@ -1,9 +1,9 @@
 ---
 title: S1000 corpus
 layout: single
-permalink: /resources/S1000/
+permalink: /resources/s1000/
 sidebar:
-  nav: "S1000"
+  nav: "s1000"
 ---
 
 The S1000 corpus is a comprehensive manual reannotation and extension of the S800 corpus that allows highly accurate recognition of species names, both for machine learning and dictionary-based methods. In this page links to datasets associated with the corpus can be found 
