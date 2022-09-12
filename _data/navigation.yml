@@ -98,15 +98,14 @@ resources:
 
 s1000:
   - title: "The S1000 corpus"
-  url: /resources/s1000/
-  children:
-    - title: "Publication"
-      url: /resources/textmining/#publication
-    - title: "Codebases"
-      url: /resources/textmining/#codebases
-    - title: "Datasets"
-      url: /resources/textmining/#datasets
-
+    url: /resources/s1000/
+    children:
+      - title: "Publication"
+        url: /resources/s1000/#publication
+      - title: "Codebases"
+        url: /resources/s1000/#codebases
+      - title: "Datasets"
+        url: /resources/s1000/#datasets
 
 training:
   - title: "Training material"
