@@ -96,6 +96,18 @@ resources:
       - title: "Tools"
         url: /resources/textmining/#tools
 
+S1000:
+  - title: "The S1000 corpus"
+  url: /resources/S1000/
+  children:
+    - title: "Publication"
+      url: /resources/textmining/#publication
+    - title: "Codebases"
+      url: /resources/textmining/#codebases
+    - title: "Datasets"
+      url: /resources/textmining/#datasets
+
+
 training:
   - title: "Training material"
     url: /training/#training-material
