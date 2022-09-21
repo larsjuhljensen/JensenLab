@@ -347,6 +347,8 @@ training-stringapp-dsd:
         url: /training/stringapp/dsd/#23-data-import
       - title: "Continuous color mapping"
         url: /training/stringapp/dsd/#24-continuous-color-mapping
+      - title: "Save data"
+        url: /training/stringapp/dsd/#25-dave-data
   - title: "Exercise 3"
     url: /training/stringapp/dsd/#exercise-3
     children:

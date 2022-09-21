@@ -52,11 +52,11 @@ Select **Style** from the side menu in the left panel (it is between **Network**
 
 To color the border of the proteins with a given target development level, first click the field to the **right** of an attribute value, i.e. **Tbio**, then click the ⋯ button and choose a color from the color selection dialog.
 
-_How many of the proteins in the network are have a Tclin target?_
+_How many of the proteins in the network are Tclin targets?_
 
 There are many proteins with Tbio targets in the network. We can avoid counting them manually by creating a selection filter in the **Filter** tab (located underneath **Style**). Click the **ᐩ** button and choose **Column filter** from the drop-down menu. Then, find and select the attribute **(T) Node: development level**. Write **Tbio** in the text field to select all nodes with this annotation.
 
-_How many proteins with a Tbio target are in the network?_
+_How many Tbio targets are in the network?_
 
 ### 2.3 Data import
 
@@ -83,6 +83,10 @@ _Do you see the columns from the Excel table in the Node Table in Cytoscape?_
 Now, we want to color the nodes according to their differential expression. From the left panel side menu, select **Style** (it is underneath **Network**). Then click on the **◀** button in the **Fill Color** row and set **Column** to the node attribute **l2FC**. Since this is a numeric value, we will use the **Continuous Mapping** as the **Mapping Type**, and set a color gradient for how differentially expressed each gene is. The default Cytoscape color gradient blue--white--red already gives a nice visualization of the log ratio.
 
 _Are the up-regulated nodes grouped together?_
+
+### 2.5 Save data
+
+To keep all the networks, data, and visualizations you created, you can save them as a Cytoscape session and open them at a later time point. Go to **File → Save**, choose where to save the file, give it a proper name and click the **Save** button.
 
 ## Exercise 3
 
