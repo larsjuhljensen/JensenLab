@@ -55,11 +55,11 @@ _How many nodes do you have in the network? Which of the two settings now limits
 
 ## Exercise 2
 
-In this exercise, we will work with the list of 541 proteins associated with epithelial ovarian cancer (EOC) as identified by phosphoproteomics in the study by [Francavilla et al.](https://doi.org/10.1016/j.celrep.2017.03.015). An adapted, simplified version of their results table can be downloaded [here](/assets/Francavilla2017CellRep.tsv). We recommend using Excel or a similar program to open the file. 
+In this exercise, we will work with the list of 541 proteins associated with epithelial ovarian cancer (EOC) as identified by phosphoproteomics in the study by [Francavilla et al.](https://doi.org/10.1016/j.celrep.2017.03.015). An adapted, simplified version of their results table can be downloaded [here](/assets/Francavilla2017CellRep.tsv). We recommend using Microsoft Excel, Numbers or a similar program to open the file. Alternatively copy the data into an online spreadsheet such as [Google sheets](https://docs.google.com/spreadsheets/u/0/). 
 
 ### 2.1 Multiple proteins query 
 
-We will first retrieve a network for the proteins from the study. Go to <https://string-db.org/>, open the **Multiple proteins** search interface, and paste the list of UniProt accession numbers from the _UniProt_ column in the table into the field **List Of Names**. Specify **Homo sapiens** in the **Organism** field and click **SEARCH**. You will first be presented with a disambiguation page, on which you can verify that the proteins you entered are correctly mapped. Press **Continue** to view the protein network.
+We will first retrieve a network for the proteins from the study. Go to <https://string-db.org/>, open the **Multiple proteins** search interface, and paste the list of UniProt accession numbers from the _UniProt_ column (the first column) in the table into the field **List Of Names**. Specify **Homo sapiens** in the **Organism** field and click **SEARCH**. You will first be presented with a disambiguation page, on which you can verify that the proteins you entered are correctly mapped. Press **Continue** to view the protein network.
 
 _How many nodes and edges are in the resulting network?_
 
