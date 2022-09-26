@@ -55,7 +55,7 @@ _How many nodes do you have in the network? Which of the two settings now limits
 
 ## Exercise 2
 
-In this exercise, we will work with the list of 541 proteins associated with epithelial ovarian cancer (EOC) as identified by phosphoproteomics in the study by [Francavilla et al.](https://doi.org/10.1016/j.celrep.2017.03.015). An adapted, simplified version of their results table can be downloaded [here](/assets/Francavilla2017CellRep.tsv). We recommend using Microsoft Excel, Numbers or a similar program to open the file. Alternatively copy the data into an online spreadsheet such as [Google sheets](https://docs.google.com/spreadsheets/u/0/). 
+In this exercise, we will work with the list of 541 proteins associated with epithelial ovarian cancer (EOC) as identified by phosphoproteomics in the study by [Francavilla et al.](https://doi.org/10.1016/j.celrep.2017.03.015). An adapted, simplified version of their results table can be downloaded [here in TSV format](/assets/Francavilla2017CellRep.tsv) and [here in XLSX format](/assets/Francavilla2017CellRep.xlsx). We recommend using Microsoft Excel, Numbers or a similar program to open the file. Alternatively copy the data into an online spreadsheet such as [Google sheets](https://docs.google.com/spreadsheets/u/0/). 
 
 ### 2.1 Multiple proteins query 
 
