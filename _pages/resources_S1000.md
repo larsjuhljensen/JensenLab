@@ -10,7 +10,7 @@ The S1000 corpus is a comprehensive manual reannotation and extension of the S80
 
 ## Publication
 
-[The S1000 Corpus for Species Named Entity Recognition]()
+[The S1000 Corpus for Species Named Entity Recognition](/assets/s1000/S1000-corpus.tar.gz)
 
 ## Codebases
 
