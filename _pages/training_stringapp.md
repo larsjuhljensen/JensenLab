@@ -36,7 +36,7 @@ Unless the name(s) you entered give unambiguous matches, a disambiguation dialog
 
 [Import SORCS2 network](cycmd:string protein query query=SORCS2 taxonID=9606){: .btn .btn--cybrowser .btn--primary}
 
-_How many nodes are in the resulting network? How does this compare to the maximum number of interactors you specified? What types of information does the **Node Table** provide?_
+_How many nodes are in the resulting network? How does this compare to the maximum number of interactors you specified? What types of information do the **Node** and **Edge Table** provide?_
 
 ### 1.2 Compound queries
 
