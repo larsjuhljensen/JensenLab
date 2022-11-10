@@ -508,30 +508,6 @@ training-textmining:
   - title: "Supporting literature"
     url: /training/textmining/#supporting-literature
 
-training-textmining-neurology:
-  - title: "Learning objectives"
-    url: /training/textmining/neurology/#learning-objectives
-  - title: "Prerequisites"
-    url: /training/textmining/neurology/#prerequisites
-  - title: "Exercise 1"
-    url: /training/textmining/neurology/#exercise-1
-    children:
-      - title: "Named entity recognition"
-        url: /training/textmining/neurology/#11-named-entity-recognition
-      - title: "Information retrieval"
-        url: /training/textmining/neurology/#12-information-retrieval
-      - title: "Information extraction"
-        url: /training/textmining/neurology/#13-information-extraction
-  - title: "Exercise 2"
-    url: /training/textmining/neurology/#exercise-2
-    children:
-      - title: "Using NER to dig deeper"
-        url: /training/textmining/neurology/#21-using-ner-to-dig-deeper
-      - title: "Linking diseases via genes"
-        url: /training/textmining/neurology/#22-linking-diseases-via-genes
-  - title: "Supporting literature"
-    url: /training/textmining/neurology/#supporting-literature
-
 training-textmining-ddpm:
   - title: "Learning objectives"
     url: /training/textmining/ddpm/#learning-objectives
