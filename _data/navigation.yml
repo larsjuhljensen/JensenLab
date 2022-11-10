@@ -118,7 +118,7 @@ training:
       - title: "Omics Visualizer"
         url: /training/omicsvisualizer/
       - title: "Text mining"
-        url: /training/textmining/hb/
+        url: /training/textmining/
   - title: "Upcoming events"
     url: /training/#upcoming-events
   - title: "Past events"
@@ -494,23 +494,17 @@ training-textmining:
         url: /training/textmining/#11-named-entity-recognition
       - title: "Information retrieval"
         url: /training/textmining/#12-information-retrieval
-      - title: "Information extraction"
-        url: /training/textmining/#13-information-extraction
-      - title: "Knowledge discovery"
-        url: /training/textmining/#14-knowledge-discovery
+      - title: "Relation extraction"
+        url: /training/textmining/#13-relation-extraction
   - title: "Exercise 2"
     url: /training/textmining/#exercise-2
     children:
       - title: "Using NER to dig deeper"
         url: /training/textmining/#21-using-ner-to-dig-deeper
-      - title: "Linking taxa to diseases"
-        url: /training/textmining/#22-linking-taxa-to-diseases
-      - title: "Microbiome characterization"
-        url: /training/textmining/#23-microbiome-characterization
-      - title: "Mining for indirect associations"
-        url: /training/textmining/#24-mining-for-indirect-associations
-  - title: "Supporting lectures"
-    url: /training/textmining/neurology/#supporting-lectures
+      - title: "Linking diseases via genes"
+        url: /training/textmining/#22-linking-diseases-via-genes
+  - title: "Supporting Video Lectures"
+    url: /training/textmining/#supporting-video-lectures
   - title: "Supporting literature"
     url: /training/textmining/#supporting-literature
 
@@ -591,31 +585,3 @@ training-textmining-ddpm:
     url: /training/textmining/ddpm/#supporting-lectures
   - title: "Supporting literature"
     url: /training/textmining/ddpm/#supporting-literature
-
-training-textmining-hb:
-  - title: "Learning objectives"
-    url: /training/textmining/hb/#learning-objectives
-  - title: "Prerequisites"
-    url: /training/textmining/hb/#prerequisites
-  - title: "Exercise 1"
-    url: /training/textmining/hb/#exercise-1
-    children:
-      - title: "Named entity recognition"
-        url: /training/textmining/hb/#11-named-entity-recognition
-      - title: "Information retrieval"
-        url: /training/textmining/hb/#12-information-retrieval
-      - title: "Relation extraction"
-        url: /training/textmining/hb/#13-relation-extraction
-  - title: "Exercise 2"
-    url: /training/textmining/#exercise-2
-    children:
-      - title: "Using NER to dig deeper"
-        url: /training/textmining/hb/#21-using-ner-to-dig-deeper
-      - title: "Linking diseases via genes"
-        url: /training/textmining/hb/#22-linking-diseases-via-genes
-  - title: "Further questions"
-    url: /training/textmining/hb/#further-questions
-  - title: "Supporting Video Lectures"
-    url: /training/textmining/hb/#supporting-video-lectures
-  - title: "Supporting literature"
-    url: /training/textmining/hb/#supporting-literature
