@@ -152,36 +152,6 @@ training-string:
   - title: "Supporting literature"
     url: /training/string/#supporting-literature
 
-training-string-dsd:
-  - title: "Learning objectives"
-    url: /training/string/dsd/#learning-objectives
-  - title: "Prerequisites"
-    url: /training/string/dsd/#prerequisites
-  - title: "Exercise 1"
-    url: /training/string/dsd/#exercise-1
-    children:
-      - title: "Single protein query"
-        url: /training/string/dsd/#11-single-protein-query
-      - title: "Visual representations"
-        url: /training/string/dsd/#12-visual-representations
-      - title: "Evidence viewers"
-        url: /training/string/dsd/#13-evidence-viewers
-      - title: "Query settings"
-        url: /training/string/dsd/#14-query-settings
-  - title: "Exercise 2"
-    url: /training/string/dsd/#exercise-2
-    children:
-      - title: "Multiple proteins query"
-        url: /training/string/dsd/#21-multiple-proteins-query
-      - title: "Query settings"
-        url: /training/string/dsd/#22-query-settings
-      - title: "Functional enrichment"
-        url: /training/string/dsd/#23-functional-enrichment
-  - title: "Supporting lectures"
-    url: /training/string/dsd/#supporting-lectures
-  - title: "Supporting literature"
-    url: /training/string/dsd/#supporting-literature
-
 training-string-eubic:
   - title: "Learning objectives"
     url: /training/string/eubic/#learning-objectives
@@ -328,47 +298,6 @@ training-stringapp-emdal:
         url: /training/stringapp/emdal/#44-functional-enrichment
   - title: "Supporting literature"
     url: /training/stringapp/emdal/#supporting-literature
-
-training-stringapp-dsd:
-  - title: "Learning objectives"
-    url: /training/stringapp/dsd/#learning-objectives
-  - title: "Prerequisites"
-    url: /training/stringapp/dsd/#prerequisites
-  - title: "Exercise 1"
-    url: /training/stringapp/dsd/#exercise-1
-  - title: "Exercise 2"
-    url: /training/stringapp/dsd/#exercise-2
-    children:
-      - title: "Protein network retrieval"
-        url: /training/stringapp/dsd/#21-protein-network-retrieval
-      - title: "Discrete color mapping"
-        url: /training/stringapp/dsd/#22-discrete-color-mapping
-      - title: "Data import"
-        url: /training/stringapp/dsd/#23-data-import
-      - title: "Continuous color mapping"
-        url: /training/stringapp/dsd/#24-continuous-color-mapping
-      - title: "Save data"
-        url: /training/stringapp/dsd/#25-dave-data
-  - title: "Exercise 3"
-    url: /training/stringapp/dsd/#exercise-3
-    children:
-      - title: "Network clustering"
-        url: /training/stringapp/dsd/#31-network-clustering
-      - title: "Functional enrichment"
-        url: /training/stringapp/dsd/#32-functional-enrichment
-  - title: "Exercise 4"
-    url: /training/stringapp/dsd/#exercise-4
-    children:
-      - title: "Disease queries"
-        url: /training/stringapp/dsd/#41-disease-queries
-      - title: "Overlap with DISEASES network"
-        url: /training/stringapp/dsd/#42-overlap-with-diseases-network
-      - title: "Integrate networks"
-        url: /training/stringapp/dsd/#43-integrate-networks
-  - title: "Supporting lectures"
-    url: /training/stringapp/dsd/#supporting-lectures
-  - title: "Supporting literature"
-    url: /training/stringapp/dsd/#supporting-literature
 
 training-stringapp-eubic:
   - title: "Learning objectives"
