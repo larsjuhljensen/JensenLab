@@ -132,6 +132,7 @@ When one does not have a candidate gene, the best solution is to obtain two gene
 [![Information retrieval](training_information_retrieval.png)](https://youtu.be/hCju07CkgNs)
 [![Named entity recognition](training_named_entity_recognition.png)](https://youtu.be/Uxfedtto8Fo)
 [![Relation extraction](training_relation_extraction.png)](https://youtu.be/25u7ZmczdI8)
+[![EXTRACT](training_extract.png)](https://youtu.be/nduIibZN-qA)
 [![DISEASES](training_diseases.png)](https://youtu.be/xkYixhO2CJQ)
 
 ## Supporting literature
