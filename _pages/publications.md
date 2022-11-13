@@ -15,6 +15,11 @@ Yarani R, Palasca O, Doncheva NT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litm
 
 ## Research articles
 
+### 2023
+
+Szklarczyk D, Kirsch R, Koutrouli M, Nastou K, Mehryary F, Hachilif R, Gable AL, Fang T, Doncheva NT, Pyysalo S, Bork P, Jensen LJ and Christian von Mering C (2023). The STRING database in 2023: protein-protein association networks and functional enrichment analyses for any sequenced genome of interest. *Nucleic Acids Research*.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/36370105/) [Full text](https://doi.org/10.1093/nar/gkac1000)  <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkac1000" data-style="small_rectangle"></span>
+
 ### 2022
 
 Locard-Paulet M, Palasca O and Jensen LJ (2022). Identifying the genes impacted by cell proliferation in proteomics and transcriptomics studies. *PLOS Computational Biology*, **18**:e1010604.  
