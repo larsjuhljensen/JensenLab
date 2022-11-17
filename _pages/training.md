@@ -37,7 +37,7 @@ Protein Research and Critical Thinking
 
 ### 2022
 
-11--14 October 2022, Copenhagen, Denmark
+11--14 October 2022, Copenhagen, Denmark  
 Translational Discovery Omics II
 
 21 and 28 September 2022, Copenhagen, Denmark  
@@ -64,7 +64,7 @@ EuBIC-MS Winter School
 15 March 2022, Copenhagen, Denmark  
 Fundamental Bioinformatics
 
-3 March 2022, Copenhagen, Denmark  
+3 March and 21 Sept 2022, Copenhagen, Denmark  
 Digital Health and Data
 
 7 February 2022, Copenhagen, Denmark (online)  
