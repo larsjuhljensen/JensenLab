@@ -17,6 +17,9 @@ Yarani R, Palasca O, Doncheva NT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litm
 
 ### 2023
 
+Hernández-Plaza A, Szklarczyk D, Botas J, Cantalapiedra CP, Giner-Lamia J, Mende DR, Kirsch R, Rattei T, Letunic I, Jensen LJ, Bork P, von Mering C and Jaime Huerta-Cepas J (2023). eggNOG 6.0: enabling comparative genomics across 12535 organisms. *Nucleic Acids Research*.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/36399505/) [Full text](https://doi.org/10.1093/nar/gkac1022) [WWW](http://eggnog6.embl.de/) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkac1022" data-style="small_rectangle"></span>
+
 Szklarczyk D, Kirsch R, Koutrouli M, Nastou K, Mehryary F, Hachilif R, Gable AL, Fang T, Doncheva NT, Pyysalo S, Bork P, Jensen LJ and Christian von Mering C (2023). The STRING database in 2023: protein-protein association networks and functional enrichment analyses for any sequenced genome of interest. *Nucleic Acids Research*.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36370105/) [Full text](https://doi.org/10.1093/nar/gkac1000) [WWW](https://string-db.org/) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkac1000" data-style="small_rectangle"></span>
 
