@@ -40,6 +40,9 @@ Workshops in Applied Bioinformatics
 15--18 November 2022, Copenhagen, Denmark  
 Big Data Analytics and Machine Learning I
 
+14--18 November 2022, Copenhagen, Denmark  
+Mass Spectrometry-based Proteomics and its Applications in Biology
+
 11--14 October 2022, Copenhagen, Denmark  
 Translational Discovery Omics II
 
