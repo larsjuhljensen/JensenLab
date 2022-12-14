@@ -24,15 +24,15 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-9 December 2022, Copenhagen, Denmark  
-Protein Research and Critical Thinking
-
 30 January--3 February 2023, Stellenbosch, South Africa  
 UBUNTU Proteomics Summer School
 
 ## Past events
 
 ### 2022
+
+9 December 2022, Copenhagen, Denmark  
+Protein Research and Critical Thinking
 
 25 November 2022, Odense, Denmark   
 Workshops in Applied Bioinformatics  
