@@ -16,6 +16,9 @@ He has authored and co-authored more than 200 [scientific publications](/publica
 ## Profile links
 
 [YouTube](https://www.youtube.com/larsjuhljensen)  
-[Twitter](https://twitter.com/larsjuhljensen)  
+[Bilibili](https://space.bilibili.com/1200715457)  
+[Instagram](https://www.instagram.com/lars.juhl.jensen/)  
 [LinkedIn](https://www.linkedin.com/in/larsjuhljensen/)  
+[Mastodon](https://mas.to/@larsjuhljensen)  
+[Twitter](https://twitter.com/larsjuhljensen)  
 [University of Copenhagen](https://www.cpr.ku.dk/staff/jensen-group/?pure=en/persons/343848)
