@@ -667,6 +667,9 @@ Saric J, Jensen LJ, Ouzounova R, Rojas I and Bork P (2004). Extracting Regulator
 
 ## Reviews
 
+Yarani R, Shojaeian A, Palasca O, Nadezhda T Doncheva NT, Jensen LJ, Gorodkin J and Pociot F (2022). Differentially Expressed miRNAs in Ulcerative Colitis and Crohn's Disease. *Frontiers in Immunology*, **13**:865777.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/35734163/) [Full text](https://doi.org/10.3389/fimmu.2022.865777  ) <span class="__dimensions_badge_embed__" data-doi="10.3389/fimmu.2022.865777" data-style="small_rectangle"></span>
+
 Burgess A, Vuong J, Marzec KA, de Lichtenberg U, O’Donoghue SI and Jensen LJ (2019). SnapShot: S-Phase Entry and Exit. *Cell*, **179**:802.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/31626778) [Full text](https://doi.org/10.1016/j.cell.2019.09.031) [WWW](https://minardo.org/snapshots/s-phase) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.cell.2019.09.031" data-style="small_rectangle"></span>
 
