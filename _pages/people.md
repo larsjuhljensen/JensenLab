@@ -11,7 +11,6 @@ permalink: /people/
 [Dewei Hu](https://www.linkedin.com/in/dewei-hu-65a717197/)  
 [Esmaeil Nourani](https://www.linkedin.com/in/esmaeil-nourani-84618753/)  
 [Katerina Nastou](/people/katerinanastou/)  
-[Marie Locard-Paulet](/people/marielocardpaulet/)  
 [Maud Kerstholt](https://www.linkedin.com/in/mkerstholt/)  
 [Mikaela Koutrouli](https://www.linkedin.com/in/mikaela-koutrouli-24a877156/)  
 [Nadezhda T. Doncheva](/people/nadezhdatdoncheva/)  
@@ -32,6 +31,7 @@ Helen Victoria Cook
 Jan Christian Refsgaard  
 Kalliopi Tsafou  
 [Marc Legeay](/people/marclegeay/)  
+[Marie Locard-Paulet](/people/marielocardpaulet/)  
 Sune Pletscher-Frankild  
 [Ufuk Kirik](/people/ufukkirik/)  
 Xiaoyong Pan
