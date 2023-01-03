@@ -7,9 +7,9 @@ sidebar:
 ---
 
 The S1000 corpus is a comprehensive manual reannotation and extension of the S800 corpus that allows highly accurate recognition of species names, both for machine learning and dictionary-based methods. 
-In this page we have gathered links to the publication, the corpus, datasets and codebases related to this project 
+In this page we have gathered links to the publication, the corpus, datasets and codebases related to this project.
 
-## Publication
+## Publication and Corpus
 
 * Publication Preprint: [Title for publication](link/to/biorxiv)
 
@@ -17,11 +17,20 @@ In this page we have gathered links to the publication, the corpus, datasets and
 
 ## Datasets
 
-* The S1000 corpus, the dictionary used by [Jensenlab tagger](https://github.com/larsjuhljensen/tagger), results from large scale tagging with both the Jensenlab tagger and the transformer-based method, and the annotation guidelines are available at [Zenodo](https://zenodo.org/deposit/7064902). 
-* The input documents for Jensenlab tagger are hosted [here](https://a3s.fi/s1000/PubMed-input.tar.gz) and [here](https://a3s.fi/s1000/PMC-OA-input.tar.gz) and for the transformer-based method [here](https://a3s.fi/s1000/database_documents.tsv.gz)
+* There is a [Zenodo](https://zenodo.org/deposit/7064902) project related to S1000 that contains: 
+  * the dictionary used by [Jensenlab tagger](https://github.com/larsjuhljensen/tagger)
+  * results from large scale tagging with the Jensenlab tagger 
+  * results from large scale tagging with the transformer-based method and 
+* The input documents for the large scale runs with
+  * Jensenlab tagger are hosted [here](https://a3s.fi/s1000/PubMed-input.tar.gz) and [here](https://a3s.fi/s1000/PMC-OA-input.tar.gz)
+  * the transformer-based method are hosted [here](https://a3s.fi/s1000/database_documents.tsv.gz)
+* the S1000 corpus and
+* the guidelines used during annotation of the corpus
+
+_(Note: the input documents are the same, the difference is in the input format)_
 
 ## Code
 
 * Useful scripts to reproduce the results presented in the publication can be found in this [Github repo](https://github.com/katnastou/various-scripts-for-S1000)
 
-* The codebase used for training the deep learning-based model can be found in this [Github repo](/link/to/github) together with the model used for large-scale tagging of the literature.
+* The codebase used for training the deep learning-based model can be found in this [Github repo](/link/to/github) together with a link to the model used for large-scale tagging of the literature.
