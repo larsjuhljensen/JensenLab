@@ -100,12 +100,12 @@ s1000:
   - title: "The S1000 corpus"
     url: /resources/s1000/
     children:
-      - title: "Publication"
-        url: /resources/s1000/#publication
-      - title: "Codebases"
-        url: /resources/s1000/#codebases
+      - title: "Publication and Corpus"
+        url: /resources/s1000/#publication-and-corpus
       - title: "Datasets"
         url: /resources/s1000/#datasets
+      - title: "Code"
+        url: /resources/s1000/#code
 
 training:
   - title: "Training material"
