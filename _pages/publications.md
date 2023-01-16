@@ -7,6 +7,9 @@ sidebar:
 ---
 ## Preprints
 
+Webel H, Niu L, Nielsen AB, Locard-Paulet M, Mann M, Jensen LJ and Rasmussen S (2023). Mass spectrometry-based proteomics imputation using self supervised deep learning. *bioRxiv*.  
+[Preprint](https://doi.org/10.1101/2023.01.12.523792)
+
 Koutrouli M, Lindez PP, Bouwmeester R, Martens L and Jensen LJ (2022). FAVA: High-quality functional association networks inferred from scRNA-seq and proteomics data. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2022.07.06.499022)
 
@@ -20,10 +23,13 @@ Yarani R, Palasca O, Doncheva NT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litm
 Doncheva NT, Morris JH, Holze H, Kirsch R, Nastou KC, Cuesta-Astroz Y, Thomas Rattei T, Szklarczyk D, von Mering C and Jensen LJ (2023). Cytoscape stringApp 2.0: Analysis and visualization of heterogeneous biological networks. *Journal of Proteome Research*.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36512705/) [Full text](https://doi.org/10.1021/acs.jproteome.2c00651) [WWW](https://apps.cytoscape.org/apps/stringapp) <span class="__dimensions_badge_embed__" data-doi="10.1021/acs.jproteome.2c00651" data-style="small_rectangle"></span>
 
-Hernández-Plaza A, Szklarczyk D, Botas J, Cantalapiedra CP, Giner-Lamia J, Mende DR, Kirsch R, Rattei T, Letunic I, Jensen LJ, Bork P, von Mering C and Jaime Huerta-Cepas J (2023). eggNOG 6.0: enabling comparative genomics across 12535 organisms. *Nucleic Acids Research*.  
+Kelleher KJ, Sheils TK, Mathias SL, Yang JJ, Metzger VT, Siramshetty VB, Nguyen D-T, Jensen LJ, Vidović D, Schürer SC, Holmes J, Sharma KR, Pillai A, Bologa CG, Edwards JS, Mathé EA and Oprea TI (2023). Pharos 2023: an integrated resource for the understudied human proteome. *Nucleic Acids Research*, **51**:D1405-D1416.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/36624666/) [Full text](https://doi.org/10.1093/nar/gkac1033) [WWW](http://eggnog6.embl.de/) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkac1033" data-style="small_rectangle"></span>
+
+Hernández-Plaza A, Szklarczyk D, Botas J, Cantalapiedra CP, Giner-Lamia J, Mende DR, Kirsch R, Rattei T, Letunic I, Jensen LJ, Bork P, von Mering C and Jaime Huerta-Cepas J (2023). eggNOG 6.0: enabling comparative genomics across 12535 organisms. *Nucleic Acids Research*, **51**:D389-D394.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36399505/) [Full text](https://doi.org/10.1093/nar/gkac1022) [WWW](http://eggnog6.embl.de/) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkac1022" data-style="small_rectangle"></span>
 
-Szklarczyk D, Kirsch R, Koutrouli M, Nastou K, Mehryary F, Hachilif R, Gable AL, Fang T, Doncheva NT, Pyysalo S, Bork P, Jensen LJ and Christian von Mering C (2023). The STRING database in 2023: protein-protein association networks and functional enrichment analyses for any sequenced genome of interest. *Nucleic Acids Research*.  
+Szklarczyk D, Kirsch R, Koutrouli M, Nastou K, Mehryary F, Hachilif R, Gable AL, Fang T, Doncheva NT, Pyysalo S, Bork P, Jensen LJ and Christian von Mering C (2023). The STRING database in 2023: protein-protein association networks and functional enrichment analyses for any sequenced genome of interest. *Nucleic Acids Research*, **51**:D638-D646  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36370105/) [Full text](https://doi.org/10.1093/nar/gkac1000) [WWW](https://string-db.org/) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkac1000" data-style="small_rectangle"></span>
 
 ### 2022
