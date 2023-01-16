@@ -24,7 +24,7 @@ Doncheva NT, Morris JH, Holze H, Kirsch R, Nastou KC, Cuesta-Astroz Y, Thomas Ra
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36512705/) [Full text](https://doi.org/10.1021/acs.jproteome.2c00651) [WWW](https://apps.cytoscape.org/apps/stringapp) <span class="__dimensions_badge_embed__" data-doi="10.1021/acs.jproteome.2c00651" data-style="small_rectangle"></span>
 
 Kelleher KJ, Sheils TK, Mathias SL, Yang JJ, Metzger VT, Siramshetty VB, Nguyen D-T, Jensen LJ, Vidović D, Schürer SC, Holmes J, Sharma KR, Pillai A, Bologa CG, Edwards JS, Mathé EA and Oprea TI (2023). Pharos 2023: an integrated resource for the understudied human proteome. *Nucleic Acids Research*, **51**:D1405-D1416.  
-[Abstract](https://pubmed.ncbi.nlm.nih.gov/36624666/) [Full text](https://doi.org/10.1093/nar/gkac1033) [WWW](http://eggnog6.embl.de/) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkac1033" data-style="small_rectangle"></span>
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/36624666/) [Full text](https://doi.org/10.1093/nar/gkac1033) [WWW](https://pharos.nih.gov) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkac1033" data-style="small_rectangle"></span>
 
 Hernández-Plaza A, Szklarczyk D, Botas J, Cantalapiedra CP, Giner-Lamia J, Mende DR, Kirsch R, Rattei T, Letunic I, Jensen LJ, Bork P, von Mering C and Jaime Huerta-Cepas J (2023). eggNOG 6.0: enabling comparative genomics across 12535 organisms. *Nucleic Acids Research*, **51**:D389-D394.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36399505/) [Full text](https://doi.org/10.1093/nar/gkac1022) [WWW](http://eggnog6.embl.de/) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkac1022" data-style="small_rectangle"></span>
