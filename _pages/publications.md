@@ -13,15 +13,15 @@ Webel H, Niu L, Nielsen AB, Locard-Paulet M, Mann M, Jensen LJ and Rasmussen S (
 Koutrouli M, Lindez PP, Bouwmeester R, Martens L and Jensen LJ (2022). FAVA: High-quality functional association networks inferred from scRNA-seq and proteomics data. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2022.07.06.499022)
 
-Yarani R, Palasca O, Doncheva NT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litman T, Holmskov U, Bang-Berthelsen CH, Vilien M, Jensen LJ, Gorodkin J and Pociot F (2020). Transcriptome profiling of ulcerative colitis mouse model suggests biomarkers and therapeutic targets for human colitis. *bioRxiv*.  
-[Preprint](https://doi.org/10.1101/2020.08.12.225458)
-
 ## Research articles
 
 ### 2023
 
 Doncheva NT, Morris JH, Holze H, Kirsch R, Nastou KC, Cuesta-Astroz Y, Thomas Rattei T, Szklarczyk D, von Mering C and Jensen LJ (2023). Cytoscape stringApp 2.0: Analysis and visualization of heterogeneous biological networks. *Journal of Proteome Research*.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36512705/) [Full text](https://doi.org/10.1021/acs.jproteome.2c00651) [WWW](https://apps.cytoscape.org/apps/stringapp) <span class="__dimensions_badge_embed__" data-doi="10.1021/acs.jproteome.2c00651" data-style="small_rectangle"></span>
+
+Yarani R\*, Palasca O\*, Doncheva NT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litman T, Holmskov U, Bang-Berthelsen CH, Vilien M, Jensen LJ, Gorodkin J and Pociot F (2023). Cross-species high-resolution transcriptome profiling suggests biomarkers and therapeutic targets for ulcerative colitis. *Frontiers in Molecular Biosciences*.  
+[Full text](https://doi.org/10.3389/fmolb.2022.1081176) [Preprint](https://doi.org/10.1101/2020.08.12.225458) <span class="__dimensions_badge_embed__" data-doi="10.3389/fmolb.2022.1081176" data-style="small_rectangle"></span>
 
 Kelleher KJ, Sheils TK, Mathias SL, Yang JJ, Metzger VT, Siramshetty VB, Nguyen D-T, Jensen LJ, Vidović D, Schürer SC, Holmes J, Sharma KR, Pillai A, Bologa CG, Edwards JS, Mathé EA and Oprea TI (2023). Pharos 2023: an integrated resource for the understudied human proteome. *Nucleic Acids Research*, **51**:D1405-D1416.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36624666/) [Full text](https://doi.org/10.1093/nar/gkac1033) [WWW](https://pharos.nih.gov) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkac1033" data-style="small_rectangle"></span>
