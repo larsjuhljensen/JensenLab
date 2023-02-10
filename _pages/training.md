@@ -260,6 +260,9 @@ Bioinformatics for Human Biologists
 7--8 September 2017, Copenhagen, Denmark  
 Introduction to Molecular Bioscience
 
+10--14 July 2017, Lipari, Italy  
+Computational Life Sciences Summer School
+
 20 June 2017, Melbourne, Australia  
 Utilising STRING App for Cytoscape
 
