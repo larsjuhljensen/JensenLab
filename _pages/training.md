@@ -338,6 +338,9 @@ Fundamental Bioinformatics
 28 September--3 October 2014, Cape Town, South Africa  
 EMBO Practical Course on Computational Analysis of Protein--Protein Interactions
 
+23--28 June 2014, Copenhagen, Denmark  
+Summer School in RNA Bioinformatics
+
 3--9 April 2014, Puerto Varas, Chile  
 EMBO Practical Course on Computational Biology
 
