@@ -676,7 +676,7 @@ Saric J, Jensen LJ, Ouzounova R, Rojas I and Bork P (2004). Extracting Regulator
 
 ## Reviews
 
-Franciosa G, Locard-Paulet M, Jensen LJ and Jesper V.Olsen JV (2023). Recent advances in kinase signaling network profiling by mass spectrometry. *Current Opinion in Chemical Biology*, **73**:102260.  
+Franciosa G, Locard-Paulet M, Jensen LJ and Olsen JV (2023). Recent advances in kinase signaling network profiling by mass spectrometry. *Current Opinion in Chemical Biology*, **73**:102260.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36657259/) [Full text](https://doi.org/10.1016/j.cbpa.2022.102260) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.cbpa.2022.102260" data-style="small_rectangle"></span>
 
 Yarani R, Shojaeian A, Palasca O, Nadezhda T Doncheva NT, Jensen LJ, Gorodkin J and Pociot F (2022). Differentially Expressed miRNAs in Ulcerative Colitis and Crohn's Disease. *Frontiers in Immunology*, **13**:865777.  
