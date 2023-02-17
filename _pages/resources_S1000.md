@@ -11,23 +11,24 @@ In this page we have gathered links to the publication, the corpus, datasets and
 
 ## Publication and Corpus
 
-* Publication Preprint: [Title for publication](link/to/biorxiv)
+* Publication Preprint: [S1000: A better taxonomic name corpus for biomedical information extraction](link/to/biorxiv)
 
 * [The S1000 Corpus](/assets/s1000/S1000-corpus.tar.gz) in [BRAT standoff format](https://brat.nlplab.org/standoff.html)
 
 ## Datasets
 
-* There is a [Zenodo](https://zenodo.org/deposit/7064902) project related to S1000 that contains: 
+* The S1000 corpus
+* The guidelines used during annotation of the corpus (also available as an annodoc [here](https://katnastou.github.io/s1000-corpus-annotation-guidelines/))
+
+* The [Zenodo](https://zenodo.org/deposit/7064902) project related to S1000 that contains: 
   * the dictionary used by [Jensenlab tagger](https://github.com/larsjuhljensen/tagger)
   * results from large scale tagging with the Jensenlab tagger 
-  * results from large scale tagging with the transformer-based method and 
-* The input documents for the large scale runs with
+  * results from large scale tagging with the transformer-based method
+
+* The input documents for the large scale runs with:
   * Jensenlab tagger are hosted [here](https://a3s.fi/s1000/PubMed-input.tar.gz) and [here](https://a3s.fi/s1000/PMC-OA-input.tar.gz)
   * the transformer-based method are hosted [here](https://a3s.fi/s1000/database_documents.tsv.gz)
-* the S1000 corpus and
-* the guidelines used during annotation of the corpus
-
-_(Note: the input documents are the same, the difference is in the input format)_
+_(Note: the pre-processed input documents are the same, the difference is in the document format for the two methods)_
 
 ## Code
 
