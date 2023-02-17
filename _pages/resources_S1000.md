@@ -32,6 +32,6 @@ _(Note: the pre-processed input documents are the same, the difference is in the
 
 ## Code
 
-* Useful scripts to reproduce the results presented in the publication can be found in this [Github repo](https://github.com/katnastou/various-scripts-for-S1000)
+* Useful scripts to reproduce the results presented in the publication can be found in this [Github repo](https://zenodo.org/record/7650251#.Y--QPrTMJR4)
 
 * The codebase used for training the deep learning-based model can be found in this [Github repo](/link/to/github) together with a link to the model used for large-scale tagging of the literature.
