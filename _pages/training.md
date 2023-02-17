@@ -260,6 +260,9 @@ Bioinformatics for Human Biologists
 7--8 September 2017, Copenhagen, Denmark  
 Introduction to Molecular Bioscience
 
+10--14 July 2017, Lipari, Italy  
+Computational Life Sciences Summer School
+
 20 June 2017, Melbourne, Australia  
 Utilising STRING App for Cytoscape
 
@@ -334,6 +337,9 @@ Fundamental Bioinformatics
 
 28 September--3 October 2014, Cape Town, South Africa  
 EMBO Practical Course on Computational Analysis of Protein--Protein Interactions
+
+23--28 June 2014, Copenhagen, Denmark  
+Summer School in RNA Bioinformatics
 
 3--9 April 2014, Puerto Varas, Chile  
 EMBO Practical Course on Computational Biology

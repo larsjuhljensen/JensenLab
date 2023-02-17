@@ -7,11 +7,14 @@ sidebar:
 ---
 ## Preprints
 
+Webel H, Niu L, Nielsen AB, Locard-Paulet M, Mann M, Jensen LJ and Rasmussen S (2023). Mass spectrometry-based proteomics imputation using self supervised deep learning. *bioRxiv*.  
+[Preprint](https://doi.org/10.1101/2023.01.12.523792)
+
+Kokoli M, Karatzas E, Baltoumas FA, Schneider R, Pafilis E, Paragkamian S, Doncheva NT, Jensen LJ and Pavlopoulos GA (2022). Arena3Dweb: Interactive 3D visualization of multilayered networks supporting multiple directional information channels, clustering analysis and application integration. *bioRxiv*.  
+[Preprint](https://doi.org/10.1101/2022.10.01.510435)
+
 Koutrouli M, Lindez PP, Bouwmeester R, Martens L and Jensen LJ (2022). FAVA: High-quality functional association networks inferred from scRNA-seq and proteomics data. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2022.07.06.499022)
-
-Yarani R, Palasca O, Doncheva NT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litman T, Holmskov U, Bang-Berthelsen CH, Vilien M, Jensen LJ, Gorodkin J and Pociot F (2020). Transcriptome profiling of ulcerative colitis mouse model suggests biomarkers and therapeutic targets for human colitis. *bioRxiv*.  
-[Preprint](https://doi.org/10.1101/2020.08.12.225458)
 
 ## Research articles
 
@@ -20,10 +23,16 @@ Yarani R, Palasca O, Doncheva NT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litm
 Doncheva NT, Morris JH, Holze H, Kirsch R, Nastou KC, Cuesta-Astroz Y, Thomas Rattei T, Szklarczyk D, von Mering C and Jensen LJ (2023). Cytoscape stringApp 2.0: Analysis and visualization of heterogeneous biological networks. *Journal of Proteome Research*.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36512705/) [Full text](https://doi.org/10.1021/acs.jproteome.2c00651) [WWW](https://apps.cytoscape.org/apps/stringapp) <span class="__dimensions_badge_embed__" data-doi="10.1021/acs.jproteome.2c00651" data-style="small_rectangle"></span>
 
-Hernández-Plaza A, Szklarczyk D, Botas J, Cantalapiedra CP, Giner-Lamia J, Mende DR, Kirsch R, Rattei T, Letunic I, Jensen LJ, Bork P, von Mering C and Jaime Huerta-Cepas J (2023). eggNOG 6.0: enabling comparative genomics across 12535 organisms. *Nucleic Acids Research*.  
+Yarani R\*, Palasca O\*, Doncheva NT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litman T, Holmskov U, Bang-Berthelsen CH, Vilien M, Jensen LJ, Gorodkin J and Pociot F (2023). Cross-species high-resolution transcriptome profiling suggests biomarkers and therapeutic targets for ulcerative colitis. *Frontiers in Molecular Biosciences*, **9**:1081176.  
+[Full text](https://doi.org/10.3389/fmolb.2022.1081176) [Preprint](https://doi.org/10.1101/2020.08.12.225458) <span class="__dimensions_badge_embed__" data-doi="10.3389/fmolb.2022.1081176" data-style="small_rectangle"></span>
+
+Kelleher KJ, Sheils TK, Mathias SL, Yang JJ, Metzger VT, Siramshetty VB, Nguyen D-T, Jensen LJ, Vidović D, Schürer SC, Holmes J, Sharma KR, Pillai A, Bologa CG, Edwards JS, Mathé EA and Oprea TI (2023). Pharos 2023: an integrated resource for the understudied human proteome. *Nucleic Acids Research*, **51**:D1405-D1416.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/36624666/) [Full text](https://doi.org/10.1093/nar/gkac1033) [WWW](https://pharos.nih.gov) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkac1033" data-style="small_rectangle"></span>
+
+Hernández-Plaza A, Szklarczyk D, Botas J, Cantalapiedra CP, Giner-Lamia J, Mende DR, Kirsch R, Rattei T, Letunic I, Jensen LJ, Bork P, von Mering C and Jaime Huerta-Cepas J (2023). eggNOG 6.0: enabling comparative genomics across 12535 organisms. *Nucleic Acids Research*, **51**:D389-D394.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36399505/) [Full text](https://doi.org/10.1093/nar/gkac1022) [WWW](http://eggnog6.embl.de/) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkac1022" data-style="small_rectangle"></span>
 
-Szklarczyk D, Kirsch R, Koutrouli M, Nastou K, Mehryary F, Hachilif R, Gable AL, Fang T, Doncheva NT, Pyysalo S, Bork P, Jensen LJ and Christian von Mering C (2023). The STRING database in 2023: protein-protein association networks and functional enrichment analyses for any sequenced genome of interest. *Nucleic Acids Research*.  
+Szklarczyk D, Kirsch R, Koutrouli M, Nastou K, Mehryary F, Hachilif R, Gable AL, Fang T, Doncheva NT, Pyysalo S, Bork P, Jensen LJ and Christian von Mering C (2023). The STRING database in 2023: protein-protein association networks and functional enrichment analyses for any sequenced genome of interest. *Nucleic Acids Research*, **51**:D638-D646  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36370105/) [Full text](https://doi.org/10.1093/nar/gkac1000) [WWW](https://string-db.org/) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkac1000" data-style="small_rectangle"></span>
 
 ### 2022
@@ -667,8 +676,11 @@ Saric J, Jensen LJ, Ouzounova R, Rojas I and Bork P (2004). Extracting Regulator
 
 ## Reviews
 
+Franciosa G, Locard-Paulet M, Jensen LJ and Olsen JV (2023). Recent advances in kinase signaling network profiling by mass spectrometry. *Current Opinion in Chemical Biology*, **73**:102260.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/36657259/) [Full text](https://doi.org/10.1016/j.cbpa.2022.102260) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.cbpa.2022.102260" data-style="small_rectangle"></span>
+
 Yarani R, Shojaeian A, Palasca O, Nadezhda T Doncheva NT, Jensen LJ, Gorodkin J and Pociot F (2022). Differentially Expressed miRNAs in Ulcerative Colitis and Crohn's Disease. *Frontiers in Immunology*, **13**:865777.  
-[Abstract](https://pubmed.ncbi.nlm.nih.gov/35734163/) [Full text](https://doi.org/10.3389/fimmu.2022.865777  ) <span class="__dimensions_badge_embed__" data-doi="10.3389/fimmu.2022.865777" data-style="small_rectangle"></span>
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/35734163/) [Full text](https://doi.org/10.3389/fimmu.2022.865777) <span class="__dimensions_badge_embed__" data-doi="10.3389/fimmu.2022.865777" data-style="small_rectangle"></span>
 
 Burgess A, Vuong J, Marzec KA, de Lichtenberg U, O’Donoghue SI and Jensen LJ (2019). SnapShot: S-Phase Entry and Exit. *Cell*, **179**:802.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/31626778) [Full text](https://doi.org/10.1016/j.cell.2019.09.031) [WWW](https://minardo.org/snapshots/s-phase) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.cell.2019.09.031" data-style="small_rectangle"></span>
