@@ -11,18 +11,18 @@ In this page we have gathered links to the publication, the corpus, datasets and
 
 ## Publication and Corpus
 
-* Publication Preprint: [S1000: A better taxonomic name corpus for biomedical information extraction](link/to/biorxiv)
+* Publication Preprint: [S1000: A better taxonomic name corpus for biomedical information extraction](https://doi.org/10.1101/2023.02.20.528934)
 
 * [The S1000 Corpus](/assets/s1000/S1000-corpus.tar.gz) in [BRAT standoff format](https://brat.nlplab.org/standoff.html)
 
 ## Datasets
 
-* The S1000 corpus
-* The guidelines used during annotation of the corpus (also available as an annodoc [here](https://katnastou.github.io/s1000-corpus-annotation-guidelines/))
-
-* The [Zenodo](https://zenodo.org/deposit/7064902) project related to S1000 that contains: 
+* The [Zenodo](https://doi.org/10.5281/zenodo.7064902) project related to S1000 that contains: 
+  * The S1000 corpus split in training, development and test sets in BRAT and CoNLL formats
+  * The guidelines used during annotation of the corpus (also available as an annodoc [here](https://katnastou.github.io/s1000-corpus-annotation-guidelines/))
   * the dictionary used by [Jensenlab tagger](https://github.com/larsjuhljensen/tagger)
   * results from large scale tagging with the Jensenlab tagger 
+  * the model used for the large scale run of the transformer-based method and
   * results from large scale tagging with the transformer-based method
 
 * The input documents for the large scale runs with:
@@ -34,4 +34,4 @@ _(Note: the pre-processed input documents are the same, the difference is in the
 
 * Useful scripts to reproduce the results presented in the publication can be found in this [Github repo](https://zenodo.org/record/7650251#.Y--QPrTMJR4)
 
-* The codebase used for training the deep learning-based model can be found in this [Github repo](/link/to/github) together with a link to the model used for large-scale tagging of the literature.
+* The codebase for the transformer-based NER tagger can be found [here](https://github.com/jouniluoma/S1000-transformer-ner) and the codebase used for the large scale run [here](https://github.com/jouniluoma/S1000-transformer-tagger)
