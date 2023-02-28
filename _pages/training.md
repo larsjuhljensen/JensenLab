@@ -25,7 +25,7 @@ Additional training material on other topics is linked to from the events below.
 ## Upcoming events
 
 6--10 March 2023, Copenhagen, Denmark  
-Bioinformatics Analysis of Single-Cell Gene Expression Data
+Bioinformatics Analysis of Gene Expression Data from Single Cell RNAseq
 
 7 March 2023, Copenhagen, Denmark  
 Biomedicine
