@@ -671,7 +671,7 @@ Wang Q, Abdul SS, Almeida L, Ananiadou S, Balderas-Martnez YI, Batista-Navarro R
 Pyysalo S, Campos J, Cejuela JM, Ginter F, Hakala K, Li C, Stenetorp S and Jensen LJ (2015). Sharing annotations better: RESTful Open Annotation. *Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics*, 91-96.  
 [Full text](https://aclweb.org/anthology/P/P15/P15-4016.pdf)
 
-Goldberg T, Vinchurkar S, Cejuela JM, Jensen LJ\* and B. Rost B\* (2015). Linked annotations: a middle ground for manual curation of biomedical databases and text corpora. *BMC Proceedings*, **9(Suppl 5)**:A4.  
+Goldberg T, Vinchurkar S, Cejuela JM, Jensen LJ\* and Rost B\* (2015). Linked annotations: a middle ground for manual curation of biomedical databases and text corpora. *BMC Proceedings*, **9(Suppl 5)**:A4.  
 [Full text](https://doi.org/10.1186/1753-6561-9-S5-A4) <span class="__dimensions_badge_embed__" data-doi="10.1186/1753-6561-9-S5-A4" data-style="small_rectangle"></span>
 
 Saric J, Jensen LJ, Ouzounova R, Rojas I and Bork P (2004). Extracting Regulatory Gene Expression Networks from PubMed. *Proceedings of the 42nd Annual Meeting of the Association for Computational Linguistics*, 192-199.  
