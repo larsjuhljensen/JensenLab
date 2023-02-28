@@ -24,10 +24,30 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
+25-26 May 2023, Hillerød, Denmark  
+MoMeD Summer School
+
+18 April 2023, Copenhagen, Denmark  
+Datadrevet personlig medicin
+
+14 March 2023, Copenhagen, Denmark  
+Fundamental Bioinformatics
+
+7 March 2023, Copenhagen, Denmark  
+Biomedicine
+
+6--10 March 2023, Copenhagen, Denmark  
+Bioinformatics Analysis of Single-Cell Gene Expression Data
+
+## Past events
+
+### 2023
+
 30 January--3 February 2023, Stellenbosch, South Africa  
 UBUNTU Proteomics Summer School
 
-## Past events
+31 January--3 February 2023, Copenhagen, Denmark  
+Bioinformatics Analysis of Gene Expression Data
 
 ### 2022
 
