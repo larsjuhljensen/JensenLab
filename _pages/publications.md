@@ -23,7 +23,7 @@ Koutrouli M, Lindez PP, Bouwmeester R, Martens L and Jensen LJ (2022). FAVA: Hig
 Tantoso E, Eisenhaber B, Sinha S, Jensen LJ and Eisenhaber F (2023). About the dark corners in the gene function space of Escherichia coli remaining without illumination by scientific literature. *Biology Direct*, **18**:7.  
 [Full text](https://doi.org/10.1186/s13062-023-00362-0) <span class="__dimensions_badge_embed__" data-doi="10.1186/s13062-023-00362-0" data-style="small_rectangle"></span>
 
-Doncheva NT, Morris JH, Holze H, Kirsch R, Nastou KC, Cuesta-Astroz Y, Thomas Rattei T, Szklarczyk D, von Mering C and Jensen LJ (2023). Cytoscape stringApp 2.0: Analysis and visualization of heterogeneous biological networks. *Journal of Proteome Research*, **22**:637-646.  
+Doncheva NT, Morris JH, Holze H, Kirsch R, Nastou KC, Cuesta-Astroz Y, Rattei T, Szklarczyk D, von Mering C and Jensen LJ (2023). Cytoscape stringApp 2.0: Analysis and visualization of heterogeneous biological networks. *Journal of Proteome Research*, **22**:637-646.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36512705/) [Full text](https://doi.org/10.1021/acs.jproteome.2c00651) [WWW](https://apps.cytoscape.org/apps/stringapp) <span class="__dimensions_badge_embed__" data-doi="10.1021/acs.jproteome.2c00651" data-style="small_rectangle"></span>
 
 Yarani R\*, Palasca O\*, Doncheva NT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litman T, Holmskov U, Bang-Berthelsen CH, Vilien M, Jensen LJ, Gorodkin J and Pociot F (2023). Cross-species high-resolution transcriptome profiling suggests biomarkers and therapeutic targets for ulcerative colitis. *Frontiers in Molecular Biosciences*, **9**:1081176.  
