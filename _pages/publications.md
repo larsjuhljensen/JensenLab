@@ -43,7 +43,7 @@ Szklarczyk D, Kirsch R, Koutrouli M, Nastou K, Mehryary F, Hachilif R, Gable AL,
 Locard-Paulet M, Palasca O and Jensen LJ (2022). Identifying the genes impacted by cell proliferation in proteomics and transcriptomics studies. *PLOS Computational Biology*, **18**:e1010604.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36201535/) [Full text](https://doi.org/10.1371/journal.pcbi.1010604) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1010604" data-style="small_rectangle"></span>
 
-Koutrouli M, Morris JM, and Jensen LJ (2022). U-CIE [/juː 'siː/]: Color encoding of high-dimensional data. *Protein Science*, **31**:e4388.  
+Koutrouli M, Morris JH, and Jensen LJ (2022). U-CIE [/juː 'siː/]: Color encoding of high-dimensional data. *Protein Science*, **31**:e4388.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36040253/) [Full text](https://doi.org/10.1002/pro.4388) [Preprint](https://doi.org/10.1101/2021.12.02.470966) [WWW](https://u-cie.jensenlab.org) <span class="__dimensions_badge_embed__" data-doi="10.1101/2021.12.02.470966" data-style="small_rectangle"></span>
 
 Geissler A, Poulsen LD, Doncheva NT, Anthon C, Seemann SE, González-Tortuero E, Breüner A, Jensen LJ, Hjort C, Vinther J and Gorodkin J (2022). The impact of PrsA over-expression on the Bacillus subtilis transcriptome during fed-batch fermentation of alpha-amylase production. *Frontiers in Microbiology*, **13**:909493.  
@@ -95,7 +95,7 @@ Jensen PSH, Johansen M, Bak LK, Jensen LJ and Kjær C (2021). Yield and integrit
 Szklarczyk D\*, Gable AL\*, Nastou KC, Lyon D, Kirsch R, Pyysalo S, Doncheva NT, Legeay M, Fang T, Bork P\*, Jensen LJ\* and von Mering C\* (2021). The STRING database in 2021: customizable protein-protein networks, and functional characterization of user-uploaded gene/measurement sets. *Nucleic Acids Research*, **49**:D605–D612.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/33237311) [Full text](https://doi.org/10.1093/nar/gkaa1074) [WWW](https://string-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkaa1074" data-style="small_rectangle"></span>
 
-Sheils T, Mathias S, Kelleher K, Siramshetty V, Nguyen D-T, Bologa C, Jensen LJ, Vidovic D, Koleti A, Schurer S, Waller A, Yang J, Holmes J, Bocci G, Southall N, Dharkar P, Mathé E, Simeonov A and Oprea TI (2021). TCRD and Pharos 2020: Mining the human proteome for disease biology. *Nucleic Acids Research*, **49**:D1334-D1346.  
+Sheils T, Mathias S, Kelleher K, Siramshetty V, Nguyen D-T, Bologa C, Jensen LJ, Vidovic D, Koleti A, Schürer S, Waller A, Yang J, Holmes J, Bocci G, Southall N, Dharkar P, Mathé E, Simeonov A and Oprea TI (2021). TCRD and Pharos 2020: Mining the human proteome for disease biology. *Nucleic Acids Research*, **49**:D1334-D1346.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/33156327) [Full text](https://doi.org/10.1093/nar/gkaa993) [WWW](https://pharos.nih.gov) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkaa993" data-style="small_rectangle"></span>
 
 
@@ -142,7 +142,7 @@ Pan X, Jensen LJ\* and Gorodkin J\* (2019). Inferring disease-associated long no
 Pletscher-Frankild S and Jensen LJ (2019). Design, implementation, and operation of a rapid, robust named entity recognition web service. *Journal of Cheminformatics*, **11**:19.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/30850898) [Full text](https://doi.org/10.1186/s13321-019-0344-9) <span class="__dimensions_badge_embed__" data-doi="10.1186/s13321-019-0344-9" data-style="small_rectangle"></span>
 
-Cuesta Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2019). An integrative method to unravel the host-parasite interactome: An orthology-based approach. *Frontiers in Immunology*, **10**:212.  
+Cuesta-Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2019). An integrative method to unravel the host-parasite interactome: An orthology-based approach. *Frontiers in Immunology*, **10**:212.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/30815000) [Full text](https://doi.org/10.3389/fimmu.2019.00212) [WWW](https://orthohpi.jensenlab.org/) <span class="__dimensions_badge_embed__" data-doi="10.3389/fimmu.2019.00212" data-style="small_rectangle"></span>
 
 Doncheva NT, Morris JH, Gorodkin J and Jensen LJ (2019). Cytoscape stringApp: Network analysis and visualization of proteomics data. *Journal of Proteome Research*, **18**:623-632.  
