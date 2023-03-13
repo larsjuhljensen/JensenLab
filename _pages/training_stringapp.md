@@ -135,6 +135,10 @@ To change the colors, double click on the color gradient in order to bring up th
 
 _Can you improve the color mapping such that it is easier to see which nodes have a log ratio below -4 and above 4?_
 
+### 2.5 Save session
+
+To keep all the networks, data, and visualizations you created, you can save them as a Cytoscape session and open them at a later time point. Go to **File → Save**, choose where to save the file, give it a proper name and click the **Save** button.
+
 ## Exercise 3
 
 In this exercise, we will focus on clustering, a common network analysis task, as well as functional enrichment within the Cytoscape stringApp environment.
@@ -153,6 +157,8 @@ Starting from the network in Exercise 3, we will use the MCL algorithm to identi
 
 _How many clusters have at least 10 nodes?_
 
+### 3.2 Subnetworks and physical interactions
+
 We will work with the largest cluster in the network (it should be in the upper left corner). Select the nodes of this cluster by holding down the modifier key (Shift on Windows, Ctrl or Command on Mac) and then left-clicking and dragging to select multiple nodes. The nodes will turn yellow if they are selected properly. Then, create a new network by clicking on the **New Network from Selection** button and choosing the option **From Selected Nodes, All Edges** or via the menu item **File → New Network → From Selected Nodes, All Edges**.
 
 <!-- [Select cluster](cycmd:filter create name="myfiltercluster1" json='{ "id" : "ColumnFilter", "parameters" : { "criterion" : [ 1, 1 ], "columnName" : "__mclCluster", "predicate" : "BETWEEN"} }'){: .btn .btn--cybrowser .btn--primary}
@@ -165,7 +171,7 @@ The cluster is very dense and almost fully connected, i.e. it has edges represen
 
 _How many edges does the resulting network contain and why are there now fewer edges?_
 
-### 3.2 Functional enrichment
+### 3.3 Functional enrichment
 
 Next, we will retrieve functional enrichment for the proteins in our network of the largest cluster. After making sure that no nodes are selected in the network, go to the menu **Apps → STRING Enrichment → Retrieve functional enrichment** or use the **Functional Enrichment** button in the **Nodes tab** of the **STRING Panel** on the right side. Then, select the original, not clustered network ‘String Network’ as **Background** (instead of ‘genome’) and click **OK**. A new **STRING Enrichment tab** will appear in the **Table Panel** on the bottom. It contains a table of enriched terms and corresponding information for each enrichment category. You can see which proteins are annotated with a given term by selecting the term in the **STRING Enrichment panel** and you can see the terms annotating a given node by slecting it.
 
@@ -184,7 +190,7 @@ Next, we will visualize the top-5 enriched terms in the network using split char
 
 To save the list of enriched terms and associated p-values as a text file, go to **Apps → STRING Enrichment → Export enrichment results**.
 
-### 3.3 Enriched publications
+### 3.4 Enriched publications
 
 To retrieve a list of publications that are enriched for the proteins in the network, go to the menu **Apps → STRING Enrichment → Retrieve enriched publications** or press the **Enriched Publications** button. A new tab called **STRING Publications** will appear in the **Table Panel** on the bottom. It contains a table of enriched publications and associated information such as how many of the network proteins were mentioned in each publication.
 

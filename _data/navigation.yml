@@ -207,15 +207,19 @@ training-stringapp:
         url: /training/stringapp/#23-data-import
       - title: "Continuous color mapping"
         url: /training/stringapp/#24-continuous-color-mapping
+      - title: "Save session"
+        url: /training/stringapp/#25-save-session
   - title: "Exercise 3"
     url: /training/stringapp/#exercise-3
     children:
       - title: "Network clustering"
         url: /training/stringapp/#31-network-clustering
+      - title: "Subnetworks and physical interactions"
+        url: /training/stringapp/#32-subnetworks-and-physical-interactions
       - title: "Functional enrichment"
-        url: /training/stringapp/#32-functional-enrichment
+        url: /training/stringapp/#33-functional-enrichment
       - title: "Enriched publications"
-        url: /training/stringapp/#33-enriched-publications
+        url: /training/stringapp/#34-enriched-publications
   - title: "Exercise 4"
     url: /training/stringapp/#exercise-4
     children:
