@@ -24,9 +24,6 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-28 March 2023, Copenhagen, Denmark  
-Statistical Methods in Bioinformatics
-
 18 April 2023, Copenhagen, Denmark  
 Datadrevet personlig medicin
 
@@ -42,6 +39,9 @@ Mass Spectrometry-based Proteomics and its Applications in Biology
 ## Past events
 
 ### 2023
+
+28 March 2023, Copenhagen, Denmark  
+Statistical Methods in Bioinformatics
 
 14 March 2023, Copenhagen, Denmark  
 Fundamental Bioinformatics
