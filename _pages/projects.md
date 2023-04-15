@@ -11,4 +11,4 @@ In the JensenLab, we always work on exciting new research projects, many but not
 * [Proteomics](/projects/proteomics/)
 * [Text mining](/projects/textmining/)
 
-The projects are often done in collaboration with other research groups within the [NNF Center for Protein Research](http://www.cpr.ku.dk/), nationally, or internationally. If you are interested in doing a student project in the group, have a look at the list of ideas for [student projects](/projects/students/).
+The projects are often done in collaboration with other research groups within the [NNF Center for Protein Research](http://www.cpr.ku.dk/), nationally, or internationally.

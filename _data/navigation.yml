@@ -44,13 +44,6 @@ projects:
         url: /projects/textmining/#understudied-drug-targets
       - title: "Adverse drug reactions"
         url: /projects/textmining/#adverse-drug-reactions
-  - title: "Student projects"
-    url: /projects/students/
-    children:
-      - title: "General project topics"
-        url: /projects/students/#general project topics
-      - title: "Examples of past projects"
-        url: /projects/students/#examples-of-past-projects
 
 publications:
   - title: "Preprints"
