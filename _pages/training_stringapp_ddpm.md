@@ -18,26 +18,16 @@ In these exercises, we will use the [stringApp](http://apps.cytoscape.org/apps/s
 
 To follow the exercises, please make sure that you have the latest version of Cytoscape installed. Then start Cytoscape and go to **Apps → App Manager** to check for new apps, install them and update the current ones if necessary. Search for the **stringApp** in the search field; if it is not already installed, select it and press the **Install** button to install it. 
 
-If you are not already familiar with the STRING database, we highly recommend that you go through the [STRING exercises](/training/string/) to learn about the underlying data before working with them in these exercises.
-
 ## Exercise 1
 
 In this exercise, we will perform a simple query to retrieve molecular networks based on a protein of interest.
 
-### 1.1 Protein queries
+### Protein queries
 
 Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: protein query** as **Data Source** and type your favorite protein into the **Enter protein names or identifiers** field (e.g. SORCS2 or INSR). You can select the appropriate organism by typing the name (e.g. Homo sapiens). The **Maximum number of interactors** determines how many interaction partners of your protein(s) of interest will be added to the network. By default, if you enter only one protein name, the resulting network will contain 10 additional interactors. If you enter more than one protein name, the network will contain only the interactions among these proteins, unless you explicitly ask for additional proteins.
 
 _How many nodes are in the resulting network? How does this compare to the maximum number of interactors you specified? What types of information do the **Node Table** and **Edge Table** provide?_
 
-<!-- ### 1.2 PubMed queries
-
-Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: PubMed query** as **Data Source** and type query representing a topic of interest into the **PubMed Query** field (e.g. jet-lag). You can use any query that would work on the PubMed website, but it should obviously a topic with related genes or proteins. The stringApp will query PubMed for the abstracts, find the top-N proteins (by default 100) associated with these abstracts, and retrieve a STRING network for them.
-
-[Import jet-lag network](cycmd:string pubmed query pubmed=jet-lag taxonID=9606 limit=50){: .btn .btn--cybrowser .btn--primary}
-
-_Which attribute column do you get in the **Node Table** for a PubMed query compared to a protein query? Hint: check the last columns._
- -->
 ## Exercise 2
 
 In this exercise, we are going to use the stringApp to query the [DISEASES](https://diseases.jensenlab.org) database for proteins associated with type 1 diabetes, retrieve a STRING network for them, and explore the resulting network.
@@ -94,18 +84,6 @@ Important: Move the filter back to 0.0 to see all nodes again before continuing 
 Finally, we will map the tissue expression data for pancreas to the node color. From the left panel side menu, select **Style** (located underneath **Network** and above **Filter**). Click on the **◀** button to the right of the property you want to change, in this case **Fill Color** and set **Column** to the node column containing the data that you want to use (**(T) pancreas**). Since this is a numeric value, we will use the **Continuous Mapping** as the **Mapping Type**, and set a color gradient for how likely each protein is expressed in pancreas. The default Cytoscape yellow--purple color gradient already gives a nice visualization of the confidence of being expressed in this tissue.
 
 _Does it look like the network contains many proteins expressed in pancreas?_
-
-<!-- ### 2.5 Functional enrichment
-
-After making sure that no nodes are selected in the current network, go to the menu **Apps → STRING Enrichment → Retrieve functional enrichment** or use the **Functional Enrichment** button in the **Nodes tab** of the **STRING Panel** on the right side. Use the default settings and click **OK**. A new **STRING Enrichment tab** will appear in the **Table Panel** on the bottom. It contains a table of enriched terms and corresponding information for each enrichment category. You can see which proteins are annotated with a given term by selecting the term in the **STRING Enrichment panel** and you can see the terms annotating a given node by slecting it.
-
-[Set as STRING network](cycmd:string make string){: .btn .btn--cybrowser .btn--primary}
-[Retrieve functional enrichment](cycmd:string retrieve enrichment){: .btn .btn--cybrowser .btn--primary}
-[Show functional enrichment](cycmd:string show enrichment){: .btn .btn--cybrowser .btn--primary}
-
-_How many statistically significant terms are in the table? Which is the most significant term for each of the categories GO Biological Process and KEGG Pathways? Hint: Look at the FDR (false discovery rate) value column and use the **Filter** button to select individual categories._
-
-To save the list of enriched terms and associated p-values as a text file, go to **Apps → STRING Enrichment → Export enrichment results**. -->
 
 ## Supporting lectures
 

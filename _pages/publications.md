@@ -13,14 +13,17 @@ Webel H, Niu L, Nielsen AB, Locard-Paulet M, Mann M, Jensen LJ and Rasmussen S (
 Kokoli M, Karatzas E, Baltoumas FA, Schneider R, Pafilis E, Paragkamian S, Doncheva NT, Jensen LJ and Pavlopoulos GA (2022). Arena3Dweb: Interactive 3D visualization of multilayered networks supporting multiple directional information channels, clustering analysis and application integration. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2022.10.01.510435)
 
-Koutrouli M, Lindez PP, Bouwmeester R, Martens L and Jensen LJ (2022). FAVA: High-quality functional association networks inferred from scRNA-seq and proteomics data. *bioRxiv*.  
+Koutrouli M, Lindez PP, Bouwmeester R, Rasmussen S, Martens L and Jensen LJ (2023). FAVA: High-quality functional association networks inferred from scRNA-seq and proteomics data. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2022.07.06.499022)
 
 ## Research articles
 
 ### 2023
 
-Doncheva NT, Morris JH, Holze H, Kirsch R, Nastou KC, Cuesta-Astroz Y, Thomas Rattei T, Szklarczyk D, von Mering C and Jensen LJ (2023). Cytoscape stringApp 2.0: Analysis and visualization of heterogeneous biological networks. *Journal of Proteome Research*, **22**:637-646.  
+Tantoso E, Eisenhaber B, Sinha S, Jensen LJ and Eisenhaber F (2023). About the dark corners in the gene function space of Escherichia coli remaining without illumination by scientific literature. *Biology Direct*, **18**:7.  
+[Full text](https://doi.org/10.1186/s13062-023-00362-0) <span class="__dimensions_badge_embed__" data-doi="10.1186/s13062-023-00362-0" data-style="small_rectangle"></span>
+
+Doncheva NT, Morris JH, Holze H, Kirsch R, Nastou KC, Cuesta-Astroz Y, Rattei T, Szklarczyk D, von Mering C and Jensen LJ (2023). Cytoscape stringApp 2.0: Analysis and visualization of heterogeneous biological networks. *Journal of Proteome Research*, **22**:637-646.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36512705/) [Full text](https://doi.org/10.1021/acs.jproteome.2c00651) [WWW](https://apps.cytoscape.org/apps/stringapp) <span class="__dimensions_badge_embed__" data-doi="10.1021/acs.jproteome.2c00651" data-style="small_rectangle"></span>
 
 Yarani R\*, Palasca O\*, Doncheva NT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litman T, Holmskov U, Bang-Berthelsen CH, Vilien M, Jensen LJ, Gorodkin J and Pociot F (2023). Cross-species high-resolution transcriptome profiling suggests biomarkers and therapeutic targets for ulcerative colitis. *Frontiers in Molecular Biosciences*, **9**:1081176.  
@@ -32,7 +35,7 @@ Kelleher KJ, Sheils TK, Mathias SL, Yang JJ, Metzger VT, Siramshetty VB, Nguyen 
 Hernández-Plaza A, Szklarczyk D, Botas J, Cantalapiedra CP, Giner-Lamia J, Mende DR, Kirsch R, Rattei T, Letunic I, Jensen LJ, Bork P, von Mering C and Jaime Huerta-Cepas J (2023). eggNOG 6.0: enabling comparative genomics across 12535 organisms. *Nucleic Acids Research*, **51**:D389-D394.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36399505/) [Full text](https://doi.org/10.1093/nar/gkac1022) [WWW](http://eggnog6.embl.de/) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkac1022" data-style="small_rectangle"></span>
 
-Szklarczyk D, Kirsch R, Koutrouli M, Nastou K, Mehryary F, Hachilif R, Gable AL, Fang T, Doncheva NT, Pyysalo S, Bork P, Jensen LJ and Christian von Mering C (2023). The STRING database in 2023: protein-protein association networks and functional enrichment analyses for any sequenced genome of interest. *Nucleic Acids Research*, **51**:D638-D646  
+Szklarczyk D, Kirsch R, Koutrouli M, Nastou K, Mehryary F, Hachilif R, Gable AL, Fang T, Doncheva NT, Pyysalo S, Bork P\*, Jensen LJ\* and Christian von Mering C\* (2023). The STRING database in 2023: protein-protein association networks and functional enrichment analyses for any sequenced genome of interest. *Nucleic Acids Research*, **51**:D638-D646  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36370105/) [Full text](https://doi.org/10.1093/nar/gkac1000) [WWW](https://string-db.org/) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkac1000" data-style="small_rectangle"></span>
 
 ### 2022
@@ -40,7 +43,7 @@ Szklarczyk D, Kirsch R, Koutrouli M, Nastou K, Mehryary F, Hachilif R, Gable AL,
 Locard-Paulet M, Palasca O and Jensen LJ (2022). Identifying the genes impacted by cell proliferation in proteomics and transcriptomics studies. *PLOS Computational Biology*, **18**:e1010604.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36201535/) [Full text](https://doi.org/10.1371/journal.pcbi.1010604) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1010604" data-style="small_rectangle"></span>
 
-Koutrouli M, Morris JM, and Jensen LJ (2022). U-CIE [/juː 'siː/]: Color encoding of high-dimensional data. *Protein Science*, **31**:e4388.  
+Koutrouli M, Morris JH, and Jensen LJ (2022). U-CIE [/juː 'siː/]: Color encoding of high-dimensional data. *Protein Science*, **31**:e4388.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36040253/) [Full text](https://doi.org/10.1002/pro.4388) [Preprint](https://doi.org/10.1101/2021.12.02.470966) [WWW](https://u-cie.jensenlab.org) <span class="__dimensions_badge_embed__" data-doi="10.1101/2021.12.02.470966" data-style="small_rectangle"></span>
 
 Geissler A, Poulsen LD, Doncheva NT, Anthon C, Seemann SE, González-Tortuero E, Breüner A, Jensen LJ, Hjort C, Vinther J and Gorodkin J (2022). The impact of PrsA over-expression on the Bacillus subtilis transcriptome during fed-batch fermentation of alpha-amylase production. *Frontiers in Microbiology*, **13**:909493.  
@@ -49,7 +52,7 @@ Geissler A, Poulsen LD, Doncheva NT, Anthon C, Seemann SE, González-Tortuero E,
 Versace E, Sgadò P, George J, Loveland JL, Ward J, Thorpe P, Jensen LJ, Spencer KA, Paracchini S and Vallortigara G (2022). Light-induced asymmetries in embryonic retinal gene expression are mediated by the vascular system and extracellular matrix. *Scientific Reports*, **12**:12086.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/35840576/) [Full text](https://doi.org/10.1038/s41598-022-14963-8) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41598-022-14963-8" data-style="small_rectangle"></span>
 
-Bernard C, Locard-Paulet M, Noël C, Duchateau M, Gianetto QG, Moumen B, Rattei T, Hechard Y, Jensen LJ, Matondo M and Samba-Louaka A (2022). A time-resolved multi-omics atlas of Acanthamoeba castellanii encystment. *Nature Communications*, **13**:4104.  
+Bernard C\*, Locard-Paulet M\*, Noël C\*, Duchateau M, Gianetto QG, Moumen B, Rattei T, Hechard Y, Jensen LJ, Matondo M and Samba-Louaka A (2022). A time-resolved multi-omics atlas of Acanthamoeba castellanii encystment. *Nature Communications*, **13**:4104.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/35835784/) [Full text](https://doi.org/10.1038/s41467-022-31832-0) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-022-31832-0" data-style="small_rectangle"></span>
 
 Pfeiffer A, Franciosa G, Locard-Paulet M, Piga I, Reckzeh K, Vemulapalli V, Blacklow SC, Theilgaard-Mönch K, Jensen LJ and Olsen JV (2022). Phosphorylation of SHP2 at Tyr62 enables acquired resistance to SHP2 allosteric inhibitors in FLT3-ITD-driven AML. *Cancer Research*, **82**:2141-2155.  
@@ -92,13 +95,13 @@ Jensen PSH, Johansen M, Bak LK, Jensen LJ and Kjær C (2021). Yield and integrit
 Szklarczyk D\*, Gable AL\*, Nastou KC, Lyon D, Kirsch R, Pyysalo S, Doncheva NT, Legeay M, Fang T, Bork P\*, Jensen LJ\* and von Mering C\* (2021). The STRING database in 2021: customizable protein-protein networks, and functional characterization of user-uploaded gene/measurement sets. *Nucleic Acids Research*, **49**:D605–D612.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/33237311) [Full text](https://doi.org/10.1093/nar/gkaa1074) [WWW](https://string-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkaa1074" data-style="small_rectangle"></span>
 
-Sheils T, Mathias S, Kelleher K, Siramshetty V, Nguyen D-T, Bologa C, Jensen LJ, Vidovic D, Koleti A, Schurer S, Waller A, Yang J, Holmes J, Bocci G, Southall N, Dharkar P, Mathé E, Simeonov A and Oprea TI (2021). TCRD and Pharos 2020: Mining the human proteome for disease biology. *Nucleic Acids Research*, **49**:D1334-D1346.  
+Sheils T, Mathias S, Kelleher K, Siramshetty V, Nguyen D-T, Bologa C, Jensen LJ, Vidovic D, Koleti A, Schürer S, Waller A, Yang J, Holmes J, Bocci G, Southall N, Dharkar P, Mathé E, Simeonov A and Oprea TI (2021). TCRD and Pharos 2020: Mining the human proteome for disease biology. *Nucleic Acids Research*, **49**:D1334-D1346.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/33156327) [Full text](https://doi.org/10.1093/nar/gkaa993) [WWW](https://pharos.nih.gov) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkaa993" data-style="small_rectangle"></span>
 
 
 ### 2020
 
-Ashwood C, Bittremieux W, Deutsch EW, Doncheva NT, Dorfer V, Gabriels R, Gorshkov V, Gupta S, Jones AR, Käll L, Kopczynski D, Lane L, Lautenbacher L, Legeay M, Locard-Paulet M, Mesuere B, Perez-Riverol Y, Netz E, Pfeuffer J, Sachsenberg T, Salz R, Samaras P, Schiebenhoefer H, Schmidt T, Schwämmle V\*, Soggiu A, Uszkoreit J, Van Den Bossche T, Van Puyvelde B, Van Strien J, Verschaffelt P, Webel H, Willems S (2020). Proceedings of the EuBIC-MS 2020 Developers’ Meeting. *EuPA Open Proteomics*, **24**:1-6.  
+Ashwood C, Bittremieux W, Deutsch EW, Doncheva NT, Dorfer V, Gabriels R, Gorshkov V, Gupta S, Jones AR, Käll L, Kopczynski D, Lane L, Lautenbacher L, Legeay M, Locard-Paulet M, Mesuere B, Perez-Riverol Y, Netz E, Pfeuffer J, Sachsenberg T, Salz R, Samaras P, Schiebenhoefer H, Schmidt T, Schwämmle V, Soggiu A, Uszkoreit J, Van Den Bossche T, Van Puyvelde B, Van Strien J, Verschaffelt P, Webel H, Willems S (2020). Proceedings of the EuBIC-MS 2020 Developers’ Meeting. *EuPA Open Proteomics*, **24**:1-6.  
 [Full text](https://www.sciencedirect.com/science/article/pii/S2212968520300015) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.euprot.2020.11.001" data-style="small_rectangle"></span>
 
 Grissa D, Rasmussen DN, Krag A, Brunak S and Jensen LJ (2020). Alcoholic liver disease: A registry view on comorbidities and disease prediction. *PLOS Computational Biology*, **16**:e1008244.  
@@ -139,7 +142,7 @@ Pan X, Jensen LJ\* and Gorodkin J\* (2019). Inferring disease-associated long no
 Pletscher-Frankild S and Jensen LJ (2019). Design, implementation, and operation of a rapid, robust named entity recognition web service. *Journal of Cheminformatics*, **11**:19.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/30850898) [Full text](https://doi.org/10.1186/s13321-019-0344-9) <span class="__dimensions_badge_embed__" data-doi="10.1186/s13321-019-0344-9" data-style="small_rectangle"></span>
 
-Cuesta Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2019). An integrative method to unravel the host-parasite interactome: An orthology-based approach. *Frontiers in Immunology*, **10**:212.  
+Cuesta-Astroz Y\*, Santos A\*, Oliveira G and Jensen LJ (2019). An integrative method to unravel the host-parasite interactome: An orthology-based approach. *Frontiers in Immunology*, **10**:212.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/30815000) [Full text](https://doi.org/10.3389/fimmu.2019.00212) [WWW](https://orthohpi.jensenlab.org/) <span class="__dimensions_badge_embed__" data-doi="10.3389/fimmu.2019.00212" data-style="small_rectangle"></span>
 
 Doncheva NT, Morris JH, Gorodkin J and Jensen LJ (2019). Cytoscape stringApp: Network analysis and visualization of proteomics data. *Journal of Proteome Research*, **18**:623-632.  
@@ -148,7 +151,7 @@ Doncheva NT, Morris JH, Gorodkin J and Jensen LJ (2019). Cytoscape stringApp: Ne
 Szklarczyk D, Gable AL, Lyon D, Junge A, Wyder S, Huerta-Cepas J, Simonovic M, Doncheva NT, Morris JH, Bork P\*, Jensen LJ\* and von Mering C\* (2019). STRING v11: protein–protein association networks with increased coverage, supporting functional discovery in genome-wide experimental datasets. *Nucleic Acids Research*, **47**:D607-D613.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/30476243) [Full text](https://doi.org/10.1093/nar/gky1131) [WWW](https://string-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gky1131" data-style="small_rectangle"></span>
 
-Huerta-Cepas J, Szklarczyk D, Heller D, Hernández-Plaza A, Forslund SK, Cook H, Mende DR, Letunic I, Rattei T, Jensen LJ, von Mering C and Peer Bork P (2019). eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated orthology resource based on 5090 organisms and 2502 viruses. *Nucleic Acids Research*, **47**:D309-D314.  
+Huerta-Cepas J, Szklarczyk D, Heller D, Hernández-Plaza A, Forslund SK, Cook H, Mende DR, Letunic I, Rattei T, Jensen LJ, von Mering C and Bork P (2019). eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated orthology resource based on 5090 organisms and 2502 viruses. *Nucleic Acids Research*, **47**:D309-D314.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/30418610) [Full text](https://doi.org/10.1093/nar/gky1085) [WWW](http://eggnog.embl.de/) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gky1085" data-style="small_rectangle"></span>
 
 ### 2018
@@ -180,10 +183,10 @@ Mackie M, Rüther P, Samodova D, Di Gianvincenzo F, Granzotto C, Lyon D, Peggie 
 Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ\* and Brunak S\* (2018). Text mining of 15 million full-text scientific articles. *PLOS Computational Biology*, **14**:e1005962.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/29447159) [Full text](https://doi.org/10.1371/journal.pcbi.1005962) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1005962" data-style="small_rectangle"></span>
 
-Palasca O, Santos A, Stolte, C, Gorodkin, J\* and Jensen LJ\* (2018). TISSUES 2.0: an integrative web resource on mammalian tissue expression. *Database*, **2018**:bay003.  
+Palasca O, Santos A, Stolte C, Gorodkin J\* and Jensen LJ\* (2018). TISSUES 2.0: an integrative web resource on mammalian tissue expression. *Database*, **2018**:bay003.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/29617745) [Full text](https://doi.org/10.1093/database/bay003) <span class="__dimensions_badge_embed__" data-doi="10.1093/database/bay003" data-style="small_rectangle"></span>
 
-Cejuela JM, Vinchurkar S, Goldberg T, Shankar MSP, Baghudana A, Bojchevski A, Uhlig C, Ofner A, Raharja-Liu P, Jensen LJ\* and Burkhard Rost B\* (2018). LocText: relation extraction of protein localizations to assist database curation. *BMC Bioinformatics*, **19**:15.  
+Cejuela JM, Vinchurkar S, Goldberg T, Shankar MSP, Baghudana A, Bojchevski A, Uhlig C, Ofner A, Raharja-Liu P, Jensen LJ\* and Rost B\* (2018). LocText: relation extraction of protein localizations to assist database curation. *BMC Bioinformatics*, **19**:15.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/29343218) [Full text](https://doi.org/10.1186/s12859-018-2021-9) <span class="__dimensions_badge_embed__" data-doi="10.1186/s12859-018-2021-9" data-style="small_rectangle"></span>
 
 Russo F, Di Bella S, Vannini F, Berti G, Scoyni F, Cook HV, Santos A, Nigita G, Bonnici V, Laganà A, Geraci F, Pulvirenti A, Giugno R, De Masi F, Belling K, Jensen LJ, Brunak S, Pellegrini M and Ferro A (2018). miRandola 2017: a curated knowledge base of non-invasive biomarkers. *Nucleic Acids Research*, **46**:D354-D359.  
@@ -668,7 +671,7 @@ Wang Q, Abdul SS, Almeida L, Ananiadou S, Balderas-Martnez YI, Batista-Navarro R
 Pyysalo S, Campos J, Cejuela JM, Ginter F, Hakala K, Li C, Stenetorp S and Jensen LJ (2015). Sharing annotations better: RESTful Open Annotation. *Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics*, 91-96.  
 [Full text](https://aclweb.org/anthology/P/P15/P15-4016.pdf)
 
-Goldberg T, Vinchurkar S, Cejuela JM, Jensen LJ\* and B. Rost B\* (2015). Linked annotations: a middle ground for manual curation of biomedical databases and text corpora. *BMC Proceedings*, **9(Suppl 5)**:A4.  
+Goldberg T, Vinchurkar S, Cejuela JM, Jensen LJ\* and Rost B\* (2015). Linked annotations: a middle ground for manual curation of biomedical databases and text corpora. *BMC Proceedings*, **9(Suppl 5)**:A4.  
 [Full text](https://doi.org/10.1186/1753-6561-9-S5-A4) <span class="__dimensions_badge_embed__" data-doi="10.1186/1753-6561-9-S5-A4" data-style="small_rectangle"></span>
 
 Saric J, Jensen LJ, Ouzounova R, Rojas I and Bork P (2004). Extracting Regulatory Gene Expression Networks from PubMed. *Proceedings of the 42nd Annual Meeting of the Association for Computational Linguistics*, 192-199.  

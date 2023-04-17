@@ -24,10 +24,39 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-30 January--3 February 2023, Stellenbosch, South Africa  
-UBUNTU Proteomics Summer School
+18 April 2023, Copenhagen, Denmark  
+Datadrevet personlig medicin
+
+7--11 August 2023, Copenhagen, Denmark  
+CRISPRnet Summer School
+
+19--20 and 27 September 2023, Copenhagen, Denmark  
+Bioinformatics for Human Biologists
+
+30 October--3 November 2023, Copenhagen, Denmark  
+Mass Spectrometry-based Proteomics and its Applications in Biology
 
 ## Past events
+
+### 2023
+
+28 March 2023, Copenhagen, Denmark  
+Statistical Methods in Bioinformatics
+
+14 March 2023, Copenhagen, Denmark  
+Fundamental Bioinformatics
+
+7 March 2023, Copenhagen, Denmark  
+Biomedicine
+
+6--10 March 2023, Copenhagen, Denmark  
+Bioinformatics Analysis of Gene Expression Data from Single Cell RNAseq
+
+31 January--3 February 2023, Copenhagen, Denmark  
+Bioinformatics Analysis of Gene Expression Data
+
+30 January--3 February 2023, Stellenbosch, South Africa  
+UBUNTU Proteomics Summer School
 
 ### 2022
 

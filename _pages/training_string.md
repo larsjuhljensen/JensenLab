@@ -25,7 +25,7 @@ _Why are there multiple lines connecting the same two proteins?_
 
 ### 1.2 Visual representations
 
-The STRING web interface provides several different visual representations of the network. The **Settings** tab below the network view allows you to change between different visual representations of the same network. Try changing the meaning of network edges from the **evidence** to **confidence** views; do not forget to press the **UPDATE** button.
+The STRING web interface provides several different visual representations of the network and the **Settings** tab below the network view allows you to change between them. Try changing the meaning of network edges from the **evidence** to **confidence** views; do not forget to press the **UPDATE** button.
 
 _Which information is shown for the edges in each representation?_
 
@@ -83,9 +83,9 @@ _How many categories contain enriched annotation terms?_
 
 Look at the enriched **KEGG Pathways** and explore the table in more detail.
 
-_How many pathways are enriched?_
+_How many KEGG pathways are enriched?_
 
-Press on the first three pathways and you will see a color showing up next to each of them. Scroll up to the network view and find the proteins annotated by these pathways.
+Press on the first three KEGG pathways and you will see a color showing up next to each of them. Scroll up to the network view and find the proteins annotated by these pathways.
 
 _Do the pathways annotate the same set of proteins or not?_
 

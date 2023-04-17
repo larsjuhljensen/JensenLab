@@ -44,13 +44,6 @@ projects:
         url: /projects/textmining/#understudied-drug-targets
       - title: "Adverse drug reactions"
         url: /projects/textmining/#adverse-drug-reactions
-  - title: "Student projects"
-    url: /projects/students/
-    children:
-      - title: "General project topics"
-        url: /projects/students/#general project topics
-      - title: "Examples of past projects"
-        url: /projects/students/#examples-of-past-projects
 
 publications:
   - title: "Preprints"
@@ -199,34 +192,38 @@ training-stringapp:
   - title: "Exercise 2"
     url: /training/stringapp/#exercise-2
     children:
-      - title: "Disease network retrieval"
-        url: /training/stringapp/#21-disease-network-retrieval
-      - title: "Inspect subcellular localization data"
-        url: /training/stringapp/#22-inspect-subcellular-localization-data
+      - title: "Protein network retrieval"
+        url: /training/stringapp/#21-protein-network-retrieval
+      - title: "Discrete color mapping"
+        url: /training/stringapp/#22-discrete-color-mapping
+      - title: "Data import"
+        url: /training/stringapp/#23-data-import
       - title: "Continuous color mapping"
-        url: /training/stringapp/#23-continuous-color-mapping
-      - title: "Select proteins located in the nucleus"
-        url: /training/stringapp/#24-select-proteins-located-in-the-nucleus
+        url: /training/stringapp/#24-continuous-color-mapping
+      - title: "Save session"
+        url: /training/stringapp/#25-save-session
   - title: "Exercise 3"
     url: /training/stringapp/#exercise-3
     children:
-      - title: "Protein network retrieval"
-        url: /training/stringapp/#31-protein-network-retrieval
-      - title: "Discrete color mapping"
-        url: /training/stringapp/#32-discrete-color-mapping
-      - title: "Data import"
-        url: /training/stringapp/#33-data-import
-      - title: "Continuous color mapping"
-        url: /training/stringapp/#34-continuous-color-mapping
+      - title: "Network clustering"
+        url: /training/stringapp/#31-network-clustering
+      - title: "Subnetworks and physical interactions"
+        url: /training/stringapp/#32-subnetworks-and-physical-interactions
+      - title: "Functional enrichment"
+        url: /training/stringapp/#33-functional-enrichment
+      - title: "Enriched publications"
+        url: /training/stringapp/#34-enriched-publications
   - title: "Exercise 4"
     url: /training/stringapp/#exercise-4
     children:
-      - title: "Network clustering"
-        url: /training/stringapp/#41-network-clustering
-      - title: "Functional enrichment"
-        url: /training/stringapp/#42-functional-enrichment
-      - title: "Enriched publications"
-        url: /training/stringapp/#43-enriched-publications
+      - title: "Disease network retrieval"
+        url: /training/stringapp/#41-disease-network-retrieval
+      - title: "Inspect subcellular localization data"
+        url: /training/stringapp/#42-inspect-subcellular-localization-data
+      - title: "Continuous color mapping"
+        url: /training/stringapp/#43-continuous-color-mapping
+      - title: "Select proteins located in the nucleus"
+        url: /training/stringapp/#44-select-proteins-located-in-the-nucleus
   - title: "Exercise 5"
     url: /training/stringapp/#exercise-5
     children:
