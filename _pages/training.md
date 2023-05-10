@@ -24,9 +24,6 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-18 April 2023, Copenhagen, Denmark  
-Datadrevet personlig medicin
-
 7--11 August 2023, Copenhagen, Denmark  
 CRISPRnet Summer School
 
@@ -39,6 +36,9 @@ Mass Spectrometry-based Proteomics and its Applications in Biology
 ## Past events
 
 ### 2023
+
+18 April 2023, Copenhagen, Denmark  
+Datadrevet personlig medicin
 
 28 March 2023, Copenhagen, Denmark  
 Statistical Methods in Bioinformatics
