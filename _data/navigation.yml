@@ -84,6 +84,8 @@ resources:
   - title: "Text mining"
     url: /resources/textmining/
     children:
+      - title: "Corpora"
+        url: /resources/textmining/#corpora
       - title: "Dictionaries"
         url: /resources/textmining/#dictionaries
       - title: "Tools"
