@@ -11,7 +11,7 @@ Many of the other resources developed in the group rely heavily on dictionary-ba
 
 We have released three manually annotated text corpora for benchmarking NER of organism/species names and environmental descriptors:
 * [Species-800 (S800)](https://species.jensenlab.org/files/S800-1.0.tar.gz)
-* [Species-1000 (S1000)](resources_s1000)
+* [Species-1000 (S1000)](/resources/s1000)
 * [Environments-600 (E600)](https://environments.jensenlab.org/E600-corpus.tar.gz)
 
 ## Dictionaries
