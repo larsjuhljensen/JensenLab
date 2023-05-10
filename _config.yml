@@ -1,4 +1,4 @@
-include: ["_pages"]
+include: ["_pages", "vr"]
 
 kramdown:
   smart_quotes:  ["apos", "apos", "ldquo", "rdquo"]
