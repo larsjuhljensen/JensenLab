@@ -1,0 +1,72 @@
+---
+title: Network databases
+layout: single
+permalink: /research/databases/
+sidebar:
+  nav: "research"
+---
+The core activity of JensenLab is to use network biology to help understand the inner workings of cells. We have done this primarily by creating database resources and tools, which we make freely available under open licenses for computational and wet-lab researchers around the world to use.
+
+## The STRING database
+
+[STRING](https://string-db.org/) is a database of known and predicted protein interactions, which has existed for over 20 years, has more than 30,000 unique users per week. It is recognized by both ELIXIR and the Global Biodata Coalition as a core data resource, which is of fundamental importance to the wider life-science community. The database is developed primarily through a collaboration of three European bioinformatics research groups, namely the group of Christian von Mering at the University of Zurich, the group of Peer Bork at EMBL, and my own group. The STRING database has seen tremendous growth, increasing from 1,133 to 14,094 organisms, from 5.2 million to 67.6 million proteins, and from 332 million to 20 billion interactions (Szklarczyk et al., 2015, 2017, 2019, 2021, 2023).
+
+*An example STRING network and overview of the many evidence types that contribute to it (Szklarczyk et al., 2019).*
+
+The functional associations come from many types of evidence, including genomics context, gene coexpression, experimental interaction data, manually curated databases, automatic text mining, and orthology-based transfer of the aforementioned evidence types. Regardless of the type of evidence, all associations are scored in a probabilistic fashion, which allows them to be directly compared and integrated. Over the years all of these evidence channels have improved; genomic context due to more organisms, gene coexpression and experiments due to growing data repositories, and text mining due to general growth of the literature and increasing access to full-text articles.
+
+STRING has changed both quantitatively, integrating ever more data, and qualitatively, adding new computational methods and new functionality. I have already covered how advances in deep learning have led to changes in the text-mining pipeline that provides evidence to STRING. However, the biggest change in recent time came with STRING v11.5, which for the first time allowed users to choose if they wanted the traditional functional association network or a physical subnetwork, consisting only of physical / cocomplex interactions (Szklarczyk et al., 2021). This was more work than it may look like at the surface, since it involved finding a good gold standard of protein complexes for scoring, separating the interactions from experimental repositories into physical and non-physical evidence, and making new scoring schemes for both the experimental data and the deep learning-based text mining. It was worth it, though, since some jobs call for a functional association network and others for a physical interaction network.
+
+## Association prediction
+
+Some of the improvements to the STRING network come in the form of new computational tools for prediction of functional associations. We have developed two such methods, which both rely heavily on dimensionality reduction techniques. A major strength of such methods is that they are based purely on systematic omics data (genomics, transcriptomics, and proteomics), which allows them to also make predictions for understudied proteins.
+
+The first is SVD-Phy, the method providing the gene cooccurrence evidence (Franceschini et al., 2016). The method is remarkably simple: it takes a best-hit matrix for a genome as input, uses truncated singular value decomposition to reduce redundancy, and finally calculates Pearson correlation coefficients to infer functional associations. Despite its simplicity, it outperformed other published methods by a wide margin in our benchmark.
+
+*FAVA network created through reanalysis of Human Protein Atlas single-cell RNA-seq data and PRIDE proteomics data (Koutroulli et al., 2023).*
+
+[FAVA](https://github.com/mikelkou/fava) is a method for inferring functional associations from single-cell RNA-seq and proteomics atlases (Koutrouli et al., 2023). The method is similar to SVD-Phy in the sense that it starts from profiles, applies dimensionality reduction to reduce redundancy, and calculates Pearson correlation coefficients between the resulting latent representations. However, FAVA differs methodologically from SVD-Phy by using variational autoencoders for the dimensionality reduction, which turned out to be critical for making the method work on omics data rather than phylogenetic profiles. FAVA will be part of the upcoming version of STRING, where it will replace most of the existing coexpression channel.
+
+## Related network databases
+
+In addition to STRING itself and the computational methods that feed into it, the group has contributed to the development of a number of databases and tools that can be seen as part of STRING, extensions of STRING, or resources that build upon STRING.
+The RAIN database is one such resource, which we developed in collaboration with the group of Jan Gorodkin to extend STRING with ncRNAs (Junge et al., 2017). The resource includes both protein–RNA and RNA-RNA interactions, with the evidence coming from manually curation,  databases of high-throughput experiments such as CLIP-seq, and computational predictions of miRNA targets. RAIN makes use of the so-called payload mechanism of STRING to allow all of this information to be shown within the web interface of STRING.
+
+The [STITCH](http://stitch-db.org/) database is similar to RAIN in the sense that it extends the STRING with another type of molecular entities, namely drugs, metabolites, and other small-molecule compounds (Kuhn et al., 2014). Like STRING and RAIN, it integrates many types and sources of evidence for interactions, in this case between chemicals and proteins. Rather than using the STRING payload mechanism, STITCH is an entirely separate database with its own web interface, but with all its interactions between proteins being imported from STRING.
+
+[Viruses.STRING](http://viruses.string-db.org/) was our first venture into interspecies interactions, starting from STRING and extending it with viral proteins, interactions between them, and interactions with host proteins (Cook et al., 2018). This was done in a manner similar to the STITCH database, but required considerable reworking of the user interface to support querying for proteins for a virus and its host, rather than only proteins from a single organism. Separate from this work, I was involved in another virus–host network resource, namely the Neo4COVID19 database that is built in part from the interaction data in STRING COVID-19 (Zahoránszky-Kőhalmi et al., 2022).
+
+Our next project on interspecies interactions, [OrthoHPI](https://orthohpi.jensenlab.org/), instead focused on protein interactions between eukaryotic parasites, responsible for many neglected tropical diseases, and their human host (Cuesta Astroz et al., 2019). Together with collaborators in Brazil, we developed a method that combined intraspecies protein interactions from STRING with orthology-based transfer and filtering for protein localization, both in terms of subcellular localization and tissue expression, from the databases described in the next sections. This allowed us to predict interspecies interactions, which we made available as a web resource, and to compare the networks across parasites and thereby identify common mechanisms.
+
+## Orthology detection
+
+The [eggNOG](http://eggnog.embl.de/) database of orthology relations is a resource that was spun out from STRING (Powell et al., 2014; Huerta-Cepas et al., 2016, 2019; Hernández-Plaza et al., 2023). Since STRING relies on orthology information for doing evidence transfer across species, it has from the very beginning contained data on orthology relations. When we realized that a subset of STRING users came for this information rather than the interaction networks, we decided to create a separate database resource, eggNOG, with a web interface designed specifically to serve these users. The resulting eggNOG database has become quite successful in this competitive field, and it is among the best methods in the Quest for Orthologs benchmark (Altenhoff et al., 2016). The team behind eggNOG also developed a tool, eggNOG-mapper, which allows users to quickly and easily map newly sequenced genomes to the genomes in eggNOG (Huerta-Cepas et al., 2017).
+
+## Protein localization
+
+The group has developed several resources that, while not part of STRING or built upon it, are designed to be part of the same ecosystem. Two of these relate to protein localization, namely [COMPARTMENTS](https://compartments.jensenlab.org/) (Binder et al., 2014) and [TISSUES](https://tissues.jensenlab.org/) (Santos et al., 2015; Palasca et al., 2018). Both these resources map information to STRING protein identifiers to make integration of protein networks and protein localization easy. They further assign confidence scores to all available evidence, thereby allowing direct comparison across evidence types.
+
+*Example of a cell schematic from the COMPARTMENTS resource (Binder et al., 2014).*
+
+The [COMPARTMENTS](https://compartments.jensenlab.org/) database was the first in a series of such resources. It brought together subcellular localization information from manually curated databases, antibody-based data from the Human Protein Atlas, automatic text mining of biomedical abstracts, and sequence-based predictions (Binder et al., 2014). All evidence is mapped to Gene Ontology cellular component terms. The COMPARTMENTS web resource allows users to access comprehensive data on protein subcellular localization for human proteins and proteins from six major model organisms (https://compartments.jensenlab.org/). It features a graphic representation of protein localization in the form of a cell schematic, which was at one point reused with permission by UniProtKB, and the schematic with data from COMPARTMENTS is shown in the GeneCards database.
+
+*Examples of body schematics for human, mouse, rat, and pig from the TISSUES resource (Palasca et al., 2018.)*
+
+The [TISSUES](https://tissues.jensenlab.org/) database is conceptually very similar to COMPARTMENTS, mapping proteins to anatomical rather than cellular locations. However, the evidence landscape is vastly different, with large expression atlases being the major source of evidence, manually curated annotations and automatic literature mining both being much less reliable, and sequence-based predictions not even existing (Santos et al., 2015; Palasca et al., 2018). The web resource covers human, mouse, rat, and pig due to the availability of large-scale expression atlases, and it provides an overview visualization in the form of body schematics of the respective organisms, similar to how COMPARTMENTS has a schematics of cells (https://tissues.jensenlab.org/). TISSUES also formed the basis for a pathway-centric analysis of tissue expression, exploring the possibilities and limitations of animal models (Doncheva et al, 2021).
+
+## Disease–gene associations
+
+Interaction networks are often used for visualizing our current understanding of diseases and to expand upon by suggesting new candidate genes. For this reason, we created the [DISEASES](https://diseases.jensenlab.org/) database of disease–gene associations, which was designed for easy integration with STRING (Pletscher-Frankild et al., 2015; Grissa et al., 2022). Like the TISSUES database, DISEASES combines evidence from manually curated databases, experimental evidence, and associations automatically text mined from the biomedical literature. However, text mining works particularly well for gene–disease associations, and this is thus by far the biggest source of evidence in this database. The text-mined gene–disease associations from DISEASES are also made available via the GeneCards and MalaCards databases.
+
+The experimental evidence in DISEASES comes from GWAS data that we import from the TIGA resource, which we developed together with our collaborators on the IDG project (Yang et al., 2021). TIGA imports SNP–trait associations from individual studies in the NHGRI-EBI GWAS Catalog and calculates scores for gene–trait associations by integrating evidence across SNPs and studies.
+A very early version of DISEASES formed the basis for a tool, mirPD, developed in collaboration with the group of Jan Gorodkin (Mørk et al., 2014). The tool combines miRNA-target information from manual curation and from two existing prediction tools with the disease-associations for protein-coding genes from DISEASES. This allows guild-by-association to be used to associate miRNAs with diseases via protein-coding genes.
+
+## Disease networks
+
+Disease networks do not need to involve genes at all; for example, one can derive correlation networks for diseases from electronic registries. I collaborated with the Brunak group to do the first large-scale study, using data for the whole population of Denmark to systematically identify temporal disease correlations and condense these into longer disease trajectories (Jensen et al., 2014). We subsequently worked with clinicians at Odense University Hospital to use this method to study alcoholic liver disease as part of the GALAXY consortium (Grissa et al., 2020).
+
+## Knowledge graphs
+
+A knowledge graph is a heterogeneous network with multiple types of nodes and edges; for example, a knowledge graph could be a network connecting small molecules, genes/proteins, cellular components, tissues, and diseases. It is thus easy to see how the database resources developed in my group could be combined to produce a knowledge graph; in fact, many of them were used in the creation of the [Hetionet](https://het.io/) knowledge graph.
+
+The databases developed within the group were therefore a solid foundation for the work on the [Clinical Knowledge Graph (CKG)](https://github.com/MannLabs/CKG) in the Mann group (Santos et al., 2022). This collaboration resulted in a powerful platform that supports analysis and interpretation of proteomics data, especially for clinical samples, by combining an extensive knowledge graph with statistical and machine-learning methods.

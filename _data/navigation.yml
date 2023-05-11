@@ -59,6 +59,58 @@ publications:
   - title: "Book chapters"
     url: /publications/#book-chapters
 
+research:
+  - title: "Text mining"
+    url: /research/textmining/
+    children:
+      - title: "Named entity recognition"
+        url: /research/textmining/#named-entity-recognition
+      - title: "Relation expression"
+        url: /research/textmining/#relation-extraction
+      - title: "Drug target prioritization"
+        url: /research/textmining/#drug-target-prioritization
+      - title: "Medical informatics"
+        url: /research/textmining/#medical-informatics
+  - title: "Network databases"
+    url: /research/databases/
+    children:
+      - title: "The STRING database"
+        url: /research/databases/#the-string-database
+      - title: "Association prediction"
+        url: /research/databases/#association-prediction
+      - title: "Related network databases"
+        url: /research/databases/#related-network-databases
+      - title: "Orthology detection"
+        url: /research/databases/#orthology-detection
+      - title: "Protein localization"
+        url: /research/databases/#protein-localization
+      - title: "Disease–gene associations"
+        url: /research/databases/#disease-gene-associations
+      - title: "Disease networks"
+        url: /research/databases/#disease-networks
+      - title: "Knowledge graphs"
+        url: /research/databases/#knowledge-graphs
+  - title: "Network visualization"
+      url: /research/visualization/
+      children:
+      - title: "Cytoscape integration"
+        url: /research/visualization/#cytoscape-integration
+      - title: "Complex omics data"
+        url: /research/visualization/#complex-omics-data
+      - title: "Networks in 3D"
+        url: /research/visualization/#networks-in-3d
+  - title: Omics analysis
+    url: /research/omicsanalysis/
+    children:
+      - title: "Tool development"
+        url: /research/omicsanalysis/#tool-development
+      - title: "Quantitative omics"
+        url: /research/omicsanalysis/#quantitative-omics
+      - title: "PTM analysis"
+        url: /research/omicsanalysis/#ptm-analysis
+      - title: "Other applications"
+        url: /research/omicsanalysis/#other-applications
+
 resources:
   - title: "Molecular networks"
     url: /resources/networks/
