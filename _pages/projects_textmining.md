@@ -23,8 +23,8 @@ The text-mining community organizes many so-called challenges and shared tasks i
 
 The JensenLab is part of the Knowledge Management Central of the NIH program [Illuminating the Druggable Genome](https://druggablegenome.net/). In this project the [text-mining resources](/resources/textmining) developed within the group are used to identify proteins from targetable classes (kinases, G-protein-coupled receptors, and ion channels) in text from the scientific literature as well as funding and patent records. This in turn allows us to help quantify how well studied each protein is, and thereby prioritize the so-called dark targets, about which very little is known.
 
-## Adverse drug reactions
+## Medical informatics
 
 The [SIDER](http://sideeffects.embl.de/) database, which we develop in collaboration with the [Bork group](http://www.bork.embl.de/), uses the JensenLab tagger to extract structured data on side effects and indications of drugs from the unstructured text in the packet inserts describing the drugs.
 
-We also collaborate with the [Brunak group](http://www.cpr.ku.dk/research/disease-systems-biology/brunak/) to apply text-mining to the clinical narrative in Danish electronic health records. This can, for example, be used to link drugs to adverse events, which were not discovered during clinical trials and are not yet described in the package inserts.
+We collaborate with the [Brunak group](http://www.cpr.ku.dk/research/disease-systems-biology/brunak/) to apply text-mining to the clinical narrative in Danish electronic health records. This can, for example, be used to link drugs to adverse events, which were not discovered during clinical trials and are not yet described in the package inserts. We also collaborate on identifying lifestyle factors in text and extracting their associations with diseases.
