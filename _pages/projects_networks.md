@@ -9,7 +9,7 @@ Many projects in the group focus on the construction or analysis of networks. Th
 
 ## Host--pathogen interactions
 
-The study of host--parasite interactions is essential to understand parasitic infection and adaptation within the host system as well as to prevent and treat infectious diseases. Our group works on several projects that aim to integrate data on protein--protein interactions from existing databases, complement them with knowledge that is automatically text-mined from the literature, and use this to predict molecular interactions between host and pathogen proteins. The projects cover viruses ([STRING Viruses](http://viruses.string-db.org/)), uni- and multi-cellular eukaryotic pathogens ([OrthoHPI](https://orthohpi.jensenlab.org/)), and most recently bacteria.
+The study of host--parasite interactions is essential to understand parasitic infection and adaptation within the host system as well as to prevent and treat infectious diseases. Our group works on several projects that aim to integrate data on protein--protein interactions from existing databases, complement them with knowledge that is automatically text-mined from the literature, and use this to predict molecular interactions between host and pathogen proteins. The projects cover viruses ([STRING Viruses](http://viruses.string-db.org/)), uni- and multi-cellular eukaryotic pathogens ([OrthoHPI](https://orthohpi.jensenlab.org/)), and most recently bacteria. Such interactions can also be accessed via [Cytoscape stringApp](https://apps.cytoscape.org/apps/stringapp).
 
 ## Animal models of diseases
 
