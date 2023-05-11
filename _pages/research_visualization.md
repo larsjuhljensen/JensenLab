@@ -26,5 +26,5 @@ Sometimes the data are too high-dimensional to show the individual dimensions; f
 To further improve network visualization, taking it into 3D, we have recently collaborated with the group of Georgios Pavlopoulos at Biomedical Sciences Research Center “Alexander Fleming” in Athens. Specifically, we developed [Arena3DwebApp](https://apps.cytoscape.org/apps/arena3dwebapp) that integrates the latest version of their Arena3Dweb tool with Cytoscape (Kokoli et al., 2023). This allows users to prepare their network in Cytoscape and then easily transfer it to Arena3Dweb for interactive 3D visualization.
 
 We are also experimenting with Virtual Reality (VR) for interactive exploration of large networks in 3D. To this end, we have developed [Cy2VR](https://github.com/larsjuhljensen/Cy2VR), a tool for converting any Cytoscape network into a WebXR-based 3D visualization that can be explored on a wide range of devices, including phones and low-end VR headsets. See for example:
-* [Network 1](/assets/vr/u-cie_network.html) --- STRING network colored based on scRNA-seq data using U-CIE
-* [Network 2](/assets/vr/fava_network.html) --- FAVA network created based on scRNA-seq and proteomics data
+* [STRING network colored based on scRNA-seq data using U-CIE](/assets/vr/u-cie_network.html)
+* [FAVA network created based on scRNA-seq and proteomics data](/assets/vr/fava_network.html)
