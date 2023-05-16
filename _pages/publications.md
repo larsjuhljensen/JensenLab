@@ -10,15 +10,15 @@ sidebar:
 Webel H, Niu L, Nielsen AB, Locard-Paulet M, Mann M, Jensen LJ and Rasmussen S (2023). Mass spectrometry-based proteomics imputation using self supervised deep learning. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2023.01.12.523792)
 
-Kokoli M, Karatzas E, Baltoumas FA, Schneider R, Pafilis E, Paragkamian S, Doncheva NT, Jensen LJ and Pavlopoulos GA (2022). Arena3Dweb: Interactive 3D visualization of multilayered networks supporting multiple directional information channels, clustering analysis and application integration. *bioRxiv*.  
-[Preprint](https://doi.org/10.1101/2022.10.01.510435)
-
 Koutrouli M, Lindez PP, Bouwmeester R, Rasmussen S, Martens L and Jensen LJ (2023). FAVA: High-quality functional association networks inferred from scRNA-seq and proteomics data. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2022.07.06.499022)
 
 ## Research articles
 
 ### 2023
+
+Kokoli M, Karatzas E, Baltoumas FA, Schneider R, Pafilis E, Paragkamian S, Doncheva NT, Jensen LJ and Pavlopoulos GA (2023). Arena3Dweb: Interactive 3D visualization of multilayered networks supporting multiple directional information channels, clustering analysis and application integration. *Nucleic Acids Research Genomics and Bioinformatics*.  
+[Preprint](https://doi.org/10.1101/2022.10.01.510435)
 
 Tantoso E, Eisenhaber B, Sinha S, Jensen LJ and Eisenhaber F (2023). About the dark corners in the gene function space of Escherichia coli remaining without illumination by scientific literature. *Biology Direct*, **18**:7.  
 [Full text](https://doi.org/10.1186/s13062-023-00362-0) <span class="__dimensions_badge_embed__" data-doi="10.1186/s13062-023-00362-0" data-style="small_rectangle"></span>
