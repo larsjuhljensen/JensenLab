@@ -71,6 +71,8 @@ research:
         url: /research/textmining/#drug-target-prioritization
       - title: "Medical informatics"
         url: /research/textmining/#medical-informatics
+      - title: "References"
+        url: /research/textmining/#references
   - title: "Network databases"
     url: /research/databases/
     children:

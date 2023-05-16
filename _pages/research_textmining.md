@@ -11,7 +11,7 @@ Of all the work done in my group, text mining is arguably the topic that spans t
 
 The task of finding names of biological entities of interest, such as genes/proteins and diseases, within text and linking them to their identifiers in a database or ontology is referred to as named entity recognition (NER). In addition to being useful in its own right, it is a prerequisite for many other text-mining tasks and for most applications of text mining in the biomedical domain.
 
-Within my group, we have long taken a dictionary-based approach to the NER task, which involves developing comprehensive dictionaries based on existing biomedical databases and ontologies, as well as maintaining a list of problematic names that must be blocked to get good precision. Combining these resources with our highly efficient multi-threaded [Tagger](https://github.com/larsjuhljensen/tagger) software allows us to quickly detect a wide range of biomedical entities in huge text corpora, and it is even fast enough to allow real-time text mining of documents provided by users.
+Within my group, we have long taken a dictionary-based approach to the NER task, which involves developing comprehensive dictionaries based on existing biomedical databases and ontologies, as well as maintaining a list of problematic names that must be blocked to get good precision. Combining these resources with our highly efficient multi-threaded [Tagger](https://github.com/larsjuhljensen/tagger) software allows us to quickly detect a wide range of biomedical entities in huge text corpora (Jensen, 2016), and it is even fast enough to allow real-time text mining of documents provided by users (Jensen, 2017).
 
 We have with great success participated in two BioCreative challenges using real-time tools based on the Tagger engine. The first of these is the [EXTRACT](https://extract.jensenlab.org/) tool, which allows the user to run text mining on almost any web page within their browser. This tool was designed to support database curators in identifying relevant parts of a document and to help extract structured data in a semi-automated fashion, and was evaluated every positively in the BioCreative V Interactive Annotation Task (Pafilis et al., 2016). The Tagger service, which is used by EXTRACT, further participated in the BioCreative V.5 Technical Interoperability and Performance Task, where it was one of the fastest and most robust services (Pletscher-Frankild & Jensen, 2019).
 
@@ -42,7 +42,7 @@ The text mining-based quantification of studiedness and text-mined associations 
 
 Text mining has broad applications beyond just the biomedical literature, including applications in medical informatics. We have contributed to several projects in this field, using text mining to extract information about adverse drug reactions (ADRs) as well as comorbidities.
 
-The first application is the SIDER database, which extracts information on known ADRs from the unstructured text in the side effects section of drug package inserts (Kuhn et al., 2016). As it is already known which drug a package insert pertains to, the main task is NER of the ADRs, which we do using the Tagger engine with a dictionary of MedDRA terms. This is complemented by a rule-based system to extract ADR frequency information where available, i.e. how many patients experience a given ADR.
+The first application is the SIDER database, which extracts information on known ADRs from the unstructured text in the side effects section of drug package inserts (Kuhn et al., 2010, 2013, 2016). As it is already known which drug a package insert pertains to, the main task is NER of the ADRs, which we do using the Tagger engine with a dictionary of MedDRA terms. This is complemented by a rule-based system to extract ADR frequency information where available, i.e. how many patients experience a given ADR.
 
 In addition to extracting known ADRs from package inserts, we collaborated with the Brunak group to find known as well as novel ADRs from clinical narratives (Eriksson et al., 2014). To this end, we used text mining to identify potential ADRs mentioned in the text notes about each patient, and then identified statistically significant temporal correlations between ADR mentions and structured medication information across a cohort of psychiatric patients. We used a similar approach on a cohort of diabetes patients, again collaborating with the Brunak group, to identify comorbidities and perform detailed patient stratification based on these (Kirk et al., 2019). A major challenge in both projects was that text from Danish hospitals is written in Danish, thus requiring development of dictionaries in Danish as well as adaptations of the Tagger to deal with long compound nouns.
 
@@ -52,4 +52,84 @@ By developing additional dictionaries, we adapted the method for extracting habi
 
 *Example of NER of organisms and environmental descriptors using the EXTRACT tool (Pafilis et al., 2016).*
 
-We have earlier developed a corpus with manual species annotations in 800 abstracts called Species-800, which has become one of the standard corpora used for benchmarking of text transformer models in the biomedical domain, such as BioBERT. We thus decided to improve the quality of the annotations, especially refining the annotation boundaries, and to expand the corpus with 200 additional abstracts. We have shown that this new corpus, Species-1000, gives much improved performance for a wide range of transformer models compared to Species-800 (Luoma et al., 2023).
+We developed a corpus with manual species annotations in 800 abstracts called Species-800 (Pafilis et al., 2013), which has become one of the standard corpora used for benchmarking of text transformer models in the biomedical domain, such as BioBERT. We thus decided to improve the quality of the annotations, especially refining the annotation boundaries, and to expand the corpus with 200 additional abstracts. We have shown that this new corpus, Species-1000, gives much improved performance for a wide range of transformer models compared to Species-800 (Luoma et al., 2023).
+
+## References
+
+Baltoumas FA, Zafeiropoulou S, Karatzas E, Paragkamian S, Thanati F, Iliopoulos I,  Eliopoulos AG, Schneider R, Jensen LJ, Pafilis E and Pavlopoulos GA (2021). OnTheFly 2.0: a text-mining web application for automated biomedical entity recognition, document annotation, network and functional enrichment analysis. *Nucleic Acids Research Genomics and Bioinformatics*, **3**:lqab090.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/34632381/) [Full text](https://doi.org/10.1093/nargab/lqab090) [Preprint](https://doi.org/10.1101/2021.05.14.444150) [WWW](http://onthefly.pavlopouloslab.info) <span class="__dimensions_badge_embed__" data-doi="10.1093/nargab/lqab090" data-style="small_rectangle"></span>
+
+Cannon DC, Yang JJ, Mathias SL, Ursu O, Mani S, Waller A, Schürer SC, Jensen LJ, Sklar LA, Bologa CG and Oprea TI (2017). TIN-X: Target Importance and Novelty Explorer. *Bioinformatics*, **33**:2601-2603.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/28398460) [Full text](https://doi.org/10.1093/bioinformatics/btx200) [WWW](http://www.newdrugtargets.org/) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btx200" data-style="small_rectangle"></span>
+
+Cejuela JM, Vinchurkar S, Goldberg T, Shankar MSP, Baghudana A, Bojchevski A, Uhlig C, Ofner A, Raharja-Liu P, Jensen LJ\* and Rost B\* (2018). LocText: relation extraction of protein localizations to assist database curation. *BMC Bioinformatics*, **19**:15.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/29343218) [Full text](https://doi.org/10.1186/s12859-018-2021-9) <span class="__dimensions_badge_embed__" data-doi="10.1186/s12859-018-2021-9" data-style="small_rectangle"></span>
+
+Cook H, Pafilis E and Jensen LJ (2016). A dictionary- and rule-based system for identification of bacteria and habitats in text. *Proceedings of the 4th BioNLP Shared Task Workshop*, 50-55.  
+[Full text](https://aclweb.org/anthology/W/W16/W16-3006.pdf)
+
+Eriksson R, Werge T, Jensen LJ and Brunak S (2014). Dose-specific adverse drug reaction identification in electronic patient records: temporal data mining in an inpatient psychiatric population. *Drug Safety*, **37**:237-247.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/24634163) [Full text](https://doi.org/10.1007/s40264-014-0145-z) <span class="__dimensions_badge_embed__" data-doi="10.1007/s40264-014-0145-z" data-style="small_rectangle"></span>
+
+Jensen LJ (2016). One tagger, many uses: Illustrating the power of ontologies in dictionary-based named entity recognition. *Proceedings of the Joint International Conference on Biological Ontology and BioCreative*.  
+[Full text](http://ceur-ws.org/Vol-1747/BIT102_ICBO2016.pdf)
+
+Jensen LJ (2017). Tagger: BeCalm API for rapid named entity recognition. *Proceedings of the BioCreative V.5 Challenge Evaluation Workshop*, 122-129  
+[Full text](http://www.biocreative.org/media/store/files/2017/BioCreative_V5_paper17.pdf)
+
+Junge A and Jensen LJ (2019). CoCoScore: Context-aware co-occurrence scoring for text mining applications using distant supervision. *Bioinformatics*, **36**:264-271.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/31199464) [Full text](https://doi.org/10.1093/bioinformatics/btz490) [Preprint](https://doi.org/10.1101/444398) [Source code](https://github.com/JungeAlexander/cocoscore) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btz490" data-style="small_rectangle"></span>
+
+Kelleher KJ, Sheils TK, Mathias SL, Yang JJ, Metzger VT, Siramshetty VB, Nguyen D-T, Jensen LJ, Vidović D, Schürer SC, Holmes J, Sharma KR, Pillai A, Bologa CG, Edwards JS, Mathé EA and Oprea TI (2023). Pharos 2023: an integrated resource for the understudied human proteome. *Nucleic Acids Research*, **51**:D1405-D1416.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/36624666/) [Full text](https://doi.org/10.1093/nar/gkac1033) [WWW](https://pharos.nih.gov) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkac1033" data-style="small_rectangle"></span>
+
+Kirk IK, Simon C, Banasik K, Holm PC, Haue AD, Jensen PB, Jensen LJ, Rodríguez CL, Pedersen MK, Eriksson R, Andersen HU, Almdal T, Bork-Jensen J, Grarup N, Borch-Johnsen K, Pedersen O, Pociot F, Hansen T, Bergholdt R, Rossing P and Brunak S (2019). Linking glycemic dysregulation in diabetes to symptoms, comorbidities, and genetics through EHR data mining. *eLife*, **8**:e44941.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/31818369) [Full text](https://doi.org/10.7554/eLife.44941) <span class="__dimensions_badge_embed__" data-doi="10.7554/eLife.44941" data-style="small_rectangle"></span>
+
+Kuhn M, Campillos M, Letunic I, Jensen LJ and Bork P (2010). A side effect resource to capture phenotypic effects of drugs. *Molecular Systems Biology*, **6**:343.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/20087340) [Full text](https://doi.org/10.1038/msb.2009.98) [WWW](http://sideeffects.embl.de) <span class="__dimensions_badge_embed__" data-doi="10.1038/msb.2009.98" data-style="small_rectangle"></span>
+
+Kuhn M, Al Banchaabouchi M, Campillos M, Jensen LJ, Gross C, Gavin A-C and Bork P (2013). Systematic identification of proteins that elicit drug side effects. *Molecular Systems Biology*, **9**:663.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/23632385) [Full text](https://doi.org/10.1038/msb.2013.10) <span class="__dimensions_badge_embed__" data-doi="10.1038/msb.2013.10" data-style="small_rectangle"></span>
+
+Kuhn M, Letunic I, Jensen LJ and Bork P (2016). The SIDER database of drugs and side effects. *Nucleic Acids Research*, **44**:D1075-D1079.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/26481350) [Full text](https://doi.org/10.1093/nar/gkv1075) [WWW](http://sideeffects.embl.de/) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkv1075" data-style="small_rectangle"></span>
+
+Luoma M\*, Nastou K\*, Ohta T, Toivonen H, Pafilis E, Jensen LJ\* and Pyysalo S\* (2023). S1000: A better taxonomic name corpus for biomedical information extraction. *bioRxiv*.  
+[Preprint](https://doi.org/10.1101/2023.02.20.528934)
+
+Nguyen DT, Mathias S, Bologa C, Brunak S, Fernandez N, Gaulton A, Hersey A, Holmes J, Jensen LJ, Karlsson A, Liu G, Ma'ayan A, Mandava G, Mani S, Mehta S, Overington J, Patel J, Rouillard AD, Schürer S, Sheils T, Simeonov A, Sklar LA, Southall N, Ursu O, Vidovic D, Waller A, Yang J, Jadhav A, Oprea T and Guha R (2017). Pharos: Collating protein information to shed light on the druggable genome. *Nucleic Acids Research*, **45**:D995-D1002.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/27903890) [Full text](https://doi.org/10.1093/nar/gkw1072) [WWW](https://pharos.nih.gov) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkw1072" data-style="small_rectangle"></span>
+
+Oprea TI, Bologa CG, Brunak S, Campbell A, Gan GN, Gaulton A, Gomez SM, Guha R, Hersey A, Holmes J, Jadhav A, Jensen LJ, Johnson GL, Karlson A, Leach AR, Ma'ayan A, Malovannaya A, Mani S, Mathias SL, McManus MT, Meehan TF, von Mering C, Muthas D, Nguyen DT, Overington JP, Papadatos G, Qin J1, Reich C, Roth BL, Schürer SC, Simeonov A, Sklar LA, Southall N, Tomita S, Tudose I, Ursu O, Vidovic D, Waller A, Westergaard D, Yang JJ and Zahoránszky-Köhalmi G (2018). Unexplored therapeutic opportunities in the human genome. *Nature Reviews Drug Discovery*, **17**:317-332.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/29472638) [Full text](https://doi.org/10.1038/nrd.2018.14) <span class="__dimensions_badge_embed__" data-doi="10.1038/nrd.2018.14" data-style="small_rectangle"></span>
+
+Pafilis E, Pletscher-Frankild S, Fanini L, Faulwetter S, Pavloudi C, Vasileiadou A, Arvanitidis C and Jensen LJ (2013). The SPECIES and ORGANISMS resources for fast and accurate identification of taxonomic names in text. *PLOS ONE*, **8**:e65390.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/23823062) [Full text](https://doi.org/10.1371/journal.pone.0065390) [WWW](https://species.jensenlab.org) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pone.0065390" data-style="small_rectangle"></span>
+
+Pafilis E, Pletscher-Frankild S, Schnetzer J, Fanini L, Faulwetter S, Pavloudi C, Vasileiadou V, Leary P, Hammock J, Schulz K, Parr CS, Arvanitidis C and Jensen LJ (2015). ENVIRONMENTS and EOL: identification of Environment Ontology terms in text and the annotation of the Encyclopedia of Life. *Bioinformatics*, **31**:1872-1874.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/25619994) [Full text](https://doi.org/10.1093/bioinformatics/btv045) [WWW](https://environments.jensenlab.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btv045" data-style="small_rectangle"></span>
+
+Pafilis E, Buttigieg PL, Ferrell B, Pereira E, Schnetzer J, Arvanitidis C and Jensen LJ (2016). EXTRACT: Interactive extraction of environment metadata and term suggestion for metagenomic sample annotation. *Database*, **2016**:baw005.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/26896844) [Full text](https://doi.org/10.1093/database/baw005) [WWW](https://extract.jensenlab.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/database/baw005" data-style="small_rectangle"></span>
+
+Pletscher-Frankild S and Jensen LJ (2019). Design, implementation, and operation of a rapid, robust named entity recognition web service. *Journal of Cheminformatics*, **11**:19.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/30850898) [Full text](https://doi.org/10.1186/s13321-019-0344-9) <span class="__dimensions_badge_embed__" data-doi="10.1186/s13321-019-0344-9" data-style="small_rectangle"></span>
+
+Russo F, Di Bella S, Vannini F, Berti G, Scoyni F, Cook HV, Santos A, Nigita G, Bonnici V, Laganà A, Geraci F, Pulvirenti A, Giugno R, De Masi F, Belling K, Jensen LJ, Brunak S, Pellegrini M and Ferro A (2018). miRandola 2017: a curated knowledge base of non-invasive biomarkers. *Nucleic Acids Research*, **46**:D354-D359.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/29036351) [Full text](https://doi.org/10.1093/nar/gkx854) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkx854" data-style="small_rectangle"></span>
+
+Sheils T, Mathias S, Kelleher K, Siramshetty V, Nguyen D-T, Bologa C, Jensen LJ, Vidovic D, Koleti A, Schürer S, Waller A, Yang J, Holmes J, Bocci G, Southall N, Dharkar P, Mathé E, Simeonov A and Oprea TI (2021). TCRD and Pharos 2020: Mining the human proteome for disease biology. *Nucleic Acids Research*, **49**:D1334-D1346.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/33156327) [Full text](https://doi.org/10.1093/nar/gkaa993) [WWW](https://pharos.nih.gov) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkaa993" data-style="small_rectangle"></span>
+
+Sinclair L, Ijaz UZ, Jensen LJ, Coolen MJL, Gubry-Rangin C, Chroňáková A, Oulas A, Pavloudi C, Schnetzer J, Weimann A, Ijaz A, Eiler A, Quince C and Pafilis E (2016). Seqenv: linking sequences to environments through text mining. *PeerJ*, **4**:e2690.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/28028456) [Full text](https://doi.org/10.7717/peerj.2690) <span class="__dimensions_badge_embed__" data-doi="10.7717/peerj.2690" data-style="small_rectangle"></span>
+
+Sinha S, Eisenhaber B, Jensen LJ, Kalbuaji B and Eisenhaber F (2018). Darkness in the human gene and protein function space: Widely modest or absent illumination by the life science literature and the trend for fewer protein function discoveries since 2000. *Proteomics*, **18**:e1800093.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/30265449) [Full text](https://doi.org/10.1002/pmic.201800093) <span class="__dimensions_badge_embed__" data-doi="10.1002/pmic.201800093" data-style="small_rectangle"></span>
+
+Tantoso E, Eisenhaber B, Sinha S, Jensen LJ and Eisenhaber F (2023). About the dark corners in the gene function space of Escherichia coli remaining without illumination by scientific literature. *Biology Direct*, **18**:7.  
+[Full text](https://doi.org/10.1186/s13062-023-00362-0) <span class="__dimensions_badge_embed__" data-doi="10.1186/s13062-023-00362-0" data-style="small_rectangle"></span>
+
+Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ\* and Brunak S\* (2018). Text mining of 15 million full-text scientific articles. *PLOS Computational Biology*, **14**:e1005962.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/29447159) [Full text](https://doi.org/10.1371/journal.pcbi.1005962) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1005962" data-style="small_rectangle"></span>
