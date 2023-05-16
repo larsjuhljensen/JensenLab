@@ -90,6 +90,8 @@ research:
         url: /research/databases/#disease-networks
       - title: "Knowledge graphs"
         url: /research/databases/#knowledge-graphs
+      - title: "References"
+        url: /research/databases/#references
   - title: "Network visualization"
     url: /research/visualization/
     children:
@@ -99,6 +101,8 @@ research:
         url: /research/visualization/#complex-omics-data
       - title: "Networks in 3D"
         url: /research/visualization/#networks-in-3d
+      - title: "References"
+        url: /research/visualization/#references
   - title: Omics analysis
     url: /research/omicsanalysis/
     children:
