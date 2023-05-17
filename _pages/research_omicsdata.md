@@ -30,3 +30,89 @@ Another prominent PTM is lysine acetylation, which has been a focus of the Choud
 ## Other applications
 
 Mass spectrometry-based proteomics is a versatile technology, and while the focus at CPR is on PTMs, we have worked with the proteomics groups on several other projects. This includes immunopeptidomics with the Mann group (Bassani-Sternberg et al., 2015), identification of RNA-binding proteins with the Nielsen group (Mullari et al., 2017), and paleoproteomics with the Cappellini group from the Globe Institute and the Olsen group (Jersie-Christensen et al., 2018; Mackie et al., 2018).
+
+## references
+
+Bassani-Sternberg M, Pletscher-Frankild S, Jensen LJ and Mann M (2015). Mass spectrometry of HLA-I peptidomes reveals strong effects of protein abundance and turnover on antigen presentation. *Molecular and Cellular Proteomics*, **14**:658-673.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/25576301) [Full text](https://doi.org/10.1074/mcp.M114.042812) <span class="__dimensions_badge_embed__" data-doi="10.1074/mcp.M114.042812" data-style="small_rectangle"></span>
+
+Bernard C\*, Locard-Paulet M\*, Noël C\*, Duchateau M, Gianetto QG, Moumen B, Rattei T, Hechard Y, Jensen LJ, Matondo M and Samba-Louaka A (2022). A time-resolved multi-omics atlas of Acanthamoeba castellanii encystment. *Nature Communications*, **13**:4104.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/35835784/) [Full text](https://doi.org/10.1038/s41467-022-31832-0) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-022-31832-0" data-style="small_rectangle"></span>
+
+Bøgebo R, Horn H, Olsen JV, Gammeltoft S, Jensen LJ, Hansen JL and Christensen GL (2014). Predicting kinase activity in Angiotensin receptor phosphoproteomes based on sequence-motifs and interactions. *PLOS ONE*, **9**:e94672.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/24722691) [Full text](https://doi.org/10.1371/journal.pone.0094672) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pone.0094672" data-style="small_rectangle"></span>
+
+Emdal KB, Pedersen A-K, Bekker-Jensen DB, Tsafou KP, Horn H, Lindner S, Schulte JH, Eggert A, Jensen LJ, Francavilla C and Olsen JV (2015). Temporal proteomics of NGF-TrkA signaling identifies an inhibitory role for the E3 ligase Cbl-b in neuroblastoma cell differentiation. *Science Signaling*, **8**:ra40.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/25921289) [Full text](https://doi.org/10.1126/scisignal.2005769) <span class="__dimensions_badge_embed__" data-doi="10.1126/scisignal.2005769" data-style="small_rectangle"></span>
+
+Francavilla C, Lupia M, Tsafou K, Villa A, Kowalczyk K, Rakownikow Jersie-Christensen R, Bertalot G, Confalonieri S, Brunak S, Jensen LJ, Cavallaro U and Olsen JV (2017). Phosphoproteomics of primary cells reveals druggable kinase signatures in ovarian cancer. *Cell Reports*, **18**:3242-3256.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/28355574) [Full text](https://doi.org/10.1016/j.celrep.2017.03.015) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.celrep.2017.03.015" data-style="small_rectangle"></span>
+
+Hendriks IA, Lyon D, Young C, Jensen LJ, Vertegaal AC and Nielsen ML (2017). Site-specific mapping of the human SUMO proteome reveals co-modification with phosphorylation. *Nature Structural & Molecular Biology*, **24**:325-335.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/28112733) [Full text](https://doi.org/10.1038/nsmb.3366) <span class="__dimensions_badge_embed__" data-doi="10.1038/nsmb.3366" data-style="small_rectangle"></span>
+
+Hendriks IA, Lyon D, Su D, Skotte NH, Daniel JA, Jensen LJ and Nielsen ML (2018). Site-specific characterization of endogenous SUMOylation across species and organs. *Nature Communications*, **9**:2456.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/29942033) [Full text](https://doi.org/10.1038/s41467-018-04957-4) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-018-04957-4" data-style="small_rectangle"></span>
+
+Horn H\*, Schoof EM\*, Kim J\*, Robin X, Miller ML, Diella F, Palma A, Cesareni G, Jensen LJ\* and Linding R\* (2014a). KinomeXplorer: an integrated platform for kinome biology studies. *Nature Methods*, **11**:603-604.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/24874572) [Full text](https://doi.org/10.1038/nmeth.2968) [WWW](http://kinomexplorer.info) <span class="__dimensions_badge_embed__" data-doi="10.1038/nmeth.2968" data-style="small_rectangle"></span>
+
+Horn H, Haslam N and Jensen LJ (2014b). DoReMi: context-based prioritization of linear motif matches. *PeerJ*, **2**:e315.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/24711967) [Full text](https://doi.org/10.7717/peerj.315) <span class="__dimensions_badge_embed__" data-doi="10.7717/peerj.315" data-style="small_rectangle"></span>
+
+Jersie-Christensen RR, Lanigan LT, Lyon D, Mackie M, Belstrøm D, Kelstrup C, Fotakis AK, Willerslev E, Lynnerup N, Jensen LJ, Cappellini E and Olsen JV (2018). Quantitative metaproteomics of medieval dental calculus reveals individual oral health status. *Nature Communications*, **9**:4744.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/30459334) [Full text](https://doi.org/10.1038/s41467-018-07148-3) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-018-07148-3" data-style="small_rectangle"></span>
+
+Kirik U, Refsgaard JC and Jensen LJ (2019). Improving peptide-spectrum matching by fragmentation prediction using Hidden Markov Models. *Journal of Proteome Research*, **18**:2385-2396.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/31074280) [Full text](https://doi.org/10.1021/acs.jproteome.8b00499) [Preprint](https://doi.org/10.1101/358283) [Source code](https://github.com/ukirik/hmsms) <span class="__dimensions_badge_embed__" data-doi="10.1021/acs.jproteome.8b00499" data-style="small_rectangle"></span>
+
+Kjær C, Barzaghi G, Bak LK, Goetze JP, Yde CW, Woldbye D, Pinborg LH and Jensen LJ (2019). Transcriptome analysis in patients with temporal lobe epilepsy. *Brain*, **141**:e55.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/31504209) [Full text](https://doi.org/10.1093/brain/awz265) <span class="__dimensions_badge_embed__" data-doi="10.1093/brain/awz265" data-style="small_rectangle"></span>
+
+Larsen SC, Sylvestersen KB, Mund A, Lyon D, Mullari M, Madsen MV, Daniel JA, Jensen LJ and Nielsen ML (2016). Proteome-wide analysis of arginine monomethylation reveals widespread occurrence in human cells. *Science Signaling*, **9**:rs9.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/27577262) [Full text](https://doi.org/10.1126/scisignal.aaf7329) <span class="__dimensions_badge_embed__" data-doi="10.1126/scisignal.aaf7329" data-style="small_rectangle"></span>
+
+Linscheid N, Santos A, Poulsen PC, Mills RW, Calloe K, Leurs U, Ye JZ, Stolte C, Thomsen MB, Bentzen BH, Lundegaard PR, Olesen MS, Jensen LJ, Olsen JV and Lundby A (2021). Quantitative proteome comparison of human hearts with those of model organisms. *PLOS Biology*, **19**:e3001144.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/33872299/) [Full text](https://doi.org/10.1371/journal.pbio.3001144) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pbio.3001144" data-style="small_rectangle"></span>
+
+Locard-Paulet M, Bouyssié D, Froment C, Burlet-Schiltz O and Jensen LJ (2020). Comparing 22 Popular Phosphoproteomics Pipelines for Peptide Identification and Site Localization. *Journal of Proteome Research*, **19**:1338-1345.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/31975593) [Full text](https://doi.org/10.1021/acs.jproteome.9b00679) <span class="__dimensions_badge_embed__" data-doi="10.1021/acs.jproteome.9b00679" data-style="small_rectangle"></span>
+
+Locard-Paulet M, Palasca O and Jensen LJ (2022). Identifying the genes impacted by cell proliferation in proteomics and transcriptomics studies. *PLOS Computational Biology*, **18**:e1010604.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/36201535/) [Full text](https://doi.org/10.1371/journal.pcbi.1010604) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1010604" data-style="small_rectangle"></span>
+
+Lundby A, Franciosa G, Emdal KB, Refsgaard JC, Gnosa SP, Bekker-Jensen DB, Secher A, Maurya SR, Paul I, Mendez BL, Kelstrup CD, Francavilla C, Kveiborg M, Montoya G, Jensen LJ and Olsen JV (2019). Oncogenic Mutations Rewire Signaling Pathways by Switching Protein Recruitment to Phosphotyrosine Sites. *Cell*, **179**:543-560.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/31585087) [Full text](https://doi.org/10.1016/j.cell.2019.09.008) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.cell.2019.09.008" data-style="small_rectangle"></span>
+
+Mackie M, Rüther P, Samodova D, Di Gianvincenzo F, Granzotto C, Lyon D, Peggie DA, Howard H, Harrison L, Jensen LJ, Olsen JV and Cappellini E (2018). Palaeoproteomic profiling of conservation layers on a 14th century Italian wall painting. *Angewandte Chemie International Edition*, **57**:7369-7374.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/29603563) [Full text](https://doi.org/10.1002/anie.201713020) <span class="__dimensions_badge_embed__" data-doi="10.1002/anie.201713020" data-style="small_rectangle"></span>
+
+Miller ML\*, Jensen LJ\*, Diella F, Jørgensen C, Tinti M, Li L, Hsiung M, Parker SA, Bordeaux J, Sicheritz-Ponten T, Olhovsky M, Pasculescu A, Alexander J, Knapp S, Blom N, Bork P, Li S, Cesareni G, Pawson T, Turk BE, Yaffe MB, Brunak S, Linding R (2008). Linear motif atlas for phosphorylation-dependent signaling. *Science Signaling*, **1**:ra2.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/18765831) [Full text](https://doi.org/10.1126/scisignal.1159433) [WWW](http://netphorest.info) <span class="__dimensions_badge_embed__" data-doi="10.1126/scisignal.1159433" data-style="small_rectangle"></span>
+
+Mullari M, Lyon D, Jensen LJ and Nielsen ML (2017). Specifying RNA-binding regions in proteins by peptide Cross-Linking and Affinity Purification. *Journal of Proteome Research*, **16**:2762-2772.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/28648085) [Full text](https://doi.org/10.1021/acs.jproteome.7b00042) <span class="__dimensions_badge_embed__" data-doi="10.1021/acs.jproteome.7b00042" data-style="small_rectangle"></span>
+
+Pfeiffer A, Franciosa G, Locard-Paulet M, Piga I, Reckzeh K, Vemulapalli V, Blacklow SC, Theilgaard-Mönch K, Jensen LJ and Olsen JV (2022). Phosphorylation of SHP2 at Tyr62 enables acquired resistance to SHP2 allosteric inhibitors in FLT3-ITD-driven AML. *Cancer Research*, **82**:2141-2155.  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/35311954/) [Full text](https://doi.org/10.1158/0008-5472.CAN-21-0548) <span class="__dimensions_badge_embed__" data-doi="10.1158/0008-5472.CAN-21-0548" data-style="small_rectangle"></span>
+
+Schölz C, Lyon D, Refsgaard JC, Jensen LJ, Choudhary C and Weinert BT (2015a). Avoiding abundance bias in the functional annotation of posttranslationally modified proteins. *Nature Methods*, **12**:1003-1004.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/26513550) [Full text](https://doi.org/10.1038/nmeth.3621) <span class="__dimensions_badge_embed__" data-doi="10.1038/nmeth.3621" data-style="small_rectangle"></span>
+
+Schölz C, Weinert BT, Wagner SA, Beli P, Miyake Y, Qi J, Jensen LJ, Streicher W, McCarthy AR, Westwood NJ, Lain S, Cox J, Matthias P, Mann M, Bradner JE and Choudhary C (2015b). Acetylation site specificities of lysine deacetylase inhibitors in human cells. *Nature Biotechnology*, **33**:415-423.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/25751058) [Full text](https://doi.org/10.1038/nbt.3130) <span class="__dimensions_badge_embed__" data-doi="10.1038/nbt.3130" data-style="small_rectangle"></span>
+
+Sylvestersen KB, Horn H, Jungmichel S, Jensen LJ and Nielsen ML (2014). Proteomic analysis of arginine methylation sites in human cells reveals dynamic regulation during transcriptional arrest. *Molecular and Cellular Proteomics*, **13**:2072-2088.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/24563534) [Full text](https://doi.org/10.1074/mcp.O113.032748) <span class="__dimensions_badge_embed__" data-doi="10.1074/mcp.O113.032748" data-style="small_rectangle"></span>
+
+Versace E, Sgadò P, George J, Loveland JL, Ward J, Thorpe P, Jensen LJ, Spencer KA, Paracchini S and Vallortigara G (2022). Light-induced asymmetries in embryonic retinal gene expression are mediated by the vascular system and extracellular matrix. *Scientific Reports*, **12**:12086.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/35840576/) [Full text](https://doi.org/10.1038/s41598-022-14963-8) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41598-022-14963-8" data-style="small_rectangle"></span>
+
+Webel H, Niu L, Nielsen AB, Locard-Paulet M, Mann M, Jensen LJ and Rasmussen S (2023). Mass spectrometry-based proteomics imputation using self supervised deep learning. *bioRxiv*.  
+[Preprint](https://doi.org/10.1101/2023.01.12.523792)
+
+Weinert BT, Satpathy S, Hansen BK, Lyon D, Jensen LJ and Choudhary C (2017). Accurate quantification of site-specific acetylation stoichiometry reveals the impact of sirtuin deacetylase CobB on the E. coli acetylome. *Molecular and Cellular Proteomics*, **16**:759-769.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/28254776) [Full text](https://doi.org/10.1074/mcp.M117.067587) <span class="__dimensions_badge_embed__" data-doi="10.1074/mcp.M117.067587" data-style="small_rectangle"></span>
+
+Yarani R\*, Palasca O\*, Doncheva NT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litman T, Holmskov U, Bang-Berthelsen CH, Vilien M, Jensen LJ, Gorodkin J and Pociot F (2023). Cross-species high-resolution transcriptome profiling suggests biomarkers and therapeutic targets for ulcerative colitis. *Frontiers in Molecular Biosciences*, **9**:1081176.  
+[Full text](https://doi.org/10.3389/fmolb.2022.1081176) [Preprint](https://doi.org/10.1101/2020.08.12.225458) <span class="__dimensions_badge_embed__" data-doi="10.3389/fmolb.2022.1081176" data-style="small_rectangle"></span>
