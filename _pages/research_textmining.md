@@ -145,3 +145,7 @@ Warrer P, Hansen EH, Jensen LJ and Aagaard L (2011). Using text-mining technique
 
 Westergaard D, Stærfeldt H-H, Tønsberg C, Jensen LJ\* and Brunak S\* (2018). Text mining of 15 million full-text scientific articles. *PLOS Computational Biology*, **14**:e1005962.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/29447159) [Full text](https://doi.org/10.1371/journal.pcbi.1005962) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1005962" data-style="small_rectangle"></span>
+
+\* Joint first and/or joint corresponding authors.  
+
+<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>

@@ -45,3 +45,7 @@ Koutrouli M, Morris JH, and Jensen LJ (2022). U-CIE [/juː 'siː/]: Color encodi
 
 Legeay M, Doncheva NT, Morris JH and Jensen LJ (2020). Visualize omics data on networks with Omics Visualizer, a Cytoscape App. *F1000Research*, **9**:157.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/32399202) [Full text](https://doi.org/10.12688/f1000research.22280.1) <span class="__dimensions_badge_embed__" data-doi="10.12688/f1000research.22280.1" data-style="small_rectangle"></span>
+
+\* Joint first and/or joint corresponding authors.  
+
+<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>

@@ -116,3 +116,7 @@ Weinert BT, Satpathy S, Hansen BK, Lyon D, Jensen LJ and Choudhary C (2017). Acc
 
 Yarani R\*, Palasca O\*, Doncheva NT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litman T, Holmskov U, Bang-Berthelsen CH, Vilien M, Jensen LJ, Gorodkin J and Pociot F (2023). Cross-species high-resolution transcriptome profiling suggests biomarkers and therapeutic targets for ulcerative colitis. *Frontiers in Molecular Biosciences*, **9**:1081176.  
 [Full text](https://doi.org/10.3389/fmolb.2022.1081176) [Preprint](https://doi.org/10.1101/2020.08.12.225458) <span class="__dimensions_badge_embed__" data-doi="10.3389/fmolb.2022.1081176" data-style="small_rectangle"></span>
+
+\* Joint first and/or joint corresponding authors.  
+
+<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>

@@ -165,3 +165,7 @@ Szklarczyk D, Kirsch R, Koutrouli M, Nastou K, Mehryary F, Hachilif R, Gable AL,
 
 Yang JJ, Grissa D, Lambert CG, Bologa CG, Mathias SL, Waller A, Wild DJ, Jensen LJ and Oprea TI (2021). TIGA: Target illumination GWAS analytics. *Bioinformatics*, **21**:3865-3873.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/34086846/) [Full text](https://doi.org/10.1093/bioinformatics/btab427) [Preprint](https://doi.org/10.1101/2020.11.11.378596) [WWW](https://unmtid-shinyapps.net/tiga/) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btab427" data-style="small_rectangle"></span>
+
+\* Joint first and/or joint corresponding authors.  
+
+<script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
