@@ -24,7 +24,7 @@ Some of the improvements to the STRING network come in the form of new computati
 
 The first is SVD-Phy, the method providing the gene cooccurrence evidence (Franceschini et al., 2016). The method is remarkably simple: it takes a best-hit matrix for a genome as input, uses truncated singular value decomposition to reduce redundancy, and finally calculates Pearson correlation coefficients to infer functional associations. Despite its simplicity, it outperformed other published methods by a wide margin in our benchmark.
 
-![STRING fava](research_databases_fava.png)  
+![FAVA figure](research_databases_fava.png)  
 *FAVA network created through reanalysis of Human Protein Atlas single-cell RNA-seq data and PRIDE proteomics data (Koutroulli et al., 2023).*
 
 [FAVA](https://github.com/mikelkou/fava) is a method for inferring functional associations from single-cell RNA-seq and proteomics atlases (Koutrouli et al., 2023). The method is similar to SVD-Phy in the sense that it starts from profiles, applies dimensionality reduction to reduce redundancy, and calculates Pearson correlation coefficients between the resulting latent representations. However, FAVA differs methodologically from SVD-Phy by using variational autoencoders for the dimensionality reduction, which turned out to be critical for making the method work on omics data rather than phylogenetic profiles. FAVA will be part of the upcoming version of STRING, where it will replace most of the existing coexpression channel.
@@ -48,10 +48,12 @@ The [eggNOG](http://eggnog.embl.de/) database of orthology relations is a resour
 
 The group has developed several resources that, while not part of STRING or built upon it, are designed to be part of the same ecosystem. Two of these relate to protein localization, namely [COMPARTMENTS](https://compartments.jensenlab.org/) (Binder et al., 2014) and [TISSUES](https://tissues.jensenlab.org/) (Santos et al., 2015; Palasca et al., 2018). Both these resources map information to STRING protein identifiers to make integration of protein networks and protein localization easy. They further assign confidence scores to all available evidence, thereby allowing direct comparison across evidence types.
 
+![COMPARTMENTS figure](research_databases_compartments.png)  
 *Example of a cell schematic from the COMPARTMENTS resource (Binder et al., 2014).*
 
 The [COMPARTMENTS](https://compartments.jensenlab.org/) database was the first in a series of such resources. It brought together subcellular localization information from manually curated databases, antibody-based data from the Human Protein Atlas, automatic text mining of biomedical abstracts, and sequence-based predictions (Binder et al., 2014). All evidence is mapped to Gene Ontology cellular component terms. The COMPARTMENTS web resource allows users to access comprehensive data on protein subcellular localization for human proteins and proteins from six major model organisms (https://compartments.jensenlab.org/). It features a graphic representation of protein localization in the form of a cell schematic, which was at one point reused with permission by UniProtKB, and the schematic with data from COMPARTMENTS is shown in the GeneCards database.
 
+![TISSUES figure](research_databases_tissues.png)  
 *Examples of body schematics for human, mouse, rat, and pig from the TISSUES resource (Palasca et al., 2018.)*
 
 The [TISSUES](https://tissues.jensenlab.org/) database is conceptually very similar to COMPARTMENTS, mapping proteins to anatomical rather than cellular locations. However, the evidence landscape is vastly different, with large expression atlases being the major source of evidence, manually curated annotations and automatic literature mining both being much less reliable, and sequence-based predictions not even existing (Santos et al., 2015; Palasca et al., 2018). The web resource covers human, mouse, rat, and pig due to the availability of large-scale expression atlases, and it provides an overview visualization in the form of body schematics of the respective organisms, similar to how COMPARTMENTS has a schematics of cells (https://tissues.jensenlab.org/). TISSUES also formed the basis for a pathway-centric analysis of tissue expression, exploring the possibilities and limitations of animal models (Doncheva et al, 2021).
