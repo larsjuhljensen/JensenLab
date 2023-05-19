@@ -5,7 +5,7 @@ permalink: /research/databases/
 sidebar:
   nav: "research"
 ---
-The core activity of JensenLab is to use network biology to help understand the inner workings of cells. We have done this primarily by creating database resources and tools, which we make freely available under open licenses for computational and wet-lab researchers around the world to use.
+The core activity of JensenLab is to use network biology to help understand the inner workings of cells. We have done this primarily by creating database resources, which we make freely available under open licenses for computational and wet-lab researchers around the world to use.
 
 ## The STRING database
 

@@ -5,7 +5,7 @@ permalink: /research/visualization/
 sidebar:
   nav: "research"
 ---
-Visualization of proteomics or transcriptomics data data is one of the major use cases for protein networks, and the STRING database has become particularly popular for this. However, all too often researchers simply put a gene list into the STRING web interface and show the resulting network.
+Visualization of proteomics or transcriptomics data data is one of the major use cases for protein networks, and the STRING database has become particularly popular for this. However, all too often researchers simply put a gene list into the STRING web interface and show the resulting network. We have thus developed a number of tools to help create better, more informative network visualizations.
 
 ## Network-based visualization
 

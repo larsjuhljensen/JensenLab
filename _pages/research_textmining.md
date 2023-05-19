@@ -5,7 +5,7 @@ permalink: /research/textmining/
 sidebar:
   nav: "research"
 ---
-Of all the work done in my group, text mining is arguably the topic that spans the widest in terms of possible application areas. The following sections will give an overview of the methods that we have developed for mining information on molecular networks  from the biomedical literature as well as applications of these methods within the areas of drug target prioritization, medical informatics, and environmental informatics.
+Of all the work done in JensenLab, text mining is arguably the topic with the widest span in terms of possible application areas. The following sections will give an overview of the methods that we have developed for mining information on molecular networks  from the biomedical literature as well as applications of these methods within the areas of drug target prioritization, medical informatics, and environmental informatics.
 
 ## Named entity recognition
 
