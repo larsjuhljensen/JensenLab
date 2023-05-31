@@ -18,7 +18,9 @@ In these exercises, we will use the [Omics Visualizer](http://apps.cytoscape.org
 
 ## Prerequisites
 
-To follow the exercises, please make sure that you have the latest version of Cytoscape installed. Then start Cytoscape and go to **Apps → App Manager** to check for new apps, install them and update the current ones if necessarily. The exercises require you to have certain Cytoscape apps installed. Search for the **Omics Visualizer** in the search field; if it is not already installed, select it and press the **Install** button to install it. Similarly, make sure you have the **stringApp**, **enhancedGraphics**, and their dependencies installed before closing the App Manager.
+To follow the exercises, please make sure that you have the latest version of Cytoscape installed. Then start Cytoscape and update the current apps if necessary by checking the **App Updates** icon in the right-most corner of the manubar. 
+
+The exercises require you to have certain Cytoscape apps installed. Go to the [Cytoscape App Store](https://apps.cytoscape.org/) in your web browser and search for [Omics Visualizer](http://apps.cytoscape.org/apps/OmicsVisualizer), select the app and press the **Install** button to install it. Similarly, make sure you have [enhancedGraphics](https://apps.cytoscape.org/apps/enhancedGraphics) and [stringApp](https://apps.cytoscape.org/apps/stringApp) installed before switching back to Cytoscape.
 
 ## Exercise 1
 
