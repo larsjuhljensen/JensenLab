@@ -99,7 +99,7 @@ Kuhn M, Al Banchaabouchi M, Campillos M, Jensen LJ, Gross C, Gavin A-C and Bork 
 Kuhn M, Letunic I, Jensen LJ and Bork P (2016). The SIDER database of drugs and side effects. *Nucleic Acids Research*, **44**:D1075-D1079.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/26481350) [Full text](https://doi.org/10.1093/nar/gkv1075) [WWW](http://sideeffects.embl.de/) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkv1075" data-style="small_rectangle"></span>
 
-Luoma M\*, Nastou K\*, Ohta T, Toivonen H, Pafilis E, Jensen LJ\* and Pyysalo S\* (2023). S1000: A better taxonomic name corpus for biomedical information extraction. *bioRxiv*.  
+Luoma M\*, Nastou K\*, Ohta T, Toivonen H, Pafilis E, Jensen LJ\* and Pyysalo S\* (2023). S1000: A better taxonomic name corpus for biomedical information extraction. *Bioinformatics*.  
 [Preprint](https://doi.org/10.1101/2023.02.20.528934)
 
 Nguyen DT, Mathias S, Bologa C, Brunak S, Fernandez N, Gaulton A, Hersey A, Holmes J, Jensen LJ, Karlsson A, Liu G, Ma'ayan A, Mandava G, Mani S, Mehta S, Overington J, Patel J, Rouillard AD, Schürer S, Sheils T, Simeonov A, Sklar LA, Southall N, Ursu O, Vidovic D, Waller A, Yang J, Jadhav A, Oprea T and Guha R (2017). Pharos: Collating protein information to shed light on the druggable genome. *Nucleic Acids Research*, **45**:D995-D1002.  
