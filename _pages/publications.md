@@ -70,7 +70,6 @@ Zahoránszky-Kőhalmi G, Siramshetty VB, Kumar P, Gurumurthy M, Grillo B, Mathew
 Santos A, Colaço AR, Nielsen AB, Niu L, Strauss M, Geyer PE, Coscia F, Albrechtsen NJW, Mundt F, Jensen LJ and Mann M (2022). Clinical knowledge graph integrates proteomics data into clinical decision-making. *Nature Biotechnology*, **40**:692-702.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/35102292/) [Full text](https://doi.org/10.1038/s41587-021-01145-6) [Preprint](https://doi.org/10.1101/2020.05.09.084897) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41587-021-01145-6" data-style="small_rectangle"></span>
 
-
 ### 2021
 
 Baltoumas FA, Zafeiropoulou S, Karatzas E, Paragkamian S, Thanati F, Iliopoulos I,  Eliopoulos AG, Schneider R, Jensen LJ, Pafilis E and Pavlopoulos GA (2021). OnTheFly 2.0: a text-mining web application for automated biomedical entity recognition, document annotation, network and functional enrichment analysis. *Nucleic Acids Research Genomics and Bioinformatics*, **3**:lqab090.  
@@ -100,7 +99,6 @@ Szklarczyk D\*, Gable AL\*, Nastou KC, Lyon D, Kirsch R, Pyysalo S, Doncheva NT,
 
 Sheils T, Mathias S, Kelleher K, Siramshetty V, Nguyen D-T, Bologa C, Jensen LJ, Vidovic D, Koleti A, Schürer S, Waller A, Yang J, Holmes J, Bocci G, Southall N, Dharkar P, Mathé E, Simeonov A and Oprea TI (2021). TCRD and Pharos 2020: Mining the human proteome for disease biology. *Nucleic Acids Research*, **49**:D1334-D1346.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/33156327) [Full text](https://doi.org/10.1093/nar/gkaa993) [WWW](https://pharos.nih.gov) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkaa993" data-style="small_rectangle"></span>
-
 
 ### 2020
 
