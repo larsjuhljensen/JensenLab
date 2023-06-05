@@ -19,6 +19,9 @@ Finally, the group has worked on more low-level analysis of mass-spectrometry da
 
 In addition to tools, we have developed another resource for transcriptomics and proteomics researchers, namely a human cell proliferation signature (Locard-Paulet et al., 2022). When performing perturbation experiments, cell cultures will be exposed to treatments that in addition to the intended effect may alter (typically lower) the growth rate of the cells. The slower a cell grows, the more time it will spend in G1-phase and G2-phase whereas the lengths of S-phase and M-phase are unchanged. In an asynchronous cell culture a smaller proportion of cells will thus be in the latter phases at any given point in time, and any transcripts or proteins specific to these phases will thus unavoidably seemingly be downregulated. To address this problem, we reanalyzed several published transcriptomics and proteomics datasets to define a panel of cell proliferation markers that allows us estimate changes in proliferation rate and to identify a larger set of signature genes correlated with changes in proliferation rate. This allows researchers to easily estimate if proliferation rate is likely to have changed in their experiments and to mark which of the statistically significantly regulated transcripts/proteins may be due to changes in proliferation rate rather than due to the intended perturbation.
 
+![Pseudo-proliferation index figure](research_omicsdata_proliferation.png)  
+*A set of genes was selected based on transcriptomics and proteomics data and used to define a pseudo-proliferation index (Locard-Paulet et al., 2022).*
+
 We often collaborate with wet-lab scientists on analysis of their unpublished transcriptomics or quantitative proteomics data. These projects span a wide range of biological questions as well as organisms. For example, we have worked on transcriptome analysis of temporal lobe epilepsy using clinical samples (Kjær et al., 2019), proteome comparison of human hearts with those of model organisms (Linscheid et al., 2021), light-induced asymmetries of retinal gene expression in chick embryos (Versace et al., 2022), multi-omics analysis of *Acanthamoeba castellanii encystment* (Bernard et al., 2022), and cross-species transcriptomics profiling of ulcerative colitis (Yarani et al, 2023).
 
 ## PTM analysis
@@ -31,7 +34,7 @@ Another prominent PTM is lysine acetylation, which has been a focus of the Choud
 
 Mass spectrometry-based proteomics is a versatile technology, and while the focus at CPR is on PTMs, we have worked with the proteomics groups on several other projects. This includes immunopeptidomics with the Mann group (Bassani-Sternberg et al., 2015), identification of RNA-binding proteins with the Nielsen group (Mullari et al., 2017), and paleoproteomics with the Cappellini group from the Globe Institute and the Olsen group (Jersie-Christensen et al., 2018; Mackie et al., 2018).
 
-## references
+## References
 
 Bassani-Sternberg M, Pletscher-Frankild S, Jensen LJ and Mann M (2015). Mass spectrometry of HLA-I peptidomes reveals strong effects of protein abundance and turnover on antigen presentation. *Molecular and Cellular Proteomics*, **14**:658-673.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/25576301) [Full text](https://doi.org/10.1074/mcp.M114.042812) <span class="__dimensions_badge_embed__" data-doi="10.1074/mcp.M114.042812" data-style="small_rectangle"></span>
