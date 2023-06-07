@@ -67,6 +67,9 @@ A very early version of DISEASES formed the basis for a tool, mirPD, developed i
 
 ## Disease networks
 
+![Disease trajectory figure](research_databases_trajectory.png)  
+*Disease trajectory network centered around chronic obstructive pulmonary disease (COPD) derived through systematic analysis of the Danish National Patient Registry (Jensen et al., 2014.)*
+
 Disease networks do not need to involve genes at all; for example, one can derive correlation networks for diseases from electronic registries. I collaborated with the Brunak group to do the first large-scale study, using data for the whole population of Denmark to systematically identify temporal disease correlations and condense these into longer disease trajectories (Jensen et al., 2014). We subsequently worked with clinicians at Odense University Hospital to use this method to study alcoholic liver disease as part of the GALAXY consortium (Grissa et al., 2020).
 
 ## Knowledge graphs
