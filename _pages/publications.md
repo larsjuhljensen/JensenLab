@@ -18,7 +18,7 @@ Koutrouli M, Lindez PP, Bouwmeester R, Rasmussen S, Martens L and Jensen LJ (202
 ### 2023
 
 Luoma M\*, Nastou K\*, Ohta T, Toivonen H, Pafilis E, Jensen LJ\* and Pyysalo S\* (2023). S1000: A better taxonomic name corpus for biomedical information extraction. *Bioinformatics*.  
-[Preprint](https://doi.org/10.1101/2023.02.20.528934)
+[Full text](https://doi.org/10.1093/bioinformatics/btad369) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btad369" data-style="small_rectangle"></span>
 
 Diaz-delCastillo M, Palasca O, Nemler TT, Thygesen DM, Chávez-Saldaña NA, Vázquez-Mora JA, Ponce Gomez LY, Jensen LJ, Evans H, Andrews RE, Mandal A, Neves D, Mehlen P, Caruso JP, Dougherty PM, Price TJ, Chantry A, Lawson MA, Andersen TL, Jimenez-Andrade JM and Heegaard AM (2023). Metastatic infiltration of nervous tissue and periosteal nerve sprouting in multiple myeloma induced bone pain in mice and human. *Journal of Neuroscience*.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/37286351/) [Full text](https://doi.org/10.1523/JNEUROSCI.0404-23.2023) <span class="__dimensions_badge_embed__" data-doi="10.1523/JNEUROSCI.0404-23.2023" data-style="small_rectangle"></span>
