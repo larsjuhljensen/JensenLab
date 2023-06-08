@@ -20,6 +20,9 @@ Koutrouli M, Lindez PP, Bouwmeester R, Rasmussen S, Martens L and Jensen LJ (202
 Luoma M\*, Nastou K\*, Ohta T, Toivonen H, Pafilis E, Jensen LJ\* and Pyysalo S\* (2023). S1000: A better taxonomic name corpus for biomedical information extraction. *Bioinformatics*.  
 [Preprint](https://doi.org/10.1101/2023.02.20.528934)
 
+Diaz-delCastillo M, Palasca O, Nemler TT, Thygesen DM, Chávez-Saldaña NA, Vázquez-Mora JA, Ponce Gomez LY, Jensen LJ, Evans H, Andrews RE, Mandal A, Neves D, Mehlen P, Caruso JP, Dougherty PM, Price TJ, Chantry A, Lawson MA, Andersen TL, Jimenez-Andrade JM and Heegaard AM (2023). Metastatic infiltration of nervous tissue and periosteal nerve sprouting in multiple myeloma induced bone pain in mice and human. *Journal of Neuroscience*.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/37286351/) [Full text](https://doi.org/10.1523/JNEUROSCI.0404-23.2023) <span class="__dimensions_badge_embed__" data-doi="10.1523/JNEUROSCI.0404-23.2023" data-style="small_rectangle"></span>
+
 Kokoli M, Karatzas E, Baltoumas FA, Schneider R, Pafilis E, Paragkamian S, Doncheva NT, Jensen LJ and Pavlopoulos GA (2023). Arena3Dweb: Interactive 3D visualization of multilayered networks supporting multiple directional information channels, clustering analysis and application integration. *Nucleic Acids Research Genomics and Bioinformatics*, **5**:lqad053.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/37260509/) [Full text](https://doi.org/10.1093/nargab/lqad053) <span class="__dimensions_badge_embed__" data-doi="10.1093/nargab/lqad053" data-style="small_rectangle"></span>
 
