@@ -11,7 +11,7 @@ In this page we have gathered links to the publication, the corpus, datasets and
 
 ## Publication and Corpus
 
-* Publication Preprint: [S1000: A better taxonomic name corpus for biomedical information extraction](https://doi.org/10.1101/2023.02.20.528934)
+* Publication in Oxford Bioinformatics: [S1000: A better taxonomic name corpus for biomedical information extraction](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btad369/7192170)
 
 * [The S1000 Corpus](/assets/s1000/S1000-corpus.tar.gz) in [BRAT standoff format](https://brat.nlplab.org/standoff.html)
 
@@ -34,4 +34,4 @@ _(Note: the pre-processed input documents are the same, the difference is in the
 
 * Useful scripts to reproduce the results presented in the publication can be found in this [Github repo](https://zenodo.org/record/7650251#.Y--QPrTMJR4)
 
-* The codebase for the transformer-based NER tagger can be found [here](https://github.com/jouniluoma/S1000-transformer-ner) and the codebase used for the large scale run [here](https://github.com/jouniluoma/S1000-transformer-tagger)
+* The codebase for the transformer-based NER tagger can be found [here](https://zenodo.org/record/8034112) and the codebase used for the large scale run [here](https://zenodo.org/record/8034152)
