@@ -24,13 +24,13 @@ Kjær C, Palasca O, Barzaghi G, Bak LK, Durhuus RKJ, Jakobsen E, Pedersen L, Bar
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/37341859/) [Full text](https://doi.org/10.1007/s12035-023-03426-4) <span class="__dimensions_badge_embed__" data-doi="10.1007/s12035-023-03426-4" data-style="small_rectangle"></span>
 
 Luoma M\*, Nastou K\*, Ohta T, Toivonen H, Pafilis E, Jensen LJ\* and Pyysalo S\* (2023). S1000: A better taxonomic name corpus for biomedical information extraction. *Bioinformatics*, **39**:btad369.  
-[Abstract](https://pubmed.ncbi.nlm.nih.gov/37289518/) [Full text](https://doi.org/10.1093/bioinformatics/btad369) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btad369" data-style="small_rectangle"></span>
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/37289518/) [Full text](https://doi.org/10.1093/bioinformatics/btad369) [Preprint](https://doi.org/10.1101/2023.02.20.528934) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btad369" data-style="small_rectangle"></span>
 
 Diaz-delCastillo M, Palasca O, Nemler TT, Thygesen DM, Chávez-Saldaña NA, Vázquez-Mora JA, Ponce Gomez LY, Jensen LJ, Evans H, Andrews RE, Mandal A, Neves D, Mehlen P, Caruso JP, Dougherty PM, Price TJ, Chantry A, Lawson MA, Andersen TL, Jimenez-Andrade JM and Heegaard AM (2023). Metastatic infiltration of nervous tissue and periosteal nerve sprouting in multiple myeloma induced bone pain in mice and human. *Journal of Neuroscience*.  
-[Abstract](https://pubmed.ncbi.nlm.nih.gov/37286351/) [Full text](https://doi.org/10.1523/JNEUROSCI.0404-23.2023) <span class="__dimensions_badge_embed__" data-doi="10.1523/JNEUROSCI.0404-23.2023" data-style="small_rectangle"></span>
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/37286351/) [Full text](https://doi.org/10.1523/JNEUROSCI.0404-23.2023) [Preprint](https://doi.org/10.1101/2022.12.29.522199) <span class="__dimensions_badge_embed__" data-doi="10.1523/JNEUROSCI.0404-23.2023" data-style="small_rectangle"></span>
 
 Kokoli M, Karatzas E, Baltoumas FA, Schneider R, Pafilis E, Paragkamian S, Doncheva NT, Jensen LJ and Pavlopoulos GA (2023). Arena3Dweb: Interactive 3D visualization of multilayered networks supporting multiple directional information channels, clustering analysis and application integration. *Nucleic Acids Research Genomics and Bioinformatics*, **5**:lqad053.  
-[Abstract](https://pubmed.ncbi.nlm.nih.gov/37260509/) [Full text](https://doi.org/10.1093/nargab/lqad053) <span class="__dimensions_badge_embed__" data-doi="10.1093/nargab/lqad053" data-style="small_rectangle"></span>
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/37260509/) [Full text](https://doi.org/10.1093/nargab/lqad053) [Preprint](https://doi.org/10.1101/2022.10.01.510435) <span class="__dimensions_badge_embed__" data-doi="10.1093/nargab/lqad053" data-style="small_rectangle"></span>
 
 Tantoso E, Eisenhaber B, Sinha S, Jensen LJ and Eisenhaber F (2023). About the dark corners in the gene function space of Escherichia coli remaining without illumination by scientific literature. *Biology Direct*, **18**:7.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36855185/) [Full text](https://doi.org/10.1186/s13062-023-00362-0) <span class="__dimensions_badge_embed__" data-doi="10.1186/s13062-023-00362-0" data-style="small_rectangle"></span>
@@ -39,7 +39,7 @@ Doncheva NT, Morris JH, Holze H, Kirsch R, Nastou KC, Cuesta-Astroz Y, Rattei T,
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36512705/) [Full text](https://doi.org/10.1021/acs.jproteome.2c00651) [WWW](https://apps.cytoscape.org/apps/stringapp) <span class="__dimensions_badge_embed__" data-doi="10.1021/acs.jproteome.2c00651" data-style="small_rectangle"></span>
 
 Yarani R\*, Palasca O\*, Doncheva NT, Anthon C, Pilecki B, Svane CAS, Mirza AH, Litman T, Holmskov U, Bang-Berthelsen CH, Vilien M, Jensen LJ, Gorodkin J and Pociot F (2023). Cross-species high-resolution transcriptome profiling suggests biomarkers and therapeutic targets for ulcerative colitis. *Frontiers in Molecular Biosciences*, **9**:1081176.  
-[Full text](https://doi.org/10.3389/fmolb.2022.1081176) [Preprint](https://doi.org/10.1101/2020.08.12.225458) <span class="__dimensions_badge_embed__" data-doi="10.3389/fmolb.2022.1081176" data-style="small_rectangle"></span>
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/36685283/) [Full text](https://doi.org/10.3389/fmolb.2022.1081176) [Preprint](https://doi.org/10.1101/2020.08.12.225458) <span class="__dimensions_badge_embed__" data-doi="10.3389/fmolb.2022.1081176" data-style="small_rectangle"></span>
 
 Kelleher KJ, Sheils TK, Mathias SL, Yang JJ, Metzger VT, Siramshetty VB, Nguyen D-T, Jensen LJ, Vidović D, Schürer SC, Holmes J, Sharma KR, Pillai A, Bologa CG, Edwards JS, Mathé EA and Oprea TI (2023). Pharos 2023: an integrated resource for the understudied human proteome. *Nucleic Acids Research*, **51**:D1405-D1416.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36624666/) [Full text](https://doi.org/10.1093/nar/gkac1033) [WWW](https://pharos.nih.gov) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkac1033" data-style="small_rectangle"></span>
@@ -53,7 +53,7 @@ Szklarczyk D, Kirsch R, Koutrouli M, Nastou K, Mehryary F, Hachilif R, Gable AL,
 ### 2022
 
 Locard-Paulet M, Palasca O and Jensen LJ (2022). Identifying the genes impacted by cell proliferation in proteomics and transcriptomics studies. *PLOS Computational Biology*, **18**:e1010604.  
-[Abstract](https://pubmed.ncbi.nlm.nih.gov/36201535/) [Full text](https://doi.org/10.1371/journal.pcbi.1010604) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1010604" data-style="small_rectangle"></span>
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/36201535/) [Full text](https://doi.org/10.1371/journal.pcbi.1010604) [Preprint](https://doi.org/10.1101/2022.03.15.483931) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1010604" data-style="small_rectangle"></span>
 
 Koutrouli M, Morris JH, and Jensen LJ (2022). U-CIE [/juː 'siː/]: Color encoding of high-dimensional data. *Protein Science*, **31**:e4388.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36040253/) [Full text](https://doi.org/10.1002/pro.4388) [Preprint](https://doi.org/10.1101/2021.12.02.470966) [WWW](https://u-cie.jensenlab.org) <span class="__dimensions_badge_embed__" data-doi="10.1101/2021.12.02.470966" data-style="small_rectangle"></span>
@@ -62,7 +62,7 @@ Geissler A, Poulsen LD, Doncheva NT, Anthon C, Seemann SE, González-Tortuero E,
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/35992681/) [Full text](https://doi.org/10.3389/fmicb.2022.909493) <span class="__dimensions_badge_embed__" data-doi="10.3389/fmicb.2022.909493" data-style="small_rectangle"></span>
 
 Versace E, Sgadò P, George J, Loveland JL, Ward J, Thorpe P, Jensen LJ, Spencer KA, Paracchini S and Vallortigara G (2022). Light-induced asymmetries in embryonic retinal gene expression are mediated by the vascular system and extracellular matrix. *Scientific Reports*, **12**:12086.  
-[Abstract](https://pubmed.ncbi.nlm.nih.gov/35840576/) [Full text](https://doi.org/10.1038/s41598-022-14963-8) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41598-022-14963-8" data-style="small_rectangle"></span>
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/35840576/) [Full text](https://doi.org/10.1038/s41598-022-14963-8) [Preprint](https://doi.org/10.1101/2021.10.08.463575) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41598-022-14963-8" data-style="small_rectangle"></span>
 
 Bernard C\*, Locard-Paulet M\*, Noël C\*, Duchateau M, Gianetto QG, Moumen B, Rattei T, Hechard Y, Jensen LJ, Matondo M and Samba-Louaka A (2022). A time-resolved multi-omics atlas of Acanthamoeba castellanii encystment. *Nature Communications*, **13**:4104.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/35835784/) [Full text](https://doi.org/10.1038/s41467-022-31832-0) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-022-31832-0" data-style="small_rectangle"></span>
