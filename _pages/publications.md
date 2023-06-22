@@ -21,9 +21,9 @@ Israelsen M, Alvarez-Silva C, Madsen BS, Hansen CD, Torp NC, Johansen S, Hansen 
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/37344168/) [Full text](https://doi.org/10.1136/gutjnl-2023-330360) <span class="__dimensions_badge_embed__" data-doi="10.1136/gutjnl-2023-330360" data-style="small_rectangle"></span>
 
 Kjær C, Palasca O, Barzaghi G, Bak LK, Durhuus RKJ, Jakobsen E, Pedersen L, Bartels ED, Woldbye DPD, Pinborg LH and Jensen LJ (2023). Differential Expression of the β3 Subunit of Voltage-Gated Ca2+ Channel in Mesial Temporal Lobe Epilepsy. *Molecular Neurobiology*.  
-[Full text](https://doi.org/10.1007/s12035-023-03426-4) <span class="__dimensions_badge_embed__" data-doi="10.1007/s12035-023-03426-4" data-style="small_rectangle"></span>
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/37341859/) [Full text](https://doi.org/10.1007/s12035-023-03426-4) <span class="__dimensions_badge_embed__" data-doi="10.1007/s12035-023-03426-4" data-style="small_rectangle"></span>
 
-Luoma M\*, Nastou K\*, Ohta T, Toivonen H, Pafilis E, Jensen LJ\* and Pyysalo S\* (2023). S1000: A better taxonomic name corpus for biomedical information extraction. *Bioinformatics*.  
+Luoma M\*, Nastou K\*, Ohta T, Toivonen H, Pafilis E, Jensen LJ\* and Pyysalo S\* (2023). S1000: A better taxonomic name corpus for biomedical information extraction. *Bioinformatics*, **39**:btad369.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/37289518/) [Full text](https://doi.org/10.1093/bioinformatics/btad369) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btad369" data-style="small_rectangle"></span>
 
 Diaz-delCastillo M, Palasca O, Nemler TT, Thygesen DM, Chávez-Saldaña NA, Vázquez-Mora JA, Ponce Gomez LY, Jensen LJ, Evans H, Andrews RE, Mandal A, Neves D, Mehlen P, Caruso JP, Dougherty PM, Price TJ, Chantry A, Lawson MA, Andersen TL, Jimenez-Andrade JM and Heegaard AM (2023). Metastatic infiltration of nervous tissue and periosteal nerve sprouting in multiple myeloma induced bone pain in mice and human. *Journal of Neuroscience*.  
