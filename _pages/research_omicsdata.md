@@ -22,7 +22,7 @@ In addition to tools, we have developed another resource for transcriptomics and
 ![Pseudo-proliferation index figure](research_omicsdata_proliferation.png)  
 *A set of genes was selected based on transcriptomics and proteomics data and used to define a pseudo-proliferation index (Locard-Paulet et al., 2022).*
 
-We often collaborate with wet-lab scientists on analysis of their unpublished transcriptomics or quantitative proteomics data. These projects span a wide range of biological questions as well as organisms. For example, we have worked on transcriptome analysis of temporal lobe epilepsy using clinical samples (Kjær et al., 2019), proteome comparison of human hearts with those of model organisms (Linscheid et al., 2021), light-induced asymmetries of retinal gene expression in chick embryos (Versace et al., 2022), multi-omics analysis of *Acanthamoeba castellanii encystment* (Bernard et al., 2022), and cross-species transcriptomics profiling of ulcerative colitis (Yarani et al, 2023).
+We often collaborate with wet-lab scientists on analysis of their unpublished transcriptomics or quantitative proteomics data. These projects span a wide range of biological questions as well as organisms. For example, we have worked on transcriptome analysis of temporal lobe epilepsy using clinical samples (Kjær et al., 2019, 2023), proteome comparison of human hearts with those of model organisms (Linscheid et al., 2021), light-induced asymmetries of retinal gene expression in chick embryos (Versace et al., 2022), multi-omics analysis of *Acanthamoeba castellanii encystment* (Bernard et al., 2022), as well as cross-species transcriptomics profiling of multiple myeloma-induced bone pain (Diaz-delCastillo et al., 2023) and ulcerative colitis (Yarani et al, 2023).
 
 ## PTM analysis
 
@@ -44,6 +44,9 @@ Bernard C\*, Locard-Paulet M\*, Noël C\*, Duchateau M, Gianetto QG, Moumen B, R
 
 Bøgebo R, Horn H, Olsen JV, Gammeltoft S, Jensen LJ, Hansen JL and Christensen GL (2014). Predicting kinase activity in Angiotensin receptor phosphoproteomes based on sequence-motifs and interactions. *PLOS ONE*, **9**:e94672.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/24722691) [Full text](https://doi.org/10.1371/journal.pone.0094672) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pone.0094672" data-style="small_rectangle"></span>
+
+Diaz-delCastillo M, Palasca O, Nemler TT, Thygesen DM, Chávez-Saldaña NA, Vázquez-Mora JA, Ponce Gomez LY, Jensen LJ, Evans H, Andrews RE, Mandal A, Neves D, Mehlen P, Caruso JP, Dougherty PM, Price TJ, Chantry A, Lawson MA, Andersen TL, Jimenez-Andrade JM and Heegaard AM (2023). Metastatic infiltration of nervous tissue and periosteal nerve sprouting in multiple myeloma induced bone pain in mice and human. *Journal of Neuroscience*, **43**:5414-5430.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/37286351/) [Full text](https://doi.org/10.1523/JNEUROSCI.0404-23.2023) [Preprint](https://doi.org/10.1101/2022.12.29.522199) <span class="__dimensions_badge_embed__" data-doi="10.1523/JNEUROSCI.0404-23.2023" data-style="small_rectangle"></span>
 
 Emdal KB, Pedersen A-K, Bekker-Jensen DB, Tsafou KP, Horn H, Lindner S, Schulte JH, Eggert A, Jensen LJ, Francavilla C and Olsen JV (2015). Temporal proteomics of NGF-TrkA signaling identifies an inhibitory role for the E3 ligase Cbl-b in neuroblastoma cell differentiation. *Science Signaling*, **8**:ra40.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/25921289) [Full text](https://doi.org/10.1126/scisignal.2005769) <span class="__dimensions_badge_embed__" data-doi="10.1126/scisignal.2005769" data-style="small_rectangle"></span>
@@ -71,6 +74,9 @@ Kirik U, Refsgaard JC and Jensen LJ (2019). Improving peptide-spectrum matching 
 
 Kjær C, Barzaghi G, Bak LK, Goetze JP, Yde CW, Woldbye D, Pinborg LH and Jensen LJ (2019). Transcriptome analysis in patients with temporal lobe epilepsy. *Brain*, **141**:e55.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/31504209) [Full text](https://doi.org/10.1093/brain/awz265) <span class="__dimensions_badge_embed__" data-doi="10.1093/brain/awz265" data-style="small_rectangle"></span>
+
+Kjær C, Palasca O, Barzaghi G, Bak LK, Durhuus RKJ, Jakobsen E, Pedersen L, Bartels ED, Woldbye DPD, Pinborg LH and Jensen LJ (2023). Differential Expression of the β3 Subunit of Voltage-Gated Ca2+ Channel in Mesial Temporal Lobe Epilepsy. *Molecular Neurobiology*.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/37341859/) [Full text](https://doi.org/10.1007/s12035-023-03426-4) <span class="__dimensions_badge_embed__" data-doi="10.1007/s12035-023-03426-4" data-style="small_rectangle"></span>
 
 Larsen SC, Sylvestersen KB, Mund A, Lyon D, Mullari M, Madsen MV, Daniel JA, Jensen LJ and Nielsen ML (2016). Proteome-wide analysis of arginine monomethylation reveals widespread occurrence in human cells. *Science Signaling*, **9**:rs9.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/27577262) [Full text](https://doi.org/10.1126/scisignal.aaf7329) <span class="__dimensions_badge_embed__" data-doi="10.1126/scisignal.aaf7329" data-style="small_rectangle"></span>
