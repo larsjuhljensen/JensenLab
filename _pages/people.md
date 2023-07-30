@@ -22,17 +22,17 @@ permalink: /people/
 ## Alumni
 Albert Pallejà Caro  
 Alberto Santos Delgado  
-[Alexander Junge](/people/alexanderjunge/)  
+Alexander Junge  
 Damian Szklarczyk  
 David Lyon  
-[Dhouha Grissa](http://dgrissa.wixsite.com/dhouha-grissa)  
+Dhouha Grissa  
 Heiko Horn  
 Helen Victoria Cook  
-[Henrietta Holze](/people/henriettaholze/)  
+Henrietta Holze  
 Jan Christian Refsgaard  
 Kalliopi Tsafou  
-[Marc Legeay](/people/marclegeay/)  
-[Marie Locard-Paulet](/people/marielocardpaulet/)  
+Marc Legeay  
+Marie Locard-Paulet  
 Sune Pletscher-Frankild  
-[Ufuk Kirik](/people/ufukkirik/)  
+Ufuk Kirik  
 Xiaoyong Pan
