@@ -17,6 +17,9 @@ Koutrouli M, Lindez PP, Bouwmeester R, Rasmussen S, Martens L and Jensen LJ (202
 
 ### 2023
 
+Guzman UH, Aksnes H, Ree R, Krogh N, Jakobsson ME, Jensen LJ, Arnesen, T and Olsen JV (2023). Loss of N-terminal acetyltransferase A activity induces thermally unstable ribosomal proteins and increases their turnover in Saccharomyces cerevisiae. *Nature Communications*, **4**:4517.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/37500638/) [Full text](https://doi.org/10.1038/s41467-023-40224-x) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-023-40224-x" data-style="small_rectangle"></span>
+
 Israelsen M, Alvarez-Silva C, Madsen BS, Hansen CD, Torp NC, Johansen S, Hansen JK, Lindvig KP, Insonere J, Riviere V, Juel HB, Brejnrod A, Jensen LJ, Thiele M, Lelouvier B, Hansen T, Arumugam M, Krag A, MicrobLiver consortium and GALAXY consortium (2023). Impact of acute alcohol consumption on circulating microbiome in asymptomatic alcohol-related liver disease. *Gut*.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/37344168/) [Full text](https://doi.org/10.1136/gutjnl-2023-330360) <span class="__dimensions_badge_embed__" data-doi="10.1136/gutjnl-2023-330360" data-style="small_rectangle"></span>
 
