@@ -1,7 +1,7 @@
 {
 	"URI": "https://test.jensenlab.org/",
 	"DataVersion": "12",
-	"STRINGResolveURI": "https://string-db.org/api/",
+	"STRINGResolveURI": "https://version-12-0.string-db.org/api/",
 	"STITCHResolveURI": "http://stitch.embl.de/api/",
 	"VIRUSESResolveURI": "http://viruses.string-db.org/cgi/webservice_handler.pl",
 	"SpeciesURI": "https://raw.githubusercontent.com/RBVI/stringApp/master/src/main/resources/species_v12.0.tsv"
