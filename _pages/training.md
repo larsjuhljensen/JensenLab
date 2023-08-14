@@ -24,9 +24,6 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-7--11 August 2023, Copenhagen, Denmark  
-Summer School on Applied Deep Learning in Bioinformatics
-
 19--20 and 27 September 2023, Copenhagen, Denmark  
 Bioinformatics for Human Biologists
 
@@ -36,6 +33,9 @@ Mass Spectrometry-based Proteomics and its Applications in Biology
 ## Past events
 
 ### 2023
+
+7--11 August 2023, Copenhagen, Denmark  
+Summer School on Applied Deep Learning in Bioinformatics
 
 18 April 2023, Copenhagen, Denmark  
 Datadrevet personlig medicin
