@@ -17,6 +17,9 @@ Koutrouli M, Lindez PP, Bouwmeester R, Rasmussen S, Martens L and Jensen LJ (202
 
 ### 2023
 
+Tantoso E, Eisenhaber B, Sinha S, Jensen LJ and Eisenhaber F (2023). Did the early full genome sequencing of yeast boost gene function discovery? *Biology Direct*, **18**:46.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/37574542/) [Full text](https://doi.org/10.1186/s13062-023-00403-8) <span class="__dimensions_badge_embed__" data-doi="10.1186/s13062-023-00403-8" data-style="small_rectangle"></span>
+
 Guzman UH, Aksnes H, Ree R, Krogh N, Jakobsson ME, Jensen LJ, Arnesen, T and Olsen JV (2023). Loss of N-terminal acetyltransferase A activity induces thermally unstable ribosomal proteins and increases their turnover in Saccharomyces cerevisiae. *Nature Communications*, **4**:4517.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/37500638/) [Full text](https://doi.org/10.1038/s41467-023-40224-x) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-023-40224-x" data-style="small_rectangle"></span>
 
