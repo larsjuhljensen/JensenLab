@@ -50,7 +50,7 @@ _How many edges do we have now in the merged network?_
 
 We can change the visualization of the merged network to look like a STRING network and to be able to identify which proteins belong to which disease. Select **Style** in the **Control Panel** and click on the drop-down menu to change the style from **default** to **STRING - Alzheimer's disease**. We can also create a new style by copying the current style from the menu next to the styles drop-down list and name it _STRING merged diseases_. 
 
-### 1.3 Visualize disease associations 
+### 1.3 Visualize disease associations
 
 In the next step, we will import the disease scores into a different table using the Omics Visualizer app. Go to **Apps → Omics Visualizer → Import form node table**. In the resulting dialog, choose the namespace _stringdb_ to see the _disease score_ columns created in Exercises 1.1 and move those using the **>** button from **Available columns** to **Selected columns**. Then, click **Next** and **Import**. 
 
@@ -64,7 +64,7 @@ _Do you see more, less, or as much overlap between the three diseases as you wou
 
 ### 1.4 Use selection filters
 
-
+Now, we can explore the disease scores and check how many proteins are associated with more than one disease by using Cytoscape's built-in selection filters. 
 
 ## Exercise 2
 

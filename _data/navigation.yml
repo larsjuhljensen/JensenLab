@@ -272,6 +272,26 @@ training-stringapp:
   - title: "Supporting literature"
     url: /training/stringapp/#supporting-literature
 
+
+training-stringapp-diseases:
+  - title: "Learning objectives"
+    url: /training/stringapp/diseases/#learning-objectives
+  - title: "Prerequisites"
+    url: /training/stringapp/diseases/#prerequisites
+  - title: "Exercise 1"
+    url: /training/stringapp/diseases/#exercise-1
+    children:
+      - title: "Disease queries"
+        url: /training/stringapp/diseases/#11-disease-queries
+      - title: "Integrate networks"
+        url: /training/stringapp/diseases/#12-integrate-networks
+      - title: "Visualize disease associations"
+        url: /training/stringapp/diseases/#13-visualize-disease-associations
+      - title: "Use selection filters"
+        url: /training/stringapp/diseases/#14-use-selection-filters
+  - title: "Exercise 2"
+    url: /training/stringapp/diseases/#exercise-2
+
 training-stringapp-ddpm:
   - title: "Learning objectives"
     url: /training/stringapp/ddpm/#learning-objectives
