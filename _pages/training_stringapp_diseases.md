@@ -1,0 +1,90 @@
+---
+title: Cytoscape stringApp diseases exercises
+layout: single
+permalink: /training/stringapp/diseases/
+sidebar:
+  nav: "training-stringapp-diseases"
+---
+## Learning objectives
+
+In these exercises, we will use the [stringApp](http://apps.cytoscape.org/apps/stringApp) for [Cytoscape](http://cytoscape.org/) to retrieve molecular networks from the [STRING](https://string-db.org/) database for genes associated with diseases according to the [DISEASES](https://diseases.jensenlab.org/Search) database. The exercises will teach you how to:
+
+* retrieve networks for a disease
+* merge and compare networks
+* select proteins by attributes
+* layout and visually style the resulting networks
+* perform enrichment analyses and visualize the results
+* identify functional modules through network clustering
+
+## Prerequisites
+
+To follow the exercises, please make sure that you have the latest version of Cytoscape installed. Then start Cytoscape and update the current apps if necessary by checking the **App Updates** icon in the right-most corner of the menu bar. 
+
+The exercises require you to have certain Cytoscape apps installed. Go to the [Cytoscape App Store](https://apps.cytoscape.org/) in your web browser and search for [stringApp](http://apps.cytoscape.org/apps/stringApp), select the app and press the **Install** button to install it. Similarly, make sure you have the [Omics Visualizer](https://apps.cytoscape.org/apps/OmicsVisualizer), [yFiles Layout Algorithms](https://apps.cytoscape.org/apps/yfileslayoutalgorithms) and [clusterMaker2](https://apps.cytoscape.org/apps/clustermaker2) apps installed before switching back to Cytoscape.
+
+If you are not already familiar with the STRING database or stringApp, we highly recommend that you go through the [STRING exercises](/training/string/) to learn about the underlying data and the [stringApp exercises](/training/stringapp/) to get familiarized with Cytoscape and stringApp.
+
+## Exercise 1
+
+In this exercise, we will retrieve several different disease networks and compare them by creating the union of their nodes and edges as well as by visualizing which nodes belong to which diseases.
+
+### 1.1 Disease queries
+
+Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: disease query** as **Data Source** and type into the **Enter disease term** field these three disease in a row: _Alzheimer's disease_, _Parkinson's disease_, and _Major Depressive Disorder_. The stringApp will retrieve a STRING network for the top-N proteins (by default 100) associated with these diseases.
+
+The next dialog shows all the matches that the stringApp finds for your disease query and selects the first one. Make sure to select the intended disease before pressing the **Import** button to continue.
+
+_Which additional attribute column do you get in the **Node Table** for a disease query compared to a protein query? Hint: check the last column._
+
+Now, go to the _stringdb::disease score_ column, click on the column name and choose **Rename column**. For each network, change the name of the column to reflect the name of the disease, e.g. _stringdb::disease score AD_, _stringdb::disease score PD_, and _stringdb::disease score MMD_.
+
+### 1.2 Integrate networks
+
+Cytoscape provides functionality to merge two or more networks, building either their union, intersection or difference. We will now merge the disease networks so that we can identify the overlap and differences between them. Use the Merge tool (**Tools → Merge → Networks...**) and make sure the **Union** tab is chosen. Then, select the disease networks from **Available Networks** list (‘String Network - Alzheimer's disease’, ‘String Network - Parkinson's disease’, and ‘String Network - Major Depressive Disorder’). Click on **>** to add them to the list of **Networks to Merge** and click **Merge**.
+
+_How many nodes and edges are in the merged network?_
+
+In the next step, we need to retrieve all the interactions between the nodes that were not in the same disease network, i.e. interactions between AD and PD only proteins. To do so, we first remove all edges by choosing **Apps → STRING → Change confidence or type** from the Cytoscape menu. In the dialog, we set the **Confidence cutoff** to **1.0** and press **OK**. Then, we open the same dialog again, change the **Confidence cutoff** back to **0.4** and press *OK*. In this way, we make sure that all interactions above the confidence cutoff between the proteins in the current network are retrieved. 
+
+_How many edges do we have now in the merged network?_
+
+We can change the visualization of the merged network to look like a STRING network and to be able to identify which proteins belong to which disease. Select **Style** in the **Control Panel** and click on the drop-down menu to change the style from **default** to **STRING - Alzheimer's disease**. We can also create a new style by copying the current style from the menu next to the styles drop-down list and name it _STRING merged diseases_. 
+
+### 1.3 Visualize disease associations 
+
+In the next step, we will import the disease scores into a different table using the Omics Visualizer app. Go to **Apps → Omics Visualizer → Import form node table**. In the resulting dialog, choose the namespace _stringdb_ to see the _disease score_ columns created in Exercises 1.1 and move those using the **>** button from **Available columns** to **Selected columns**. Then, click **Next** and **Import**. 
+
+A new table should appear in the Cytoscape Node Panel under the **Omics Visualizer Tables** tab and this table contains for each node as many rows as the number of columns we selected in the previous step, in this case three. Since not all nodes are associated with all three diseases, in some cases the _value_ column is empty. We can filter the table to show only the rows that contain any disease score, since this would be useful for the visualization we want to make. Press the filter icon (second icon just above the table), choose the _value_ column and the _is not null_ criteria. Now you can press **Apply** to apply the filter and then **Close** to close the dialog. 
+
+_How many rows remain after filtering? Out of how many? Do you have an idea why the filtered rows are such a round number?_
+
+To visualize which nodes are associated with which disease, you can use the pie chart icon (5th icon in the row above the table). In the resulting dialog, choose _stringdb_ in the **Values** column, keep the **Mapping** to _Discrete_ and **Labels** to _NONE_. Pressing the **Next** button will show the next page of settings. We can pick other colors or keep the defaults and press **Draw**. As a result, the nodes are colored based on their association with one, two or all three diseases we combined in this network. Press the **Legend** icon (last icon) and confirm with the **Create** button to let Omics Visualizer create a legend of the visualization. 
+
+_Do you see more, less, or as much overlap between the three diseases as you would expect?_
+
+### 1.4 Use selection filters
+
+
+
+## Exercise 2
+
+In this exercise, we will analyze the integrated disease network by performing network clustering and functional enrichment. 
+
+## Supporting lectures
+
+The theoretical background for these exercises is covered in these short online lectures:
+
+[![STRING](training_string.png)](https://youtu.be/o208DwyFbNk)
+[![Cytoscape](training_cytoscape.png)](https://youtu.be/Ohf9IPUJ82w)
+[![stringApp](training_stringapp.png)](https://youtu.be/MXmzXxNqmnI)
+[![stringApp tutorial](training_stringapp_tutorial.png)](https://youtu.be/kRQyPDMF_8k)
+[![DISEASES](training_diseases.png)](https://youtu.be/xkYixhO2CJQ)
+[![Enrichment analysis](training_enrichment_analysis.png)](https://youtu.be/2NC1QOXmc5o)
+[![stringApp enrichment analysis](training_stringapp_enrichment_analysis.png)](https://youtu.be/AUEyZw-iJHg)
+
+## Supporting literature
+
+Doncheva NT, Morris JH, Gorodkin J and Jensen LJ (2019). Cytoscape stringApp: Network analysis and visualization of proteomics data. *Journal of Proteome Research*, **18**:623-632.  
+[Abstract](https://www.ncbi.nlm.nih.gov/pubmed/30450911) [Full text](https://doi.org/10.1021/acs.jproteome.8b00702) [Preprint](https://doi.org/10.1101/358283)
+
+[![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
