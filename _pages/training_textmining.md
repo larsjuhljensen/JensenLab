@@ -25,9 +25,10 @@ In this exercise we will first introduce the basics of text mining: 1) dictionar
 
 The goal of named entity recognition (NER) is to find names mentioned in text and resolve them to the underlying biomedical entities (document → entity A, entity B, entity C). To illustrate this, we will use the EXTRACT tool, which is designed to use NER to support manual database curation.
 
-Install the EXTRACT bookmarklet as described on the [EXTRACT website](https://extract.jensenlab.org/). We recommend using [Firefox](http://getfirefox.org/), as some functionality might not work in the latest Chrome and Chrome-based browsers. (_Note: If you wish to run EXTRACT on articles in several formats (e.g. word documents or PDFs) please use the [OnTheFly2.0 webserver](http://bib.fleming.gr:3838/OnTheFly/)_).
+Install the EXTRACT bookmarklet as described on the [EXTRACT website](https://extract.jensenlab.org/).
+_Note: If you wish to run EXTRACT on articles in several formats (e.g. word documents or PDFs) please use the [OnTheFly2.0 webserver](http://bib.fleming.gr:3838/OnTheFly/)_.
 
-_Hint: If the bookmarks toolbar is not showing in Firefox then go the File menu bar and select View → Toolbars → Bookmarks Toolbar → Always show_
+_Hint: If the bookmarks toolbar is not showing in Firefox then go the File menu bar and select **View → Toolbars → Bookmarks Toolbar → Always show**. If it is not showing on Chrome go to the menu bar and select **View → Always show bookmarks toolbar**_
 
 Open the paper "Age-Dependent Brain Gene Expression and Copy Number Anomalies in Autism Suggest Distinct Pathological Processes at Young Versus Mature Ages" ([Chow et al., 2012](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3310790/)) and click the **EXTRACT** bookmarklet. After a short time, terms should be highlighted in the text.
 
