@@ -79,7 +79,7 @@ _9. Do the abstracts in fact support an association between Parkinson's disease 
 
 Now click on **Alzheimer's disease**.
 
-_10. Do the abstracts support an association in this case too?_
+_10. Do the abstracts support an association in this case too? If not can you think of reasons why this association has such a high score?_
 
 Cooccurrence-based relation extraction is a very generic approach, which can be used to find associations between any two types of entities for which we can do NER. For example, we can use the same approach to extract **human phenotypes** associated with **SCN1B** from the mammalian phenotypes database:
 
