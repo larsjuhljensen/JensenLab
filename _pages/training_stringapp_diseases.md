@@ -70,6 +70,24 @@ Now, we can explore the disease scores and check how many proteins are associate
 
 In this exercise, we will analyze the integrated disease network by performing network clustering and functional enrichment. 
 
+### 2.1 Network clustering
+
+Starting from the merged network, we will use the MCL algorithm to identify clusters of tightly connected proteins within the network. To do that, press the **Cluster network (MCL)** button in the **STRING Results panel** on the right side of the network view. Keep the default **granularity parameter (inflation value)** set to **4** and click **OK** to start the clustering. The clusterMaker app will now run the algorithm and automatically create a network showing the clusters.
+
+_How many big clusters are there (at least 10 nodes)?_
+
+<details>
+<summary><em>Alternative instructions for clustering</em></summary>
+
+<p>Go to the menu <b>Apps → clusterMaker → ClusterMaker Cluster Network → MCL Cluster</b>>. Set the <b>Granularity parameter (inflation value)</b> to 4 and choose the <b>stringdb::score</b> attribute (i.e. the overall STRING confidence score) as <b>Array Sources</b>, select the option <b>Create new clustered network</b>, and click OK to start the clustering. The app will now run the algorithm and automatically create a network showing the clusters.</p>
+</details>
+
+### 2.2 Group-wise functional enrichment
+
+Now we will perform functional enrichment analysis on each of the bigger clusters separately. Go to the menu **Apps → STRING Enrichment → Retrieve group-wise functional enrichment**, leave the default setting and press **OK**. The **STRING enrichment** table will be populated with three tables, one for each cluster and you can explore the results of each of them separately. 
+
+_Can you briefly characterize each of the big clusters in terms of their functionality? What distinguishes them?_
+
 ## Supporting lectures
 
 The theoretical background for these exercises is covered in these short online lectures:

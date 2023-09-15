@@ -291,6 +291,11 @@ training-stringapp-diseases:
         url: /training/stringapp/diseases/#14-use-selection-filters
   - title: "Exercise 2"
     url: /training/stringapp/diseases/#exercise-2
+    children:
+      - title: "Network clustering"
+        url: /training/stringapp/diseases/#21-network-clustering
+      - title: "Group-wise functional enrichment"
+        url: /training/stringapp/diseases/#22-group-wise-functional-enrichment
 
 training-stringapp-ddpm:
   - title: "Learning objectives"
