@@ -74,7 +74,7 @@ In this exercise, we will analyze the integrated disease network by performing n
 
 Starting from the merged network, we will use the MCL algorithm to identify clusters of tightly connected proteins within the network. To do that, press the **Cluster network (MCL)** button in the **STRING Results panel** on the right side of the network view. Keep the default **granularity parameter (inflation value)** set to **4** and click **OK** to start the clustering. The clusterMaker app will now run the algorithm and automatically create a network showing the clusters.
 
-_How many big clusters are there (at least 10 nodes)?_
+_How many big clusters are there (with more than 10 nodes)?_
 
 <details>
 <summary><em>Alternative instructions for clustering</em></summary>
