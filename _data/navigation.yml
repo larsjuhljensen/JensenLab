@@ -285,10 +285,10 @@ training-stringapp-diseases:
         url: /training/stringapp/diseases/#11-disease-queries
       - title: "Integrate networks"
         url: /training/stringapp/diseases/#12-integrate-networks
-      - title: "Visualize disease associations"
-        url: /training/stringapp/diseases/#13-visualize-disease-associations
       - title: "Use selection filters"
-        url: /training/stringapp/diseases/#14-use-selection-filters
+        url: /training/stringapp/diseases/#13-use-selection-filters
+      - title: "Visualize disease associations"
+        url: /training/stringapp/diseases/#14-visualize-disease-associations
   - title: "Exercise 2"
     url: /training/stringapp/diseases/#exercise-2
     children:
