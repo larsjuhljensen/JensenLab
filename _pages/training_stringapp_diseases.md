@@ -80,7 +80,7 @@ In this exercise, we will analyze the integrated disease network by performing n
 
 Starting from the merged network, we will use the MCL algorithm to identify clusters of tightly connected proteins within the network. To do that, press the **Cluster network (MCL)** button in the **STRING Results panel** on the right side of the network view. Set the **granularity parameter (inflation value)** to **5** and click **OK** to start the clustering. The _clusterMaker_ app will now run the algorithm and automatically create a network showing the clusters. To remove the node overlaps, go to **Layout → yFiles Remove Overlaps**.
 
-_How many big clusters are there (with more than 10 nodes)? Are any of the clusters disease-specific or do they contain proteins associated with all three diseases? Or only certain pairs of diseases?_
+_How many big clusters are there (with more than 10 nodes)? Are any of the clusters related mostly to one or two diseases or do they contain proteins associated with all three diseases?_
 
 <details>
 <summary><em>Alternative instructions for clustering</em></summary>
