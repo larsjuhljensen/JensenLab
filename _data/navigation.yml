@@ -289,6 +289,8 @@ training-stringapp-diseases:
         url: /training/stringapp/diseases/#13-use-selection-filters
       - title: "Visualize disease associations"
         url: /training/stringapp/diseases/#14-visualize-disease-associations
+      - title: "Enrichment analysis"
+        url: /training/stringapp/diseases/#15-enrichment-analysis
   - title: "Exercise 2"
     url: /training/stringapp/diseases/#exercise-2
     children:
