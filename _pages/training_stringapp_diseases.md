@@ -30,11 +30,11 @@ In this exercise, we will retrieve several different disease networks and compar
 
 ### 1.1 Disease queries
 
-Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: disease query** as **Data Source**, type into the **Enter disease term** field one disease name and set the **Confidence (score) cutoff** to **0.7**. When you press **Import**, stringApp will retrieve a STRING network for the top-100 proteins associated with the chosen disease. Repeat this for **three** of the following diseases: _Pancreatic cancer_, _Acute pancreatitis_, _Anxiety disorder_, _Sleep disorder_, _Intestinal disease_, and _Diabetes mellitus_.
+Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: disease query** as **Data Source**, type _Pancreatic cancer_ into the **Enter disease term** field and set the **Confidence (score) cutoff** to **0.7**. When you press **Import**, stringApp will retrieve a STRING network for the top-100 proteins associated with the chosen disease. Repeat this for **two** of the following diseases: _Acute pancreatitis_, _Anxiety disorder_, _Sleep disorder_, _Intestinal disease_, or _Diabetes mellitus_.
 
 _Which additional attribute column do you get in the **Node Table** for a disease query compared to a protein query? Hint: check the last column._
 
-Now, go to the _stringdb::disease score_ column, click on the column name and choose **Rename column**. For each network, change the name of the column to reflect the name of the disease, e.g. _Pancreatic cancer_ or _disease PC_.
+Now, go to the _stringdb::disease score_ column, click on the column name and choose **Rename column**. For each network, rename the column to reflect the name of the disease, e.g. _Pancreatic cancer_ or _disease PC_. Note that you can remove _stringdb::_ from the name. 
 
 ### 1.2 Integrate networks
 
@@ -46,9 +46,9 @@ In the next step, we need to retrieve all the interactions between the nodes tha
 
 _How many edges do we have now in the merged network?_
 
-We can change the visualization of the merged network to look like a STRING network. Select **Style** in the **Control Panel** and click on the drop-down menu to change the style from **default** to **STRING - Pancreatic cancer**. We can also create a new style by copying the current style from the menu next to the styles drop-down list and renaming it to _STRING merged diseases_. 
+To better see the nodes and their names, make sure the graphics details are enabled (**View → Always Show Graphics Details**) and to improve the layout of the merged network, go to **Layout → Apply Preferred Layout** and then to **Layout → yFiles Remove Overlaps**.
 
-To improve the layout of the merged network, go to **Layout → Apply Preferred Layout** and then to **Layout → yFiles Remove Overlaps**.
+We can change the visualization of the merged network to look like a STRING network by changing the style. Go to **Style** in the **Control Panel** (beneath **Network**) and click on the drop-down menu to change the style from **default** to **STRING - Pancreatic cancer**. Disable the **STRING style colors** and **STRING style labels** from the **STRING Results panel** (right side) to remove the colors of the proteins associated with Pancreatic cancer, make all nodes grey and center the node labels. 
 
 ### 1.3 Use selection filters
 
@@ -58,9 +58,9 @@ _How many nodes (proteins) are common to all three diseases? And how many are co
 
 ### 1.4 Visualize disease associations
 
-In the next step, we will import the disease scores into a different table using the _Omics Visualizer_ app. Go to **Apps → Omics Visualizer → Import form node table**. In the resulting dialog, we will see all node attribute columns, including the ones created in Exercise 1.1. Move the three columns containing the disease scores from **Available columns** to **Selected columns** using the **>** button and then click **Next** and **Import**. 
+In the next step, we will import the disease scores into a different table using the _Omics Visualizer_ app. Go to **Apps → Omics Visualizer → Import form node table**. In the resulting dialog, we will see all node attribute columns, including the ones created in Exercise 1.1. Note that if you kept _stringdb::_ in the column names, you will find the columns under the _strigndb_ namespace. Move the three columns containing the disease scores from **Available columns** to **Selected columns** using the **>** button and then click **Next** and **Import**. 
 
-A new table should appear in the Cytoscape _Node Panel_ in the **Omics Visualizer Tables** tab. This table contains three columns (_shared name_, _value_, and _source_) and for each node, one row for each column we selected in the previous step, in this case three. Since not all nodes are associated with all three diseases, in some cases the _value_ column is empty. We can filter the table to show only the rows that contain any disease score, since this would be useful for the visualization we want to make. Press the **filter icon** (second icon just above the table), choose the **_value_** column and the **_is not null_** criteria. Now you can press **Apply** and then the **Close** button. 
+A new table should appear in the Cytoscape _Node Panel_ in the **Omics Visualizer Tables** tab. This table contains three columns (_shared name_, _value_, and _source_ or _stringdb_) and for each node, one row for each column we selected in the previous step, in this case three. Since not all nodes are associated with all three diseases, in some cases the _value_ column is empty. We can filter the table to show only the rows that contain any disease score, since this would be useful for the visualization we want to make. Press the **filter icon** (second icon just above the table), choose the **_value_** column and the **_is not null_** criteria. Now you can press **Apply** and then the **Close** button. 
 
 _How many rows remain after filtering? Out of how many? Do you have an idea why the filtered rows are such a round number?_
 
@@ -72,7 +72,7 @@ _Do you observe an overlap between the three diseases? Is the overlap more, less
 
 To find out more about the biological functions and processes related to the proteins in the merged network, we can perform enrichment analysis by selecting **Apps → STRING Enrichment → Retrieve functional enrichment** and press **OK**. Use the **Filter** icon above the enrichment results to select the **DISEASES** category and press **OK**. 
 
-_Are any of the diseases from the disease trajectory among the enriched diseases?_
+_Quickly skim through the diseases - are any of the diseases from the disease trajectory among the enriched diseases? Note that you can also sort them alphabetically by clicking on the description column._
 
 ## Exercise 2
 
@@ -87,12 +87,12 @@ _How many big clusters are there (with more than 10 nodes)? Are any of the clust
 <details>
 <summary><em>Alternative instructions for clustering</em></summary>
 
-<p>Go to the menu <b>Apps → clusterMaker → ClusterMaker Cluster Network → MCL Cluster</b>>. Set the <b>Granularity parameter (inflation value)</b> to 4 and choose the <b>stringdb::score</b> attribute (i.e. the overall STRING confidence score) as <b>Array Sources</b>, select the option <b>Create new clustered network</b>, and click OK to start the clustering. The app will now run the algorithm and automatically create a network showing the clusters.</p>
+<p>Go to the menu <b>Apps → clusterMaker → ClusterMaker Cluster Network → MCL Cluster</b>>. Set the <b>Granularity parameter (inflation value)</b> to 5 and choose the <b>stringdb::score</b> attribute (i.e. the overall STRING confidence score) as <b>Array Sources</b>, select the option <b>Create new clustered network</b>, and click OK to start the clustering. The app will now run the algorithm and automatically create a network showing the clusters.</p>
 </details>
 
 ### 2.2 Group-wise functional enrichment
 
-Now we will perform functional enrichment analysis on each of the bigger clusters separately by selecting the menu **Apps → STRING Enrichment → Retrieve group-wise functional enrichment**. In the resulting dialog, press **Advanced** to show the advanced options and set the **minimum group size** to **10**, in order to retrieve enrichment results only for clusters with at least 10 nodes. Press **OK** and the **STRING enrichment** table will be populated with several tables, one for each cluster. You can explore the results of each of them separately. 
+Now we will perform functional enrichment analysis on each of the bigger clusters separately. Sometimes stringApp does not detect the clustered network as STRING network, so switch to the unclustered network and back to the clustered one. Now, select the menu **Apps → STRING Enrichment → Retrieve group-wise functional enrichment**. In the resulting dialog, press **Advanced** to show the advanced options and set the **minimum group size** to **10**, in order to retrieve enrichment results only for clusters with at least 10 nodes. Press **OK** and the **STRING enrichment** table will be populated with several tables, one for each cluster. You can explore the results of each of them separately. 
 
 _Can you briefly characterize the three largest clusters in terms of their functionality? What distinguishes them?_
 
