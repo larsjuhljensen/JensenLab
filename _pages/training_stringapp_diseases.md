@@ -54,7 +54,7 @@ We can change the visualization of the merged network to look like a STRING netw
 
 Now, we can explore the disease scores and check how many proteins are associated with more than one disease by using Cytoscape's built-in selection filters (**Filter** tab located underneath the **Style** tab). Click the **ᐩ** button, choose **Column filter** from the drop-down menu, and select one of the disease score columns you renamed in Exercise 1.1. The filtering criteria will automatically bet set to **is** and then a range for the score. Add a filter for the other two diseases in the network by clicking on the **ᐩ** button and selecting the respective disease score column. All three filters are connected with an _AND_ logic, which means that a node is selected only if it fulfills all three conditions. 
 
-_How many nodes (proteins) are common to all three diseases? And how many are common to some of the pairs of diseases? Note that you can see the nodes common to a pair by either deleting one of the three filters OR by setting the filtering criteria to **is not**._
+_How many nodes (proteins) are common to all three diseases? And how many are common to some of the pairs of diseases? Note that you can see the nodes common to a pair by either deleting one of the three filters or by setting the third filter to **is not**._
 
 ### 1.4 Visualize disease associations
 
@@ -66,7 +66,7 @@ _How many rows remain after filtering? Out of how many? Do you have an idea why 
 
 To visualize which nodes are associated with which disease, you can use the **pie chart icon** (5th icon in the row above the table). In the resulting dialog, choose **_source_** in the **Values** column, keep the **Mapping** to _Discrete_ and **Labels** to _NONE_. Pressing the **Next** button will show the next page of settings. We can pick other colors or keep the defaults and press **Draw**. As a result, the nodes are colored based on their association with one, two or all three diseases we combined in this network. Press the **Legend** icon (last icon) and confirm with the **Create** button to let Omics Visualizer create a legend of the visualization. 
 
-_Do you observe an overlap between the three diseases? Is the overlap more, less or as much as as you would expect for these specific diseases?_
+_Do you observe an overlap between the three diseases? Is the overlap more, less, or as much as you would expect for these specific diseases?_
 
 ### 1.5 Enrichment analysis
 
