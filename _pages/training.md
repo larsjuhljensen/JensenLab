@@ -15,6 +15,7 @@ As part of running recurring training events, we maintain up-to-date exercises o
 
 * [STRING database](/training/string/)
 * [Cytoscape stringApp](/training/stringapp/)
+* [Disease networks with stringApp in Cytoscape](/training/stringapp/diseases/)
 * [Omics Visualizer](/training/omicsvisualizer/)
 * [Text mining](/training/textmining/)
 
@@ -24,15 +25,15 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-19--20 and 27 September 2023, Copenhagen, Denmark  
-Bioinformatics for Human Biologists
-
 30 October--3 November 2023, Copenhagen, Denmark  
 Mass Spectrometry-based Proteomics and its Applications in Biology
 
 ## Past events
 
 ### 2023
+
+19--20 and 27 September 2023, Copenhagen, Denmark  
+Bioinformatics for Human Biologists
 
 7--11 August 2023, Copenhagen, Denmark  
 Summer School on Applied Deep Learning in Bioinformatics

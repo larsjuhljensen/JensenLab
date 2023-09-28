@@ -56,6 +56,8 @@ Now, we can explore the disease scores and check how many proteins are associate
 
 _How many nodes (proteins) are common to all three diseases? And how many are common to some of the pairs of diseases? Note that you can see the nodes common to a pair by either deleting one of the three filters or by setting the third filter to **is not**._
 
+Depending on which option you choose, you will get slightly different numbers because in the first case (having only two filters) the set of proteins associated with the two disease might contain proteins associated with the third disease, while in the second case, you specifically set the third filter to choose proteins that are associated with the first two diseases but **not** with the third one. 
+
 ### 1.4 Visualize disease associations
 
 In the next step, we will import the disease scores into a different table using the _Omics Visualizer_ app. Go to **Apps → Omics Visualizer → Import form node table**. In the resulting dialog, we will see all node attribute columns, including the ones created in Exercise 1.1. Note that if you kept _stringdb::_ in the column names, you will find the columns under the _strigndb_ namespace. Move the three columns containing the disease scores from **Available columns** to **Selected columns** using the **>** button and then click **Next** and **Import**. 
@@ -92,7 +94,7 @@ _How many big clusters are there (with more than 10 nodes)? Are any of the clust
 
 ### 2.2 Group-wise functional enrichment
 
-Now we will perform functional enrichment analysis on each of the bigger clusters separately. Sometimes stringApp does not detect the clustered network as STRING network, so switch to the unclustered network and back to the clustered one. Now, select the menu **Apps → STRING Enrichment → Retrieve group-wise functional enrichment**. In the resulting dialog, press **Advanced** to show the advanced options and set the **minimum group size** to **10**, in order to retrieve enrichment results only for clusters with at least 10 nodes. Press **OK** and the **STRING enrichment** table will be populated with several tables, one for each cluster. You can explore the results of each of them separately. 
+Now we will perform functional enrichment analysis on each of the bigger clusters separately. Sometimes stringApp does not detect the clustered network as STRING network, so switch to the unclustered network and back to the clustered one. Now, select the menu **Apps → STRING Enrichment → Retrieve group-wise functional enrichment**. In the resulting dialog, press **Advanced** to show the advanced options and set the **minimum group size** to **10**, in order to retrieve enrichment results only for clusters with at least 10 nodes. Press **OK** and the **STRING enrichment** table will be populated with several tables, one for each cluster. You can explore the results of each of them separately. Note that if you only see enriched DISEASES, you need to reset the filter by pressing the filter icon, choosing **Select all** for including all categories, and pressing **OK**.
 
 _Can you briefly characterize the three largest clusters in terms of their functionality? What distinguishes them?_
 
