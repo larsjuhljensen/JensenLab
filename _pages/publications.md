@@ -17,6 +17,9 @@ Koutrouli M, Lindez PP, Bouwmeester R, Rasmussen S, Martens L and Jensen LJ (202
 
 ### 2023
 
+Rieneck K, Rasmussen KK, Schoof EM, Clausen FB, Holze H, Bergholt T, Jørgensen MH, Christensen VB, Almaas R, Jordal PL, Locard-Paulet M, Runager K, Nielsen LK, Schlotmann BC, Weischenfeldt JL, Jensen LJ and Dziegiel MH (2023). Hunting for the elusive target antigen in gestational alloimmune liver disease (GALD). *PLOS One*, **18**:e0286432.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/37862305/) [Full text](https://doi.org/10.1371/journal.pone.0286432) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pone.0286432" data-style="small_rectangle"></span>
+
 Tantoso E, Eisenhaber B, Sinha S, Jensen LJ and Eisenhaber F (2023). Did the early full genome sequencing of yeast boost gene function discovery? *Biology Direct*, **18**:46.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/37574542/) [Full text](https://doi.org/10.1186/s13062-023-00403-8) <span class="__dimensions_badge_embed__" data-doi="10.1186/s13062-023-00403-8" data-style="small_rectangle"></span>
 
