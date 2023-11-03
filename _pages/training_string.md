@@ -79,7 +79,7 @@ _How does changing the network type influence the set of interactions shown in t
 
 Another key feature of STRING is the provided network analysis, where one can find network statistics and functional enrichment computed for the network. Go to the **Analysis** tab below the network and look at the different enrichment categories (tables). 
 
-_For how many categories, do you see enrichment?_
+_For how many categories do you see enrichment?_
 
 Look at the enriched **KEGG Pathways** and explore the table in more detail.
 

@@ -74,9 +74,9 @@ Next, the disambiguation dialog shows all query terms that cannot be matched to 
 
 _How many nodes and edges are there in the resulting network? Do the proteins all form a connected network? Why?_
 
-Cytoscape provides several visualization options under the **Layout** menu, such as the **Degree Sorted Circle Layout** and the **yFiles Organic Layout**. Try also one of the Cytoscape force-directed layouts, **Prefuse Force Directed Layout** or **Edge-weighted Spring Embedded Layout** with the attribute ‘score’ as edge weight (this is the combined STRING interaction score).
+Cytoscape provides several layout options under the **Layout** menu. Try the **Degree Sorted Circle Layout** and the **yFiles Organic Layout**. Check also one of the Cytoscape force-directed layouts, **Prefuse Force Directed Layout** or **Edge-weighted Spring Embedded Layout** with the attribute ‘score’ as edge weight (this is the combined STRING interaction score).
 
-_Do any of the suggested layouts help you to recognize patterns in the network?_
+_Do any of the suggested layouts help you to recognize patterns in the network? In which way?_
 
 ### 2.2 Discrete color mapping
 
