@@ -6,7 +6,6 @@ sidebar:
   nav: "deeptextnet"
 ---
 
-# Results produced by DeepTextNet
 
 This project is funded by the European Union's Horizon 2020 research and innovation programme under the Marie Sklodowska-Curie (grant number: 101023676)
 
