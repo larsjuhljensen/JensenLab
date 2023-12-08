@@ -17,6 +17,9 @@ Koutrouli M, Lindez PP, Bouwmeester R, Rasmussen S, Martens L and Jensen LJ (202
 
 ### 2023
 
+Hjaltelin JX, Novitski SI, Jørgensen IF, Siggaard T, Vulpius SA, Westergaard D, Johansen JS, Chen IM, Jensen LJ and Brunak S (2023). Pancreatic cancer symptom trajectories from Danish registry data and free text in electronic health records. *eLife*, **12**:e84919.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/37988407/) [Full text](https://doi.org/10.7554/eLife.84919) <span class="__dimensions_badge_embed__" data-doi="10.7554/eLife.84919" data-style="small_rectangle"></span>
+
 Rieneck K, Rasmussen KK, Schoof EM, Clausen FB, Holze H, Bergholt T, Jørgensen MH, Christensen VB, Almaas R, Jordal PL, Locard-Paulet M, Runager K, Nielsen LK, Schlotmann BC, Weischenfeldt JL, Jensen LJ and Dziegiel MH (2023). Hunting for the elusive target antigen in gestational alloimmune liver disease (GALD). *PLOS One*, **18**:e0286432.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/37862305/) [Full text](https://doi.org/10.1371/journal.pone.0286432) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pone.0286432" data-style="small_rectangle"></span>
 

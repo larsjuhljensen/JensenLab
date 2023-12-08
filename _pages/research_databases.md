@@ -70,7 +70,7 @@ A very early version of DISEASES formed the basis for a tool, mirPD, developed i
 ![Disease trajectory figure](research_databases_trajectory.png)  
 *Disease trajectory network centered around chronic obstructive pulmonary disease (COPD) derived through systematic analysis of the Danish National Patient Registry (Jensen et al., 2014.)*
 
-Disease networks do not need to involve genes at all; for example, one can derive correlation networks for diseases from electronic registries. I collaborated with the Brunak group to do the first large-scale study, using data for the whole population of Denmark to systematically identify temporal disease correlations and condense these into longer disease trajectories (Jensen et al., 2014). We subsequently worked with clinicians at Odense University Hospital to use this method to study alcoholic liver disease as part of the GALAXY consortium (Grissa et al., 2020).
+Disease networks do not need to involve genes at all; for example, one can derive correlation networks for diseases from electronic registries. I collaborated with the Brunak group to do the first large-scale study, using data for the whole population of Denmark to systematically identify temporal disease correlations and condense these into longer disease trajectories (Jensen et al., 2014). We subsequently worked with clinicians at Odense University Hospital to use this method to study alcoholic liver disease as part of the GALAXY consortium (Grissa et al., 2020), and with clinicians at Copenhagen University Hospital to study symptoms of pancreatic cancer.
 
 ## Knowledge graphs
 
@@ -100,6 +100,9 @@ Grissa D, Junge A, Oprea TI and Jensen LJ (2022). DISEASES 2.0: a weekly updated
 
 Hernández-Plaza A, Szklarczyk D, Botas J, Cantalapiedra CP, Giner-Lamia J, Mende DR, Kirsch R, Rattei T, Letunic I, Jensen LJ, Bork P, von Mering C and Jaime Huerta-Cepas J (2023). eggNOG 6.0: enabling comparative genomics across 12535 organisms. *Nucleic Acids Research*, **51**:D389-D394.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36399505/) [Full text](https://doi.org/10.1093/nar/gkac1022) [WWW](http://eggnog6.embl.de/) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkac1022" data-style="small_rectangle"></span>
+
+Hjaltelin JX, Novitski SI, Jørgensen IF, Siggaard T, Vulpius SA, Westergaard D, Johansen JS, Chen IM, Jensen LJ and Brunak S (2023). Pancreatic cancer symptom trajectories from Danish registry data and free text in electronic health records. *eLife*, **12**:e84919.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/37988407/) [Full text](https://doi.org/10.7554/eLife.84919) <span class="__dimensions_badge_embed__" data-doi="10.7554/eLife.84919" data-style="small_rectangle"></span>
 
 Huerta-Cepas J, Szklarczyk D, Forslund K, H. Cook H, Heller D, Walter MC, Rattei T, Mende DR, Sunagawa S, Kuhn M, Jensen LJ, von Mering C and Bork P (2016). eggNOG 4.5: a hierarchical orthology framework with improved functional annotations for eukaryotic, prokaryotic and viral sequences. *Nucleic Acids Research*, **44**:D286-D293.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/26582926) [Full text](https://doi.org/10.1093/nar/gkv1248) [WWW](http://eggnog.embl.de/) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkv1248" data-style="small_rectangle"></span>
