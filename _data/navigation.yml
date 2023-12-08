@@ -162,6 +162,17 @@ s1000:
       - title: "Code"
         url: /resources/s1000/#code
 
+deeptextnet:
+  - title: "The DeepTextNet project"
+    url: /resources/deeptextnet/
+    children:
+      - title: "Publications and Corpora"
+        url: /resources/deeptextnet/#publications-and-corpura
+      - title: "Datasets"
+        url: /resources/deeptextnet/#datasets
+      - title: "Code"
+        url: /resources/deeptextnet/#code
+
 training:
   - title: "Training material"
     url: /training/#training-material

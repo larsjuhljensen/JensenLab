@@ -74,7 +74,7 @@ _Do you observe an overlap between the three diseases? Is the overlap more, less
 
 To find out more about the biological functions and processes related to the proteins in the merged network, we can perform enrichment analysis by selecting **Apps → STRING Enrichment → Retrieve functional enrichment** and press **OK**. Use the **Filter** icon above the enrichment results to select the **DISEASES** category and press **OK**. 
 
-_Quickly skim through the diseases - are any of the diseases from the disease trajectory among the enriched diseases? Note that you can also sort them alphabetically by clicking on the description column._
+_Quickly skim through the diseases - are any of the diseases listed in Ex. 1.1 (except for the ones you picked) among the enriched diseases? Note that you can also sort them alphabetically by clicking on the description column._
 
 ## Exercise 2
 
