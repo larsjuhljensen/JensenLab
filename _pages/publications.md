@@ -7,6 +7,12 @@ sidebar:
 ---
 ## Preprints
 
+Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2023). Improving dictionary-based named entity recognition with deep learning. *bioRxiv*.  
+[Preprint](https://doi.org/10.1101/2023.12.10.570777)
+
+Mehryary F\*, Nastou K\*, Ohta T, Jensen LJ\* and Pyysalo S\* (2023). STRING-ing together protein complexes: extracting physical protein interactions from the literature. *bioRxiv*.  
+[Preprint](https://doi.org/10.1101/2023.12.10.570999)
+
 Webel H, Niu L, Nielsen AB, Locard-Paulet M, Mann M, Jensen LJ and Rasmussen S (2023). Mass spectrometry-based proteomics imputation using self supervised deep learning. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2023.01.12.523792)
 
