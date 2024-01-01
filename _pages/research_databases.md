@@ -116,6 +116,9 @@ Huerta-Cepas J, Szklarczyk D, Heller D, Hernández-Plaza A, Forslund SK, Cook H,
 Jensen AB, Moseley PL, Oprea T, Ellesøe SG, Eriksson R, Schmock H, Jensen PB, Jensen LJ\* and Brunak S\* (2014). Temporal disease trajectories condensed from population-wide registry data covering 6.2 million patients. *Nature Communications*, **5**:4022.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/24959948) [Full text](https://doi.org/10.1038/ncomms5022) <span class="__dimensions_badge_embed__" data-doi="10.1038/ncomms5022" data-style="small_rectangle"></span>
 
+Koutrouli M, Lindez PP, Bouwmeester R, Rasmussen S, Martens L and Jensen LJ (2024). FAVA: High-quality functional association networks inferred from scRNA-seq and proteomics data. Accepted in *Bioinformatics*.  
+[Preprint](https://doi.org/10.1101/2022.07.06.499022)
+
 Kuhn M, Szklarczyk D, Franceschini A, Campillos M, von Mering C, Jensen LJ, Beyer A and Bork P (2010). STITCH 2: an interaction network database for small molecules and proteins. *Nucleic Acids Research*, **38**:D552-D566.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/19897548) [Full text](https://doi.org/10.1093/nar/gkp937) [WWW](https://stitch-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkp937" data-style="small_rectangle"></span>
 

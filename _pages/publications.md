@@ -16,10 +16,12 @@ Mehryary F\*, Nastou K\*, Ohta T, Jensen LJ\* and Pyysalo S\* (2023). STRING-ing
 Webel H, Niu L, Nielsen AB, Locard-Paulet M, Mann M, Jensen LJ and Rasmussen S (2023). Mass spectrometry-based proteomics imputation using self supervised deep learning. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2023.01.12.523792)
 
-Koutrouli M, Lindez PP, Bouwmeester R, Rasmussen S, Martens L and Jensen LJ (2023). FAVA: High-quality functional association networks inferred from scRNA-seq and proteomics data. *bioRxiv*.  
-[Preprint](https://doi.org/10.1101/2022.07.06.499022)
-
 ## Research articles
+
+### 2024
+
+Koutrouli M, Lindez PP, Bouwmeester R, Rasmussen S, Martens L and Jensen LJ (2024). FAVA: High-quality functional association networks inferred from scRNA-seq and proteomics data. Accepted in *Bioinformatics*.  
+[Preprint](https://doi.org/10.1101/2022.07.06.499022)
 
 ### 2023
 
