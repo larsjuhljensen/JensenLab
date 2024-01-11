@@ -16,8 +16,8 @@ Mehryary F\*, Nastou K\*, Ohta T, Jensen LJ\* and Pyysalo S\* (2023). STRING-ing
 Webel H, Niu L, Nielsen AB, Locard-Paulet M, Mann M, Jensen LJ and Rasmussen S (2023). Mass spectrometry-based proteomics imputation using self supervised deep learning. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2023.01.12.523792)
 
-Rebak AS, Hendriks IA, Buch-Larsen SC, Elsborg JD, Kirsch R, Doncheva NT, Jensen LJ, Christophorou M, Nielsen ML (2022). A quantitative and site-specific atlas of the in vivo citrullinome reveals widespread existence of citrullination. *bioRxiv*.
-[Preprint](https://doi.org/10.1101/2022.12.22.521572))
+Rebak AS, Hendriks IA, Buch-Larsen SC, Elsborg JD, Kirsch R, Doncheva NT, Jensen LJ, Christophorou M, Nielsen ML (2022). A quantitative and site-specific atlas of the in vivo citrullinome reveals widespread existence of citrullination. *bioRxiv*.  
+[Preprint](https://doi.org/10.1101/2022.12.22.521572)
 
 
 ## Research articles
