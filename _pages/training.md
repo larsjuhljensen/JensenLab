@@ -25,12 +25,27 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-30 October--3 November 2023, Copenhagen, Denmark  
-Mass Spectrometry-based Proteomics and its Applications in Biology
+12--16 August 2024, Copenhagen, Denmark  
+Summer School on Applied Deep Learning in Bioinformatics
+
+30 May 2024, Hillerød, Denmark  
+MoMeD Summer School
+
+11 April 2024, Copenhagen, Denmark  
+Statistical Methods in Bioinformatics
+
+12 March 2024, Copenhagen, Denmark  
+Fundamental Bioinformatics
+
+4--10 February 2024, Cradle of Humankind, South Africa  
+UBUNTU Proteomics Summer School
 
 ## Past events
 
 ### 2023
+
+30 October--3 November 2023, Copenhagen, Denmark  
+Mass Spectrometry-based Proteomics and its Applications in Biology
 
 19--20 and 27 September 2023, Copenhagen, Denmark  
 Bioinformatics for Human Biologists
