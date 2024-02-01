@@ -24,7 +24,7 @@ Rebak AS, Hendriks IA, Buch-Larsen SC, Elsborg JD, Kirsch R, Doncheva NT, Jensen
 
 ### 2024
 
-Tudor I. Oprea 1 #, Cristian Bologa 1, Jayme Holmes 1, Stephen Mathias 1, Vincent T. Metzger 1, Anna Waller 1, Jeremy J. Yang 1, Andrew R. Leach 2, Lars Juhl Jensen 3, Keith J. Kelleher 4, Timothy K. Sheils 4, Ewy Mathé 4, Sorin Avram 5 and Edwards JS (2024). Overview of the Knowledge Management Center for Illuminating the Druggable Genome. *Drug Discovery Today*, **29**:103882.  
+Oprea TI, Bologa C, Holmes J, Mathias S, Metzger VT, Waller A, Yang JJ, Leach AR, Jensen LJ, Kelleher KJ, Sheils TK, Mathé E, Avram SA and Edwards JS (2024). Overview of the Knowledge Management Center for Illuminating the Druggable Genome. *Drug Discovery Today*, **29**:103882.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/38218214/) [Full Text](https://doi.org/10.1016/j.drudis.2024.103882) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.drudis.2024.103882" data-style="small_rectangle"></span>
 
 Koutrouli M, Nastou K, Lindez PP, Bouwmeester R, Rasmussen S, Martens L and Jensen LJ (2024). FAVA: High-quality functional association networks inferred from scRNA-seq and proteomics data. *Bioinformatics*, **2024**:btae010.  
