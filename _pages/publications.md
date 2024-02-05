@@ -145,7 +145,7 @@ Grissa D, Rasmussen DN, Krag A, Brunak S and Jensen LJ (2020). Alcoholic liver d
 [Full text](https://doi.org/10.1371/journal.pcbi.1008244) <span class="__dimensions_badge_embed__" data-doi="10.1371/journal.pcbi.1008244" data-style="small_rectangle"></span>
 
 Legeay M, Doncheva NT, Morris JH and Jensen LJ (2020). Visualize omics data on networks with Omics Visualizer, a Cytoscape App. *F1000Research*, **9**:157.  
-[Abstract](https://pubmed.ncbi.nlm.nih.gov/32399202) [Full text](https://doi.org/10.12688/f1000research.22280.1) <span class="__dimensions_badge_embed__" data-doi="10.12688/f1000research.22280.1" data-style="small_rectangle"></span>
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/32399202) [Full text](https://doi.org/10.12688/f1000research.22280.2) <span class="__dimensions_badge_embed__" data-doi="10.12688/f1000research.22280.1" data-style="small_rectangle"></span>
 
 Locard-Paulet M, Bouyssié D, Froment C, Burlet-Schiltz O and Jensen LJ (2020). Comparing 22 Popular Phosphoproteomics Pipelines for Peptide Identification and Site Localization. *Journal of Proteome Research*, **19**:1338-1345.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/31975593) [Full text](https://doi.org/10.1021/acs.jproteome.9b00679) <span class="__dimensions_badge_embed__" data-doi="10.1021/acs.jproteome.9b00679" data-style="small_rectangle"></span>
