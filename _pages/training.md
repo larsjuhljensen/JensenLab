@@ -37,12 +37,18 @@ Statistical Methods in Bioinformatics
 12 March 2024, Copenhagen, Denmark  
 Fundamental Bioinformatics
 
+6 February 2024, Toulouse, France   
+Omics data analysis with STRING and Cytoscape
+
 4--10 February 2024, Cradle of Humankind, South Africa  
 UBUNTU Proteomics Summer School
 
 ## Past events
 
 ### 2023
+
+30 January--1 February 2024, Copenhagen, Denmark   
+Bioinformatics analysis of gene expression data from bulk RNAseq
 
 30 October--3 November 2023, Copenhagen, Denmark  
 Mass Spectrometry-based Proteomics and its Applications in Biology
