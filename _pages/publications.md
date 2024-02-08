@@ -24,6 +24,9 @@ Rebak AS, Hendriks IA, Buch-Larsen SC, Elsborg JD, Kirsch R, Doncheva NT, Jensen
 
 ### 2024
 
+Rebak AS, Hendriks IA, Elsborg JD, Buch-Larsen SC, Nielsen CH, Terslev L, Kirsch R, Damgaard D, Doncheva NT, Lennartsson C, Rykaer M, Jensen LJ, Christophorou MA, Nielsen ML (2024). A quantitative and site-specific atlas of the citrullinome reveals widespread existence of citrullination and insights into PADI4 substrates. *Nature Structural & Molecular Biology*.    
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/38321148/) [Full Text](https://doi.org/10.1038/s41594-024-01214-9) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41594-024-01214-9" data-style="small_rectangle"></span>
+
 Oprea TI, Bologa C, Holmes J, Mathias S, Metzger VT, Waller A, Yang JJ, Leach AR, Jensen LJ, Kelleher KJ, Sheils TK, Mathé E, Avram SA and Edwards JS (2024). Overview of the Knowledge Management Center for Illuminating the Druggable Genome. *Drug Discovery Today*, **29**:103882.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/38218214/) [Full Text](https://doi.org/10.1016/j.drudis.2024.103882) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.drudis.2024.103882" data-style="small_rectangle"></span>
 
