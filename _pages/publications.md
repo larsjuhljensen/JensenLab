@@ -27,9 +27,6 @@ Webel H, Niu L, Nielsen AB, Locard-Paulet M, Mann M, Jensen LJ and Rasmussen S (
 Rebak AS, Hendriks IA, Elsborg JD, Buch-Larsen SC, Nielsen CH, Terslev L, Kirsch R, Damgaard D, Doncheva NT, Lennartsson C, Rykaer M, Jensen LJ, Christophorou MA, Nielsen ML (2024). A quantitative and site-specific atlas of the citrullinome reveals widespread existence of citrullination and insights into PADI4 substrates. *Nature Structural & Molecular Biology*.    
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/38321148/) [Full Text](https://doi.org/10.1038/s41594-024-01214-9) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41594-024-01214-9" data-style="small_rectangle"></span>
 
-Oprea TI, Bologa C, Holmes J, Mathias S, Metzger VT, Waller A, Yang JJ, Leach AR, Jensen LJ, Kelleher KJ, Sheils TK, Mathé E, Avram SA and Edwards JS (2024). Overview of the Knowledge Management Center for Illuminating the Druggable Genome. *Drug Discovery Today*, **29**:103882.  
-[Abstract](https://pubmed.ncbi.nlm.nih.gov/38218214/) [Full Text](https://doi.org/10.1016/j.drudis.2024.103882) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.drudis.2024.103882" data-style="small_rectangle"></span>
-
 Koutrouli M, Nastou K, Lindez PP, Bouwmeester R, Rasmussen S, Martens L and Jensen LJ (2024). FAVA: High-quality functional association networks inferred from scRNA-seq and proteomics data. *Bioinformatics*, **2024**:btae010.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/38192003/) [Full text](https://doi.org/10.1093/bioinformatics/btae010) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btae010" data-style="small_rectangle"></span>
 
@@ -718,6 +715,9 @@ Saric J, Jensen LJ, Ouzounova R, Rojas I and Bork P (2004). Extracting Regulator
 [Full text](http://acl.ldc.upenn.edu/P/P04/P04-1025.pdf)
 
 ## Reviews
+
+Oprea TI, Bologa C, Holmes J, Mathias S, Metzger VT, Waller A, Yang JJ, Leach AR, Jensen LJ, Kelleher KJ, Sheils TK, Mathé E, Avram SA and Edwards JS (2024). Overview of the Knowledge Management Center for Illuminating the Druggable Genome. *Drug Discovery Today*, **29**:103882.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/38218214/) [Full Text](https://doi.org/10.1016/j.drudis.2024.103882) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.drudis.2024.103882" data-style="small_rectangle"></span>
 
 Franciosa G, Locard-Paulet M, Jensen LJ and Olsen JV (2023). Recent advances in kinase signaling network profiling by mass spectrometry. *Current Opinion in Chemical Biology*, **73**:102260.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36657259/) [Full text](https://doi.org/10.1016/j.cbpa.2022.102260) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.cbpa.2022.102260" data-style="small_rectangle"></span>
