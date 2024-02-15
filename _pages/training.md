@@ -37,12 +37,12 @@ Statistical Methods in Bioinformatics
 12 March 2024, Copenhagen, Denmark  
 Fundamental Bioinformatics
 
-4--10 February 2024, Cradle of Humankind, South Africa  
-UBUNTU Proteomics Summer School
-
 ## Past events
 
 ### 2024
+
+4--10 February 2024, Cradle of Humankind, South Africa  
+UBUNTU Proteomics Summer School
 
 6 February 2024, Toulouse, France   
 Omics data analysis with STRING and Cytoscape
