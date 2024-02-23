@@ -25,17 +25,17 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-12--16 August 2024, Copenhagen, Denmark  
-Summer School on Applied Deep Learning in Bioinformatics
-
-30 May 2024, Hillerød, Denmark  
-MoMeD Summer School
+12 March 2024, Copenhagen, Denmark  
+Fundamental Bioinformatics
 
 11 April 2024, Copenhagen, Denmark  
 Statistical Methods in Bioinformatics
 
-12 March 2024, Copenhagen, Denmark  
-Fundamental Bioinformatics
+30 May 2024, Hillerød, Denmark  
+MoMeD Summer School
+
+12--16 August 2024, Copenhagen, Denmark  
+Summer School on Applied Deep Learning in Bioinformatics
 
 ## Past events
 
