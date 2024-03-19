@@ -3,10 +3,10 @@ main:
     url: /
   - title: "People"
     url: /people/
-  - title: "Projects"
-    url: /projects/
   - title: "Publications"
     url: /publications/
+  - title: "Research"
+    url: /research/
   - title: "Resources"
     url: /resources/
   - title: "Training"
@@ -106,7 +106,7 @@ research:
       - title: "References"
         url: /research/visualization/#references
   - title: Omics analysis
-    url: /research/omicsanalysis/
+    url: /research/omicsdata/
     children:
       - title: "Tool development"
         url: /research/omicsanalysis/#tool-development
