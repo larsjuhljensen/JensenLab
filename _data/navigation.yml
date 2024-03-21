@@ -98,7 +98,7 @@ research:
     url: /research/visualization/
     children:
       - title: "Cytoscape integration"
-        url: /research/visualization/#cytoscape-integration
+        url: /research/visualization/#network-based-visualization
       - title: "Complex omics data"
         url: /research/visualization/#complex-omics-data
       - title: "Networks in 3D"
@@ -106,7 +106,7 @@ research:
       - title: "References"
         url: /research/visualization/#references
   - title: Omics analysis
-    url: /research/omicsdata/
+    url: /research/omicsanalysis/
     children:
       - title: "Tool development"
         url: /research/omicsanalysis/#tool-development
