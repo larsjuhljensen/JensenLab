@@ -105,7 +105,7 @@ research:
         url: /research/visualization/#networks-in-3d
       - title: "References"
         url: /research/visualization/#references
-  - title: Omics analysis
+  - title: "Omics analysis"
     url: /research/omicsanalysis/
     children:
       - title: "Tool development"
