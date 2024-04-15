@@ -24,7 +24,7 @@ Mehryary F\*, Nastou K\*, Ohta T, Jensen LJ\* and Pyysalo S\* (2023). STRING-ing
 
 ### 2024
 
-Webel H, Niu L, Nielsen AB, Locard-Paulet M, Mann M, Jensen LJ and Rasmussen S (2024). Imputation of label-free quantitative mass spectrometry-based proteomics data using self-supervised deep learning. Accepted in **Nature Communications**.  
+Webel H, Niu L, Nielsen AB, Locard-Paulet M, Mann M, Jensen LJ and Rasmussen S (2024). Imputation of label-free quantitative mass spectrometry-based proteomics data using self-supervised deep learning. Accepted in *Nature Communications*.  
 [Preprint](https://doi.org/10.1101/2023.01.12.523792)
 
 Rebak AS, Hendriks IA, Elsborg JD, Buch-Larsen SC, Nielsen CH, Terslev L, Kirsch R, Damgaard D, Doncheva NT, Lennartsson C, Rykaer M, Jensen LJ, Christophorou MA, Nielsen ML (2024). A quantitative and site-specific atlas of the citrullinome reveals widespread existence of citrullination and insights into PADI4 substrates. *Nature Structural & Molecular Biology*.  
