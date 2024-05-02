@@ -719,8 +719,11 @@ Saric J, Jensen LJ, Ouzounova R, Rojas I and Bork P (2004). Extracting Regulator
 
 ## Reviews
 
+Thiele M, Villesen IF, Niu L, Johansen S, Sulek K, Nishijima S, Van Espen L, Keller M, Israelsen M, Suvitaival T, de Zawadzki A, Juel HB, Brol MJ, Stinson SE, Huang Y, Alvarez Silva MC, Kuhn M, Anastasiadou E, Leeming DJ, Karsdal M, Matthijnssens J, Arumugam M, Dalgaard LT, Legido-Quigley C, Mann M, Trebicka J, Bork P, Jensen LJ, Hansen T, Krag A, MicrobLiver and GALAXY consortia (2024). Review: Opportunities and barriers for omics-based biomarker discovery in steatotic liver diseases. *Journal of Hepatology*.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/38552880/) [Full text](https://doi.org/10.1016/j.jhep.2024.03.035) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.jhep.2024.03.035)" data-style="small_rectangle"></span>
+
 Oprea TI, Bologa C, Holmes J, Mathias S, Metzger VT, Waller A, Yang JJ, Leach AR, Jensen LJ, Kelleher KJ, Sheils TK, Mathé E, Avram SA and Edwards JS (2024). Overview of the Knowledge Management Center for Illuminating the Druggable Genome. *Drug Discovery Today*, **29**:103882.  
-[Abstract](https://pubmed.ncbi.nlm.nih.gov/38218214/) [Full Text](https://doi.org/10.1016/j.drudis.2024.103882) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.drudis.2024.103882" data-style="small_rectangle"></span>
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/38218214/) [Full text](https://doi.org/10.1016/j.drudis.2024.103882) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.drudis.2024.103882" data-style="small_rectangle"></span>
 
 Franciosa G, Locard-Paulet M, Jensen LJ and Olsen JV (2023). Recent advances in kinase signaling network profiling by mass spectrometry. *Current Opinion in Chemical Biology*, **73**:102260.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/36657259/) [Full text](https://doi.org/10.1016/j.cbpa.2022.102260) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.cbpa.2022.102260" data-style="small_rectangle"></span>
