@@ -28,7 +28,7 @@ One solution is to first identify sentences, which comention the entities of int
 
 In an attempt to avoid the need for manual annotation, we developed the CoCoScore method (Junge et al. 2019). The method is based on an idea called distant supervision: instead of using annotated text, we can take a database of, e.g., physical protein interactions and combine it with text on which we have performed NER. If a sentence mentions two proteins together, which are known to interact, it is likely (but by no means certain) that the sentence states this interaction. We can thus use such sentences as positive examples. Conversely, sentences that mention two proteins, which are not known to interact, can be used as negative examples. A dataset created in this manner has a high labeling error, but this is partially compensated for by the corpus being much larger than what can feasibly be made through manual annotation. The CoCoScore method combined this approach with word embeddings representing the text to do supervised training of a sentence classifier. While we showed that the approach works and outperforms purely comention-based methods (Junge et al. 2019), much better results can be attained by using manually annotated text for training. The latter is not an entirely fair comparison, though, given that the large performance gains require extensive manual annotation work.
 
-Most recently, we have begun using transformer-based deep-learning models together with our collaborators at University of Turku, Finland. We started by developing a model for specifically extracting physical protein–protein interactions from the biomedical literature. The interactions extracted using the first version of this model, which was based on BioBERT, were included in STRING v11.5 (Szklarczyk et al., 2021).
+Most recently, we have begun using transformer-based deep-learning models together with our collaborators at University of Turku, Finland. We started by developing a manually annotated corpus of physical protein interactions, called ComplexTome, which we have used to train transformer-based models for extraction of such interactions (Mehryary et al., 2023). The interactions extracted by applying these models to the biomedicla literature are included in the STRING database (Szklarczyk et al., 2021, 2023). This has been followed by another corpus on regulatory interactions, called RegulaTome (Nastou et al., 2024).
 
 ## Drug target prioritization
 
@@ -101,6 +101,12 @@ Kuhn M, Letunic I, Jensen LJ and Bork P (2016). The SIDER database of drugs and 
 
 Luoma M\*, Nastou K\*, Ohta T, Toivonen H, Pafilis E, Jensen LJ\* and Pyysalo S\* (2023). S1000: A better taxonomic name corpus for biomedical information extraction. *Bioinformatics*, **39**:btad369.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/37289518/) [Full text](https://doi.org/10.1093/bioinformatics/btad369) [Preprint](https://doi.org/10.1101/2023.02.20.528934) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btad369" data-style="small_rectangle"></span>
+
+Mehryary F\*, Nastou K\*, Ohta T, Jensen LJ\* and Pyysalo S\* (2023). STRING-ing together protein complexes: extracting physical protein interactions from the literature. *bioRxiv*.  
+[Preprint](https://doi.org/10.1101/2023.12.10.570999)
+
+Nastou K, Mehryary F, Ohta T, Luoma J, Pyysalo S and Jensen LJ (2024). RegulaTome: a corpus of typed, directed, and signed relations between biomedical entities in the scientific literature. *bioRxiv*.  
+[Preprint](https://doi.org/10.1101/2024.04.30.591824)
 
 Nguyen DT, Mathias S, Bologa C, Brunak S, Fernandez N, Gaulton A, Hersey A, Holmes J, Jensen LJ, Karlsson A, Liu G, Ma'ayan A, Mandava G, Mani S, Mehta S, Overington J, Patel J, Rouillard AD, Schürer S, Sheils T, Simeonov A, Sklar LA, Southall N, Ursu O, Vidovic D, Waller A, Yang J, Jadhav A, Oprea T and Guha R (2017). Pharos: Collating protein information to shed light on the druggable genome. *Nucleic Acids Research*, **45**:D995-D1002.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/27903890) [Full text](https://doi.org/10.1093/nar/gkw1072) [WWW](https://pharos.nih.gov) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkw1072" data-style="small_rectangle"></span>
