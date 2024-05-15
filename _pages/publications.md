@@ -7,8 +7,8 @@ sidebar:
 ---
 ## Preprints
 
-Nastou K, Koutrouli M, Pyysalo S and Jensen LJ (2024). Improving dictionary-based named entity recognition with deep learning. *bioRxiv*.  
-[Preprint](https://doi.org/10.1101/2023.12.10.570777)
+Nastou K, Mehryary F, Ohta T, Luoma J, Pyysalo S and Jensen LJ (2024). RegulaTome: a corpus of typed, directed, and signed relations between biomedical entities in the scientific literature. *bioRxiv*.  
+[Preprint](https://doi.org/10.1101/2024.04.30.591824)
 
 Batth TS, Locard-Paulet M, Doncheva NT, Mendez BL, Jensen LJ, Olsen JV (2024). Streamlined proteome-wide identification of drug targets indicates organ-specific engagement. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2024.02.08.578880)
