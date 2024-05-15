@@ -13,6 +13,8 @@ We have released three manually annotated text corpora for benchmarking NER of o
 * [Species-800 (S800)](https://species.jensenlab.org/files/S800-1.0.tar.gz)
 * [Species-1000 (S1000)](/resources/s1000)
 * [Environments-600 (E600)](https://environments.jensenlab.org/E600-corpus.tar.gz)
+* [ComplexTome](https://zenodo.org/records/10693924)
+* [RegulaTome](https://zenodo.org/records/10808330)
 
 ## Dictionaries
 
