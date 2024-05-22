@@ -7,6 +7,9 @@ sidebar:
 ---
 ## Preprints
 
+Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2024). CoNECo: A corpus for named entity recognition and normalization of protein complexes. *bioRxiv*.  
+[Preprint](https://doi.org/10.1101/2024.05.18.594800)
+
 Nastou K, Mehryary F, Ohta T, Luoma J, Pyysalo S and Jensen LJ (2024). RegulaTome: a corpus of typed, directed, and signed relations between biomedical entities in the scientific literature. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2024.04.30.591824)
 
