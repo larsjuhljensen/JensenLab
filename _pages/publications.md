@@ -27,8 +27,8 @@ Mehryary F\*, Nastou K\*, Ohta T, Jensen LJ\* and Pyysalo S\* (2023). STRING-ing
 Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2023). Improving dictionary-based named entity recognition with deep learning. Accepted in *Bioinformatics*.  
 [Preprint](https://doi.org/10.1101/2023.12.10.570777)
 
-Webel H, Niu L, Nielsen AB, Locard-Paulet M, Mann M, Jensen LJ and Rasmussen S (2024). Imputation of label-free quantitative mass spectrometry-based proteomics data using self-supervised deep learning. Accepted in *Nature Communications*.  
-[Preprint](https://doi.org/10.1101/2023.01.12.523792) <span class="__dimensions_badge_embed__" data-doi="10.1101/2023.01.12.523792" data-style="small_rectangle"></span>
+Webel H, Niu L, Nielsen AB, Locard-Paulet M, Mann M, Jensen LJ and Rasmussen S (2024). Imputation of label-free quantitative mass spectrometry-based proteomics data using self-supervised deep learning. Accepted in *Nature Communications*, **15**:5405.  
+[Full text](https://doi.org/10.1038/s41467-024-48711-5) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-024-48711-5" data-style="small_rectangle"></span>
 
 TIN-X version 3: update with expanded dataset and modernized architecture for enhanced illumination of understudied targets (2024). *PeerJ*, **12**:e17470.  
 [Full text](https://doi.org/10.7717/peerj.17470) <span class="__dimensions_badge_embed__" data-doi="10.7717/peerj.17470" data-style="small_rectangle"></span>
