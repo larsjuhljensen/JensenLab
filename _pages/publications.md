@@ -7,24 +7,24 @@ sidebar:
 ---
 ## Preprints
 
-Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2024). CoNECo: A corpus for named entity recognition and normalization of protein complexes. *bioRxiv*.  
-[Preprint](https://doi.org/10.1101/2024.05.18.594800)
-
 Nastou K, Mehryary F, Ohta T, Luoma J, Pyysalo S and Jensen LJ (2024). RegulaTome: a corpus of typed, directed, and signed relations between biomedical entities in the scientific literature. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2024.04.30.591824)
 
 Batth TS, Locard-Paulet M, Doncheva NT, Mendez BL, Jensen LJ, Olsen JV (2024). Streamlined proteome-wide identification of drug targets indicates organ-specific engagement. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2024.02.08.578880)
 
-Mehryary F\*, Nastou K\*, Ohta T, Jensen LJ\* and Pyysalo S\* (2023). STRING-ing together protein complexes: extracting physical protein interactions from the literature. *bioRxiv*.  
-[Preprint](https://doi.org/10.1101/2023.12.10.570999)
-
 
 ## Research articles
 
 ### 2024
 
-Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2023). Improving dictionary-based named entity recognition with deep learning. Accepted in *Bioinformatics*.  
+Mehryary F\*, Nastou K\*, Ohta T, Jensen LJ\* and Pyysalo S\* (2023). STRING-ing together protein complexes: extracting physical protein interactions from the literature. Accepted in *Database*.  
+[Preprint](https://doi.org/10.1101/2023.12.10.570999)
+
+Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2024). CoNECo: A corpus for named entity recognition and normalization of protein complexes. Accepted in *Bioinformatics Advances*.  
+[Preprint](https://doi.org/10.1101/2024.05.18.594800)
+
+Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2024). Improving dictionary-based named entity recognition with deep learning. Accepted in *Bioinformatics*.  
 [Preprint](https://doi.org/10.1101/2023.12.10.570777)
 
 Webel H, Niu L, Nielsen AB, Locard-Paulet M, Mann M, Jensen LJ and Rasmussen S (2024). Imputation of label-free quantitative mass spectrometry-based proteomics data using self-supervised deep learning. Accepted in *Nature Communications*, **15**:5405.  
