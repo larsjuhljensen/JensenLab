@@ -18,7 +18,7 @@ Batth TS, Locard-Paulet M, Doncheva NT, Mendez BL, Jensen LJ, Olsen JV (2024). S
 
 ### 2024
 
-Nastou K, Mehryary F, Ohta T, Luoma J, Pyysalo S and Jensen LJ (2024). RegulaTome: a corpus of typed, directed, and signed relations between biomedical entities in the scientific literature. Accepted in *Database*.  
+Nastou K\*, Mehryary F\*, Ohta T, Luoma J, Pyysalo S and Jensen LJ (2024). RegulaTome: a corpus of typed, directed, and signed relations between biomedical entities in the scientific literature. Accepted in *Database*.  
 [Preprint](https://doi.org/10.1101/2024.04.30.591824)
 
 Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2024). CoNECo: A corpus for named entity recognition and normalization of protein complexes. Accepted in *Bioinformatics Advances*.  
