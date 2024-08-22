@@ -21,11 +21,11 @@ Batth TS, Locard-Paulet M, Doncheva NT, Mendez BL, Jensen LJ, Olsen JV (2024). S
 Nastou K\*, Mehryary F\*, Ohta T, Luoma J, Pyysalo S and Jensen LJ (2024). RegulaTome: a corpus of typed, directed, and signed relations between biomedical entities in the scientific literature. Accepted in *Database*.  
 [Preprint](https://doi.org/10.1101/2024.04.30.591824)
 
-Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2024). CoNECo: A corpus for named entity recognition and normalization of protein complexes. Accepted in *Bioinformatics Advances*.  
-[Preprint](https://doi.org/10.1101/2024.05.18.594800)
-
 Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2024). Improving dictionary-based named entity recognition with deep learning. Accepted in *Bioinformatics*.  
 [Preprint](https://doi.org/10.1101/2023.12.10.570777)
+
+Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2024). CoNECo: A corpus for named entity recognition and normalization of protein complexes. *Bioinformatics Advances*.  
+[Full text](https://doi.org/10.1093/bioadv/vbae116) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioadv/vbae116" data-style="small_rectangle"></span>
 
 Webel H, Niu L, Nielsen AB, Locard-Paulet M, Mann M, Jensen LJ and Rasmussen S (2024). Imputation of label-free quantitative mass spectrometry-based proteomics data using self-supervised deep learning. Accepted in *Nature Communications*, **15**:5405.  
 [Full text](https://doi.org/10.1038/s41467-024-48711-5) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-024-48711-5" data-style="small_rectangle"></span>
