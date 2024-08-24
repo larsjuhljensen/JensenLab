@@ -7,9 +7,6 @@ sidebar:
 ---
 ## Preprints
 
-Mehryary F\*, Nastou K\*, Ohta T, Jensen LJ\* and Pyysalo S\* (2023). STRING-ing together protein complexes: extracting physical protein interactions from the literature. *bioRxiv*.  
-[Preprint](https://doi.org/10.1101/2023.12.10.570999)
-
 Batth TS, Locard-Paulet M, Doncheva NT, Mendez BL, Jensen LJ, Olsen JV (2024). Streamlined proteome-wide identification of drug targets indicates organ-specific engagement. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2024.02.08.578880)
 
@@ -17,6 +14,9 @@ Batth TS, Locard-Paulet M, Doncheva NT, Mendez BL, Jensen LJ, Olsen JV (2024). S
 ## Research articles
 
 ### 2024
+
+Mehryary F\*, Nastou K\*, Ohta T, Jensen LJ\* and Pyysalo S\* (2023). STRING-ing together protein complexes: extracting physical protein interactions from the literature. Accepted in *Bioinformatics*.  
+[Preprint](https://doi.org/10.1101/2023.12.10.570999)
 
 Nastou K\*, Mehryary F\*, Ohta T, Luoma J, Pyysalo S and Jensen LJ (2024). RegulaTome: a corpus of typed, directed, and signed relations between biomedical entities in the scientific literature. Accepted in *Database*.  
 [Preprint](https://doi.org/10.1101/2024.04.30.591824)
