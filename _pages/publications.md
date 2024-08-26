@@ -15,7 +15,7 @@ Batth TS, Locard-Paulet M, Doncheva NT, Mendez BL, Jensen LJ, Olsen JV (2024). S
 
 ### 2024
 
-Mehryary F\*, Nastou K\*, Ohta T, Jensen LJ\* and Pyysalo S\* (2023). STRING-ing together protein complexes: extracting physical protein interactions from the literature. Accepted in *Bioinformatics*.  
+Mehryary F\*, Nastou K\*, Ohta T, Jensen LJ\* and Pyysalo S\* (2024). STRING-ing together protein complexes: extracting physical protein interactions from the literature. Accepted in *Bioinformatics*.  
 [Preprint](https://doi.org/10.1101/2023.12.10.570999)
 
 Nastou K\*, Mehryary F\*, Ohta T, Luoma J, Pyysalo S and Jensen LJ (2024). RegulaTome: a corpus of typed, directed, and signed relations between biomedical entities in the scientific literature. Accepted in *Database*.  
