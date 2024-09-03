@@ -10,6 +10,8 @@ sidebar:
 Batth TS, Locard-Paulet M, Doncheva NT, Mendez BL, Jensen LJ, Olsen JV (2024). Streamlined proteome-wide identification of drug targets indicates organ-specific engagement. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2024.02.08.578880)
 
+Nourani E, Makri E-M, Mao X, Pyysalo S, Soren Brunak S, Katerina Nastou K and Jensen LJ (2024). LSD600: the first corpus of biomedical abstracts annotated with lifestyle-disease relations. *medRxiv*.  
+[Preprint](https://doi.org/10.1101/2024.08.30.24312862)
 
 ## Research articles
 
