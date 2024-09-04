@@ -23,17 +23,17 @@ Mehryary F\*, Nastou K\*, Ohta T, Jensen LJ\* and Pyysalo S\* (2024). STRING-ing
 Nastou K\*, Mehryary F\*, Ohta T, Luoma J, Pyysalo S and Jensen LJ (2024). RegulaTome: a corpus of typed, directed, and signed relations between biomedical entities in the scientific literature. Accepted in *Database*.  
 [Preprint](https://doi.org/10.1101/2024.04.30.591824)
 
-Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2024). Improving dictionary-based named entity recognition with deep learning. Accepted in *Bioinformatics*.  
-[Preprint](https://doi.org/10.1101/2023.12.10.570777)
-
 Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2024). CoNECo: A corpus for named entity recognition and normalization of protein complexes. *Bioinformatics Advances*.  
 [Full text](https://doi.org/10.1093/bioadv/vbae116) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioadv/vbae116" data-style="small_rectangle"></span>
 
-Webel H, Niu L, Nielsen AB, Locard-Paulet M, Mann M, Jensen LJ and Rasmussen S (2024). Imputation of label-free quantitative mass spectrometry-based proteomics data using self-supervised deep learning. Accepted in *Nature Communications*, **15**:5405.  
-[Full text](https://doi.org/10.1038/s41467-024-48711-5) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-024-48711-5" data-style="small_rectangle"></span>
+Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2024). Improving dictionary-based named entity recognition with deep learning. *Bioinformatics*.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/39230709/) [Full text](https://doi.org/10.1093/bioinformatics/btae402) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btae402" data-style="small_rectangle"></span>
 
 TIN-X version 3: update with expanded dataset and modernized architecture for enhanced illumination of understudied targets (2024). *PeerJ*, **12**:e17470.  
-[Full text](https://doi.org/10.7717/peerj.17470) <span class="__dimensions_badge_embed__" data-doi="10.7717/peerj.17470" data-style="small_rectangle"></span>
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/38948230/) [Full text](https://doi.org/10.7717/peerj.17470) <span class="__dimensions_badge_embed__" data-doi="10.7717/peerj.17470" data-style="small_rectangle"></span>
+
+Webel H, Niu L, Nielsen AB, Locard-Paulet M, Mann M, Jensen LJ and Rasmussen S (2024). Imputation of label-free quantitative mass spectrometry-based proteomics data using self-supervised deep learning. Accepted in *Nature Communications*, **15**:5405.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/38926340/) [Full text](https://doi.org/10.1038/s41467-024-48711-5) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-024-48711-5" data-style="small_rectangle"></span>
 
 Rebak AS, Hendriks IA, Elsborg JD, Buch-Larsen SC, Nielsen CH, Terslev L, Kirsch R, Damgaard D, Doncheva NT, Lennartsson C, Rykaer M, Jensen LJ, Christophorou MA, Nielsen ML (2024). A quantitative and site-specific atlas of the citrullinome reveals widespread existence of citrullination and insights into PADI4 substrates. *Nature Structural & Molecular Biology*.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/38321148/) [Full Text](https://doi.org/10.1038/s41594-024-01214-9) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41594-024-01214-9" data-style="small_rectangle"></span>
@@ -779,6 +779,9 @@ Jensen LJ and Bork P (2004). Quality analysis and integration of large-scale mol
 [Full text](https://doi.org/10.1016/S1741-8372(04)02408-9) [WWW](https://string-db.org) <span class="__dimensions_badge_embed__" data-doi="10.1016/S1741-8372(04" data-style="small_rectangle"></span>
 
 ## Editorials
+
+Kukkonen-Macchi A, Hautaniemi S, Heil KF, Heinäniemi M, Jensen LJ, Junttila S, Käll L, Laiho A, Maccallum P, Nykter M, Persson B, Suomi T, van den Bossche T, Nyrönen TH and Elo LL (2024). ECCB2024: The 23rd European Conference on Computational Biology. *Bioinformatics*.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/39230712/) [Full text](https://doi.org/10.1093/bioinformatics/btae422)  <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btae422" data-style="small_rectangle"></span>
 
 Have CT and Jensen LJ (2013). Are graph databases ready for bioinformatics? *Bioinformatics*, **29**:3107-3108.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/24135261) [Full text](https://doi.org/10.1093/bioinformatics/btt549) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btt549" data-style="small_rectangle"></span>
