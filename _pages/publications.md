@@ -21,7 +21,7 @@ Mehryary F\*, Nastou K\*, Ohta T, Jensen LJ\* and Pyysalo S\* (2024). STRING-ing
 [Preprint](https://doi.org/10.1101/2023.12.10.570999)
 
 Nastou K\*, Mehryary F\*, Ohta T, Luoma J, Pyysalo S and Jensen LJ (2024). RegulaTome: a corpus of typed, directed, and signed relations between biomedical entities in the scientific literature. Accepted in *Database*.  
-[Preprint](https://doi.org/10.1101/2024.04.30.591824)
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/39265993/) [Full text](https://doi.org/10.1093/database/baae095) <span class="__dimensions_badge_embed__" data-doi="10.1093/database/baae095" data-style="small_rectangle"></span>
 
 Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2024). CoNECo: A corpus for named entity recognition and normalization of protein complexes. *Bioinformatics Advances*.  
 [Full text](https://doi.org/10.1093/bioadv/vbae116) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioadv/vbae116" data-style="small_rectangle"></span>
