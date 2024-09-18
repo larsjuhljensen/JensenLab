@@ -649,7 +649,7 @@ Jensen LJ, Ussery DW, and Brunak S (2003). Functionality of system components: C
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/14559779) [Full text](https://doi.org/10.1101/gr.1190803) [WWW](http://www.cbs.dtu.dk/services/ProtFun/) <span class="__dimensions_badge_embed__" data-doi="10.1101/gr.1190803" data-style="small_rectangle"></span>
 
 de Lichtenberg U, Jensen TS, Jensen LJ, and Brunak S (2003). Protein feature based identification of cell cycle regulated proteins in yeast. *Journal of Molecular Biology*, **329**:663-674.  
-[Abstract](https://pubmed.ncbi.nlm.nih.gov/12787668) [Full text](https://doi.org/10.1016/S0022-2836(03)00490-X) [WWW](http://www.cbs.dtu.dk/cellcycle/) <span class="__dimensions_badge_embed__" data-doi="10.1016/S0022-2836(03" data-style="small_rectangle"></span>
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/12787668) [Full text](https://doi.org/10.1016/S0022-2836(03)00490-X) [WWW](http://www.cbs.dtu.dk/cellcycle/) <span class="__dimensions_badge_embed__" data-doi="10.1016/S0022-2836(03)00490-X" data-style="small_rectangle"></span>
 
 Jensen LJ, Skovgaard M, Sicheritz-Pontén T, Jørgensen MK, Lundegaard C, Pedersen CC, Petersen N and Ussery DW (2003). Analysis of two large functionally uncharacterized regions in the Methanopyrus kandleri AV19 genome. *BMC Genomics*, **4**:12.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/12697059) [Full text](https://doi.org/10.1186/1471-2164-4-12) <span class="__dimensions_badge_embed__" data-doi="10.1186/1471-2164-4-12" data-style="small_rectangle"></span>
@@ -666,7 +666,7 @@ Workman C, Jensen LJ, Jarmer H, Berka R, Gautier L, Saxild HH, Nielsen C, Brunak
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/12225587) [Full text](https://doi.org/10.1186/gb-2002-3-9-research0048) <span class="__dimensions_badge_embed__" data-doi="10.1186/gb-2002-3-9-research0048" data-style="small_rectangle"></span>
 
 Jensen LJ\*, Gupta R\*, Blom N, Devos D, Tamames J, Kesmir C, Nielsen H, Stærfeldt HH, Rapacki K, Workman C, Andersen CAF, Knudsen S, Krogh A, Valencia A and Brunak S (2002). Prediction of human protein function from post-translational modifications and localization features. *Journal of Molecular Biology*, **319**:1257-1265.  
-[Abstract](https://pubmed.ncbi.nlm.nih.gov/12079362) [Full text](https://doi.org/10.1016/S0022-2836(02)00379-0) <span class="__dimensions_badge_embed__" data-doi="10.1016/S0022-2836(02" data-style="small_rectangle"></span>
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/12079362) [Full text](https://doi.org/10.1016/S0022-2836(02)00379-0) <span class="__dimensions_badge_embed__" data-doi="10.1016/S0022-2836(02)00379-0" data-style="small_rectangle"></span>
 
 ### 2001
 
