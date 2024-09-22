@@ -56,7 +56,7 @@ We run the same NER system used in EXTRACT on entire PubMed every week and make 
 
 Click the following link to retrieve abstracts that mention the gene **SCN2A**:
 
-<https://diseases.jensenlab.org/Entity?documents=10&type1=9606&id1=ENSP00000490107>
+<https://diseases.jensenlab.org/Entity?documents=10&type1=9606&id1=ENSP00000364586>
 
 _6. Do the abstracts shown in the first two pages all highlight SCN2A or are there other words highlighted? If the latter is true, can you think of a reason why?_
 
@@ -103,7 +103,7 @@ The SCN2A gene is well known to be involved in epilepsy. To check if it has also
 
 Since **SCN2A** (ENSP00000490107) and **autism spectrum disorder** (DOID:0060041) are both named entities in our dictionary, we can instead use the results of NER to retrieve relevant documents:
 
-<https://diseases.jensenlab.org/Entity?documents=50&type1=9606&type2=-26&id1=ENSP00000490107&id2=DOID:0060041>
+<https://diseases.jensenlab.org/Entity?documents=50&type1=9606&type2=-26&id1=ENSP00000364586&id2=DOID:0060041>
 
 The NER-based approach retrieves many more publications. Inspect some of these abstracts.
 
