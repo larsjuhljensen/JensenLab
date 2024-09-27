@@ -338,6 +338,31 @@ training-stringapp-ddpm:
   - title: "Supporting literature"
     url: /training/stringapp/ddpm/#supporting-literature
 
+training-proteovisualizer:
+  - title: "Learning objectives"
+    url: /training/proteovisualizer/#learning-objectives
+  - title: "Prerequisites"
+    url: /training/proteovisualizer/#prerequisites
+  - title: "Exercise 1"
+    url: /training/proteovisualizer/#exercise-1
+    children:
+      - title: "Protein network retrieval"
+        url: /training/proteovisualizer/#11-protein-network-retrieval
+      - title: "Data import"
+        url: /training/proteovisualizer/#12-data-import
+      - title: "Continuous color mapping"
+        url: /training/proteovisualizer/#13-continuous-color-mapping
+      - title: "Omics Visualizer data import"
+        url: /training/proteovisualizer/#14-omics-visualizer-data-import
+      - title: "Donut visualization"
+        url: /training/proteovisualizer/#15-donut-visualization
+      - title: "Pie visualization"
+        url: /training/proteovisualizer/#16-pie-visualization
+  - title: "Supporting lectures"
+    url: /training/proteovisualizer/#supporting-lectures
+  - title: "Supporting literature"
+    url: /training/proteovisualizer/#supporting-literature
+
 training-omicsvisualizer:
   - title: "Learning objectives"
     url: /training/omicsvisualizer/#learning-objectives

@@ -17,6 +17,7 @@ As part of running recurring training events, we maintain up-to-date exercises o
 * [Cytoscape stringApp](/training/stringapp/)
 * [Disease networks with stringApp in Cytoscape](/training/stringapp/diseases/)
 * [Omics Visualizer](/training/omicsvisualizer/)
+* [Proteo Visualizer](/training/proteovisualizer/)
 * [Text mining](/training/textmining/)
 
 You can also find several lectures on [YouTube](https://www.youtube.com/c/larsjuhljensen).
