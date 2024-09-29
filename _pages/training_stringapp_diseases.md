@@ -32,7 +32,7 @@ In this exercise, we will retrieve several different disease networks and compar
 
 Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: disease query** as **Data Source**, type _Pancreatic cancer_ into the **Enter disease term** field and set the **Confidence (score) cutoff** to **0.7**. When you press **Import**, stringApp will retrieve a STRING network for the top-100 proteins associated with the chosen disease. Repeat this for **two** of the following diseases: _Acute pancreatitis_, _Anxiety disorder_, _Sleep disorder_, _Intestinal disease_, or _Diabetes mellitus_.
 
-_Which additional attribute column do you get in the **Node Table** for a disease query compared to a protein query? Hint: check the last column._
+_Which diseases did you choose and do they have a similar range of stringdb::disease scores?_
 
 Now, go to the _stringdb::disease score_ column, click on the column name and choose **Rename column**. For each network, rename the column to reflect the name of the disease, e.g. _Pancreatic cancer_ or _disease PC_. Note that you can remove _stringdb::_ from the name. 
 
