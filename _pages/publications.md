@@ -29,7 +29,7 @@ Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2024). CoNECo: A corpus for nam
 Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2024). Improving dictionary-based named entity recognition with deep learning. *Bioinformatics*.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/39230709/) [Full text](https://doi.org/10.1093/bioinformatics/btae402) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btae402" data-style="small_rectangle"></span>
 
-TIN-X version 3: update with expanded dataset and modernized architecture for enhanced illumination of understudied targets (2024). *PeerJ*, **12**:e17470.  
+Metzger VT, Cannon DC, Yang JJ, Mathias SL, Bologa CG, Waller A, Schürer SC, Vidović D, Kelleher KJ, Sheils TK, Jensen LJ, Lambert CG, Oprea TI and Edwards JS (2024). TIN-X version 3: update with expanded dataset and modernized architecture for enhanced illumination of understudied targets. *PeerJ*, **12**:e17470.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/38948230/) [Full text](https://doi.org/10.7717/peerj.17470) <span class="__dimensions_badge_embed__" data-doi="10.7717/peerj.17470" data-style="small_rectangle"></span>
 
 Webel H, Niu L, Nielsen AB, Locard-Paulet M, Mann M, Jensen LJ and Rasmussen S (2024). Imputation of label-free quantitative mass spectrometry-based proteomics data using self-supervised deep learning. Accepted in *Nature Communications*, **15**:5405.  
