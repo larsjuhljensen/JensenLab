@@ -26,9 +26,6 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-23--25 September 2024, Copenhagen, Denmark    
-Bioinformatics for Human Biologists
-
 31 October--1 November 2024, Copenhagen, Denmark  
 Translational Discovery Omics II
 
@@ -38,6 +35,9 @@ Big Data Analytics and Machine Learning I
 ## Past events
 
 ### 2024
+
+23--25 September 2024, Copenhagen, Denmark    
+Bioinformatics for Human Biologists
 
 21 August 2024, Copenhagen, Denmark  
 Workshop at the 8th Annual Danish Bioinformatics Conference
