@@ -20,7 +20,6 @@ permalink: /people/nadezhdatdoncheva/
 - 06/2016: PhD (Dr. rer. nat), Max Planck Institute for Informatics and Saarland University, Germany
 - 11/2009: Masters (M. Sc.) in Bioinformatics, Saarland University, Germany
 - 10/2007: Bachelor (B.S.) in Computational Molecular Biology, Saarland University, Germany 
-- 05/2004: German high school diploma, German Language School "Prof. Konstantin Galabov", Bulgaria
 
 ## Other profiles
 
