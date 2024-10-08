@@ -44,7 +44,7 @@ _How many nodes and edges are in the merged network? If you pick one protein fro
 
 In the next step, we need to retrieve all the interactions between the nodes that were not in the same disease network since those are not yet included in the network. To do so, we first remove all edges by choosing **Apps → STRING → Change confidence or type** from the Cytoscape menu. In the dialog, we set the **Confidence cutoff** to **1.0** and press **OK**. Then, we open the same dialog again, change the **Confidence cutoff** back to **0.7** and press *OK*. In this way, we make sure that all interactions above the confidence cutoff between **all** proteins in the current network are retrieved. Note that if you get an error while setting the confidence to 0.7, you can avoid it by switching to another network in the **Network** panel, and then back to the **Merged Network** before changing the confidence. 
 
-_How many edges do we have now in the merged network? Why did the number of edges increase and the proteins from the previous question now connected?_
+_How many edges do we have now in the merged network? Can you think of a reason for why the number of edges increased? Are the proteins you selected from different disease now connected?_
 
 To better see the nodes and their names, make sure the graphics details are enabled (**View → Always Show Graphics Details**) and to improve the layout of the merged network, go to **Layout → Apply Preferred Layout** and then to **Layout → yFiles Remove Overlaps** (skip the last step if the menu item is not visible on your screen due to screen size or resolution).
 
@@ -64,11 +64,11 @@ In the next step, we will import the disease scores into a different table using
 
 A new table should appear in the Cytoscape _Node Panel_ in the **Omics Visualizer Tables** tab. This table contains three columns (_shared name_, _value_, and _source_ or _stringdb_) and for each node, one row for each column we selected in the previous step, in this case three. Since not all nodes are associated with all three diseases, in some cases the _value_ column is empty. We can filter the table to show only the rows that contain any disease score, since this would be useful for the visualization we want to make. Press the **filter icon** (second icon just above the table), choose the **_value_** column and the **_is not null_** criteria. Now you can press **Apply** and then the **Close** button. 
 
-_How many rows remain after filtering? Out of how many? Do you have an idea why the filtered rows are such a round number?_
+_How many rows remain after filtering? Out of how many? Do you have an idea why the number of filtered rows is such a round number?_
 
 To visualize which nodes are associated with which disease, you can use the **donut chart icon** (6th icon in the row above the table). In the resulting dialog, choose **_source_** (or **stringdb**) in the **Values** column, keep the **Mapping** to _Discrete_ and **Labels** to _NONE_. Pressing the **Next** button will show the next page of settings. We can pick other colors or keep the defaults and press **Draw**. As a result, the nodes are colored based on their association with one, two or all three diseases we combined in this network. Press the **Legend** icon (last icon) and confirm with the **Create** button to let Omics Visualizer create a legend of the visualization. 
 
-_Do you observe an overlap between the three diseases? If yes, list a few of the overlapping proteins and briefly explain their biological role or function (see their description on in the **STRING Results Panel** on the right). Would you have expected these proteins to overlap between the diseases you picked?_
+_Do you observe an overlap between the three diseases? If yes, list a few of the overlapping proteins and briefly explain their biological role or function (see their description in the **STRING Results Panel** on the right). Would you have expected these proteins to overlap between the diseases you chose?_
 
 ## Exercise 2
 
