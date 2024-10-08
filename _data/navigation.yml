@@ -294,14 +294,12 @@ training-stringapp-diseases:
     children:
       - title: "Disease queries"
         url: /training/stringapp/diseases/#11-disease-queries
-      - title: "Integrate networks"
-        url: /training/stringapp/diseases/#12-integrate-networks
+      - title: "Integrate disease networks"
+        url: /training/stringapp/diseases/#12-integrate-disease-networks
       - title: "Use selection filters"
         url: /training/stringapp/diseases/#13-use-selection-filters
       - title: "Visualize disease associations"
         url: /training/stringapp/diseases/#14-visualize-disease-associations
-      - title: "Enrichment analysis"
-        url: /training/stringapp/diseases/#15-enrichment-analysis
   - title: "Exercise 2"
     url: /training/stringapp/diseases/#exercise-2
     children:
@@ -309,6 +307,8 @@ training-stringapp-diseases:
         url: /training/stringapp/diseases/#21-network-clustering
       - title: "Group-wise functional enrichment"
         url: /training/stringapp/diseases/#22-group-wise-functional-enrichment
+      - title: "Group-wise annotations"
+        url: /training/stringapp/diseases/#23-group-wise-annotations
 
 training-stringapp-ddpm:
   - title: "Learning objectives"

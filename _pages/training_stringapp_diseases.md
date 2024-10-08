@@ -32,21 +32,21 @@ In this exercise, we will retrieve several different disease networks and compar
 
 Go to the menu **File → Import → Network from Public Databases**. In the import dialog, choose **STRING: disease query** as **Data Source**, type _Pancreatic cancer_ into the **Enter disease term** field and set the **Confidence (score) cutoff** to **0.7**. When you press **Import**, stringApp will retrieve a STRING network for the top-100 proteins associated with the chosen disease. Repeat this for **two** of the following diseases: _Acute pancreatitis_, _Anxiety disorder_, _Sleep disorder_, _Intestinal disease_, or _Diabetes mellitus_.
 
-_Which diseases did you choose and do they have a similar range of stringdb::disease scores?_
+_Which diseases did you choose and what is the lowest and highest stringdb::disease score for each of them? Are the scores in a similar range or not?_
 
 Now, go to the _stringdb::disease score_ column, click on the column name and choose **Rename column**. For each network, rename the column to reflect the name of the disease, e.g. _Pancreatic cancer_ or _disease PC_. Note that you can remove _stringdb::_ from the name. 
 
-### 1.2 Integrate networks
+### 1.2 Integrate disease networks
 
 Cytoscape provides functionality to merge two or more networks, building either their union, intersection or difference. We will now merge the disease networks so that we can identify the overlap and differences between them. Use the Merge tool (**Tools → Merge → Networks...**) and make sure the **Union** tab is chosen. Then, select the disease networks from **Available Networks** list (for example ‘String Network - Pancreatic cancer’, ‘String Network - Acute pancreatitis’, and ‘String Network - Anxiety disorder’). Click on **>** to add them to the list of **Networks to Merge** and click **Merge**.
 
-_How many nodes and edges are in the merged network?_
+_How many nodes and edges are in the merged network? If you pick one protein from each disease and check if they are connected in the merged network, what do you observe?_
 
-In the next step, we need to retrieve all the interactions between the nodes that were not in the same disease network since those are not yet included in the network. To do so, we first remove all edges by choosing **Apps → STRING → Change confidence or type** from the Cytoscape menu. In the dialog, we set the **Confidence cutoff** to **1.0** and press **OK**. Then, we open the same dialog again, change the **Confidence cutoff** back to **0.7** and press *OK*. In this way, we make sure that all interactions above the confidence cutoff between **all** proteins in the current network are retrieved. 
+In the next step, we need to retrieve all the interactions between the nodes that were not in the same disease network since those are not yet included in the network. To do so, we first remove all edges by choosing **Apps → STRING → Change confidence or type** from the Cytoscape menu. In the dialog, we set the **Confidence cutoff** to **1.0** and press **OK**. Then, we open the same dialog again, change the **Confidence cutoff** back to **0.7** and press *OK*. In this way, we make sure that all interactions above the confidence cutoff between **all** proteins in the current network are retrieved. Note that if you get an error while setting the confidence to 0.7, you can avoid it by switching to another network in the **Network** panel, and then back to the **Merged Network** before changing the confidence. 
 
-_How many edges do we have now in the merged network?_
+_How many edges do we have now in the merged network? Why did the number of edges increase and the proteins from the previous question now connected?_
 
-To better see the nodes and their names, make sure the graphics details are enabled (**View → Always Show Graphics Details**) and to improve the layout of the merged network, go to **Layout → Apply Preferred Layout** and then to **Layout → yFiles Remove Overlaps**.
+To better see the nodes and their names, make sure the graphics details are enabled (**View → Always Show Graphics Details**) and to improve the layout of the merged network, go to **Layout → Apply Preferred Layout** and then to **Layout → yFiles Remove Overlaps** (skip the last step if the menu item is not visible on your screen due to screen size or resolution).
 
 We can change the visualization of the merged network to look like a STRING network by changing the style. Go to **Style** in the **Control Panel** (beneath **Network**) and click on the drop-down menu to change the style from **default** to **STRING - Pancreatic cancer**. Disable the **STRING style colors** and **STRING style labels** from the **STRING Results panel** (right side) to remove the colors of the proteins associated with Pancreatic cancer, make all nodes grey and center the node labels. 
 
@@ -66,15 +66,9 @@ A new table should appear in the Cytoscape _Node Panel_ in the **Omics Visualize
 
 _How many rows remain after filtering? Out of how many? Do you have an idea why the filtered rows are such a round number?_
 
-To visualize which nodes are associated with which disease, you can use the **pie chart icon** (5th icon in the row above the table). In the resulting dialog, choose **_source_** in the **Values** column, keep the **Mapping** to _Discrete_ and **Labels** to _NONE_. Pressing the **Next** button will show the next page of settings. We can pick other colors or keep the defaults and press **Draw**. As a result, the nodes are colored based on their association with one, two or all three diseases we combined in this network. Press the **Legend** icon (last icon) and confirm with the **Create** button to let Omics Visualizer create a legend of the visualization. 
+To visualize which nodes are associated with which disease, you can use the **donut chart icon** (6th icon in the row above the table). In the resulting dialog, choose **_source_** (or **stringdb**) in the **Values** column, keep the **Mapping** to _Discrete_ and **Labels** to _NONE_. Pressing the **Next** button will show the next page of settings. We can pick other colors or keep the defaults and press **Draw**. As a result, the nodes are colored based on their association with one, two or all three diseases we combined in this network. Press the **Legend** icon (last icon) and confirm with the **Create** button to let Omics Visualizer create a legend of the visualization. 
 
-_Do you observe an overlap between the three diseases? Is the overlap more, less, or as much as you would expect for these specific diseases?_
-
-### 1.5 Enrichment analysis
-
-To find out more about the biological functions and processes related to the proteins in the merged network, we can perform enrichment analysis by selecting **Apps → STRING Enrichment → Retrieve functional enrichment** and press **OK**. Use the **Filter** icon above the enrichment results to select the **DISEASES** category and press **OK**. 
-
-_Quickly skim through the diseases - are any of the diseases listed in Ex. 1.1 (except for the ones you picked) among the enriched diseases? Note that you can also sort them alphabetically by clicking on the description column._
+_Do you observe an overlap between the three diseases? If yes, list a few of the overlapping proteins and briefly explain their biological role or function (see their description on in the **STRING Results Panel** on the right). Would you have expected these proteins to overlap between the diseases you picked?_
 
 ## Exercise 2
 
@@ -97,6 +91,12 @@ _How many big clusters are there (with more than 10 nodes)? Are any of the clust
 Now we will perform functional enrichment analysis on each of the bigger clusters separately. Sometimes stringApp does not detect the clustered network as STRING network, so switch to the unclustered network and back to the clustered one. Now, select the menu **Apps → STRING Enrichment → Retrieve group-wise functional enrichment**. In the resulting dialog, press **Advanced** to show the advanced options and set the **minimum group size** to **10**, in order to retrieve enrichment results only for clusters with at least 10 nodes. Press **OK** and the **STRING enrichment** table will be populated with several tables, one for each cluster (look at the bottom right, next to the *Node* and *Edge Table*). You can explore the results of each of them separately. Note that if you only see enriched DISEASES, you need to reset the filter by pressing the filter icon, choosing **Select all** for including all categories, and pressing **OK**.
 
 _Can you briefly characterize the three largest clusters in terms of their functionality? What distinguishes them?_
+
+### 2.3 Group-wise annotations
+
+Finally, you can automatically annotate all clusters by going to **Apps → STRING Enrichment → Retrieve group-wise annotations**. In the resulting dialog, you can again set the **minimum group size** to **10** under **Advanced** setting if you want to only get annotations for the bigger clusters. Press **OK** and you will see several new annotations being places close to the clusters. 
+
+_Do the automatic annotations agree with what you wrote up for the three biggest clusters in the previous question?_
 
 ## Supporting lectures
 
