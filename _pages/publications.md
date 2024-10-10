@@ -26,19 +26,22 @@ Mehryary F\*, Nastou K\*, Ohta T, Jensen LJ\* and Pyysalo S\* (2024). STRING-ing
 Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2024). CoNECo: A corpus for named entity recognition and normalization of protein complexes. *Bioinformatics Advances*.  
 [Full text](https://doi.org/10.1093/bioadv/vbae116) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioadv/vbae116" data-style="small_rectangle"></span>
 
-Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2024). Improving dictionary-based named entity recognition with deep learning. *Bioinformatics*.  
+Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2024). Improving dictionary-based named entity recognition with deep learning. *Bioinformatics*, **40**:ii45-ii52.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/39230709/) [Full text](https://doi.org/10.1093/bioinformatics/btae402) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btae402" data-style="small_rectangle"></span>
 
 Metzger VT, Cannon DC, Yang JJ, Mathias SL, Bologa CG, Waller A, Schürer SC, Vidović D, Kelleher KJ, Sheils TK, Jensen LJ, Lambert CG, Oprea TI and Edwards JS (2024). TIN-X version 3: update with expanded dataset and modernized architecture for enhanced illumination of understudied targets. *PeerJ*, **12**:e17470.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/38948230/) [Full text](https://doi.org/10.7717/peerj.17470) <span class="__dimensions_badge_embed__" data-doi="10.7717/peerj.17470" data-style="small_rectangle"></span>
 
-Webel H, Niu L, Nielsen AB, Locard-Paulet M, Mann M, Jensen LJ and Rasmussen S (2024). Imputation of label-free quantitative mass spectrometry-based proteomics data using self-supervised deep learning. Accepted in *Nature Communications*, **15**:5405.  
+Webel H, Niu L, Nielsen AB, Locard-Paulet M, Mann M, Jensen LJ and Rasmussen S (2024). Imputation of label-free quantitative mass spectrometry-based proteomics data using self-supervised deep learning. *Nature Communications*, **15**:5405.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/38926340/) [Full text](https://doi.org/10.1038/s41467-024-48711-5) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-024-48711-5" data-style="small_rectangle"></span>
 
-Rebak AS, Hendriks IA, Elsborg JD, Buch-Larsen SC, Nielsen CH, Terslev L, Kirsch R, Damgaard D, Doncheva NT, Lennartsson C, Rykaer M, Jensen LJ, Christophorou MA, Nielsen ML (2024). A quantitative and site-specific atlas of the citrullinome reveals widespread existence of citrullination and insights into PADI4 substrates. *Nature Structural & Molecular Biology*.  
+Rebak AS, Hendriks IA, Elsborg JD, Buch-Larsen SC, Nielsen CH, Terslev L, Kirsch R, Damgaard D, Doncheva NT, Lennartsson C, Rykaer M, Jensen LJ, Christophorou MA, Nielsen ML (2024). A quantitative and site-specific atlas of the citrullinome reveals widespread existence of citrullination and insights into PADI4 substrates. *Nature Structural & Molecular Biology*, **31**:977-995.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/38321148/) [Full Text](https://doi.org/10.1038/s41594-024-01214-9) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41594-024-01214-9" data-style="small_rectangle"></span>
 
-Koutrouli M, Nastou K, Lindez PP, Bouwmeester R, Rasmussen S, Martens L and Jensen LJ (2024). FAVA: High-quality functional association networks inferred from scRNA-seq and proteomics data. *Bioinformatics*, **2024**:btae010.  
+Israelsen M, Alvarez-Silva C, Madsen BS, Hansen CD, Torp NC, Johansen S, Hansen JK, Lindvig KP, Insonere J, Riviere V, Juel HB, Brejnrod A, Jensen LJ, Thiele M, Lelouvier B, Hansen T, Arumugam M, Krag A, MicrobLiver consortium and GALAXY consortium (2024). Impact of acute alcohol consumption on circulating microbiome in asymptomatic alcohol-related liver disease. *Gut*, **73**:1041-1044.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/37344168/) [Full text](https://doi.org/10.1136/gutjnl-2023-330360) <span class="__dimensions_badge_embed__" data-doi="10.1136/gutjnl-2023-330360" data-style="small_rectangle"></span>
+
+Koutrouli M, Nastou K, Lindez PP, Bouwmeester R, Rasmussen S, Martens L and Jensen LJ (2024). FAVA: High-quality functional association networks inferred from scRNA-seq and proteomics data. *Bioinformatics*, **40**:btae010.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/38192003/) [Full text](https://doi.org/10.1093/bioinformatics/btae010) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btae010" data-style="small_rectangle"></span>
 
 ### 2023
@@ -54,9 +57,6 @@ Tantoso E, Eisenhaber B, Sinha S, Jensen LJ and Eisenhaber F (2023). Did the ear
 
 Guzman UH, Aksnes H, Ree R, Krogh N, Jakobsson ME, Jensen LJ, Arnesen, T and Olsen JV (2023). Loss of N-terminal acetyltransferase A activity induces thermally unstable ribosomal proteins and increases their turnover in Saccharomyces cerevisiae. *Nature Communications*, **4**:4517.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/37500638/) [Full text](https://doi.org/10.1038/s41467-023-40224-x) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-023-40224-x" data-style="small_rectangle"></span>
-
-Israelsen M, Alvarez-Silva C, Madsen BS, Hansen CD, Torp NC, Johansen S, Hansen JK, Lindvig KP, Insonere J, Riviere V, Juel HB, Brejnrod A, Jensen LJ, Thiele M, Lelouvier B, Hansen T, Arumugam M, Krag A, MicrobLiver consortium and GALAXY consortium (2023). Impact of acute alcohol consumption on circulating microbiome in asymptomatic alcohol-related liver disease. *Gut*.  
-[Abstract](https://pubmed.ncbi.nlm.nih.gov/37344168/) [Full text](https://doi.org/10.1136/gutjnl-2023-330360) <span class="__dimensions_badge_embed__" data-doi="10.1136/gutjnl-2023-330360" data-style="small_rectangle"></span>
 
 Kjær C, Palasca O, Barzaghi G, Bak LK, Durhuus RKJ, Jakobsen E, Pedersen L, Bartels ED, Woldbye DPD, Pinborg LH and Jensen LJ (2023). Differential Expression of the β3 Subunit of Voltage-Gated Ca2+ Channel in Mesial Temporal Lobe Epilepsy. *Molecular Neurobiology*.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/37341859/) [Full text](https://doi.org/10.1007/s12035-023-03426-4) <span class="__dimensions_badge_embed__" data-doi="10.1007/s12035-023-03426-4" data-style="small_rectangle"></span>
