@@ -18,7 +18,7 @@ Nourani E, Makri E-M, Mao X, Pyysalo S, Soren Brunak S, Katerina Nastou K and Je
 ### 2024
 
 Nourani E, Koutrouli M, Xie Y, Vagiaki D, Pyysalo S, Nastou K, Brunak S and LJ (2024). Lifestyle factors in the biomedical literature: An ontology and comprehensive resources for named entity recognition. *Bioinformatics*.  
-[Abstract](https://pubmed.ncbi.nlm.nih.gov/39412443/) [Full text](https://doi.org/10.1093/bioinformatics/btae613)
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/39412443/) [Full text](https://doi.org/10.1093/bioinformatics/btae613) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btae613" data-style="small_rectangle"></span>
 
 Nastou K\*, Mehryary F\*, Ohta T, Luoma J, Pyysalo S and Jensen LJ (2024). RegulaTome: a corpus of typed, directed, and signed relations between biomedical entities in the scientific literature. *Database*.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/39265993/) [Full text](https://doi.org/10.1093/database/baae095) <span class="__dimensions_badge_embed__" data-doi="10.1093/database/baae095" data-style="small_rectangle"></span>
