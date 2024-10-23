@@ -14,6 +14,8 @@ Nourani E, Makri E-M, Mao X, Pyysalo S, Soren Brunak S, Katerina Nastou K and Je
 
 ### 2024
 
+Szklarczyk D, Nastou K, Koutrouli M, Kirsch R, Mehryary F, Hachilif R, Hu D, Peluso M, Huang Q, Fang T, Doncheva NT, Pyysalo S, Bork P, Jensen, LJ and von Mering C (2024). The STRING database in 2025: protein networks with directionality of regulation. Accepted in *Nucleic Acids Research*.
+
 Nourani E, Koutrouli M, Xie Y, Vagiaki D, Pyysalo S, Nastou K, Brunak S and LJ (2024). Lifestyle factors in the biomedical literature: An ontology and comprehensive resources for named entity recognition. *Bioinformatics*.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/39412443/) [Full text](https://doi.org/10.1093/bioinformatics/btae613) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btae613" data-style="small_rectangle"></span>
 
