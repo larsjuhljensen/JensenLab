@@ -24,6 +24,8 @@ To follow the exercises, please make sure that you have the latest version of Cy
 
 The exercises require you to have certain Cytoscape apps installed. Go to the [Cytoscape App Store](https://apps.cytoscape.org/) in your web browser and search for [stringApp](http://apps.cytoscape.org/apps/stringApp), select the app and press the **Install** button to install it. Similarly, make sure you have the [yFiles Layout Algorithms](https://apps.cytoscape.org/apps/yfileslayoutalgorithms) and [clusterMaker2](https://apps.cytoscape.org/apps/clustermaker2) apps installed before switching back to Cytoscape.
 
+Troubleshooting: If your browser does not allow you to install the app directly from the App Store, you will see a **Download** button that you can press to download the app file. After that, switch to Cytoscape and go to **Apps → App Store → Install apps from file**. Find the downloaded app in your files, select it and press the Open button to let Cytoscape install it.
+
 If you are not already familiar with the STRING database, we highly recommend that you go through the short [STRING exercises](/training/string/) to learn about the underlying data before working with it in these exercises.
 
 ## Exercise 1
