@@ -12,13 +12,17 @@ Nourani E, Makri E-M, Mao X, Pyysalo S, Soren Brunak S, Katerina Nastou K and Je
 
 ## Research articles
 
+### 2025
+
+Szklarczyk D, Nastou K, Koutrouli M, Kirsch R, Mehryary F, Hachilif R, Hu D, Peluso M, Huang Q, Fang T, Doncheva NT, Pyysalo S, Bork P, Jensen, LJ and von Mering C (2025). The STRING database in 2025: protein networks with directionality of regulation. *Nucleic Acids Research*.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/39558183/) [Full text](https://doi.org/10.1093/nar/gkae1113) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkae1113" data-style="small_rectangle"></span>
+
 ### 2024
 
-Locard-Paulet M, Doncheva NT, Morris JH and Jensen LJ (2024). Functional analysis of MS-based proteomics data: from protein groups to networks. Accepted in *Molecular and Cellular Proteomics*.
+Locard-Paulet M, Doncheva NT, Morris JH and Jensen LJ (2024). Functional analysis of MS-based proteomics data: from protein groups to networks. *Molecular and Cellular Proteomics*.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/39486590/) [Full text](10.1016/j.mcpro.2024.100871) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.mcpro.2024.100871" data-style="small_rectangle"></span>
 
-Szklarczyk D, Nastou K, Koutrouli M, Kirsch R, Mehryary F, Hachilif R, Hu D, Peluso M, Huang Q, Fang T, Doncheva NT, Pyysalo S, Bork P, Jensen, LJ and von Mering C (2024). The STRING database in 2025: protein networks with directionality of regulation. Accepted in *Nucleic Acids Research*.
-
-Nourani E, Koutrouli M, Xie Y, Vagiaki D, Pyysalo S, Nastou K, Brunak S and LJ (2024). Lifestyle factors in the biomedical literature: An ontology and comprehensive resources for named entity recognition. *Bioinformatics*.  
+Nourani E, Koutrouli M, Xie Y, Vagiaki D, Pyysalo S, Nastou K, Brunak S and LJ (2024). Lifestyle factors in the biomedical literature: An ontology and comprehensive resources for named entity recognition. *Bioinformatics*, **40**:btae613.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/39412443/) [Full text](https://doi.org/10.1093/bioinformatics/btae613) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btae613" data-style="small_rectangle"></span>
 
 Batth TS\*, Locard-Paulet M\*, Doncheva NT, Mendez BL, Jensen LJ and Olsen JV (2024). Streamlined analysis of drug targets by proteome integral solubility alteration indicates organ-specific engagement. *Nature Communications*, **15**:8923.  
@@ -27,10 +31,10 @@ Batth TS\*, Locard-Paulet M\*, Doncheva NT, Mendez BL, Jensen LJ and Olsen JV (2
 Nastou K\*, Mehryary F\*, Ohta T, Luoma J, Pyysalo S and Jensen LJ (2024). RegulaTome: a corpus of typed, directed, and signed relations between biomedical entities in the scientific literature. *Database*.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/39265993/) [Full text](https://doi.org/10.1093/database/baae095) <span class="__dimensions_badge_embed__" data-doi="10.1093/database/baae095" data-style="small_rectangle"></span>
 
-Mehryary F\*, Nastou K\*, Ohta T, Jensen LJ\* and Pyysalo S\* (2024). STRING-ing together protein complexes: extracting physical protein interactions from the literature. *Bioinformatics*.  
+Mehryary F\*, Nastou K\*, Ohta T, Jensen LJ\* and Pyysalo S\* (2024). STRING-ing together protein complexes: extracting physical protein interactions from the literature. *Bioinformatics*, **40**:btae552.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/39276156/) [Full text](https://doi.org/10.1093/bioinformatics/btae552) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btae552" data-style="small_rectangle"></span>
 
-Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2024). CoNECo: A corpus for named entity recognition and normalization of protein complexes. *Bioinformatics Advances*.  
+Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2024). CoNECo: A corpus for named entity recognition and normalization of protein complexes. *Bioinformatics Advances*, **4**:vbae116.  
 [Full text](https://doi.org/10.1093/bioadv/vbae116) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioadv/vbae116" data-style="small_rectangle"></span>
 
 Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2024). Improving dictionary-based named entity recognition with deep learning. *Bioinformatics*, **40**:ii45-ii52.  
@@ -787,7 +791,7 @@ Jensen LJ and Bork P (2004). Quality analysis and integration of large-scale mol
 
 ## Editorials
 
-Kukkonen-Macchi A, Hautaniemi S, Heil KF, Heinäniemi M, Jensen LJ, Junttila S, Käll L, Laiho A, Maccallum P, Nykter M, Persson B, Suomi T, van den Bossche T, Nyrönen TH and Elo LL (2024). ECCB2024: The 23rd European Conference on Computational Biology. *Bioinformatics*.  
+Kukkonen-Macchi A, Hautaniemi S, Heil KF, Heinäniemi M, Jensen LJ, Junttila S, Käll L, Laiho A, Maccallum P, Nykter M, Persson B, Suomi T, van den Bossche T, Nyrönen TH and Elo LL (2024). ECCB2024: The 23rd European Conference on Computational Biology. *Bioinformatics*, **40**:ii45-ii52.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/39230712/) [Full text](https://doi.org/10.1093/bioinformatics/btae422)  <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btae422" data-style="small_rectangle"></span>
 
 Have CT and Jensen LJ (2013). Are graph databases ready for bioinformatics? *Bioinformatics*, **29**:3107-3108.  
