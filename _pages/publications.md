@@ -19,8 +19,8 @@ Szklarczyk D, Nastou K, Koutrouli M, Kirsch R, Mehryary F, Hachilif R, Hu D, Pel
 
 ### 2024
 
-Locard-Paulet M, Doncheva NT, Morris JH and Jensen LJ (2024). Functional analysis of MS-based proteomics data: from protein groups to networks. *Molecular and Cellular Proteomics*.  
-[Abstract](https://pubmed.ncbi.nlm.nih.gov/39486590/) [Full text](10.1016/j.mcpro.2024.100871) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.mcpro.2024.100871" data-style="small_rectangle"></span>
+Locard-Paulet M\*, Doncheva NT\*, Morris JH and Jensen LJ (2024). Functional analysis of MS-based proteomics data: from protein groups to networks. *Molecular and Cellular Proteomics*.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/39486590/) [Full text](https://doi.org/10.1016/j.mcpro.2024.100871) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.mcpro.2024.100871" data-style="small_rectangle"></span>
 
 Nourani E, Koutrouli M, Xie Y, Vagiaki D, Pyysalo S, Nastou K, Brunak S and LJ (2024). Lifestyle factors in the biomedical literature: An ontology and comprehensive resources for named entity recognition. *Bioinformatics*, **40**:btae613.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/39412443/) [Full text](https://doi.org/10.1093/bioinformatics/btae613) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btae613" data-style="small_rectangle"></span>
@@ -28,7 +28,7 @@ Nourani E, Koutrouli M, Xie Y, Vagiaki D, Pyysalo S, Nastou K, Brunak S and LJ (
 Batth TS\*, Locard-Paulet M\*, Doncheva NT, Mendez BL, Jensen LJ and Olsen JV (2024). Streamlined analysis of drug targets by proteome integral solubility alteration indicates organ-specific engagement. *Nature Communications*, **15**:8923.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/39414818/) [Full text](https://doi.org/10.1038/s41467-024-53240-2) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-024-53240-2" data-style="small_rectangle"></span>
 
-Nastou K\*, Mehryary F\*, Ohta T, Luoma J, Pyysalo S and Jensen LJ (2024). RegulaTome: a corpus of typed, directed, and signed relations between biomedical entities in the scientific literature. *Database*.  
+Nastou K\*, Mehryary F\*, Ohta T, Luoma J, Pyysalo S and Jensen LJ (2024). RegulaTome: a corpus of typed, directed, and signed relations between biomedical entities in the scientific literature. *Database*, **2024**:baae095.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/39265993/) [Full text](https://doi.org/10.1093/database/baae095) <span class="__dimensions_badge_embed__" data-doi="10.1093/database/baae095" data-style="small_rectangle"></span>
 
 Mehryary F\*, Nastou K\*, Ohta T, Jensen LJ\* and Pyysalo S\* (2024). STRING-ing together protein complexes: extracting physical protein interactions from the literature. *Bioinformatics*, **40**:btae552.  
