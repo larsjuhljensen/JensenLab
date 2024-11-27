@@ -7,6 +7,9 @@ sidebar:
 ---
 ## Preprints
 
+Hu D, Damian Szklarczyk D, von Mering C and Jensen LJ. (2024). SPACE: STRING proteins as complementary embeddings. *bioRxiv*.  
+[Preprint](https://doi.org/10.1101/2024.11.25.625140)
+
 Nourani E, Makri E-M, Mao X, Pyysalo S, Soren Brunak S, Katerina Nastou K and Jensen LJ (2024). LSD600: the first corpus of biomedical abstracts annotated with lifestyle-disease relations. *medRxiv*.  
 [Preprint](https://doi.org/10.1101/2024.08.30.24312862)
 
