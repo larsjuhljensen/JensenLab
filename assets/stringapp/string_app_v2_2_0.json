@@ -1,5 +1,5 @@
 {
-	"URI": "https://test.jensenlab.org/",
+	"URI": "https://api12b.jensenlab.org/",
 	"DataVersion": "12",
 	"STRINGResolveURI": "https://version-12-0.string-db.org/api/",
 	"STITCHResolveURI": "http://stitch.embl.de/api/",
