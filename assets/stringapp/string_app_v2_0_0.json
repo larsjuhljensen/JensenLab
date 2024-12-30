@@ -7,4 +7,5 @@
 	"SpeciesURI": "https://raw.githubusercontent.com/RBVI/stringApp/master/src/main/resources/species_v12.0.tsv",
 	"PairsURI": "https://raw.githubusercontent.com/RBVI/stringApp/master/src/main/resources/pairs_v12.0.tsv",
 	"messageUserInfo": "<font color=\"blue\">This version of stringApp retrieves networks from STRING v12.</font>"
+	"messageUserError": "<font color=\"red\">Note: this version of stringApp is outdated and will return no query results after 31 Dec 2024. Make sure to update to v2.2 as soon as possible.</font>
 }
