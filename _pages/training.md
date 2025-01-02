@@ -26,15 +26,18 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-31 October--1 November 2024, Copenhagen, Denmark  
-Translational Discovery Omics II
-
-29 November 2024, Copenhagen, Denmark  
-Big Data Analytics and Machine Learning I
+3--8 February 2025, Dolphin Coast, South Africa  
+UBUNTU Proteomics Summer School
 
 ## Past events
 
 ### 2024
+
+29 November 2024, Copenhagen, Denmark  
+Big Data Analytics and Machine Learning I
+
+31 October--1 November 2024, Copenhagen, Denmark  
+Translational Discovery Omics II
 
 23--25 September 2024, Copenhagen, Denmark    
 Bioinformatics for Human Biologists
