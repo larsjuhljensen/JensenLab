@@ -15,7 +15,7 @@ Alberto Santos Delgado
 Alexander Junge  
 Damian Szklarczyk  
 David Lyon  
-Dewei Hu
+Dewei Hu  
 Dhouha Grissa  
 Esmaeil Nourani  
 Heiko Horn  
@@ -27,10 +27,10 @@ Katerina Nastou
 Marc Legeay  
 Marie Locard-Paulet  
 [Nadezhda T. Doncheva](/people/nadezhdatdoncheva/)  
-Mikaela Koutrouli
-Oana Palasca
-Rebecca Kirsch
-Stefano Roncelli
+Mikaela Koutrouli  
+Oana Palasca  
+Rebecca Kirsch  
+Stefano Roncelli  
 Sune Pletscher-Frankild  
 Ufuk Kirik  
 Xiaoyong Pan
