@@ -40,6 +40,8 @@ Now, go to the _stringdb::disease score_ column, click on the column name and ch
 
 Cytoscape provides functionality to merge two or more networks, building either their union, intersection or difference. We will now merge the disease networks so that we can identify the overlap and differences between them. Use the Merge tool (**Tools → Merge → Networks...**) and make sure the **Union** tab is chosen. Then, select the disease networks from **Available Networks** list (for example ‘String Network - Pancreatic cancer’, ‘String Network - Acute pancreatitis’, and ‘String Network - Anxiety disorder’). Click on **>** to add them to the list of **Networks to Merge** and click **Merge**.
 
+We can change the visualization of the merged network to look like a STRING network by changing the style. Go to **Style** in the **Control Panel** (beneath **Network**) and click on the drop-down menu to change the style from **default** to **STRING - Pancreatic cancer**. Disable the **STRING style colors** and **STRING style labels** from the **STRING Results panel** (right side) to remove the colors of the proteins associated with Pancreatic cancer, make all nodes grey and center the node labels. 
+
 _How many nodes and edges are in the merged network? If you pick one protein from each disease and check if they are connected in the merged network, what do you observe?_
 
 In the next step, we need to retrieve all the interactions between the nodes that were not in the same disease network since those are not yet included in the network. To do so, we first remove all edges by choosing **Apps → STRING → Change confidence or type** from the Cytoscape menu. In the dialog, we set the **Confidence cutoff** to **1.0** and press **OK**. Then, we open the same dialog again, change the **Confidence cutoff** back to **0.7** and press *OK*. In this way, we make sure that all interactions above the confidence cutoff between **all** proteins in the current network are retrieved. Note that if you get an error while setting the confidence to 0.7, you can avoid it by switching to another network in the **Network** panel, and then back to the **Merged Network** before changing the confidence. 
@@ -47,8 +49,6 @@ In the next step, we need to retrieve all the interactions between the nodes tha
 _How many edges do we have now in the merged network? Can you think of a reason for why the number of edges increased? Are the proteins you selected from different disease now connected?_
 
 To better see the nodes and their names, make sure the graphics details are enabled (**View → Always Show Graphics Details**) and to improve the layout of the merged network, go to **Layout → Apply Preferred Layout** and then to **Layout → yFiles Remove Overlaps** (skip the last step if the menu item is not visible on your screen due to screen size or resolution).
-
-We can change the visualization of the merged network to look like a STRING network by changing the style. Go to **Style** in the **Control Panel** (beneath **Network**) and click on the drop-down menu to change the style from **default** to **STRING - Pancreatic cancer**. Disable the **STRING style colors** and **STRING style labels** from the **STRING Results panel** (right side) to remove the colors of the proteins associated with Pancreatic cancer, make all nodes grey and center the node labels. 
 
 ### 1.3 Use selection filters
 
