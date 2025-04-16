@@ -66,7 +66,7 @@ _How many of the proteins in the network are ion channels or GPCRs?_
 
 There are many transcription factors in the network. We can avoid counting them manually by creating a selection filter in the **Filter** tab (located underneath **Style**). Click the **ᐩ** button and choose **Column filter** from the drop-down menu. Then, find and select the attribute **(T) Node: family**. Write **Transcription factor** in the text field to select all nodes with this annotation. Note that the current selection criterion is set to **contains**, but you can change it to other values, such as **is** or **doesn't contain**.
 
-_How many TFs are in the network?_
+_How many transcription factors are in the network?_
 
 ### 2.4 Inspect tissue expression data [optional]
 
