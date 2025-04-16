@@ -16,7 +16,11 @@ In these exercises, we will use the [stringApp](http://apps.cytoscape.org/apps/s
 
 ## Prerequisites
 
-To follow the exercises, please make sure that you have the latest version of Cytoscape installed. Then start Cytoscape and go to **Apps → App Manager** to check for new apps, install them and update the current ones if necessary. Search for the **stringApp** in the search field; if it is not already installed, select it and press the **Install** button to install it. 
+To follow the exercises, please make sure that you have the latest version of Cytoscape installed. Then start Cytoscape and update the current apps if necessary by checking the **App Updates** icon in the right-most corner of the manubar. 
+
+The exercises require you to have certain Cytoscape apps installed. Go to the [Cytoscape App Store](https://apps.cytoscape.org/) in your web browser and search for [stringApp](http://apps.cytoscape.org/apps/stringApp), select the app and press the **Install** button to install it.
+
+Troubleshooting: If your browser does not allow you to install the app directly from the App Store, you will see a **Download** button that you can press to download the app file. After that, switch to Cytoscape and go to **Apps → App Store → Install apps from file**. Find the downloaded app in your files, select it and press the Open button to let Cytoscape install it.
 
 ## Exercise 1
 
@@ -38,7 +42,7 @@ Go to <https://diseases.jensenlab.org/>, type **type 1 diabetes** in the search 
 
 Like STRING, the DISEASES database integrates several types of evidence, in this case automatic text mining, manually curated knowledge, and experimental evidence from genome-wide association studies.
 
-_Are there any proteins that are supported by all three types of evidence (for example INS)?_
+_Is the protein INS supported by all three types of evidence? If yes, how confident is each source (in number of stars)?_
 
 ### 2.2 Disease network retrieval
 
@@ -56,14 +60,13 @@ Cytoscape allows you to map attributes of the nodes and edges to visual properti
 
 Select **Style** from the side menu in the left panel (it is between **Network** and **Filter**). Click the **◀** button to the right of the property you want to change, in this case **Fill Color**, and change **Column** from name to **(T) family**, which is the node column containing the data that you want to use. The **Mapping Type** should remain set to **Discrete Mapping**. This action will remove the rainbow coloring of the nodes and present you with a list of all the different values of the attribute that exist in the network, in this case several protein target families.
 
-To color the proteins in a given target family, first click the field to the **right** of an attribute value, i.e. **GPCR** or **IC**, then click the ⋯ button and choose a color from the color selection dialog. You can also set the default color for all nodes that do not have a target family annotation from Pharos by clicking on the **grey square** in the first column of the **Fill Color** row.
+To color the proteins in a given target family, first click the field to the **right** of an attribute value, i.e. **GPCR** or **Ion channel**, then click the ⋯ button and choose a color from the color selection dialog. You can also set the default color for all nodes that do not have a target family annotation from Pharos by clicking on the **grey square** in the first column of the **Fill Color** row.
 
-_How many of the proteins in the network are ion channels (IC) or GPCRs?_
+_How many of the proteins in the network are ion channels or GPCRs?_
 
-There are many transcription factors (TFs) in the network. We can avoid counting them manually by creating a selection filter in the **Filter** tab (located underneath **Style**). Click the **ᐩ** button and choose **Column filter** from the drop-down menu. Then, find and select the attribute **(T) Node: family**. Write **TF** in the text field to select all nodes with this annotation. Note that the current selection criterion is set to **contains**, but you can change it to other values, such as **is** or **doesn't contain**.
+There are many transcription factors in the network. We can avoid counting them manually by creating a selection filter in the **Filter** tab (located underneath **Style**). Click the **ᐩ** button and choose **Column filter** from the drop-down menu. Then, find and select the attribute **(T) Node: family**. Write **Transcription factor** in the text field to select all nodes with this annotation. Note that the current selection criterion is set to **contains**, but you can change it to other values, such as **is** or **doesn't contain**.
 
 _How many TFs are in the network?_
-
 
 ### 2.4 Inspect tissue expression data [optional]
 
