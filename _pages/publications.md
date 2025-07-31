@@ -10,19 +10,25 @@ sidebar:
 Hu D, Damian Szklarczyk D, von Mering C and Jensen LJ. (2024). SPACE: STRING proteins as complementary embeddings. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2024.11.25.625140)
 
-Nourani E, Makri E-M, Mao X, Pyysalo S, Soren Brunak S, Katerina Nastou K and Jensen LJ (2024). LSD600: the first corpus of biomedical abstracts annotated with lifestyle-disease relations. *medRxiv*.  
-[Preprint](https://doi.org/10.1101/2024.08.30.24312862)
-
 ## Research articles
 
 ### 2025
 
-Szklarczyk D, Nastou K, Koutrouli M, Kirsch R, Mehryary F, Hachilif R, Hu D, Peluso M, Huang Q, Fang T, Doncheva NT, Pyysalo S, Bork P, Jensen, LJ and von Mering C (2025). The STRING database in 2025: protein networks with directionality of regulation. *Nucleic Acids Research*.  
+Barakat A, Doncheva NT, Prado J, Lydia Moll L, Josefine L Jensen JL, Díaz-delCastillo M, Novak I, Eijkelkamp N, Jensen LJ and Heegaard A-M (2025). A ligand-receptor interactome of the bone tumor microenvironment in multiple myeloma bone pain. *Pain*.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/40721388/) [Full text](https://doi.org/10.1097/j.pain.0000000000003746) <span class="__dimensions_badge_embed__" data-doi="10.1097/j.pain.0000000000003746" data-style="small_rectangle"></span>
+
+Hansen  JK, Israelsen M, Nishijima S, Stinson SE, Andersen P, Johansen S, Hansen CD, Brol MJ, Klein S, Schierwagen R, Uschner FE, Sulek K, Villesen IF, Lindvig KP, Thorhauge KH, Torp N, Jensen JM, Keller MI, Jensen GH, Detlefsen S, Leeming DJ, Stankevic E, Suvitaival T, Zawadzki A, Kuhn M, Jensen LJ, Karsdal M, Trebicka J, Israelsen H, Legido-Quigley C, Bork P, Arumugam M, Hansen T, Thiele M, Krag A (2025). The postbiotic ReFerm® versus standard nutritional support in advanced alcohol-related liver disease (GALA-POSTBIO): a randomized controlled phase 2 trial. *Nature Communications*, **16**:5969.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/40595534/) [Full text](https://doi.org/10.1038/s41467-025-60755-9) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-025-60755-9" data-style="small_rectangle"></span>
+
+Nourani E, Makri E-M, Mao X, Pyysalo S, Soren Brunak S, Katerina Nastou K and Jensen LJ (2025). LSD600: the first corpus of biomedical abstracts annotated with lifestyle-disease relations. *Database*, **2025**:baae129.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/39824652/) [Full text](https://doi.org/10.1093/database/baae129) <span class="__dimensions_badge_embed__" data-doi="10.1093/database/baae129" data-style="small_rectangle"></span>
+
+Szklarczyk D, Nastou K, Koutrouli M, Kirsch R, Mehryary F, Hachilif R, Hu D, Peluso M, Huang Q, Fang T, Doncheva NT, Pyysalo S, Bork P, Jensen, LJ and von Mering C (2025). The STRING database in 2025: protein networks with directionality of regulation. *Nucleic Acids Research*, **2025**:gkae1113.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/39558183/) [Full text](https://doi.org/10.1093/nar/gkae1113) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkae1113" data-style="small_rectangle"></span>
 
 ### 2024
 
-Locard-Paulet M\*, Doncheva NT\*, Morris JH and Jensen LJ (2024). Functional analysis of MS-based proteomics data: from protein groups to networks. *Molecular and Cellular Proteomics*.  
+Locard-Paulet M\*, Doncheva NT\*, Morris JH and Jensen LJ (2024). Functional analysis of MS-based proteomics data: from protein groups to networks. *Molecular and Cellular Proteomics*, **23**:100871.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/39486590/) [Full text](https://doi.org/10.1016/j.mcpro.2024.100871) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.mcpro.2024.100871" data-style="small_rectangle"></span>
 
 Nourani E, Koutrouli M, Xie Y, Vagiaki D, Pyysalo S, Nastou K, Brunak S and LJ (2024). Lifestyle factors in the biomedical literature: An ontology and comprehensive resources for named entity recognition. *Bioinformatics*, **40**:btae613.  
@@ -741,7 +747,7 @@ Saric J, Jensen LJ, Ouzounova R, Rojas I and Bork P (2004). Extracting Regulator
 
 ## Reviews
 
-Thiele M, Villesen IF, Niu L, Johansen S, Sulek K, Nishijima S, Van Espen L, Keller M, Israelsen M, Suvitaival T, de Zawadzki A, Juel HB, Brol MJ, Stinson SE, Huang Y, Alvarez Silva MC, Kuhn M, Anastasiadou E, Leeming DJ, Karsdal M, Matthijnssens J, Arumugam M, Dalgaard LT, Legido-Quigley C, Mann M, Trebicka J, Bork P, Jensen LJ, Hansen T, Krag A, MicrobLiver and GALAXY consortia (2024). Review: Opportunities and barriers for omics-based biomarker discovery in steatotic liver diseases. *Journal of Hepatology*.  
+Thiele M, Villesen IF, Niu L, Johansen S, Sulek K, Nishijima S, Van Espen L, Keller M, Israelsen M, Suvitaival T, de Zawadzki A, Juel HB, Brol MJ, Stinson SE, Huang Y, Alvarez Silva MC, Kuhn M, Anastasiadou E, Leeming DJ, Karsdal M, Matthijnssens J, Arumugam M, Dalgaard LT, Legido-Quigley C, Mann M, Trebicka J, Bork P, Jensen LJ, Hansen T, Krag A, MicrobLiver and GALAXY consortia (2024). Review: Opportunities and barriers for omics-based biomarker discovery in steatotic liver diseases. *Journal of Hepatology*, **81**:345-359.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/38552880/) [Full text](https://doi.org/10.1016/j.jhep.2024.03.035) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.jhep.2024.03.035)" data-style="small_rectangle"></span>
 
 Oprea TI, Bologa C, Holmes J, Mathias S, Metzger VT, Waller A, Yang JJ, Leach AR, Jensen LJ, Kelleher KJ, Sheils TK, Mathé E, Avram SA and Edwards JS (2024). Overview of the Knowledge Management Center for Illuminating the Druggable Genome. *Drug Discovery Today*, **29**:103882.  
