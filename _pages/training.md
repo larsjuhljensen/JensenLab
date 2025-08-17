@@ -26,9 +26,6 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-11--15 August 2025, Copenhagen, Denmark  
-Summer School on Applied Deep Learning in Bioinformatics
-
 22 September 2025, Copenhagen, Denmark    
 Bioinformatics for Human Biologists
 
@@ -38,6 +35,9 @@ UBUNTU Proteomics Summer School
 ## Past events
 
 ### 2025
+
+11--15 August 2025, Copenhagen, Denmark  
+Summer School on Applied Deep Learning in Bioinformatics
 
 3--8 February 2025, Dolphin Coast, South Africa  
 UBUNTU Proteomics Summer School
