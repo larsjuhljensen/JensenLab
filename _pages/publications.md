@@ -7,6 +7,15 @@ sidebar:
 ---
 ## Preprints
 
+Líndez PP, Danielsen LS, Kovačić I, Avellí MP, Nesme J, Jensen LJ, Nissen JN, Sørensen SJ and Rasmussen S (2025). Accurate plasmid reconstruction from metagenomics data using assembly-alignment graphs and contrastive learning. *bioRxiv*.  
+[Preprint](https://doi.org/10.1101/2025.02.26.640269)
+
+Vaisvil B, Schmitt DP, Jones A, Kapatral V, Ford JM, Taylor ML, Colwell M, Hollins J, Pascucci S, Weissenow K, Rost B, Notin P, Gerlach J, Terwilliger TC, Hung L-W, Jensen LJ, SHorvath S, Faulk C, Ma Y and Clark SW (2025). Epigenomic insights into extreme longevity in the world’s oldest terrestrial animal, Jonathan. *bioRxiv*.  
+[Preprint](https://doi.org/10.1101/2025.02.05.636284)
+
+Lee D, Koutrouli M, Masse NY, Hoffman GE, Kinrot S, Wang X, Prashant NM, Pjanic M, Clarence T, Tsetsos F, Mathur D, Burstein D, Therrien K, Hong A, Casey C, Shao Z, Alvia M, Argyriou S, Fortes JM, Katsel P, Auluck PK, Barnes LL, Marenco S, Bennett DA, PsychAD Consortium, Jensen LJ, Girdhar K, Voloudakis G, Haroutunian V, Bendl J, Fullard JF and Roussos P (2024). Single-cell atlas of transcriptomic vulnerability across multiple neurodegenerative and neuropsychiatric diseases. *medRxiv*.  
+[Preprint](https://doi.org/10.1101/2024.10.31.24316513)
+
 Hu D, Damian Szklarczyk D, von Mering C and Jensen LJ. (2024). SPACE: STRING proteins as complementary embeddings. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2024.11.25.625140)
 
@@ -747,8 +756,11 @@ Saric J, Jensen LJ, Ouzounova R, Rojas I and Bork P (2004). Extracting Regulator
 
 ## Reviews
 
+Mazein I, Rougny A, Mazein A, Henkel R, Gütebier L, Michaelis L, Ostaszewski M, Reinhard Schneider R, Satagopam V, Jensen LJ, Waltemath D, Wodke JAH, Irina Balaur I (2024). Graph databases in systems biology: a systematic review. *Briefings in Bioinformatics*, **2024**:bbae561.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/39565895/) [Full text](https://doi.org/10.1093/bib/bbae561) <span class="__dimensions_badge_embed__" data-doi="10.1093/bib/bbae561" data-style="small_rectangle"></span>
+
 Thiele M, Villesen IF, Niu L, Johansen S, Sulek K, Nishijima S, Van Espen L, Keller M, Israelsen M, Suvitaival T, de Zawadzki A, Juel HB, Brol MJ, Stinson SE, Huang Y, Alvarez Silva MC, Kuhn M, Anastasiadou E, Leeming DJ, Karsdal M, Matthijnssens J, Arumugam M, Dalgaard LT, Legido-Quigley C, Mann M, Trebicka J, Bork P, Jensen LJ, Hansen T, Krag A, MicrobLiver and GALAXY consortia (2024). Review: Opportunities and barriers for omics-based biomarker discovery in steatotic liver diseases. *Journal of Hepatology*, **81**:345-359.  
-[Abstract](https://pubmed.ncbi.nlm.nih.gov/38552880/) [Full text](https://doi.org/10.1016/j.jhep.2024.03.035) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.jhep.2024.03.035)" data-style="small_rectangle"></span>
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/38552880/) [Full text](https://doi.org/10.1016/j.jhep.2024.03.035) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.jhep.2024.03.035" data-style="small_rectangle"></span>
 
 Oprea TI, Bologa C, Holmes J, Mathias S, Metzger VT, Waller A, Yang JJ, Leach AR, Jensen LJ, Kelleher KJ, Sheils TK, Mathé E, Avram SA and Edwards JS (2024). Overview of the Knowledge Management Center for Illuminating the Druggable Genome. *Drug Discovery Today*, **29**:103882.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/38218214/) [Full text](https://doi.org/10.1016/j.drudis.2024.103882) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.drudis.2024.103882" data-style="small_rectangle"></span>
