@@ -16,7 +16,7 @@ Vaisvil B, Schmitt DP, Jones A, Kapatral V, Ford JM, Taylor ML, Colwell M, Holli
 Lee D, Koutrouli M, Masse NY, Hoffman GE, Kinrot S, Wang X, Prashant NM, Pjanic M, Clarence T, Tsetsos F, Mathur D, Burstein D, Therrien K, Hong A, Casey C, Shao Z, Alvia M, Argyriou S, Fortes JM, Katsel P, Auluck PK, Barnes LL, Marenco S, Bennett DA, PsychAD Consortium, Jensen LJ, Girdhar K, Voloudakis G, Haroutunian V, Bendl J, Fullard JF and Roussos P (2024). Single-cell atlas of transcriptomic vulnerability across multiple neurodegenerative and neuropsychiatric diseases. *medRxiv*.  
 [Preprint](https://doi.org/10.1101/2024.10.31.24316513)
 
-Hu D, Damian Szklarczyk D, von Mering C and Jensen LJ. (2024). SPACE: STRING proteins as complementary embeddings. *bioRxiv*.  
+Hu D, Szklarczyk D, von Mering C and Jensen LJ. (2024). SPACE: STRING proteins as complementary embeddings. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2024.11.25.625140)
 
 ## Research articles
