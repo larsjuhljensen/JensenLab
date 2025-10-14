@@ -77,9 +77,9 @@ _8. **Optional exercise** We want to measure the similarity between the followin
 * _Sentence B: A BRCA1 mutation is associated with breast cancer in women._
 * _Sentence C: Insulin signaling is important in diabetes._
 
-Can you calculate the Term Frequency (TF), i.e. how many times each word appears in each document, the Inverse Document Frequency (IDF), i.e. the log(total number of documents / number of documents containing the word), the TF-IDF score (multiply TFxIDF) and the cosine similarity of the documents, i.e. \( \frac{\text{dot}(A,B)}{\lVert A\rVert \,\times\, \lVert B\rVert} \)?. Which pair of sentences is most similar? Does this make sense given their content?
+Can you calculate the Term Frequency (TF), i.e. how many times each word appears in each document, the Inverse Document Frequency (IDF), i.e. the log(total number of documents / number of documents containing the word), the TF-IDF score (multiply TFxIDF) and the cosine similarity of the documents, i.e. dot(A,B)/ (\|\|A\|\| × \|\|B\|\|)?. Which pair of sentences is most similar? Does this make sense given their content?
 
-Reminder: For TF–IDF vectors, the dot product is the sum over vocabulary”, i.e. `dot(A, B) = sum_over_w [ tfidf_A(w) * tfidf_B(w) ]`
+Reminder: For TF–IDF vectors, the dot product is the sum over vocabulary”, i.e. dot(A, B) = ∑_w [ tfidf_A(w) * tfidf_B(w) ]
 where w = word in documents, which only contributes for words where both TF–IDF values are nonzero. So, the dot product equals 0 if there are no shared nonzero-IDF words between two sentences.
 
 _Hint: You will not need to calculate all the cosine similarities to answer this exercise_
