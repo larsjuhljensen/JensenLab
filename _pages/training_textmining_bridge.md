@@ -25,8 +25,7 @@ In this exercise we will first introduce the basics of text mining: 1) dictionar
 
 The goal of named entity recognition (NER) is to find names mentioned in text and resolve them to the underlying biomedical entities (document → entity A, entity B, entity C). To illustrate this, we will use the EXTRACT tool, which is designed to use NER to support manual database curation.
 
-Install the EXTRACT bookmarklet as described on the [EXTRACT website](https://extract.jensenlab.org/). Note that EXTRACT only works on webpages; if you wish to run EXTRACT on articles in formats (e.g. PDF) try the [OnTheFly2.0 webserver](http://bib.fleming.gr:3838/OnTheFly/).
-
+Install the EXTRACT bookmarklet as described on the [EXTRACT website](https://extract.jensenlab.org/). Note that EXTRACT only works on webpages; if you wish to run EXTRACT on articles in formats (e.g. PDF) try the [OnTheFly2.0 webserver](https://pavlopoulos-lab-services.org/shiny/app/onthefly).
 
 _Hint: If the bookmarks toolbar is not showing in Firefox then go the File menu bar and select **View → Toolbars → Bookmarks Toolbar → Always show**. If it is not showing on Chrome go to the menu bar and select **View → Always show bookmarks toolbar**_
 
@@ -53,6 +52,8 @@ _5. **Optional exercise**: During the lecture, we discussed precision and recall
   
 _Compute the F1-score for both systems. Which would you prefer in a curation context, and which in a discovery context? Why?_
 
+_Hint: F<sub>1</sub> = 2×(precision×recall)/(precision+recall)_
+
 ### 1.2 Information retrieval
 
 The goal of information retrieval (IR) is to find the documents pertaining to a topic of interest. When the topic is a biological entity (A), NER can be used to index the literature and thereby support retrieval of relevant documents (A → documents).
@@ -71,18 +72,18 @@ You can similarly use NER to retrieve abstracts for any disease in the Disease O
 
 _7. Which diseases are highlighted in the abstracts? Can you think of the reason why other diseases are also mentioned?_
 
-_8. **Optional exercise** We want to measure the similarity between the following sentences._
+_8. **Optional exercise**: We want to measure the similarity between the following sentences:_
 
 * _Sentence A: TP53 is mutated in many cancer patients._
 * _Sentence B: A BRCA1 mutation is associated with breast cancer in women._
 * _Sentence C: Insulin signaling is important in diabetes._
 
-Can you calculate the Term Frequency (TF), i.e. how many times each word appears in each document, the Inverse Document Frequency (IDF), i.e. the log(total number of documents / number of documents containing the word), the TF-IDF score (multiply TFxIDF) and the cosine similarity of the documents, i.e. dot(A,B)/ (\|\|A\|\| × \|\|B\|\|)?. Which pair of sentences is most similar? Does this make sense given their content?
+Can you calculate the Term Frequency (TF), i.e. how many times each word appears in each document, the Inverse Document Frequency (IDF), i.e. the log(total number of documents / number of documents containing the word), the TF-IDF score (multiply TF×IDF) and the cosine similarity of the documents, i.e. dot(A,B)/ (\|\|A\|\| × \|\|B\|\|)?. Which pair of sentences is most similar? Does this make sense given their content?
 
-Reminder: For TF–IDF vectors, the dot product is the sum over vocabulary”, i.e. dot(A, B) = ∑_w [ tfidf_A(w) * tfidf_B(w) ]
+Reminder: For TF–IDF vectors, the dot product is the sum over the entire vocabulary, i.e. dot(A, B) = ∑<sub>w</sub> tfidf<sub>A</sub>(w) × tfidf<sub>B</sub>(w)
 where w = word in documents, which only contributes for words where both TF–IDF values are nonzero. So, the dot product equals 0 if there are no shared nonzero-IDF words between two sentences.
 
-_Hint: You will not need to calculate all the cosine similarities to answer this exercise_
+_Hint: You will not need to calculate all the cosine similarities to answer this exercise._
 
 
 ### 1.3 Relation extraction
