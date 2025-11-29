@@ -16,12 +16,18 @@ Vaisvil B, Schmitt DP, Jones A, Kapatral V, Ford JM, Taylor ML, Colwell M, Holli
 Lee D, Koutrouli M, Masse NY, Hoffman GE, Kinrot S, Wang X, Prashant NM, Pjanic M, Clarence T, Tsetsos F, Mathur D, Burstein D, Therrien K, Hong A, Casey C, Shao Z, Alvia M, Argyriou S, Fortes JM, Katsel P, Auluck PK, Barnes LL, Marenco S, Bennett DA, PsychAD Consortium, Jensen LJ, Girdhar K, Voloudakis G, Haroutunian V, Bendl J, Fullard JF and Roussos P (2024). Single-cell atlas of transcriptomic vulnerability across multiple neurodegenerative and neuropsychiatric diseases. *medRxiv*.  
 [Preprint](https://doi.org/10.1101/2024.10.31.24316513)
 
-Hu D, Szklarczyk D, von Mering C and Jensen LJ. (2024). SPACE: STRING proteins as complementary embeddings. *bioRxiv*.  
-[Preprint](https://doi.org/10.1101/2024.11.25.625140)
-
 ## Research articles
 
 ### 2025
+
+Sun Y, Qu K, Corsi GI, Anthon C, Pan X, Xiang X, Jensen LJ, Lin L, Luo Y, Gorodkin J (2025). Deep learning models simultaneously trained on multiple datasets improve base-editing activity prediction. *Nature Communications*, **16**:9821.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/41203686/) [Full text](https://doi.org/10.1038/s41467-025-65200-5) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-025-65200-5" data-style="small_rectangle"></span>
+
+Arroyo-Gomez J, Murray MJ, Guérillon C, Wang J, Isaakova E, Reverón-Gómez N, Koutrouli M, Rahmanto AS, Mitrofanov K, Ingham A, Schovsbo S, Weischenfeldt K, Coscia F, Typas T, Völker-Albert M, Solis V, Jensen LJ, Groth A, Mund A, Beli P, Shearer RF, Mailand N (2025). Functional landscape of ubiquitin linkages couples K29-linked ubiquitylation to epigenome integrity. *EMBO Journal*.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/41125851/) [Full text](https://doi.org/10.1038/s44318-025-00599-7) <span class="__dimensions_badge_embed__" data-doi="10.1038/s44318-025-00599-7" data-style="small_rectangle"></span>
+
+Hu D, Szklarczyk D, von Mering C and Jensen LJ. (2024). SPACE: STRING proteins as complementary embeddings. *Bioinformatics*, **41**:btaf496.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/40924541/) [Full text](https://doi.org/10.1093/bioinformatics/btaf496) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btaf496" data-style="small_rectangle"></span>
 
 Barakat A, Doncheva NT, Prado J, Lydia Moll L, Josefine L Jensen JL, Díaz-delCastillo M, Novak I, Eijkelkamp N, Jensen LJ and Heegaard A-M (2025). A ligand-receptor interactome of the bone tumor microenvironment in multiple myeloma bone pain. *Pain*.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/40721388/) [Full text](https://doi.org/10.1097/j.pain.0000000000003746) <span class="__dimensions_badge_embed__" data-doi="10.1097/j.pain.0000000000003746" data-style="small_rectangle"></span>
