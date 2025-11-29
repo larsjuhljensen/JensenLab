@@ -1,9 +1,9 @@
 ---
 title: Text-mining exercises
 layout: single
-permalink: /training/textmining/
+permalink: /training/textmining/bridge
 sidebar:
-  nav: "training-textmining"
+  nav: "training-textminin-bridge"
 ---
 ## Learning objectives
 
@@ -15,37 +15,44 @@ In these exercises, we will use a variety of text-mining tools and databases bas
 
 ## Prerequisites
 
-All exercises are purely web-based.
+All exercises are purely web-based. If you have problems making EXTRACT work in your browser, we recommend installing [Firefox](http://getfirefox.org/), as some functionality might not work in some other browsers.
 
 ## Exercise 1
 
-In this exercise we will first introduce the basics of text mining: 1) dictionary-based __named entity recognition__ and 2) how this can used to help __retrieve literature__. Afterwards we will move on to how one can use the complete literature to 3) __extract associations between entities__ and finally 4) how these associations can be used for __knowledge discovery__.
+In this exercise we will first introduce the basics of text mining: 1) dictionary-based __named entity recognition__ and 2) how this can be used to help __retrieve literature__. Afterwards we will move on to how one can use the complete literature to 3) __extract associations between entities__ and finally 4) how these associations can be used for __knowledge discovery__.
 
 ### 1.1 Named Entity Recognition
 
 The goal of named entity recognition (NER) is to find names mentioned in text and resolve them to the underlying biomedical entities (document → entity A, entity B, entity C). To illustrate this, we will use the EXTRACT tool, which is designed to use NER to support manual database curation.
 
-Install the EXTRACT bookmarklet as described on the [EXTRACT website](https://extract.jensenlab.org/).
+Install the EXTRACT bookmarklet as described on the [EXTRACT website](https://extract.jensenlab.org/). Note that EXTRACT only works on webpages; if you wish to run EXTRACT on articles in formats (e.g. PDF) try the [OnTheFly2.0 webserver](https://pavlopoulos-lab-services.org/shiny/app/onthefly).
 
 _Hint: If the bookmarks toolbar is not showing in Firefox then go the File menu bar and select **View → Toolbars → Bookmarks Toolbar → Always show**. If it is not showing on Chrome go to the menu bar and select **View → Always show bookmarks toolbar**_
 
-Open the paper "Age-Dependent Brain Gene Expression and Copy Number Anomalies in Autism Suggest Distinct Pathological Processes at Young Versus Mature Ages" ([Chow et al., 2012](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3310790/)) and click the **EXTRACT** bookmarklet. After a short time, terms should be highlighted in the text.
+Open the paper "Identification of BCL-XL as highly active survival factor and promising therapeutic target in colorectal cancer" ([Scherr et al., 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7568722/)) and click the **EXTRACT** bookmarklet. After a short time, terms should be highlighted in the text.
 
-_1. What do the different colors mean? How many different types of biomedical entities can you see in the abstract?_
+_1. What do the different colors mean? How many different types of biomedical entities can you see in the abstract? Does any of these terms seems to be put in a wrong category and can you think of a reason why that happens if you hover over the term(s)?_
 
-By clicking or hovering over a tagged term, you will get a popup that includes its standard name, entity type, database or ontology identifier, and a link to its reference record. Move to the **Results** section of the paper and click or hover over **autism** and **NFBD1**.
+By clicking or hovering over a tagged term, you will get a popup that includes its standard name, entity type, database or ontology identifier, and a link to its reference record. Click or hover over **BCL-XL** and **colorectal cancer**.
 
-_2. What is the main name for autism in Disease Ontology? What is the difference between NFBD1 and MDC1?_
+_2. Is there a difference between BCL-XL and BCL2L1?_
 
-_3. What is the Disease ontology identifier for autism and what is the ENSEMBL identifier for NFBD1?_
+_3. What is the Ensembl Protein ID of BCL-XL and what is the Disease Ontology identifier of colorectal cancer?_
 
-Select the **Author Summary** (the paragraph, not the actual words) in the paper and click the **EXTRACT** bookmarklet. Hover over terms in the text or lines in the table.
-
-_4. What happens when you hover over the terms under the selected text section in the window that pops up?_
+Select the **Title** in the paper and click the **EXTRACT** bookmarklet. Hover your mouse on top of the terms in the title text. You will see that the text in the identified terms is then highlighted in the results table
 
 Use the buttons in the bottom of the popup to copy the data into a spreadsheet (e.g. Microsoft excel/[Google sheets](https://docs.google.com/spreadsheets/u/0/)) or text file (e.g. Notepad/[Notepad++](https://notepad-plus-plus.org/downloads/)) or save it in tabular (tsv/csv) format.
 
-_5. Which information is then provided in addition to what is shown in the popup?_
+_4. Which information is then provided in addition to what is shown in the popup?_
+
+_5. **Optional exercise**: During the lecture, we discussed precision and recall. Suppose you have the following results from two systems for gene NER on the same test corpus:_
+
+* **System A: Precision = 92%, Recall = 61%**
+* **System B: Precision = 78%, Recall = 80%**
+  
+_Compute the F1-score for both systems. Which would you prefer in a curation context, and which in a discovery context? Why?_
+
+_Hint: F<sub>1</sub> = 2×(precision×recall)/(precision+recall)_
 
 ### 1.2 Information retrieval
 
@@ -65,21 +72,35 @@ You can similarly use NER to retrieve abstracts for any disease in the Disease O
 
 _7. Which diseases are highlighted in the abstracts? Can you think of the reason why other diseases are also mentioned?_
 
+_8. **Optional exercise**: We want to measure the similarity between the following sentences:_
+
+* _Sentence A: TP53 is mutated in many cancer patients._
+* _Sentence B: A BRCA1 mutation is associated with breast cancer in women._
+* _Sentence C: Insulin signaling is important in diabetes._
+
+Can you calculate the Term Frequency (TF), i.e. how many times each word appears in each document, the Inverse Document Frequency (IDF), i.e. the log(total number of documents / number of documents containing the word), the TF-IDF score (multiply TF×IDF) and the cosine similarity of the documents, i.e. dot(A,B)/ (\|\|A\|\| × \|\|B\|\|)?. Which pair of sentences is most similar? Does this make sense given their content?
+
+Reminder: For TF–IDF vectors, the dot product is the sum over the entire vocabulary, i.e. dot(A, B) = ∑<sub>w</sub> tfidf<sub>A</sub>(w) × tfidf<sub>B</sub>(w)
+where w = word in documents, which only contributes for words where both TF–IDF values are nonzero. So, the dot product equals 0 if there are no shared nonzero-IDF words between two sentences.
+
+_Hint: You will not need to calculate all the cosine similarities to answer this exercise._
+
+
 ### 1.3 Relation extraction
 
 The goal of cooccurrence-based relation extraction (RE) is to link entities (A, B) to each other based on them being mentioned together in documents (A → documents → B).
 
 Go to <https://diseases.jensenlab.org/> and query for **LRRK**. You are now presented with two options, since there are two gene names starting with LRRK, namely LRRK1 and LRRK2. Click on the **LRRK2** row to view the disease associations for this gene.
 
-_8. Which disease is most strongly associated with LRKK2 according to text mining?_
+_9. Which disease is most strongly associated with LRKK2 according to text mining?_
 
 Click on **Parkinson's disease** in the text-mining table.
 
-_9. Do the abstracts in fact support an association between Parkinson's disease and LRRK2?_
+_10. Do the abstracts in fact support an association between Parkinson's disease and LRRK2?_
 
 Now click on **Alzheimer's disease**.
 
-_10. Do the abstracts support an association in this case too? If not can you think of reasons why this association has such a high score?_
+_11. Do the abstracts support an association in this case too? If not can you think of reasons why this association has such a high score?_
 
 Cooccurrence-based relation extraction is a very generic approach, which can be used to find associations between any two types of entities for which we can do NER. For example, we can use the same approach to extract **human phenotypes** associated with **SCN1B** from the mammalian phenotypes database:
 
@@ -87,16 +108,16 @@ Cooccurrence-based relation extraction is a very generic approach, which can be 
 
 Click on **Seizures** and look at the associations between that term and **SCN1B**.
 
-_11. Is this association supported by only few papers or is it well established in the literature? Do all the papers that mention the two terms actually support this association?_
+_12. Is this association supported by only few papers or is it well established in the literature? Do all the papers that mention the two terms actually support this association?_
 
 _Note: You do not need to provide the actual number of papers supporting the association._
 
 ## Exercise 2
-In this exercise, we will focus on how one can utilize the text-mining tools used in Exercise 1 to analyze an observed association between epilepsy and autism spectrum disorders.
+In this exercise, we will focus on how one can utilize the text-mining tools used in Exercise 1 to analyze an observed association between **epilepsy** and **autism spectrum disorders**.
 
 ### 2.1 Using NER to dig deeper
 
-The SCN2A gene is well known to be involved in epilepsy. To check if it has also been implicated in autism spectrum disorders, we will perform a systematic search for literature linking the two. A simple PubMed search retrieves only 14 publications:
+The **SCN2A** gene is well known to be involved in **epilepsy**. To check if it has also been implicated in **autism spectrum disorders**, we will perform a systematic search for literature linking the two. A simple PubMed search retrieves only 25 publications:
 
 <https://www.ncbi.nlm.nih.gov/pubmed/?term=%22SCN2A%22+%22autism+spectrum+disorders%22>
 
@@ -106,7 +127,7 @@ Since **SCN2A** (ENSP00000490107) and **autism spectrum disorder** (DOID:0060041
 
 The NER-based approach retrieves many more publications. Inspect some of these abstracts.
 
-_12. Are they relevant and why were they were not found by the initial search in PubMed?_
+_13. Are they relevant and why were they were not found by the initial search in PubMed?_
 
 ### 2.2 Linking diseases via genes
 
@@ -116,13 +137,13 @@ The first idea is to use NER-based information retrieval to find abstracts that 
 
 <https://diseases.jensenlab.org/Entity?documents=10&type1=-26&&type2=-26&id1=DOID:1826&id2=DOID:0060041>
 
-_13. Which, if any, genes do you see mentioned in abstracts in the first two pages?_
+_14. Which, if any, genes do you see mentioned in abstracts in the first two pages?_
 
 _Note: The genes will not be highlighted with any color this time._
 
 This approach obviously only works when the association between the two diseases is sufficiently well described in the literature for there to be abstracts that mention both diseases as well as the genes of interest. If that is not the case, but one has a candidate gene in mind, one can instead use information extraction to obtain a list of diseases for the gene in question to see if it is in fact associated with both diseases in the literature. Go to <https://diseases.jensenlab.org/>, query for **SCN2A**, and view the disease associations obtained from text mining.
 
-_14. Is SCN2A associated with both diseases of interest?_
+_15. Is SCN2A associated with both diseases of interest?_
 
 When one does not have a candidate gene, the best solution is to obtain two gene lists, one for each disease, and then identify the ones that rank high on both lists. This is a variant of the closed knowledge discovery problem. It is unfortunately not currently possible to perform such an analysis via a web interface, but it can be done by downloading the complete set disease–gene association from the [DISEASES downloads page](https://diseases.jensenlab.org/Downloads) and analyzing them in Python or R. Alternatively, the analysis can be performed through Cytoscape as illustrated in the [Cytoscape stringApp exercises](https://jensenlab.org/training/stringapp/).
 
