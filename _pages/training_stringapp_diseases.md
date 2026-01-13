@@ -64,7 +64,7 @@ In the next step, we will import the disease scores into a different table using
 
 A new table should appear in the Cytoscape _Node Panel_ in the **Omics Visualizer Tables** tab. This table contains three columns (_shared name_, _value_, and _source_ or _stringdb_) and for each node, one row for each column we selected in the previous step, in this case three. Since not all nodes are associated with all three diseases, in some cases the _value_ column is empty. We can filter the table to show only the rows that contain any disease score, since this would be useful for the visualization we want to make. Press the **filter icon** (second icon just above the table), choose the **_value_** column and the **_is not null_** criteria. Now you can press **Apply** and then the **Close** button. 
 
-_How many rows remain after filtering? Out of how many? Do you have an idea why the number of filtered rows is such a round number?_
+_How many rows remain after filtering? Out of how many? Do you have an idea why?_
 
 To visualize which nodes are associated with which disease, you can use the **donut chart icon** (6th icon in the row above the table). In the resulting dialog, choose **_source_** (or **stringdb**) in the **Values** column, keep the **Mapping** to _Discrete_ and **Labels** to _NONE_. Pressing the **Next** button will show the next page of settings. We can pick other colors or keep the defaults and press **Draw**. As a result, the nodes are colored based on their association with one, two or all three diseases we combined in this network. Press the **Legend** icon (last icon) and confirm with the **Create** button to let Omics Visualizer create a legend of the visualization. 
 
