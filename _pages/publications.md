@@ -7,6 +7,9 @@ sidebar:
 ---
 ## Preprints
 
+Hu D, Schaap-Johansen A-L, Villarroel J, Ekebjærg C, Rasmussen S, Hansen DH, Wernersson R and Jensen LJ (2025). Molecular maps of diseases from omics data and network embeddings. *bioRxiv*.  
+[Preprint](https://doi.org/10.1101/2025.11.25.689280 )
+
 Líndez PP, Danielsen LS, Kovačić I, Avellí MP, Nesme J, Jensen LJ, Nissen JN, Sørensen SJ and Rasmussen S (2025). Accurate plasmid reconstruction from metagenomics data using assembly-alignment graphs and contrastive learning. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2025.02.26.640269)
 
@@ -20,10 +23,10 @@ Lee D, Koutrouli M, Masse NY, Hoffman GE, Kinrot S, Wang X, Prashant NM, Pjanic 
 
 ### 2025
 
-Sun Y, Qu K, Corsi GI, Anthon C, Pan X, Xiang X, Jensen LJ, Lin L, Luo Y, Gorodkin J (2025). Deep learning models simultaneously trained on multiple datasets improve base-editing activity prediction. *Nature Communications*, **16**:9821.  
+Sun Y, Qu K, Corsi GI, Anthon C, Pan X, Xiang X, Jensen LJ, Lin L, Luo Y and Gorodkin J (2025). Deep learning models simultaneously trained on multiple datasets improve base-editing activity prediction. *Nature Communications*, **16**:9821.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/41203686/) [Full text](https://doi.org/10.1038/s41467-025-65200-5) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-025-65200-5" data-style="small_rectangle"></span>
 
-Arroyo-Gomez J, Murray MJ, Guérillon C, Wang J, Isaakova E, Reverón-Gómez N, Koutrouli M, Rahmanto AS, Mitrofanov K, Ingham A, Schovsbo S, Weischenfeldt K, Coscia F, Typas T, Völker-Albert M, Solis V, Jensen LJ, Groth A, Mund A, Beli P, Shearer RF, Mailand N (2025). Functional landscape of ubiquitin linkages couples K29-linked ubiquitylation to epigenome integrity. *EMBO Journal*.  
+Arroyo-Gomez J, Murray MJ, Guérillon C, Wang J, Isaakova E, Reverón-Gómez N, Koutrouli M, Rahmanto AS, Mitrofanov K, Ingham A, Schovsbo S, Weischenfeldt K, Coscia F, Typas T, Völker-Albert M, Solis V, Jensen LJ, Groth A, Mund A, Beli P, Shearer RF and Mailand N (2025). Functional landscape of ubiquitin linkages couples K29-linked ubiquitylation to epigenome integrity. *EMBO Journal*.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/41125851/) [Full text](https://doi.org/10.1038/s44318-025-00599-7) <span class="__dimensions_badge_embed__" data-doi="10.1038/s44318-025-00599-7" data-style="small_rectangle"></span>
 
 Hu D, Szklarczyk D, von Mering C and Jensen LJ. (2024). SPACE: STRING proteins as complementary embeddings. *Bioinformatics*, **41**:btaf496.  
@@ -32,13 +35,13 @@ Hu D, Szklarczyk D, von Mering C and Jensen LJ. (2024). SPACE: STRING proteins a
 Barakat A, Doncheva NT, Prado J, Lydia Moll L, Josefine L Jensen JL, Díaz-delCastillo M, Novak I, Eijkelkamp N, Jensen LJ and Heegaard A-M (2025). A ligand-receptor interactome of the bone tumor microenvironment in multiple myeloma bone pain. *Pain*.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/40721388/) [Full text](https://doi.org/10.1097/j.pain.0000000000003746) <span class="__dimensions_badge_embed__" data-doi="10.1097/j.pain.0000000000003746" data-style="small_rectangle"></span>
 
-Hansen  JK, Israelsen M, Nishijima S, Stinson SE, Andersen P, Johansen S, Hansen CD, Brol MJ, Klein S, Schierwagen R, Uschner FE, Sulek K, Villesen IF, Lindvig KP, Thorhauge KH, Torp N, Jensen JM, Keller MI, Jensen GH, Detlefsen S, Leeming DJ, Stankevic E, Suvitaival T, Zawadzki A, Kuhn M, Jensen LJ, Karsdal M, Trebicka J, Israelsen H, Legido-Quigley C, Bork P, Arumugam M, Hansen T, Thiele M, Krag A (2025). The postbiotic ReFerm® versus standard nutritional support in advanced alcohol-related liver disease (GALA-POSTBIO): a randomized controlled phase 2 trial. *Nature Communications*, **16**:5969.  
+Hansen  JK, Israelsen M, Nishijima S, Stinson SE, Andersen P, Johansen S, Hansen CD, Brol MJ, Klein S, Schierwagen R, Uschner FE, Sulek K, Villesen IF, Lindvig KP, Thorhauge KH, Torp N, Jensen JM, Keller MI, Jensen GH, Detlefsen S, Leeming DJ, Stankevic E, Suvitaival T, Zawadzki A, Kuhn M, Jensen LJ, Karsdal M, Trebicka J, Israelsen H, Legido-Quigley C, Bork P, Arumugam M, Hansen T, Thiele M and Krag A (2025). The postbiotic ReFerm® versus standard nutritional support in advanced alcohol-related liver disease (GALA-POSTBIO): a randomized controlled phase 2 trial. *Nature Communications*, **16**:5969.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/40595534/) [Full text](https://doi.org/10.1038/s41467-025-60755-9) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-025-60755-9" data-style="small_rectangle"></span>
 
 Nourani E, Makri E-M, Mao X, Pyysalo S, Soren Brunak S, Katerina Nastou K and Jensen LJ (2025). LSD600: the first corpus of biomedical abstracts annotated with lifestyle-disease relations. *Database*, **2025**:baae129.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/39824652/) [Full text](https://doi.org/10.1093/database/baae129) <span class="__dimensions_badge_embed__" data-doi="10.1093/database/baae129" data-style="small_rectangle"></span>
 
-Szklarczyk D, Nastou K, Koutrouli M, Kirsch R, Mehryary F, Hachilif R, Hu D, Peluso M, Huang Q, Fang T, Doncheva NT, Pyysalo S, Bork P, Jensen, LJ and von Mering C (2025). The STRING database in 2025: protein networks with directionality of regulation. *Nucleic Acids Research*, **2025**:gkae1113.  
+Szklarczyk D, Nastou K, Koutrouli M, Kirsch R, Mehryary F, Hachilif R, Hu D, Peluso M, Huang Q, Fang T, Doncheva NT, Pyysalo S, Bork P, Jensen LJ and von Mering C (2025). The STRING database in 2025: protein networks with directionality of regulation. *Nucleic Acids Research*, **2025**:gkae1113.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/39558183/) [Full text](https://doi.org/10.1093/nar/gkae1113) <span class="__dimensions_badge_embed__" data-doi="10.1093/nar/gkae1113" data-style="small_rectangle"></span>
 
 ### 2024
@@ -46,7 +49,7 @@ Szklarczyk D, Nastou K, Koutrouli M, Kirsch R, Mehryary F, Hachilif R, Hu D, Pel
 Locard-Paulet M\*, Doncheva NT\*, Morris JH and Jensen LJ (2024). Functional analysis of MS-based proteomics data: from protein groups to networks. *Molecular and Cellular Proteomics*, **23**:100871.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/39486590/) [Full text](https://doi.org/10.1016/j.mcpro.2024.100871) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.mcpro.2024.100871" data-style="small_rectangle"></span>
 
-Nourani E, Koutrouli M, Xie Y, Vagiaki D, Pyysalo S, Nastou K, Brunak S and LJ (2024). Lifestyle factors in the biomedical literature: An ontology and comprehensive resources for named entity recognition. *Bioinformatics*, **40**:btae613.  
+Nourani E, Koutrouli M, Xie Y, Vagiaki D, Pyysalo S, Nastou K, Brunak S and Jensen LJ (2024). Lifestyle factors in the biomedical literature: An ontology and comprehensive resources for named entity recognition. *Bioinformatics*, **40**:btae613.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/39412443/) [Full text](https://doi.org/10.1093/bioinformatics/btae613) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btae613" data-style="small_rectangle"></span>
 
 Batth TS\*, Locard-Paulet M\*, Doncheva NT, Mendez BL, Jensen LJ and Olsen JV (2024). Streamlined analysis of drug targets by proteome integral solubility alteration indicates organ-specific engagement. *Nature Communications*, **15**:8923.  
@@ -58,10 +61,10 @@ Nastou K\*, Mehryary F\*, Ohta T, Luoma J, Pyysalo S and Jensen LJ (2024). Regul
 Mehryary F\*, Nastou K\*, Ohta T, Jensen LJ\* and Pyysalo S\* (2024). STRING-ing together protein complexes: extracting physical protein interactions from the literature. *Bioinformatics*, **40**:btae552.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/39276156/) [Full text](https://doi.org/10.1093/bioinformatics/btae552) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btae552" data-style="small_rectangle"></span>
 
-Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2024). CoNECo: A corpus for named entity recognition and normalization of protein complexes. *Bioinformatics Advances*, **4**:vbae116.  
+Nastou K, Koutrouli M, Pyysalo S and Jensen LJ (2024). CoNECo: A corpus for named entity recognition and normalization of protein complexes. *Bioinformatics Advances*, **4**:vbae116.  
 [Full text](https://doi.org/10.1093/bioadv/vbae116) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioadv/vbae116" data-style="small_rectangle"></span>
 
-Nastou K, Koutrouli M, Pyysalo S and Jensen LJ  (2024). Improving dictionary-based named entity recognition with deep learning. *Bioinformatics*, **40**:ii45-ii52.  
+Nastou K, Koutrouli M, Pyysalo S and Jensen LJ (2024). Improving dictionary-based named entity recognition with deep learning. *Bioinformatics*, **40**:ii45-ii52.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/39230709/) [Full text](https://doi.org/10.1093/bioinformatics/btae402) <span class="__dimensions_badge_embed__" data-doi="10.1093/bioinformatics/btae402" data-style="small_rectangle"></span>
 
 Metzger VT, Cannon DC, Yang JJ, Mathias SL, Bologa CG, Waller A, Schürer SC, Vidović D, Kelleher KJ, Sheils TK, Jensen LJ, Lambert CG, Oprea TI and Edwards JS (2024). TIN-X version 3: update with expanded dataset and modernized architecture for enhanced illumination of understudied targets. *PeerJ*, **12**:e17470.  
@@ -70,7 +73,7 @@ Metzger VT, Cannon DC, Yang JJ, Mathias SL, Bologa CG, Waller A, Schürer SC, Vi
 Webel H, Niu L, Nielsen AB, Locard-Paulet M, Mann M, Jensen LJ and Rasmussen S (2024). Imputation of label-free quantitative mass spectrometry-based proteomics data using self-supervised deep learning. *Nature Communications*, **15**:5405.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/38926340/) [Full text](https://doi.org/10.1038/s41467-024-48711-5) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41467-024-48711-5" data-style="small_rectangle"></span>
 
-Rebak AS, Hendriks IA, Elsborg JD, Buch-Larsen SC, Nielsen CH, Terslev L, Kirsch R, Damgaard D, Doncheva NT, Lennartsson C, Rykaer M, Jensen LJ, Christophorou MA, Nielsen ML (2024). A quantitative and site-specific atlas of the citrullinome reveals widespread existence of citrullination and insights into PADI4 substrates. *Nature Structural & Molecular Biology*, **31**:977-995.  
+Rebak AS, Hendriks IA, Elsborg JD, Buch-Larsen SC, Nielsen CH, Terslev L, Kirsch R, Damgaard D, Doncheva NT, Lennartsson C, Rykaer M, Jensen LJ, Christophorou MA and Nielsen ML (2024). A quantitative and site-specific atlas of the citrullinome reveals widespread existence of citrullination and insights into PADI4 substrates. *Nature Structural & Molecular Biology*, **31**:977-995.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/38321148/) [Full Text](https://doi.org/10.1038/s41594-024-01214-9) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41594-024-01214-9" data-style="small_rectangle"></span>
 
 Israelsen M, Alvarez-Silva C, Madsen BS, Hansen CD, Torp NC, Johansen S, Hansen JK, Lindvig KP, Insonere J, Riviere V, Juel HB, Brejnrod A, Jensen LJ, Thiele M, Lelouvier B, Hansen T, Arumugam M, Krag A, MicrobLiver consortium and GALAXY consortium (2024). Impact of acute alcohol consumption on circulating microbiome in asymptomatic alcohol-related liver disease. *Gut*, **73**:1041-1044.  
