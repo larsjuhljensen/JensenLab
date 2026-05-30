@@ -26,10 +26,18 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-1--7 February 2026, George, South Africa  
-UBUNTU Proteomics Summer School
+21 September 2025, Copenhagen, Denmark    
+Bioinformatics for Human Biologists
+
+17--21 August 2025, Copenhagen, Denmark  
+Summer School on Applied Deep Learning in Bioinformatics
 
 ## Past events
+
+### 2026
+
+1--7 February 2026, George, South Africa  
+UBUNTU Proteomics Summer School
 
 ### 2025
 

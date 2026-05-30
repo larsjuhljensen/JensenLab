@@ -7,12 +7,6 @@ sidebar:
 ---
 ## Preprints
 
-Hu D, Schaap-Johansen A-L, Villarroel J, Ekebjærg C, Rasmussen S, Hansen DH, Wernersson R and Jensen LJ (2025). Molecular maps of diseases from omics data and network embeddings. *bioRxiv*.  
-[Preprint](https://doi.org/10.1101/2025.11.25.689280 )
-
-Líndez PP, Danielsen LS, Kovačić I, Avellí MP, Nesme J, Jensen LJ, Nissen JN, Sørensen SJ and Rasmussen S (2025). Accurate plasmid reconstruction from metagenomics data using assembly-alignment graphs and contrastive learning. *bioRxiv*.  
-[Preprint](https://doi.org/10.1101/2025.02.26.640269)
-
 Vaisvil B, Schmitt DP, Jones A, Kapatral V, Ford JM, Taylor ML, Colwell M, Hollins J, Pascucci S, Weissenow K, Rost B, Notin P, Gerlach J, Terwilliger TC, Hung L-W, Jensen LJ, SHorvath S, Faulk C, Ma Y and Clark SW (2025). Epigenomic insights into extreme longevity in the world’s oldest terrestrial animal, Jonathan. *bioRxiv*.  
 [Preprint](https://doi.org/10.1101/2025.02.05.636284)
 
@@ -20,6 +14,23 @@ Lee D, Koutrouli M, Masse NY, Hoffman GE, Kinrot S, Wang X, Prashant NM, Pjanic 
 [Preprint](https://doi.org/10.1101/2024.10.31.24316513)
 
 ## Research articles
+
+### 2026
+
+Hu D, Schaap-Johansen A-L, Villarroel J, Ekebjærg C, Rasmussen S, Hansen DH, Wernersson R and Jensen LJ (2026). Molecular maps of diseases from omics data and network embeddings. *NPJ Systems Biology and Applications*.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/42173906/) [Full text](https://doi.org/10.1038/s41540-026-00746-8) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41540-026-00746-8" data-style="small_rectangle"></span>
+
+Loukas A, Kalaentzis K, Venetsianou NK, Damianou C, Paragkamian S, Lagani V, Jensen LJ and Pafilis E (2026). CCMRI: a classification and curated database of climate change-related microbiome studies. *Scientific Reports*.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/42092044/) [Full text](https://doi.org/10.1038/s41598-026-51914-z) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41598-026-51914-z" data-style="small_rectangle"></span>
+
+Venetsianou NK, Paragkamian S, Kalaentzis K, Loukas A, Damianou C, Lagani V, Jensen LJ and Pafilis E (2026). LLM-assessed relatedness of microbiome study descriptions aligns more strongly with functional than with taxonomic profile similarity. *Microbial Ecology*, **89**:104.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/41915167/) [Full text](https://doi.org/10.1007/s00248-026-02730-5) <span class="__dimensions_badge_embed__" data-doi="10.1007/s00248-026-02730-5" data-style="small_rectangle"></span>
+
+Líndez PP, Danielsen LS, Kovačić I, Avellí MP, Nesme J, Jensen LJ, Nissen JN, Sørensen SJ and Rasmussen S (2026). Accurate plasmid reconstruction from metagenomics data using assembly-alignment graphs and contrastive learning. *Nature Biotechnology*.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/41639269/) [Full text](https://doi.org/10.1038/s41587-026-03005-7) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41587-026-03005-7" data-style="small_rectangle"></span>
+
+Díaz-Pinés Cort I, Palasca O, Gaessler LF, Jakobsen TH, Bjarnsholt T and Jensen LJ (2026).  Cross-disease analysis identifies the inflammatome as a transcriptional program of inflammation. *Cell Reports*, **45**:116883.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/41604302/) [Full text](https://doi.org/10.1016/j.celrep.2025.116883) <span class="__dimensions_badge_embed__" data-doi="10.1016/j.celrep.2025.116883" data-style="small_rectangle"></span>
 
 ### 2025
 
