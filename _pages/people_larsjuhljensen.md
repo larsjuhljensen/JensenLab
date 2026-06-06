@@ -5,7 +5,7 @@ permalink: /people/larsjuhljensen/
 ---
 <lars.juhl.jensen@cpr.ku.dk>
 
-![Photo of Lars Juhl Jensen](people_larsjuhljensen_big.jpg)  
+![Photo of Lars Juhl Jensen](people_larsjuhljensen.jpg)  
 
 ## Mini biography
 
