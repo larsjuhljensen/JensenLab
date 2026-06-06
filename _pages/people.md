@@ -7,8 +7,6 @@ permalink: /people/
 ![Portrait of Lars Juhl Jensen](people_larsjuhljensen.jpg)  
 [Lars Juhl Jensen](/people/larsjuhljensen/)
 
-## Current group members
-
 ## Alumni
 Albert Pallejà Caro  
 Alberto Santos Delgado  
