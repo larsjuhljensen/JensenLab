@@ -71,7 +71,7 @@ The goal of cooccurrence-based relation extraction (RE) is to link entities (A, 
 
 Go to <https://diseases.jensenlab.org/> and query for **LRRK**. You are now presented with two options, since there are two gene names starting with LRRK, namely LRRK1 and LRRK2. Click on the **LRRK2** row to view the disease associations for this gene.
 
-_8. Which disease is most strongly associated with LRKK2 according to text mining?_
+_8. Which disease is most strongly associated with LRRK2 according to text mining?_
 
 Click on **Parkinson's disease** in the text-mining table.
 
