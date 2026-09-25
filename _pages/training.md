@@ -26,18 +26,18 @@ Additional training material on other topics is linked to from the events below.
 
 ## Upcoming events
 
-17--21 August 2026, Copenhagen, Denmark  
-Summer School on Applied Deep Learning in Bioinformatics
-
-21 September 2026, Copenhagen, Denmark  
-Bioinformatics for Human Biologists
-
 7--13 February 2027, Cradle of Humankind, South Africa  
 UBUNTU Proteomics Summer School
 
 ## Past events
 
 ### 2026
+
+21 September 2026, Copenhagen, Denmark  
+Bioinformatics for Human Biologists
+
+17--21 August 2026, Copenhagen, Denmark  
+Summer School on Applied Deep Learning in Bioinformatics
 
 29 June 2026, Krakow, Poland  
 Eastern European Bioinformatics and Computational Genomics Workshop
