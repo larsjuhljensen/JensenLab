@@ -7,15 +7,18 @@ sidebar:
 ---
 ## Preprints
 
-Vaisvil B, Schmitt DP, Jones A, Kapatral V, Ford JM, Taylor ML, Colwell M, Hollins J, Pascucci S, Weissenow K, Rost B, Notin P, Gerlach J, Terwilliger TC, Hung L-W, Jensen LJ, SHorvath S, Faulk C, Ma Y and Clark SW (2025). Epigenomic insights into extreme longevity in the world’s oldest terrestrial animal, Jonathan. *bioRxiv*.  
-[Preprint](https://doi.org/10.1101/2025.02.05.636284)
-
-Lee D, Koutrouli M, Masse NY, Hoffman GE, Kinrot S, Wang X, Prashant NM, Pjanic M, Clarence T, Tsetsos F, Mathur D, Burstein D, Therrien K, Hong A, Casey C, Shao Z, Alvia M, Argyriou S, Fortes JM, Katsel P, Auluck PK, Barnes LL, Marenco S, Bennett DA, PsychAD Consortium, Jensen LJ, Girdhar K, Voloudakis G, Haroutunian V, Bendl J, Fullard JF and Roussos P (2024). Single-cell atlas of transcriptomic vulnerability across multiple neurodegenerative and neuropsychiatric diseases. *medRxiv*.  
-[Preprint](https://doi.org/10.1101/2024.10.31.24316513)
+Hu D, Avellí AV Jensen LJ, Rasmussen S (2026). SLIM: A small linear model with STRING embeddings for single-cell genetic perturbation prediction. *bioRxiv*.  
+[Preprint](https://doi.org/10.64898/2026.08.07.743481)
 
 ## Research articles
 
 ### 2026
+
+Vaisvil B, Schmitt DP, Jones A, Kapatral V, Ford JM, Taylor ML, Colwell M, Hollins J, Pascucci S, Weissenow K, Rost B, Notin P, Gerlach J, Terwilliger TC, Hung LW, Jensen LJ, Reed K, Robeck TR, Horvath S, Faulk C, Ma Y and Clark SW (2026). Epigenetic insights into extreme longevity in the world's oldest terrestrial animal, Jonathan. *Science Advances*.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/42842650/) [Full text](10.1126/sciadv.adw8887) <span class="__dimensions_badge_embed__" data-doi="10.1126/sciadv.adw8887" data-style="small_rectangle"></span>
+
+Lee D, Koutrouli M, Masse NY, Hoffman GE, Kinrot S, Wang X, N M P, Pjanic M, Clarence T, Tsetsos F, Mathur D, Burstein D, Therrien K, Hong A, Casey C, Shao Z, Alvia M, Argyriou S, Fortes JM, Murphy SR, Katsel P, Auluck PK, Barnes LL, Marenco S, Bennett DA; PsychAD Consortium; Jensen LJ, Girdhar K, Voloudakis G, Haroutunian V, Bendl J, Fullard JF and Roussos P (2026). Single-cell atlas of transcriptomic vulnerability across brain disorders. *Nature*.  
+[Abstract](https://pubmed.ncbi.nlm.nih.gov/42778699/) [Full text](https://doi.org/10.1038/s41586-025-09573-z) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41586-025-09573-z" data-style="small_rectangle"></span>
 
 Hu D, Schaap-Johansen A-L, Villarroel J, Ekebjærg C, Rasmussen S, Hansen DH, Wernersson R and Jensen LJ (2026). Molecular maps of diseases from omics data and network embeddings. *NPJ Systems Biology and Applications*.  
 [Abstract](https://pubmed.ncbi.nlm.nih.gov/42173906/) [Full text](https://doi.org/10.1038/s41540-026-00746-8) <span class="__dimensions_badge_embed__" data-doi="10.1038/s41540-026-00746-8" data-style="small_rectangle"></span>
