@@ -457,29 +457,29 @@ training-textmining-ddpm:
 
 training-textmining-bridge:
   - title: "Learning objectives"
-    url: /training/textmining/bridge/#learning-objectives
+    url: /training/textmining/bridge#learning-objectives
   - title: "Prerequisites"
-    url: /training/textmining/bridge/#prerequisites
+    url: /training/textmining/bridge#prerequisites
   - title: "Exercise 1"
-    url: /training/textmining/bridge/#exercise-1
+    url: /training/textmining/bridge#exercise-1
     children:
       - title: "Named entity recognition"
-        url: /training/textmining/bridge/#11-named-entity-recognition
+        url: /training/textmining/bridge#11-named-entity-recognition
       - title: "Information retrieval"
-        url: /training/textmining/bridge/#12-information-retrieval
+        url: /training/textmining/bridge#12-information-retrieval
       - title: "Information extraction"
-        url: /training/textmining/bridge/#13-relation-extraction
+        url: /training/textmining/bridge#13-relation-extraction
   - title: "Exercise 2"
-    url: /training/textmining/bridge/#exercise-2
+    url: /training/textmining/bridge#exercise-2
     children:
       - title: "Using NER to dig deeper"
-        url: /training/textmining/bridge/#21-using-ner-to-dig-deeper
+        url: /training/textmining/bridge#21-using-ner-to-dig-deeper
       - title: "Linking diseases via genes"
-        url: /training/textmining/bridge/#22-linking-diseases-via-genes
+        url: /training/textmining/bridge#22-linking-diseases-via-genes
       - title: "Text mining vs. a large language model"
-        url: /training/textmining/bridge/#23-text-mining-vs-a-large-language-model
+        url: /training/textmining/bridge#23-text-mining-vs-a-large-language-model
   - title: "Supporting lectures"
-    url: /training/textmining/bridge/#supporting-video-lectures
+    url: /training/textmining/bridge#supporting-video-lectures
   - title: "Supporting literature"
-    url: /training/textmining/bridge/#supporting-literature
+    url: /training/textmining/bridge#supporting-literature
     
