@@ -3,7 +3,7 @@ title: Text-mining exercises
 layout: single
 permalink: /training/textmining/bridge
 sidebar:
-  nav: "training-textminin-bridge"
+  nav: "training-textmining-bridge"
 ---
 ## Learning objectives
 
